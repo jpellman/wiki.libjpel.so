@@ -6,3 +6,6 @@ PyMVPA Notes:
 samples - rows in a matrix (e.g., runs, session, participants); 1st axis/index in a 2D array
 features - columns in a matrix (e.g., voxels); like regressors almost in GLM design matrix; 2nd axis/index in a 2D array
 sample attributes - categories under which a sample can be binned
+=================================================================
+SPM Notes:
+Website documenting SPM data structures - http://www.its.caltech.edu/~nsulliva/spmdatastructure.htm
