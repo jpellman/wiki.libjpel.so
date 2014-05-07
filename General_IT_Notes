@@ -1,0 +1,20 @@
+Lessons learned from working with non-standalone PsychoPy:
+- Next time use a VM if you need to install deprecated or bleeding edge libraries on a system (i.e., 32-bit Python..
+- Code reuse.
+=================================================================
+User-friendly Subversion clients:
+Mac - svnX, SCPlugin
+Windows - TortoiseSVN
+=================================================================
+Technology to become acquainted with:
+-ACL permissions
+=================================================================
+scp -r dir1 user@server:dir2
+-If dir2 does not exist, creates dir2 on server, populates with items within dir1.  Bref: files nested w/in dir2
+-Else: If dir2 exists, copies dir1 into dir2 and nests it within dir2.  Bref dir1 nested w/in dir2.
+=================================================================
+chmod/permissions behavior:
+-If you remove 'execute' from a directory, you will not be able to cd into it.
+=================================================================
+umask/permissions behavior:
+- octal codes for umask are the inverse of chmod codes

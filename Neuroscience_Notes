@@ -1,0 +1,8 @@
+fMRI Methods Notes:
+- Pitch (like baseball, lurch forward) - sagittal motion; Roll (roy --> king) - coronal motion; Yaw (aw --> axial) -- horizontal motion
+- Partial voluming - large voxel sizes bring together distinct elements, water down differences.  Small voxels --> higher noise.  Large voxels --> less granularity, ability to distinguish; Solution? Blur smaller voxels? Yes.
+=================================================================
+PyMVPA Notes:
+samples - rows in a matrix (e.g., runs, session, participants); 1st axis/index in a 2D array
+features - columns in a matrix (e.g., voxels); like regressors almost in GLM design matrix; 2nd axis/index in a 2D array
+sample attributes - categories under which a sample can be binned
