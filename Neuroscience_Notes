@@ -9,3 +9,7 @@ sample attributes - categories under which a sample can be binned
 =================================================================
 SPM Notes:
 Website documenting SPM data structures - http://www.its.caltech.edu/~nsulliva/spmdatastructure.htm
+Information on preprocessing:
+	-http://www.ernohermans.com/wp-content/uploads/2011/11/spm8_startersguide.pdf 
+	-http://www.fil.ion.ucl.ac.uk/~mgray/Presentations/Co-registration%20&%20Spaital%20Normalisation.ppt
+	
