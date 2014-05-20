@@ -1,5 +1,6 @@
 fMRI Methods Notes:
 - Pitch (like baseball, lurch forward) - sagittal motion; Roll (roy --> king) - coronal motion; Yaw (aw --> axial) -- horizontal motion
+	Elaboration: pitch - 'yes' nod (rotation around x-axis); roll - 'no' nod(rotation around z-axis); yaw - 'maybe' nod (rotation around y-axis)
 - Partial voluming - large voxel sizes bring together distinct elements, water down differences.  Small voxels --> higher noise.  Large voxels --> less granularity, ability to distinguish; Solution? Blur smaller voxels? Yes.
 =================================================================
 PyMVPA Notes:
