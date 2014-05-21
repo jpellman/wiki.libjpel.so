@@ -1,9 +1,11 @@
 Title: Documentation for Home Beowulf Cluster - SDH (The Salon of Digital Humanists)
 Author(s): John Pellman
 Created: 12th May, 2014
-Last Updated: 12th May, 2014
-Description: An inventory of all the computers used in my home cluster, including their specs, software installed, and the present topology of the cluster.
+Last Updated: 20th May, 2014
+Description: An inventory of all the computers used in my home cluster, including their specs, software installed, the present topology of the cluster, and the users.
 =====================================================================
+
+#################################
 
 Section 1: Machine Specifications
 #################################
@@ -39,3 +41,65 @@ Cervantes:
 	Graphics Card - NVIDIA GeForce 8600M GT (128 MB video memory for VM)
 	Hard Drive - 320 GB (hypervisor); 181 GB (VM)
 
+#################################
+
+Section 2: Software Installed
+#################################
+Hugo (head node):
+	- nfs-kernel-server
+	- OpenSSH
+	- PostgreSQL 8.4
+	- MPICH
+	- R 2.10.1 (r-base)
+	- dsh
+	- slapd, ldap-utils
+
+Voltaire:
+	- nfs-common
+	- OpenSSH
+	- PostgreSQL 8.4
+	- MPICH
+	- R 2.10.1 (r-base)
+	- dsh
+	- slapd, ldap-utils
+
+Montaigne:
+	- nfs-common
+	- OpenSSH
+	- PostgreSQL 8.4
+	- MPICH
+	- R 2.10.1 (r-base)
+	- dsh
+	- slapd, ldap-utils
+
+Cervantes:
+	- nfs-common
+	- OpenSSH
+	- PostgreSQL 8.4
+
+#################################
+
+Section 3: Topology
+#################################
+
+Hugo, Voltaire, Montaigne and Cervantes are connected to a 6 port hub, with 4 ports used.  1 port is broken.  The last port is an unused uplink port.
+All nodes can connect to each other.
+#################################
+
+Section 4: Users
+#################################
+Hugo (head node):
+	-jpellman
+	-mpiuser (home folder is nfs mount; hugo is nfs server)
+
+Voltaire:
+	-jpellman
+	-mpiuser (home folder is nfs mount; fstab modified)
+
+Montaigne:
+	-jpellman
+	-mpiuser (home folder is nfs mount; fstab modified)
+
+Cervantes:
+	-jpellman
+	-mpiuser (home folder is nfs mount; fstab modified)
