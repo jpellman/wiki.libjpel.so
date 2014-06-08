@@ -1,7 +1,7 @@
 Title: Documentation for Home Beowulf Cluster - SDH (The Salon of Digital Humanists)
 Author(s): John Pellman
 Created: 12th May, 2014
-Last Updated: 20th May, 2014
+Last Updated: 8th June, 2014
 Description: An inventory of all the computers used in my home cluster, including their specs, software installed, the present topology of the cluster, and the users.
 =====================================================================
 
@@ -53,6 +53,7 @@ Hugo (head node):
 	- R 2.10.1 (r-base)
 	- dsh
 	- slapd, ldap-utils
+	- SLURM (not presently configured)
 
 Voltaire:
 	- nfs-common
@@ -73,9 +74,12 @@ Montaigne:
 	- slapd, ldap-utils
 
 Cervantes:
+	- nfs-kernel-server
 	- nfs-common
 	- OpenSSH
 	- PostgreSQL 8.4
+	- SLURM (not presently configured)
+	- dpkg-server
 
 #################################
 
@@ -83,23 +87,27 @@ Section 3: Topology
 #################################
 
 Hugo, Voltaire, Montaigne and Cervantes are connected to a 6 port hub, with 4 ports used.  1 port is broken.  The last port is an unused uplink port.
-All nodes can connect to each other.
+All nodes can connect to each other.  Cervantes can connect outside of the LAN using Wifi, and is thus used as a means of downloading packages from the Canonical repos.  Cervantes has a user (installuser) whose home directory is mounted as an nfs partition on the other nodes- this user's home directory contains .deb files and a Packages.gz file.
 #################################
 
 Section 4: Users
 #################################
 Hugo (head node):
 	-jpellman
-	-mpiuser (home folder is nfs mount; hugo is nfs server)
+	-mpiuser (home folder is nfs mount; hugo is nfs server), uid=999
+	-installuser (home folder is nfs mount; fstab modified), uid=998
 
 Voltaire:
 	-jpellman
-	-mpiuser (home folder is nfs mount; fstab modified)
+	-mpiuser (home folder is nfs mount; fstab modified), uid=999
 
 Montaigne:
 	-jpellman
-	-mpiuser (home folder is nfs mount; fstab modified)
+	-mpiuser (home folder is nfs mount; fstab modified), uid=999
 
 Cervantes:
 	-jpellman
-	-mpiuser (home folder is nfs mount; fstab modified)
+	-mpiuser (home folder is nfs mount; fstab modified), uid=999
+	-installuser (home folder is nfs mount; cervantes is nfs server), uid=998
+
+TODO: Add 'installuser' to Voltaire and Montaigne.  Install SLURM.  Configure SLURM on all nodes.
