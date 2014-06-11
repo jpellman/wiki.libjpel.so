@@ -100,14 +100,16 @@ Hugo (head node):
 Voltaire:
 	-jpellman
 	-mpiuser (home folder is nfs mount; fstab modified), uid=999
+	-installuser (home folder is nfs mount; fstab modified), uid=998
 
 Montaigne:
 	-jpellman
 	-mpiuser (home folder is nfs mount; fstab modified), uid=999
+	-installuser (home folder is nfs mount; fstab modified), uid=998
 
 Cervantes:
 	-jpellman
 	-mpiuser (home folder is nfs mount; fstab modified), uid=999
 	-installuser (home folder is nfs mount; cervantes is nfs server), uid=998
 
-TODO: Add 'installuser' to Voltaire and Montaigne.  Install SLURM.  Configure SLURM on all nodes.
+TODO: Install SLURM.  Configure SLURM on all nodes. Complication: Version of SLURM installed on Cervantes and Hugo is 64-bit.  Will need to recompile SLURM for 32-bit if possible.
