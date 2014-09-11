@@ -13,4 +13,4 @@ Website documenting SPM data structures - http://www.its.caltech.edu/~nsulliva/s
 Information on preprocessing:
 	-http://www.ernohermans.com/wp-content/uploads/2011/11/spm8_startersguide.pdf 
 	-http://www.fil.ion.ucl.ac.uk/~mgray/Presentations/Co-registration%20&%20Spaital%20Normalisation.ppt
-	
+SPM.xY.P is a character matrix for first-level analyses, a cell array for second level-analyses.	

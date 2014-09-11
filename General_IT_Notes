@@ -36,3 +36,13 @@ grep:
 =================================================================
 . or SOURCE : 
 Runs a script's commands through the current shell line by line.  The script's variables become available to the current shell environment.
+=================================================================
+To list all directories (and only directories) within a directory use:
+ls -d */
+NOT ls -d
+=================================================================
+Zero Padding in Bash:
+
+printf "%0*d\n" $padtowidth $i
+http://stackoverflow.com/q/3191067/3609177
+
