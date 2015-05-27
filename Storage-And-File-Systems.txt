@@ -1,0 +1,21 @@
+##master-page:CategoryTemplate
+##master-date:Unknown-Date
+#format wiki
+#language en
+
+'''List of pages in this category:'''
+
+[[FileSystems | Create, mount, unmount, and use vfat, ext4, and xfs file systems]]
+
+[[NetworkFileSystems | Mount and unmount CIFS and NFS network file systems]]
+
+[[ExtendingLogicalVolumes | Extend existing logical volumes]]
+
+[[SetGID | Create and configure set-GID directories for collaboration]]
+
+[[AccessControlLists | Create and manage Access Control Lists (ACLs)]]
+
+[[FilePermissionsTroubleshooting | Diagnose and correct file permission problems]]
+
+----
+[[RHCSA]] CategoryCategory
