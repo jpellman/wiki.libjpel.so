@@ -1,4 +1,4 @@
-\#format rst \#\# master-page:CategoryTemplate \#\# master-date:Unknown-Date
+\#format rst \#\# page was renamed from CreateAndConfigureFileSystems \#\# master-page:CategoryTemplate \#\# master-date:Unknown-Date
 
 **List of pages in this category:**
 
