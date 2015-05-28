@@ -7,7 +7,11 @@ Notes on cognitive science.
 
 '''List of pages in this category:'''
 
-<<FullSearchCached(category:CognitiveScience)>>
+[[ProblemSolving | Problem Solving]]
+
+[[Expertise]]
+
+[[Memory]]
 
 ----
 CategoryCategory

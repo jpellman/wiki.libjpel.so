@@ -6,13 +6,23 @@ Notes on cognitive science.
 
 **List of pages in this category:**
 
-`[[FullSearchCached(category:CognitiveScience)]]`_
+`Problem Solving`_
+
+Expertise_
+
+Memory_
 
 -------------------------
 
  CategoryCategory_
 
 .. ############################################################################
+
+.. _Problem Solving: ../ProblemSolving
+
+.. _Expertise: ../Expertise
+
+.. _Memory: ../Memory
 
 .. _CategoryCategory: ../CategoryCategory
 
