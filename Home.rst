@@ -13,7 +13,7 @@ Interesting starting points:
 
 * RecentChanges_: what has John been doing?
 
-* Certifications
+* Certifications_
 
 * CognitiveScience_
 
@@ -42,6 +42,8 @@ This wiki is powered by MoinMoin_.
 .. ############################################################################
 
 .. _RecentChanges: ../RecentChanges
+
+.. _Certifications: ../Certifications
 
 .. _CognitiveScience: ../CognitiveScience
 
