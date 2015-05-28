@@ -13,6 +13,10 @@ Interesting starting points:
 
 * RecentChanges_: what has John been doing?
 
+* Certifications
+
+* CognitiveScience_
+
 .. * WikiSandBox: feel free to change this page and experiment with editing
 
 .. * FindPage: find some content, explore the wiki
@@ -38,6 +42,8 @@ This wiki is powered by MoinMoin_.
 .. ############################################################################
 
 .. _RecentChanges: ../RecentChanges
+
+.. _CognitiveScience: ../CognitiveScience
 
 .. _MoinMoin: http://moinmo.in/
 

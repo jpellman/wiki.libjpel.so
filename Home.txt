@@ -10,6 +10,8 @@ This is the personal Wiki of John Pellman.  He is mostly using this as a CMS/rev
 
 Interesting starting points:
  * RecentChanges: what has John been doing?
+ * Certifications
+ * CognitiveScience
 ## * WikiSandBox: feel free to change this page and experiment with editing
 ## * FindPage: find some content, explore the wiki
 ## * HelpOnMoinWikiSyntax: quick access to wiki markup
