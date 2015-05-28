@@ -7,7 +7,7 @@
 The libjpel.so Wiki
 ===================
 
-This is the personal Wiki of John Pellman.  He is mostly using this as a CMS/revision control system for snippets of information he gleans and various notes for certifications / real-world situations.
+This is the personal Wiki of John Pellman.  He is mostly using this as a CMS/revision control system for snippets of information he gleans and various notes for certifications / real-world situations.  And maybe he'll have some time for a little science as well.
 
 Interesting starting points:
 
