@@ -1,0 +1,13 @@
+##master-page:CategoryTemplate
+##master-date:Unknown-Date
+#format wiki
+#language en
+
+Notes on cognitive science.
+
+'''List of pages in this category:'''
+
+<<FullSearchCached(category:CognitiveScience)>>
+
+----
+CategoryCategory
