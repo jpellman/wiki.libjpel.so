@@ -10,6 +10,8 @@ Notes on cognitive science.
 
 [Memory](../Memory)
 
+[Decision Making](../Decision%20Making)
+
 * * * * *
 
 > [CategoryCategory](../CategoryCategory)

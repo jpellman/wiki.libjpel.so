@@ -12,6 +12,8 @@ Expertise_
 
 Memory_
 
+`Decision Making`_
+
 -------------------------
 
  CategoryCategory_
@@ -23,6 +25,8 @@ Memory_
 .. _Expertise: ../Expertise
 
 .. _Memory: ../Memory
+
+.. _Decision Making: ../Decision Making
 
 .. _CategoryCategory: ../CategoryCategory
 
