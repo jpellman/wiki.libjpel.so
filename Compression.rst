@@ -1,0 +1,12 @@
+#format rst
+
+Useful links:
+
+http://linux.die.net/man/1/tar
+
+http://linux.die.net/man/1/star
+
+http://linux.die.net/man/1/gzip
+
+http://linux.die.net/man/1/bzip2
+
