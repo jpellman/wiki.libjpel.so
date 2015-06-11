@@ -3,7 +3,7 @@
 Memory
 ======
 
-Memory is an inherently distributed process.  The role of the hippocampus, which traditionally was viewed as a centralized store, is more that of an integrator/synthesizer that brings together disparate fragments of experience.  Memories are reconstructions rather than recordings.  Memories can be strongly encoded in one modality (auditory, tactile, etc) but more weakly encoded in others.  Our ability to recall events is heavily dependent upon contextual cues.  The following notes may be inconsistent with what is stated in the literature, as they are an interpretation.
+Memory is an inherently distributed process.  The role of the hippocampus, which traditionally was viewed as a centralized store, is more that of an integrator/synthesizer that brings together disparate fragments of experience.  Memories are reconstructions rather than recordings.  This means that false memories can be formed in the presence of suggestion.  Memories can be strongly encoded in one modality (auditory, tactile, etc) but more weakly encoded in others.  Our ability to recall events is heavily dependent upon contextual cues.  The following notes may be inconsistent with what is stated in the literature, as they are an interpretation.
 
 .. contents:: :depth: 2
 
@@ -21,7 +21,7 @@ Priming
 
 * Perceiving something in the environment can cause low-level activation of an implicit memory.  This can increase the probability that that memory will later be integrated by the hippocampus into conscious experience.  It can also influence reasoning/problem-solving on a subconscious level.
 
-* Trying to recall something without any cues (free recall) is much much harder than cued-recall.
+* Trying to recall something without any cues (free recall) is much much harder than cued recall.  Simply recognizing something is the least cognitively expensive form of recall (and ergo the easiest/fastest).
 
 Interference Effects
 --------------------
@@ -40,8 +40,16 @@ Cortical Reinstatement
 Depth of Processing
 -------------------
 
+* Think of memory as a graph, with encoded aspects of the environment as nodes.  The higher the centrality (number of connections to other nodes) that a given encoding has, the more likely it is to be recalled.  Since there are more edges to that encoding, the likelihood of reaching that encoding is increased.
+
+* In practical terms, the more that you can tie a fact to your other memories / experience, the more likely you are to remember that fact.
+
 State-Dependent Processing
 --------------------------
+
+* We are more likely to remember something if in the original context that the memory was encoded.  Context can include inner emotional states and physical locations as well as states of mind.  For example, studying on the subway will increase your odds of remembering what you studied on the subway.  A memory that was encoded while we were angry will be better recalled when we are angry again.  Also, a memory that was formed while intoxicated will be better recalled in subsequent intoxicated states.
+
+* In practical terms, the more you vary your learning context (i.e., switch locations), the more likely you are to recall information in new contexts, since that information will not be tied to a particular place/time/state.
 
 Ebbinghaus Curve
 ----------------
