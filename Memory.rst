@@ -21,14 +21,17 @@ Free Recall vs. Cued Recall
 Priming
 -------
 
-== Chunking == 
+Chunking
+--------
 
 Primacy and Recency Effects
 ---------------------------
 
-== Working vs Short-term vs Long-term Memory == 
+Working vs Short-term vs Long-term Memory
+-----------------------------------------
 
-== Hebbian theory == 
+Hebbian theory
+--------------
 
 Cortical Reinstatement
 ----------------------
