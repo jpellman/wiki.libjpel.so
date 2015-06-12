@@ -11,6 +11,8 @@ Implicit vs Explicit Memories
 -   Implicit : Subconsciously-recalled memories that can still have an effect on how we behave. These are memories in their 'raw' state, before being integrated by the hippocampus. They are at least partially traceable to cortical regions. Implicit memories can be seen in word completion studies of amnesiacs.
 -   Procedural : A sub-class of implicit memory. Memories for how to perform a task. Procedural memories are quite often encoded at the level of the basal ganglia / cerebellum.
 -   Explicit : Consciously-recalled memories. Our experience of explicit memories is a result of the hippocampus synthesizing together our implicit memories.
+-   A similar taxonomy of memory types includes declarative (explicit) and non-declarative (implicit) memory. Declarative memory is further broken down into semantic (factual) or episodic (event-based) memory. Nondeclarative memory encompasses procedural, priming, conditioned, and nonassociative memories.
+-   In the programming/computer science world, the functional programming paradigm is analogous to declarative memory, while the procedural paradigm is analogous to procedural memory. There seems to have been another case of interdisciplinary conspiracy at some point.
 
 Priming
 -------
