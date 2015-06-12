@@ -59,6 +59,11 @@ Spacing Effect
 Chunking
 --------
 
+Consolidation
+-------------
+
+-   One of the purported functions of sleep is to aid in paring down memories and consolidating our knowledge. Studying before sleep might be a good idea.
+
 References
 ----------
 
