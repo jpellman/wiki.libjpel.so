@@ -3,7 +3,7 @@
 Memory
 ======
 
-Memory is an inherently distributed process. The role of the hippocampus, which traditionally was viewed as a centralized store, is more that of an integrator/synthesizer that brings together disparate fragments of experience. Memories are reconstructions rather than recordings. This means that false memories can be formed in the presence of suggestion. Memories can be strongly encoded in one modality (auditory, tactile, etc) but more weakly encoded in others. Our ability to recall events is heavily dependent upon contextual cues. The following notes may be inconsistent with what is stated in the literature, as they are an interpretation.
+Memory is an inherently distributed process. The role of the hippocampus, which traditionally was viewed as a centralized store, is more that of an integrator/synthesizer that brings together disparate fragments of experience. Memories are reconstructions rather than recordings. This means that false memories can be formed in the presence of suggestion. Memories can be strongly encoded in one modality (auditory, tactile, etc) but more weakly encoded in others. Our ability to recall events is heavily dependent upon contextual cues. The following notes may be inconsistent with what is stated in the literature, as they are an interpretation / recollection.
 
 Implicit vs Explicit Memories
 -----------------------------
@@ -41,7 +41,7 @@ Depth of Processing
 State-Dependent Processing
 --------------------------
 
--   We are more likely to remember something if in the original context that the memory was encoded. Context can include inner emotional states and physical locations as well as states of mind. For example, studying on the subway will increase your odds of remembering what you studied on the subway. A memory that was encoded while we were angry will be better recalled when we are angry again. Also, a memory that was formed while intoxicated will be better recalled in subsequent intoxicated states.
+-   We are more likely to remember something if in the original context that the memory was encoded. Context can include inner emotional states (mood congruence) and physical locations as well as drug-induced states of mind. For example, studying on the subway will increase your odds of remembering what you studied on the subway. A memory that was encoded while we were angry will be better recalled when we are angry again. Also, a memory that was formed while intoxicated will be better recalled in subsequent intoxicated states.
 -   In practical terms, the more you vary your learning context (i.e., switch locations), the more likely you are to recall information in new contexts, since that information will not be tied to a particular place/time/state.
 
 Ebbinghaus Curve
@@ -49,6 +49,9 @@ Ebbinghaus Curve
 
 Primacy and Recency Effects
 ---------------------------
+
+-   When items are presented in a sequence you are most likely to remember the first and last items on the list.
+-   Recency effects are slightly stronger than primacy effects.
 
 Spacing Effect
 --------------
@@ -62,4 +65,9 @@ References
 ### Cortical Reinstatement
 
 -   <http://www.ncbi.nlm.nih.gov/pubmed/23921785>
+
+Other links:
+------------
+
+-   <https://www.youtube.com/watch?v=fcQXOLJu9NM>
 
