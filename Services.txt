@@ -2,4 +2,13 @@
 
 <<TableOfContents(2)>>
 
+== Start/Stop Networking ==
+
+The traditional way way:
+
+/etc/init.d/networking {start|stop|restart}
+
+
 == netstat ==
+
+* http://tldp.org/LDP/nag2/x-087-2-iface.netstat.html
