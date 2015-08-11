@@ -17,23 +17,27 @@
 
 `Diagnose and correct file permission problems`_
 
+`Create and configure LUKS-encrypted partition and logical volumes (no longer on exam, but still useful)`_
+
 -------------------------
 
  RHCSA_ CategoryCategory_
 
 .. ############################################################################
 
-.. _Create, mount, unmount, and use vfat, ext4, and xfs file systems: ../FileSystems
+.. _Create, mount, unmount, and use vfat, ext4, and xfs file systems: ../RHCSA_FileSystems
 
-.. _Mount and unmount CIFS and NFS network file systems: ../NetworkFileSystems
+.. _Mount and unmount CIFS and NFS network file systems: ../RHCSA_NetworkFileSystems
 
-.. _Extend existing logical volumes: ../ExtendingLogicalVolumes
+.. _Extend existing logical volumes: ../RHCSA_ExtendingLogicalVolumes
 
-.. _Create and configure set-GID directories for collaboration: ../SetGID
+.. _Create and configure set-GID directories for collaboration: ../RHCSA_SetGID
 
-.. _Create and manage Access Control Lists (ACLs): ../AccessControlLists
+.. _Create and manage Access Control Lists (ACLs): ../RHCSA_AccessControlLists
 
-.. _Diagnose and correct file permission problems: ../FilePermissionsTroubleshooting
+.. _Diagnose and correct file permission problems: ../RHCSA_FilePermissionsTroubleshooting
+
+.. _Create and configure LUKS-encrypted partition and logical volumes (no longer on exam, but still useful): ../RHCSA_LUKS
 
 .. _RHCSA: ../RHCSA
 
