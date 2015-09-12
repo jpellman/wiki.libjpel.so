@@ -14,6 +14,8 @@ Reference Implementations
 
 * `SciTran Overview`_
 
+* LONI_
+
 DICOM Servers/SCPs
 ------------------
 
@@ -39,6 +41,8 @@ Remote Access Options
 .. _HCP/XNAT Architecture (Part 2): https://wiki.xnat.org/display/XNAT16/XNAT+Hardware+for+Enterprise+Storage
 
 .. _SciTran Overview: https://scitran.github.io/#technology
+
+.. _LONI: http://www.loni.usc.edu/about_loni/resources/ComputingResources.php
 
 .. _Orthanc: https://github.com/jodogne/Orthanc
 

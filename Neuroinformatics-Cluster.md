@@ -9,6 +9,7 @@ Reference Implementations
 -   [HCP/XNAT Architecture (Part 1)](https://wiki.xnat.org/display/XNAT16/Example+XNAT+Architecture)
 -   [HCP/XNAT Architecture (Part 2)](https://wiki.xnat.org/display/XNAT16/XNAT+Hardware+for+Enterprise+Storage)
 -   [SciTran Overview](https://scitran.github.io/#technology)
+-   [LONI](http://www.loni.usc.edu/about_loni/resources/ComputingResources.php)
 
 DICOM Servers/SCPs
 ------------------
