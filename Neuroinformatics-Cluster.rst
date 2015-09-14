@@ -32,6 +32,8 @@ Remote Access Options
 
 * X2Go_
 
+* VNC
+
 * Use VMs, store vmdk on NAS; run VM on workstation (i.e., WashU's setup).
 
 .. ############################################################################

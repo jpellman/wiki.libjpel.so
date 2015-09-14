@@ -23,5 +23,6 @@ Remote Access Options
 ---------------------
 
 -   [X2Go](http://wiki.x2go.org/doku.php)
+-   VNC
 -   Use VMs, store vmdk on NAS; run VM on workstation (i.e., WashU's setup).
 

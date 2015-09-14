@@ -4,26 +4,28 @@
 
 == Reference Implementations ==
 
-* [[https://wiki.xnat.org/display/XNAT16/Example+XNAT+Architecture|HCP/XNAT Architecture (Part 1)]]
+ * [[https://wiki.xnat.org/display/XNAT16/Example+XNAT+Architecture|HCP/XNAT Architecture (Part 1)]]
 
-* [[https://wiki.xnat.org/display/XNAT16/XNAT+Hardware+for+Enterprise+Storage|HCP/XNAT Architecture (Part 2)]]
+ * [[https://wiki.xnat.org/display/XNAT16/XNAT+Hardware+for+Enterprise+Storage|HCP/XNAT Architecture (Part 2)]]
 
-* [[https://scitran.github.io/#technology|SciTran Overview]]
+ * [[https://scitran.github.io/#technology|SciTran Overview]]
 
-* [[http://www.loni.usc.edu/about_loni/resources/ComputingResources.php | LONI ]]
+ * [[http://www.loni.usc.edu/about_loni/resources/ComputingResources.php | LONI ]]
 
 == DICOM Servers/SCPs ==
 
-* [[https://github.com/jodogne/Orthanc|Orthanc]]
+ * [[https://github.com/jodogne/Orthanc|Orthanc]]
 
-* [[http://xnat.org/|XNAT]]
+ * [[http://xnat.org/|XNAT]]
 
-* [[http://www.dcm4che.org|dcm4chee]]
+ * [[http://www.dcm4che.org|dcm4chee]]
 
-* [[http://dicom.offis.de/dcmtk.php.en|DCMTK]]
+ * [[http://dicom.offis.de/dcmtk.php.en|DCMTK]]
 
 == Remote Access Options ==
 
-* [[http://wiki.x2go.org/doku.php|X2Go]]
+ * [[http://wiki.x2go.org/doku.php|X2Go]]
 
-* Use VMs, store vmdk on NAS; run VM on workstation (i.e., WashU's setup).
+ * VNC
+
+ * Use VMs, store vmdk on NAS; run VM on workstation (i.e., WashU's setup).
