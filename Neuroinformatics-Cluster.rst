@@ -16,6 +16,8 @@ Reference Implementations
 
 * LONI_
 
+* `Oregon Neuroscience Grid`_
+
 DICOM Servers/SCPs
 ------------------
 
@@ -45,6 +47,8 @@ Remote Access Options
 .. _SciTran Overview: https://scitran.github.io/#technology
 
 .. _LONI: http://www.loni.usc.edu/about_loni/resources/ComputingResources.php
+
+.. _Oregon Neuroscience Grid: https://lcni.uoregon.edu/kb-articles/working-on-the-grid
 
 .. _Orthanc: https://github.com/jodogne/Orthanc
 

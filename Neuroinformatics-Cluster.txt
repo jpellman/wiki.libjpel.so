@@ -12,6 +12,8 @@
 
  * [[http://www.loni.usc.edu/about_loni/resources/ComputingResources.php | LONI ]]
 
+ * [[https://lcni.uoregon.edu/kb-articles/working-on-the-grid | Oregon Neuroscience Grid ]]
+
 == DICOM Servers/SCPs ==
 
  * [[https://github.com/jodogne/Orthanc|Orthanc]]

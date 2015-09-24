@@ -10,6 +10,7 @@ Reference Implementations
 -   [HCP/XNAT Architecture (Part 2)](https://wiki.xnat.org/display/XNAT16/XNAT+Hardware+for+Enterprise+Storage)
 -   [SciTran Overview](https://scitran.github.io/#technology)
 -   [LONI](http://www.loni.usc.edu/about_loni/resources/ComputingResources.php)
+-   [Oregon Neuroscience Grid](https://lcni.uoregon.edu/kb-articles/working-on-the-grid)
 
 DICOM Servers/SCPs
 ------------------
