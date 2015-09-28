@@ -1,0 +1,32 @@
+= Checklist for Migrating libjpel.so =
+
+<<TableOfContents(2)>>
+
+== Overall ==
+
+ * Use a CentOS 7 AMI
+ * 30 GB of disk space; should not be deleted if the instance is stopped
+ * Make a new user for self; should have admin privileges
+ * Open up ports for ssh, http, https
+
+== LAMP Stack ==
+
+ * [[Re-install LAMP|https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7]]
+ * Copy Apache configuration from old node to new node and restart httpd
+
+== Main Site ==
+
+ * Copy ''/var/www'' from old node to new node using rsync or scp.
+
+== Wordpress ==
+
+ * Wordpress itself should already be copied along with ''/var/www''
+ * The MariaDB table however, must be dumped and then added to new database w/ mysqldump.
+
+== Moinmoin ==
+
+ * Copy ''/usr/local/share/moin'' from old node to new node.
+
+== Other ==
+
+ * Copy backup scripts from ''/usr/local/bin'' and re-create cron job.
