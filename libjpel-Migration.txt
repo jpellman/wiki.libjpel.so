@@ -1,3 +1,5 @@
+#acl Known:read,write,delete
+
 = Checklist for Migrating libjpel.so =
 
 <<TableOfContents(2)>>
