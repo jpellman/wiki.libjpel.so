@@ -18,6 +18,8 @@ Reference Implementations
 
 * `Oregon Neuroscience Grid`_
 
+* `Electrical Geodesics`_
+
 DICOM Servers/SCPs
 ------------------
 
@@ -49,6 +51,8 @@ Remote Access Options
 .. _LONI: http://www.loni.usc.edu/about_loni/resources/ComputingResources.php
 
 .. _Oregon Neuroscience Grid: https://lcni.uoregon.edu/kb-articles/working-on-the-grid
+
+.. _Electrical Geodesics: http://www.egi.com/neuroinformatics/neuroinformatics-technologies
 
 .. _Orthanc: https://github.com/jodogne/Orthanc
 

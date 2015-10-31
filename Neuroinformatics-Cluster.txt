@@ -14,6 +14,8 @@
 
  * [[https://lcni.uoregon.edu/kb-articles/working-on-the-grid | Oregon Neuroscience Grid ]]
 
+ * [[http://www.egi.com/neuroinformatics/neuroinformatics-technologies | Electrical Geodesics ]]
+
 == DICOM Servers/SCPs ==
 
  * [[https://github.com/jodogne/Orthanc|Orthanc]]

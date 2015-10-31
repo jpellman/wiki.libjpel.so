@@ -11,6 +11,7 @@ Reference Implementations
 -   [SciTran Overview](https://scitran.github.io/#technology)
 -   [LONI](http://www.loni.usc.edu/about_loni/resources/ComputingResources.php)
 -   [Oregon Neuroscience Grid](https://lcni.uoregon.edu/kb-articles/working-on-the-grid)
+-   [Electrical Geodesics](http://www.egi.com/neuroinformatics/neuroinformatics-technologies)
 
 DICOM Servers/SCPs
 ------------------
