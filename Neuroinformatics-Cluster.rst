@@ -20,6 +20,10 @@ Reference Implementations
 
 * `Electrical Geodesics`_
 
+* `MRC CBU (Part 1)`_
+
+* `MRC CBU (Part 2)`_
+
 DICOM Servers/SCPs
 ------------------
 
@@ -53,6 +57,10 @@ Remote Access Options
 .. _Oregon Neuroscience Grid: https://lcni.uoregon.edu/kb-articles/working-on-the-grid
 
 .. _Electrical Geodesics: http://www.egi.com/neuroinformatics/neuroinformatics-technologies
+
+.. _MRC CBU (Part 1): http://imaging.mrc-cbu.cam.ac.uk/imaging/ScientificComputing
+
+.. _MRC CBU (Part 2): http://imaging.mrc-cbu.cam.ac.uk/imaging/ImagingComputing
 
 .. _Orthanc: https://github.com/jodogne/Orthanc
 

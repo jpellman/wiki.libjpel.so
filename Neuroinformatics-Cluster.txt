@@ -16,6 +16,10 @@
 
  * [[http://www.egi.com/neuroinformatics/neuroinformatics-technologies | Electrical Geodesics ]]
 
+ * [[http://imaging.mrc-cbu.cam.ac.uk/imaging/ScientificComputing | MRC CBU (Part 1)]]
+
+ * [[http://imaging.mrc-cbu.cam.ac.uk/imaging/ImagingComputing | MRC CBU (Part 2)]]
+
 == DICOM Servers/SCPs ==
 
  * [[https://github.com/jodogne/Orthanc|Orthanc]]
