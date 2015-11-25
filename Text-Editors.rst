@@ -1,6 +1,47 @@
 #format rst
 
-Useful links:
+Create and edit text files
+==========================
 
-http://vim.wikia.com/wiki/Vim_Tips_Wiki
+Here are some links and resources to learn more about vim and emacs- the two most prominent text editors in the *nix world.
+
+.. contents:: :depth: 2
+
+vim
+---
+
+* Typing *vimtutor* at the command prompt gives an excellent walkthrough created by several individuals at the Colorado School of Mines.
+
+* `The Vim Tips Wiki`_
+
+* `Ben Kuperman's Vim Page`_
+
+* `Vim Quick Reference Card`_
+
+* `Vim Cheat Sheet`_
+
+emacs
+-----
+
+* `GNU Emacs Tour`_
+
+* `Emacs Tutorial`_
+
+* `Emacs Mini Manual`_
+
+.. ############################################################################
+
+.. _The Vim Tips Wiki: http://vim.wikia.com/wiki/Vim_Tips_Wiki
+
+.. _Ben Kuperman's Vim Page: https://www.cs.oberlin.edu/~kuperman/help/vim/
+
+.. _Vim Quick Reference Card: http://tnerual.eriogerg.free.fr/vim.html
+
+.. _Vim Cheat Sheet: http://vimcheatsheet.com/
+
+.. _GNU Emacs Tour: http://www.gnu.org/software/emacs/tour/
+
+.. _Emacs Tutorial: http://www2.lib.uchicago.edu/keith/tcl-course/emacs-tutorial.html
+
+.. _Emacs Mini Manual: http://tuhdo.github.io/emacs-tutor.html
 
