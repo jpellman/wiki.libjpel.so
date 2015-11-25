@@ -9,7 +9,7 @@ Hard Links
 -   ln /path/to/source /path/to/target
 -   You cannot create a hard link pointing to a directory.
 -   Only the owner of a file can make a hard link pointing to it in RHEL 7 (this contrasts with RHEL 6).
--   Hard links directly point to the inode for a file on disk. Deleting a hard link thus deletes the file.
+-   Hard links directly point to the inode for a file on disk.
 
 Soft/Symbolic Links
 -------------------
