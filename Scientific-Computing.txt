@@ -10,4 +10,4 @@ A collection of pages relating to scientific computing and the administration of
 <<FullSearchCached(category:ScientificComputing)>>
 
 ----
-CategoryCategory
+CategoryCategory AcademicComputing

@@ -10,9 +10,11 @@ A collection of pages relating to scientific computing and the administration of
 
 -------------------------
 
- CategoryCategory_
+ CategoryCategory_ AcademicComputing_
 
 .. ############################################################################
 
 .. _CategoryCategory: ../CategoryCategory
+
+.. _AcademicComputing: ../AcademicComputing
 
