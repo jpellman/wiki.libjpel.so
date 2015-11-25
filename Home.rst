@@ -13,9 +13,15 @@ Interesting starting points:
 
 * RecentChanges_: what has John been doing?
 
-* Certifications_
+* Certifications
 
 * CognitiveScience_
+
+* AcademicComputing_
+
+* ScientificComputing_
+
+* OpenScience_
 
 .. * WikiSandBox: feel free to change this page and experiment with editing
 
@@ -45,9 +51,13 @@ This wiki is powered by MoinMoin_.
 
 .. _RecentChanges: ../RecentChanges
 
-.. _Certifications: ../Certifications
-
 .. _CognitiveScience: ../CognitiveScience
+
+.. _AcademicComputing: ../AcademicComputing
+
+.. _ScientificComputing: ../ScientificComputing
+
+.. _OpenScience: ../OpenScience
 
 .. _MoinMoin: http://moinmo.in/
 
