@@ -14,12 +14,16 @@ Hard Links
 
 * Only the owner of a file can make a hard link pointing to it in RHEL 7 (this contrasts with RHEL 6).
 
-Soft Links
-----------
+* Hard links directly point to the inode for a file on disk.  Deleting a hard link thus deletes the file.
+
+Soft/Symbolic Links
+-------------------
 
 * ln -s /path/to/source /path/to/target
 
 * Soft links can be to a directory.
+
+* Soft links create a new file that points to the source file.  This new file (the target) has its own inode.  Deleting a soft link will not delete the original file.
 
 Checking Links
 --------------
@@ -31,6 +35,10 @@ References / Further Reading
 
 * CertDepot_
 
+* `An explanation of hard vs soft links`_
+
+* `Another explanation of hard vs soft links`_
+
 Man Pages
 ---------
 
@@ -39,4 +47,8 @@ Man Pages
 .. ############################################################################
 
 .. _CertDepot: http://www.certdepot.net/sys-create-hard-and-soft-links/
+
+.. _An explanation of hard vs soft links: http://www.geekride.com/hard-link-vs-soft-link/
+
+.. _Another explanation of hard vs soft links: http://linuxgazette.net/105/pitcher.html
 
