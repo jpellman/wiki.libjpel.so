@@ -8,9 +8,9 @@ Notes on the Architecture of Neuroinformatics Clusters
 Reference Implementations
 -------------------------
 
-* `HCP/XNAT Architecture (Part 1)`_
+* `HCP/XNAT Architecture (Washington University at St. Louis)`_
 
-* `HCP/XNAT Architecture (Part 2)`_
+* `HCP/XNAT Architecture (University of Iowa)`_
 
 * `SciTran Overview`_
 
@@ -52,9 +52,9 @@ ScientificComputing_
 
 .. ############################################################################
 
-.. _HCP/XNAT Architecture (Part 1): https://wiki.xnat.org/display/XNAT16/Example+XNAT+Architecture
+.. _HCP/XNAT Architecture (Washington University at St. Louis): https://wiki.xnat.org/display/XNAT16/Example+XNAT+Architecture
 
-.. _HCP/XNAT Architecture (Part 2): https://wiki.xnat.org/display/XNAT16/XNAT+Hardware+for+Enterprise+Storage
+.. _HCP/XNAT Architecture (University of Iowa): https://wiki.xnat.org/display/XNAT16/XNAT+Hardware+for+Enterprise+Storage
 
 .. _SciTran Overview: https://scitran.github.io/#technology
 

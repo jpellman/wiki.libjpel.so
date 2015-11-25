@@ -4,9 +4,9 @@
 
 == Reference Implementations ==
 
- * [[https://wiki.xnat.org/display/XNAT16/Example+XNAT+Architecture|HCP/XNAT Architecture (Part 1)]]
+ * [[https://wiki.xnat.org/display/XNAT16/Example+XNAT+Architecture|HCP/XNAT Architecture (Washington University at St. Louis)]]
 
- * [[https://wiki.xnat.org/display/XNAT16/XNAT+Hardware+for+Enterprise+Storage|HCP/XNAT Architecture (Part 2)]]
+ * [[https://wiki.xnat.org/display/XNAT16/XNAT+Hardware+for+Enterprise+Storage|HCP/XNAT Architecture (University of Iowa)]]
 
  * [[https://scitran.github.io/#technology|SciTran Overview]]
 
