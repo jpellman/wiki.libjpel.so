@@ -9,6 +9,10 @@ List of Web Design Firms that Specialize in Academic Clientele
 
 * `Squishy Media`_
 
+-------------------------
+
+ AcademicComputing_
+
 .. ############################################################################
 
 .. _Singlebrook: http://singlebrook.com/
@@ -16,4 +20,6 @@ List of Web Design Firms that Specialize in Academic Clientele
 .. _Academic Web Pages: http://academicwebpages.com/
 
 .. _Squishy Media: http://squishymedia.com/
+
+.. _AcademicComputing: ../AcademicComputing
 
