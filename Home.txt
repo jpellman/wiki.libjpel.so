@@ -10,7 +10,7 @@ This is the personal Wiki of John Pellman.  He is mostly using this as a CMS/rev
 
 Interesting starting points:
  * RecentChanges: what has John been doing?
- * Certifications
+ * [[Certifications]]
  * CognitiveScience
  * AcademicComputing
  * ScientificComputing

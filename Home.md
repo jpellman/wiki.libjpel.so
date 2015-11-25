@@ -8,7 +8,7 @@ This is the personal Wiki of John Pellman. He is mostly using this as a CMS/revi
 Interesting starting points:
 
 -   [RecentChanges](../RecentChanges): what has John been doing?
--   Certifications
+-   [Certifications](../Certifications)
 -   [CognitiveScience](../CognitiveScience)
 -   [AcademicComputing](../AcademicComputing)
 -   [ScientificComputing](../ScientificComputing)
