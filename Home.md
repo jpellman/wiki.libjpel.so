@@ -9,6 +9,7 @@ Interesting starting points:
 
 -   [RecentChanges](../RecentChanges): what has John been doing?
 -   [Certifications](../Certifications)
+-   [SystemsAdministration](../SystemsAdministration)
 -   [CognitiveScience](../CognitiveScience)
 -   [AcademicComputing](../AcademicComputing)
 -   [ScientificComputing](../ScientificComputing)

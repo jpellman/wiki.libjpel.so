@@ -15,6 +15,8 @@ Interesting starting points:
 
 * Certifications_
 
+* SystemsAdministration_
+
 * CognitiveScience_
 
 * AcademicComputing_
@@ -52,6 +54,8 @@ This wiki is powered by MoinMoin_.
 .. _RecentChanges: ../RecentChanges
 
 .. _Certifications: ../Certifications
+
+.. _SystemsAdministration: ../SystemsAdministration
 
 .. _CognitiveScience: ../CognitiveScience
 
