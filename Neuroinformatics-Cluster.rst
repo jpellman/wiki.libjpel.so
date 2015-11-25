@@ -44,6 +44,12 @@ Remote Access Options
 
 * Use VMs, store vmdk on NAS; run VM on workstation (i.e., WashU's setup).
 
+-------------------------
+
+
+
+ScientificComputing_
+
 .. ############################################################################
 
 .. _HCP/XNAT Architecture (Part 1): https://wiki.xnat.org/display/XNAT16/Example+XNAT+Architecture
@@ -71,4 +77,6 @@ Remote Access Options
 .. _DCMTK: http://dicom.offis.de/dcmtk.php.en
 
 .. _X2Go: http://wiki.x2go.org/doku.php
+
+.. _ScientificComputing: ../ScientificComputing
 
