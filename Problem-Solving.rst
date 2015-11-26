@@ -35,3 +35,13 @@ References
 
 * http://cognitivepsychology.wikidot.com/cognition:problem-solving
 
+-------------------------
+
+
+
+CognitiveScience_
+
+.. ############################################################################
+
+.. _CognitiveScience: ../CognitiveScience
+

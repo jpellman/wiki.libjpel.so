@@ -32,3 +32,6 @@ References
 -   John R. Anderson - *Cognitive Psychology and its implications*
 -   <http://cognitivepsychology.wikidot.com/cognition:problem-solving>
 
+* * * * *
+
+[CognitiveScience](../CognitiveScience)

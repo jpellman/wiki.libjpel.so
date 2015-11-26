@@ -22,3 +22,7 @@ An errant thought- might an application that is part of a stack might be conside
 
  * John R. Anderson - ''Cognitive Psychology and its implications''
  * http://cognitivepsychology.wikidot.com/cognition:problem-solving
+
+----
+
+CognitiveScience
