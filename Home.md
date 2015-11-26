@@ -10,9 +10,9 @@ Interesting starting points:
 -   [RecentChanges](../RecentChanges): what has John been doing?
 -   [Certifications](../Certifications)
 -   [SystemsAdministration](../SystemsAdministration)
--   [CognitiveScience](../CognitiveScience)
 -   [AcademicComputing](../AcademicComputing)
 -   [ScientificComputing](../ScientificComputing)
+-   [CognitiveScience](../CognitiveScience)
 -   [OpenScience](../OpenScience)
 
 This wiki is powered by [MoinMoin](http://moinmo.in/).

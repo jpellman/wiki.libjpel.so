@@ -17,11 +17,11 @@ Interesting starting points:
 
 * SystemsAdministration_
 
-* CognitiveScience_
-
 * AcademicComputing_
 
 * ScientificComputing_
+
+* CognitiveScience_
 
 * OpenScience_
 
@@ -57,11 +57,11 @@ This wiki is powered by MoinMoin_.
 
 .. _SystemsAdministration: ../SystemsAdministration
 
-.. _CognitiveScience: ../CognitiveScience
-
 .. _AcademicComputing: ../AcademicComputing
 
 .. _ScientificComputing: ../ScientificComputing
+
+.. _CognitiveScience: ../CognitiveScience
 
 .. _OpenScience: ../OpenScience
 
