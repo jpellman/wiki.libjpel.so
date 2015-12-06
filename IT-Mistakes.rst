@@ -47,10 +47,14 @@ Documentation
 
 * Be mindful of the potential need to document changes in directory structure on a file system (redirecting the output of 'tree' or 'ls -R' to a text file might be a good idea here).
 
-Migrations
-----------
+Migrations/Upgrades
+-------------------
 
 * Inadequate documentation of licenses before a migration to new systems.
 
 * Inadequate planning before a migration.  Not checking if and how licenses can be migrated between systems.
+
+* Upgrading a system without a checklist.
+
+* Upgrading a system without a rollback plan.  Not having a time scale for a rollback plan.
 
