@@ -1,0 +1,35 @@
+= Mistakes in IT =
+
+<<TableOfContents(2)>>
+
+== Generating Unexpected Behavior When Invoking a Shell Command ==
+
+ * Typically a symptom of not reading the manual for a shell command first to totally grasp the flags and options.
+ * A great many mistakes of this variety (and of other classes) are issues of communication.  You cannot embrace knowledge/information if you do not first encode it.  This occurs in other contexts as well (such as not reading e-mails carefully enough).
+ * This can also be a symptom of inadequate testing.  
+  * If possible, do a dry run of a command beforehand (i.e., rsync's '-n' flag) or use 'echo' before a script to make sure that the variable has the correct values.
+  * Also test results afterwards- make a checklist of what you expect an output to contain and what it should not contain.
+ * General advice: Avoid using cd with relative paths in scripts (i.e., be wary of 'cd ..').  If a glitch occurs in anything before the 'cd' command, or a previous cd command before the relative path behaves peculiarly, you may end up in an unexpected directory.
+ * Inadequate planning before putting together a script.
+ * Inadequate logging for a script or command (e.g., should have a text file with status of various steps piped to it; send time for file sync).
+ * Lack of consideration for how script may operate across environments (i.e., different versions of Linux, etc).
+
+== Simple Pragmatics ==
+
+ * Don't do uploads over Wifi when Ethernet is possible.  Don't use Ethernet when Infiniband makes sense.
+ * Make sure that cords aren't plugged in in a way that is so mangled that unplugging one cord could accidentally power off another device.
+
+== User Communication ==
+
+ * In some instances a user can be educated.  Other times, it is better to apply a solution without educating the user, and then trying to educate the user later.  Example: A user is agitated and under a lot of stress and needs the solution immediately.
+ * Inadequate communication with users (getting user needs) before beginning a purchase process.
+ * Performing a reboot without consulting users.
+
+== Documentation ==
+
+ * Be mindful of the potential need to document changes in directory structure on a file system (redirecting the output of 'tree' or 'ls -R' to a text file might be a good idea here).
+
+== Migrations ==
+
+ * Inadequate documentation of licenses before a migration to new systems.
+ * Inadequate planning before a migration.  Not checking if and how licenses can be migrated between systems.
