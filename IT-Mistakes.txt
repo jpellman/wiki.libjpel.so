@@ -35,3 +35,7 @@
  * Inadequate planning before a migration.  Not checking if and how licenses can be migrated between systems.
  * Upgrading a system without a checklist.
  * Upgrading a system without a rollback plan.  Not having a time scale for a rollback plan.
+
+----
+
+SystemsAdministration
