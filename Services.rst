@@ -33,6 +33,11 @@ General Service Management
 
 * Permanently disable a service: systemctl mask <service>
 
+List of Network Services
+------------------------
+
+* httpd
+
 netstat
 -------
 

@@ -22,6 +22,11 @@ General Service Management
 -   Check the status of a service: systemctl status \<service\>
 -   Permanently disable a service: systemctl mask \<service\>
 
+List of Network Services
+------------------------
+
+-   httpd
+
 netstat
 -------
 
