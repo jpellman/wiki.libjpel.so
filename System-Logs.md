@@ -7,7 +7,7 @@ System Logs
 -----------
 
 -   Are usually contained within /var/log.
--   Are **definitely** contained within /etc/rsyslog.conf.
+-   Are **definitely** contained within the directory specified in /etc/rsyslog.conf.
 -   SELinux logs in /var/log/audit/audit.log.
 
 systemd
