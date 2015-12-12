@@ -5,6 +5,12 @@
 
 Pages related to open science.
 
+'''External Links'''
+
+ * [[https://en.wikipedia.org/wiki/Bermuda_Principles | Bermuda Principles (Wikipedia Article)]]
+ * [[http://web.ornl.gov/sci/techresources/Human_Genome/research/bermuda.shtml | Bermuda Principles (HGP Page)]]
+ * [[https://openhatch.org/wiki/Open_Science_Projects_and_Organizations | OpenHatch 'Open Science Projects and Organizations' Page]]
+
 '''List of pages in this category:'''
 
 <<FullSearchCached(category:OpenScience)>>
