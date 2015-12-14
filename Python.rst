@@ -7,9 +7,9 @@ Various Python-Related Readings
 
 * `How Python Finds Packages`_
 
-====
+-------------------------
 
-SystemsAdministration_
+ SystemsAdministration_
 
 .. ############################################################################
 
