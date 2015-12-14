@@ -7,9 +7,15 @@ Various Python-Related Readings
 
 * `How Python Finds Packages`_
 
+====
+
+SystemsAdministration_
+
 .. ############################################################################
 
 .. _The Global Interpreter Lock - Python's Hardest Problem: http://www.jeffknupp.com/blog/2012/03/31/pythons-hardest-problem/
 
 .. _How Python Finds Packages: https://leemendelowitz.github.io/blog/how-does-python-find-packages.html
+
+.. _SystemsAdministration: ../SystemsAdministration
 
