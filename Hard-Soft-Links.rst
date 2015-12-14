@@ -25,6 +25,8 @@ Soft/Symbolic Links
 
 * Soft links create a new file that points to the source file.  This new file (the target) has its own inode.  Deleting a soft link will not delete the original file.
 
+* You can convert symlinks that use absolute paths to symlinks using relative paths with the *symlinks -c* command.  This can help when migrating symlinks across filesystems.
+
 Checking Links
 --------------
 
@@ -43,6 +45,8 @@ Man Pages
 ---------
 
 * http://linux.die.net/man/1/ln
+
+* http://linux.die.net/man/8/symlinks
 
 .. ############################################################################
 
