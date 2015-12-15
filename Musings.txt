@@ -1,0 +1,3 @@
+= Various Musings =
+
+ * "Release early, release often." - Principles of 'DevOps' / Continuous Integration in accord with the [[https://en.wikipedia.org/wiki/Bermuda_Principles | Bermuda Principles]].  Could such practices be applied to scientific data?
