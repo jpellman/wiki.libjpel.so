@@ -3,7 +3,7 @@
 Various Musings
 ===============
 
-* "Release early, release often." - Principles of 'DevOps_' / Continuous Integration in accord with the `Bermuda Principles`_.  Could such practices be applied to scientific data?
+* "Release early, release often." - Principles of 'DevOps_' / Continuous Integration in accord with the `Bermuda Principles`_.  Could such practices be applied to scientific data?  Is not programming code data in a sense?
 
 .. ############################################################################
 
