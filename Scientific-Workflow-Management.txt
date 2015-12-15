@@ -13,11 +13,14 @@
 
 == Packages ==
 
- * Taverna
+ * [[http://taverna.incubator.apache.org/| Taverna ]]
  * [[https://arvados.org/ | Arvados]]
  * [[https://kepler-project.org/ | Kepler]]
  * [[http://pegasus.isi.edu/ | Pegasus]]
- * [[KNIME | http://www.knime.org/]]
- * [[Swift | http://swift-lang.org/main/]]
+ * [[http://www.knime.org/ | KNIME]]
+ * [[http://swift-lang.org/main/ | Swift]]
  * [[https://galaxyproject.org/ | Galaxy]]
  * [[http://pipeline.bmap.ucla.edu/|LONI]]
+
+----
+ScientificComputing

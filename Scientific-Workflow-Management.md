@@ -17,12 +17,15 @@ Standards
 Packages
 --------
 
--   Taverna
+-   [Taverna](http://taverna.incubator.apache.org/)
 -   [Arvados](https://arvados.org/)
 -   [Kepler](https://kepler-project.org/)
 -   [Pegasus](http://pegasus.isi.edu/)
--   http://www.knime.org/\_
--   http://swift-lang.org/main/\_
+-   [KNIME](http://www.knime.org/)
+-   [Swift](http://swift-lang.org/main/)
 -   [Galaxy](https://galaxyproject.org/)
 -   [LONI](http://pipeline.bmap.ucla.edu/)
 
+* * * * *
+
+> [ScientificComputing](../ScientificComputing)

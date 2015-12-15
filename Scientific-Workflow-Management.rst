@@ -20,7 +20,7 @@ Standards
 Packages
 --------
 
-* Taverna
+* Taverna_
 
 * Arvados_
 
@@ -28,13 +28,17 @@ Packages
 
 * Pegasus_
 
-* `http://www.knime.org/`_
+* KNIME_
 
-* `http://swift-lang.org/main/`_
+* Swift_
 
 * Galaxy_
 
 * LONI_
+
+-------------------------
+
+ ScientificComputing_
 
 .. ############################################################################
 
@@ -44,17 +48,21 @@ Packages
 
 .. _CWL: http://common-workflow-language.github.io/
 
+.. _Taverna: http://taverna.incubator.apache.org/
+
 .. _Arvados: https://arvados.org/
 
 .. _Kepler: https://kepler-project.org/
 
 .. _Pegasus: http://pegasus.isi.edu/
 
-.. _`http://www.knime.org/`: ../KNIME
+.. _KNIME: http://www.knime.org/
 
-.. _`http://swift-lang.org/main/`: ../Swift
+.. _Swift: http://swift-lang.org/main/
 
 .. _Galaxy: https://galaxyproject.org/
 
 .. _LONI: http://pipeline.bmap.ucla.edu/
+
+.. _ScientificComputing: ../ScientificComputing
 
