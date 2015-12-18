@@ -9,6 +9,8 @@ List of Web Design Firms that Specialize in Academic Clientele
 
 * `Squishy Media`_
 
+* KnowledgeTown_
+
 -------------------------
 
  AcademicComputing_
@@ -20,6 +22,8 @@ List of Web Design Firms that Specialize in Academic Clientele
 .. _Academic Web Pages: http://academicwebpages.com/
 
 .. _Squishy Media: http://squishymedia.com/
+
+.. _KnowledgeTown: http://knowledgetown.com/
 
 .. _AcademicComputing: ../AcademicComputing
 
