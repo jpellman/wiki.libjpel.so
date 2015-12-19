@@ -7,6 +7,8 @@ Various Musings
 
   * DataOps_ - 'DevOps_ for Data Science'
 
+    * a.k.a. data warehousing
+
 * Thought: A machine-learning based scheduler for scientific workflow management.
 
   * Train on a few runs of a pipeline to determine memory, CPU needs (maybe use priors supplied by researcher or some heuristic).

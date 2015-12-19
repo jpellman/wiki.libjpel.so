@@ -5,6 +5,7 @@ Various Musings
 
 -   "Release early, release often." - Principles of 'DevOps\_' / Continuous Integration in accord with the Bermuda Principles\_. Could such practices be applied to scientific data? Is not programming code data in a sense?
     -   DataOps\_ - 'DevOps\_ for Data Science'
+        -   a.k.a. data warehousing
 -   Thought: A machine-learning based scheduler for scientific workflow management.
     -   Train on a few runs of a pipeline to determine memory, CPU needs (maybe use priors supplied by researcher or some heuristic).
     -   Allow researchers to mark whether or not a pipeline has failed and have the classifier learn from this.
