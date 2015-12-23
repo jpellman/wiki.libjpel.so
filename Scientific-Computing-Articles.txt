@@ -1,0 +1,7 @@
+= Articles Discussing Scientific Computing =
+
+ * [[http://www.nature.com/news/2010/101013/full/467775a.html | Computational science: ...Error] - ...why scientific programming does not compute]
+  * [[https://news.ycombinator.com/item?id=2735537 | Discussion on Hacker News]]
+ * [[http://techblog.bozho.net/the-astonishingly-low-quality-of-scientific-code/ | The Low Quality of Scientific Code]]
+ * [[http://yosefk.com/blog/why-bad-scientific-code-beats-code-following-best-practices.html | Why bad scientific code beats code following "best practices"]]
+ * [[http://www.dursi.ca/hpc-is-dying-and-mpi-is-killing-it/ | HPC is dying, and MPI is killing it]]
