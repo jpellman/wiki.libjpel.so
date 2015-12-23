@@ -9,7 +9,7 @@ Articles Discussing Scientific Computing
 
 * `The Low Quality of Scientific Code`_
 
-* `Why bad scientific code beats code following "best practices"`_
+  * Response : `Why bad scientific code beats code following "best practices"`_
 
 * `HPC is dying, and MPI is killing it`_
 
