@@ -9,3 +9,4 @@
    * If the pipeline is marked as failed, allow the researcher to manually inspect the outputs of each step to determine which node is the culprit.
    * Use this data to predict future failures.  If a future failure seems plausible, notify the researcher, pause the pipeline, or some combination of these two.
    * If a failure happens often enough, request manual intervention/maintenance.
+ * There should be a facilitation method of connecting philanthropists/foundations to worthy projects based on the insights in Jon Kleinberg et al's social networks book. 

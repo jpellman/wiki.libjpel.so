@@ -21,11 +21,13 @@ Various Musings
 
     * If a failure happens often enough, request manual intervention/maintenance.
 
-    .. ############################################################################
+* There should be a facilitation method of connecting philanthropists/foundations to worthy projects based on the insights in Jon Kleinberg et al's social networks book. 
 
-    .. _DevOps: ../DevOps
+.. ############################################################################
 
-    .. _Bermuda Principles: https://en.wikipedia.org/wiki/Bermuda_Principles
+.. _DevOps: ../DevOps
 
-    .. _DataOps: ../DataOps
+.. _Bermuda Principles: https://en.wikipedia.org/wiki/Bermuda_Principles
+
+.. _DataOps: ../DataOps
 
