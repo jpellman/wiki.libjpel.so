@@ -14,6 +14,7 @@ Reference Implementations
 -   [Electrical Geodesics](http://www.egi.com/neuroinformatics/neuroinformatics-technologies)
 -   [MRC CBU (Part 1)](http://imaging.mrc-cbu.cam.ac.uk/imaging/ScientificComputing)
 -   [MRC CBU (Part 2)](http://imaging.mrc-cbu.cam.ac.uk/imaging/ImagingComputing)
+-   [NIH](https://hpc.nih.gov)
 
 DICOM Servers/SCPs
 ------------------
