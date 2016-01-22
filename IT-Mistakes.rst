@@ -58,6 +58,11 @@ Migrations/Upgrades
 
 * Upgrading a system without a rollback plan.  Not having a time scale for a rollback plan.
 
+Data Transfer
+-------------
+
+* When transferring via Sneakernet (still occurs in rare situations): Not creating a manifest of files to be transferred before transferring them to a physical medium.  Without such a manifest, there's no way of keeping track of whether or not all the files that were intended to be transferred actually were.
+
 -------------------------
 
 
