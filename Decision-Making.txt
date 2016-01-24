@@ -1,0 +1,19 @@
+= Decision Making =
+
+<<TableOfContents(2)>>
+
+== Expected Utility ==
+
+
+== References / External Links ==
+
+ * Wikipedia:
+  * [[https://en.wikipedia.org/wiki/Prospect_theory|Prospect Theory]]
+  * [[https://en.wikipedia.org/wiki/Risk_aversion|Risk Aversion]]
+  * [[https://en.wikipedia.org/wiki/Loss_aversion|Loss Aversion]]
+
+ * LessWrong:
+  * [[http://lesswrong.com/lw/6kf/prospect_theory_a_framework_for_understanding/|Prospect Theory: A Framework for Understanding Cognitive Biases]]
+
+ * Scholarpedia:
+  * [[http://www.scholarpedia.org/article/Neuroeconomics|Neuroeconomics]]
