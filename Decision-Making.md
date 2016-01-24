@@ -6,9 +6,19 @@ Decision Making
 Expected Utility
 ----------------
 
+Prospect Theory
+---------------
+
+Dual Process Theories
+---------------------
+
 References / External Links
 ---------------------------
 
+-   Lectures:
+    -   Robert Shiller (Just Prospect Theory)\_
+    -   Robert Shiller : Behavioral Finance\_
+    -   UC Berkeley Course on Neuroeconomics\_
 -   Wikipedia:
     -   Prospect Theory\_
     -   Risk Aversion\_

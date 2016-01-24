@@ -8,8 +8,22 @@ Decision Making
 Expected Utility
 ----------------
 
+Prospect Theory
+---------------
+
+Dual Process Theories
+---------------------
+
 References / External Links
 ---------------------------
+
+* Lectures:
+
+  * `Robert Shiller (Just Prospect Theory)`_
+
+  * `Robert Shiller : Behavioral Finance`_
+
+  * `UC Berkeley Course on Neuroeconomics`_
 
 * Wikipedia:
 
@@ -28,6 +42,12 @@ References / External Links
   * Neuroeconomics_
 
   .. ############################################################################
+
+  .. _Robert Shiller (Just Prospect Theory): https://www.youtube.com/watch?v=fyOA2nbjVVQ
+
+  .. _`Robert Shiller : Behavioral Finance`: https://www.youtube.com/watch?v=chSHqogx2CI
+
+  .. _UC Berkeley Course on Neuroeconomics: https://www.youtube.com/playlist?list=PL29FCF12162AA0B9B
 
   .. _Prospect Theory: https://en.wikipedia.org/wiki/Prospect_theory
 
