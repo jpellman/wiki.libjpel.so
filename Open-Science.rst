@@ -4,6 +4,10 @@
 
 Pages related to open science.
 
+.. '''List of pages in this category:'''
+
+.. <<FullSearchCached(category:OpenScience)>>
+
 **External Links**
 
 * `Bermuda Principles (Wikipedia Article)`_
@@ -11,10 +15,6 @@ Pages related to open science.
 * `Bermuda Principles (HGP Page)`_
 
 * `OpenHatch 'Open Science Projects and Organizations' Page`_
-
-**List of pages in this category:**
-
-`[[FullSearchCached(category:OpenScience)]]`_
 
 -------------------------
 
