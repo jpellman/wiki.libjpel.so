@@ -13,7 +13,7 @@ Notes on cognitive science.
 
 [[Memory]]
 
-[[Decision Making]]
+[[DecisionMaking | Decision Making]]
 
 ----
 CategoryCategory

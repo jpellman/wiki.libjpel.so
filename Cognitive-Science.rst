@@ -26,7 +26,7 @@ Memory_
 
 .. _Memory: ../Memory
 
-.. _Decision Making: ../Decision Making
+.. _Decision Making: ../DecisionMaking
 
 .. _CategoryCategory: ../CategoryCategory
 
