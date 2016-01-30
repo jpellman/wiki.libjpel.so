@@ -21,6 +21,11 @@ Resting State
 
 * `Chao-Gan Yan's rsfMRI Course`_
 
+Open Datasets
+~~~~~~~~~~~~~
+
+* `Summary Table from Poldrack and Gorgolewski 2014`_
+
 EEG
 ---
 
@@ -35,4 +40,6 @@ fNIRS
 .. _On the Definition of Signal-To-Noise Ratio and Contrast-To-Noise Ratio for fMRI Data: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0077089
 
 .. _Chao-Gan Yan's rsfMRI Course: http://rfmri.org/Course
+
+.. _Summary Table from Poldrack and Gorgolewski 2014: http://www.nature.com/neuro/journal/v17/n11/fig_tab/nn.3818_T1.html
 
