@@ -9,7 +9,7 @@ Consumer PCs are not designed for power-hungry, memory-intensive scientific comp
 Start an instance with one of the public Starcluster AMIs, since they already have many drivers and applications pre-installed for HPC (BLAS,CUDA,etc).  Choose an HVM AMI, since these will include GPU support (should you ever want to use a GPU-based instance type).  I chose Ubuntu 12.04 (starcluster-base-ubuntu-12.04-x86_64-hvm; ami-52a0c53b).  Avoid Ubuntu 13.04, as support for that from Canonical is spotty.
 
 == Install A Lightweight GUI and Remote Desktop Server ==
-There are some operations for BOINC that you can accomplish from the command line (boinccmd).  Other operations (such as adding new projects) are not possible or are difficult.  A lot of BOINC's design seems to be centered upon the user interacting with the client via the graphical BOINC manager.
+There are some operations for BOINC that you can accomplish from the command line (boinccmd).  Other operations (such as changing resources allocated to BOINC) are not possible or are difficult.  A lot of BOINC's design seems to be centered upon the user interacting with the client via the graphical BOINC manager.
 
 To get around this, install a lightweight GUI like lxde and a remote desktop server like x2go.
 

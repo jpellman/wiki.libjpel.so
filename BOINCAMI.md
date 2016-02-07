@@ -16,7 +16,7 @@ Start an instance with one of the public Starcluster AMIs, since they already ha
 Install A Lightweight GUI and Remote Desktop Server
 ---------------------------------------------------
 
-There are some operations for BOINC that you can accomplish from the command line (boinccmd). Other operations (such as adding new projects) are not possible or are difficult. A lot of BOINC's design seems to be centered upon the user interacting with the client via the graphical BOINC manager.
+There are some operations for BOINC that you can accomplish from the command line (boinccmd). Other operations (such as changing resources allocated to BOINC) are not possible or are difficult. A lot of BOINC's design seems to be centered upon the user interacting with the client via the graphical BOINC manager.
 
 To get around this, install a lightweight GUI like lxde and a remote desktop server like x2go.
 
