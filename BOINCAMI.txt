@@ -27,5 +27,8 @@ Remove the bash history, ssh directory in your home folder.  Save as an EBS-back
 == When Running ==
 When you start a new instance with the AMI, don't forget to a) mount the attached volume and b) start the BOINC client service with  sudo /etc/init.d/boinc-client start.
 
+== With Spot Instances ==
+Make a snapshot of the BOINC data volume beforehand, since you don't know which AZ the instance will pop up in.  Make new volume from snapshot in the instance's AZ accordingly.
+
 ----
 ScientificComputing
