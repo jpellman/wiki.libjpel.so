@@ -18,6 +18,10 @@ I'm putting various links to project management resources here to synthesize how
 
 * `Herbert Simon`_
 
+-------------------------
+
+ AcademicComputing_ ScientificComputing_
+
 .. ############################################################################
 
 .. _Management for Scientists by Addgene: http://info.addgene.org/download-addgenes-ebook-management-for-scientists
@@ -35,4 +39,8 @@ I'm putting various links to project management resources here to synthesize how
 .. _W Edwards Deming: https://en.wikipedia.org/wiki/W._Edwards_Deming
 
 .. _Herbert Simon: https://en.wikipedia.org/wiki/Herbert_A._Simon
+
+.. _AcademicComputing: ../AcademicComputing
+
+.. _ScientificComputing: ../ScientificComputing
 

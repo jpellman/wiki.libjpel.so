@@ -11,3 +11,6 @@ I'm putting various links to project management resources here to synthesize how
 -   [W Edwards Deming](https://en.wikipedia.org/wiki/W._Edwards_Deming)
 -   [Herbert Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)
 
+* * * * *
+
+> [AcademicComputing](../AcademicComputing) [ScientificComputing](../ScientificComputing)

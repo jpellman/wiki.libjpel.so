@@ -8,3 +8,6 @@ I'm putting various links to project management resources here to synthesize how
  * [[https://en.wikipedia.org/wiki/Gustafson%27s_law|Gustafson's law]]
  * [[https://en.wikipedia.org/wiki/W._Edwards_Deming|W Edwards Deming]]
  * [[https://en.wikipedia.org/wiki/Herbert_A._Simon|Herbert Simon]]
+
+-----
+AcademicComputing ScientificComputing
