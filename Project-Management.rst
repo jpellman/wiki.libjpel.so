@@ -6,6 +6,8 @@ I'm putting various links to project management resources here to synthesize how
 
 * `Project Management by Nick Jenkinson`_
 
+* `Social Loafing`_
+
 * `Mythical Man Month`_
 
 * `Amdahl's law`_
@@ -21,6 +23,8 @@ I'm putting various links to project management resources here to synthesize how
 .. _Management for Scientists by Addgene: http://info.addgene.org/download-addgenes-ebook-management-for-scientists
 
 .. _Project Management by Nick Jenkinson: http://www.nickjenkins.net/prose/projectPrimer.pdf
+
+.. _Social Loafing: https://en.wikibooks.org/wiki/Managing_Groups_and_Teams/Social_Loafing
 
 .. _Mythical Man Month: https://en.wikipedia.org/wiki/The_Mythical_Man-Month
 
