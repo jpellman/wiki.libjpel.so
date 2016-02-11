@@ -4,7 +4,7 @@ I'm putting various links to project management resources here to synthesize how
 
 * `Management for Scientists by Addgene`_
 
-*
+* `Project Management by Nick Jenkinson`_
 
 * `Mythical Man Month`_
 
@@ -19,6 +19,8 @@ I'm putting various links to project management resources here to synthesize how
 .. ############################################################################
 
 .. _Management for Scientists by Addgene: http://info.addgene.org/download-addgenes-ebook-management-for-scientists
+
+.. _Project Management by Nick Jenkinson: http://www.nickjenkins.net/prose/projectPrimer.pdf
 
 .. _Mythical Man Month: https://en.wikipedia.org/wiki/The_Mythical_Man-Month
 

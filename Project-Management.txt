@@ -1,7 +1,7 @@
 I'm putting various links to project management resources here to synthesize how they may be tied to science.
 
  * [[http://info.addgene.org/download-addgenes-ebook-management-for-scientists|Management for Scientists by Addgene]]
- * 
+ * [[http://www.nickjenkins.net/prose/projectPrimer.pdf|Project Management by Nick Jenkinson]]
  * [[https://en.wikipedia.org/wiki/The_Mythical_Man-Month|Mythical Man Month]]
  * [[https://en.wikipedia.org/wiki/Amdahl%27s_law|Amdahl's law]]
  * [[https://en.wikipedia.org/wiki/Gustafson%27s_law|Gustafson's law]]
