@@ -18,6 +18,7 @@ Examples of Project Management failures in science/basic research:
 Other Pitfalls:
 
 -   [Taylorism](http://rationalwiki.org/wiki/Taylorism) - Don't want to squash creativity.
+-   Micromanagement example: guy who almost derailed LIGO
 
 * * * * *
 

@@ -26,6 +26,8 @@ Other Pitfalls:
 
 * Taylorism_ - Don't want to squash creativity.
 
+* Micromanagement example: guy who almost derailed LIGO
+
 -------------------------
 
  AcademicComputing_ ScientificComputing_
