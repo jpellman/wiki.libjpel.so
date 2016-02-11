@@ -15,6 +15,10 @@ Examples of Project Management failures in science/basic research:
 
 -   [Charles Babbage's Difference Engine](https://en.wikipedia.org/wiki/Difference_engine)
 
+Other Pitfalls:
+
+-   [Taylorism](http://rationalwiki.org/wiki/Taylorism) - Don't want to squash creativity.
+
 * * * * *
 
 > [AcademicComputing](../AcademicComputing) [ScientificComputing](../ScientificComputing)
