@@ -20,7 +20,7 @@ I'm putting various links to project management resources here to synthesize how
 
 Examples of Project Management failures in science/basic research:
 
-* `Charle's Babbages Difference Engine`_
+* `Charles Babbage's Difference Engine`_
 
 -------------------------
 
@@ -44,7 +44,7 @@ Examples of Project Management failures in science/basic research:
 
 .. _Herbert Simon: https://en.wikipedia.org/wiki/Herbert_A._Simon
 
-.. _Charle's Babbages Difference Engine: https://en.wikipedia.org/wiki/Difference_engine
+.. _Charles Babbage's Difference Engine: https://en.wikipedia.org/wiki/Difference_engine
 
 .. _AcademicComputing: ../AcademicComputing
 
