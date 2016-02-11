@@ -11,6 +11,10 @@ I'm putting various links to project management resources here to synthesize how
 -   [W Edwards Deming](https://en.wikipedia.org/wiki/W._Edwards_Deming)
 -   [Herbert Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)
 
+Examples of Project Management failures in science/basic research:
+
+-   [Charle's Babbages Difference Engine](https://en.wikipedia.org/wiki/Difference_engine)
+
 * * * * *
 
 > [AcademicComputing](../AcademicComputing) [ScientificComputing](../ScientificComputing)

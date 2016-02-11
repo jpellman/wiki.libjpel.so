@@ -18,6 +18,10 @@ I'm putting various links to project management resources here to synthesize how
 
 * `Herbert Simon`_
 
+Examples of Project Management failures in science/basic research:
+
+* `Charle's Babbages Difference Engine`_
+
 -------------------------
 
  AcademicComputing_ ScientificComputing_
@@ -39,6 +43,8 @@ I'm putting various links to project management resources here to synthesize how
 .. _W Edwards Deming: https://en.wikipedia.org/wiki/W._Edwards_Deming
 
 .. _Herbert Simon: https://en.wikipedia.org/wiki/Herbert_A._Simon
+
+.. _Charle's Babbages Difference Engine: https://en.wikipedia.org/wiki/Difference_engine
 
 .. _AcademicComputing: ../AcademicComputing
 
