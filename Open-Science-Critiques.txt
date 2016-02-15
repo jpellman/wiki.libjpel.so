@@ -1,3 +1,4 @@
+#pragma supplementation-page on
 = Critiques of Open Science =
 
 <<TableOfContents(2)>>
