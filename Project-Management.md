@@ -14,6 +14,7 @@ I'm putting various links to project management resources here to synthesize how
 Examples of Project Management failures in science/basic research:
 
 -   [Charles Babbage's Difference Engine](https://en.wikipedia.org/wiki/Difference_engine)
+-   Hooke
 
 Other Pitfalls:
 
