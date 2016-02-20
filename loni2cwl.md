@@ -6,4 +6,4 @@ This will be a table mapping LONI Pipeline Engine XML tags to Common Workflow La
 
 * * * * *
 
-> Pipelining
+> [Pipelining](../Pipelining)
