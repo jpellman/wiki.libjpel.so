@@ -41,5 +41,12 @@ This will be a table mapping LONI Pipeline Engine XML tags to Common Workflow La
 || transform || || Allows you to define an output file name using string operations and a base string. || ||
 || || order || An index value describing at which point the transform should be executed.(?) || ||
 || || op || '''subtract''','''prepend''','''append''','''replace''' || ||
+
+See:
+
+http://pipeline.bmap.ucla.edu/learn/xml-overview/
+
+http://pipeline.bmap.ucla.edu/learn/glossary/
+
 -----
 [[Pipelining]]
