@@ -1,1 +1,16 @@
 This will be a table mapping LONI Pipeline Engine XML tags to Common Workflow Language syntax.
+
+|| LONI XML Tag || Arguments || Description || Equivalent CWL Syntax ||
+|| pipeline || || ||
+|| moduleGroup || || ||
+|| module || name,description,location,package,version,executableVersion || ||
+|| executableAuthors || || ||
+|| author || fullName,email,website || Author name.  Nested within ''executableAuthors'' and ''authors'' ||
+|| authors || None || Authors of XML module definition for LONI Pipeline ||
+|| citations || || ||
+|| citation || Unnamed string containing citation text. || Article citation. Nested within ''citations'' ||
+|| tag || None || Tag used to identify the module using LONI Pipeline's search functionality. ||
+|| input || name,description,enabled,required,order,switch,switchSpaced ||
+|| format || type,cardinality || || ||
+|| filetypes || None || || ||
+|| filetype || name,extension,description || ||
