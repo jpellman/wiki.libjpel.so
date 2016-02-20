@@ -30,9 +30,15 @@ This will be a table mapping LONI Pipeline Engine XML tags to Common Workflow La
 || format || || || ||
 || || type || Type of data produced/accepted by parameter.  Choose from the following options: **File** , **Directory** , **String** , **Number** , **Enumerated**.  If you choose **File**, ''filetype'' must be defined within ''format''. || ||
 || || cardinality || How many arguments should be entered after the switch. -1 is infinite (unavailable for output) -2 is the number of arguments passed to the input (unavailable for input) || ||
+|| || base || A base string to be transformed. || ||
 || filetypes || || || ||
 || filetype || || || ||
 || || name || The human readable name of the file type. || ||
 || || extension || The extension of the filetype (no ‘.’ required) || ||
 || || description || A short description of the file type || ||
 || need || || A nested element within the ''filetype'' tag that contains the extension of any file needed by this type.  You can have multiple ''need'' tags within a ''filetype''. || ||
+|| transform || Allows you to define an output file name using string operations and a base string. || || ||
+|| || order || An index value describing at which point the transform should be executed.(?) || ||
+|| || op || **subtract**,**prepend**,**append**,**replace** || ||
+-----
+Pipelining
