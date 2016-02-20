@@ -32,8 +32,8 @@ This will be a table mapping LONI Pipeline Engine XML tags to Common Workflow La
 || || type || Type of data produced/accepted by parameter.  Choose from the following options: '''File''','''Directory''','''String''' ,'''Number''','''Enumerated'''.  If you choose '''File''', ''filetype'' must be defined within ''format''. || ||
 || || cardinality || How many arguments should be entered after the switch. -1 is infinite (unavailable for output) -2 is the number of arguments passed to the input (unavailable for input) || ||
 || || base || A base string to be transformed. || ||
-|| filetypes || A grouping of file types accepted by the input/output.  || || ||
-|| filetype || A file type accepted by the input/output. || || ||
+|| filetypes || ||  A grouping of file types accepted by the input/output.  || ||
+|| filetype || || A file type accepted by the input/output. || ||
 || || name || The human readable name of the file type. || ||
 || || extension || The extension of the filetype (no ‘.’ required) || ||
 || || description || A short description of the file type || ||
