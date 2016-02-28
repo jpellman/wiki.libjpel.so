@@ -36,6 +36,10 @@ Interference Effects
 
   * Example: Learning key-value pairings with one set of keys/values, and then learning another set with the same keys but different values afterwards.  When tested for the recall of the initial key-value pairs, participants have harder time recalling values when presented with a key.
 
+* Fan Effect: The more complex a semantic network / network of relations between concepts, the more time it will take to identify a correct fact.  This is because more complex networks take more time to traverse/search.  This can partially explain interference effects (via Anderson).
+
+* Interference effects occur when chunks of information have no obvious relationships to each other.  Interference does not occur when redundant information is learned.
+
 Working vs Short-term vs Long-term Memory
 -----------------------------------------
 
