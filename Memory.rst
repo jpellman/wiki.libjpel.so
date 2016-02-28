@@ -30,6 +30,10 @@ Priming
 Interference Effects
 --------------------
 
+* Proactive Interference: When old memories prevent the retrieval of new memories (i.e., persistence).
+
+* Retroactive Interference: When new memories prevent the retrieval of old memories (i.e., overwriting).
+
 Working vs Short-term vs Long-term Memory
 -----------------------------------------
 
