@@ -25,6 +25,7 @@ Interference Effects
 
 -   Proactive Interference: When old memories prevent the retrieval of new memories (i.e., persistence).
 -   Retroactive Interference: When new memories prevent the retrieval of old memories (i.e., overwriting).
+    -   Example: Learning key-value pairings with one set of keys/values, and then learning another set with the same keys but different values afterwards. When tested for the recall of the initial key-value pairs, participants have harder time recalling values when presented with a key.
 
 Working vs Short-term vs Long-term Memory
 -----------------------------------------
