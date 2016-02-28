@@ -28,6 +28,11 @@ Incubation Effects
 Problems of Insight
 -------------------
 
+Breadth-First vs Depth-First Techniques for organizing problems
+---------------------------------------------------------------
+
+* Breadth-first as making a spec / writing unit tests.
+
 References
 ----------
 
