@@ -71,6 +71,7 @@ Consolidation
 -------------
 
 -   One of the purported functions of sleep is to aid in paring down memories and consolidating our knowledge. Studying before sleep might be a good idea.
+    -   Furthermore, learning seems to happen better at night?(Hockey, Davies, Grey, 1972)? Because of a high arousal state? I'm a bit skeptical on this point.
 
 References
 ----------
