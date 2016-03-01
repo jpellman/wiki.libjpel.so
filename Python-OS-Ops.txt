@@ -14,7 +14,7 @@ Learning by analogy.
 || ln || [[https://docs.python.org/2/library/os.html#os.link|os.link(source,target)]] ||
 || ln -s || [[https://docs.python.org/2/library/os.html#os.symlink|os.symlink(source,target)]] ||
 || echo $VAR || [[https://docs.python.org/2/library/os.html#os.getenv|os.getenv('VAR')]] ||
-|| SET VAR=foo || [[https://docs.python.org/2/library/os.html#os.putenv|os.putenv('VAR','foo')]] ||
+|| export VAR=foo || [[https://docs.python.org/2/library/os.html#os.putenv|os.putenv('VAR','foo')]] ||
 
 -----
 SystemsAdministration
