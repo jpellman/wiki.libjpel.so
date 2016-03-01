@@ -13,13 +13,31 @@ Learning by analogy.
 
 .. ############################################################################
 
-.. _os.makedirs(path,mode): https://docs.python.org/2/library/os.html#os.makedirs
-
-.. _os.mkdir(path,mode): https://docs.python.org/2/library/os.html#os.mkdir
-
 .. _os.getcwd(): https://docs.python.org/2/library/os.html#os.getcwd
 
 .. _os.chdir(path): https://docs.python.org/2/library/os.html#os.chdir
+
+.. _os.mkdir(path,mode): https://docs.python.org/2/library/os.html#os.mkdir
+
+.. _os.makedirs(path,mode): https://docs.python.org/2/library/os.html#os.makedirs
+
+.. _os.remove(path): https://docs.python.org/2/library/os.html#os.remove
+
+.. _os.rmdir(path): https://docs.python.org/2/library/os.html#os.rmdir
+
+.. _os.removedirs(path): https://docs.python.org/2/library/os.html#os.removedirs
+
+.. _shutil.rmtree(path): https://docs.python.org/2/library/shutil.html#shutil.rmtree
+
+.. _os.rename(source,target): https://docs.python.org/2/library/os.html#os.rename
+
+.. _os.link(source,target): https://docs.python.org/2/library/os.html#os.link
+
+.. _os.symlink(source,target): https://docs.python.org/2/library/os.html#os.symlink
+
+.. _os.getenv('VAR'): https://docs.python.org/2/library/os.html#os.getenv
+
+.. _os.putenv('VAR','foo'): https://docs.python.org/2/library/os.html#os.putenv
 
 .. _SystemsAdministration: ../SystemsAdministration
 
