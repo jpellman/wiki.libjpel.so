@@ -1,0 +1,12 @@
+= Common Unix Command Line Operations and Their Python Equivalents =
+
+Learning by analogy.
+
+|| Unix Command Line Operation || Python Operation ||
+|| mkdir -p                    || [[https://docs.python.org/2/library/os.html#os.makedirs|os.makedirs(path,mode)]] (sort of; raises error if dir already exists so you need to check first) ||
+|| mkdir || [[https://docs.python.org/2/library/os.html#os.mkdir|os.mkdir(path,mode)]] ||
+|| pwd || [[https://docs.python.org/2/library/os.html#os.getcwd|os.getcwd()]] ||
+|| cd || [[https://docs.python.org/2/library/os.html#os.chdir|os.chdir(path)]] ||
+
+-----
+SystemsAdministration
