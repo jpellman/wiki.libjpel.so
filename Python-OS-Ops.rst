@@ -44,6 +44,16 @@ Generally useful: `shlex.split`_
 .. _subprocess.check_output(['ls']):
 .. _subprocess.check_output(['ls','-l']): https://docs.python.org/2/library/subprocess.html#subprocess.check_output
 
+.. _os.chmod: https://docs.python.org/2/library/os.html#os.chmod
+
+.. _mode: https://docs.python.org/2/library/stat.html#stat.S_ISUID
+
+.. _shutil.copy(source,destination): https://docs.python.org/2/library/shutil.html#shutil.copy
+
+.. _shutil.copy2(source,destination): https://docs.python.org/2/library/shutil.html#shutil.copy2
+
+.. _shutil.copytree(source,destination): https://docs.python.org/2/library/shutil.html#shutil.copytree
+
 .. _shlex.split: https://docs.python.org/2/library/shlex.html#shlex.split
 
 .. _SystemsAdministration: ../SystemsAdministration
