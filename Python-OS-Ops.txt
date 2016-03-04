@@ -21,6 +21,7 @@ Learning by analogy.
 || cp || [[https://docs.python.org/2/library/shutil.html#shutil.copy|shutil.copy(source,destination)]] ||
 || cp -p || [[https://docs.python.org/2/library/shutil.html#shutil.copy2|shutil.copy2(source,destination)]] ||
 || cp -r || [[https://docs.python.org/2/library/shutil.html#shutil.copytree|shutil.copytree(source,destination)]] ||
+|| date || datetime ||
 
 Generally useful:
 [[https://docs.python.org/2/library/shlex.html#shlex.split|shlex.split]]
