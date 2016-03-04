@@ -7,6 +7,8 @@ Learning by analogy.
 
 [Table not converted]
 
+Generally useful: `shlex.split`_
+
 -------------------------
 
  SystemsAdministration_
@@ -38,6 +40,8 @@ Learning by analogy.
 .. _os.getenv('VAR'): https://docs.python.org/2/library/os.html#os.getenv
 
 .. _os.putenv('VAR','foo'): https://docs.python.org/2/library/os.html#os.putenv
+
+.. _shlex.split: https://docs.python.org/2/library/shlex.html#shlex.split
 
 .. _SystemsAdministration: ../SystemsAdministration
 

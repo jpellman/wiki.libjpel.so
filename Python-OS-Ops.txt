@@ -15,6 +15,11 @@ Learning by analogy.
 || ln -s || [[https://docs.python.org/2/library/os.html#os.symlink|os.symlink(source,target)]] ||
 || echo $VAR || [[https://docs.python.org/2/library/os.html#os.getenv|os.getenv('VAR')]] ||
 || export VAR=foo || [[https://docs.python.org/2/library/os.html#os.putenv|os.putenv('VAR','foo')]] ||
+|| ls || [[https://docs.python.org/2/library/subprocess.html#subprocess.check_output|subprocess.check_output(['ls'])||
+|| ls -l || [[https://docs.python.org/2/library/subprocess.html#subprocess.check_output|subprocess.check_output(['ls','-l'])||
+
+Generally useful:
+[[https://docs.python.org/2/library/shlex.html#shlex.split|shlex.split]]
 
 -----
 SystemsAdministration
