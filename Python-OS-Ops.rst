@@ -41,6 +41,9 @@ Generally useful: `shlex.split`_
 
 .. _os.putenv('VAR','foo'): https://docs.python.org/2/library/os.html#os.putenv
 
+.. _subprocess.check_output(['ls']):
+.. _subprocess.check_output(['ls','-l']): https://docs.python.org/2/library/subprocess.html#subprocess.check_output
+
 .. _shlex.split: https://docs.python.org/2/library/shlex.html#shlex.split
 
 .. _SystemsAdministration: ../SystemsAdministration
