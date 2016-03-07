@@ -36,4 +36,5 @@ Man Pages
 
 -   <http://linux.die.net/man/1/ln>
 -   <http://linux.die.net/man/8/symlinks>
+-   [Grymoire on inodes](http://www.grymoire.com/Unix/Inodes.html)
 

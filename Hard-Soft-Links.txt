@@ -31,3 +31,4 @@
 
  * http://linux.die.net/man/1/ln
  * http://linux.die.net/man/8/symlinks
+ * [[http://www.grymoire.com/Unix/Inodes.html|Grymoire on inodes]]

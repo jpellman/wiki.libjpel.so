@@ -48,6 +48,8 @@ Man Pages
 
 * http://linux.die.net/man/8/symlinks
 
+* `Grymoire on inodes`_
+
 .. ############################################################################
 
 .. _CertDepot: http://www.certdepot.net/sys-create-hard-and-soft-links/
@@ -55,4 +57,6 @@ Man Pages
 .. _An explanation of hard vs soft links: http://www.geekride.com/hard-link-vs-soft-link/
 
 .. _Another explanation of hard vs soft links: http://linuxgazette.net/105/pitcher.html
+
+.. _Grymoire on inodes: http://www.grymoire.com/Unix/Inodes.html
 
