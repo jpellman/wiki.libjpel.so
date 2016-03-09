@@ -16,9 +16,10 @@ fMRI
 
 -   [Chao-Gan Yan's rsfMRI Course](http://rfmri.org/Course)
 
-### Open Datasets
+### Open/Shared Datasets
 
 -   [Summary Table from Poldrack and Gorgolewski 2014](http://www.nature.com/neuro/journal/v17/n11/fig_tab/nn.3818_T1.html)
+-   [Cimbi](http://www.sciencedirect.com/science/article/pii/S1053811915003158)
 
 EEG
 ---
