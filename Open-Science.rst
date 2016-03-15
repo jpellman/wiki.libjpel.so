@@ -10,6 +10,8 @@ Pages related to open science.
 
 **External Links**
 
+* `MIT Summarizes Open Access Requirements for various funding agencies/foundations`_
+
 * `Bermuda Principles (Wikipedia Article)`_
 
 * `Bermuda Principles (HGP Page)`_
@@ -21,6 +23,8 @@ Pages related to open science.
  CategoryCategory_
 
 .. ############################################################################
+
+.. _MIT Summarizes Open Access Requirements for various funding agencies/foundations: https://libraries.mit.edu/scholarly/publishing/research-funders/research-funder-open-access-requirements/
 
 .. _Bermuda Principles (Wikipedia Article): https://en.wikipedia.org/wiki/Bermuda_Principles
 
