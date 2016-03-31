@@ -9,6 +9,11 @@ Various Python-Related Readings
 
 * `How Python Finds Packages`_
 
+Useful Packages
+---------------
+
+* `Natural Sort`_
+
 -------------------------
 
  SystemsAdministration_
@@ -20,6 +25,8 @@ Various Python-Related Readings
 .. _Illustrating Python multithreading vs multiprocessing: http://nathangrigg.net/2015/04/python-threading-vs-processes/
 
 .. _How Python Finds Packages: https://leemendelowitz.github.io/blog/how-does-python-find-packages.html
+
+.. _Natural Sort: https://pypi.python.org/pypi/natsort
 
 .. _SystemsAdministration: ../SystemsAdministration
 

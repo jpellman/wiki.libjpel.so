@@ -4,5 +4,9 @@
  * [[http://nathangrigg.net/2015/04/python-threading-vs-processes/ | Illustrating Python multithreading vs multiprocessing]]
  * [[https://leemendelowitz.github.io/blog/how-does-python-find-packages.html | How Python Finds Packages]]
 
+== Useful Packages ==
+
+ * [[https://pypi.python.org/pypi/natsort|Natural Sort]]
+
 ----
 SystemsAdministration

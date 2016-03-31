@@ -7,6 +7,11 @@ Various Python-Related Readings
 -   [Illustrating Python multithreading vs multiprocessing](http://nathangrigg.net/2015/04/python-threading-vs-processes/)
 -   [How Python Finds Packages](https://leemendelowitz.github.io/blog/how-does-python-find-packages.html)
 
+Useful Packages
+===============
+
+-   [Natural Sort](https://pypi.python.org/pypi/natsort)
+
 * * * * *
 
 > [SystemsAdministration](../SystemsAdministration)
