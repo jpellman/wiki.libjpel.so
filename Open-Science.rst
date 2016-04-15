@@ -16,7 +16,7 @@ Pages related to open science.
 
 * `Bermuda Principles (HGP Page)`_
 
-* `OpenHatch 'Open Science Projects and Organizations' Page`_
+* `OpenHatch 'Open Science Projects and Organizations' Page`_ (dead) - I mirrored the source though.  Add to Wikipedia?
 
 -------------------------
 
