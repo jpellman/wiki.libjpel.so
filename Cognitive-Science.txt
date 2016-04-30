@@ -13,6 +13,8 @@ Notes on cognitive science.
 
 [[Memory]]
 
+[[Learning]]
+
 [[DecisionMaking | Decision Making]]
 
 ----

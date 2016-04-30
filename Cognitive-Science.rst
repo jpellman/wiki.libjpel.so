@@ -12,6 +12,8 @@ Expertise_
 
 Memory_
 
+Learning_
+
 `Decision Making`_
 
 -------------------------
@@ -25,6 +27,8 @@ Memory_
 .. _Expertise: ../Expertise
 
 .. _Memory: ../Memory
+
+.. _Learning: ../Learning
 
 .. _Decision Making: ../DecisionMaking
 
