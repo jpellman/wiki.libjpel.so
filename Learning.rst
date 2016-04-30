@@ -25,6 +25,39 @@ Procrastination
 
 * Recommendation of time-boxing technique (Pomodoro).
 
+Practice
+--------
+
+* Math might be more difficult to master because it involves more abstraction.
+
+* You want to strengthen neural connections through repetition- what fires together...
+
+* Importance of depth
+
+Memory
+------
+
+* Working memory based in prefrontal cortex.
+
+* Working memory doesn't hold 7 chunks, it holds 4 chunks.  No magic number 7.
+
+* Working memory is like a CPU cache- very small, only holds a little when closer to the core.
+
+* LTM like a warehouse, distributed over an area.  LTM is a NoSQL database?  Repetition of facts / procedures when learning is like a manual replication procedure sort of?
+
+* Spaced repetition is recommended.  Cramming is bad.
+
+Sleep
+-----
+
+* Wakefulness state generates toxic byproducts in brain.  Brain cells (neurons? glia?) shrink during sleep, allowing toxins to be washed away.  Sleep as self-cleaning (Xie et al, 2013).
+
+* Coffee/caffeine then is not inherently bad in the short-term, but can prevent a necessary cleaning.
+
+* Sleep prunes unwanted info, strengthens wanted info (sort of like deduplication).
+
+* Sleep is diffuse mode / dmn on steroids; allows connections to be made that might not otherwise be made under the watchful eye of the prefrontal cortex.
+
 References
 ----------
 
