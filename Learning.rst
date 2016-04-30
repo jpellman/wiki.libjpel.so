@@ -58,6 +58,15 @@ Sleep
 
 * Sleep is diffuse mode / dmn on steroids; allows connections to be made that might not otherwise be made under the watchful eye of the prefrontal cortex.
 
+Sejnowski Interview
+-------------------
+
+* Mental multi-tasking as context switching with a single core CPU (since most people aren't actually able to attend to multiple things at once).
+
+* An enriching environment (undergrad, companies with good culture- i.e., Bell Labs) leads to stronger connections in the hippocampus; impoverished environments (cubical farms, isolation) less so. 
+
+* In the absence of an enriching environment, exercise can increase neurons (i.e., increase BDNF)
+
 References
 ----------
 
