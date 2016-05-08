@@ -76,8 +76,13 @@ Week 2
 Chunking
 ~~~~~~~~
 
-References
-----------
+* Chunk: A set of relationships tying declarative facts together (like a graph).  A network of neurons that are strongly interconnected through repeated activation.  The cohesiveness of a chunk makes the individual facts it contains easier to remember.  Helps create a "big picture" rather than getting tunnel vision about individual facts.  A chunk is analogous to a simplified mental map (see `Mappers vs Packers`_; the folks on that Wiki aren't rigorous personality psychologists though so I take it with a grain of salt).
+
+* Stress diminishes our ability to form chunks via our working memory.
+
+* Chunking is a bit like compression.
+
+* Chunks as schemata?
 
 -------------------------
 
@@ -94,6 +99,8 @@ CognitiveScience_
 .. _flow: https://en.wikipedia.org/wiki/Flow_(psychology)
 
 .. _default mode network: https://en.wikipedia.org/wiki/Default_mode_network
+
+.. _Mappers vs Packers: http://c2.com/cgi/wiki?MappersVsPackers
 
 .. _CognitiveScience: ../CognitiveScience
 
