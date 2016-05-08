@@ -69,6 +69,19 @@ Week 2
         -   Chunking is bottom-up (via practice), and top-down (taking currently existent networks and connecting them to new discrete chunks). Context as a bridge between practice and higher-level schema.
         -   Context can be gained by skimming chapter section titles and figures first.
 
+### Illusions of Competence
+
+-   Re-reading a chapter in a textbook can be ineffective at crystallizing a memory. More effective is to read a chapter once, look away, and see how much you can recall about its contents (an active approach).
+-   Retrieval of knowledge itself can enhance connections.
+-   Making a semantic map for studying / organizing before you actually have a mental map in your head is not as effective.
+-   Re-readings **are** effective when spaced.
+-   Common illusions of competence:
+    -   Reading a worked out problem and feeling that you totally understand it conceptually, but you haven't put any mental effort into it yourself / haven't actively learned it so you don't actually know it. Exposure / superficial understanding alone is not enough.
+    -   Highlighting and underlining is not useful when overdone. Be minimal and look for main ideas beforehand. Margin notes, however are good if used to make connections.
+    -   Thinking material is internalized just because it's available (via Google, textbook).
+-   The best way to know if you're *actually* learning is to test yourself. Recall can be seen as a mini-test. Any mistakes you make in your self-test can be used to re-educate yourself (for systems administration, this is what labs / testing environments are for).
+-   Switch up your environment when learning (environment-specific learning).
+
 * * * * *
 
 [CognitiveScience](../CognitiveScience)
