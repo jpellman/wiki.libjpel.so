@@ -7,8 +7,11 @@ This page contains notes from the MOOC `Learning How to Learn`_ on Coursera.  I 
 
 .. contents:: :depth: 2
 
+Week 1
+------
+
 Diffuse vs Focused Thinking
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Focused thought is analogous to conscious, task-related thought.  Could also be analogous to Csikszentmihalyi's flow_ or a telic/goal-oriented state.
 
@@ -19,14 +22,14 @@ Diffuse vs Focused Thinking
 * To learn a new skill or discipline, you need to balance diffuse and focused thought (similar to balancing exercise and resting).  Focused learning like a workout.
 
 Procrastination
----------------
+~~~~~~~~~~~~~~~
 
 * Thoughts about a task can activate the insular cortex, leading to feelings of pain.  Do cope with this, people may switch to a more pleasurable activity.  However, if you just start the undesirable task the feelings of pain quickly taper off.  This is reminiscent of some aspects of avoidant behavior that might be treated by CBT.
 
 * Recommendation of time-boxing technique (Pomodoro).
 
 Practice
---------
+~~~~~~~~
 
 * Math might be more difficult to master because it involves more abstraction.
 
@@ -35,7 +38,7 @@ Practice
 * Importance of depth
 
 Memory
-------
+~~~~~~
 
 * Working memory based in prefrontal cortex.
 
@@ -48,7 +51,7 @@ Memory
 * Spaced repetition is recommended.  Cramming is bad.
 
 Sleep
------
+~~~~~
 
 * Wakefulness state generates toxic byproducts in brain.  Brain cells (neurons? glia?) shrink during sleep, allowing toxins to be washed away.  Sleep as self-cleaning (Xie et al, 2013).
 
@@ -59,13 +62,19 @@ Sleep
 * Sleep is diffuse mode / dmn on steroids; allows connections to be made that might not otherwise be made under the watchful eye of the prefrontal cortex.
 
 Sejnowski Interview
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 * Mental multi-tasking as context switching with a single core CPU (since most people aren't actually able to attend to multiple things at once).
 
 * An enriching environment (undergrad, companies with good culture- i.e., Bell Labs) leads to stronger connections in the hippocampus; impoverished environments (cubical farms, isolation) less so. 
 
 * In the absence of an enriching environment, exercise can increase neurons (i.e., increase BDNF)
+
+Week 2
+------
+
+Chunking
+~~~~~~~~
 
 References
 ----------
