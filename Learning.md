@@ -57,6 +57,18 @@ Week 2
 -   Chunking is a bit like compression.
 -   Chunks as schemata?
 
+### How to chunk
+
+-   Get a sense of a pattern for what you want to learn (i.e., listen or watch someone playing to learn a song; mentorship / learning from someone else who has more mastery). Learn specific mini-chunks (i.e., musical phrases for a song). Synthesize these mini-chunks into a larger chunk.
+-   Goal is to make a chunk second nature / not hard to activate (i.e., language).
+-   Learning at the start involves a heavy cognitive load, so it makes sense to use example / toy problems and try to imitate them. Like working up gradually from 1 mile runs to 5k to 15k. Worked out solutions are a resource- you still need to use your own judgement to construct chunks.
+-   A step-by-step overview of a general chunking process:
+    1.  Focus on the information that you would like to chunk/synthesize (i.e., turn off your phone, minimize interrupts).
+    2.  Comprehend concept (alternate between focused and diffuse networks if you do not have a good gist of concept). Direct experience is often necessary for this (since being able to do something purely in theory doesn't really confer mastery).
+    3.  Practice. Gain context for the chunk (i.e., where it should be connected, and where it should not be).
+        -   Chunking is bottom-up (via practice), and top-down (taking currently existent networks and connecting them to new discrete chunks). Context as a bridge between practice and higher-level schema.
+        -   Context can be gained by skimming chapter section titles and figures first.
+
 * * * * *
 
 [CognitiveScience](../CognitiveScience)
