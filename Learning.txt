@@ -69,6 +69,31 @@ This page contains notes from the MOOC [[https://www.coursera.org/learn/learning
   * Thinking material is internalized just because it's available (via Google, textbook).  
  * The best way to know if you're ''actually'' learning is to test yourself.  Recall can be seen as a mini-test.  Any mistakes you make in your self-test can be used to re-educate yourself (for systems administration, this is what labs / testing environments are for).
  * Switch up your environment when learning (environment-specific learning).
+
+=== Sejnowski Lectures ===
+ * Alpha in monkey troops has highest levels of serotonin.  Serotonin associated with lower risk-taking (?).  Inmates in prisons have lowest levels of serotonon.
+ * Acetycholine involved in focus (i.e., Alpha GPC or eggs).
+ * Dopamine can be implicated in long-term rewards as well
+
+=== The Value of a Library of Chunks ===
+ * Successful CEOS (Bill Gates, etc) set aside week long reading periods... therefore '''you should too'''.
+ * Gradually build up chunks (e.g., chessmasters have library of patterns that they acquire as they gain expertise).  Design Patterns in programming, related fields.
+ * Transfer: Concepts and problem-solving methods from one field can help you / be re-appropriated for use in another field.
+ * Manners of tackling problems:  Sequentially (focused mode) or holistically (diffuse mode).
+ * The diffuse mode can make connections between tightly-coupled chunks that were created in the focused mode.
+ * Diffuse mode insights should be verified with focused mode (since intuition is not always correct; we are in fact very irrational animals).
+ * Law of serendipity: Once one concept is added to mental library, more concepts will come more easily.
+ 
+=== Overlearning ===
+ * Overlearning is generally good if you can establish some level of automaticity for a skill / knowledge.
+ * Continuing to practice after you've mastered as much as you can in a study session can be a waste of time.  Like learning how to do carpentry with only a hammer (i.e., you get a very constricted view of knowledge).  It's important to walk away.
+ * Re-learning something you've already learned can make you feel better at something than you are, since you've actually only mastered the easy stuff and not moved on to harder topics (i.e., there's always something more difficult to learn / fields are nuanced).
+ * Deliberate practice: Deliberately focus on more difficult topics rather than what you've already mastered.
+ * Einstellung: Your initial idea might prevent a better idea from being found (i.e., functional fixedness).
+ * If you reinforce your initial idea, you need to unlearn it (i.e., if you are taught that ego depletion or any of the numerous non-replicable effects in psychology are true/valid, it may be harder to pivot your paradigm).
+ * Interleaving: Switching between using different tools/operators in different situations.  Try using different concepts, procedures, etc.  Skip between different chapters.
+ * Just knowing how to use a tool isn't enough, you need to know when.
+ * Developing expertise in multiple fields means you can have cross-pollination of ideas.  But your expertise may be uneven compared to a specialist.  One discipline specialists might be too entrenched in their field and not be able to come up with novel approaches.
 ----
 
 CognitiveScience
