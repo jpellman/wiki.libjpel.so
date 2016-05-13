@@ -30,3 +30,5 @@ This is a rough list of the many roles I find people performing in scientific la
 
 == Managers/Synthesizers/Creatives(?) ==
  * People who are able to take various aspects of theories and the current literature, combine this knowledge in novel ways, and determine a good direction to go in.
+
+ScientificComputing
