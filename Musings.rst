@@ -9,6 +9,8 @@ Various Musings
 
     * a.k.a. data warehousing
 
+    * Jupyter notebooks do for science what configuration management tools like Puppet/Chef do for systems administration.
+
 * Thought: A machine-learning based scheduler for scientific workflow management.
 
   * Train on a few runs of a pipeline to determine memory, CPU needs (maybe use priors supplied by researcher or some heuristic).
