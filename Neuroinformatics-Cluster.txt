@@ -40,6 +40,10 @@
 
  * Use VMs, store vmdk on NAS; run VM on workstation (i.e., WashU's setup).
 
+== Misc ==
+ 
+ * [[http://www.limswiki.org/index.php/Main_Page| LIMS Wiki]]
+
 ----
 
 [[ScientificComputing]]

@@ -46,6 +46,11 @@ Remote Access Options
 
 * Use VMs, store vmdk on NAS; run VM on workstation (i.e., WashU's setup).
 
+Misc
+----
+
+* `LIMS Wiki`_
+
 -------------------------
 
 
@@ -81,6 +86,8 @@ ScientificComputing_
 .. _DCMTK: http://dicom.offis.de/dcmtk.php.en
 
 .. _X2Go: http://wiki.x2go.org/doku.php
+
+.. _LIMS Wiki: http://www.limswiki.org/index.php/Main_Page
 
 .. _ScientificComputing: ../ScientificComputing
 

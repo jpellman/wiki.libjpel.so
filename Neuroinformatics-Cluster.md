@@ -31,6 +31,11 @@ Remote Access Options
 -   VNC
 -   Use VMs, store vmdk on NAS; run VM on workstation (i.e., WashU's setup).
 
+Misc
+----
+
+-   [LIMS Wiki](http://www.limswiki.org/index.php/Main_Page)
+
 * * * * *
 
 [ScientificComputing](../ScientificComputing)
