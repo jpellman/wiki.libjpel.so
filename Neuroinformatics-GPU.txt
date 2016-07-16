@@ -1,0 +1,13 @@
+= List of Neuroinformatics Tools w/ GPU-based Implementations =
+
+* [[http://www.nvidia.com/object/medical_imaging.html | General Page on Medical Imaging Using Nvidia GPUs]]
+
+* [[https://itk.org/Wiki/ITK/Release_4/GPU_Acceleration | ITK page on GPU Acceleration]] (possibly useful for making ANTS go faster)
+
+* [[https://surfer.nmr.mgh.harvard.edu/fswiki/CUDADevelopersGuide|recon-all and mrisurf (Freesurfer)]] ([[http://www.ncbi.nlm.nih.gov/pubmed/24430512|paper]]).
+
+* [[https://github.com/wanderine/BROCCOLI | BROCCOLI]]
+
+----
+
+[[ScientificComputing]]
