@@ -214,7 +214,7 @@ More Memory
 
 * A discussion of mnemonics- including making up phrases / acronyms and the method of Loci.  Mnemonics don't incur a penalty to get to semi-skilled expertise (?)
 
-* Spacing works because it invokes reconsolidating memories / updating them from an inactive state, thus making them stronger.
+* Spacing works because it invokes reconsolidating memories / updating them from an inactive state, thus making them stronger (i.e., some amount of elaboration must occur when the memories are being re-consolidated; `I don't think this is the traditional view of this theory however`_)/
 
 -------------------------
 
@@ -239,6 +239,8 @@ CognitiveScience_
 .. _What Marcus Aurelius said: https://i.imgur.com/grqGb9B.jpg
 
 .. _this: http://www.ncbi.nlm.nih.gov/pubmed/21926985
+
+.. _I don't think this is the traditional view of this theory however: http://blogs.discovermagazine.com/neuroskeptic/2015/09/22/time-to-rethink-the-reconsolidation-theory-of-memory/#.V5UM75MrKRs
 
 .. _CognitiveScience: ../CognitiveScience
 
