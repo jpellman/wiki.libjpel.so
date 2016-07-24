@@ -208,11 +208,13 @@ Procrastination
 More Memory
 ~~~~~~~~~~~
 
-* Multimodal learning is good.
+* Multimodal learning is good.  The instructors champion co-opting visuospatial systems (since they are more evolutionary well-honed) in particular (citing this_)- related to method of Loci.
 
 * A discussion of HM.
 
 * A discussion of mnemonics- including making up phrases / acronyms and the method of Loci.  Mnemonics don't incur a penalty to get to semi-skilled expertise (?)
+
+* Spacing works because it invokes reconsolidating memories / updating them from an inactive state, thus making them stronger.
 
 -------------------------
 
@@ -235,6 +237,8 @@ CognitiveScience_
 .. _they become automatic: https://www.wikiwand.com/en/Automaticity
 
 .. _What Marcus Aurelius said: https://i.imgur.com/grqGb9B.jpg
+
+.. _this: http://www.ncbi.nlm.nih.gov/pubmed/21926985
 
 .. _CognitiveScience: ../CognitiveScience
 

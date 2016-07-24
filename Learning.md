@@ -130,9 +130,10 @@ Week 3
 
 ### More Memory
 
--   Multimodal learning is good.
+-   Multimodal learning is good. The instructors champion co-opting visuospatial systems (since they are more evolutionary well-honed) in particular (citing [this](http://www.ncbi.nlm.nih.gov/pubmed/21926985))- related to method of Loci.
 -   A discussion of HM.
 -   A discussion of mnemonics- including making up phrases / acronyms and the method of Loci. Mnemonics don't incur a penalty to get to semi-skilled expertise (?)
+-   Spacing works because it invokes reconsolidating memories / updating them from an inactive state, thus making them stronger.
 
 * * * * *
 
