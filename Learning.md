@@ -110,6 +110,24 @@ Week 2
 -   Just knowing how to use a tool isn't enough, you need to know when.
 -   Developing expertise in multiple fields means you can have cross-pollination of ideas. But your expertise may be uneven compared to a specialist. One discipline specialists might be too entrenched in their field and not be able to come up with novel approaches.
 
+Week 3
+------
+
+### Procrastination
+
+-   As we repeat processes, [they become automatic](https://www.wikiwand.com/en/Automaticity) on some level (habits). There is a loop of stimulus, response and reward (conditioning) that reinforces this automaticity. Most habits allow us to conserve cognitive resources, by taking common tasks and having them automated at a low-level of the brain. Bad habits (like watching too much Andromeda or Gordon Ramsay's Kitchen Nightmares or some other mix of trashy television), however, can also be automated, which is not such a good thing.
+-   These bad habits can be likened to addictions.
+-   Techniques
+    -   Focus on process rather than product. It's more important to kick off the steps to get to the answer (Pareto principle) than the end result (which if you contemplate beforehand can cause you internal pain). Automaticity is more process-friendly than product-friendly.
+    -   [What Marcus Aurelius said](https://i.imgur.com/grqGb9B.jpg)
+-   Replacing bad habits with good ones (CBT)
+    -   Determine stimulus (environment, time) that causes bad habit to kick in.
+    -   Establish a new habit for studying, possibly with a different stimulus (i.e., the learning room rather than the common room in the apartment).
+    -   Find a new reward for the good habit.
+    -   Replace your belief system (stoicism looks good).
+-   Write a weekly todo list and then write daily lists each day in the evening. Tip: Mix mentally intense tasks with autopilot physical tasks. Tip 2: Plan a quitting time.
+-   Leisure is important; people with hobbies outperform people whose work life is their entire life.
+
 * * * * *
 
 [CognitiveScience](../CognitiveScience)
