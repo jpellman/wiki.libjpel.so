@@ -205,6 +205,15 @@ Procrastination
 
 * Leisure is important; people with hobbies outperform people whose work life is their entire life.
 
+More Memory
+~~~~~~~~~~~
+
+* Multimodal learning is good.
+
+* A discussion of HM.
+
+* A discussion of mnemonics- including making up phrases / acronyms and the method of Loci.  Mnemonics don't incur a penalty to get to semi-skilled expertise (?)
+
 -------------------------
 
 

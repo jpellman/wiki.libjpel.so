@@ -128,6 +128,12 @@ Week 3
 -   Write a weekly todo list and then write daily lists each day in the evening. Tip: Mix mentally intense tasks with autopilot physical tasks. Tip 2: Plan a quitting time.
 -   Leisure is important; people with hobbies outperform people whose work life is their entire life.
 
+### More Memory
+
+-   Multimodal learning is good.
+-   A discussion of HM.
+-   A discussion of mnemonics- including making up phrases / acronyms and the method of Loci. Mnemonics don't incur a penalty to get to semi-skilled expertise (?)
+
 * * * * *
 
 [CognitiveScience](../CognitiveScience)
