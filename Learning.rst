@@ -122,6 +122,8 @@ Illusions of Competence
 
   * Highlighting and underlining is not useful when overdone.  Be minimal and look for main ideas beforehand.  Margin notes, however are good if used to make connections.
 
+  * Mind-mapping is not as effective as simple recall in learning.  It's more important to have the nodes of knowledge set in memory rather than the connections- the connections will result later as long as the knowledge is there.
+
   * Thinking material is internalized just because it's available (via Google, textbook).  
 
 * The best way to know if you're *actually* learning is to test yourself.  Recall can be seen as a mini-test.  Any mistakes you make in your self-test can be used to re-educate yourself (for systems administration, this is what labs / testing environments are for).
