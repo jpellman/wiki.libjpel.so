@@ -133,7 +133,24 @@ Week 3
 -   Multimodal learning is good. The instructors champion co-opting visuospatial systems (since they are more evolutionary well-honed) in particular (citing [this](http://www.ncbi.nlm.nih.gov/pubmed/21926985))- related to method of Loci.
 -   A discussion of HM.
 -   A discussion of mnemonics- including making up phrases / acronyms and the method of Loci. Mnemonics don't incur a penalty to get to semi-skilled expertise (?)
--   Spacing works because it invokes reconsolidating memories / updating them from an inactive state, thus making them stronger (i.e., some amount of elaboration must occur when the memories are being re-consolidated; [I don't think this is the traditional view of this theory however](http://blogs.discovermagazine.com/neuroskeptic/2015/09/22/time-to-rethink-the-reconsolidation-theory-of-memory/#.V5UM75MrKRs))/
+-   Spacing works because it invokes reconsolidating memories / updating them from an inactive state, thus making them stronger (i.e., some amount of elaboration must occur when the memories are being re-consolidated; [I don't think this is the traditional view of this theory however](http://blogs.discovermagazine.com/neuroskeptic/2015/09/22/time-to-rethink-the-reconsolidation-theory-of-memory/#.V5UM75MrKRs))
+
+Week 4
+------
+
+-   Periods where there is difficulty in understanding new knowledge / skills might be reflective of a period of mental re-structuring.
+-   Creating metaphors / relations to concepts can help learning (also can help in creating new knowledge, e.g., fluidic view of electricity in 18th century).
+-   Metaphors can help you get out of functional fixedness (local minima)
+-   Personifying a concept and pretending to be it could be helpful in some cases.
+-   Natural intelligence is important, but even just mediocre intelligence with lots of practice can do great things.
+    -   “Perseverance is a virtue of the less brilliant.” --Ramon y Cajal
+-   Imposter syndrome is not as uncommon as you'd think (reassuring).
+-   What you learn from one source is only one part of the big picture (i.e., it's a good idea to seek out many different texts / learning materials / lectures and synthesize them yourself).
+-   The right hemisphere is biased towards big picture thinking (though left/right dichotomy is not strict). Right hemisphere = "devil's advocate" that questions status quo, left hemisphere is more rigid.
+-   Social study sessions can help you realize knowledge gaps (as long as everyone's prepared and on-topic).
+-   [A checklist for tests](http://www4.ncsu.edu/unity/lockers/users/f/felder/public/Columns/memo.pdf)
+-   Tests as a way of learning (periodically quizzing yourself- 1 hr of testing more useful than 1 hr of studying in some ways).
+-   Start with hard problems on a test, switch to easy problems after a minute or two (if you're not done). Hard problems will still be primed when you return to them later, and diffuse thinking may lead you to conclusions more easily (hard start - jump to easy).
 
 * * * * *
 
