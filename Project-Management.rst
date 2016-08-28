@@ -30,6 +30,10 @@ Other Pitfalls:
 
 * Micromanagement example: guy who almost derailed LIGO
 
+Advice:
+
+* `How to start a lab by Tim Behrens`_
+
 -------------------------
 
  AcademicComputing_ ScientificComputing_
@@ -55,6 +59,8 @@ Other Pitfalls:
 .. _Charles Babbage's Difference Engine: https://en.wikipedia.org/wiki/Difference_engine
 
 .. _Taylorism: http://rationalwiki.org/wiki/Taylorism
+
+.. _How to start a lab by Tim Behrens: http://users.fmrib.ox.ac.uk/~behrens/Startingalab.htm
 
 .. _AcademicComputing: ../AcademicComputing
 

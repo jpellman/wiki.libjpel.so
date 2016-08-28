@@ -21,6 +21,10 @@ Other Pitfalls:
 -   [Taylorism](http://rationalwiki.org/wiki/Taylorism) - Don't want to squash creativity.
 -   Micromanagement example: guy who almost derailed LIGO
 
+Advice:
+
+-   [How to start a lab by Tim Behrens](http://users.fmrib.ox.ac.uk/~behrens/Startingalab.htm)
+
 * * * * *
 
 > [AcademicComputing](../AcademicComputing) [ScientificComputing](../ScientificComputing)
