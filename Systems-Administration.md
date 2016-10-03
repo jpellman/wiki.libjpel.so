@@ -6,6 +6,10 @@ Pages and categories related to systems administration.
 
 [[FullSearchCached(category:SystemsAdministration)]]\_
 
+**Outside Links:**
+
+1.  [Common Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls)
+
 * * * * *
 
 > [CategoryCategory](../CategoryCategory)

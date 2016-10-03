@@ -8,11 +8,17 @@ Pages and categories related to systems administration.
 
 `[[FullSearchCached(category:SystemsAdministration)]]`_
 
+**Outside Links:**
+
+1. `Common Bash Pitfalls`_
+
 -------------------------
 
  CategoryCategory_
 
 .. ############################################################################
+
+.. _Common Bash Pitfalls: http://mywiki.wooledge.org/BashPitfalls
 
 .. _CategoryCategory: ../CategoryCategory
 
