@@ -12,6 +12,8 @@ Pages and categories related to systems administration.
 
 1. `Common Bash Pitfalls`_
 
+#. `Introduction to LDAP`_
+
 -------------------------
 
  CategoryCategory_
@@ -19,6 +21,8 @@ Pages and categories related to systems administration.
 .. ############################################################################
 
 .. _Common Bash Pitfalls: http://mywiki.wooledge.org/BashPitfalls
+
+.. _Introduction to LDAP: http://ldapman.org/articles/intro_to_ldap.html
 
 .. _CategoryCategory: ../CategoryCategory
 

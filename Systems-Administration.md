@@ -9,6 +9,7 @@ Pages and categories related to systems administration.
 **Outside Links:**
 
 1.  [Common Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls)
+2.  [Introduction to LDAP](http://ldapman.org/articles/intro_to_ldap.html)
 
 * * * * *
 
