@@ -11,6 +11,8 @@ List of Web Design Firms that Specialize in Academic Clientele
 
 * KnowledgeTown_
 
+* `The Bureau (UK)`_
+
 -------------------------
 
  AcademicComputing_
@@ -24,6 +26,8 @@ List of Web Design Firms that Specialize in Academic Clientele
 .. _Squishy Media: http://squishymedia.com/
 
 .. _KnowledgeTown: http://knowledgetown.com/
+
+.. _The Bureau (UK): https://www.thebureaulondon.com/
 
 .. _AcademicComputing: ../AcademicComputing
 
