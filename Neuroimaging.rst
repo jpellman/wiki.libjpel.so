@@ -30,6 +30,8 @@ Open/Shared Datasets
 
 * EAS_
 
+* `Harvard Aging Brain Study`_
+
 EEG
 ---
 
@@ -50,4 +52,6 @@ fNIRS
 .. _Cimbi: http://www.sciencedirect.com/science/article/pii/S1053811915003158
 
 .. _EAS: http://www.einstein.yu.edu/departments/neurology/clinical-research-program/eas/data-sharing.aspx
+
+.. _Harvard Aging Brain Study: http://nmr.mgh.harvard.edu/lab/harvardagingbrain
 
