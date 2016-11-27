@@ -22,6 +22,12 @@ An errant thought- might an application that is part of a stack might be conside
 
  * Breadth-first as making a spec / writing unit tests.
 
+== The Myst User's Manual ==
+
+This isn't really based off any empirical literature, but in a more applied sense I find the following quotation from the Myst user's manual to be sound advice for most any problem where you don't know what to do:
+
+''Don’t thrash! If you’re not sure what to do next, clicking everywhere won’t help. Think about what you know already, ask yourself what you need to know, collect your thoughts, and piece them together. Think of related items or places you’ve seen, think of information you’ve been given, pay close attention to everything you see, and don’t forget anything. But most importantly - think of what you would do if you were really there. Remember, there is always [Google] if you need it...''
+
 == References ==
 
  * John R. Anderson - ''Cognitive Psychology and its implications''
