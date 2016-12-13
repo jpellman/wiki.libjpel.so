@@ -10,6 +10,7 @@ Pages and categories related to systems administration.
 
 1.  [Common Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls)
 2.  [Introduction to LDAP](http://ldapman.org/articles/intro_to_ldap.html)
+3.  [Writing Robust Shell Scripts](http://www.davidpashley.com/articles/writing-robust-shell-scripts/)
 
 * * * * *
 
