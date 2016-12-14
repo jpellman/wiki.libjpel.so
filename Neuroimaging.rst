@@ -32,6 +32,8 @@ Open/Shared Datasets
 
 * `Harvard Aging Brain Study`_
 
+* CamCAN_
+
 EEG
 ---
 
@@ -54,4 +56,6 @@ fNIRS
 .. _EAS: http://www.einstein.yu.edu/departments/neurology/clinical-research-program/eas/data-sharing.aspx
 
 .. _Harvard Aging Brain Study: http://nmr.mgh.harvard.edu/lab/harvardagingbrain
+
+.. _CamCAN: https://camcan-archive.mrc-cbu.cam.ac.uk/dataaccess/
 
