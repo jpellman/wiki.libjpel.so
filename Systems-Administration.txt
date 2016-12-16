@@ -11,9 +11,5 @@ Pages and categories related to systems administration.
 
 '''Outside Links:'''
 
- 1.#1 [[http://mywiki.wooledge.org/BashPitfalls | Common Bash Pitfalls]]
- 2. [[http://ldapman.org/articles/intro_to_ldap.html | Introduction to LDAP]]
- 3. [[http://www.davidpashley.com/articles/writing-robust-shell-scripts/ | Writing Robust Shell Scripts]]
-
 ----
 CategoryCategory
