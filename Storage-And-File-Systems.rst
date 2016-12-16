@@ -5,7 +5,7 @@
 
 **List of pages in this category:**
 
-`Create, mount, unmount, and use vfat, ext4, and xfs file systems`_
+FileSystems_
 
 `Mount and unmount CIFS and NFS network file systems`_
 
@@ -21,25 +21,25 @@
 
 -------------------------
 
- RHCSA_ CategoryCategory_
+ SystemsAdministration_ CategoryCategory_
 
 .. ############################################################################
 
-.. _Create, mount, unmount, and use vfat, ext4, and xfs file systems: ../RHCSA_FileSystems
+.. _FileSystems: ../FileSystems
 
-.. _Mount and unmount CIFS and NFS network file systems: ../RHCSA_NetworkFileSystems
+.. _Mount and unmount CIFS and NFS network file systems: ../NetworkFileSystems
 
-.. _Extend existing logical volumes: ../RHCSA_ExtendingLogicalVolumes
+.. _Extend existing logical volumes: ../ExtendingLogicalVolumes
 
-.. _Create and configure set-GID directories for collaboration: ../RHCSA_SetGID
+.. _Create and configure set-GID directories for collaboration: ../SetGID
 
-.. _Create and manage Access Control Lists (ACLs): ../RHCSA_AccessControlLists
+.. _Create and manage Access Control Lists (ACLs): ../AccessControlLists
 
-.. _Diagnose and correct file permission problems: ../RHCSA_FilePermissionsTroubleshooting
+.. _Diagnose and correct file permission problems: ../FilePermissionsTroubleshooting
 
-.. _Create and configure LUKS-encrypted partition and logical volumes (no longer on exam, but still useful): ../RHCSA_LUKS
+.. _Create and configure LUKS-encrypted partition and logical volumes (no longer on exam, but still useful): ../LUKS
 
-.. _RHCSA: ../RHCSA
+.. _SystemsAdministration: ../SystemsAdministration
 
 .. _CategoryCategory: ../CategoryCategory
 

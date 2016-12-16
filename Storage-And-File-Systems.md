@@ -2,20 +2,20 @@
 
 **List of pages in this category:**
 
-[Create, mount, unmount, and use vfat, ext4, and xfs file systems](../RHCSA_FileSystems)
+[FileSystems](../FileSystems)
 
-[Mount and unmount CIFS and NFS network file systems](../RHCSA_NetworkFileSystems)
+[Mount and unmount CIFS and NFS network file systems](../NetworkFileSystems)
 
-[Extend existing logical volumes](../RHCSA_ExtendingLogicalVolumes)
+[Extend existing logical volumes](../ExtendingLogicalVolumes)
 
-[Create and configure set-GID directories for collaboration](../RHCSA_SetGID)
+[Create and configure set-GID directories for collaboration](../SetGID)
 
-[Create and manage Access Control Lists (ACLs)](../RHCSA_AccessControlLists)
+[Create and manage Access Control Lists (ACLs)](../AccessControlLists)
 
-[Diagnose and correct file permission problems](../RHCSA_FilePermissionsTroubleshooting)
+[Diagnose and correct file permission problems](../FilePermissionsTroubleshooting)
 
-[Create and configure LUKS-encrypted partition and logical volumes (no longer on exam, but still useful)](../RHCSA_LUKS)
+[Create and configure LUKS-encrypted partition and logical volumes (no longer on exam, but still useful)](../LUKS)
 
 * * * * *
 
-> [RHCSA](../RHCSA) [CategoryCategory](../CategoryCategory)
+> [SystemsAdministration](../SystemsAdministration) [CategoryCategory](../CategoryCategory)
