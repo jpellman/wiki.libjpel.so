@@ -59,6 +59,13 @@ References / Further Reading
 
 * `Regular Expressions by Jan Goyvaerts`_
 
+More links
+----------
+
+* `Common Bash Pitfalls`_
+
+* `Writing Robust Shell Scripts`_
+
 -------------------------
 
  SystemsAdministration_
@@ -70,6 +77,10 @@ References / Further Reading
 .. _RegEx Golf: https://regex.alf.nu/
 
 .. _Regular Expressions by Jan Goyvaerts: http://www.regular-expressions.info
+
+.. _Common Bash Pitfalls: http://mywiki.wooledge.org/BashPitfalls
+
+.. _Writing Robust Shell Scripts: http://www.davidpashley.com/articles/writing-robust-shell-scripts/
 
 .. _SystemsAdministration: ../SystemsAdministration
 

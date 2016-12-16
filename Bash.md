@@ -41,6 +41,12 @@ Using grep and regular expressions to analyze text
 
 -   [Regular Expressions by Jan Goyvaerts](http://www.regular-expressions.info)
 
+More links
+----------
+
+-   [Common Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls)
+-   [Writing Robust Shell Scripts](http://www.davidpashley.com/articles/writing-robust-shell-scripts/)
+
 * * * * *
 
 > [SystemsAdministration](../SystemsAdministration)

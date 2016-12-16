@@ -46,6 +46,9 @@
 
  * [[http://www.regular-expressions.info | Regular Expressions by Jan Goyvaerts]]
 
+== More links ==
 
+ * [[http://mywiki.wooledge.org/BashPitfalls | Common Bash Pitfalls]]
+ * [[http://www.davidpashley.com/articles/writing-robust-shell-scripts/ | Writing Robust Shell Scripts]]
 ------------
 [[SystemsAdministration]]
