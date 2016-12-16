@@ -11,15 +11,13 @@
 
 [[NetworkFileSystems | Mount and unmount CIFS and NFS network file systems]]
 
-[[ExtendingLogicalVolumes | Extend existing logical volumes]]
-
-[[SetGID | Create and configure set-GID directories for collaboration]]
+[[Logical Volumes | Logical Volumes]]
 
 [[AccessControlLists | Create and manage Access Control Lists (ACLs)]]
 
-[[FilePermissionsTroubleshooting | Diagnose and correct file permission problems]]
+[[FilePermissions | File Permissions]]
 
-[[LUKS | Create and configure LUKS-encrypted partition and logical volumes (no longer on exam, but still useful)]]
+[[LUKS | Encryption]]
 
 ----
 [[SystemsAdministration]] CategoryCategory
