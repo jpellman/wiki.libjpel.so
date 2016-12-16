@@ -8,6 +8,8 @@ Pages related to open science.
 
 .. <<FullSearchCached(category:OpenScience)>>
 
+* `Open Research Funders Group`_
+
 **External Links**
 
 * `MIT Summarizes Open Access Requirements for various funding agencies/foundations`_
@@ -23,6 +25,8 @@ Pages related to open science.
  CategoryCategory_
 
 .. ############################################################################
+
+.. _Open Research Funders Group: http://www.orfg.org/
 
 .. _MIT Summarizes Open Access Requirements for various funding agencies/foundations: https://libraries.mit.edu/scholarly/publishing/research-funders/research-funder-open-access-requirements/
 
