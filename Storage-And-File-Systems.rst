@@ -5,7 +5,7 @@
 
 **List of pages in this category:**
 
-FileSystems_
+`File Systems`_
 
 `Mount and unmount CIFS and NFS network file systems`_
 
@@ -25,7 +25,7 @@ FileSystems_
 
 .. ############################################################################
 
-.. _FileSystems: ../FileSystems
+.. _File Systems: ../FileSystems
 
 .. _Mount and unmount CIFS and NFS network file systems: ../NetworkFileSystems
 

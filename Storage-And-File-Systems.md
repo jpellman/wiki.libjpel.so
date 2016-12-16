@@ -2,7 +2,7 @@
 
 **List of pages in this category:**
 
-[FileSystems](../FileSystems)
+[File Systems](../FileSystems)
 
 [Mount and unmount CIFS and NFS network file systems](../NetworkFileSystems)
 
