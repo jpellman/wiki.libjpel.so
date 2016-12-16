@@ -2,6 +2,8 @@
 
 **List of pages in this category:**
 
+[[FullSearchCached(category:StorageAndFileSystems)]]\_
+
 [File Systems](../FileSystems)
 
 [Mount and unmount CIFS and NFS network file systems](../NetworkFileSystems)
