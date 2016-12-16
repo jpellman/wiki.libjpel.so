@@ -1,0 +1,20 @@
+##master-page:CategoryTemplate
+##master-date:Unknown-Date
+#format wiki
+#language en
+
+File systems!
+
+'''List of pages in this category:'''
+
+<<FullSearchCached(category:FileSystems)>>
+[[VFAT | VFAT]]
+
+[[ext4 | ext4 ]]
+
+[[xfs | xfs ]]
+
+[[ZFS | ZFS]]
+
+----
+CategoryCategory
