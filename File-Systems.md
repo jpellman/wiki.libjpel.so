@@ -12,6 +12,10 @@ File systems!
 
 [ZFS](../ZFS)
 
+Links:
+
+<http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html>
+
 * * * * *
 
 > [CategoryCategory](../CategoryCategory)
