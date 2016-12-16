@@ -21,6 +21,26 @@ Using input-output redirection
 -   <http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html>
 -   <http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html>
 
+Using grep and regular expressions to analyze text
+--------------------------------------------------
+
+### grep
+
+-   -F : returns lines with single occurrence of literal string (fgrep)
+-   -x : returns only if *the entire line* is an exact match for literal string
+-   -E : use extended regex (Perl style); no need for escapes to denote atoms (egrep)
+-   -   -   returns lines with any number of consecutive repeats of search string
+
+-   . - wildcard character
+
+### Practice
+
+-   [RegEx Golf](https://regex.alf.nu/)
+
+### References / Further Reading
+
+-   [Regular Expressions by Jan Goyvaerts](http://www.regular-expressions.info)
+
 * * * * *
 
 > [SystemsAdministration](../SystemsAdministration)

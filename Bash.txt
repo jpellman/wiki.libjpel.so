@@ -28,5 +28,24 @@
 
  * http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html
 
+== Using grep and regular expressions to analyze text ==
+
+=== grep ===
+
+ * -F : returns lines with single occurrence of literal string (fgrep)
+ * -x : returns only if *the entire line* is an exact match for literal string
+ * -E : use extended regex (Perl style); no need for escapes to denote atoms (egrep)
+ * * - returns lines with any number of consecutive repeats of search string
+ * . - wildcard character
+
+=== Practice ===
+
+ * [[https://regex.alf.nu/ | RegEx Golf]]
+
+=== References / Further Reading ===
+
+ * [[http://www.regular-expressions.info | Regular Expressions by Jan Goyvaerts]]
+
+
 ------------
 [[SystemsAdministration]]

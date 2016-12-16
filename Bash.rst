@@ -33,6 +33,32 @@ References / Further Reading
 
 * http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html
 
+Using grep and regular expressions to analyze text
+--------------------------------------------------
+
+grep
+~~~~
+
+* -F : returns lines with single occurrence of literal string (fgrep)
+
+* -x : returns only if *the entire line* is an exact match for literal string
+
+* -E : use extended regex (Perl style); no need for escapes to denote atoms (egrep)
+
+* * - returns lines with any number of consecutive repeats of search string
+
+* . - wildcard character
+
+Practice
+~~~~~~~~
+
+* `RegEx Golf`_
+
+References / Further Reading
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* `Regular Expressions by Jan Goyvaerts`_
+
 -------------------------
 
  SystemsAdministration_
@@ -40,6 +66,10 @@ References / Further Reading
 .. ############################################################################
 
 .. _CommandlineFu: http://commandlinefu.com/
+
+.. _RegEx Golf: https://regex.alf.nu/
+
+.. _Regular Expressions by Jan Goyvaerts: http://www.regular-expressions.info
 
 .. _SystemsAdministration: ../SystemsAdministration
 
