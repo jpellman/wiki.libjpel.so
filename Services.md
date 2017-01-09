@@ -1,7 +1,7 @@
 \#format rst
 
-Start, stop, and check the status of network services
-=====================================================
+Managing Services
+=================
 
 Start/Stop Networking
 ---------------------
@@ -32,3 +32,6 @@ netstat
 
 -   <http://tldp.org/LDP/nag2/x-087-2-iface.netstat.html>
 
+* * * * *
+
+[SystemsAdministration](../SystemsAdministration)

@@ -1,5 +1,5 @@
 ## page was renamed from RHCSA_StartStopNetServices
-= Start, stop, and check the status of network services =
+= Managing Services =
 
 <<TableOfContents(2)>>
 
@@ -27,3 +27,7 @@
 == netstat ==
 
  * http://tldp.org/LDP/nag2/x-087-2-iface.netstat.html
+
+-----
+
+[[SystemsAdministration]]
