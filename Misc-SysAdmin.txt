@@ -8,6 +8,6 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
  * fail2ban - a great way to get rid of spammers / brute force attacks.  Thanks Yarik!
 
-----------------------
+----
 
 [[SystemsAdministration]]
