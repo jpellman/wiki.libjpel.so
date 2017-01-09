@@ -9,6 +9,14 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   In the sudoers file- *\#includedir* is **not** a comment. It's a directive that points to supplemental config files. There are several other *\#include* directives. This mimics C syntax.
 -   fail2ban - a great way to get rid of spammers / brute force attacks. Thanks Yarik!
 
+**Outside Links to be Sorted:**
+
+> <http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages>
+>
+> <https://peteris.rocks/blog/htop/>
+>
+> <https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/>
+
 * * * * *
 
 [SystemsAdministration](../SystemsAdministration)
