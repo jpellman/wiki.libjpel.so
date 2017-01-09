@@ -1,3 +1,4 @@
+## page was renamed from RHCSA_SystemLogs
 = Locate and interpret system log files and journals. =
 
 <<TableOfContents(2)>>
