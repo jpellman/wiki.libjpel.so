@@ -1,7 +1,7 @@
 #format rst
 
-Create hard and soft links
-==========================
+Creating hard and soft links
+============================
 
 .. contents:: :depth: 2
 
@@ -50,6 +50,12 @@ Man Pages
 
 * `Grymoire on inodes`_
 
+-------------------------
+
+
+
+SystemsAdministration_
+
 .. ############################################################################
 
 .. _CertDepot: http://www.certdepot.net/sys-create-hard-and-soft-links/
@@ -59,4 +65,6 @@ Man Pages
 .. _Another explanation of hard vs soft links: http://linuxgazette.net/105/pitcher.html
 
 .. _Grymoire on inodes: http://www.grymoire.com/Unix/Inodes.html
+
+.. _SystemsAdministration: ../SystemsAdministration
 

@@ -1,7 +1,7 @@
 \#format rst
 
-Create hard and soft links
-==========================
+Creating hard and soft links
+============================
 
 Hard Links
 ----------
@@ -38,3 +38,6 @@ Man Pages
 -   <http://linux.die.net/man/8/symlinks>
 -   [Grymoire on inodes](http://www.grymoire.com/Unix/Inodes.html)
 
+* * * * *
+
+[SystemsAdministration](../SystemsAdministration)

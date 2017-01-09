@@ -1,5 +1,5 @@
 ## page was renamed from RHCSA_HardSoftLinks
-= Create hard and soft links =
+= Creating hard and soft links =
 
 <<TableOfContents(2)>>
 
@@ -33,3 +33,7 @@
  * http://linux.die.net/man/1/ln
  * http://linux.die.net/man/8/symlinks
  * [[http://www.grymoire.com/Unix/Inodes.html|Grymoire on inodes]]
+
+-----
+
+[[SystemsAdministration]]
