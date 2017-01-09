@@ -1,3 +1,4 @@
+## page was renamed from RHCSA_HardSoftLinks
 = Create hard and soft links =
 
 <<TableOfContents(2)>>
