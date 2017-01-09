@@ -29,6 +29,12 @@ emacs
 
 * `Emacs Mini Manual`_
 
+-------------------------
+
+
+
+SystemsAdministration_
+
 .. ############################################################################
 
 .. _The Vim Tips Wiki: http://vim.wikia.com/wiki/Vim_Tips_Wiki
@@ -44,4 +50,6 @@ emacs
 .. _Emacs Tutorial: http://www2.lib.uchicago.edu/keith/tcl-course/emacs-tutorial.html
 
 .. _Emacs Mini Manual: http://tuhdo.github.io/emacs-tutor.html
+
+.. _SystemsAdministration: ../SystemsAdministration
 
