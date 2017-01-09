@@ -1,7 +1,7 @@
 \#format rst
 
-Locate and interpret system log files and journals.
-===================================================
+Locating and interpreting system log files and journals.
+========================================================
 
 System Logs
 -----------
@@ -25,3 +25,6 @@ systemd
 -   journalctl -p err : Returns all events with syslog priority of 'error'.
 -   journalctl -f : Returns last 10 events; analogous to using tail with /var/log/messages in previous versions of RHEL.
 
+* * * * *
+
+[SystemsAdministration](../SystemsAdministration)
