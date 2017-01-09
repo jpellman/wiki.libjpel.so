@@ -1,3 +1,4 @@
+## page was renamed from RHCSA_StartStopNetServices
 = Start, stop, and check the status of network services =
 
 <<TableOfContents(2)>>
