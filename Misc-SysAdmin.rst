@@ -25,6 +25,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
    - check if a string contains a substring "foo"
 
+* If an AWS S3 upload is MultiPart_, the ETag attribute of an S3 bucket object is *not* an MD5 hash.  It is the hashes for each part uploaded concatenated, plus a dash and the number of parts uploaded (see here_).
+
 **Outside Links to be Sorted:**
 
   http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
@@ -40,6 +42,10 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 SystemsAdministration_
 
 .. ############################################################################
+
+.. _MultiPart: ../MultiPart
+
+.. _here: http://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonResponseHeaders.html
 
 .. _SystemsAdministration: ../SystemsAdministration
 
