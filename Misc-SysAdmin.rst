@@ -11,7 +11,19 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * fail2ban : a great way to get rid of spammers / brute force attacks.  Thanks Yarik!
 
-* bash : \[\[ ${var} =~ "foo" \]\] - check if a string contains a substring "foo"
+* bash : .. raw:: html
+     &#91;
+
+  .. raw:: html
+     &#91;
+
+   ${var} =~ "foo" .. raw:: html
+     &#93;
+
+  .. raw:: html
+     &#93;
+
+   - check if a string contains a substring "foo"
 
 **Outside Links to be Sorted:**
 
