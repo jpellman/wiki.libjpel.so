@@ -7,9 +7,11 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * uniq -c : 'prefix lines by the number of occurrences'
 
-* In the sudoers file- *#includedir* is **not** a comment.  It's a directive that points to supplemental config files.  There are several other *#include* directives.  This mimics C syntax.
+* In the sudoers file : *#includedir* is **not** a comment.  It's a directive that points to supplemental config files.  There are several other *#include* directives.  This mimics C syntax.
 
-* fail2ban - a great way to get rid of spammers / brute force attacks.  Thanks Yarik!
+* fail2ban : a great way to get rid of spammers / brute force attacks.  Thanks Yarik!
+
+* bash : `${var} =~ "foo"`_ - check if a string contains a substring "foo"
 
 **Outside Links to be Sorted:**
 
@@ -26,6 +28,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 SystemsAdministration_
 
 .. ############################################################################
+
+.. _${var} =~ "foo": ../${var} =~ "foo"
 
 .. _SystemsAdministration: ../SystemsAdministration
 
