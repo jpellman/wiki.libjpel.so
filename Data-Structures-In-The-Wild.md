@@ -8,7 +8,7 @@ Various sightings of data structure implementations being used in actual applica
 Hash Table
 ----------
 
--   AWS S3 bucket
+-   AWS S3 bucket - choosing random names for prefixes is better because of the primary clustering problem
 
 Stack
 -----
