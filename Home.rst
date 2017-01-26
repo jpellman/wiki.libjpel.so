@@ -25,7 +25,7 @@ Interesting starting points:
 
 * OpenScience_
 
-* Hobbies
+* Hobbies_
 
 .. * WikiSandBox: feel free to change this page and experiment with editing
 
@@ -66,6 +66,8 @@ This wiki is powered by MoinMoin_.
 .. _CognitiveScience: ../CognitiveScience
 
 .. _OpenScience: ../OpenScience
+
+.. _Hobbies: ../Hobbies
 
 .. _MoinMoin: http://moinmo.in/
 
