@@ -25,6 +25,8 @@ Interesting starting points:
 
 * OpenScience_
 
+* Hobbies
+
 .. * WikiSandBox: feel free to change this page and experiment with editing
 
 .. * FindPage: find some content, explore the wiki

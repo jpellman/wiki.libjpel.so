@@ -14,5 +14,6 @@ Interesting starting points:
 -   [ScientificComputing](../ScientificComputing)
 -   [CognitiveScience](../CognitiveScience)
 -   [OpenScience](../OpenScience)
+-   Hobbies
 
 This wiki is powered by [MoinMoin](http://moinmo.in/).
