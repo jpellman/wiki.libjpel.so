@@ -36,6 +36,11 @@ Open/Shared Datasets
 
 * `UK Biobank`_
 
+MR Physics
+~~~~~~~~~~
+
+* http://www.grahamwideman.com/gw/brain/orientation/orientterms.htm
+
 EEG
 ---
 
