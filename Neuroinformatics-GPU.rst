@@ -11,6 +11,12 @@ List of Neuroinformatics Tools w/ GPU-based Implementations
 
 * BROCCOLI_
 
+* GLIRT_ (article_)
+
+* `Another GPU-based implementation of FLIRT`_
+
+* `GPU-Accelerated FLIRT and ANTS`_
+
 -------------------------
 
 
@@ -28,6 +34,14 @@ ScientificComputing_
 .. _paper: http://www.ncbi.nlm.nih.gov/pubmed/24430512
 
 .. _BROCCOLI: https://github.com/wanderine/BROCCOLI
+
+.. _GLIRT: https://github.com/sfchen/GPU-Image-Registration
+
+.. _article: http://ieeexplore.ieee.org/document/5405778/?reload=true
+
+.. _Another GPU-based implementation of FLIRT: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136718
+
+.. _GPU-Accelerated FLIRT and ANTS: https://figshare.com/articles/GPU_accelerated_FLIRT_AND_ANTs/1501449
 
 .. _ScientificComputing: ../ScientificComputing
 

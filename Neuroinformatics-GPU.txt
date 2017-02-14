@@ -8,6 +8,12 @@
 
 * [[https://github.com/wanderine/BROCCOLI | BROCCOLI]]
 
+* [[https://github.com/sfchen/GPU-Image-Registration | GLIRT ]] ([[http://ieeexplore.ieee.org/document/5405778/?reload=true | article]])
+
+* [[http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136718 | Another GPU-based implementation of FLIRT]]
+
+* [[https://figshare.com/articles/GPU_accelerated_FLIRT_AND_ANTs/1501449 | GPU-Accelerated FLIRT and ANTS]]
+
 ----
 
 [[ScientificComputing]]
