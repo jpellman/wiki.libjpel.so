@@ -1,6 +1,6 @@
 #format rst
 
-Charities/organizations that I find worth giving to:
+Charities/organizations that I find worth giving to / supporting in some manner:
 
 * `Broad Institute`_
 
@@ -15,6 +15,22 @@ Charities/organizations that I find worth giving to:
 * `Clinton Central School District Foundation`_
 
 * `RIP Medical Debt`_
+
+* `Debt Collective`_
+
+* `Software in the Public Interest`_
+
+* `Software Freedom Conservancy`_
+
+* `Free Software Foundation`_
+
+* ReactOS_
+
+* `Oberlin College`_
+
+* LOPSA_
+
+* Unigroup_
 
 .. ############################################################################
 
@@ -31,4 +47,20 @@ Charities/organizations that I find worth giving to:
 .. _Clinton Central School District Foundation: http://ccs.edu/domain/28
 
 .. _RIP Medical Debt: https://www.ripmedicaldebt.org/
+
+.. _Debt Collective: https://debtcollective.org/
+
+.. _Software in the Public Interest: https://www.spi-inc.org/
+
+.. _Software Freedom Conservancy: https://sfconservancy.org/
+
+.. _Free Software Foundation: https://www.fsf.org
+
+.. _ReactOS: http://reactos.org/
+
+.. _Oberlin College: http://www.oberlin.edu/giving/donate
+
+.. _LOPSA: https://lopsa.org/
+
+.. _Unigroup: http://www.unigroup.org/
 
