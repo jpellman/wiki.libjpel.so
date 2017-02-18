@@ -1,6 +1,9 @@
 #format rst
 
-Charities/organizations that I find worth giving to / supporting in some manner:
+Charities/organizations that I find worth giving to / supporting in some manner.
+
+Science
+-------
 
 * `Broad Institute`_
 
@@ -10,13 +13,8 @@ Charities/organizations that I find worth giving to / supporting in some manner:
 
 * `Society for the Improvement of Psychological Science`_
 
-* `Mohawk Valley Resource Center for Refugees`_
-
-* `Clinton Central School District Foundation`_
-
-* `RIP Medical Debt`_
-
-* `Debt Collective`_
+Technology
+----------
 
 * `Software in the Public Interest`_
 
@@ -26,11 +24,27 @@ Charities/organizations that I find worth giving to / supporting in some manner:
 
 * ReactOS_
 
-* `Oberlin College`_
-
 * LOPSA_
 
 * Unigroup_
+
+Social Issues
+-------------
+
+* `Mohawk Valley Resource Center for Refugees`_
+
+* `RIP Medical Debt`_
+
+* `Debt Collective`_
+
+Education
+---------
+
+* `A Better Chance`_
+
+* `Clinton Central School District Foundation`_
+
+* `Oberlin College`_
 
 .. ############################################################################
 
@@ -42,14 +56,6 @@ Charities/organizations that I find worth giving to / supporting in some manner:
 
 .. _Society for the Improvement of Psychological Science: http://improvingpsych.org/
 
-.. _Mohawk Valley Resource Center for Refugees: https://www.mvrcr.org/donate/
-
-.. _Clinton Central School District Foundation: http://ccs.edu/domain/28
-
-.. _RIP Medical Debt: https://www.ripmedicaldebt.org/
-
-.. _Debt Collective: https://debtcollective.org/
-
 .. _Software in the Public Interest: https://www.spi-inc.org/
 
 .. _Software Freedom Conservancy: https://sfconservancy.org/
@@ -58,9 +64,19 @@ Charities/organizations that I find worth giving to / supporting in some manner:
 
 .. _ReactOS: http://reactos.org/
 
-.. _Oberlin College: http://www.oberlin.edu/giving/donate
-
 .. _LOPSA: https://lopsa.org/
 
 .. _Unigroup: http://www.unigroup.org/
+
+.. _Mohawk Valley Resource Center for Refugees: https://www.mvrcr.org/donate/
+
+.. _RIP Medical Debt: https://www.ripmedicaldebt.org/
+
+.. _Debt Collective: https://debtcollective.org/
+
+.. _A Better Chance: http://www.abetterchance.org
+
+.. _Clinton Central School District Foundation: http://ccs.edu/domain/28
+
+.. _Oberlin College: http://www.oberlin.edu/giving/donate
 

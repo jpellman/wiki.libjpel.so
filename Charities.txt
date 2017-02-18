@@ -1,17 +1,26 @@
-Charities/organizations that I find worth giving to / supporting in some manner:
+Charities/organizations that I find worth giving to / supporting in some manner.
 
+== Science ==
  * [[ https://friends.broadinstitute.org/ | Broad Institute ]]
  * [[ http://www.numfocus.org/ | Numfocus ]]
  * [[ https://cos.io/donate/ | Center for Open Science ]]
  * [[ http://improvingpsych.org/ | Society for the Improvement of Psychological Science ]]
- * [[ https://www.mvrcr.org/donate/ | Mohawk Valley Resource Center for Refugees ]]
- * [[ http://ccs.edu/domain/28 | Clinton Central School District Foundation ]]
- * [[ https://www.ripmedicaldebt.org/ | RIP Medical Debt ]]
- * [[ https://debtcollective.org/ | Debt Collective ]]
+
+== Technology ==
  * [[ https://www.spi-inc.org/ | Software in the Public Interest ]]
  * [[ https://sfconservancy.org/ | Software Freedom Conservancy ]]
  * [[ https://www.fsf.org | Free Software Foundation ]]
  * [[ http://reactos.org/ | ReactOS ]]
- * [[ http://www.oberlin.edu/giving/donate | Oberlin College ]]
  * [[ https://lopsa.org/ | LOPSA ]]
  * [[ http://www.unigroup.org/ | Unigroup ]]
+
+== Social Issues ==
+ * [[ https://www.mvrcr.org/donate/ | Mohawk Valley Resource Center for Refugees ]]
+ * [[ https://www.ripmedicaldebt.org/ | RIP Medical Debt ]]
+ * [[ https://debtcollective.org/ | Debt Collective ]]
+
+== Education ==
+
+ * [[ http://www.abetterchance.org | A Better Chance ]]
+ * [[ http://ccs.edu/domain/28 | Clinton Central School District Foundation ]]
+ * [[ http://www.oberlin.edu/giving/donate | Oberlin College ]]
