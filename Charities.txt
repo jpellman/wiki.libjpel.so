@@ -2,6 +2,7 @@ Charities/organizations that I find worth giving to / supporting in some manner.
 
 == Science ==
  * [[ https://friends.broadinstitute.org/ | Broad Institute ]]
+ * [[ https://www.alleninstitute.org/ | Allen Institute ]]
  * [[ http://www.numfocus.org/ | Numfocus ]]
  * [[ https://cos.io/donate/ | Center for Open Science ]]
  * [[ http://improvingpsych.org/ | Society for the Improvement of Psychological Science ]]
@@ -11,6 +12,13 @@ Charities/organizations that I find worth giving to / supporting in some manner.
  * [[ https://sfconservancy.org/ | Software Freedom Conservancy ]]
  * [[ https://www.fsf.org | Free Software Foundation ]]
  * [[ http://reactos.org/ | ReactOS ]]
+ * [[ http://infoage.org/support-infoage/ | InfoAge ]]
+ * [[ http://www.computerhistory.org/contribute/ | Computer History Museum ]]
+ * [[ http://www.livingcomputers.org/ | Living Computers ]] (allows you to log in remotely to several vintage machines)
+ * [[ http://sdf.org/ | SDF Public Internet ]]
+
+=== Associations w/ an Educational Mission: ===
+
  * [[ https://lopsa.org/ | LOPSA ]]
  * [[ http://www.unigroup.org/ | Unigroup ]]
 
@@ -24,3 +32,5 @@ Charities/organizations that I find worth giving to / supporting in some manner.
  * [[ http://www.abetterchance.org | A Better Chance ]]
  * [[ http://ccs.edu/domain/28 | Clinton Central School District Foundation ]]
  * [[ http://www.oberlin.edu/giving/donate | Oberlin College ]]
+ * [[ http://worldpossible.org/ | World Possible ]]
+ * [[ http://malinuxtele.tuxfamily.org/Recycle-your-unused-Raspberry-Pis.html | Mali Linux Tele ]]

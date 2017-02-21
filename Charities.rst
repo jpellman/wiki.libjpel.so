@@ -7,6 +7,8 @@ Science
 
 * `Broad Institute`_
 
+* `Allen Institute`_
+
 * Numfocus_
 
 * `Center for Open Science`_
@@ -23,6 +25,17 @@ Technology
 * `Free Software Foundation`_
 
 * ReactOS_
+
+* InfoAge_
+
+* `Computer History Museum`_
+
+* `Living Computers`_ (allows you to log in remotely to several vintage machines)
+
+* `SDF Public Internet`_
+
+Associations w/ an Educational Mission:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * LOPSA_
 
@@ -46,9 +59,15 @@ Education
 
 * `Oberlin College`_
 
+* `World Possible`_
+
+* `Mali Linux Tele`_
+
 .. ############################################################################
 
 .. _Broad Institute: https://friends.broadinstitute.org/
+
+.. _Allen Institute: https://www.alleninstitute.org/
 
 .. _Numfocus: http://www.numfocus.org/
 
@@ -63,6 +82,14 @@ Education
 .. _Free Software Foundation: https://www.fsf.org
 
 .. _ReactOS: http://reactos.org/
+
+.. _InfoAge: http://infoage.org/support-infoage/
+
+.. _Computer History Museum: http://www.computerhistory.org/contribute/
+
+.. _Living Computers: http://www.livingcomputers.org/
+
+.. _SDF Public Internet: http://sdf.org/
 
 .. _LOPSA: https://lopsa.org/
 
@@ -79,4 +106,8 @@ Education
 .. _Clinton Central School District Foundation: http://ccs.edu/domain/28
 
 .. _Oberlin College: http://www.oberlin.edu/giving/donate
+
+.. _World Possible: http://worldpossible.org/
+
+.. _Mali Linux Tele: http://malinuxtele.tuxfamily.org/Recycle-your-unused-Raspberry-Pis.html
 

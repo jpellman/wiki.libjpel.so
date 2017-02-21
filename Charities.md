@@ -6,6 +6,7 @@ Science
 =======
 
 -   [Broad Institute](https://friends.broadinstitute.org/)
+-   [Allen Institute](https://www.alleninstitute.org/)
 -   [Numfocus](http://www.numfocus.org/)
 -   [Center for Open Science](https://cos.io/donate/)
 -   [Society for the Improvement of Psychological Science](http://improvingpsych.org/)
@@ -17,6 +18,14 @@ Technology
 -   [Software Freedom Conservancy](https://sfconservancy.org/)
 -   [Free Software Foundation](https://www.fsf.org)
 -   [ReactOS](http://reactos.org/)
+-   [InfoAge](http://infoage.org/support-infoage/)
+-   [Computer History Museum](http://www.computerhistory.org/contribute/)
+-   [Living Computers](http://www.livingcomputers.org/) (allows you to log in remotely to several vintage machines)
+-   [SDF Public Internet](http://sdf.org/)
+
+Associations w/ an Educational Mission:
+---------------------------------------
+
 -   [LOPSA](https://lopsa.org/)
 -   [Unigroup](http://www.unigroup.org/)
 
@@ -33,4 +42,6 @@ Education
 -   [A Better Chance](http://www.abetterchance.org)
 -   [Clinton Central School District Foundation](http://ccs.edu/domain/28)
 -   [Oberlin College](http://www.oberlin.edu/giving/donate)
+-   [World Possible](http://worldpossible.org/)
+-   [Mali Linux Tele](http://malinuxtele.tuxfamily.org/Recycle-your-unused-Raspberry-Pis.html)
 
