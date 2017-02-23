@@ -1,3 +1,4 @@
+## page was renamed from RHCSA_Compression
 = Archive, compress, unpack, and uncompress files using tar, star, gzip, and bzip2 =
 
 <<TableOfContents(2)>>
