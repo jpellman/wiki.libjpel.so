@@ -1,3 +1,4 @@
+## page was renamed from RHCSA_SystemDocumentation
 = Locate, read, and use system documentation including man, info, and files in /usr/share/doc =
 
 <<TableOfContents(2)>>
