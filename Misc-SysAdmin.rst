@@ -29,6 +29,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * Display line numbers in vim : http://vim.wikia.com/wiki/Display_line_numbers
 
+* `Article on JVM Heap Size`_ & `Oracle Docs on JVM Heap`_
+
 **Outside Links to be Sorted:**
 
   http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
@@ -48,6 +50,10 @@ SystemsAdministration_
 .. _MultiPart: ../MultiPart
 
 .. _here: http://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonResponseHeaders.html
+
+.. _Article on JVM Heap Size: https://www.yourkit.com/docs/kb/sizes.jsp
+
+.. _Oracle Docs on JVM Heap: https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html
 
 .. _SystemsAdministration: ../SystemsAdministration
 
