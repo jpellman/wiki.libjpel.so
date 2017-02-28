@@ -29,6 +29,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * Display line numbers in vim : http://vim.wikia.com/wiki/Display_line_numbers
 
+* Switch from less to vim- ':wv'.
+
 * `Article on JVM Heap Size`_ & `Oracle Docs on JVM Heap`_
 
 **Outside Links to be Sorted:**

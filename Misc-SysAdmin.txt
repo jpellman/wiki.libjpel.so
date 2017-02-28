@@ -14,6 +14,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
  * Display line numbers in vim : http://vim.wikia.com/wiki/Display_line_numbers
 
+ * Switch from less to vim- ':wv'.
+
  * [[ https://www.yourkit.com/docs/kb/sizes.jsp | Article on JVM Heap Size ]] & [[ https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html | Oracle Docs on JVM Heap ]]
 
 
