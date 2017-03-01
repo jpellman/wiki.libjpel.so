@@ -35,6 +35,7 @@ Social Issues
 -   [Mohawk Valley Resource Center for Refugees](https://www.mvrcr.org/donate/)
 -   [RIP Medical Debt](https://www.ripmedicaldebt.org/)
 -   [Debt Collective](https://debtcollective.org/)
+-   [Kiva](https://www.kiva.org/donate/supportus)
 
 Education
 =========

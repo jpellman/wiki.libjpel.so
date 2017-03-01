@@ -50,6 +50,8 @@ Social Issues
 
 * `Debt Collective`_
 
+* Kiva_
+
 Education
 ---------
 
@@ -108,6 +110,8 @@ Education
 .. _RIP Medical Debt: https://www.ripmedicaldebt.org/
 
 .. _Debt Collective: https://debtcollective.org/
+
+.. _Kiva: https://www.kiva.org/donate/supportus
 
 .. _A Better Chance: http://www.abetterchance.org
 
