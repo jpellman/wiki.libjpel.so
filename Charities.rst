@@ -63,6 +63,14 @@ Education
 
 * `Mali Linux Tele`_
 
+* SciShow_
+
+* CrashCourse_
+
+* `Khan Academy`_
+
+* EdX_
+
 .. ############################################################################
 
 .. _Broad Institute: https://friends.broadinstitute.org/
@@ -110,4 +118,12 @@ Education
 .. _World Possible: http://worldpossible.org/
 
 .. _Mali Linux Tele: http://malinuxtele.tuxfamily.org/Recycle-your-unused-Raspberry-Pis.html
+
+.. _SciShow: https://www.patreon.com/scishow
+
+.. _CrashCourse: https://www.patreon.com/crashcourse
+
+.. _Khan Academy: https://www.khanacademy.org/donate
+
+.. _EdX: https://www.edx.org/donate
 

@@ -34,3 +34,7 @@ Charities/organizations that I find worth giving to / supporting in some manner.
  * [[ http://www.oberlin.edu/giving/donate | Oberlin College ]]
  * [[ http://worldpossible.org/ | World Possible ]]
  * [[ http://malinuxtele.tuxfamily.org/Recycle-your-unused-Raspberry-Pis.html | Mali Linux Tele ]]
+ * [[ https://www.patreon.com/scishow | SciShow ]]
+ * [[ https://www.patreon.com/crashcourse | CrashCourse ]]
+ * [[ https://www.khanacademy.org/donate | Khan Academy ]]
+ * [[ https://www.edx.org/donate | EdX ]]

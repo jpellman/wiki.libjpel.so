@@ -44,4 +44,8 @@ Education
 -   [Oberlin College](http://www.oberlin.edu/giving/donate)
 -   [World Possible](http://worldpossible.org/)
 -   [Mali Linux Tele](http://malinuxtele.tuxfamily.org/Recycle-your-unused-Raspberry-Pis.html)
+-   [SciShow](https://www.patreon.com/scishow)
+-   [CrashCourse](https://www.patreon.com/crashcourse)
+-   [Khan Academy](https://www.khanacademy.org/donate)
+-   [EdX](https://www.edx.org/donate)
 
