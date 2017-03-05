@@ -10,6 +10,7 @@ List of Neuroinformatics Tools w/ GPU-based Implementations
 -   [GLIRT](https://github.com/sfchen/GPU-Image-Registration) ([article](http://ieeexplore.ieee.org/document/5405778/?reload=true))
 -   [Another GPU-based implementation of FLIRT](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136718)
 -   [GPU-Accelerated FLIRT and ANTS](https://figshare.com/articles/GPU_accelerated_FLIRT_AND_ANTs/1501449)
+-   [FSL's bedpost-x](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061892)
 
 Discussions
 -----------
