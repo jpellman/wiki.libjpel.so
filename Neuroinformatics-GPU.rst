@@ -17,6 +17,24 @@ List of Neuroinformatics Tools w/ GPU-based Implementations
 
 * `GPU-Accelerated FLIRT and ANTS`_
 
+Discussions
+-----------
+
+AFNI
+~~~~
+
+* https://afni.nimh.nih.gov/afni/community/board/read.php?1,143063,143063 * https://afni.nimh.nih.gov/afni/community/board/read.php?1,71356,71365 * https://afni.nimh.nih.gov/afni/community/board/read.php?1,67402,73081
+
+ANTS
+~~~~
+
+* https://sourceforge.net/p/advants/discussion/840260/thread/260e1e38/ * https://sourceforge.net/p/advants/discussion/840260/thread/4b134259/
+
+FSL
+~~~
+
+* http://godzilla.kennedykrieger.org/penguin/fsl.shtml
+
 -------------------------
 
 
