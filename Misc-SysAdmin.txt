@@ -15,6 +15,12 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
  * Display line numbers in vim : http://vim.wikia.com/wiki/Display_line_numbers
 
  * Switch from less to vim- ':wv'.
+ 
+ * Exec last command in bash *!!*.
+
+ * Check before replacing in vim :s/foo/bar/gc'
+
+ * Apparently the Java heap makes use of the RAM allocated for buffer/cache (so the buffer/cache isn't freed up).
 
  * [[ https://www.yourkit.com/docs/kb/sizes.jsp | Article on JVM Heap Size ]] & [[ https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html | Oracle Docs on JVM Heap ]]
 

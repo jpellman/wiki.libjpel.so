@@ -31,6 +31,12 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * Switch from less to vim- ':wv'.
 
+* Exec last command in bash *!!*.
+
+* Check before replacing in vim :s/foo/bar/gc'
+
+* Apparently the Java heap makes use of the RAM allocated for buffer/cache (so the buffer/cache isn't freed up).
+
 * `Article on JVM Heap Size`_ & `Oracle Docs on JVM Heap`_
 
 **Outside Links to be Sorted:**
