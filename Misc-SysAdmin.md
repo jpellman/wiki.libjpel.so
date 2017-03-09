@@ -28,6 +28,12 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 > <https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/>
 >
 > <http://linuxatemyram.com>
+>
+> <https://fedoraproject.org/wiki/Creating_GPG_Keys#Creating_GPG_Keys_Using_the_Command_Line>
+>
+> <http://www.crypt.gen.nz/papers/backup_encryption.html>
+>
+> <https://www.madboa.com/geek/gpg-quickstart>
 
 * * * * *
 
