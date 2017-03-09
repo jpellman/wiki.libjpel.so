@@ -13,6 +13,8 @@ vim
 -   [Ben Kuperman's Vim Page](https://www.cs.oberlin.edu/~kuperman/help/vim/)
 -   [Vim Quick Reference Card](http://tnerual.eriogerg.free.fr/vim.html)
 -   [Vim Cheat Sheet](http://vimcheatsheet.com/)
+-   [Syntastic](https://github.com/vim-syntastic/syntastic) is a linter interface for vim for multiple languages. (Requires linters to be installed separately;i.e., `pip install pylint`).
+-   [Pathogen](https://github.com/tpope/vim-pathogen) is a package/plugin manager, much like CRAN or CPAN.
 
 emacs
 -----

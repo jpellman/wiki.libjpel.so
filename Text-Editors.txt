@@ -13,6 +13,9 @@ Here are some links and resources to learn more about vim and emacs- the two mos
  * [[http://tnerual.eriogerg.free.fr/vim.html | Vim Quick Reference Card]]
  * [[http://vimcheatsheet.com/ | Vim Cheat Sheet]]
 
+ * [[https://github.com/vim-syntastic/syntastic | Syntastic]] is a linter interface for vim for multiple languages.  (Requires linters to be installed separately;i.e., `pip install pylint`).
+ * [[https://github.com/tpope/vim-pathogen | Pathogen ]] is a package/plugin manager, much like CRAN or CPAN.
+
 == emacs ==
 
  * [[http://www.gnu.org/software/emacs/tour/ | GNU Emacs Tour]]

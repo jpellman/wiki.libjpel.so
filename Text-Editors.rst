@@ -20,6 +20,10 @@ vim
 
 * `Vim Cheat Sheet`_
 
+* Syntastic_ is a linter interface for vim for multiple languages.  (Requires linters to be installed separately;i.e., ``pip install pylint``).
+
+* Pathogen_ is a package/plugin manager, much like CRAN or CPAN.
+
 emacs
 -----
 
@@ -44,6 +48,10 @@ SystemsAdministration_
 .. _Vim Quick Reference Card: http://tnerual.eriogerg.free.fr/vim.html
 
 .. _Vim Cheat Sheet: http://vimcheatsheet.com/
+
+.. _Syntastic: https://github.com/vim-syntastic/syntastic
+
+.. _Pathogen: https://github.com/tpope/vim-pathogen
 
 .. _GNU Emacs Tour: http://www.gnu.org/software/emacs/tour/
 
