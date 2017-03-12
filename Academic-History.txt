@@ -1,0 +1,20 @@
+= Academic History =
+
+Resources related to the history of academia.
+
+<<TableOfContents(2)>>
+
+== General History ==
+
+ * [[http://www.elfinspell.com/UniversitiesTitle.html|The Rise of Universities by Charles Homer Haskins]]
+
+== Defunct/Merged Colleges ==
+
+ * Kirkland College
+  * [[https://www.amazon.com/Limited-Engagement-Kirkland-1965-1978-Coordinate/dp/1425700691|Limited Engagement]]
+ 
+ * [[http://franconia.to/| Franconia College]]
+
+ * [[http://www.belknapcollege.com| Belknap College]]
+
+ * [[https://www.eisenhowercollege.org/ | Eisenhower College]]
