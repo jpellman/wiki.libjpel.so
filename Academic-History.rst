@@ -25,6 +25,8 @@ Defunct/Merged Colleges
 
 * `Eisenhower College`_
 
+* `College History Garden`_
+
 .. ############################################################################
 
 .. _The Rise of Universities by Charles Homer Haskins: http://www.elfinspell.com/UniversitiesTitle.html
@@ -36,4 +38,6 @@ Defunct/Merged Colleges
 .. _Belknap College: http://www.belknapcollege.com
 
 .. _Eisenhower College: https://www.eisenhowercollege.org/
+
+.. _College History Garden: https://collegehistorygarden.blogspot.com/
 

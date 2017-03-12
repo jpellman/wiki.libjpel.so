@@ -18,4 +18,5 @@ Defunct/Merged Colleges
 -   [Franconia College](http://franconia.to/)
 -   [Belknap College](http://www.belknapcollege.com)
 -   [Eisenhower College](https://www.eisenhowercollege.org/)
+-   [College History Garden](https://collegehistorygarden.blogspot.com/)
 
