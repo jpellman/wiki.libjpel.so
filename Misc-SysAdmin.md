@@ -18,6 +18,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   Check before replacing in vim :s/foo/bar/gc'
 -   Apparently the Java heap makes use of the RAM allocated for buffer/cache (so the buffer/cache isn't freed up).
 -   [Article on JVM Heap Size](https://www.yourkit.com/docs/kb/sizes.jsp) & [Oracle Docs on JVM Heap](https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html)
+-   An analogy: web/app servers / load balancers belong to the same sub-class of problems that HPC schedulers treat, but are just more narrow in scope.
 
 **Outside Links to be Sorted:**
 
