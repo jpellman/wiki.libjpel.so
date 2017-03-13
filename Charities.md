@@ -10,6 +10,7 @@ Science
 -   [Numfocus](http://www.numfocus.org/)
 -   [Center for Open Science](https://cos.io/donate/)
 -   [Society for the Improvement of Psychological Science](http://improvingpsych.org/)
+-   [The Planetary Society](https://secure.planetary.org/site/SPageNavigator/supportprojects.html)
 
 Technology
 ==========
@@ -36,6 +37,8 @@ Social Issues
 -   [RIP Medical Debt](https://www.ripmedicaldebt.org/)
 -   [Debt Collective](https://debtcollective.org/)
 -   [Kiva](https://www.kiva.org/donate/supportus)
+-   [WFM](http://www.wfm-igp.org/)
+-   [Open Society Foundations](https://www.opensocietyfoundations.org/)
 
 Education
 =========

@@ -15,6 +15,8 @@ Science
 
 * `Society for the Improvement of Psychological Science`_
 
+* `The Planetary Society`_
+
 Technology
 ----------
 
@@ -52,6 +54,10 @@ Social Issues
 
 * Kiva_
 
+* WFM_
+
+* `Open Society Foundations`_
+
 Education
 ---------
 
@@ -85,6 +91,8 @@ Education
 
 .. _Society for the Improvement of Psychological Science: http://improvingpsych.org/
 
+.. _The Planetary Society: https://secure.planetary.org/site/SPageNavigator/supportprojects.html
+
 .. _Software in the Public Interest: https://www.spi-inc.org/
 
 .. _Software Freedom Conservancy: https://sfconservancy.org/
@@ -112,6 +120,10 @@ Education
 .. _Debt Collective: https://debtcollective.org/
 
 .. _Kiva: https://www.kiva.org/donate/supportus
+
+.. _WFM: http://www.wfm-igp.org/
+
+.. _Open Society Foundations: https://www.opensocietyfoundations.org/
 
 .. _A Better Chance: http://www.abetterchance.org
 
