@@ -23,6 +23,7 @@ Technology
 -   [Computer History Museum](http://www.computerhistory.org/contribute/)
 -   [Living Computers](http://www.livingcomputers.org/) (allows you to log in remotely to several vintage machines)
 -   [SDF Public Internet](http://sdf.org/)
+-   [Electronic Frontier Foundation](https://www.eff.org/)
 
 Associations w/ an Educational Mission:
 ---------------------------------------

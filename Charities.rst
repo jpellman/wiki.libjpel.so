@@ -36,6 +36,8 @@ Technology
 
 * `SDF Public Internet`_
 
+* `Electronic Frontier Foundation`_
+
 Associations w/ an Educational Mission:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -108,6 +110,8 @@ Education
 .. _Living Computers: http://www.livingcomputers.org/
 
 .. _SDF Public Internet: http://sdf.org/
+
+.. _Electronic Frontier Foundation: https://www.eff.org/
 
 .. _LOPSA: https://lopsa.org/
 

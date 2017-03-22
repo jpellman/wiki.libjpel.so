@@ -17,6 +17,7 @@ Charities/organizations that I find worth giving to / supporting in some manner.
  * [[ http://www.computerhistory.org/contribute/ | Computer History Museum ]]
  * [[ http://www.livingcomputers.org/ | Living Computers ]] (allows you to log in remotely to several vintage machines)
  * [[ http://sdf.org/ | SDF Public Internet ]]
+ * [[ https://www.eff.org/ | Electronic Frontier Foundation ]]
 
 === Associations w/ an Educational Mission: ===
 
