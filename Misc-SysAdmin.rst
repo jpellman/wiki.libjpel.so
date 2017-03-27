@@ -41,6 +41,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * An analogy: web/app servers / load balancers belong to the same sub-class of problems that HPC schedulers treat, but are just more narrow in scope.
 
+* HP iLO power button options: https://www.experts-exchange.com/questions/27971206/HP-iLO.html
+
 **Outside Links to be Sorted:**
 
   http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
