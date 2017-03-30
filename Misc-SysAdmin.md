@@ -20,6 +20,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   [Article on JVM Heap Size](https://www.yourkit.com/docs/kb/sizes.jsp) & [Oracle Docs on JVM Heap](https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html)
 -   An analogy: web/app servers / load balancers belong to the same sub-class of problems that HPC schedulers treat, but are just more narrow in scope.
 -   HP iLO power button options: <https://www.experts-exchange.com/questions/27971206/HP-iLO.html>
+-   A 301 redirect in nginx for HTTPS requires a cert because the packet needs to be decrypted for nginx to inspect the host field of the packet header.
 
 **Outside Links to be Sorted:**
 
