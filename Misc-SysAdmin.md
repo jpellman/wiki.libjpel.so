@@ -21,6 +21,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   An analogy: web/app servers / load balancers belong to the same sub-class of problems that HPC schedulers treat, but are just more narrow in scope.
 -   HP iLO power button options: <https://www.experts-exchange.com/questions/27971206/HP-iLO.html>
 -   A 301 redirect in nginx for HTTPS requires a cert because the packet needs to be decrypted for nginx to inspect the host field of the packet header.
+-   git branch != git checkout for creating a new branch using the CLI.
 
 **Outside Links to be Sorted:**
 
