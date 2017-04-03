@@ -14,4 +14,5 @@ Various Musings
         -   Use this data to predict future failures. If a future failure seems plausible, notify the researcher, pause the pipeline, or some combination of these two.
         -   If a failure happens often enough, request manual intervention/maintenance.
 -   There should be a facilitation method of connecting philanthropists/foundations to worthy projects based on the insights in Jon Kleinberg et al's social networks book.
+-   Load balancers such as nginx/HAProxy are analogous to grid schedulers. The chief difference lies in the constituency that is requesting resources- scientists on an internal network vs the general public.
 
