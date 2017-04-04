@@ -42,6 +42,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 > <https://www.madboa.com/geek/gpg-quickstart>
 >
 > <http://explainshell.com/>
+>
+> <https://istlsfastyet.com/>
 
 * * * * *
 
