@@ -44,6 +44,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 > <http://explainshell.com/>
 >
 > <https://istlsfastyet.com/>
+>
+> <https://hpbn.co/transport-layer-security-tls/>
 
 * * * * *
 
