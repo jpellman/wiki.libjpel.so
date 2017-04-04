@@ -23,6 +23,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   A 301 redirect in nginx for HTTPS requires a cert because the packet needs to be decrypted for nginx to inspect the host field of the packet header.
 -   git branch != git checkout for creating a new branch using the CLI.
 -   [Keep Alive Client](https://en.wikipedia.org/wiki/HTTP_persistent_connection)
+-   Variable expansion doesn't work with watch.
 
 **Outside Links to be Sorted:**
 
