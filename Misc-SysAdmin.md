@@ -24,6 +24,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   git branch != git checkout for creating a new branch using the CLI.
 -   [Keep Alive Client](https://en.wikipedia.org/wiki/HTTP_persistent_connection)
 -   Variable expansion doesn't work with watch.
+-   [Fiber (specialized form of thread)](https://en.wikipedia.org/wiki/Fiber_(computer_science))
 
 **Outside Links to be Sorted:**
 

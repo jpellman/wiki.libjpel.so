@@ -36,6 +36,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
  * Variable expansion doesn't work with watch.
 
+ * [[ https://en.wikipedia.org/wiki/Fiber_(computer_science) | Fiber (specialized form of thread) ]]
 
 '''Outside Links to be Sorted:'''
 
