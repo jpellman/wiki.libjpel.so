@@ -53,6 +53,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * `Fiber (specialized form of thread)`_
 
+* CAA_ (combines SSL/TLS certificate file w/ a DNS record to increase security)
+
 **Outside Links to be Sorted:**
 
   http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
@@ -94,6 +96,8 @@ SystemsAdministration_
 .. _Keep Alive Client: https://en.wikipedia.org/wiki/HTTP_persistent_connection
 
 .. _Fiber (specialized form of thread): https://en.wikipedia.org/wiki/Fiber_(computer_science)
+
+.. _CAA: https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization
 
 .. _SystemsAdministration: ../SystemsAdministration
 

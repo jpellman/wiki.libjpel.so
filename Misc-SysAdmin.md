@@ -25,6 +25,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   [Keep Alive Client](https://en.wikipedia.org/wiki/HTTP_persistent_connection)
 -   Variable expansion doesn't work with watch.
 -   [Fiber (specialized form of thread)](https://en.wikipedia.org/wiki/Fiber_(computer_science))
+-   [CAA](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization) (combines SSL/TLS certificate file w/ a DNS record to increase security)
 
 **Outside Links to be Sorted:**
 
