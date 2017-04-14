@@ -57,6 +57,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * The -c flag for du caches file size estimates so that they can be retrieve more quickly on future invocations? ( `More reading`_ in addition to the man file)
 
+* `XKCD Password Generator`_
+
 **Outside Links to be Sorted:**
 
   http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
@@ -102,6 +104,8 @@ SystemsAdministration_
 .. _CAA: https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization
 
 .. _More reading: http://www.linfo.org/du.html
+
+.. _XKCD Password Generator: http://preshing.com/20110811/xkcd-password-generator/
 
 .. _SystemsAdministration: ../SystemsAdministration
 

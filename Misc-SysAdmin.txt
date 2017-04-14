@@ -42,6 +42,9 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
  * The -c flag for du caches file size estimates so that they can be retrieve more quickly on future invocations?
  ( [[ http://www.linfo.org/du.html | More reading ]] in addition to the man file)
+
+ * [[ http://preshing.com/20110811/xkcd-password-generator/ | XKCD Password Generator ]]
+
 '''Outside Links to be Sorted:'''
 
  http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages

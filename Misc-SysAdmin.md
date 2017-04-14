@@ -27,6 +27,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   [Fiber (specialized form of thread)](https://en.wikipedia.org/wiki/Fiber_(computer_science))
 -   [CAA](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization) (combines SSL/TLS certificate file w/ a DNS record to increase security)
 -   The -c flag for du caches file size estimates so that they can be retrieve more quickly on future invocations? ( [More reading](http://www.linfo.org/du.html) in addition to the man file)
+-   [XKCD Password Generator](http://preshing.com/20110811/xkcd-password-generator/)
 
 **Outside Links to be Sorted:**
 
