@@ -59,6 +59,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * `XKCD Password Generator`_
 
+* `Canned nginx Configs (to use as templates)`_
+
 **Outside Links to be Sorted:**
 
   http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
@@ -106,6 +108,8 @@ SystemsAdministration_
 .. _More reading: http://www.linfo.org/du.html
 
 .. _XKCD Password Generator: http://preshing.com/20110811/xkcd-password-generator/
+
+.. _Canned nginx Configs (to use as templates): https://www.nginx.com/resources/wiki/start/
 
 .. _SystemsAdministration: ../SystemsAdministration
 
