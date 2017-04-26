@@ -9,5 +9,9 @@ Pages that related to academic computing.
 
 <<FullSearchCached(category:AcademicComputing)>>
 
+Articles to read:
+
+ * [[ https://arxiv.org/pdf/1312.1258.pdf | FEDORA Article ]]
+
 ----
 CategoryCategory

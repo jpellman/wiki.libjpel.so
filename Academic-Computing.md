@@ -6,6 +6,10 @@ Pages that related to academic computing.
 
 [[FullSearchCached(category:AcademicComputing)]]\_
 
+Articles to read:
+
+-   [FEDORA Article](https://arxiv.org/pdf/1312.1258.pdf)
+
 * * * * *
 
 > [CategoryCategory](../CategoryCategory)
