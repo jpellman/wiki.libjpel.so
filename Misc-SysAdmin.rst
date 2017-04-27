@@ -61,6 +61,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * `Canned nginx Configs (to use as templates)`_
 
+* Apparently KVM and Virtualbox are incompatible / can't be run simultaneously.  See `here <http://www.dedoimedo.com/computers/kvm-virtualbox.html>`__ for an idea on how to handle that.
+
 **Outside Links to be Sorted:**
 
   http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages

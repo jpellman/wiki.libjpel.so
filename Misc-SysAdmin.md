@@ -29,6 +29,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   The -c flag for du caches file size estimates so that they can be retrieve more quickly on future invocations? ( [More reading](http://www.linfo.org/du.html) in addition to the man file)
 -   [XKCD Password Generator](http://preshing.com/20110811/xkcd-password-generator/)
 -   [Canned nginx Configs (to use as templates)](https://www.nginx.com/resources/wiki/start/)
+-   Apparently KVM and Virtualbox are incompatible / can't be run simultaneously. See [here](http://www.dedoimedo.com/computers/kvm-virtualbox.html) for an idea on how to handle that.
 
 **Outside Links to be Sorted:**
 
