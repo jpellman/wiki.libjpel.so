@@ -65,6 +65,8 @@ Data Transfer / Storage
 
 * Don't assume that because a bay can be taken out of a server, it is plug'n'play.  You **will** be burned on this if you do not bear this in mind.  Server hard drives are not to be treated like USB hard drives you may use with a desktop.
 
+* *dd if=[block level device or image] bs=[block size A] | pv | dd of=[block level device or image] bs=[block size B] conv=sync* is a great way to corrupt an image. 
+
 -------------------------
 
 

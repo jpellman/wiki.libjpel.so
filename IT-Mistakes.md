@@ -47,6 +47,7 @@ Data Transfer / Storage
 
 -   When transferring via Sneakernet (still occurs in rare situations): Not creating a manifest of files to be transferred before transferring them to a physical medium. Without such a manifest, there's no way of keeping track of whether or not all the files that were intended to be transferred actually were.
 -   Don't assume that because a bay can be taken out of a server, it is plug'n'play. You **will** be burned on this if you do not bear this in mind. Server hard drives are not to be treated like USB hard drives you may use with a desktop.
+-   *dd if=[block level device or image] bs=[block size A] | pv | dd of=[block level device or image] bs=[block size B] conv=sync* is a great way to corrupt an image.
 
 * * * * *
 
