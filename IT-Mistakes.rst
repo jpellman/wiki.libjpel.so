@@ -65,7 +65,7 @@ Data Transfer / Storage
 
 * Don't assume that because a bay can be taken out of a server, it is plug'n'play.  You **will** be burned on this if you do not bear this in mind.  Server hard drives are not to be treated like USB hard drives you may use with a desktop.
 
-* *dd if=[block level device or image] bs=[block size A] | pv | dd of=[block level device or image] bs=[block size B] conv=sync* is a great way to corrupt an image. 
+* *dd if=[block level device or image] bs=[block size A] | pv | dd of=[block level device or image] bs=[block size B] conv=sync* is a great way to corrupt an image. It's always a good idea to a) make sure you understand what a flag is doing (*conv=sync*) rather than trusting the documentation it came from blindly and b) make sure that the block size is the same on either side of a pipe using multiple dds.
 
 -------------------------
 
