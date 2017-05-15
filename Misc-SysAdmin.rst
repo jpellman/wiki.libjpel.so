@@ -65,6 +65,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * Fast Boot as an issue with bootable thumb drives: https://forums.freebsd.org/threads/58001/#post-331378
 
+* Succinct overview of iptables: https://wiki.centos.org/HowTos/Network/IPTables
+
 **Outside Links to be Sorted:**
 
   http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
