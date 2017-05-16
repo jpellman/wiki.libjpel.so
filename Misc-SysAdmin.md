@@ -32,6 +32,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   Apparently KVM and Virtualbox are incompatible / can't be run simultaneously. See [here](http://www.dedoimedo.com/computers/kvm-virtualbox.html) for an idea on how to handle that.
 -   Fast Boot as an issue with bootable thumb drives: <https://forums.freebsd.org/threads/58001/#post-331378>
 -   Succinct overview of iptables: <https://wiki.centos.org/HowTos/Network/IPTables>
+-   More readings of ZFS configurations: <https://calomel.org/zfs_raid_speed_capacity.html> , <https://www.delphix.com/blog/delphix-engineering/zfs-raidz-stripe-width-or-how-i-learned-stop-worrying-and-love-raidz>
 
 **Outside Links to be Sorted:**
 
