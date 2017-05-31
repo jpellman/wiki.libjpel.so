@@ -34,6 +34,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   Succinct overview of iptables: <https://wiki.centos.org/HowTos/Network/IPTables>
 -   More readings of ZFS configurations: <https://calomel.org/zfs_raid_speed_capacity.html> , <https://www.delphix.com/blog/delphix-engineering/zfs-raidz-stripe-width-or-how-i-learned-stop-worrying-and-love-raidz>
 -   cat /dev/null \> /path/to/log allows you to wipe a log without restarting any associated process / daemon
+-   When a user is encountering timeout errors with SSH: <https://www.bjornjohansen.no/ssh-timeout>
 
 **Outside Links to be Sorted:**
 
