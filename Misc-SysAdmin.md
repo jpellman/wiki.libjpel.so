@@ -67,6 +67,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 > <https://teachyourselfcs.com>
 >
 > <https://mxtoolbox.com/SuperTool.aspx>
+>
+> [Why NFS Sucks](https://www.kernel.org/doc/ols/2006/ols2006v2-pages-59-72.pdf)
 
 * * * * *
 

@@ -105,6 +105,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
   https://mxtoolbox.com/SuperTool.aspx
 
+  `Why NFS Sucks`_
+
 -------------------------
 
 
@@ -132,6 +134,8 @@ SystemsAdministration_
 .. _XKCD Password Generator: http://preshing.com/20110811/xkcd-password-generator/
 
 .. _Canned nginx Configs (to use as templates): https://www.nginx.com/resources/wiki/start/
+
+.. _Why NFS Sucks: https://www.kernel.org/doc/ols/2006/ols2006v2-pages-59-72.pdf
 
 .. _SystemsAdministration: ../SystemsAdministration
 
