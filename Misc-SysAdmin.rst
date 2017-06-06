@@ -73,6 +73,12 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * When a user is encountering timeout errors with SSH: https://www.bjornjohansen.no/ssh-timeout
 
+* strace references:
+
+  * http://www.linuxintro.org/wiki/Strace:_what_a_process_does
+
+  * http://www.linux-magazine.com/Issues/2009/105/Practical-strace
+
 **Outside Links to be Sorted:**
 
   http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages

@@ -35,6 +35,9 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   More readings of ZFS configurations: <https://calomel.org/zfs_raid_speed_capacity.html> , <https://www.delphix.com/blog/delphix-engineering/zfs-raidz-stripe-width-or-how-i-learned-stop-worrying-and-love-raidz>
 -   cat /dev/null \> /path/to/log allows you to wipe a log without restarting any associated process / daemon
 -   When a user is encountering timeout errors with SSH: <https://www.bjornjohansen.no/ssh-timeout>
+-   strace references:
+    -   <http://www.linuxintro.org/wiki/Strace:_what_a_process_does>
+    -   <http://www.linux-magazine.com/Issues/2009/105/Practical-strace>
 
 **Outside Links to be Sorted:**
 
