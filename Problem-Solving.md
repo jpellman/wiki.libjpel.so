@@ -50,6 +50,11 @@ There are varying levels of analysis when you encounter a problem (i.e., OSI lev
 
 If a 503 server error is being propagated, you would first want to isolate which layer was causing the 503. You could accomplish this by perusing the logs at each level and comparing them.
 
+Operators
+---------
+
+-   Increasing log verbosity- this should be a first step in troubleshooting/debugging.
+
 References
 ----------
 
