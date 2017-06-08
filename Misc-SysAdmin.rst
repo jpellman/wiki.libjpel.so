@@ -121,6 +121,12 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
   `Why NFS Sucks`_
 
+Wizards:
+
+* http://www.kegel.com/
+
+* http://www.rodsbooks.com/
+
 -------------------------
 
 
