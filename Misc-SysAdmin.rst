@@ -87,6 +87,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
   * https://news.ycombinator.com/item?id=2428004
 
+* gpasswd - it exists ; it is a good way to remove users from groups etc
+
 **Outside Links to be Sorted:**
 
   http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages

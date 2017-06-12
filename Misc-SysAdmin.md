@@ -42,6 +42,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
     -   <http://nichol.as/zeromq-an-introduction>
     -   <http://intothesaltmine.readthedocs.io/en/latest/chapters/command-and-control/zeromq.html>
     -   <https://news.ycombinator.com/item?id=2428004>
+-   gpasswd - it exists ; it is a good way to remove users from groups etc
 
 **Outside Links to be Sorted:**
 
