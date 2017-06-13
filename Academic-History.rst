@@ -12,9 +12,7 @@ General History
 
 * `The Rise of Universities by Charles Homer Haskins`_
 
-* [[http://digitalcommons.ilr.cornell.edu/cgi/viewcontent.cgi?article=1068&context=workingpapers | The Economics of Tuition and Fees in American
-
-Higher Education ]]
+* `The Economics of Tuition and Fees in American Higher Education`_
 
 * `Demystifying Endowments`_
 
@@ -36,6 +34,8 @@ Defunct/Merged Colleges
 .. ############################################################################
 
 .. _The Rise of Universities by Charles Homer Haskins: http://www.elfinspell.com/UniversitiesTitle.html
+
+.. _The Economics of Tuition and Fees in American Higher Education: http://digitalcommons.ilr.cornell.edu/cgi/viewcontent.cgi?article=1068&context=workingpapers
 
 .. _Demystifying Endowments: http://digitalcommons.ilr.cornell.edu/reports/41/
 
