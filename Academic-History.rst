@@ -12,7 +12,7 @@ General History
 
 * `The Rise of Universities by Charles Homer Haskins`_
 
-* [[http://digitalcommons.ilr.cornell.edu/cgi/viewcontent.cgi?article=1068&context=workingpapers | The Economics of Tuition and Fees in American
+* [[ http://digitalcommons.ilr.cornell.edu/workingpapers/67/ | The Economics of Tuition and Fees in American
 
 Higher Education ]]
 
