@@ -16,6 +16,8 @@ General History
 
 * `Demystifying Endowments`_
 
+* `Tuition Rising: Why College Costs So Much`_
+
 Defunct/Merged Colleges
 -----------------------
 
@@ -38,6 +40,8 @@ Defunct/Merged Colleges
 .. _The Economics of Tuition and Fees in American Higher Education: http://digitalcommons.ilr.cornell.edu/cgi/viewcontent.cgi?article=1068&context=workingpapers
 
 .. _Demystifying Endowments: http://digitalcommons.ilr.cornell.edu/reports/41/
+
+.. _`Tuition Rising: Why College Costs So Much`: https://www.educause.edu/ir/library/pdf/ffp0005s.pdf
 
 .. _Limited Engagement: https://www.amazon.com/Limited-Engagement-Kirkland-1965-1978-Coordinate/dp/1425700691
 
