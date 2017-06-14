@@ -89,6 +89,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * gpasswd - it exists ; it is a good way to remove users from groups etc
 
+* modules_ are often more useful than grains in getting system info in salt / just because a grain doesn't exist, doesn't mean there isn't an easy way to get it that's not cmd.run
+
 **Outside Links to be Sorted:**
 
   http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
@@ -156,6 +158,8 @@ SystemsAdministration_
 .. _XKCD Password Generator: http://preshing.com/20110811/xkcd-password-generator/
 
 .. _Canned nginx Configs (to use as templates): https://www.nginx.com/resources/wiki/start/
+
+.. _modules: https://docs.saltstack.com/en/latest/salt-modindex.html
 
 .. _Why NFS Sucks: https://www.kernel.org/doc/ols/2006/ols2006v2-pages-59-72.pdf
 
