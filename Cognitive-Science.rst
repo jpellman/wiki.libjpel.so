@@ -16,6 +16,13 @@ Learning_
 
 `Decision Making`_
 
+Neuroimaging_
+
+Articles:
+---------
+
+* `Could a Neuroscientist Understand a Microprocessor?`_
+
 -------------------------
 
  CategoryCategory_
@@ -31,6 +38,10 @@ Learning_
 .. _Learning: ../Learning
 
 .. _Decision Making: ../DecisionMaking
+
+.. _Neuroimaging: ../NeuroImaging
+
+.. _Could a Neuroscientist Understand a Microprocessor?: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268
 
 .. _CategoryCategory: ../CategoryCategory
 

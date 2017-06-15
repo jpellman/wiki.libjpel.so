@@ -17,5 +17,11 @@ Notes on cognitive science.
 
 [[DecisionMaking | Decision Making]]
 
+[[NeuroImaging | Neuroimaging]]
+
+== Articles: ==
+
+ * [[ http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268 | Could a Neuroscientist Understand a Microprocessor? ]]
+
 ----
 CategoryCategory
