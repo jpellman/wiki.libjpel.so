@@ -72,6 +72,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
  * [[https://docs.saltstack.com/en/latest/salt-modindex.html|modules]] are often more useful than grains in getting system info in salt / just because a grain doesn't exist, doesn't mean there isn't an easy way to get it that's not cmd.run
 
+ * https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/
+
 '''Outside Links to be Sorted:'''
 
  http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
