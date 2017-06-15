@@ -14,7 +14,7 @@ Notes on cognitive science.
 
 [Decision Making](../DecisionMaking)
 
-[Neuroimaging](../NeuroImaging)
+[Neuroimaging](../Neuroimaging)
 
 Articles:
 =========
