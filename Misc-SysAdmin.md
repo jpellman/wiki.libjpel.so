@@ -45,6 +45,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   gpasswd - it exists ; it is a good way to remove users from groups etc
 -   [modules](https://docs.saltstack.com/en/latest/salt-modindex.html) are often more useful than grains in getting system info in salt / just because a grain doesn't exist, doesn't mean there isn't an easy way to get it that's not cmd.run
 -   <https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/>
+-   <http://hackaday.com/2014/05/28/interview-inventing-the-unix-sudo-command/>
 
 **Outside Links to be Sorted:**
 

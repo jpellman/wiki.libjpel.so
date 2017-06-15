@@ -93,6 +93,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/
 
+* http://hackaday.com/2014/05/28/interview-inventing-the-unix-sudo-command/
+
 **Outside Links to be Sorted:**
 
   http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
