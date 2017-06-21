@@ -131,14 +131,6 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
   `Why NFS Sucks`_
 
-A slew of Application-level protocol readings:
-
-* https://www.w3.org/History/19921103-hypertext/hypertext/WWW/Protocols/HTTP.html
-
-* https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html
-
-* https://daniel.haxx.se/docs/ftp-vs-http.html
-
 Wizards:
 
 * http://www.kegel.com/
