@@ -8,11 +8,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
  * fail2ban : a great way to get rid of spammers / brute force attacks.  Thanks Yarik!
 
- * bash : &#91;&#91; ${var} =~ "foo" &#93;&#93; - check if a string contains a substring "foo"
-
  * If an AWS S3 upload is MultiPart, the ETag attribute of an S3 bucket object is *not* an MD5 hash.  It is the hashes for each part uploaded concatenated, plus a dash and the number of parts uploaded (see [[http://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonResponseHeaders.html|here]]).
-
- * Display line numbers in vim : http://vim.wikia.com/wiki/Display_line_numbers
  
  * Exec last command in bash *!!*.
 
@@ -50,8 +46,6 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
  * More readings of ZFS configurations: https://calomel.org/zfs_raid_speed_capacity.html , https://www.delphix.com/blog/delphix-engineering/zfs-raidz-stripe-width-or-how-i-learned-stop-worrying-and-love-raidz
 
  * cat /dev/null > /path/to/log allows you to wipe a log without restarting any associated process / daemon
-
- * When a user is encountering timeout errors with SSH: https://www.bjornjohansen.no/ssh-timeout
 
  * strace references:
   * http://www.linuxintro.org/wiki/Strace:_what_a_process_does

@@ -8,11 +8,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   uniq -c : 'prefix lines by the number of occurrences'
 -   In the sudoers file : *\#includedir* is **not** a comment. It's a directive that points to supplemental config files. There are several other *\#include* directives. This mimics C syntax.
 -   fail2ban : a great way to get rid of spammers / brute force attacks. Thanks Yarik!
--   bash : .. raw:: html  
-    &\#91;
-
 -   If an AWS S3 upload is [MultiPart](../MultiPart), the ETag attribute of an S3 bucket object is *not* an MD5 hash. It is the hashes for each part uploaded concatenated, plus a dash and the number of parts uploaded (see [here](http://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonResponseHeaders.html)).
--   Display line numbers in vim : <http://vim.wikia.com/wiki/Display_line_numbers>
 -   Exec last command in bash *!!*.
 -   Apparently the Java heap makes use of the RAM allocated for buffer/cache (so the buffer/cache isn't freed up).
 -   [Article on JVM Heap Size](https://www.yourkit.com/docs/kb/sizes.jsp) & [Oracle Docs on JVM Heap](https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html)
@@ -31,7 +27,6 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   Succinct overview of iptables: <https://wiki.centos.org/HowTos/Network/IPTables>
 -   More readings of ZFS configurations: <https://calomel.org/zfs_raid_speed_capacity.html> , <https://www.delphix.com/blog/delphix-engineering/zfs-raidz-stripe-width-or-how-i-learned-stop-worrying-and-love-raidz>
 -   cat /dev/null \> /path/to/log allows you to wipe a log without restarting any associated process / daemon
--   When a user is encountering timeout errors with SSH: <https://www.bjornjohansen.no/ssh-timeout>
 -   strace references:
     -   <http://www.linuxintro.org/wiki/Strace:_what_a_process_does>
     -   <http://www.linux-magazine.com/Issues/2009/105/Practical-strace>
