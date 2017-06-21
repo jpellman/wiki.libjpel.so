@@ -9,6 +9,12 @@ Systems Administration Tools
 
 * last_ (can show reboot times)
 
+* lastlog_ (can show last login for a user- with decently informative timestamp)
+
+* https://mxtoolbox.com/SuperTool.aspx
+
+* https://peteris.rocks/blog/htop/
+
 -------------------------
 
  SystemsAdministration_
@@ -20,6 +26,8 @@ Systems Administration Tools
 .. _Gas Hosts: https://github.com/2ndalpha/gasmask
 
 .. _last: https://linux.die.net/man/1/last
+
+.. _lastlog: https://linux.die.net/man/8/lastlog
 
 .. _SystemsAdministration: ../SystemsAdministration
 
