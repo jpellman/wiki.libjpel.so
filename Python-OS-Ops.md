@@ -11,4 +11,4 @@ Generally useful: [shlex.split](https://docs.python.org/2/library/shlex.html#shl
 
 * * * * *
 
-> [SystemsAdministration](../SystemsAdministration)
+> Python

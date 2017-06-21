@@ -11,7 +11,7 @@ Generally useful: `shlex.split`_
 
 -------------------------
 
- SystemsAdministration_
+ Python
 
 .. ############################################################################
 
@@ -55,6 +55,4 @@ Generally useful: `shlex.split`_
 .. _shutil.copytree(source,destination): https://docs.python.org/2/library/shutil.html#shutil.copytree
 
 .. _shlex.split: https://docs.python.org/2/library/shlex.html#shlex.split
-
-.. _SystemsAdministration: ../SystemsAdministration
 
