@@ -27,7 +27,7 @@ Useful Packages
 
 
 
-SystemsAdministration_ CategoryCategory_
+Scripting CategoryCategory_
 
 .. ############################################################################
 
@@ -38,8 +38,6 @@ SystemsAdministration_ CategoryCategory_
 .. _How Python Finds Packages: https://leemendelowitz.github.io/blog/how-does-python-find-packages.html
 
 .. _Natural Sort: https://pypi.python.org/pypi/natsort
-
-.. _SystemsAdministration: ../SystemsAdministration
 
 .. _CategoryCategory: ../CategoryCategory
 

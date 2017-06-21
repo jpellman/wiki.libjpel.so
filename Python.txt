@@ -18,4 +18,4 @@ Various links to articles and notes regarding Python.
 
 ----
 
-SystemsAdministration CategoryCategory
+Scripting CategoryCategory
