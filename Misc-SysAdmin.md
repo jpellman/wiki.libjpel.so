@@ -82,10 +82,24 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 >
 > [Why NFS Sucks](https://www.kernel.org/doc/ols/2006/ols2006v2-pages-59-72.pdf)
 
+A slew of Application-level protocol readings:
+
+-   <https://www.w3.org/History/19921103-hypertext/hypertext/WWW/Protocols/HTTP.html>
+-   <https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html>
+-   <https://daniel.haxx.se/docs/ftp-vs-http.html>
+
 Wizards:
 
 -   <http://www.kegel.com/>
 -   <http://www.rodsbooks.com/>
+-   <http://grymoire.com/>
+-   <https://daniel.haxx.se/>
+-   <http://everythingsysadmin.com/>
+
+Documentation Projects:
+
+-   <http://www.linfo.org/>
+-   <http://www.tldp.org/>
 
 * * * * *
 
