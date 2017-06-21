@@ -16,6 +16,8 @@ The future:
 
 http://hackr.io/tutorials/ansible
 
+* When a user is encountering timeout errors with SSH: https://www.bjornjohansen.no/ssh-timeout
+
 -------------------------
 
 
