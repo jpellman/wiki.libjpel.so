@@ -29,11 +29,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * Display line numbers in vim : http://vim.wikia.com/wiki/Display_line_numbers
 
-* Switch from less to vim- ':wv'.
-
 * Exec last command in bash *!!*.
-
-* Check before replacing in vim :s/foo/bar/gc'
 
 * Apparently the Java heap makes use of the RAM allocated for buffer/cache (so the buffer/cache isn't freed up).
 
@@ -46,8 +42,6 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 * A 301 redirect in nginx for HTTPS requires a cert because the packet needs to be decrypted for nginx to inspect the host field of the packet header.
 
 * git branch != git checkout for creating a new branch using the CLI.
-
-* `Keep Alive Client`_
 
 * Variable expansion doesn't work with watch.
 
@@ -164,8 +158,6 @@ SystemsAdministration_
 .. _Article on JVM Heap Size: https://www.yourkit.com/docs/kb/sizes.jsp
 
 .. _Oracle Docs on JVM Heap: https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html
-
-.. _Keep Alive Client: https://en.wikipedia.org/wiki/HTTP_persistent_connection
 
 .. _Fiber (specialized form of thread): https://en.wikipedia.org/wiki/Fiber_(computer_science)
 
