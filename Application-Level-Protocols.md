@@ -8,4 +8,4 @@ Various links to articles and notes regarding application-level network protocol
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory) [SystemsAdministration](../SystemsAdministration)
+[CategoryCategory](../CategoryCategory) Networking

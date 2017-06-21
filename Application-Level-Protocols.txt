@@ -10,4 +10,5 @@ Various links to articles and notes regarding application-level network protocol
 <<FullSearchCached(category:ApplicationLevelProtocols)>>
 
 ----
-CategoryCategory SystemsAdministration
+
+CategoryCategory Networking

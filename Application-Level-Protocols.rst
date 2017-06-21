@@ -10,11 +10,11 @@ Various links to articles and notes regarding application-level network protocol
 
 -------------------------
 
- CategoryCategory_ SystemsAdministration_
+
+
+CategoryCategory_ Networking
 
 .. ############################################################################
 
 .. _CategoryCategory: ../CategoryCategory
-
-.. _SystemsAdministration: ../SystemsAdministration
 
