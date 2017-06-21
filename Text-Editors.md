@@ -20,6 +20,7 @@ Odds and ends:
 
 -   Switch from less to vim- ':wv'.
 -   Check before replacing in vim :s/foo/bar/gc'
+-   Display line numbers in vim : <http://vim.wikia.com/wiki/Display_line_numbers>
 
 emacs
 -----
