@@ -1,5 +1,5 @@
 ## page was renamed from ShellScripting
-= Shell Scripting =
+= Bash =
 
 <<TableOfContents(2)>>
 

@@ -1,7 +1,7 @@
 #format rst
 
-Shell Scripting
-===============
+Bash
+====
 
 .. contents:: :depth: 2
 

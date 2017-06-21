@@ -1,7 +1,7 @@
 \#format rst
 
-Shell Scripting
-===============
+Bash
+====
 
 Using input-output redirection
 ------------------------------
