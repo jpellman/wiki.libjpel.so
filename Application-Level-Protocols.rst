@@ -12,9 +12,11 @@ Various links to articles and notes regarding application-level network protocol
 
 
 
-CategoryCategory_ Networking
+CategoryCategory_ Networking_
 
 .. ############################################################################
 
 .. _CategoryCategory: ../CategoryCategory
+
+.. _Networking: ../Networking
 
