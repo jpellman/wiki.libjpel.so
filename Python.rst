@@ -1,5 +1,14 @@
 #format rst
 
+Python
+======
+
+Various links to articles and notes regarding Python.
+
+**List of pages in this category:**
+
+`[[FullSearchCached(category:Python)]]`_
+
 Various Python-Related Readings
 -------------------------------
 
@@ -16,7 +25,9 @@ Useful Packages
 
 -------------------------
 
- SystemsAdministration_
+
+
+SystemsAdministration_ CategoryCategory_
 
 .. ############################################################################
 
@@ -29,4 +40,6 @@ Useful Packages
 .. _Natural Sort: https://pypi.python.org/pypi/natsort
 
 .. _SystemsAdministration: ../SystemsAdministration
+
+.. _CategoryCategory: ../CategoryCategory
 

@@ -1,3 +1,11 @@
+= Python =
+
+Various links to articles and notes regarding Python.
+
+'''List of pages in this category:'''
+
+<<FullSearchCached(category:Python)>>
+
 == Various Python-Related Readings ==
 
  * [[http://www.jeffknupp.com/blog/2012/03/31/pythons-hardest-problem/ | The Global Interpreter Lock - Python's Hardest Problem]]
@@ -9,4 +17,5 @@
  * [[https://pypi.python.org/pypi/natsort|Natural Sort]]
 
 ----
-SystemsAdministration
+
+SystemsAdministration CategoryCategory
