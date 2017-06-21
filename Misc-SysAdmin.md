@@ -44,8 +44,6 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 > <http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages>
 >
-> <https://peteris.rocks/blog/htop/>
->
 > <https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/>
 >
 > <http://linuxatemyram.com>
@@ -69,8 +67,6 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 > <https://icesquare.com/wordpress/how-to-improve-zfs-performance/>
 >
 > <https://teachyourselfcs.com>
->
-> <https://mxtoolbox.com/SuperTool.aspx>
 >
 > [Why NFS Sucks](https://www.kernel.org/doc/ols/2006/ols2006v2-pages-59-72.pdf)
 
