@@ -16,6 +16,12 @@ Here are some links and resources to learn more about vim and emacs- the two mos
  * [[https://github.com/vim-syntastic/syntastic | Syntastic]] is a linter interface for vim for multiple languages.  (Requires linters to be installed separately;i.e., `pip install pylint`).
  * [[https://github.com/tpope/vim-pathogen | Pathogen ]] is a package/plugin manager, much like CRAN or CPAN.
 
+Odds and ends:
+
+ * Switch from less to vim- ':wv'.
+
+ * Check before replacing in vim :s/foo/bar/gc'
+
 == emacs ==
 
  * [[http://www.gnu.org/software/emacs/tour/ | GNU Emacs Tour]]
@@ -24,4 +30,4 @@ Here are some links and resources to learn more about vim and emacs- the two mos
 
 -----
 
-[[SystemsAdministration]]
+SystemsAdministration

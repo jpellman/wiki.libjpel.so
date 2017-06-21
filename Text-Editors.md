@@ -16,6 +16,11 @@ vim
 -   [Syntastic](https://github.com/vim-syntastic/syntastic) is a linter interface for vim for multiple languages. (Requires linters to be installed separately;i.e., `pip install pylint`).
 -   [Pathogen](https://github.com/tpope/vim-pathogen) is a package/plugin manager, much like CRAN or CPAN.
 
+Odds and ends:
+
+-   Switch from less to vim- ':wv'.
+-   Check before replacing in vim :s/foo/bar/gc'
+
 emacs
 -----
 

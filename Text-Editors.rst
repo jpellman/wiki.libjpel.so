@@ -24,6 +24,12 @@ vim
 
 * Pathogen_ is a package/plugin manager, much like CRAN or CPAN.
 
+Odds and ends:
+
+* Switch from less to vim- ':wv'.
+
+* Check before replacing in vim :s/foo/bar/gc'
+
 emacs
 -----
 
