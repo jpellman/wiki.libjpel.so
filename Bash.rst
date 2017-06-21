@@ -49,6 +49,23 @@ grep
 
 * . - wildcard character
 
+Bits and Pieces
+~~~~~~~~~~~~~~~
+
+* bash : .. raw:: html
+     &#91;
+
+  .. raw:: html
+     &#91;
+
+   ${var} =~ "foo" .. raw:: html
+     &#93;
+
+  .. raw:: html
+     &#93;
+
+   - check if a string contains a substring "foo"
+
 Practice
 ~~~~~~~~
 
@@ -68,7 +85,9 @@ More links
 
 -------------------------
 
- SystemsAdministration_
+
+
+SystemsAdministration_
 
 .. ############################################################################
 

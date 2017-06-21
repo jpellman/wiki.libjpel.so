@@ -38,6 +38,10 @@
  * * - returns lines with any number of consecutive repeats of search string
  * . - wildcard character
 
+=== Bits and Pieces ===
+
+ * bash : &#91;&#91; ${var} =~ "foo" &#93;&#93; - check if a string contains a substring "foo"
+
 === Practice ===
 
  * [[https://regex.alf.nu/ | RegEx Golf]]
@@ -50,5 +54,7 @@
 
  * [[http://mywiki.wooledge.org/BashPitfalls | Common Bash Pitfalls]]
  * [[http://www.davidpashley.com/articles/writing-robust-shell-scripts/ | Writing Robust Shell Scripts]]
-------------
-[[SystemsAdministration]]
+
+-----
+
+SystemsAdministration

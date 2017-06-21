@@ -33,6 +33,11 @@ Using grep and regular expressions to analyze text
 
 -   . - wildcard character
 
+### Bits and Pieces
+
+-   bash : .. raw:: html  
+    &\#91;
+
 ### Practice
 
 -   [RegEx Golf](https://regex.alf.nu/)
@@ -49,4 +54,4 @@ More links
 
 * * * * *
 
-> [SystemsAdministration](../SystemsAdministration)
+[SystemsAdministration](../SystemsAdministration)
