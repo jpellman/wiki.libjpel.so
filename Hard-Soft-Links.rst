@@ -54,7 +54,7 @@ Man Pages
 
 
 
-SystemsAdministration_
+StorageAndFileSystems_
 
 .. ############################################################################
 
@@ -66,5 +66,5 @@ SystemsAdministration_
 
 .. _Grymoire on inodes: http://www.grymoire.com/Unix/Inodes.html
 
-.. _SystemsAdministration: ../SystemsAdministration
+.. _StorageAndFileSystems: ../StorageAndFileSystems
 
