@@ -8,4 +8,4 @@ Notes/links for various scripting languages.
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory) [SystemsAdministration](../SystemsAdministration)
+[CategoryCategory](../CategoryCategory) [SystemsAdministration](../SystemsAdministration)
