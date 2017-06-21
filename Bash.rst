@@ -87,7 +87,7 @@ More links
 
 
 
-SystemsAdministration_
+Scripting
 
 .. ############################################################################
 
@@ -100,6 +100,4 @@ SystemsAdministration_
 .. _Common Bash Pitfalls: http://mywiki.wooledge.org/BashPitfalls
 
 .. _Writing Robust Shell Scripts: http://www.davidpashley.com/articles/writing-robust-shell-scripts/
-
-.. _SystemsAdministration: ../SystemsAdministration
 
