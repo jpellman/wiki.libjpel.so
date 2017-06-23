@@ -23,6 +23,8 @@ Articles:
 
 * `Could a Neuroscientist Understand a Microprocessor?`_
 
+* `How Academia and Publishing are Destroying Scientific Innovation: A Conversation with Sydney Brenner`_
+
 -------------------------
 
  CategoryCategory_
@@ -42,6 +44,8 @@ Articles:
 .. _Neuroimaging: ../Neuroimaging
 
 .. _Could a Neuroscientist Understand a Microprocessor?: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268
+
+.. _`How Academia and Publishing are Destroying Scientific Innovation: A Conversation with Sydney Brenner`: http://kingsreview.co.uk/articles/how-academia-and-publishing-are-destroying-scientific-innovation-a-conversation-with-sydney-brenner/
 
 .. _CategoryCategory: ../CategoryCategory
 
