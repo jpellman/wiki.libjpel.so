@@ -9,6 +9,7 @@ Systems Administration Tools
 -   [lastlog](https://linux.die.net/man/8/lastlog) (can show last login for a user- with decently informative timestamp)
 -   <https://mxtoolbox.com/SuperTool.aspx>
 -   <https://peteris.rocks/blog/htop/>
+-   <http://md5deep.sourceforge.net/>
 
 * * * * *
 

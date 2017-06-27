@@ -15,6 +15,8 @@ Systems Administration Tools
 
 * https://peteris.rocks/blog/htop/
 
+* http://md5deep.sourceforge.net/
+
 -------------------------
 
  SystemsAdministration_
