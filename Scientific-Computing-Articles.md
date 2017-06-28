@@ -9,6 +9,7 @@ Articles Discussing Scientific Computing
     -   Response : [Why bad scientific code beats code following "best practices"](http://yosefk.com/blog/why-bad-scientific-code-beats-code-following-best-practices.html)
 -   [HPC is dying, and MPI is killing it](http://www.dursi.ca/hpc-is-dying-and-mpi-is-killing-it/)
 -   [Genomics is not Special](https://www.biostars.org/p/119918/)
+-   [Indexing polar data with Tika](http://events.linuxfoundation.org/sites/events/files/slides/Tika_Slides.pdf)
 
 * * * * *
 

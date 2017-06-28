@@ -15,6 +15,8 @@ Articles Discussing Scientific Computing
 
 * `Genomics is not Special`_
 
+* `Indexing polar data with Tika`_
+
 -------------------------
 
  ScientificComputing_
@@ -32,6 +34,8 @@ Articles Discussing Scientific Computing
 .. _HPC is dying, and MPI is killing it: http://www.dursi.ca/hpc-is-dying-and-mpi-is-killing-it/
 
 .. _Genomics is not Special: https://www.biostars.org/p/119918/
+
+.. _Indexing polar data with Tika: http://events.linuxfoundation.org/sites/events/files/slides/Tika_Slides.pdf
 
 .. _ScientificComputing: ../ScientificComputing
 

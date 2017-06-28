@@ -6,5 +6,6 @@
   * Response : [[http://yosefk.com/blog/why-bad-scientific-code-beats-code-following-best-practices.html | Why bad scientific code beats code following "best practices"]]
  * [[http://www.dursi.ca/hpc-is-dying-and-mpi-is-killing-it/ | HPC is dying, and MPI is killing it]]
  * [[https://www.biostars.org/p/119918/ | Genomics is not Special ]]
+ * [[http://events.linuxfoundation.org/sites/events/files/slides/Tika_Slides.pdf | Indexing polar data with Tika ]]
 ----
 ScientificComputing
