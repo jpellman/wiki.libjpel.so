@@ -13,6 +13,7 @@ Interesting starting points:
  * [[Certifications]]
  * SystemsAdministration
  * AcademicComputing
+ * LibraryComputing
  * ScientificComputing
  * CognitiveScience
  * OpenScience

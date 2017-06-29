@@ -11,6 +11,7 @@ Interesting starting points:
 -   [Certifications](../Certifications)
 -   [SystemsAdministration](../SystemsAdministration)
 -   [AcademicComputing](../AcademicComputing)
+-   [LibraryComputing](../LibraryComputing)
 -   [ScientificComputing](../ScientificComputing)
 -   [CognitiveScience](../CognitiveScience)
 -   [OpenScience](../OpenScience)

@@ -19,6 +19,8 @@ Interesting starting points:
 
 * AcademicComputing_
 
+* LibraryComputing_
+
 * ScientificComputing_
 
 * CognitiveScience_
@@ -60,6 +62,8 @@ This wiki is powered by MoinMoin_.
 .. _SystemsAdministration: ../SystemsAdministration
 
 .. _AcademicComputing: ../AcademicComputing
+
+.. _LibraryComputing: ../LibraryComputing
 
 .. _ScientificComputing: ../ScientificComputing
 
