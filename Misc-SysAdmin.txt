@@ -98,6 +98,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
  [[https://www.kernel.org/doc/ols/2006/ols2006v2-pages-59-72.pdf|Why NFS Sucks]]
 
+ * https://cipherli.st/
+
 Wizards:
 
  * http://www.kegel.com/

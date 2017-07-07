@@ -105,6 +105,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
   `Why NFS Sucks`_
 
+* https://cipherli.st/
+
 Wizards:
 
 * http://www.kegel.com/
