@@ -41,6 +41,11 @@ MR Physics
 
 * http://www.grahamwideman.com/gw/brain/orientation/orientterms.htm
 
+General Courses
+~~~~~~~~~~~~~~~
+
+* `Chris Rorden's Course at GA Tech`_
+
 EEG
 ---
 
@@ -67,4 +72,6 @@ fNIRS
 .. _CamCAN: https://camcan-archive.mrc-cbu.cam.ac.uk/dataaccess/
 
 .. _UK Biobank: http://www.ukbiobank.ac.uk/imaging-data/
+
+.. _Chris Rorden's Course at GA Tech: https://web.archive.org/web/20110816023612/http://www.cabiatl.com/CABI/resources/Course/
 
