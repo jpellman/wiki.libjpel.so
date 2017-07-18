@@ -45,6 +45,8 @@ Associations w/ an Educational Mission:
 
 * Unigroup_
 
+* CSPR_
+
 Social Issues
 -------------
 
@@ -116,6 +118,8 @@ Education
 .. _LOPSA: https://lopsa.org/
 
 .. _Unigroup: http://www.unigroup.org/
+
+.. _CSPR: http://cpsr.org/
 
 .. _Mohawk Valley Resource Center for Refugees: https://www.mvrcr.org/donate/
 

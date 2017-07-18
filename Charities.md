@@ -30,6 +30,7 @@ Associations w/ an Educational Mission:
 
 -   [LOPSA](https://lopsa.org/)
 -   [Unigroup](http://www.unigroup.org/)
+-   [CSPR](http://cpsr.org/)
 
 Social Issues
 =============
