@@ -121,6 +121,8 @@ Wizards:
 
 * https://www.kennethreitz.org
 
+* http://www.guppylake.com/~nsb/
+
 Documentation Projects:
 
 * http://www.linfo.org/

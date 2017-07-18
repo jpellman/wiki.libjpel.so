@@ -82,6 +82,7 @@ Wizards:
 -   <https://daniel.haxx.se/>
 -   <http://everythingsysadmin.com/>
 -   <https://www.kennethreitz.org>
+-   <http://www.guppylake.com/~nsb/>
 
 Documentation Projects:
 
