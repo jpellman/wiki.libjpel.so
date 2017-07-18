@@ -81,6 +81,7 @@ Wizards:
 -   <http://grymoire.com/>
 -   <https://daniel.haxx.se/>
 -   <http://everythingsysadmin.com/>
+-   <https://www.kennethreitz.org>
 
 Documentation Projects:
 

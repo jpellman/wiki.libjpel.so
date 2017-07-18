@@ -119,6 +119,8 @@ Wizards:
 
 * http://everythingsysadmin.com/
 
+* https://www.kennethreitz.org
+
 Documentation Projects:
 
 * http://www.linfo.org/
