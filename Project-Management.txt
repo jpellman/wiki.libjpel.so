@@ -2,6 +2,7 @@ I'm putting various links to project management resources here to synthesize how
 
  * [[http://info.addgene.org/download-addgenes-ebook-management-for-scientists|Management for Scientists by Addgene]]
  * [[http://www.nickjenkins.net/prose/projectPrimer.pdf|Project Management by Nick Jenkinson]]
+ * [[http://www.sciencemag.org/careers/2002/07/project-management-scientists| Project Management for Scientists]]
  * [[https://en.wikibooks.org/wiki/Managing_Groups_and_Teams/Social_Loafing|Social Loafing]]
  * [[https://en.wikipedia.org/wiki/The_Mythical_Man-Month|Mythical Man Month]]
  * [[https://en.wikipedia.org/wiki/Amdahl%27s_law|Amdahl's law]]

@@ -6,6 +6,8 @@ I'm putting various links to project management resources here to synthesize how
 
 * `Project Management by Nick Jenkinson`_
 
+* `Project Management for Scientists`_
+
 * `Social Loafing`_
 
 * `Mythical Man Month`_
@@ -43,6 +45,8 @@ Advice:
 .. _Management for Scientists by Addgene: http://info.addgene.org/download-addgenes-ebook-management-for-scientists
 
 .. _Project Management by Nick Jenkinson: http://www.nickjenkins.net/prose/projectPrimer.pdf
+
+.. _Project Management for Scientists: http://www.sciencemag.org/careers/2002/07/project-management-scientists
 
 .. _Social Loafing: https://en.wikibooks.org/wiki/Managing_Groups_and_Teams/Social_Loafing
 
