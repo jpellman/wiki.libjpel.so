@@ -102,6 +102,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
  * https://sysadmincasts.com
 
+ * http://philip.greenspun.com/sql/
+
 Wizards:
 
  * http://www.kegel.com/
