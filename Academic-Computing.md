@@ -14,6 +14,7 @@ Articles to read:
 -   <http://www.dr-chuck.com/csev-blog/2014/09/how-to-achieve-vendor-lock-in-with-a-legit-open-source-license-affero-gpl/>
 -   <https://en.wikipedia.org/wiki/Andrew_Project>
 -   <https://en.wikipedia.org/wiki/Project_Athena>
+-   <https://citesandinsights.info/>
 
 * * * * *
 
