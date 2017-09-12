@@ -75,6 +75,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   <https://cipherli.st/>
 -   <https://sysadmincasts.com>
 -   <http://philip.greenspun.com/sql/>
+-   <https://wiki.xenproject.org/wiki/Xen_Networking>
 
 Wizards:
 

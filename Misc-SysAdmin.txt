@@ -104,6 +104,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
  * http://philip.greenspun.com/sql/
 
+ * https://wiki.xenproject.org/wiki/Xen_Networking
+
 Wizards:
 
  * http://www.kegel.com/
