@@ -15,6 +15,7 @@ Generating Unexpected Behavior When Invoking a Shell Command
 -   Inadequate planning before putting together a script.
 -   Inadequate logging for a script or command (e.g., should have a text file with status of various steps piped to it; send time for file sync).
 -   Lack of consideration for how script may operate across environments (i.e., different versions of Linux, etc).
+-   You cannot change ownership of a file or directory from a normal user to root easily (unless you are root). If you are changing ownership to root (or any other user) as a normal user, it [will not work](https://superuser.com/questions/697608/chown-operation-not-permitted).
 
 Simple Pragmatics
 -----------------
