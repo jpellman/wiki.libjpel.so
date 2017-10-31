@@ -76,6 +76,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   <https://sysadmincasts.com>
 -   <http://philip.greenspun.com/sql/>
 -   <https://wiki.xenproject.org/wiki/Xen_Networking>
+-   <https://wiki.hackzine.org/sysadmin/kvm-import-ova.html>
 
 Wizards:
 

@@ -106,6 +106,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
  * https://wiki.xenproject.org/wiki/Xen_Networking
 
+ * https://wiki.hackzine.org/sysadmin/kvm-import-ova.html
+
 Wizards:
 
  * http://www.kegel.com/
