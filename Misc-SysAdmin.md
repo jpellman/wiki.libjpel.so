@@ -77,6 +77,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 -   <http://philip.greenspun.com/sql/>
 -   <https://wiki.xenproject.org/wiki/Xen_Networking>
 -   <https://wiki.hackzine.org/sysadmin/kvm-import-ova.html>
+-   <http://clusterdesign.org/2012/08/lustre-and-panasas-are-not-so-different/>
 
 Wizards:
 

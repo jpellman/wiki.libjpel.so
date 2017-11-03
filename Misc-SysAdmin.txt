@@ -108,6 +108,8 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
  * https://wiki.hackzine.org/sysadmin/kvm-import-ova.html
 
+ * http://clusterdesign.org/2012/08/lustre-and-panasas-are-not-so-different/
+
 Wizards:
 
  * http://www.kegel.com/
