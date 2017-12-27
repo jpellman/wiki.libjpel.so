@@ -2,6 +2,9 @@
 
 Links to articles regarding the NifTI format that could be used as sources for an article / updates to PRONOM_.
 
+Links
+-----
+
 * https://www.nitrc.org/docman/view.php/26/204/TheNIfTI1Format2004.pdf
 
 * https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Formats
@@ -13,6 +16,16 @@ Links to articles regarding the NifTI format that could be used as sources for a
 * https://nifti.nimh.nih.gov/nifti-1/documentation/hbm_nifti_2004.pdf
 
 * https://nifti.nimh.nih.gov/nifti-2
+
+NifTI-1 PRONOM Fields
+---------------------
+
+[Table not converted]
+
+NifTI-2 PRONOM Fields
+---------------------
+
+[Table not converted]
 
 -------------------------
 
