@@ -58,5 +58,11 @@ Maxwell is essentially a gaming workstation that I use to try out new things loc
  * My ZFS backup scripts need to be put under version control.
  * The bash script I use to back up my Tweets could be improved (presently there are a lot of files produced with redundant information; it uses the shell script from [[http://blog.jphpsf.com/2012/05/07/backing-up-your-twitter-account-with-t/|here]].
 
+== Photos ==
+
+[[attachment:IMG_20190121_154736836.jpg|{{attachment:IMG_20190121_154736836.jpg||width=25%}}]]
+[[attachment:IMG_20190121_154801532.jpg|{{attachment:IMG_20190121_154801532.jpg||width=25%}}]]
+[[attachment:IMG_20190121_154834420.jpg|{{attachment:IMG_20190121_154834420.jpg||width=25%}}]]
+
 ------------
 [[Hosts]]
