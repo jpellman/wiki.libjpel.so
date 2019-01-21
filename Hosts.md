@@ -4,7 +4,7 @@ The following list contains pages for all (or at least, ideally all) of the acti
 
 **List of pages in this category:**
 
-[[FullSearchCached(category:HomeLab-Hosts)]]\_
+[[FullSearchCached(category:Hosts)]]\_
 
 * * * * *
 
