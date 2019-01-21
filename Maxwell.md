@@ -6,7 +6,7 @@ Maxwell
 Description
 -----------
 
-Maxwell is essentially a gaming workstation that I use to try out new things locally within my apartment. It is dual-boot, with Windows 10 on a 60 GB SSD and CentOS 7 on a 240 GB SSD. I first built it around February/March 2017, with a goal of creating a workstation that I could use for both experimentation and running [BOINC](<https://boincstats.com/en/stats/-1/user/detail/3500755>)- to be completely honest, part of my motivation was to see how close I could get to surpassing (or at least equalling) some of the older scientific lab hardware I had dealt with in the past using only consumer-grade parts.
+Maxwell is essentially a gaming workstation that I use to try out new things locally within my apartment. It is dual-boot, with Windows 10 on a 60 GB SSD and CentOS 7 on a 240 GB SSD. I first built it around February/March 2017, with a goal of creating a workstation that I could use for both experimentation and running [BOINC](https://boincstats.com/en/stats/-1/user/detail/3500755)- to be completely honest, part of my motivation was to see how close I could get to surpassing (or at least equalling) some of the older scientific lab hardware I had dealt with in the past using only consumer-grade parts.
 
 Specifications
 --------------
@@ -26,6 +26,36 @@ Specifications
 -   [Corsair CX Series 750 Watt 80 Plus Bronze Certified Non-Modular Power Supply (CP-9020015-NA)](https://smile.amazon.com/gp/product/B008RJZQSW/ref=ppx_yo_dt_b_asin_title_o09__o00_s00?ie=UTF8&psc=1)
 -   [EVGA Geforce GTX 1050 SC ITX, 2GB](https://smile.amazon.com/EVGA-GeForce-Support-Graphics-02G-P4-6152-KR/dp/B01M64G435?sa-no-redirect=1)
 -   [PNY NVIDIA GeForce GTX 1050 2GB Graphics Card](https://smile.amazon.com/PNY-NVIDIA-GeForce-Graphics-VCGGTX10502PB/dp/B01M27X9WI/ref=sr_1_fkmrnull_7?keywords=PNY+-+NVIDIA+GeForce+GTX+1050+2GB+GDDR5&qid=1548101376&s=Electronics&sr=1-7-fkmrnull)
+
+Applications
+------------
+
+-   Docker
+-   KVM / virt-manager / virt-install
+-   BOINC (custom compile w/o the BOINC manager app; just boinc-client)
+-   <Folding@Home>
+-   [t](https://github.com/sferik/t) (Twitter CLI)
+-   [gmvault](http://gmvault.org)
+-   CentOS 7's "Server w/ GUI" Install Group (GNOME 3, etc)
+-   x2go
+-   mate (since x2go breaks with Gnome 3)
+-   NVIDIA Drivers (for CUDA)
+-   ZFS on Linux
+-   AWS CLI
+-   [MoinMoin](../MoinMoin)
+-   [Prey](https://preyproject.com/) (of somewhat dubious utility)
+
+Plans
+-----
+
+-   The KVM VMs were connected to a virtual bridge (virbr1) through which they could be accessible on the LAN. Installing Docker has somehow broken this in some way (or something else, but Docker is the obvious culprit).
+-   None of this is managed in any systematic way, except for a shell script I made when I first provisioned this host way back when. I'd like to re-create the boot volume with Kickstart and Ansible so that my homelab follows the Infrastructure as Code paradigm a little more closely. There's also a ton of other crap on there that doesn't get mentioned above that I have since stopped playing with (e.g., [Kimchi](https://github.com/kimchi-project/kimchi), which never seemed useful enough vs virsh tbh).
+-   I want to use Docker where I would in the past use KVM for Linux-based VMs, and only use KVM for non-Linux operating systems (such as FreeBSD, Windows, etc)
+-   I at one point considered doing GPU passthrough to KVM, but it seemed involved (can't find any of the links to tutorials I was looking at right now), and would have made it so that the host would no longer have been able to use the GPU. With Docker GPU passthrough seems to be much less complicated, so I'd like to encapsulate BOINC and <Folding@Home> and put them in containers that access the GPU via passthrough rather than having them live on bare metal.
+-   I don't really use Windows that much since it would require rebooting to use (and I don't really game enough). It would be interesting if I could find a way to run it via KVM. There's only one app that really needs GPUs (Obduction) and I wouldn't mind booting directly for that. Other tech I'd want to mess with (Chocolatey, [PowerShell](../PowerShell), etc) doesn't require an intense GPU (heck, even the point-and-click adventures I play would be fine without the 1050s).
+-   I have a bunch of utilities set up to back up my online presence (gmvault, t, etc). I'd like to find a way to give these utilities their own space (i.e., a container) and manage them via Ansible.
+-   My ZFS backup scripts need to be put under version control.
+-   The bash script I use to back up my Tweets could be improved (presently there are a lot of files produced with redundant information; it uses the shell script from [here](http://blog.jphpsf.com/2012/05/07/backing-up-your-twitter-account-with-t/).
 
 * * * * *
 
