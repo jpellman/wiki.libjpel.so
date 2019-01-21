@@ -13,8 +13,6 @@ Interesting starting points:
 
 * RecentChanges_: what has John been doing?
 
-* Certifications_
-
 * SystemsAdministration_
 
 * AcademicComputing_
@@ -56,8 +54,6 @@ This wiki is powered by MoinMoin_.
 .. _elaborative processing increases recall: ../Memory
 
 .. _RecentChanges: ../RecentChanges
-
-.. _Certifications: ../Certifications
 
 .. _SystemsAdministration: ../SystemsAdministration
 
