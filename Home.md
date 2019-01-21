@@ -8,6 +8,7 @@ This is the personal Wiki of John Pellman. He is mostly using this as a palimpse
 Interesting starting points:
 
 -   [RecentChanges](../RecentChanges): what has John been doing?
+-   [HomeLab](../HomeLab)
 -   [SystemsAdministration](../SystemsAdministration)
 -   [AcademicComputing](../AcademicComputing)
 -   [LibraryComputing](../LibraryComputing)
