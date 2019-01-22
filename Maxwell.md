@@ -42,6 +42,7 @@ Applications
 -   NVIDIA Drivers (for CUDA)
 -   ZFS on Linux
 -   AWS CLI
+-   rclone (for Google Drive backups)
 -   [MoinMoin](../MoinMoin)
 -   [Prey](https://preyproject.com/) (of somewhat dubious utility)
 

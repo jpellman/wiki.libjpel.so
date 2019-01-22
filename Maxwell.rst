@@ -67,6 +67,8 @@ Applications
 
 * AWS CLI
 
+* rclone (for Google Drive backups)
+
 * MoinMoin_
 
 * Prey_ (of somewhat dubious utility)
