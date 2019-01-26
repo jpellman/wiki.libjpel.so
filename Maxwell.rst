@@ -43,8 +43,6 @@ Part List
 Applications
 ------------
 
-* Docker
-
 * KVM / virt-manager / virt-install
 
 * BOINC (custom compile w/o the BOINC manager app; just boinc-client)
@@ -78,11 +76,17 @@ Plans
 
 * The KVM VMs were connected to a virtual bridge (virbr1) through which they could be accessible on the LAN.  Installing Docker has somehow broken this in some way (or something else, but Docker is the obvious culprit).
 
+  * This could be because `Docker fucks with the firewall`_ or because of a conflict between how I set up networking on Maxwell and what Docker expects (also discussed here_.  It seems like a huge pain to mix Docker and KVM, so I'm probably going to take the advice listed on reddit and put Docker on a VM or just not do virtualization on maxwell and make it purely for Linux hosts (seems like a meh idea).
+
 * None of this is managed in any systematic way, except for a shell script I made when I first provisioned this host way back when.  I'd like to re-create the boot volume with Kickstart and Ansible so that my homelab follows the Infrastructure as Code paradigm a little more closely.  There's also a ton of other crap on there that doesn't get mentioned above that I have since stopped playing with (e.g., Kimchi_, which never seemed useful enough vs virsh tbh).
 
 * I want to use Docker where I would in the past use KVM for Linux-based VMs, and only use KVM for non-Linux operating systems (such as FreeBSD, Windows, etc)
 
 * I at one point considered doing GPU passthrough to KVM, but it seemed involved (can't find any of the links to tutorials I was looking at right now), and would have made it so that the host would no longer have been able to use the GPU.  With Docker GPU passthrough seems to be much less complicated, so I'd like to encapsulate BOINC and Folding@Home and put them in containers that access the GPU via passthrough rather than having them live on bare metal.
+
+  * https://github.com/dholt/kvm-gpu
+
+  * https://gist.github.com/cuibonobo/d354440fecdd37c35ecd
 
 * I don't really use Windows that much since it would require rebooting to use (and I don't really game enough).  It would be interesting if I could find a way to run it via KVM.  There's only one app that really needs GPUs (Obduction) and I wouldn't mind booting directly for that.  Other tech I'd want to mess with (Chocolatey, PowerShell_, etc) doesn't require an intense GPU (heck, even the point-and-click adventures I play would be fine without the 1050s).
 
@@ -90,7 +94,7 @@ Plans
 
 * My ZFS backup scripts need to be put under version control.
 
-* The bash script I use to back up my Tweets could be improved (presently there are a lot of files produced with redundant information; it uses the shell script from here_.
+* The bash script I use to back up my Tweets could be improved (presently there are a lot of files produced with redundant information; it uses the shell script from `here <http://blog.jphpsf.com/2012/05/07/backing-up-your-twitter-account-with-t/>`__.
 
 Photos
 ------
@@ -135,11 +139,13 @@ Photos
 
 .. _Prey: https://preyproject.com/
 
+.. _Docker fucks with the firewall: https://www.reddit.com/r/linuxadmin/comments/7tlkve/libvirt_network_configuration_conflicts_with/
+
+.. _here: https://fralef.me/docker-and-iptables.html
+
 .. _Kimchi: https://github.com/kimchi-project/kimchi
 
 .. _PowerShell: ../PowerShell
-
-.. _here: http://blog.jphpsf.com/2012/05/07/backing-up-your-twitter-account-with-t/
 
 .. _Hosts: ../Hosts
 
