@@ -12,7 +12,7 @@ My router does not have a cute name.  It is a WNR3500Lv2_.  It's connected to th
 
 * Static allocation for addresses using DHCP
 
-* Custom DNS entries between local IPs and domains (currently using the .so TLD because I like it and no one else really uses it) provided by [[|http://www.thekelleys.org.uk/dnsmasq/doc.htmlDNSMasq]].
+* Custom DNS entries between local IPs and domains (currently using the .so TLD because I like it and no one else really uses it) provided by DNSMasq_.
 
 * VPN to my apartment via `OpenVPN Server`_
 
@@ -42,6 +42,8 @@ Photos
 .. _ArrisSurfboard: ../ArrisSurfboard
 
 .. _dd-wrt: https://wiki.dd-wrt.com/wiki/index.php/Netgear_WNR3500L
+
+.. _DNSMasq: http://www.thekelleys.org.uk/dnsmasq/doc.html
 
 .. _OpenVPN Server: https://openvpn.net/
 
