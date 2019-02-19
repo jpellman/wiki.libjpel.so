@@ -1,0 +1,15 @@
+##master-page:CategoryTemplate
+##master-date:Unknown-Date
+#format wiki
+#language en
+
+= Home Network =
+
+These pages describe the networking equipment used in my home network.
+
+'''List of pages in this category:'''
+
+<<FullSearchCached(category:HomeNetwork)>>
+
+----
+CategoryCategory HomeLab
