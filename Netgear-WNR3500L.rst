@@ -19,7 +19,7 @@ My router does not have a cute name.  It is a WNR3500Lv2_.  It's connected to th
 Configuration Backup
 --------------------
 
-I've exported a copy of my configuration and put it at */home/jpellman/Documents/Backups* on maxwell_.  This configuration changes infrequently enough that I plan on backing it up on an ad-hoc basis after major changes are made.
+I've exported a copy of my configuration and put it at */home/jpellman/Documents/Backups* on Maxwell_.  This configuration changes infrequently enough that I plan on backing it up on an ad-hoc basis after major changes are made.
 
 Plans
 -----
@@ -47,7 +47,7 @@ Photos
 
 .. _OpenVPN Server: https://openvpn.net/
 
-.. _maxwell: ../maxwell
+.. _Maxwell: ../Maxwell
 
 .. _HomeNetwork: ../HomeNetwork
 

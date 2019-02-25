@@ -15,7 +15,7 @@ My router does not have a cute name. It is a [WNR3500Lv2](https://smile.amazon.c
 Configuration Backup
 --------------------
 
-I've exported a copy of my configuration and put it at */home/jpellman/Documents/Backups* on [maxwell](../maxwell). This configuration changes infrequently enough that I plan on backing it up on an ad-hoc basis after major changes are made.
+I've exported a copy of my configuration and put it at */home/jpellman/Documents/Backups* on [Maxwell](../Maxwell). This configuration changes infrequently enough that I plan on backing it up on an ad-hoc basis after major changes are made.
 
 Plans
 -----
