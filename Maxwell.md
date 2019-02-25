@@ -60,6 +60,17 @@ Plans
 -   My ZFS backup scripts need to be put under version control.
 -   The bash script I use to back up my Tweets could be improved (presently there are a lot of files produced with redundant information; it uses the shell script from [here](http://blog.jphpsf.com/2012/05/07/backing-up-your-twitter-account-with-t/).
 
+### To-Do Items to Make Maxwell A Fully-Managed Host
+
+-   Back up home video DV footage currently on the root volume SSD to another disk.
+-   Create a Kickstart config that installs CentOS 7 on the non-Windows SSD, along with the virtualization host install group. Configure GPU passthrough within Kickstart config. The hypervisor should be managed entirely via Kickstart.
+-   Invoke your ZFS backup script to send a snapshot to AWS. Invoke the ZFS backup script to save a snapshot to your nearline storage.
+-   Set up [Bruno](../Bruno) to serve install disk for CentOS 7 using Apache, Kickstart config using OS X's built-in tftp server (see [here](http://www.unixfu.ch/start-a-tftp-server-on-your-mac/)) and [NetgearWNR3500L](../NetgearWNR3500L)'s DHCP config.
+-   Create a CentOS 6 VM for BOINC and FAH. We want to use CentOS 6 because the FAH packages still need Python 2.6 (unless you modify them manually to use Python 2.7 in CentOS 7, which is a bit of a pain). Attach thumb drive to this VM and have it be the backing storage for at least the scratch storage used by BOINC. Give this VM access to GPUs and 8 vCPUs.
+-   Create a CentOS 7 VM for general file access / ZFS. Give it 2 vCPUs. This VM may also contain the Twitter CLI (possibly within an RVM environment), gmvault and all of the other internet presence / personal data backup cronjobs (I may make one of these for my reddit data using [PRAW](https://praw.readthedocs.io)).
+-   I may then experiment with a Docker VM and getting my Windows 10 installation to run as a VM. If I can get GPU passthrough working with a Docker VM, I may retire the CentOS 6 VM and replace it with a Docker container (or split FAH and BOINC into multiple containers).
+-   I'm then going to replace the [MoinMoin](../MoinMoin) instance I've been running with [Monica](https://www.monicahq.com/).
+
 Photos
 ------
 
