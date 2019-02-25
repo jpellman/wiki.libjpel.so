@@ -64,7 +64,7 @@ Maxwell is essentially a gaming workstation that I use to try out new things loc
 
 === To-Do Items to Make Maxwell A Fully-Managed Host ===
 
- * Back up home video DV footage currently on the root volume SSD to another disk.
+ * --(Back up home video DV footage currently on the root volume SSD to another disk.)-- ''DONE: 2/24/19, 23:25''
  * Create a Kickstart config that installs CentOS 7 on the non-Windows SSD, along with the virtualization host install group.  Configure GPU passthrough within Kickstart config.  The hypervisor should be managed entirely via Kickstart.
  * Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage.
  * Set up [[Bruno]] to serve install disk for CentOS 7 using Apache, Kickstart config using OS X's built-in tftp server (see [[http://www.unixfu.ch/start-a-tftp-server-on-your-mac/|here]]) and [[NetgearWNR3500L]]'s DHCP config.

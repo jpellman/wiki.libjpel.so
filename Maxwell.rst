@@ -99,7 +99,7 @@ Plans
 To-Do Items to Make Maxwell A Fully-Managed Host
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Back up home video DV footage currently on the root volume SSD to another disk.
+* :strike:`Back up home video DV footage currently on the root volume SSD to another disk.` *DONE: 2/24/19, 23:25*
 
 * Create a Kickstart config that installs CentOS 7 on the non-Windows SSD, along with the virtualization host install group.  Configure GPU passthrough within Kickstart config.  The hypervisor should be managed entirely via Kickstart.
 
