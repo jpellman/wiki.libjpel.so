@@ -101,9 +101,9 @@ To-Do Items to Make Maxwell A Fully-Managed Host
 
 * :strike:`Back up home video DV footage currently on the root volume SSD to another disk.` *DONE: 2/24/19, 23:25*
 
-* Create a Kickstart config that installs CentOS 7 on the non-Windows SSD, along with the virtualization host install group.  Configure GPU passthrough within Kickstart config.  The hypervisor should be managed entirely via Kickstart.
+* :strike:`Create a Kickstart config that installs CentOS 7 on the non-Windows SSD, along with the virtualization host install group.  Configure GPU passthrough within Kickstart config.  The hypervisor should be managed entirely via Kickstart.` *DONE: 2/27/19, 00:09* (Though it's worth double-checking this at some point).
 
-* Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage.
+* :strike:`Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage.` *DONE: 2/27/19, 00:09*
 
 * Set up Bruno_ to serve install disk for CentOS 7 using Apache, Kickstart config using OS X's built-in tftp server (see `here <http://www.unixfu.ch/start-a-tftp-server-on-your-mac/>`__) and NetgearWNR3500L_'s DHCP config.
 
