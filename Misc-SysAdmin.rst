@@ -139,6 +139,22 @@ Documentation Projects:
 
 * http://www.tldp.org/
 
+S3-compatible object stores:
+
+* https://minio.io/
+
+* https://cloudian.com/
+
+* https://wasabi.com/
+
+* http://pithos.io/
+
+* https://www.zenko.io/
+
+* https://leo-project.net/leofs/
+
+* https://github.com/eucalyptus/eucalyptus/wiki/Walrus-S3-API
+
 -------------------------
 
 
