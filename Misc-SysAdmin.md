@@ -103,6 +103,7 @@ S3-compatible object stores:
 -   <https://www.zenko.io/>
 -   <https://leo-project.net/leofs/>
 -   <https://github.com/eucalyptus/eucalyptus/wiki/Walrus-S3-API>
+-   <http://docs.ceph.com/docs/master/radosgw/s3/>
 
 * * * * *
 

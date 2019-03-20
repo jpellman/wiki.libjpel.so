@@ -155,6 +155,8 @@ S3-compatible object stores:
 
 * https://github.com/eucalyptus/eucalyptus/wiki/Walrus-S3-API
 
+* http://docs.ceph.com/docs/master/radosgw/s3/
+
 -------------------------
 
 
