@@ -1,4 +1,4 @@
-Charities/organizations that I find worth giving to / supporting in some manner.
+Charities/organizations / open source projects that I find worth giving to / supporting in some manner.
 
 == Science ==
  * [[ https://friends.broadinstitute.org/ | Broad Institute ]]
@@ -7,17 +7,22 @@ Charities/organizations that I find worth giving to / supporting in some manner.
  * [[ https://cos.io/donate/ | Center for Open Science ]]
  * [[ http://improvingpsych.org/ | Society for the Improvement of Psychological Science ]]
  * [[ https://secure.planetary.org/site/SPageNavigator/supportprojects.html | The Planetary Society ]]
+ * [[ https://pybossa.com/ | PyBOSSA ]]
+ * [[ https://www.zooniverse.org/ | Zooniverse ]] 
 
 == Technology ==
  * [[ https://www.spi-inc.org/ | Software in the Public Interest ]]
  * [[ https://sfconservancy.org/ | Software Freedom Conservancy ]]
  * [[ https://www.fsf.org | Free Software Foundation ]]
+ * [[ https://www.apache.org/foundation/contributing.html | Apache Software Foundation ]]
  * [[ http://reactos.org/ | ReactOS ]]
  * [[ http://infoage.org/support-infoage/ | InfoAge ]]
  * [[ http://www.computerhistory.org/contribute/ | Computer History Museum ]]
  * [[ http://www.livingcomputers.org/ | Living Computers ]] (allows you to log in remotely to several vintage machines)
  * [[ http://sdf.org/ | SDF Public Internet ]]
  * [[ https://www.eff.org/ | Electronic Frontier Foundation ]]
+ * [[ https://dicom.offis.de/donation.php.en | OFFIS Dicom / DCMTK ]]
+ * [[ https://www.orthanc-server.com/ | Orthanc ]] 
 
 === Associations w/ an Educational Mission: ===
 
@@ -37,7 +42,9 @@ Charities/organizations that I find worth giving to / supporting in some manner.
 
  * [[ http://www.abetterchance.org | A Better Chance ]]
  * [[ http://ccs.edu/domain/28 | Clinton Central School District Foundation ]]
+ * [[ https://www.mvcc.edu/foundation/ | MVCC Foundation ]]
  * [[ http://www.oberlin.edu/giving/donate | Oberlin College ]]
+ * [[ https://www.hamilton.edu/makeagift | Hamilton College ]]
  * [[ http://worldpossible.org/ | World Possible ]]
  * [[ http://malinuxtele.tuxfamily.org/Recycle-your-unused-Raspberry-Pis.html | Mali Linux Tele ]]
  * [[ https://www.patreon.com/scishow | SciShow ]]

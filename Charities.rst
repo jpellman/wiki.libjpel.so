@@ -1,6 +1,6 @@
 #format rst
 
-Charities/organizations that I find worth giving to / supporting in some manner.
+Charities/organizations / open source projects that I find worth giving to / supporting in some manner.
 
 Science
 -------
@@ -17,6 +17,10 @@ Science
 
 * `The Planetary Society`_
 
+* PyBOSSA_
+
+* Zooniverse_ 
+
 Technology
 ----------
 
@@ -25,6 +29,8 @@ Technology
 * `Software Freedom Conservancy`_
 
 * `Free Software Foundation`_
+
+* `Apache Software Foundation`_
 
 * ReactOS_
 
@@ -37,6 +43,10 @@ Technology
 * `SDF Public Internet`_
 
 * `Electronic Frontier Foundation`_
+
+* `OFFIS Dicom / DCMTK`_
+
+* Orthanc_ 
 
 Associations w/ an Educational Mission:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -69,7 +79,11 @@ Education
 
 * `Clinton Central School District Foundation`_
 
+* `MVCC Foundation`_
+
 * `Oberlin College`_
+
+* `Hamilton College`_
 
 * `World Possible`_
 
@@ -97,11 +111,17 @@ Education
 
 .. _The Planetary Society: https://secure.planetary.org/site/SPageNavigator/supportprojects.html
 
+.. _PyBOSSA: https://pybossa.com/
+
+.. _Zooniverse: https://www.zooniverse.org/
+
 .. _Software in the Public Interest: https://www.spi-inc.org/
 
 .. _Software Freedom Conservancy: https://sfconservancy.org/
 
 .. _Free Software Foundation: https://www.fsf.org
+
+.. _Apache Software Foundation: https://www.apache.org/foundation/contributing.html
 
 .. _ReactOS: http://reactos.org/
 
@@ -114,6 +134,10 @@ Education
 .. _SDF Public Internet: http://sdf.org/
 
 .. _Electronic Frontier Foundation: https://www.eff.org/
+
+.. _OFFIS Dicom / DCMTK: https://dicom.offis.de/donation.php.en
+
+.. _Orthanc: https://www.orthanc-server.com/
 
 .. _LOPSA: https://lopsa.org/
 
@@ -137,7 +161,11 @@ Education
 
 .. _Clinton Central School District Foundation: http://ccs.edu/domain/28
 
+.. _MVCC Foundation: https://www.mvcc.edu/foundation/
+
 .. _Oberlin College: http://www.oberlin.edu/giving/donate
+
+.. _Hamilton College: https://www.hamilton.edu/makeagift
 
 .. _World Possible: http://worldpossible.org/
 
