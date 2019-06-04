@@ -9,3 +9,8 @@
  * http://dbfs.sourceforge.net/
  * https://docs.oracle.com/database/121/ADLOB/adlob_fs.htm#ADLOB45943
  * https://github.com/shirosaidev/diskover
+
+== The Semantic Web ==
+
+ * https://lemire.me/blog/2016/11/15/on-metadata/
+ * https://5stardata.info/en/

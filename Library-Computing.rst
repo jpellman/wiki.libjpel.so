@@ -19,3 +19,10 @@ Metadata/Search vs Filesystems
 
 * https://github.com/shirosaidev/diskover
 
+The Semantic Web
+----------------
+
+* https://lemire.me/blog/2016/11/15/on-metadata/
+
+* https://5stardata.info/en/
+
