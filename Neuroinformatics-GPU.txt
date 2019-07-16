@@ -1,18 +1,18 @@
 = List of Neuroinformatics Tools w/ GPU-based Implementations =
 
-* [[http://www.nvidia.com/object/medical_imaging.html | General Page on Medical Imaging Using Nvidia GPUs]]
+ * [[http://www.nvidia.com/object/medical_imaging.html | General Page on Medical Imaging Using Nvidia GPUs]]
 
-* [[https://itk.org/Wiki/ITK/Release_4/GPU_Acceleration | ITK page on GPU Acceleration]] (possibly useful for making ANTS go faster)
+ * [[https://itk.org/Wiki/ITK/Release_4/GPU_Acceleration | ITK page on GPU Acceleration]] (possibly useful for making ANTS go faster)
 
-* [[https://surfer.nmr.mgh.harvard.edu/fswiki/CUDADevelopersGuide|recon-all and mrisurf (Freesurfer)]] ([[http://www.ncbi.nlm.nih.gov/pubmed/24430512|paper]]).
+ * [[https://surfer.nmr.mgh.harvard.edu/fswiki/CUDADevelopersGuide|recon-all and mrisurf (Freesurfer)]] ([[http://www.ncbi.nlm.nih.gov/pubmed/24430512|paper]]).
 
-* [[https://github.com/wanderine/BROCCOLI | BROCCOLI]]
+ * [[https://github.com/wanderine/BROCCOLI | BROCCOLI]]
 
-* [[https://github.com/sfchen/GPU-Image-Registration | GLIRT ]] ([[http://ieeexplore.ieee.org/document/5405778/?reload=true | article]])
+ * [[https://github.com/sfchen/GPU-Image-Registration | GLIRT ]] ([[http://ieeexplore.ieee.org/document/5405778/?reload=true | article]])
 
-* [[http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136718 | Another GPU-based implementation of FLIRT]]
+ * [[http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136718 | Another GPU-based implementation of FLIRT]]
 
-* [[https://figshare.com/articles/GPU_accelerated_FLIRT_AND_ANTs/1501449 | GPU-Accelerated FLIRT and ANTS]]
+ * [[https://figshare.com/articles/GPU_accelerated_FLIRT_AND_ANTs/1501449 | GPU-Accelerated FLIRT and ANTS]]
 
 * [[http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061892 | FSL's bedpost-x ]]
 
@@ -20,18 +20,23 @@
 
 === AFNI ===
 
-* https://afni.nimh.nih.gov/afni/community/board/read.php?1,143063,143063
-* https://afni.nimh.nih.gov/afni/community/board/read.php?1,71356,71365
-* https://afni.nimh.nih.gov/afni/community/board/read.php?1,67402,73081
+ * https://afni.nimh.nih.gov/afni/community/board/read.php?1,143063,143063
+ * https://afni.nimh.nih.gov/afni/community/board/read.php?1,71356,71365
+ * https://afni.nimh.nih.gov/afni/community/board/read.php?1,67402,73081
+
+== Exciting News for AFNI ==
+
+ * https://www.openmp.org/updates/openmp-accelerator-support-gpus/
+ * http://on-demand.gputechconf.com/gtc/2018/presentation/s8344-openmp-on-gpus-first-experiences-and-best-practices.pdf
 
 === ANTS ===
 
-* https://sourceforge.net/p/advants/discussion/840260/thread/260e1e38/
-* https://sourceforge.net/p/advants/discussion/840260/thread/4b134259/
+ * https://sourceforge.net/p/advants/discussion/840260/thread/260e1e38/
+ * https://sourceforge.net/p/advants/discussion/840260/thread/4b134259/
 
 === FSL ===
 
-* http://godzilla.kennedykrieger.org/penguin/fsl.shtml
+ * http://godzilla.kennedykrieger.org/penguin/fsl.shtml
 
 ----
 

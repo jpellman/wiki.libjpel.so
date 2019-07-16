@@ -25,12 +25,25 @@ Discussions
 AFNI
 ~~~~
 
-* https://afni.nimh.nih.gov/afni/community/board/read.php?1,143063,143063 * https://afni.nimh.nih.gov/afni/community/board/read.php?1,71356,71365 * https://afni.nimh.nih.gov/afni/community/board/read.php?1,67402,73081
+* https://afni.nimh.nih.gov/afni/community/board/read.php?1,143063,143063
+
+* https://afni.nimh.nih.gov/afni/community/board/read.php?1,71356,71365
+
+* https://afni.nimh.nih.gov/afni/community/board/read.php?1,67402,73081
+
+Exciting News for AFNI
+----------------------
+
+* https://www.openmp.org/updates/openmp-accelerator-support-gpus/
+
+* http://on-demand.gputechconf.com/gtc/2018/presentation/s8344-openmp-on-gpus-first-experiences-and-best-practices.pdf
 
 ANTS
 ~~~~
 
-* https://sourceforge.net/p/advants/discussion/840260/thread/260e1e38/ * https://sourceforge.net/p/advants/discussion/840260/thread/4b134259/
+* https://sourceforge.net/p/advants/discussion/840260/thread/260e1e38/
+
+* https://sourceforge.net/p/advants/discussion/840260/thread/4b134259/
 
 FSL
 ~~~
