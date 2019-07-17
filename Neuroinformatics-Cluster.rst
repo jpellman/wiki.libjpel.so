@@ -51,6 +51,8 @@ Misc
 
 * `LIMS Wiki`_
 
+* `List of spike sorting software`_
+
 -------------------------
 
 
@@ -88,6 +90,8 @@ ScientificComputing_
 .. _X2Go: http://wiki.x2go.org/doku.php
 
 .. _LIMS Wiki: http://www.limswiki.org/index.php/Main_Page
+
+.. _List of spike sorting software: https://simonster.github.io/SpikeSortingSoftware/
 
 .. _ScientificComputing: ../ScientificComputing
 

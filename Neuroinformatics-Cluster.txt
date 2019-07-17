@@ -43,6 +43,7 @@
 == Misc ==
  
  * [[http://www.limswiki.org/index.php/Main_Page| LIMS Wiki]]
+ * [[https://simonster.github.io/SpikeSortingSoftware/|List of spike sorting software]]
 
 ----
 
