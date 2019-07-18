@@ -14,6 +14,14 @@ Science
 -   [PyBOSSA](https://pybossa.com/)
 -   [Zooniverse](https://www.zooniverse.org/)
 
+Government Agencies
+-------------------
+
+-   [NASA](https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PD_1210_001G_&page_name=main)
+-   [The NIH (via FNIH)](https://fnih.org/)
+-   [Informative article w/ caveats](https://slate.com/news-and-politics/2011/04/orrin-hatch-says-you-can-send-a-few-extra-bucks-along-with-your-tax-return-is-that-true.html)
+-   [List of all agencies receiving gifts](https://web.archive.org/web/20110513112818/http://www.fms.treas.gov/annualreport/cs2010/rta.pdf)
+
 Technology
 ==========
 

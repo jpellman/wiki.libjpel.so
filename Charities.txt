@@ -10,6 +10,13 @@ Charities/organizations / open source projects that I find worth giving to / sup
  * [[ https://pybossa.com/ | PyBOSSA ]]
  * [[ https://www.zooniverse.org/ | Zooniverse ]] 
 
+=== Government Agencies ===
+
+ * [[ https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PD_1210_001G_&page_name=main | NASA ]]
+ * [[ https://fnih.org/ | The NIH (via FNIH) ]]
+ * [[ https://slate.com/news-and-politics/2011/04/orrin-hatch-says-you-can-send-a-few-extra-bucks-along-with-your-tax-return-is-that-true.html | Informative article w/ caveats ]]
+ * [[ https://web.archive.org/web/20110513112818/http://www.fms.treas.gov/annualreport/cs2010/rta.pdf | List of all agencies receiving gifts ]]
+
 == Technology ==
  * [[ https://www.spi-inc.org/ | Software in the Public Interest ]]
  * [[ https://sfconservancy.org/ | Software Freedom Conservancy ]]

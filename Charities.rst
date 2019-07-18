@@ -21,6 +21,17 @@ Science
 
 * Zooniverse_ 
 
+Government Agencies
+~~~~~~~~~~~~~~~~~~~
+
+* NASA_
+
+* `The NIH (via FNIH)`_
+
+* `Informative article w/ caveats`_
+
+* `List of all agencies receiving gifts`_
+
 Technology
 ----------
 
@@ -114,6 +125,14 @@ Education
 .. _PyBOSSA: https://pybossa.com/
 
 .. _Zooniverse: https://www.zooniverse.org/
+
+.. _NASA: https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PD_1210_001G_&page_name=main
+
+.. _The NIH (via FNIH): https://fnih.org/
+
+.. _Informative article w/ caveats: https://slate.com/news-and-politics/2011/04/orrin-hatch-says-you-can-send-a-few-extra-bucks-along-with-your-tax-return-is-that-true.html
+
+.. _List of all agencies receiving gifts: https://web.archive.org/web/20110513112818/http://www.fms.treas.gov/annualreport/cs2010/rta.pdf
 
 .. _Software in the Public Interest: https://www.spi-inc.org/
 
