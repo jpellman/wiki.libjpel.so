@@ -103,7 +103,7 @@ To-Do Items to Make Maxwell A Fully-Managed Host
 
 * :strike:`Create a Kickstart config that installs CentOS 7 on the non-Windows SSD, along with the virtualization host install group.  Configure GPU passthrough within Kickstart config.  The hypervisor should be managed entirely via Kickstart.` *DONE: 2/27/19, 00:09* (Though it's worth double-checking this at some point).
 
-* :strike:`Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage.` *DONE: 2/27/19, 00:09*
+* Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage.
 
 * Back up the ZFS backup scripts.
 
