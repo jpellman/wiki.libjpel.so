@@ -105,6 +105,8 @@ To-Do Items to Make Maxwell A Fully-Managed Host
 
 * :strike:`Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage.` *DONE: 2/27/19, 00:09*
 
+* Back up the ZFS backup scripts.
+
 * Set up Bruno_ to serve install disk for CentOS 7 using Apache, Kickstart config using OS X's built-in tftp server (see `here <http://www.unixfu.ch/start-a-tftp-server-on-your-mac/>`__) and NetgearWNR3500L_'s DHCP config.
 
 * Create a CentOS 6 VM for BOINC and FAH.  We want to use CentOS 6 because the FAH packages still need Python 2.6 (unless you modify them manually to use Python 2.7 in CentOS 7, which is a bit of a pain).  Attach thumb drive to this VM and have it be the backing storage for at least the scratch storage used by BOINC.  Give this VM access to GPUs and 8 vCPUs.
