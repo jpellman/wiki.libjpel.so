@@ -88,7 +88,7 @@ Plans
 
   * https://gist.github.com/cuibonobo/d354440fecdd37c35ecd
 
-  * On 7/31/19, I finally tried to get GPU passthrough to work, but couldn't because Red Hat and NVIDIA are `silly corporate capitalist cows`_
+  * On 7/31/19, I finally tried to get GPU passthrough to work, but couldn't because Red Hat and NVIDIA are `silly corporate capitalist cows`_.  See `here <https://github.com/kubernetes/minikube/issues/3546>`__ too.
 
 * I don't really use Windows that much since it would require rebooting to use (and I don't really game enough).  It would be interesting if I could find a way to run it via KVM.  There's only one app that really needs GPUs (Obduction) and I wouldn't mind booting directly for that.  Other tech I'd want to mess with (Chocolatey, PowerShell_, etc) doesn't require an intense GPU (heck, even the point-and-click adventures I play would be fine without the 1050s).
 
