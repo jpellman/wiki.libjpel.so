@@ -88,6 +88,8 @@ Plans
 
   * https://gist.github.com/cuibonobo/d354440fecdd37c35ecd
 
+  * On 7/31/19, I finally tried to get GPU passthrough to work, but couldn't because Red Hat and NVIDIA are `silly corporate capitalist cows`_
+
 * I don't really use Windows that much since it would require rebooting to use (and I don't really game enough).  It would be interesting if I could find a way to run it via KVM.  There's only one app that really needs GPUs (Obduction) and I wouldn't mind booting directly for that.  Other tech I'd want to mess with (Chocolatey, PowerShell_, etc) doesn't require an intense GPU (heck, even the point-and-click adventures I play would be fine without the 1050s).
 
 * I have a bunch of utilities set up to back up my online presence (gmvault, t, etc).  I'd like to find a way to give these utilities their own space (i.e., a container) and manage them via Ansible.
@@ -165,6 +167,8 @@ Photos
 .. _here: https://fralef.me/docker-and-iptables.html
 
 .. _Kimchi: https://github.com/kimchi-project/kimchi
+
+.. _silly corporate capitalist cows: https://bugzilla.redhat.com/show_bug.cgi?id=1492173
 
 .. _PowerShell: ../PowerShell
 

@@ -55,6 +55,7 @@ Plans
 -   I at one point considered doing GPU passthrough to KVM, but it seemed involved (can't find any of the links to tutorials I was looking at right now), and would have made it so that the host would no longer have been able to use the GPU. With Docker GPU passthrough seems to be much less complicated, so I'd like to encapsulate BOINC and <Folding@Home> and put them in containers that access the GPU via passthrough rather than having them live on bare metal.
     -   <https://github.com/dholt/kvm-gpu>
     -   <https://gist.github.com/cuibonobo/d354440fecdd37c35ecd>
+    -   On 7/31/19, I finally tried to get GPU passthrough to work, but couldn't because Red Hat and NVIDIA are [silly corporate capitalist cows](https://bugzilla.redhat.com/show_bug.cgi?id=1492173)
 -   I don't really use Windows that much since it would require rebooting to use (and I don't really game enough). It would be interesting if I could find a way to run it via KVM. There's only one app that really needs GPUs (Obduction) and I wouldn't mind booting directly for that. Other tech I'd want to mess with (Chocolatey, [PowerShell](../PowerShell), etc) doesn't require an intense GPU (heck, even the point-and-click adventures I play would be fine without the 1050s).
 -   I have a bunch of utilities set up to back up my online presence (gmvault, t, etc). I'd like to find a way to give these utilities their own space (i.e., a container) and manage them via Ansible.
 -   My ZFS backup scripts need to be put under version control.
