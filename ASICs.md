@@ -10,6 +10,7 @@ I'm using this page to track instances where scientific computing could make use
 -   [Anton](https://en.wikipedia.org/wiki/Anton_(computer))
 -   [Intan](http://intantech.com/index.html) (used primarily for data acquisition; less about acceleration and more about miniaturization)
 -   [Falcon Computing](https://www.falconcomputing.com/falcon-accelerated-genomics-pipeline/) (genomics)
+-   [General reading on hardware acceleration](http://arcade.cs.columbia.edu/accels-amasbt10.pdf)
 
 Database Acceleration
 ---------------------
@@ -21,7 +22,7 @@ Database Acceleration
 
 -   [Swarm64](https://www.swarm64.com/)
 -   [Oracle's "Software in Silicon"](http://storageconference.us/2017/Presentations/Phillips.pdf)
--   [Q100](http://arcade.cs.columbia.edu/q100-asplos14.pdf)
+-   [Q100](http://arcade.cs.columbia.edu/q100-asplos14.pdf) and [DB Mesh](http://arcade.cs.columbia.edu/dbmesh-damon17.pdf) ( see [here](http://arcade.cs.columbia.edu/netsyn-dac17.pdf) and [here](http://arcade.cs.columbia.edu/q100-ieeemicro15.pdf) too)
 
 ### Via GPUS
 

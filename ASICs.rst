@@ -17,6 +17,8 @@ I'm using this page to track instances where scientific computing could make use
 
 * `Falcon Computing`_ (genomics)
 
+* `General reading on hardware acceleration`_
+
 Database Acceleration
 ---------------------
 
@@ -31,7 +33,7 @@ ASICs
 
 * `Oracle's "Software in Silicon"`_
 
-* Q100_
+* Q100_ and `DB Mesh`_ ( see `here <http://arcade.cs.columbia.edu/netsyn-dac17.pdf>`__ and `here <http://arcade.cs.columbia.edu/q100-ieeemicro15.pdf>`__ too)
 
 Via GPUS
 ~~~~~~~~
@@ -62,6 +64,8 @@ Via GPUS
 
 .. _Falcon Computing: https://www.falconcomputing.com/falcon-accelerated-genomics-pipeline/
 
+.. _General reading on hardware acceleration: http://arcade.cs.columbia.edu/accels-amasbt10.pdf
+
 .. _CMU Database Acceleration Seminars: https://db.cs.cmu.edu/seminar2018/
 
 .. _Swarm64: https://www.swarm64.com/
@@ -69,6 +73,8 @@ Via GPUS
 .. _Oracle's "Software in Silicon": http://storageconference.us/2017/Presentations/Phillips.pdf
 
 .. _Q100: http://arcade.cs.columbia.edu/q100-asplos14.pdf
+
+.. _DB Mesh: http://arcade.cs.columbia.edu/dbmesh-damon17.pdf
 
 .. _PGStrom: http://on-demand.gputechconf.com/gtc/2015/presentation/S5276-Kohei-KaiGai.pdf
 
