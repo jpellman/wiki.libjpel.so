@@ -1,6 +1,6 @@
 = Top Challenges in Facilitating Man-Computer Symbiosis in 2019 =
 
-In 1960, J.C.R. Licklider identified the following as the greatest obstacles in facilitating human / computer interaction (see [[https://en.wikipedia.org/wiki/Man-Computer_Symbiosis | here ]]:
+In 1960, J.C.R. Licklider identified the following as the greatest obstacles in facilitating human / computer interaction (see [[https://en.wikipedia.org/wiki/Man-Computer_Symbiosis | here ]]):
 
  1. A need for voice recognition.
  1. A need for GUIs (fulfilled at PARC) and tablet interfaces (fulfilled more recently with the smartphone revolution).
