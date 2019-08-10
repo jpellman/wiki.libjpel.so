@@ -17,6 +17,8 @@ In 1960, J.C.R. Licklider identified the following as the greatest obstacles in 
 
 #. More elements I've forgotten.
 
+Essentially, Licklider thought that man-computer symbiosis would look something like this_.
+
 Today, my completely ancedotal observation is that for human/computer symbiosis to be optimal, scientific researchers need:
 
 1. Consistent and intuitive packaging and reproducible environments.
@@ -34,6 +36,8 @@ Today, my completely ancedotal observation is that for human/computer symbiosis 
 .. ############################################################################
 
 .. _here: https://en.wikipedia.org/wiki/Man-Computer_Symbiosis
+
+.. _this: https://www.youtube.com/watch?v=JIE8xk6Rl1w
 
 .. _ASICS: ../ASICS
 
