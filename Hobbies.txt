@@ -7,9 +7,9 @@ A set of links for fun, non-work related meaningful activities:
 
 <<FullSearchCached(category:Hobbies)>>
 
-External Links:
+== External Links ==
 
- * http://archiveteam.org/
+ * [[http://archiveteam.org/ | ArchiveTeam ]]
 
 ----
 CategoryCategory
