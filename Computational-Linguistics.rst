@@ -1,8 +1,10 @@
 #format rst
 
 Computational Linguistics
+=========================
 
-Might elaborate on this page.  Might kill it.
+Latent Semantica Analysis
+-------------------------
 
 * http://opensourceconnections.com/blog/2016/03/29/semantic-search-with-latent-semantic-analysis/
 
