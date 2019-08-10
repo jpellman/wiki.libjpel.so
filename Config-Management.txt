@@ -1,3 +1,4 @@
+## page was renamed from ConfigManagementGitLFSAnnex
 = Big Files, Git and Config Management =
 
 A bunch o' links where people discuss Git LFS / Git annex support in config management suites:
