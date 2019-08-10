@@ -8,7 +8,7 @@ Arris Surfboard
 Description
 -----------
 
-My modem does not have a cute name.  It is a decided unsexy `DOCSIS 3.0 Arris Surfboard SB6141`_ It is connected to both the interwebz and my NetgearWNR3500L_.
+My modem does not have a cute name.  It is a decidedly unsexy `DOCSIS 3.0 Arris Surfboard SB6141`_ It is connected to both the interwebz and my NetgearWNR3500L_.
 
 Plans
 -----
