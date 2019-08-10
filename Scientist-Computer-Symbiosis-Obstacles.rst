@@ -17,7 +17,7 @@ In 1960, J.C.R. Licklider identified the following as the greatest obstacles in 
 
 #. More elements I've forgotten.
 
-Essentially, Licklider thought that man-computer symbiosis would look something like this_ (or `this full length version`_.
+Essentially, Licklider thought that man-computer symbiosis would look something like this_ (or `this full length version`_).
 
 Today, my completely ancedotal observation is that for human/computer symbiosis to be optimal, scientific researchers need:
 
