@@ -25,9 +25,21 @@ Today, my completely ancedotal observation is that for human/computer symbiosis 
 
 #. Scientific literature condensed into machine-parseable data that can be readily extracted (i.e., non-voice / handwriting related NLP).  Methods and results sections need to be easy to aggregate and evaluate at a glance- the excessive verbosity of most publications is a hindrance to scientific progress.
 
+#. Related to the above, there should be open datasets that are readily discoverable.
+
 #. Some sort of intuitive workflow system.
 
 #. Hardware-based accelerators (although this may be more of an optimization; see ASICs_).
+
+Of the above, I think that I personally can only contribute to the top 3, and that I should focus especially on packaging and environments / DevOps_ / SciOps_ in the immediate future.  Spack_, Nix_ and Ansible_ (or other config management systems) seem to be the best tools for this.  I lean towards Spack and Ansible, since they seem to have the lowest barrier to entry conceptually / are more simple and elegant to maintain.  The usage of DSLs should probably be discouraged absent any other additional advantages (I'm looking at you, Puppet, Cfengine, and nix).
+
+Using NLP to enhance scholarship is a problem that ideally academic libraries should tackle via enhancements to their institutional repositories (or at least subscription services perhaps could work on this).  It is possible (even likely) that scientists may delegate this responsibility to themselves, however (as occurred with arXiv).  I see this as being of interest to me, but it should not occupy as much time as packaging.
+
+I think that dataset discovery is also within the scope of libraries, although also it could be within the province of a data engineer.  I'd be interested in continuing to work on this to some degree due to my past involvement with BIDS_, although I think at most I would just do proof-of-concept stuff on my own time (e.g., embedding metadata within GZIP file headers).
+
+A workflow system is definitely something a data engineer would work on, although I think that there's still some overlap with systems administration for this where I could become involved.  Setting up a workflow manager would fall within the same realm as setting up a job scheduler such as SLURM.  Working on [[https://www.commonwl.org/|CWL wrappers] could be fun, and is arguably more in line with my primary goal of packaging/making reproducible environments. 
+
+I don't foresee working on hardware acceleration in any capacity beyond remaining aware of trends in industry and having enough knowledge to make informed choices / decipher a chip maker's propaganda accurately enough.  Designing chips in FPGAs could be fun, although my call is that it's better to leave that sort of stuff to the professionals / electrical engineers / chemical engineers.  Furthermore, I don't even know the field well enough to really know where I could best contribute- the only unimplemented logic I'm aware of that could potentially useful would be for some sort of Unum_ processing.  Again, there are already professionals working on this at the various chip companies.
 
 -------------------------
 
@@ -42,6 +54,20 @@ Today, my completely ancedotal observation is that for human/computer symbiosis 
 .. _this full length version: https://www.youtube.com/watch?v=9bjve67p33E
 
 .. _ASICs: ../ASICs
+
+.. _DevOps: ../DevOps
+
+.. _SciOps: ../SciOps
+
+.. _Spack: https://spack.io/
+
+.. _Nix: https://nixos.org/nix/
+
+.. _Ansible: https://www.ansible.com/
+
+.. _BIDS: https://bids.neuroimaging.io/
+
+.. _Unum: https://en.wikipedia.org/wiki/Unum_(number_format)
 
 .. _ScientificComputing: ../ScientificComputing
 
