@@ -9,7 +9,7 @@ Pages related to open science.
 
 ##<<FullSearchCached(category:OpenScience)>>
 
-==External Links==
+== External Links ==
 
  * [[ https://archive.org/stream/OpenResearchData | Issues in Open Research Data ]]
  * [[http://www.orfg.org/ | Open Research Funders Group]]

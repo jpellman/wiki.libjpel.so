@@ -8,7 +8,8 @@ Pages related to open science.
 
 .. <<FullSearchCached(category:OpenScience)>>
 
-==External Links==
+External Links
+--------------
 
 * `Issues in Open Research Data`_
 

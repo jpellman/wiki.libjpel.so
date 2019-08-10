@@ -2,7 +2,8 @@
 
 Pages related to open science.
 
-==External Links==
+External Links
+==============
 
 -   [Issues in Open Research Data](https://archive.org/stream/OpenResearchData)
 -   [Open Research Funders Group](http://www.orfg.org/)
