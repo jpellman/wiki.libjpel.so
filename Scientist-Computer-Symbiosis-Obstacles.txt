@@ -9,7 +9,7 @@ In 1960, J.C.R. Licklider identified the following as the greatest obstacles in 
  1. Some sort of workflow system (there was a passage where he anticipated Unix pipes).
  1. More elements I've forgotten.
 
-Essentially, Licklider thought that man-computer symbiosis would look something like [[https://www.youtube.com/watch?v=JIE8xk6Rl1w|this]].
+Essentially, Licklider thought that man-computer symbiosis would look something like [[https://www.youtube.com/watch?v=JIE8xk6Rl1w|this]] (or [[https://www.youtube.com/watch?v=9bjve67p33E|this full length version]].
 
 Today, my completely ancedotal observation is that for human/computer symbiosis to be optimal, scientific researchers need:
 
