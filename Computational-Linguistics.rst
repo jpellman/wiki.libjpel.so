@@ -3,8 +3,8 @@
 Computational Linguistics
 =========================
 
-Latent Semantica Analysis
--------------------------
+Latent Semantic Analysis
+------------------------
 
 * http://opensourceconnections.com/blog/2016/03/29/semantic-search-with-latent-semantic-analysis/
 
