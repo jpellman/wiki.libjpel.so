@@ -71,6 +71,32 @@ Applications
 
 * Prey_ (of somewhat dubious utility)
 
+Of these, the following can go away because I don't need a GUI for this host / don't want the rest:
+
+* CentOS 7's "Server w/ GUI" Install Group (GNOME 3, etc)
+
+* x2go
+
+* mate (since x2go breaks with Gnome 3)
+
+* MoinMoin_
+
+* Prey_ (of somewhat dubious utility)
+
+KVM is going to be managed via Proxmox in the future, as will ZFS on Linux (VMs will have volumes exposed to them via NFS).  That means that only the following need to be managed via Ansible:
+
+* BOINC (custom compile w/o the BOINC manager app; just boinc-client)
+
+* Folding@Home
+
+* t_ (Twitter CLI)
+
+* gmvault_
+
+* rclone (for Google Drive backups)
+
+* AWS CLI
+
 Plans
 -----
 
@@ -90,6 +116,8 @@ Plans
 
   * On 7/31/19, I finally tried to get GPU passthrough to work, but couldn't because Red Hat and NVIDIA are `silly corporate capitalist cows`_.  See `here <https://github.com/kubernetes/minikube/issues/3546>`__ too.
 
+  * After my issues with getting GPU passthrough to work with CentOS, I decided to install Proxmox instead.
+
 * I don't really use Windows that much since it would require rebooting to use (and I don't really game enough).  It would be interesting if I could find a way to run it via KVM.  There's only one app that really needs GPUs (Obduction) and I wouldn't mind booting directly for that.  Other tech I'd want to mess with (Chocolatey, PowerShell_, etc) doesn't require an intense GPU (heck, even the point-and-click adventures I play would be fine without the 1050s).
 
 * I have a bunch of utilities set up to back up my online presence (gmvault, t, etc).  I'd like to find a way to give these utilities their own space (i.e., a container) and manage them via Ansible.
@@ -101,15 +129,21 @@ Plans
 To-Do Items to Make Maxwell A Fully-Managed Host
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* Make an Ansible role for the ZFS backup scripts (these will need to run under Proxmox).  Investigate if Proxmox has something better.
+
+* Make an Ansible role for the Twitter backups.
+
+* Make an Ansible role for the rclone backups.
+
+* Make an Ansible role for the gmvault backups.
+
+* Make Ansible roles for boinc and folding@home.
+
 * :strike:`Back up home video DV footage currently on the root volume SSD to another disk.` *DONE: 2/24/19, 23:25*
 
 * :strike:`Create a Kickstart config that installs CentOS 7 on the non-Windows SSD, along with the virtualization host install group.  Configure GPU passthrough within Kickstart config.  The hypervisor should be managed entirely via Kickstart.` *DONE: 2/27/19, 00:09* (Though it's worth double-checking this at some point).
 
 * Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage.
-
-* Back up the ZFS backup scripts.
-
-* Set up Bruno_ to serve install disk for CentOS 7 using Apache, Kickstart config using OS X's built-in tftp server (see `here <http://www.unixfu.ch/start-a-tftp-server-on-your-mac/>`__) and NetgearWNR3500L_'s DHCP config.
 
 * Create a CentOS 6 VM for BOINC and FAH.  We want to use CentOS 6 because the FAH packages still need Python 2.6 (unless you modify them manually to use Python 2.7 in CentOS 7, which is a bit of a pain).  Attach thumb drive to this VM and have it be the backing storage for at least the scratch storage used by BOINC.  Give this VM access to GPUs and 8 vCPUs.
 
@@ -171,10 +205,6 @@ Photos
 .. _silly corporate capitalist cows: https://bugzilla.redhat.com/show_bug.cgi?id=1492173
 
 .. _PowerShell: ../PowerShell
-
-.. _Bruno: ../Bruno
-
-.. _NetgearWNR3500L: ../NetgearWNR3500L
 
 .. _PRAW: https://praw.readthedocs.io
 
