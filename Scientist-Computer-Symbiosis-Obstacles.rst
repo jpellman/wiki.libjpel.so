@@ -27,7 +27,7 @@ Today, my completely ancedotal observation is that for human/computer symbiosis 
 
 #. Some sort of intuitive workflow system.
 
-#. Hardware-based accelerators (although this may be more of an optimization; see ASICS_).
+#. Hardware-based accelerators (although this may be more of an optimization; see ASICs_).
 
 -------------------------
 
@@ -41,7 +41,7 @@ Today, my completely ancedotal observation is that for human/computer symbiosis 
 
 .. _this full length version: https://www.youtube.com/watch?v=9bjve67p33E
 
-.. _ASICS: ../ASICS
+.. _ASICs: ../ASICs
 
 .. _ScientificComputing: ../ScientificComputing
 

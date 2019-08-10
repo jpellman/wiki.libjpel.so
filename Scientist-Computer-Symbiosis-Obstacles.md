@@ -19,7 +19,7 @@ Today, my completely ancedotal observation is that for human/computer symbiosis 
 1.  Consistent and intuitive packaging and reproducible environments.
 2.  Scientific literature condensed into machine-parseable data that can be readily extracted (i.e., non-voice / handwriting related NLP). Methods and results sections need to be easy to aggregate and evaluate at a glance- the excessive verbosity of most publications is a hindrance to scientific progress.
 3.  Some sort of intuitive workflow system.
-4.  Hardware-based accelerators (although this may be more of an optimization; see [ASICS](../ASICS)).
+4.  Hardware-based accelerators (although this may be more of an optimization; see [ASICs](../ASICs)).
 
 * * * * *
 
