@@ -7,17 +7,7 @@ Notes on cognitive science.
 
 '''List of pages in this category:'''
 
-[[ProblemSolving | Problem Solving]]
-
-[[Expertise]]
-
-[[Memory]]
-
-[[Learning]]
-
-[[DecisionMaking | Decision Making]]
-
-[[Neuroimaging | Neuroimaging]]
+<<FullSearchCached(category:CognitiveScience)>>
 
 == Articles: ==
 
