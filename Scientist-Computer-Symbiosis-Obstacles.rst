@@ -21,9 +21,9 @@ Essentially, Licklider thought that man-computer symbiosis would look something 
 
 Today, my completely ancedotal observation is that for human/computer symbiosis to be optimal, scientific researchers need:
 
-1. Consistent and intuitive packaging and reproducible environments.
+1. Consistent and intuitive packaging and reproducible environments.  As an addendum, the need for consistent packaging has been a perennial issue in scientific computing- that's why Seth Vidal and Michael Stenner wrote yum_ and why SBGrid_ was created.
 
-#. Scientific literature condensed into machine-parseable data that can be readily extracted (i.e., non-voice / handwriting related NLP).  Methods and results sections need to be easy to aggregate and evaluate at a glance- the excessive verbosity of most publications is a hindrance to scientific progress.
+#. Scientific literature condensed into machine-parseable data that can be readily extracted (i.e., non-voice / handwriting related NLP).  Methods and results sections need to be easy to aggregate and evaluate at a glance- the excessive verbosity of most publications is a hindrance to scientific progress.  Metrics similar to those aggregated in `The secret lives of experiments`_ should be automatically generated constantly, without need for painstaking human intervention.
 
 #. Related to the above, there should be open datasets that are readily discoverable.
 
@@ -52,6 +52,12 @@ I don't foresee working on hardware acceleration in any capacity beyond remainin
 .. _this: https://www.youtube.com/watch?v=JIE8xk6Rl1w
 
 .. _this full length version: https://www.youtube.com/watch?v=9bjve67p33E
+
+.. _yum: https://en.wikipedia.org/wiki/Yum_(software)
+
+.. _SBGrid: https://sbgrid.org/about/history/
+
+.. _The secret lives of experiments: https://www.ncbi.nlm.nih.gov/pubmed/22796459
 
 .. _ASICs: ../ASICs
 
