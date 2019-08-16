@@ -41,6 +41,18 @@ A workflow system is definitely something a data engineer would work on, althoug
 
 I don't foresee working on hardware acceleration in any capacity beyond remaining aware of trends in industry and having enough knowledge to make informed choices / decipher a chip maker's propaganda accurately enough.  Designing chips in FPGAs could be fun, although my call is that it's better to leave that sort of stuff to the professionals / electrical engineers / chemical engineers.  Furthermore, I don't even know the field well enough to really know where I could best contribute- the only unimplemented logic I'm aware of that could potentially useful would be for some sort of Unum_ processing.  Again, there are already professionals working on this at the various chip companies.
 
+I address the above problems in more depth in the following pages:
+
+1. Packaging_
+
+#. TODO - probable sub-page of ComputationalLinguistics_
+
+#. TODO - probable sub-page of OpenScience_
+
+#. TODO - CWLMake_ might be adapted for this.
+
+#. ASICs_
+
 -------------------------
 
  ScientificComputing_
@@ -76,6 +88,14 @@ I don't foresee working on hardware acceleration in any capacity beyond remainin
 .. _CWL wrappers: https://www.commonwl.org/
 
 .. _Unum: https://en.wikipedia.org/wiki/Unum_(number_format)
+
+.. _Packaging: ../Packaging
+
+.. _ComputationalLinguistics: ../ComputationalLinguistics
+
+.. _OpenScience: ../OpenScience
+
+.. _CWLMake: ../CWLMake
 
 .. _ScientificComputing: ../ScientificComputing
 
