@@ -45,7 +45,7 @@ I address the above problems in more depth in the following pages:
 
 1. Packaging_
 
-#. TODO - probable sub-page of ComputationalLinguistics_
+#. TODO - probable sub-page of ComputationalLinguistics_, see CitationGraphs_ too
 
 #. TODO - probable sub-page of OpenScience_
 
@@ -92,6 +92,8 @@ I address the above problems in more depth in the following pages:
 .. _Packaging: ../Packaging
 
 .. _ComputationalLinguistics: ../ComputationalLinguistics
+
+.. _CitationGraphs: ../CitationGraphs
 
 .. _OpenScience: ../OpenScience
 

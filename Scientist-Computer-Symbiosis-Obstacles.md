@@ -35,7 +35,7 @@ I don't foresee working on hardware acceleration in any capacity beyond remainin
 I address the above problems in more depth in the following pages:
 
 1.  [Packaging](../Packaging)
-2.  TODO - probable sub-page of [ComputationalLinguistics](../ComputationalLinguistics)
+2.  TODO - probable sub-page of [ComputationalLinguistics](../ComputationalLinguistics), see [CitationGraphs](../CitationGraphs) too
 3.  TODO - probable sub-page of [OpenScience](../OpenScience)
 4.  TODO - [CWLMake](../CWLMake) might be adapted for this.
 5.  [ASICs](../ASICs)
