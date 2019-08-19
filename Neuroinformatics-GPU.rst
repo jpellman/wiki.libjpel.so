@@ -32,7 +32,7 @@ AFNI
 * https://afni.nimh.nih.gov/afni/community/board/read.php?1,67402,73081
 
 Exciting News for AFNI
-----------------------
+::::::::::::::::::::::
 
 * https://www.openmp.org/updates/openmp-accelerator-support-gpus/
 
@@ -49,6 +49,14 @@ FSL
 ~~~
 
 * http://godzilla.kennedykrieger.org/penguin/fsl.shtml
+
+=== Misc ====
+
+The case for consumer GPUs over enterprise GPUs:
+
+* https://lambdalabs.com/blog/best-gpu-tensorflow-2080-ti-vs-v100-vs-titan-v-vs-1080-ti-benchmark/
+
+* https://timdettmers.com/2019/04/03/which-gpu-for-deep-learning/
 
 -------------------------
 

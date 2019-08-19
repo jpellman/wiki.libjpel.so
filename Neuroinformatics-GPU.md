@@ -21,8 +21,7 @@ Discussions
 -   <https://afni.nimh.nih.gov/afni/community/board/read.php?1,71356,71365>
 -   <https://afni.nimh.nih.gov/afni/community/board/read.php?1,67402,73081>
 
-Exciting News for AFNI
-----------------------
+#### Exciting News for AFNI
 
 -   <https://www.openmp.org/updates/openmp-accelerator-support-gpus/>
 -   <http://on-demand.gputechconf.com/gtc/2018/presentation/s8344-openmp-on-gpus-first-experiences-and-best-practices.pdf>
@@ -35,6 +34,13 @@ Exciting News for AFNI
 ### FSL
 
 -   <http://godzilla.kennedykrieger.org/penguin/fsl.shtml>
+
+=== Misc ====
+
+The case for consumer GPUs over enterprise GPUs:
+
+-   <https://lambdalabs.com/blog/best-gpu-tensorflow-2080-ti-vs-v100-vs-titan-v-vs-1080-ti-benchmark/>
+-   <https://timdettmers.com/2019/04/03/which-gpu-for-deep-learning/>
 
 * * * * *
 
