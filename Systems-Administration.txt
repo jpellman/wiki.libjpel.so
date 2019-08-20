@@ -77,6 +77,8 @@ This page stores both generic notes, as well as additional pages and categories 
  * [[http://hackaday.com/2014/05/28/interview-inventing-the-unix-sudo-command/|Inventing the Sudo Command]]
  * [[ http://preshing.com/20110811/xkcd-password-generator/ | XKCD Password Generator ]]
  * [[ http://correcthorsebatterystaple.net/ | Another XKCD Password Generator ]]
+ * [[https://blog.compass-security.com/2012/10/dangerous-sudoers-entries-part-4-wildcards/|Dangerous Sudoers Entries]]
+ * [[https://stopdisablingselinux.com/|Stop Disabling SELinux]]
 
 == Storage ==
 

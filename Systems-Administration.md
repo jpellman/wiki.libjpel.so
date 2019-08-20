@@ -79,6 +79,8 @@ Security
 -   [Inventing the Sudo Command](http://hackaday.com/2014/05/28/interview-inventing-the-unix-sudo-command/)
 -   [XKCD Password Generator](http://preshing.com/20110811/xkcd-password-generator/)
 -   [Another XKCD Password Generator](http://correcthorsebatterystaple.net/)
+-   [Dangerous Sudoers Entries](https://blog.compass-security.com/2012/10/dangerous-sudoers-entries-part-4-wildcards/)
+-   [Stop Disabling SELinux](https://stopdisablingselinux.com/)
 
 Storage
 -------

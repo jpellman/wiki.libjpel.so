@@ -117,6 +117,10 @@ Security
 
 * `Another XKCD Password Generator`_
 
+* `Dangerous Sudoers Entries`_
+
+* `Stop Disabling SELinux`_
+
 Storage
 -------
 
@@ -233,6 +237,10 @@ S3-compatible object stores
 .. _XKCD Password Generator: http://preshing.com/20110811/xkcd-password-generator/
 
 .. _Another XKCD Password Generator: http://correcthorsebatterystaple.net/
+
+.. _Dangerous Sudoers Entries: https://blog.compass-security.com/2012/10/dangerous-sudoers-entries-part-4-wildcards/
+
+.. _Stop Disabling SELinux: https://stopdisablingselinux.com/
 
 .. _Why NFS Sucks: https://www.kernel.org/doc/ols/2006/ols2006v2-pages-59-72.pdf
 
