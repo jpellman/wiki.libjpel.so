@@ -8,6 +8,7 @@ An ongoing list of software / techniques for visualizing citations.
  * [[http://www.eigenfactor.org/projects.php|Eigenfactor Projects]]
  * [[https://aminer.org/open-academic-graph|Open Academic Graph]]
  * [[https://neurotree.org|Neurotree]] and the broader [[https://academictree.org|Academic Tree]]
+ * [[https://github.com/CitationGecko|Citation Gecko]]
 
 ----
 ScientificComputing

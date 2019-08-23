@@ -14,6 +14,8 @@ An ongoing list of software / techniques for visualizing citations.
 
 * Neurotree_ and the broader `Academic Tree`_
 
+* `Citation Gecko`_
+
 -------------------------
 
  ScientificComputing_
@@ -31,6 +33,8 @@ An ongoing list of software / techniques for visualizing citations.
 .. _Neurotree: https://neurotree.org
 
 .. _Academic Tree: https://academictree.org
+
+.. _Citation Gecko: https://github.com/CitationGecko
 
 .. _ScientificComputing: ../ScientificComputing
 
