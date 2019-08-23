@@ -12,6 +12,8 @@ An ongoing list of software / techniques for visualizing citations.
 
 * `Open Academic Graph`_
 
+* Neurotree_ and the broader `Academic Tree`_
+
 -------------------------
 
  ScientificComputing_
@@ -25,6 +27,10 @@ An ongoing list of software / techniques for visualizing citations.
 .. _Eigenfactor Projects: http://www.eigenfactor.org/projects.php
 
 .. _Open Academic Graph: https://aminer.org/open-academic-graph
+
+.. _Neurotree: https://neurotree.org
+
+.. _Academic Tree: https://academictree.org
 
 .. _ScientificComputing: ../ScientificComputing
 
