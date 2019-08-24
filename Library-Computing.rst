@@ -1,8 +1,9 @@
 #format rst
 
-* https://mellon.org/media/filer_public/0c/3e/0c3eee7d-4166-4ba6-a767-6b42e6a1c2a7/rosenthal-emulation-2015.pdf
+Library Computing
+=================
 
-* http://www.dlib.org/dlib/october00/granger/10granger.html
+.. contents:: :depth: 2
 
 Metadata/Search vs Filesystems
 ------------------------------
@@ -25,4 +26,25 @@ The Semantic Web
 * https://lemire.me/blog/2016/11/15/on-metadata/
 
 * https://5stardata.info/en/
+
+Emulation
+---------
+
+* `David Rosenthal's Emulation Paper`_
+
+The Future of Libraries
+-----------------------
+
+* http://www.columbia.edu/~jrh29/licklider/
+
+* http://www.columbia.edu/~hauben/libraries-of-future.doc
+
+Miscellaneous Reading
+---------------------
+
+* http://www.dlib.org/dlib/october00/granger/10granger.html
+
+.. ############################################################################
+
+.. _David Rosenthal's Emulation Paper: https://mellon.org/media/filer_public/0c/3e/0c3eee7d-4166-4ba6-a767-6b42e6a1c2a7/rosenthal-emulation-2015.pdf
 
