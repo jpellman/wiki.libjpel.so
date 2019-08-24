@@ -47,6 +47,11 @@ Database Acceleration
 -   [BlazingSQL](https://blazingsql.com/)
 -   <https://www.reddit.com/r/hardware/comments/9ld5df/in_a_parallel_universe_data_warehouses_run_on_gpus/>
 
+Network Acceleration
+--------------------
+
+-   [SmartNICs and eBPF offloading](https://netdevconf.org/1.2/slides/oct7/10_nic_viljoen_eBPF_Offload_to_Hardware__cls_bpf_and_XDP_finalised.pdf) (see [here](https://www.netronome.com/blog/ever-deeper-bpf-update-hardware-offload-support/) and https://netdevconf.org/1.2/slides/oct7/10\_nic\_viljoen\_eBPF\_Offload\_to\_Hardware\_\_cls\_bpf\_and\_XDP\_finalised.pdf\_ too).
+
 * * * * *
 
 > [ScientificComputing](../ScientificComputing)

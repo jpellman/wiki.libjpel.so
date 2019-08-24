@@ -43,5 +43,9 @@ Also, see [[https://indico.cern.ch/event/658060/contributions/2889027/attachment
  * [[ https://blazingsql.com/ | BlazingSQL ]]
  * https://www.reddit.com/r/hardware/comments/9ld5df/in_a_parallel_universe_data_warehouses_run_on_gpus/
 
+== Network Acceleration ==
+
+ * [[https://netdevconf.org/1.2/slides/oct7/10_nic_viljoen_eBPF_Offload_to_Hardware__cls_bpf_and_XDP_finalised.pdf|SmartNICs and eBPF offloading]] (see [[https://www.netronome.com/blog/ever-deeper-bpf-update-hardware-offload-support/|here]] and [[here|https://netdevconf.org/1.2/slides/oct7/10_nic_viljoen_eBPF_Offload_to_Hardware__cls_bpf_and_XDP_finalised.pdf]] too).
+
 ----
 ScientificComputing
