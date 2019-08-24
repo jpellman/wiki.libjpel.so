@@ -45,7 +45,7 @@ I address the above problems in more depth in the following pages:
 
 1. Packaging_
 
-#. TODO - probable sub-page of ComputationalLinguistics_, see CitationGraphs_ too
+#. TODO - probable sub-page of ComputationalLinguistics_, see CitationGraphs_ too.  There should be also be a page for tools that aggregate data like Neurosynth and Neuroquery_
 
 #. TODO - probable sub-page of OpenScience_
 
@@ -94,6 +94,8 @@ I address the above problems in more depth in the following pages:
 .. _ComputationalLinguistics: ../ComputationalLinguistics
 
 .. _CitationGraphs: ../CitationGraphs
+
+.. _Neuroquery: https://neuroquery.saclay.inria.fr
 
 .. _OpenScience: ../OpenScience
 
