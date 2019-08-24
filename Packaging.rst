@@ -14,7 +14,7 @@ Tools
 
 * alien : Allows you to convert RPMs to Debian packages.  Doesn't take into account dependencies.
 
-* CPack_ : Allows you to create 
+* CPack_ : Allows you to create multiple package formats from the same source code.
 
 Spec file Formats
 -----------------

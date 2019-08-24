@@ -8,7 +8,7 @@ I'm using this page to keep notes on the wonderful world of software packaging /
 
  * rpmbuild : Tool used to create RPMs, taking into account dependency resolution.
  * alien : Allows you to convert RPMs to Debian packages.  Doesn't take into account dependencies.
- * [[https://cmake.org/Wiki/CMake:Packaging_With_CPack | CPack ]] : Allows you to create 
+ * [[https://cmake.org/Wiki/CMake:Packaging_With_CPack | CPack ]] : Allows you to create multiple package formats from the same source code.
 
 == Spec file Formats ==
 
