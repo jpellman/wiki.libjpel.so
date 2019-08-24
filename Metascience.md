@@ -9,6 +9,7 @@ An ongoing list of software / techniques for visualizing citations.
 -   [Open Academic Graph](https://aminer.org/open-academic-graph)
 -   [Neurotree](https://neurotree.org) and the broader [Academic Tree](https://academictree.org)
 -   [Citation Gecko](https://github.com/CitationGecko)
+-   [Clubs of Science](https://academic.oup.com/gigascience/article/5/suppl_1/s13742-016-0147-0-f/2965211) (dead) - see [here](https://github.com/Brainhack-Proceedings-2015/Dery_HBM_ClubsOfScience) and [here](https://github.com/sderygithub/Clubs-of-Science)
 
 * * * * *
 

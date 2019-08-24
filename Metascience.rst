@@ -16,6 +16,8 @@ An ongoing list of software / techniques for visualizing citations.
 
 * `Citation Gecko`_
 
+* `Clubs of Science`_ (dead) - see here_ and `here <https://github.com/sderygithub/Clubs-of-Science>`__
+
 -------------------------
 
  ScientificComputing_
@@ -35,6 +37,10 @@ An ongoing list of software / techniques for visualizing citations.
 .. _Academic Tree: https://academictree.org
 
 .. _Citation Gecko: https://github.com/CitationGecko
+
+.. _Clubs of Science: https://academic.oup.com/gigascience/article/5/suppl_1/s13742-016-0147-0-f/2965211
+
+.. _here: https://github.com/Brainhack-Proceedings-2015/Dery_HBM_ClubsOfScience
 
 .. _ScientificComputing: ../ScientificComputing
 
