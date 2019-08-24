@@ -18,6 +18,11 @@ Spec file Formats
 -   dsc
 -   RPM spec
 
+Further Reading
+---------------
+
+-   [Env and Stacks/Projects/UserLevelPackageManagement - Fedora Project Wiki](https://fedoraproject.org/wiki/Env_and_Stacks/Projects/UserLevelPackageManagement)
+
 * * * * *
 
 > [ScientificComputing](../ScientificComputing) [SystemsAdministration](../SystemsAdministration)

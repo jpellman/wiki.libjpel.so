@@ -23,6 +23,11 @@ Spec file Formats
 
 * RPM spec
 
+Further Reading
+---------------
+
+* `Env and Stacks/Projects/UserLevelPackageManagement - Fedora Project Wiki`_
+
 -------------------------
 
  ScientificComputing_ SystemsAdministration_
@@ -30,6 +35,8 @@ Spec file Formats
 .. ############################################################################
 
 .. _CPack: https://cmake.org/Wiki/CMake:Packaging_With_CPack
+
+.. _Env and Stacks/Projects/UserLevelPackageManagement - Fedora Project Wiki: https://fedoraproject.org/wiki/Env_and_Stacks/Projects/UserLevelPackageManagement
 
 .. _ScientificComputing: ../ScientificComputing
 

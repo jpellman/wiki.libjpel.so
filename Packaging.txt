@@ -15,5 +15,9 @@ I'm using this page to keep notes on the wonderful world of software packaging /
  * dsc
  * RPM spec
 
+== Further Reading ==
+
+ * [[https://fedoraproject.org/wiki/Env_and_Stacks/Projects/UserLevelPackageManagement|Env and Stacks/Projects/UserLevelPackageManagement - Fedora Project Wiki]]
+
 ----
 ScientificComputing SystemsAdministration
