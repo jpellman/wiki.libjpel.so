@@ -67,7 +67,7 @@ Via GPUS
 Network Acceleration
 --------------------
 
-* `SmartNICs and eBPF offloading`_ (see `here <https://www.netronome.com/blog/ever-deeper-bpf-update-hardware-offload-support/>`__ and `https://netdevconf.org/1.2/slides/oct7/10_nic_viljoen_eBPF_Offload_to_Hardware__cls_bpf_and_XDP_finalised.pdf`_ too).
+* `SmartNICs and eBPF offloading`_ (see `here <https://www.netronome.com/blog/ever-deeper-bpf-update-hardware-offload-support/>`__ and `here <https://netdevconf.org/1.2/slides/oct7/10_nic_viljoen_eBPF_Offload_to_Hardware__cls_bpf_and_XDP_finalised.pdf>`__ too).
 
 -------------------------
 
@@ -116,8 +116,6 @@ Network Acceleration
 .. _BlazingSQL: https://blazingsql.com/
 
 .. _SmartNICs and eBPF offloading: https://netdevconf.org/1.2/slides/oct7/10_nic_viljoen_eBPF_Offload_to_Hardware__cls_bpf_and_XDP_finalised.pdf
-
-.. _`https://netdevconf.org/1.2/slides/oct7/10_nic_viljoen_eBPF_Offload_to_Hardware__cls_bpf_and_XDP_finalised.pdf`: ../here
 
 .. _ScientificComputing: ../ScientificComputing
 
