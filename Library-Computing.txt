@@ -11,6 +11,14 @@
  * https://docs.oracle.com/database/121/ADLOB/adlob_fs.htm#ADLOB45943
  * https://github.com/shirosaidev/diskover
 
+== Digital Asset Management (DAM) ==
+
+ * [[ https://arxiv.org/pdf/1312.1258.pdf | FEDORA Article ]]
+
+== Persistent Identifiers (Handle/DOI) ==
+
+ * [[ http://www.cnri.reston.va.us/k-w.html | A Framework for Distributed Digital Object Services ]] (article outlining the Handle system)
+
 == The Semantic Web ==
 
  * https://lemire.me/blog/2016/11/15/on-metadata/
@@ -28,6 +36,7 @@
 == Miscellaneous Reading ==
 
  * http://www.dlib.org/dlib/october00/granger/10granger.html
+ * [[https://citesandinsights.info/ | Cites and Insights ]] - Articles by Walt Crawford
 
 ----
 

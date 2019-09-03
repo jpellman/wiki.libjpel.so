@@ -13,6 +13,16 @@ Metadata/Search vs Filesystems
 -   <https://docs.oracle.com/database/121/ADLOB/adlob_fs.htm#ADLOB45943>
 -   <https://github.com/shirosaidev/diskover>
 
+Digital Asset Management (DAM)
+------------------------------
+
+-   [FEDORA Article](https://arxiv.org/pdf/1312.1258.pdf)
+
+Persistent Identifiers (Handle/DOI)
+-----------------------------------
+
+-   [A Framework for Distributed Digital Object Services](http://www.cnri.reston.va.us/k-w.html) (article outlining the Handle system)
+
 The Semantic Web
 ----------------
 
@@ -34,6 +44,7 @@ Miscellaneous Reading
 ---------------------
 
 -   <http://www.dlib.org/dlib/october00/granger/10granger.html>
+-   [Cites and Insights](https://citesandinsights.info/) - Articles by Walt Crawford
 
 * * * * *
 

@@ -20,6 +20,16 @@ Metadata/Search vs Filesystems
 
 * https://github.com/shirosaidev/diskover
 
+Digital Asset Management (DAM)
+------------------------------
+
+* `FEDORA Article`_
+
+Persistent Identifiers (Handle/DOI)
+-----------------------------------
+
+* `A Framework for Distributed Digital Object Services`_ (article outlining the Handle system)
+
 The Semantic Web
 ----------------
 
@@ -44,6 +54,8 @@ Miscellaneous Reading
 
 * http://www.dlib.org/dlib/october00/granger/10granger.html
 
+* `Cites and Insights`_ - Articles by Walt Crawford
+
 -------------------------
 
 
@@ -52,7 +64,13 @@ AcademicComputing_
 
 .. ############################################################################
 
+.. _FEDORA Article: https://arxiv.org/pdf/1312.1258.pdf
+
+.. _A Framework for Distributed Digital Object Services: http://www.cnri.reston.va.us/k-w.html
+
 .. _David Rosenthal's Emulation Paper: https://mellon.org/media/filer_public/0c/3e/0c3eee7d-4166-4ba6-a767-6b42e6a1c2a7/rosenthal-emulation-2015.pdf
+
+.. _Cites and Insights: https://citesandinsights.info/
 
 .. _AcademicComputing: ../AcademicComputing
 
