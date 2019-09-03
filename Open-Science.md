@@ -2,9 +2,6 @@
 
 Pages related to open science.
 
-External Links
-==============
-
 -   [Issues in Open Research Data](https://archive.org/stream/OpenResearchData)
 -   [Open Research Funders Group](http://www.orfg.org/)
 -   [MIT Summarizes Open Access Requirements for various funding agencies/foundations](https://libraries.mit.edu/scholarly/publishing/research-funders/research-funder-open-access-requirements/)

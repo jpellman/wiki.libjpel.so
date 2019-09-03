@@ -8,9 +8,6 @@ Pages related to open science.
 
 .. <<FullSearchCached(category:OpenScience)>>
 
-External Links
---------------
-
 * `Issues in Open Research Data`_
 
 * `Open Research Funders Group`_
