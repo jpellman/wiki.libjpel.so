@@ -9,21 +9,26 @@ Pages that related to academic computing.
 
 <<FullSearchCached(category:AcademicComputing)>>
 
-Articles to read:
+== Major Past Academic Computing Initiatives of Note ==
 
- * [[ https://arxiv.org/pdf/1312.1258.pdf | FEDORA Article ]]
+ * [[https://en.wikipedia.org/wiki/Andrew_Project|Andrew Project]] (also [[https://web.archive.org/web/20100628060635/http://www.cmu.edu/corporate/news/2007/features/andrew/index.shtml|here]] and [[https://www.openafs.org/|here]])
+ * [[https://en.wikipedia.org/wiki/Project_Athena|Project Athena]] (also [[http://ist.mit.edu/athena|here]])
+ * [[https://en.wikipedia.org/wiki/Stanford_University_Network|Stanford University Network]] whose efforts, alongside the [[https://en.wikipedia.org/wiki/Computer_Systems_Research_Group|Computer Systems Research Group]], were successfully transitioned into and continued with [[https://en.wikipedia.org/wiki/Sun_Microsystems|Sun Microsystems]]
+ * [[https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=100660|The Stanford Integrated Digital Library Project]] effectively morphed into Google
+ * [[http://www.kermitproject.org/|Kermit]] (Columbia site [[http://www.columbia.edu/kermit/|here]])
+ * [[http://www.columbia.edu/acis/dev/projects/mod_auth_pamacea/|Pamacea]] (also see general [[http://www.columbia.edu/acis/dev/unixdev/projects/|Columbia AcIS UnixDev Projects]])
+ * [[https://itk.org/ITK/project/about.html|ITK]] / the Insight Software Consortium.  YouTube founder Jawed Karim was briefly involved in this.
 
- * http://www.cnri.reston.va.us/k-w.html
+== On Funding Models ==
 
- * http://mfeldstein.com/community-source-dead/
+Essentially, most academic software is either a) grant-funded in some way or b) created via some sort of consortium (i.e., the [[https://en.wikipedia.org/wiki/Community_source|community source]] model).  Some software lives under an umbrella organization, such as the [[https://www.apereo.org/|Apereo Foundation]] or [[https://www.apache.org/foundation/|Apache Foundation]]. 
 
- * http://www.dr-chuck.com/csev-blog/2014/09/how-to-achieve-vendor-lock-in-with-a-legit-open-source-license-affero-gpl/
-
- * https://en.wikipedia.org/wiki/Andrew_Project
-
- * https://en.wikipedia.org/wiki/Project_Athena
-
- * https://citesandinsights.info/
+=== Open Source / Community Source ===
+ * [[https://www.fordfoundation.org/media/2976/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure.pdf | Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure ]] (Ford Foundation report on sustainability of open source model)
+ * [[http://mfeldstein.com/community-source-dead/ | Community Source Is Dead ]]
+ * [[http://www.dr-chuck.com/csev-blog/2014/09/how-to-achieve-vendor-lock-in-with-a-legit-open-source-license-affero-gpl/|How to Achieve Vendor Lock-in with a Legit Open Source License – Affero GPL]]
+ * [[http://www.dr-chuck.com/sakai-book/|Sakai: Building an Open Source Community]]
+ * [[https://elifesciences.org/articles/01456 | Cutting Edge: Collaboration gets the most out of software]] (an article discussing the funding model for and history of the [[https://sbgrid.org/ | SBGrid Consortium ]]
 
 ----
 CategoryCategory
