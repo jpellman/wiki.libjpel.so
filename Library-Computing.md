@@ -35,3 +35,6 @@ Miscellaneous Reading
 
 -   <http://www.dlib.org/dlib/october00/granger/10granger.html>
 
+* * * * *
+
+[AcademicComputing](../AcademicComputing)
