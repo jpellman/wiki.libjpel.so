@@ -15,7 +15,9 @@ Major Past Academic Computing Initiatives of Note
 
 * `Project Athena`_ (also `here <http://ist.mit.edu/athena>`__)
 
-* `Stanford University Network`_ whose efforts, alongside the `Computer Systems Research Group`_, were successfully transitioned into and continued with `Sun Microsystems`_
+* `Stanford University Network`_ whose efforts, alongside the `Computer Systems Research Group`_ (BSD folks), were successfully transitioned into and continued with `Sun Microsystems`_
+
+* sudo_ was made at SUNY Buffalo in the early to mid 80s.
 
 * `The Stanford Integrated Digital Library Project`_ effectively morphed into Google
 
@@ -24,6 +26,8 @@ Major Past Academic Computing Initiatives of Note
 * Pamacea_ (also see general `Columbia AcIS UnixDev Projects`_)
 
 * ITK_ / the Insight Software Consortium.  YouTube_ founder Jawed Karim was briefly involved in this.
+
+* Mach_ (now part of OS X)
 
 On Funding Models
 -----------------
@@ -61,6 +65,8 @@ Open Source / Community Source
 
 .. _Sun Microsystems: https://en.wikipedia.org/wiki/Sun_Microsystems
 
+.. _sudo: https://gratisoft.us/sudo/history.html
+
 .. _The Stanford Integrated Digital Library Project: https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=100660
 
 .. _Kermit: http://www.kermitproject.org/
@@ -72,6 +78,8 @@ Open Source / Community Source
 .. _ITK: https://itk.org/ITK/project/about.html
 
 .. _YouTube: ../YouTube
+
+.. _Mach: https://www.cs.cmu.edu/afs/cs/project/mach/public/www/mach.html
 
 .. _community source: https://en.wikipedia.org/wiki/Community_source
 

@@ -11,11 +11,13 @@ Major Past Academic Computing Initiatives of Note
 
 -   [Andrew Project](https://en.wikipedia.org/wiki/Andrew_Project) (also [here](https://web.archive.org/web/20100628060635/http://www.cmu.edu/corporate/news/2007/features/andrew/index.shtml) and [here](https://www.openafs.org/))
 -   [Project Athena](https://en.wikipedia.org/wiki/Project_Athena) (also [here](http://ist.mit.edu/athena))
--   [Stanford University Network](https://en.wikipedia.org/wiki/Stanford_University_Network) whose efforts, alongside the [Computer Systems Research Group](https://en.wikipedia.org/wiki/Computer_Systems_Research_Group), were successfully transitioned into and continued with [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems)
+-   [Stanford University Network](https://en.wikipedia.org/wiki/Stanford_University_Network) whose efforts, alongside the [Computer Systems Research Group](https://en.wikipedia.org/wiki/Computer_Systems_Research_Group) (BSD folks), were successfully transitioned into and continued with [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems)
+-   [sudo](https://gratisoft.us/sudo/history.html) was made at SUNY Buffalo in the early to mid 80s.
 -   [The Stanford Integrated Digital Library Project](https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=100660) effectively morphed into Google
 -   [Kermit](http://www.kermitproject.org/) (Columbia site [here](http://www.columbia.edu/kermit/))
 -   [Pamacea](http://www.columbia.edu/acis/dev/projects/mod_auth_pamacea/) (also see general [Columbia AcIS UnixDev Projects](http://www.columbia.edu/acis/dev/unixdev/projects/))
 -   [ITK](https://itk.org/ITK/project/about.html) / the Insight Software Consortium. [YouTube](../YouTube) founder Jawed Karim was briefly involved in this.
+-   [Mach](https://www.cs.cmu.edu/afs/cs/project/mach/public/www/mach.html) (now part of OS X)
 
 On Funding Models
 =================
