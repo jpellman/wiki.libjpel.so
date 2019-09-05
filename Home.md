@@ -13,6 +13,7 @@ Interesting starting points:
 -   [AcademicComputing](../AcademicComputing)
 -   [LibraryComputing](../LibraryComputing)
 -   [ScientificComputing](../ScientificComputing)
+-   [MachineLearning](../MachineLearning)
 -   [CognitiveScience](../CognitiveScience)
 -   [OpenScience](../OpenScience)
 -   [Hobbies](../Hobbies)

@@ -23,6 +23,8 @@ Interesting starting points:
 
 * ScientificComputing_
 
+* MachineLearning_
+
 * CognitiveScience_
 
 * OpenScience_
@@ -66,6 +68,8 @@ This wiki is powered by MoinMoin_.
 .. _LibraryComputing: ../LibraryComputing
 
 .. _ScientificComputing: ../ScientificComputing
+
+.. _MachineLearning: ../MachineLearning
 
 .. _CognitiveScience: ../CognitiveScience
 

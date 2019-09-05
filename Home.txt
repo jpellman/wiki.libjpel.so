@@ -15,6 +15,7 @@ Interesting starting points:
  * AcademicComputing
  * LibraryComputing
  * ScientificComputing
+ * MachineLearning
  * CognitiveScience
  * OpenScience
  * [[Hobbies]]
