@@ -18,6 +18,7 @@ Given a set of constraints, Google's AutoML aims to [evolve](https://en.wikipedi
 -   [Google AutoML](https://cloud.google.com/automl/)
 -   [AutoML](https://en.wikipedia.org/wiki/Automated_machine_learning) (Wikipedia article about the field as a whole; not Google specific)
 -   [Google's AutoML: Cutting Through the Hype](https://www.fast.ai/2018/07/23/auto-ml-3/)
+-   [AutoML from University of Freiburg](https://www.automl.org)
 
 Neural Architecture Search
 --------------------------

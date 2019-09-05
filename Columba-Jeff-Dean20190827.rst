@@ -25,6 +25,8 @@ Links
 
 * `Google's AutoML: Cutting Through the Hype`_
 
+* `AutoML from University of Freiburg`_
+
 Neural Architecture Search
 --------------------------
 
@@ -54,6 +56,8 @@ Links
 .. _AutoML: https://en.wikipedia.org/wiki/Automated_machine_learning
 
 .. _`Google's AutoML: Cutting Through the Hype`: https://www.fast.ai/2018/07/23/auto-ml-3/
+
+.. _AutoML from University of Freiburg: https://www.automl.org
 
 .. _Neural Architecture Search: https://en.wikipedia.org/wiki/Neural_architecture_search
 
