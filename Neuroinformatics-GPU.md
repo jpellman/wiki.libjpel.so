@@ -35,7 +35,7 @@ Discussions
 
 -   <http://godzilla.kennedykrieger.org/penguin/fsl.shtml>
 
-=== Misc ====
+### Misc
 
 The case for consumer GPUs over enterprise GPUs:
 
