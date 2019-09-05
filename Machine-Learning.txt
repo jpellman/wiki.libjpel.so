@@ -1,4 +1,6 @@
 Notes on neural networks / machine learning.
 
+<<FullSearchCached(category:MachineLearning)>>
+
 ----
 CognitiveScience ScientificComputing
