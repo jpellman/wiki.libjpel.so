@@ -1,9 +1,6 @@
 #format rst
 
-Links to articles regarding the NifTI format that could be used as sources for an article / updates to PRONOM_.
-
-Links
------
+Links to articles regarding the NifTI format.
 
 * https://www.nitrc.org/docman/view.php/26/204/TheNIfTI1Format2004.pdf
 
@@ -17,23 +14,11 @@ Links
 
 * https://nifti.nimh.nih.gov/nifti-2
 
-NifTI-1 PRONOM Fields
----------------------
-
-[Table not converted]
-
-NifTI-2 PRONOM Fields
----------------------
-
-[Table not converted]
-
 -------------------------
 
  ScientificComputing_
 
 .. ############################################################################
-
-.. _PRONOM: https://www.nationalarchives.gov.uk/PRONOM/Format/proFormatSearch.aspx?status=detailReport&id=1598
 
 .. _ScientificComputing: ../ScientificComputing
 
