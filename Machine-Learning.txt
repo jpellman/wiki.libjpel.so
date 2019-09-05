@@ -1,0 +1,4 @@
+Notes on neural networks / machine learning.
+
+------
+CognitiveScience ScientificComputing
