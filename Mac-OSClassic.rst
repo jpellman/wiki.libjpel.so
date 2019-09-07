@@ -20,6 +20,8 @@ Implementation Details
 
 * `Vintage Apple's Mac Programming Books`_
 
+* `PowerPC History`_ - in particular, this discusses in some detail the `68k emulator`_
+
 Community
 ---------
 
@@ -59,6 +61,10 @@ Projects
 .. _Macintosh Programmer's Introduction to the Macintosh Family: https://archive.org/details/macintoshprogram00appl
 
 .. _Vintage Apple's Mac Programming Books: https://vintageapple.org/macprogramming/
+
+.. _PowerPC History: http://applemuseum.bott.org/sections/ppc.html
+
+.. _68k emulator: https://en.wikipedia.org/wiki/Mac_68k_emulator
 
 .. _`An OS 9 odyssey: Why these Mac users won’t abandon 16-year-old software`: https://arstechnica.com/gadgets/2016/09/an-os-9-odyssey-why-do-some-mac-users-still-rely-on-16-year-old-software/
 

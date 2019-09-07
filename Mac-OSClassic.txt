@@ -10,6 +10,7 @@
  * [[https://en.wikipedia.org/wiki/Inside_Macintosh|Inside Macintosh]] (on archive.org [[https://archive.org/search.php?query=Inside%20Macintosh&and[]=subject%3A%22macintosh%22|here]]
  * [[https://archive.org/details/macintoshprogram00appl|Macintosh Programmer's Introduction to the Macintosh Family]] (also [[https://vintageapple.org/macprogramming/pdf/Programmers_Introduction_to_the_Macintosh_Family_1988.pdf|here]] and [[https://macintoshgarden.org/apps/inside-macintosh|here]] and [[https://macintoshgarden.org/apps/inside-macintosh-cd-rom|here]])
  * [[https://vintageapple.org/macprogramming/|Vintage Apple's Mac Programming Books]]
+ * [[http://applemuseum.bott.org/sections/ppc.html|PowerPC History]] - in particular, this discusses in some detail the [[https://en.wikipedia.org/wiki/Mac_68k_emulator|68k emulator]]
 
 == Community ==
 
