@@ -22,6 +22,8 @@ Implementation Details
 
 * `PowerPC History`_ - in particular, this discusses in some detail the `68k emulator`_
 
+* `"Question from a non-programmer"`_
+
 Community
 ---------
 
@@ -65,6 +67,8 @@ Projects
 .. _PowerPC History: http://applemuseum.bott.org/sections/ppc.html
 
 .. _68k emulator: https://en.wikipedia.org/wiki/Mac_68k_emulator
+
+.. _"Question from a non-programmer": https://groups.google.com/forum/#!msg/comp.sys.mac.programmer.help/tO0iuTNETGc/oTwfHPfuqXoJ
 
 .. _`An OS 9 odyssey: Why these Mac users won’t abandon 16-year-old software`: https://arstechnica.com/gadgets/2016/09/an-os-9-odyssey-why-do-some-mac-users-still-rely-on-16-year-old-software/
 

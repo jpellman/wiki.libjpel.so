@@ -13,6 +13,7 @@ Implementation Details
 -   [Macintosh Programmer's Introduction to the Macintosh Family](https://archive.org/details/macintoshprogram00appl) (also [here](https://vintageapple.org/macprogramming/pdf/Programmers_Introduction_to_the_Macintosh_Family_1988.pdf) and [here](https://macintoshgarden.org/apps/inside-macintosh) and [here](https://macintoshgarden.org/apps/inside-macintosh-cd-rom))
 -   [Vintage Apple's Mac Programming Books](https://vintageapple.org/macprogramming/)
 -   [PowerPC History](http://applemuseum.bott.org/sections/ppc.html) - in particular, this discusses in some detail the [68k emulator](https://en.wikipedia.org/wiki/Mac_68k_emulator)
+-   ["Question from a non-programmer"](https://groups.google.com/forum/#!msg/comp.sys.mac.programmer.help/tO0iuTNETGc/oTwfHPfuqXoJ)
 
 Community
 ---------
