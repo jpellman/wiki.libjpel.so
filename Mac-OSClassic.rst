@@ -14,6 +14,12 @@ Implementation Details
 
 * `Wikipedia article on Mac OS Classic`_
 
+* `Inside Macintosh`_ (on archive.org here_
+
+* `Macintosh Programmer's Introduction to the Macintosh Family`_ (also `here <https://vintageapple.org/macprogramming/pdf/Programmers_Introduction_to_the_Macintosh_Family_1988.pdf>`__ and `here <https://macintoshgarden.org/apps/inside-macintosh>`__ and `here <https://macintoshgarden.org/apps/inside-macintosh-cd-rom>`__)
+
+* `Vintage Apple's Mac Programming Books`_
+
 Community
 ---------
 
@@ -45,6 +51,14 @@ Projects
 .. _Regarding the ROM...: https://macintoshgarden.org/apps/mac-os-71-source-code
 
 .. _Wikipedia article on Mac OS Classic: https://en.wikipedia.org/wiki/Classic_Mac_OS
+
+.. _Inside Macintosh: https://en.wikipedia.org/wiki/Inside_Macintosh
+
+.. _here: https://archive.org/search.php?query=Inside%20Macintosh&and[]=subject%3A%22macintosh%22
+
+.. _Macintosh Programmer's Introduction to the Macintosh Family: https://archive.org/details/macintoshprogram00appl
+
+.. _Vintage Apple's Mac Programming Books: https://vintageapple.org/macprogramming/
 
 .. _`An OS 9 odyssey: Why these Mac users won’t abandon 16-year-old software`: https://arstechnica.com/gadgets/2016/09/an-os-9-odyssey-why-do-some-mac-users-still-rely-on-16-year-old-software/
 

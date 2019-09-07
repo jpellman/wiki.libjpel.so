@@ -9,6 +9,9 @@ Implementation Details
 -   [What language is OS 9 written in?](https://discussions.apple.com/thread/1605550)
 -   [Regarding the ROM...](https://macintoshgarden.org/apps/mac-os-71-source-code)
 -   [Wikipedia article on Mac OS Classic](https://en.wikipedia.org/wiki/Classic_Mac_OS)
+-   [Inside Macintosh](https://en.wikipedia.org/wiki/Inside_Macintosh) (on archive.org [here](https://archive.org/search.php?query=Inside%20Macintosh&and[]=subject%3A%22macintosh%22)
+-   [Macintosh Programmer's Introduction to the Macintosh Family](https://archive.org/details/macintoshprogram00appl) (also [here](https://vintageapple.org/macprogramming/pdf/Programmers_Introduction_to_the_Macintosh_Family_1988.pdf) and [here](https://macintoshgarden.org/apps/inside-macintosh) and [here](https://macintoshgarden.org/apps/inside-macintosh-cd-rom))
+-   [Vintage Apple's Mac Programming Books](https://vintageapple.org/macprogramming/)
 
 Community
 ---------

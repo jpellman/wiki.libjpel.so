@@ -7,6 +7,9 @@
  * [[https://discussions.apple.com/thread/1605550|What language is OS 9 written in?]]
  * [[https://macintoshgarden.org/apps/mac-os-71-source-code| Regarding the ROM...]] 
  * [[https://en.wikipedia.org/wiki/Classic_Mac_OS|Wikipedia article on Mac OS Classic]]
+ * [[https://en.wikipedia.org/wiki/Inside_Macintosh|Inside Macintosh]] (on archive.org [[https://archive.org/search.php?query=Inside%20Macintosh&and[]=subject%3A%22macintosh%22|here]]
+ * [[https://archive.org/details/macintoshprogram00appl|Macintosh Programmer's Introduction to the Macintosh Family]] (also [[https://vintageapple.org/macprogramming/pdf/Programmers_Introduction_to_the_Macintosh_Family_1988.pdf|here]] and [[https://macintoshgarden.org/apps/inside-macintosh|here]] and [[https://macintoshgarden.org/apps/inside-macintosh-cd-rom|here]])
+ * [[https://vintageapple.org/macprogramming/|Vintage Apple's Mac Programming Books]]
 
 == Community ==
 
