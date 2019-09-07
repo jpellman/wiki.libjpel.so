@@ -1,0 +1,26 @@
+= Mac OS Classic =
+
+<<TableOfContents(2)>>
+
+== Implementation Details ==
+
+ * [[https://discussions.apple.com/thread/1605550|What language is OS 9 written in?]]
+ * [[https://macintoshgarden.org/apps/mac-os-71-source-code| Regarding the ROM...]] 
+ * [[https://en.wikipedia.org/wiki/Classic_Mac_OS|Wikipedia article on Mac OS Classic]]
+
+== Community ==
+
+Apparently, Mac OS 9 is very popular amongst audio engineers that want to create very low-budget setups.
+
+ * [[https://arstechnica.com/gadgets/2016/09/an-os-9-odyssey-why-do-some-mac-users-still-rely-on-16-year-old-software/|An OS 9 odyssey: Why these Mac users won’t abandon 16-year-old software]]
+ * [[https://arstechnica.com/civis/viewtopic.php?p=30456459#p30456459|ArsTechnica Forums - Research for the above article]]
+ * [[http://macos9lives.com|Mac OS 9 Lives]]
+
+== Projects ==
+
+ * [[https://wiki.qemu.org/Documentation/Platforms/PowerPC|QEMU wiki page on PPC support]]
+ * [[https://repo.or.cz/qemu/hpoussin.git/shortlog/refs/heads/40p|Apparent current state of QEMU support for PPC / last git commits]]
+ * [[https://www.floodgap.com/software/classilla/|Classilla]]
+
+----
+Retrocomputing
