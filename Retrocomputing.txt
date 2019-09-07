@@ -2,5 +2,10 @@
 
 <<FullSearchCached(category:Retrocomputing)>>
 
+== Links ==
+
+ * [[https://winworldpc.com/home|Winworld]]
+ * [[https://macintoshgarden.org/|Macintosh Garden]]
+
 ----
 CategoryCategory Hobbies
