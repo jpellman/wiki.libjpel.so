@@ -2,6 +2,12 @@
 
 <<FullSearchCached(category:Retrocomputing)>>
 
+== Articles ==
+
+=== Lore ===
+
+ * [[http://lowendmac.com/2013/michael-spindler-peter-principle-apple/|The Chronicle of Michael Spindler at Apple]] (i.e., corporate politics galore)
+
 == Links ==
 
  * [[https://winworldpc.com/home|Winworld]]
