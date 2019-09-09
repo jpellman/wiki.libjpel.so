@@ -15,6 +15,11 @@ Implementation Details
 -   [PowerPC History](http://applemuseum.bott.org/sections/ppc.html) - in particular, this discusses in some detail the [68k emulator](https://en.wikipedia.org/wiki/Mac_68k_emulator)
 -   ["Question from a non-programmer"](https://groups.google.com/forum/#!msg/comp.sys.mac.programmer.help/tO0iuTNETGc/oTwfHPfuqXoJ)
 
+History
+-------
+
+-   [Lowend Mac's article on Pink / Taligent](https://lowendmac.com/2014/pink-apples-first-stab-at-a-modern-operating-system/)
+
 Community
 ---------
 

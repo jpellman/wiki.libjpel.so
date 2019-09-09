@@ -24,6 +24,11 @@ Implementation Details
 
 * `"Question from a non-programmer"`_
 
+History
+-------
+
+* `Lowend Mac's article on Pink / Taligent`_
+
 Community
 ---------
 
@@ -69,6 +74,8 @@ Projects
 .. _68k emulator: https://en.wikipedia.org/wiki/Mac_68k_emulator
 
 .. _"Question from a non-programmer": https://groups.google.com/forum/#!msg/comp.sys.mac.programmer.help/tO0iuTNETGc/oTwfHPfuqXoJ
+
+.. _Lowend Mac's article on Pink / Taligent: https://lowendmac.com/2014/pink-apples-first-stab-at-a-modern-operating-system/
 
 .. _`An OS 9 odyssey: Why these Mac users won’t abandon 16-year-old software`: https://arstechnica.com/gadgets/2016/09/an-os-9-odyssey-why-do-some-mac-users-still-rely-on-16-year-old-software/
 
