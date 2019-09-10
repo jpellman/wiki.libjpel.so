@@ -27,6 +27,11 @@ SAS
 -   [Anthony Barr's SAS History](https://web.archive.org/web/20071008070644/http://www.barrsystems.com/Company/SAS_Related_History.html)
 -   [SAS: A hard-to-define product but simple success](https://web.archive.org/web/20170427065637/https://biostat.wustl.edu/~phil/stuff/si.html)
 
+SPSS
+----
+
+-   The introduction to [SPSS: statistical package for the social sciences](https://clio.columbia.edu/catalog/1214612) (ISBN: 0070465312) has a lot of historical context for the development of SPSS
+
 * * * * *
 
 > Retrocomputing [ScientificComputing](../ScientificComputing)
