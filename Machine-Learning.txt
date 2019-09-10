@@ -2,5 +2,9 @@ Notes on neural networks / machine learning.
 
 <<FullSearchCached(category:MachineLearning)>>
 
+== Links ==
+
+ * [[https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi|Neural Networks]] by [[https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw|3Blue1Brown]]
+
 ----
 CognitiveScience ScientificComputing
