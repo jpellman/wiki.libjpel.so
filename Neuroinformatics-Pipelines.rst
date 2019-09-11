@@ -3,7 +3,7 @@
 Neuroinformatics Pipelines
 ==========================
 
-A page to store links to documentation for common bits of software, and take notes on steps that overlap.  I think that, by and large, the majority of neuroscience problems fall into three categories: image manipulation, quantifying behavioral observations, and stimulus presentation.
+A page to store links to documentation for common bits of software, and take notes on steps that overlap.  I think that, by and large, the majority of neuroscience problems fall into three categories: image manipulation, quantifying behavioral observations, manipulating physiological observations, and stimulus presentation.
 
 .. contents:: :depth: 2
 
@@ -26,6 +26,14 @@ These utilities ultimately should amount to specialized versions of Photoshop/th
 
 * BrainVoyager_
 
+* ITK_
+
+* BEaST_ (also here_)
+
+* `Imaging Software Installed by the NIH`_
+
+* `MNI Tools`_
+
 As per earlier statements, compare these manuals to:
 
 * `The GIMP`_
@@ -37,8 +45,35 @@ Quantifying Behavioral Data
 
 * DeepLabCut_
 
+Sentiment Analysis
+~~~~~~~~~~~~~~~~~~
+
+* TextBlob_
+
+* CoreNLP_
+
+* NLTK_
+
+Eye-Tracking
+~~~~~~~~~~~~
+
+* PyGaze_
+
+* WebGazer_
+
+* eyetrackingR_
+
+* saccades_
+
+Manipulating Physiological Data
+-------------------------------
+
+* Bioread_ (for BIOPAC)
+
 Stimulus Presentation
 ---------------------
+
+Stimulus presentation packages, by their very nature, also quantify behavioral data into reaction times and specific responses.
 
 * DirectRT_
 
@@ -72,11 +107,37 @@ ScientificComputing_
 
 .. _BrainVoyager: http://www.brainvoyager.com/bvqx/doc/UsersGuide/BrainVoyagerQXUsersGuide.html
 
+.. _ITK: https://itk.org/ItkSoftwareGuide.pdf
+
+.. _BEaST: http://rstudio-pubs-static.s3.amazonaws.com/8431_d05daa5d49aa4cada417b6afc8ffd295.html
+
+.. _here: https://github.com/BIC-MNI/BEaST
+
+.. _Imaging Software Installed by the NIH: https://hpc.nih.gov/apps/#image
+
+.. _MNI Tools: https://www.mcgill.ca/bic/software/tools-data-analysis
+
 .. _The GIMP: https://www.gimp.org/docs/
 
 .. _Adobe Photoshop: https://helpx.adobe.com/photoshop/user-guide.html
 
 .. _DeepLabCut: https://github.com/AlexEMG/DeepLabCut/wiki/DeepLabCut2.x-Quick-Guide-to-Commands
+
+.. _TextBlob: https://textblob.readthedocs.io/en/dev/
+
+.. _CoreNLP: https://stanfordnlp.github.io/CoreNLP/index.html
+
+.. _NLTK: http://www.nltk.org/book/
+
+.. _PyGaze: http://www.pygaze.org/
+
+.. _WebGazer: https://webgazer.cs.brown.edu/
+
+.. _eyetrackingR: http://www.eyetracking-r.com/
+
+.. _saccades: https://github.com/tmalsburg/saccades
+
+.. _Bioread: https://github.com/uwmadison-chm/bioread
 
 .. _DirectRT: http://www.empirisoft.com/directrt.aspx
 

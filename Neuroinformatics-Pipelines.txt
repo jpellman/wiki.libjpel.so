@@ -1,6 +1,6 @@
 = Neuroinformatics Pipelines =
 
-A page to store links to documentation for common bits of software, and take notes on steps that overlap.  I think that, by and large, the majority of neuroscience problems fall into three categories: image manipulation, quantifying behavioral observations, and stimulus presentation.
+A page to store links to documentation for common bits of software, and take notes on steps that overlap.  I think that, by and large, the majority of neuroscience problems fall into three categories: image manipulation, quantifying behavioral observations, manipulating physiological observations, and stimulus presentation.
 
 <<TableOfContents(2)>>
 
@@ -15,6 +15,10 @@ These utilities ultimately should amount to specialized versions of Photoshop/th
  * [[https://github.com/wanderine/BROCCOLI/raw/master/documentation/broccoli.pdf|BROCCOLI]]
  * [[https://neuroimage.usc.edu/brainstorm/|Brainstorm]]
  * [[http://www.brainvoyager.com/bvqx/doc/UsersGuide/BrainVoyagerQXUsersGuide.html|BrainVoyager]]
+ * [[https://itk.org/ItkSoftwareGuide.pdf|ITK]]
+ * [[http://rstudio-pubs-static.s3.amazonaws.com/8431_d05daa5d49aa4cada417b6afc8ffd295.html|BEaST]] (also [[https://github.com/BIC-MNI/BEaST|here]])
+ * [[https://hpc.nih.gov/apps/#image|Imaging Software Installed by the NIH]]
+ * [[https://www.mcgill.ca/bic/software/tools-data-analysis|MNI Tools]]
 
 As per earlier statements, compare these manuals to:
 
@@ -25,7 +29,26 @@ As per earlier statements, compare these manuals to:
 
  * [[https://github.com/AlexEMG/DeepLabCut/wiki/DeepLabCut2.x-Quick-Guide-to-Commands|DeepLabCut]]
 
+=== Sentiment Analysis ===
+
+ * [[https://textblob.readthedocs.io/en/dev/|TextBlob]]
+ * [[https://stanfordnlp.github.io/CoreNLP/index.html|CoreNLP]]
+ * [[http://www.nltk.org/book/|NLTK]]
+
+=== Eye-Tracking ===
+
+ * [[http://www.pygaze.org/|PyGaze]]
+ * [[https://webgazer.cs.brown.edu/|WebGazer]]
+ * [[http://www.eyetracking-r.com/|eyetrackingR]]
+ * [[https://github.com/tmalsburg/saccades|saccades]]
+
+== Manipulating Physiological Data ==
+
+ * [[https://github.com/uwmadison-chm/bioread|Bioread]] (for BIOPAC)
+
 == Stimulus Presentation ==
+
+Stimulus presentation packages, by their very nature, also quantify behavioral data into reaction times and specific responses.
 
  * [[http://www.empirisoft.com/directrt.aspx|DirectRT]]
  * [[https://pstnet.com/products/e-prime/|ePrime]]
