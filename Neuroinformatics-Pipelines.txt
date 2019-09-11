@@ -1,15 +1,37 @@
 = Neuroinformatics Pipelines =
 
-A page to store links to documentation for common bits of software, and take notes on steps that overlap.
+A page to store links to documentation for common bits of software, and take notes on steps that overlap.  I think that, by and large, the majority of neuroscience problems fall into three categories: image manipulation, quantifying behavioral observations, and stimulus presentation.
 
 <<TableOfContents(2)>>
 
-== Imaging ==
+== Image Manipulation ==
 
-These utilities ultimately should amount to specialized versions of Photoshop that operate in 3D space rather than 2D.
+These utilities ultimately should amount to specialized versions of Photoshop/the GIMP that operate in 3D space rather than 2D.  Some of them include some statistical processing tools as well.  Essentially these then become hybridized versions of Photoshop and R/Stata/SPSS/SAS.
 
  * [[https://hpc.nih.gov/apps/RELION/relion30_tutorial.pdf|RELION]]
  * [[https://www.fil.ion.ucl.ac.uk/spm/doc/spm12_manual.pdf|SPM12]]
+ * [[https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/|AFNI]]
+ * [[https://github.com/stnava/ANTsDoc/raw/master/ants2.pdf|ANTS]]
+ * [[https://github.com/wanderine/BROCCOLI/raw/master/documentation/broccoli.pdf|BROCCOLI]]
+ * [[https://neuroimage.usc.edu/brainstorm/|Brainstorm]]
+ * [[http://www.brainvoyager.com/bvqx/doc/UsersGuide/BrainVoyagerQXUsersGuide.html|BrainVoyager]]
+
+As per earlier statements, compare these manuals to:
+
+ * [[https://www.gimp.org/docs/|The GIMP]]
+ * [[https://helpx.adobe.com/photoshop/user-guide.html|Adobe Photoshop]]
+
+== Quantifying Behavioral Data ==
+
+ * [[https://github.com/AlexEMG/DeepLabCut/wiki/DeepLabCut2.x-Quick-Guide-to-Commands|DeepLabCut]]
+
+== Stimulus Presentation ==
+
+ * [[http://www.empirisoft.com/directrt.aspx|DirectRT]]
+ * [[https://pstnet.com/products/e-prime/|ePrime]]
+ * [[https://www.psychopy.org/|PsychoPy]]
+ * [[https://www.jspsych.org/|jsPsych]]
+ * [[http://psy.ck.sissa.it/|PsyScope]]
 
 ----
 
