@@ -34,6 +34,8 @@ These utilities ultimately should amount to specialized versions of Photoshop/th
 
 * `MNI Tools`_
 
+* Neurolucida_
+
 As per earlier statements, compare these manuals to:
 
 * `The GIMP`_
@@ -154,6 +156,8 @@ ScientificComputing_
 .. _Imaging Software Installed by the NIH: https://hpc.nih.gov/apps/#image
 
 .. _MNI Tools: https://www.mcgill.ca/bic/software/tools-data-analysis
+
+.. _Neurolucida: https://www.mbfbioscience.com/neurolucida
 
 .. _The GIMP: https://www.gimp.org/docs/
 

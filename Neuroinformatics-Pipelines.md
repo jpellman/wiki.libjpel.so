@@ -21,6 +21,7 @@ These utilities ultimately should amount to specialized versions of Photoshop/th
 -   [BEaST](http://rstudio-pubs-static.s3.amazonaws.com/8431_d05daa5d49aa4cada417b6afc8ffd295.html) (also [here](https://github.com/BIC-MNI/BEaST))
 -   [Imaging Software Installed by the NIH](https://hpc.nih.gov/apps/#image)
 -   [MNI Tools](https://www.mcgill.ca/bic/software/tools-data-analysis)
+-   [Neurolucida](https://www.mbfbioscience.com/neurolucida)
 
 As per earlier statements, compare these manuals to:
 
