@@ -43,6 +43,11 @@ As per earlier statements, compare these manuals to:
  * [[http://www.adcis.net/en/aphelion-lab/|Aphelion]]
  * [[https://imaris.oxinst.com/|Imaris]]
 
+=== Additional Links ===
+
+ * [[https://web.archive.org/web/20181220224256/http://www.efg2.com/Lab/Library/ImageProcessing/Algorithms.htm|An Inventory of Image Processing Algorithms]]
+ * [[https://en.wikipedia.org/wiki/List_of_algorithms#Image_processing|Wikipedia's list of image processing algorithms]]
+
 == Quantifying Behavioral Data ==
 
  * [[https://github.com/AlexEMG/DeepLabCut/wiki/DeepLabCut2.x-Quick-Guide-to-Commands|DeepLabCut]]

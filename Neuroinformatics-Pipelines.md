@@ -46,6 +46,11 @@ As per earlier statements, compare these manuals to:
 -   [Aphelion](http://www.adcis.net/en/aphelion-lab/)
 -   [Imaris](https://imaris.oxinst.com/)
 
+### Additional Links
+
+-   [An Inventory of Image Processing Algorithms](https://web.archive.org/web/20181220224256/http://www.efg2.com/Lab/Library/ImageProcessing/Algorithms.htm)
+-   [Wikipedia's list of image processing algorithms](https://en.wikipedia.org/wiki/List_of_algorithms#Image_processing)
+
 Quantifying Behavioral Data
 ---------------------------
 

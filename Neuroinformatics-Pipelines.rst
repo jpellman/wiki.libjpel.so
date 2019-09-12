@@ -71,6 +71,13 @@ Proprietary
 
 * Imaris_
 
+Additional Links
+~~~~~~~~~~~~~~~~
+
+* `An Inventory of Image Processing Algorithms`_
+
+* `Wikipedia's list of image processing algorithms`_
+
 Quantifying Behavioral Data
 ---------------------------
 
@@ -173,6 +180,10 @@ ScientificComputing_
 .. _Aphelion: http://www.adcis.net/en/aphelion-lab/
 
 .. _Imaris: https://imaris.oxinst.com/
+
+.. _An Inventory of Image Processing Algorithms: https://web.archive.org/web/20181220224256/http://www.efg2.com/Lab/Library/ImageProcessing/Algorithms.htm
+
+.. _Wikipedia's list of image processing algorithms: https://en.wikipedia.org/wiki/List_of_algorithms#Image_processing
 
 .. _DeepLabCut: https://github.com/AlexEMG/DeepLabCut/wiki/DeepLabCut2.x-Quick-Guide-to-Commands
 
