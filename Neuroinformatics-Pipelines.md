@@ -27,6 +27,25 @@ As per earlier statements, compare these manuals to:
 -   [The GIMP](https://www.gimp.org/docs/)
 -   [Adobe Photoshop](https://helpx.adobe.com/photoshop/user-guide.html)
 
+### Other Image Processing Libraries
+
+#### Open Source
+
+-   [Ilastik](https://www.ilastik.org/)
+-   [OpenCV](https://opencv.org/)
+-   [scikitiimage](https://scikit-image.org/)
+-   [vips](https://libvips.github.io/libvips/)
+-   [Tomopy](https://tomopy.readthedocs.io/en/latest/)
+-   [netpbm](http://netpbm.sourceforge.net/) (AFNI dependency)
+-   [ImageMagick](https://imagemagick.org/)
+
+#### Proprietary
+
+-   [Huygens](https://svi.nl/HomePage)
+-   [Amira and Avizo](https://www.thermofisher.com/us/en/home/industrial/electron-microscopy/electron-microscopy-instruments-workflow-solutions/3d-visualization-analysis-software.html)
+-   [Aphelion](http://www.adcis.net/en/aphelion-lab/)
+-   [Imaris](https://imaris.oxinst.com/)
+
 Quantifying Behavioral Data
 ---------------------------
 

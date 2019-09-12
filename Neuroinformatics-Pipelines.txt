@@ -25,6 +25,24 @@ As per earlier statements, compare these manuals to:
  * [[https://www.gimp.org/docs/|The GIMP]]
  * [[https://helpx.adobe.com/photoshop/user-guide.html|Adobe Photoshop]]
 
+=== Other Image Processing Libraries ===
+
+==== Open Source ====
+ * [[https://www.ilastik.org/|Ilastik]]
+ * [[https://opencv.org/|OpenCV]]
+ * [[https://scikit-image.org/|scikit-image]]
+ * [[https://libvips.github.io/libvips/|vips]]
+ * [[https://tomopy.readthedocs.io/en/latest/|Tomopy]]
+ * [[http://netpbm.sourceforge.net/|netpbm]] (AFNI dependency)
+ * [[https://imagemagick.org/|ImageMagick]]
+
+==== Proprietary ====
+
+ * [[https://svi.nl/HomePage|Huygens]]
+ * [[https://www.thermofisher.com/us/en/home/industrial/electron-microscopy/electron-microscopy-instruments-workflow-solutions/3d-visualization-analysis-software.html|Amira and Avizo]]
+ * [[http://www.adcis.net/en/aphelion-lab/|Aphelion]]
+ * [[https://imaris.oxinst.com/|Imaris]]
+
 == Quantifying Behavioral Data ==
 
  * [[https://github.com/AlexEMG/DeepLabCut/wiki/DeepLabCut2.x-Quick-Guide-to-Commands|DeepLabCut]]

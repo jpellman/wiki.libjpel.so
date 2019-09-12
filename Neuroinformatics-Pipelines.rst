@@ -40,6 +40,37 @@ As per earlier statements, compare these manuals to:
 
 * `Adobe Photoshop`_
 
+Other Image Processing Libraries
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Open Source
+:::::::::::
+
+* Ilastik_
+
+* OpenCV_
+
+* scikit-image_
+
+* vips_
+
+* Tomopy_
+
+* netpbm_ (AFNI dependency)
+
+* ImageMagick_
+
+Proprietary
+:::::::::::
+
+* Huygens_
+
+* `Amira and Avizo`_
+
+* Aphelion_
+
+* Imaris_
+
 Quantifying Behavioral Data
 ---------------------------
 
@@ -120,6 +151,28 @@ ScientificComputing_
 .. _The GIMP: https://www.gimp.org/docs/
 
 .. _Adobe Photoshop: https://helpx.adobe.com/photoshop/user-guide.html
+
+.. _Ilastik: https://www.ilastik.org/
+
+.. _OpenCV: https://opencv.org/
+
+.. _scikit-image: https://scikit-image.org/
+
+.. _vips: https://libvips.github.io/libvips/
+
+.. _Tomopy: https://tomopy.readthedocs.io/en/latest/
+
+.. _netpbm: http://netpbm.sourceforge.net/
+
+.. _ImageMagick: https://imagemagick.org/
+
+.. _Huygens: https://svi.nl/HomePage
+
+.. _Amira and Avizo: https://www.thermofisher.com/us/en/home/industrial/electron-microscopy/electron-microscopy-instruments-workflow-solutions/3d-visualization-analysis-software.html
+
+.. _Aphelion: http://www.adcis.net/en/aphelion-lab/
+
+.. _Imaris: https://imaris.oxinst.com/
 
 .. _DeepLabCut: https://github.com/AlexEMG/DeepLabCut/wiki/DeepLabCut2.x-Quick-Guide-to-Commands
 
