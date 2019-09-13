@@ -29,6 +29,8 @@ History
 
 * `Lowend Mac's article on Pink / Taligent`_
 
+* `On the Sound Design of TalOS`_ (includes a screenshot from a TalOS demo)
+
 Community
 ---------
 
@@ -76,6 +78,8 @@ Projects
 .. _"Question from a non-programmer": https://groups.google.com/forum/#!msg/comp.sys.mac.programmer.help/tO0iuTNETGc/oTwfHPfuqXoJ
 
 .. _Lowend Mac's article on Pink / Taligent: https://lowendmac.com/2014/pink-apples-first-stab-at-a-modern-operating-system/
+
+.. _On the Sound Design of TalOS: http://www.icad.org/websiteV2.0/Conferences/ICAD96/proc96/dougherty.htm
 
 .. _`An OS 9 odyssey: Why these Mac users won’t abandon 16-year-old software`: https://arstechnica.com/gadgets/2016/09/an-os-9-odyssey-why-do-some-mac-users-still-rely-on-16-year-old-software/
 

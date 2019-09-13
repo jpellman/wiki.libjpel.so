@@ -19,6 +19,7 @@ History
 -------
 
 -   [Lowend Mac's article on Pink / Taligent](https://lowendmac.com/2014/pink-apples-first-stab-at-a-modern-operating-system/)
+-   [On the Sound Design of TalOS](http://www.icad.org/websiteV2.0/Conferences/ICAD96/proc96/dougherty.htm) (includes a screenshot from a TalOS demo)
 
 Community
 ---------
