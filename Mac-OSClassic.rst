@@ -31,6 +31,8 @@ History
 
 * `On the Sound Design of TalOS`_ (includes a screenshot from a TalOS demo)
 
+* `A Technical History of Apple's Operating Systems`_
+
 Community
 ---------
 
@@ -80,6 +82,8 @@ Projects
 .. _Lowend Mac's article on Pink / Taligent: https://lowendmac.com/2014/pink-apples-first-stab-at-a-modern-operating-system/
 
 .. _On the Sound Design of TalOS: http://www.icad.org/websiteV2.0/Conferences/ICAD96/proc96/dougherty.htm
+
+.. _A Technical History of Apple's Operating Systems: https://osxbook.com/book/bonus/chapter1/pdf/macosxinternals-singh-1.pdf
 
 .. _`An OS 9 odyssey: Why these Mac users won’t abandon 16-year-old software`: https://arstechnica.com/gadgets/2016/09/an-os-9-odyssey-why-do-some-mac-users-still-rely-on-16-year-old-software/
 
