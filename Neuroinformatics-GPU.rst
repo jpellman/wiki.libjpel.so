@@ -19,6 +19,8 @@ List of Neuroinformatics Tools w/ GPU-based Implementations
 
 * `FSL's bedpost-x`_
 
+* CEREBRuM_
+
 Discussions
 -----------
 
@@ -86,6 +88,8 @@ ScientificComputing_
 .. _GPU-Accelerated FLIRT and ANTS: https://figshare.com/articles/GPU_accelerated_FLIRT_AND_ANTs/1501449
 
 .. _FSL's bedpost-x: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061892
+
+.. _CEREBRuM: https://arxiv.org/abs/1909.05085
 
 .. _ScientificComputing: ../ScientificComputing
 

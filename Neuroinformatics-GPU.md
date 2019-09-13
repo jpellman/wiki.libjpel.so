@@ -11,6 +11,7 @@ List of Neuroinformatics Tools w/ GPU-based Implementations
 -   [Another GPU-based implementation of FLIRT](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136718)
 -   [GPU-Accelerated FLIRT and ANTS](https://figshare.com/articles/GPU_accelerated_FLIRT_AND_ANTs/1501449)
 -   [FSL's bedpost-x](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061892)
+-   [CEREBRuM](https://arxiv.org/abs/1909.05085)
 
 Discussions
 -----------
