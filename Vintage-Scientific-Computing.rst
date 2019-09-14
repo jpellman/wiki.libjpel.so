@@ -44,6 +44,8 @@ SPSS
 
 * The introduction to `SPSS: statistical package for the social sciences`_ (ISBN: 0070465312) has a lot of historical context for the development of SPSS
 
+* `History of SPSS`_
+
 -------------------------
 
  Retrocomputing ScientificComputing_
@@ -77,6 +79,8 @@ SPSS
 .. _`SAS: A hard-to-define product but simple success`: https://web.archive.org/web/20170427065637/https://biostat.wustl.edu/~phil/stuff/si.html
 
 .. _`SPSS: statistical package for the social sciences`: https://clio.columbia.edu/catalog/1214612
+
+.. _History of SPSS: http://blog.pmean.com/history-of-spss/
 
 .. _ScientificComputing: ../ScientificComputing
 

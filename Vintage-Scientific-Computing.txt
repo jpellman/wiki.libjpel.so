@@ -27,6 +27,7 @@ Here are some posts on the history of MATLAB from the official [[https://mathwor
 == SPSS ==
 
  * The introduction to [[https://clio.columbia.edu/catalog/1214612|SPSS: statistical package for the social sciences]] (ISBN: 0070465312) has a lot of historical context for the development of SPSS
+ * [[http://blog.pmean.com/history-of-spss/|History of SPSS]]
 
 ----
 Retrocomputing ScientificComputing
