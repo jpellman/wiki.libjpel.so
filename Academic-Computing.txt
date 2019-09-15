@@ -20,6 +20,7 @@ Pages that related to academic computing.
  * [[http://www.columbia.edu/acis/dev/projects/mod_auth_pamacea/|Pamacea]] (also see general [[http://www.columbia.edu/acis/dev/unixdev/projects/|Columbia AcIS UnixDev Projects]])
  * [[https://itk.org/ITK/project/about.html|ITK]] / the Insight Software Consortium.  YouTube founder Jawed Karim was briefly involved in this.
  * [[https://www.cs.cmu.edu/afs/cs/project/mach/public/www/mach.html|Mach]] (now part of OS X)
+ * Python was created first at [[https://www.cwi.nl/|CWI]] and then continued to be developed at [[https://www.cnri.reston.va.us/|CNRI]] 
 
 == On Funding Models ==
 

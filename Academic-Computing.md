@@ -18,6 +18,7 @@ Major Past Academic Computing Initiatives of Note
 -   [Pamacea](http://www.columbia.edu/acis/dev/projects/mod_auth_pamacea/) (also see general [Columbia AcIS UnixDev Projects](http://www.columbia.edu/acis/dev/unixdev/projects/))
 -   [ITK](https://itk.org/ITK/project/about.html) / the Insight Software Consortium. [YouTube](../YouTube) founder Jawed Karim was briefly involved in this.
 -   [Mach](https://www.cs.cmu.edu/afs/cs/project/mach/public/www/mach.html) (now part of OS X)
+-   Python was created first at [CWI](https://www.cwi.nl/) and then continued to be developed at [CNRI](https://www.cnri.reston.va.us/)
 
 On Funding Models
 =================

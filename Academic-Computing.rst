@@ -29,6 +29,8 @@ Major Past Academic Computing Initiatives of Note
 
 * Mach_ (now part of OS X)
 
+* Python was created first at CWI_ and then continued to be developed at CNRI_ 
+
 On Funding Models
 -----------------
 
@@ -80,6 +82,10 @@ Open Source / Community Source
 .. _YouTube: ../YouTube
 
 .. _Mach: https://www.cs.cmu.edu/afs/cs/project/mach/public/www/mach.html
+
+.. _CWI: https://www.cwi.nl/
+
+.. _CNRI: https://www.cnri.reston.va.us/
 
 .. _community source: https://en.wikipedia.org/wiki/Community_source
 
