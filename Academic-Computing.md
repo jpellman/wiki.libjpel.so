@@ -19,6 +19,7 @@ Major Past Academic Computing Initiatives of Note
 -   [ITK](https://itk.org/ITK/project/about.html) / the Insight Software Consortium. [YouTube](../YouTube) founder Jawed Karim was briefly involved in this.
 -   [Mach](https://www.cs.cmu.edu/afs/cs/project/mach/public/www/mach.html) (now part of OS X)
 -   Python was created first at [CWI](https://www.cwi.nl/) and then continued to be developed at [CNRI](https://www.cnri.reston.va.us/)
+-   EISPACK was created at Argonne National Laboratory and funded by the NSF and the US Atomic Energy Commission. LINPACK was developed at three universities (UCSD, University of New Mexico, and University of Maryland) and Argonne National Laboratory under NSF grant MCS76-03297.
 
 On Funding Models
 =================
