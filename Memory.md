@@ -40,6 +40,11 @@ Hebbian theory
 Cortical Reinstatement
 ----------------------
 
+-   The general idea behind cortical reinstatement is that the act of remembering an event directly engages the original modalities that encoded that event's memory.
+-   By this explanation of memory, during the act of remembering, the hippocampus serves as a nexus that integrates disparate circuits from multiple sensory centers. In this way, every time we remember something we are, to a degree, literally reliving it.
+-   By this framework, an encoded memory might be more like a set of aggregated C pointers, symlinks, metadata or a book index. A memory would be a structured set of references to circuits in other modalities where the memory is encoded.
+-   "The cortical reinstatement hypothesis of memory retrieval posits that content-specific cortical activity at encoding is reinstated at retrieval. Evidence for cortical reinstatement was found in higher-order sensory regions, reflecting reactivation of complex object-based information." -- From [Bosch et al](https://www.jneurosci.org/content/34/22/7493) (2014)
+
 Depth of Processing
 -------------------
 
