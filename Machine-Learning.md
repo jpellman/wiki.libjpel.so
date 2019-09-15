@@ -2,6 +2,8 @@
 
 Notes on neural networks / machine learning.
 
+**List of pages in this category:**
+
 [[FullSearchCached(category:MachineLearning)]]\_
 
 Links
