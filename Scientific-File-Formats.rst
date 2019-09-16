@@ -30,9 +30,9 @@ NIfTI
 Compression
 -----------
 
-* FPZip_
+* FPZip_ : "Think of fpzip as the floating-point analogue to PNG image compression and zfp as advanced JPEG for floating-point arrays."
 
-* mtscomp_
+* mtscomp_ : If fpzip/zfp are PNG/JPEG analogues, mtscomp seems to be more of an MP3 / audio compression analogue.
 
 -------------------------
 

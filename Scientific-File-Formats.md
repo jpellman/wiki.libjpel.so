@@ -23,8 +23,8 @@ NIfTI
 Compression
 -----------
 
--   [FPZip](https://computing.llnl.gov/projects/floating-point-compression)
--   [mtscomp](https://github.com/int-brain-lab/mtscomp)
+-   [FPZip](https://computing.llnl.gov/projects/floating-point-compression) : "Think of fpzip as the floating-point analogue to PNG image compression and zfp as advanced JPEG for floating-point arrays."
+-   [mtscomp](https://github.com/int-brain-lab/mtscomp) : If fpzip/zfp are PNG/JPEG analogues, mtscomp seems to be more of an MP3 / audio compression analogue.
 
 * * * * *
 
