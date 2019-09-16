@@ -1,3 +1,4 @@
+## page was renamed from NifTI
 = Scientific File Formats =
 
 I'm using this page to organize discoveries / thoughts about scientific file formats / compression algorithms.
