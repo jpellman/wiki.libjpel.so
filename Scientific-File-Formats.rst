@@ -1,6 +1,19 @@
 #format rst
 
-Links to articles regarding the NifTI format.
+Scientific File Formats
+=======================
+
+I'm using this page to organize discoveries / thoughts about scientific file formats / compression algorithms.
+
+.. contents:: :depth: 2
+
+HDF5
+----
+
+* http://cyrille.rossant.net/moving-away-hdf5/
+
+NIfTI
+-----
 
 * https://www.nitrc.org/docman/view.php/26/204/TheNIfTI1Format2004.pdf
 
@@ -14,11 +27,22 @@ Links to articles regarding the NifTI format.
 
 * https://nifti.nimh.nih.gov/nifti-2
 
+Compression
+-----------
+
+* FPZip_
+
+* mtscomp_
+
 -------------------------
 
  ScientificComputing_
 
 .. ############################################################################
+
+.. _FPZip: https://computing.llnl.gov/projects/floating-point-compression
+
+.. _mtscomp: https://github.com/int-brain-lab/mtscomp
 
 .. _ScientificComputing: ../ScientificComputing
 
