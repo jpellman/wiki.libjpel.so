@@ -20,6 +20,13 @@ NIfTI
 -   <https://nifti.nimh.nih.gov/nifti-1/documentation/hbm_nifti_2004.pdf>
 -   <https://nifti.nimh.nih.gov/nifti-2>
 
+MRC
+---
+
+Chiefly used by Relion.
+
+-   <http://www.ccpem.ac.uk/mrc_format/mrc2014.php>
+
 Compression
 -----------
 

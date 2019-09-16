@@ -18,6 +18,12 @@ I'm using this page to organize discoveries / thoughts about scientific file for
  * https://nifti.nimh.nih.gov/nifti-1/documentation/hbm_nifti_2004.pdf
  * https://nifti.nimh.nih.gov/nifti-2
 
+== MRC ==
+
+Chiefly used by Relion.
+
+ * http://www.ccpem.ac.uk/mrc_format/mrc2014.php
+
 == Compression ==
 
  * [[https://computing.llnl.gov/projects/floating-point-compression|FPZip]] : "Think of fpzip as the floating-point analogue to PNG image compression and zfp as advanced JPEG for floating-point arrays."
