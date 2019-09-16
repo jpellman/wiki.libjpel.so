@@ -21,6 +21,8 @@ List of Neuroinformatics Tools w/ GPU-based Implementations
 
 * CEREBRuM_
 
+* `Google FFN`_ and here_
+
 Discussions
 -----------
 
@@ -90,6 +92,10 @@ ScientificComputing_
 .. _FSL's bedpost-x: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061892
 
 .. _CEREBRuM: https://arxiv.org/abs/1909.05085
+
+.. _Google FFN: https://arxiv.org/abs/1611.00421
+
+.. _here: https://github.com/google/ffn
 
 .. _ScientificComputing: ../ScientificComputing
 

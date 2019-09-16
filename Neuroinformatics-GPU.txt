@@ -9,6 +9,7 @@
  * [[https://figshare.com/articles/GPU_accelerated_FLIRT_AND_ANTs/1501449 | GPU-Accelerated FLIRT and ANTS]]
  * [[http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061892 | FSL's bedpost-x ]]
  * [[https://arxiv.org/abs/1909.05085|CEREBRuM]]
+ * [[https://arxiv.org/abs/1611.00421|Google FFN]] and [[https://github.com/google/ffn|here]]
 
 == Discussions ==
 
