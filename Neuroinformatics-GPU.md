@@ -13,6 +13,7 @@ List of Neuroinformatics Tools w/ GPU-based Implementations
 -   [FSL's bedpost-x](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061892)
 -   [CEREBRuM](https://arxiv.org/abs/1909.05085)
 -   [Google FFN](https://arxiv.org/abs/1611.00421) and [here](https://github.com/google/ffn)
+-   [CLIJ](https://clij.github.io/clij-docs/) (an ImageJ plugin that maps macro calls to OpenCL calls)
 
 Discussions
 -----------
@@ -36,6 +37,10 @@ Discussions
 ### FSL
 
 -   <http://godzilla.kennedykrieger.org/penguin/fsl.shtml>
+
+### ImageJ
+
+-   <https://forum.image.sc/t/does-imagej-utilize-the-gpu/10333>
 
 ### Misc
 
