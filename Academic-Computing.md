@@ -40,6 +40,7 @@ Open Source / Community Source
 -   [How to Achieve Vendor Lock-in with a Legit Open Source License – Affero GPL](http://www.dr-chuck.com/csev-blog/2014/09/how-to-achieve-vendor-lock-in-with-a-legit-open-source-license-affero-gpl/)
 -   [Sakai: Building an Open Source Community](http://www.dr-chuck.com/sakai-book/)
 -   [Cutting Edge: Collaboration gets the most out of software](https://elifesciences.org/articles/01456) (an article discussing the funding model for and history of the [SBGrid Consortium](https://sbgrid.org/)
+-   [Government Policy Towards Open Source Software](https://dx.doi.org/10.2139/ssrn.1411617)
 
 * * * * *
 

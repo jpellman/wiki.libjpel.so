@@ -38,6 +38,7 @@ Essentially, most academic software is either a) grant-funded in some way or b) 
  * [[http://www.dr-chuck.com/csev-blog/2014/09/how-to-achieve-vendor-lock-in-with-a-legit-open-source-license-affero-gpl/|How to Achieve Vendor Lock-in with a Legit Open Source License – Affero GPL]]
  * [[http://www.dr-chuck.com/sakai-book/|Sakai: Building an Open Source Community]]
  * [[https://elifesciences.org/articles/01456 | Cutting Edge: Collaboration gets the most out of software]] (an article discussing the funding model for and history of the [[https://sbgrid.org/ | SBGrid Consortium ]]
+ * [[https://dx.doi.org/10.2139/ssrn.1411617|Government Policy Towards Open Source Software]]
 
 ----
 CategoryCategory
