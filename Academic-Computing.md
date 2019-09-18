@@ -21,6 +21,12 @@ Major Past Academic Computing Initiatives of Note
 -   Python was created first at [CWI](https://www.cwi.nl/) and then continued to be developed at [CNRI](https://www.cnri.reston.va.us/)
 -   EISPACK was created at Argonne National Laboratory and funded by the NSF and the US Atomic Energy Commission. LINPACK was developed at three universities (UCSD, University of New Mexico, and University of Maryland) and Argonne National Laboratory under NSF grant MCS76-03297.
 
+On Technology Transfer
+======================
+
+-   [In which CCNMTL/CTL briefly talks about Bayh-Dole](http://ccnmtl.columbia.edu/projects/rcr/rcr_data/foundation/index.html#2_B)
+-   [Consequences of the Bayh-Dole Act](http://web.mit.edu/lawclub/www/Bayh-Dole%20Act.pdf)
+
 On Funding Models
 =================
 

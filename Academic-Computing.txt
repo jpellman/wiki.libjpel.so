@@ -23,6 +23,11 @@ Pages that related to academic computing.
  * Python was created first at [[https://www.cwi.nl/|CWI]] and then continued to be developed at [[https://www.cnri.reston.va.us/|CNRI]] 
  * EISPACK was created at Argonne National Laboratory and funded by the NSF and the US Atomic Energy Commission.  LINPACK was developed at three universities (UCSD, University of New Mexico, and University of Maryland) and Argonne National Laboratory under NSF grant MCS76-03297.
 
+== On Technology Transfer ==
+
+ * [[http://ccnmtl.columbia.edu/projects/rcr/rcr_data/foundation/index.html#2_B|In which CCNMTL/CTL briefly talks about Bayh-Dole]]
+ * [[http://web.mit.edu/lawclub/www/Bayh-Dole%20Act.pdf|Consequences of the Bayh-Dole Act]]
+
 == On Funding Models ==
 
 Essentially, most academic software is either a) grant-funded in some way or b) created via some sort of consortium (i.e., the [[https://en.wikipedia.org/wiki/Community_source|community source]] model).  Some software lives under an umbrella organization, such as the [[https://www.apereo.org/|Apereo Foundation]] or [[https://www.apache.org/foundation/|Apache Foundation]]. 
