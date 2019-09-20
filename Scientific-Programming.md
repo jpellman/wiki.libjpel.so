@@ -12,7 +12,7 @@ General Algorithm
 2.  Convert notebook to plain, no-frills script.
 3.  Create an interface to the script with something like argparse. This allows you to execute your script's logic via bash, which is a common environment that can access scripts written in many different languages.
 4.  Wrap that interface in CWL so that it can work with a workflow scheduler / editor.
-5.  Create a rudimentary GUI if your code requires human interaction with something like https://github.com/chriskiehl/Gooey\_.
+5.  Create a rudimentary GUI if your code requires human interaction with something like [Gooey](https://github.com/chriskiehl/Gooey).
 
 * * * * *
 

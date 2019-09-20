@@ -18,7 +18,7 @@ General Algorithm
 
 #. Wrap that interface in CWL so that it can work with a workflow scheduler / editor.
 
-#. Create a rudimentary GUI if your code requires human interaction with something like `https://github.com/chriskiehl/Gooey`_.
+#. Create a rudimentary GUI if your code requires human interaction with something like Gooey_.
 
 -------------------------
 
@@ -28,7 +28,7 @@ General Algorithm
 
 .. _JupyterLab: ../JupyterLab
 
-.. _`https://github.com/chriskiehl/Gooey`: ../Gooey
+.. _Gooey: https://github.com/chriskiehl/Gooey
 
 .. _ScientificComputing: ../ScientificComputing
 
