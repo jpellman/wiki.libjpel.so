@@ -1,3 +1,4 @@
+## page was renamed from Recipes
 = Food =
 
 A page where I keep my favorite recipes, and more broadly thoughts about food.
