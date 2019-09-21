@@ -17,4 +17,4 @@ Recipes
 
 * * * * *
 
-> Hobbies
+> [Hobbies](../Hobbies)

@@ -15,4 +15,4 @@ A page where I keep my favorite recipes, and more broadly thoughts about food.
  * 3 Tbsp date syrup or 2 Tbsp molasses or 5g of sugar
 
 ----
-Hobbies
+[[Hobbies]]
