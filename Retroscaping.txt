@@ -9,4 +9,4 @@ In addition to [[Retrocomputing]] and VintageScientificComputing, I have an inte
  * [[http://spacetime.nypl.org/surveyor|NYPL Surveyor]] : A crowdsourced tool that allows you to enrich the metadata of historical locations by giving them an associated geolocation.  Currently only scoped to NYC.
 
 ----
-Hobbies
+[[Hobbies]]

@@ -12,4 +12,4 @@ Geotagging
 
 * * * * *
 
-> Hobbies
+> [Hobbies](../Hobbies)

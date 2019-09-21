@@ -14,7 +14,7 @@ Geotagging
 
 -------------------------
 
- Hobbies
+ Hobbies_
 
 .. ############################################################################
 
@@ -23,4 +23,6 @@ Geotagging
 .. _VintageScientificComputing: ../VintageScientificComputing
 
 .. _NYPL Surveyor: http://spacetime.nypl.org/surveyor
+
+.. _Hobbies: ../Hobbies
 
