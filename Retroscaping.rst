@@ -7,10 +7,14 @@ In addition to Retrocomputing_ and VintageScientificComputing_, I have an intere
 
 .. contents:: :depth: 2
 
-Geotagging
-----------
+Geography
+---------
 
 * `NYPL Surveyor`_ : A crowdsourced tool that allows you to enrich the metadata of historical locations by giving them an associated geolocation.  Currently only scoped to NYC.
+
+* `NYPL Warper`_ : A crowdsourced georectification tool.
+
+* `80s.nyc`_
 
 -------------------------
 
@@ -23,6 +27,10 @@ Geotagging
 .. _VintageScientificComputing: ../VintageScientificComputing
 
 .. _NYPL Surveyor: http://spacetime.nypl.org/surveyor
+
+.. _NYPL Warper: http://maps.nypl.org/warper/
+
+.. _80s.nyc: http://80s.nyc/
 
 .. _Hobbies: ../Hobbies
 
