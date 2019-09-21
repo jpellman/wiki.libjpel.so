@@ -32,6 +32,28 @@ I'm a big fan of the following kinds of tea:
 -   Cassina / Yaupon Holly
 -   Roasted Chicory / [pero](https://worldfiner.com/pero)
 
+### Sodas
+
+-   [Moxie](https://www.drinkmoxie.com/)
+-   Pacific (alcohol-free Pastis)
+-   Basically anything that tastes vaguely medicinal
+
+### Alcohol/Spirits
+
+#### Good
+
+-   Riesling White Wine
+-   [McKenzie Whiskey](https://fingerlakesdistilling.com/our-products/whiskey/)
+-   Laphroaig Whiskey
+-   Pretty much anything from my home region or the Finger Lakes. I have no palate so I just choose based off geography and it generally works out well.
+-   Pastis
+
+#### Shitty
+
+-   Utica Club
+-   [Wiśniówka](https://en.wikipedia.org/wiki/Wi%C5%9Bni%C3%B3wka_(liqueur))
+-   Johnny Bootlegger
+
 * * * * *
 
 > [Hobbies](../Hobbies)

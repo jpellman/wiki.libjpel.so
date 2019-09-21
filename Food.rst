@@ -44,6 +44,40 @@ Tea-like
 
 * Roasted Chicory / pero_
 
+Sodas
+~~~~~
+
+* Moxie_
+
+* Pacific (alcohol-free Pastis)
+
+* Basically anything that tastes vaguely medicinal
+
+Alcohol/Spirits
+~~~~~~~~~~~~~~~
+
+Good
+::::
+
+* Riesling White Wine
+
+* `McKenzie Whiskey`_
+
+* Laphroaig Whiskey
+
+* Pretty much anything from my home region or the Finger Lakes.  I have no palate so I just choose based off geography and it generally works out well.
+
+* Pastis
+
+Shitty
+::::::
+
+* Utica Club
+
+* `Wiśniówka`_
+
+* Johnny Bootlegger
+
 -------------------------
 
  Hobbies_
@@ -57,6 +91,12 @@ Tea-like
 .. _Kusmi St. Petersburg: https://us-en.kusmitea.com/st-petersburg.html?packaging=56
 
 .. _pero: https://worldfiner.com/pero
+
+.. _Moxie: https://www.drinkmoxie.com/
+
+.. _McKenzie Whiskey: https://fingerlakesdistilling.com/our-products/whiskey/
+
+.. _Wiśniówka: https://en.wikipedia.org/wiki/Wi%C5%9Bni%C3%B3wka_(liqueur)
 
 .. _Hobbies: ../Hobbies
 
