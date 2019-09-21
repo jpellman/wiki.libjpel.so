@@ -21,11 +21,42 @@ Oat Milk
 
 * 3 Tbsp date syrup or 2 Tbsp molasses or 5g of sugar
 
+Beverages
+---------
+
+Tea
+~~~
+
+I'm a big fan of the following kinds of tea:
+
+* `Lapsang Souchong`_
+
+* `Earl Grey`_
+
+* `Kusmi St. Petersburg`_
+
+Tea-like
+~~~~~~~~
+
+* Yerba Mate
+
+* Cassina / Yaupon Holly
+
+* Roasted Chicory / pero_
+
 -------------------------
 
  Hobbies_
 
 .. ############################################################################
+
+.. _Lapsang Souchong: https://en.wikipedia.org/wiki/Lapsang_souchong
+
+.. _Earl Grey: https://en.wikipedia.org/wiki/Earl_Grey_tea
+
+.. _Kusmi St. Petersburg: https://us-en.kusmitea.com/st-petersburg.html?packaging=56
+
+.. _pero: https://worldfiner.com/pero
 
 .. _Hobbies: ../Hobbies
 
