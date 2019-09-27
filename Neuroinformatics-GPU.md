@@ -15,6 +15,13 @@ List of Neuroinformatics Tools w/ GPU-based Implementations
 -   [Google FFN](https://arxiv.org/abs/1611.00421) and [here](https://github.com/google/ffn)
 -   [CLIJ](https://clij.github.io/clij-docs/) (an ImageJ plugin that maps macro calls to OpenCL calls)
 
+How exactly do GPUs work anyways?
+---------------------------------
+
+-   [How a GPU Works](https://www.cs.cmu.edu/afs/cs/academic/class/15462-f11/www/lec_slides/lec19.pdf) by Kayvon Fatahalian ([course website](https://www.cs.cmu.edu/afs/cs/academic/class/15462-f11/www/)
+-   [GPGPU Lectures at Haifa LUG](http://haifux.org/lectures/267/) by Ofer Rosenberg
+-   [Summary in the article about GPU-enabled FSL bedpost-x](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061892#s2)
+
 Discussions
 -----------
 
