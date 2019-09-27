@@ -13,6 +13,10 @@ Links
 
 * `Intel's AI Courses`_
 
+* `A Full Hardware Guide to Deep Learning`_
+
+* `Fully Utilizing Your Deep Learning GPUs`_
+
 -------------------------
 
  CognitiveScience_ ScientificComputing_
@@ -24,6 +28,10 @@ Links
 .. _3Blue1Brown: https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw
 
 .. _Intel's AI Courses: https://software.intel.com/en-us/ai/courses
+
+.. _A Full Hardware Guide to Deep Learning: https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/
+
+.. _Fully Utilizing Your Deep Learning GPUs: https://medium.com/@colinshaw_36798/fully-utilizing-your-deep-learning-gpus-61ee7acd3e57
 
 .. _CognitiveScience: ../CognitiveScience
 
