@@ -91,6 +91,7 @@ Storage
 -   [How I learned to stop worrying and love RAIDZ](https://www.delphix.com/blog/delphix-engineering/zfs-raidz-stripe-width-or-how-i-learned-stop-worrying-and-love-raidz)
 -   [Lustre and Panasas Are Not So Different](http://clusterdesign.org/2012/08/lustre-and-panasas-are-not-so-different/)
 -   [Backblaze Hard Drive Reliability Stats, Q1 2016](https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/)
+-   [NDMP](https://www.snia.org/ndmp) (Description and whitepaper)
 
 Applications
 ------------

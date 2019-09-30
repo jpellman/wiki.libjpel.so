@@ -88,6 +88,7 @@ This page stores both generic notes, as well as additional pages and categories 
  * [[https://www.delphix.com/blog/delphix-engineering/zfs-raidz-stripe-width-or-how-i-learned-stop-worrying-and-love-raidz| How I learned to stop worrying and love RAIDZ]]
  * [[http://clusterdesign.org/2012/08/lustre-and-panasas-are-not-so-different/|Lustre and Panasas Are Not So Different ]]
  * [[https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/|Backblaze Hard Drive Reliability Stats, Q1 2016]]
+ * [[https://www.snia.org/ndmp|NDMP]] (Description and whitepaper)
 
 == Applications ==
 

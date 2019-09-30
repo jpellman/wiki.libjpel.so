@@ -136,6 +136,8 @@ Storage
 
 * `Backblaze Hard Drive Reliability Stats, Q1 2016`_
 
+* NDMP_ (Description and whitepaper)
+
 Applications
 ------------
 
@@ -253,6 +255,8 @@ S3-compatible object stores
 .. _Lustre and Panasas Are Not So Different: http://clusterdesign.org/2012/08/lustre-and-panasas-are-not-so-different/
 
 .. _Backblaze Hard Drive Reliability Stats, Q1 2016: https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/
+
+.. _NDMP: https://www.snia.org/ndmp
 
 .. _Canned nginx Configs (to use as templates): https://www.nginx.com/resources/wiki/start/
 
