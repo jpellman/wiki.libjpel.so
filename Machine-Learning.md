@@ -6,6 +6,13 @@ Notes on neural networks / machine learning.
 
 [[FullSearchCached(category:MachineLearning)]]\_
 
+On the Use of Machine Learning / Neural Networks to Perform Scheduling
+======================================================================
+
+-   [Machine Learning for SystemsandSystems for Machine Learning](http://learningsys.org/nips17/assets/slides/dean-nips17.pdf)
+-   [Implementing a Process Scheduler Using Neural Network Technology](https://theses.ubn.ru.nl/bitstream/handle/123456789/168/Bex%2C_P.J.G.I._1.pdf?sequence=1)
+-   [A neural network job-shop scheduler](https://www.researchgate.net/publication/225653460_A_neural_network_job-shop_scheduler)
+
 Links
 =====
 
