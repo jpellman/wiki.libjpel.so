@@ -15,6 +15,8 @@ On the Use of Machine Learning / Neural Networks to Perform Scheduling
 
 * `A neural network job-shop scheduler`_
 
+* `reddit: What are the best papers at the intersection of operating systems and machine learning research?`_
+
 Links
 -----
 
@@ -37,6 +39,8 @@ Links
 .. _Implementing a Process Scheduler Using Neural Network Technology: https://theses.ubn.ru.nl/bitstream/handle/123456789/168/Bex%2C_P.J.G.I._1.pdf?sequence=1
 
 .. _A neural network job-shop scheduler: https://www.researchgate.net/publication/225653460_A_neural_network_job-shop_scheduler
+
+.. _`reddit: What are the best papers at the intersection of operating systems and machine learning research?`: https://www.reddit.com/r/MachineLearning/comments/7ikxct/d_what_are_the_best_papers_at_the_intersection_of/
 
 .. _Neural Networks: https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
 

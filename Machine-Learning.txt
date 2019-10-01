@@ -9,6 +9,7 @@ Notes on neural networks / machine learning.
  * [[http://learningsys.org/nips17/assets/slides/dean-nips17.pdf|Machine Learning for SystemsandSystems for Machine Learning]]
  * [[https://theses.ubn.ru.nl/bitstream/handle/123456789/168/Bex%2C_P.J.G.I._1.pdf?sequence=1|Implementing a Process Scheduler Using Neural Network Technology]]
  * [[https://www.researchgate.net/publication/225653460_A_neural_network_job-shop_scheduler|A neural network job-shop scheduler]]
+ * [[https://www.reddit.com/r/MachineLearning/comments/7ikxct/d_what_are_the_best_papers_at_the_intersection_of/|reddit: What are the best papers at the intersection of operating systems and machine learning research?]]
 
 == Links ==
 
