@@ -92,6 +92,8 @@ Networking
 
 * `Succinct overview of iptables`_
 
+* `QUIC at 10,000 feet`_
+
 Security
 --------
 
@@ -217,6 +219,8 @@ S3-compatible object stores
 .. _Oracle Docs on JVM Heap: https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html
 
 .. _Succinct overview of iptables: https://wiki.centos.org/HowTos/Network/IPTables
+
+.. _QUIC at 10,000 feet: https://docs.google.com/document/d/1gY9-YNDNAB1eip-RTPbqphgySwSNSDHLq9D5Bty4FSU/edit
 
 .. _Strong Ciphers for Web Servers: https://cipherli.st/
 
