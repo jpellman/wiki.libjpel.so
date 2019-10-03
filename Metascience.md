@@ -1,5 +1,8 @@
 \#format rst
 
+Citation Graphing
+=================
+
 An ongoing list of software / techniques for visualizing citations.
 
 -   <https://physics.stackexchange.com/questions/5569/is-there-a-nice-tool-to-plot-graphs-of-paper-citations>
@@ -12,7 +15,7 @@ An ongoing list of software / techniques for visualizing citations.
 -   [Clubs of Science](https://academic.oup.com/gigascience/article/5/suppl_1/s13742-016-0147-0-f/2965211) (dead) - see [here](https://github.com/Brainhack-Proceedings-2015/Dery_HBM_ClubsOfScience) and [here](https://github.com/sderygithub/Clubs-of-Science)
 
 Citation Parsing/Munging
-========================
+------------------------
 
 -   [Anystyle](https://github.com/inukshuk/anystyle)
 -   [BibTeX Ruby](https://github.com/inukshuk/bibtex-ruby)

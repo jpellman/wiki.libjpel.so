@@ -1,4 +1,4 @@
-# Citation Graphing
+= Citation Graphing =
 
 An ongoing list of software / techniques for visualizing citations.
 

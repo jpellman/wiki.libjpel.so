@@ -1,5 +1,8 @@
 #format rst
 
+Citation Graphing
+=================
+
 An ongoing list of software / techniques for visualizing citations.
 
 * https://physics.stackexchange.com/questions/5569/is-there-a-nice-tool-to-plot-graphs-of-paper-citations
