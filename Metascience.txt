@@ -11,5 +11,16 @@ An ongoing list of software / techniques for visualizing citations.
  * [[https://github.com/CitationGecko|Citation Gecko]]
  * [[https://academic.oup.com/gigascience/article/5/suppl_1/s13742-016-0147-0-f/2965211|Clubs of Science]] (dead) - see [[https://github.com/Brainhack-Proceedings-2015/Dery_HBM_ClubsOfScience|here]] and [[https://github.com/sderygithub/Clubs-of-Science|here]]
 
+== Citation Parsing/Munging ==
+
+ * [[https://github.com/inukshuk/anystyle|Anystyle]]
+ * [[https://github.com/inukshuk/bibtex-ruby|BibTeX Ruby]]
+ * [[https://citation.js.org/|Citation.js]]
+ * [[https://github.com/aclements/biblib|biblib]]
+ * [[https://bibtexparser.readthedocs.io/en/latest/|BibtexParser]]
+ * [[https://pybtex.org/|Pybtex]]
+ * [[https://pybliographer.org/|Pybliographer]]
+ * [[https://github.com/matthew-brett/babybib|BabyBib]]
+
 ----
-ScientificComputing
+ScientificComputing LibraryComputing

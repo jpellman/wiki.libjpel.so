@@ -18,9 +18,28 @@ An ongoing list of software / techniques for visualizing citations.
 
 * `Clubs of Science`_ (dead) - see here_ and `here <https://github.com/sderygithub/Clubs-of-Science>`__
 
+Citation Parsing/Munging
+------------------------
+
+* Anystyle_
+
+* `BibTeX Ruby`_
+
+* `Citation.js`_
+
+* biblib_
+
+* BibtexParser_
+
+* Pybtex_
+
+* Pybliographer_
+
+* BabyBib_
+
 -------------------------
 
- ScientificComputing_
+ ScientificComputing_ LibraryComputing_
 
 .. ############################################################################
 
@@ -42,5 +61,23 @@ An ongoing list of software / techniques for visualizing citations.
 
 .. _here: https://github.com/Brainhack-Proceedings-2015/Dery_HBM_ClubsOfScience
 
+.. _Anystyle: https://github.com/inukshuk/anystyle
+
+.. _BibTeX Ruby: https://github.com/inukshuk/bibtex-ruby
+
+.. _Citation.js: https://citation.js.org/
+
+.. _biblib: https://github.com/aclements/biblib
+
+.. _BibtexParser: https://bibtexparser.readthedocs.io/en/latest/
+
+.. _Pybtex: https://pybtex.org/
+
+.. _Pybliographer: https://pybliographer.org/
+
+.. _BabyBib: https://github.com/matthew-brett/babybib
+
 .. _ScientificComputing: ../ScientificComputing
+
+.. _LibraryComputing: ../LibraryComputing
 
