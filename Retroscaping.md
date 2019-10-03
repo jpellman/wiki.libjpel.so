@@ -12,6 +12,15 @@ Geography
 -   [NYPL Warper](http://maps.nypl.org/warper/) : A crowdsourced georectification tool.
 -   [80s.nyc](http://80s.nyc/)
 
+Retroscaping
+------------
+
+According to [Wiktionary](https://en.wiktionary.org/wiki/retroscape) the noun *retroscape* refers to:
+
+    A landscape or setting filled with things from the past.
+
+In the spirit of my opening remarks, I propose to use *retroscape* as a verb to refer to the recreation of a historical setting using virtual reality and historical data aggregated from multiple sources (archives, historical societies, flea markets, cartographers, etc).
+
 * * * * *
 
 > [Hobbies](../Hobbies)
