@@ -1,3 +1,4 @@
+## page was renamed from History
 = Retroscaping =
 
 In addition to [[Retrocomputing]] and VintageScientificComputing, I have an interest in history more broadly.  Specifically, I am interested in historical reconstruction (a la the holodeck in Star Trek: TNG) and the potential of VR to help facilitate accurate depictions of past places and cultures.  
