@@ -66,6 +66,16 @@ Networking
 -   [Succinct overview of iptables](https://wiki.centos.org/HowTos/Network/IPTables)
 -   [QUIC at 10,000 feet](https://docs.google.com/document/d/1gY9-YNDNAB1eip-RTPbqphgySwSNSDHLq9D5Bty4FSU/edit)
 
+### Application-Layer Protocols
+
+#### HTTP
+
+-   [Keep Alive Client](https://en.wikipedia.org/wiki/HTTP_persistent_connection)
+-   <https://www.w3.org/History/19921103-hypertext/hypertext/WWW/Protocols/HTTP.html>
+-   <https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html>
+-   <https://daniel.haxx.se/docs/ftp-vs-http.html>
+-   [What inspired my interest in this topic](https://news.ycombinator.com/item?id=13075355)
+
 ### TCPDump Tutorials
 
 -   <http://www.alexonlinux.com/tcpdump-for-dummies>

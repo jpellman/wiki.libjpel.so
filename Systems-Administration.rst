@@ -94,6 +94,22 @@ Networking
 
 * `QUIC at 10,000 feet`_
 
+Application-Layer Protocols
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+HTTP
+::::
+
+* `Keep Alive Client`_
+
+* https://www.w3.org/History/19921103-hypertext/hypertext/WWW/Protocols/HTTP.html
+
+* https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html
+
+* https://daniel.haxx.se/docs/ftp-vs-http.html
+
+* `What inspired my interest in this topic`_
+
 TCPDump Tutorials
 ~~~~~~~~~~~~~~~~~
 
@@ -256,6 +272,10 @@ Tools
 .. _Succinct overview of iptables: https://wiki.centos.org/HowTos/Network/IPTables
 
 .. _QUIC at 10,000 feet: https://docs.google.com/document/d/1gY9-YNDNAB1eip-RTPbqphgySwSNSDHLq9D5Bty4FSU/edit
+
+.. _Keep Alive Client: https://en.wikipedia.org/wiki/HTTP_persistent_connection
+
+.. _What inspired my interest in this topic: https://news.ycombinator.com/item?id=13075355
 
 .. _Strong Ciphers for Web Servers: https://cipherli.st/
 
