@@ -147,6 +147,7 @@ Tools
 -   <https://mxtoolbox.com/SuperTool.aspx>
 -   <https://peteris.rocks/blog/htop/>
 -   <http://md5deep.sourceforge.net/>
+-   [GNU Parallel](http://www.shakthimaan.com/posts/2014/11/27/gnu-parallel/news.html)
 
 * * * * *
 

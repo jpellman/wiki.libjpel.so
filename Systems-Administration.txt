@@ -139,6 +139,7 @@ This page stores both generic notes, as well as additional pages and categories 
  * https://mxtoolbox.com/SuperTool.aspx
  * https://peteris.rocks/blog/htop/
  * http://md5deep.sourceforge.net/
+ * [[http://www.shakthimaan.com/posts/2014/11/27/gnu-parallel/news.html|GNU Parallel]]
 
 ----
 CategoryCategory

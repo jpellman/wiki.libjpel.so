@@ -216,6 +216,8 @@ Tools
 
 * http://md5deep.sourceforge.net/
 
+* `GNU Parallel`_
+
 -------------------------
 
  CategoryCategory_
@@ -307,6 +309,8 @@ Tools
 .. _last: https://linux.die.net/man/1/last
 
 .. _lastlog: https://linux.die.net/man/8/lastlog
+
+.. _GNU Parallel: http://www.shakthimaan.com/posts/2014/11/27/gnu-parallel/news.html
 
 .. _CategoryCategory: ../CategoryCategory
 
