@@ -140,6 +140,13 @@ Storage
 
 * NDMP_ (Description and whitepaper)
 
+Identity Management / User Management
+-------------------------------------
+
+* https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/s1-users-tools.html
+
+* `Introduction to LDAP`_
+
 Applications
 ------------
 
@@ -261,6 +268,8 @@ S3-compatible object stores
 .. _Backblaze Hard Drive Reliability Stats, Q1 2016: https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/
 
 .. _NDMP: https://www.snia.org/ndmp
+
+.. _Introduction to LDAP: http://ldapman.org/articles/intro_to_ldap.html
 
 .. _Canned nginx Configs (to use as templates): https://www.nginx.com/resources/wiki/start/
 

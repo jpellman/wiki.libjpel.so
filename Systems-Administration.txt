@@ -91,6 +91,11 @@ This page stores both generic notes, as well as additional pages and categories 
  * [[https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/|Backblaze Hard Drive Reliability Stats, Q1 2016]]
  * [[https://www.snia.org/ndmp|NDMP]] (Description and whitepaper)
 
+== Identity Management / User Management ==
+
+ * https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/s1-users-tools.html
+ * [[http://ldapman.org/articles/intro_to_ldap.html | Introduction to LDAP]]
+
 == Applications ==
 
 === Web Servers ===
