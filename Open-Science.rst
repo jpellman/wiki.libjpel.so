@@ -20,6 +20,8 @@ Pages related to open science.
 
 * `OpenHatch 'Open Science Projects and Organizations' Page`_ (dead) - I mirrored the source though.  Add to Wikipedia?
 
+* `Metascience Symposium 2019`_
+
 -------------------------
 
  CategoryCategory_
@@ -37,6 +39,8 @@ Pages related to open science.
 .. _Bermuda Principles (HGP Page): http://web.ornl.gov/sci/techresources/Human_Genome/research/bermuda.shtml
 
 .. _OpenHatch 'Open Science Projects and Organizations' Page: https://openhatch.org/wiki/Open_Science_Projects_and_Organizations
+
+.. _Metascience Symposium 2019: https://osf.io/meetings/metasci2019/
 
 .. _CategoryCategory: ../CategoryCategory
 
