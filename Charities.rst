@@ -21,6 +21,8 @@ Science
 
 * Zooniverse_ 
 
+* Octave_
+
 Government Agencies
 ~~~~~~~~~~~~~~~~~~~
 
@@ -125,6 +127,8 @@ Education
 .. _PyBOSSA: https://pybossa.com/
 
 .. _Zooniverse: https://www.zooniverse.org/
+
+.. _Octave: http://jweaton.org/?page_id=48
 
 .. _NASA: https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PD_1210_001G_&page_name=main
 

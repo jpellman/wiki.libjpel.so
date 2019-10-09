@@ -13,6 +13,7 @@ Science
 -   [The Planetary Society](https://secure.planetary.org/site/SPageNavigator/supportprojects.html)
 -   [PyBOSSA](https://pybossa.com/)
 -   [Zooniverse](https://www.zooniverse.org/)
+-   [Octave](http://jweaton.org/?page_id=48)
 
 Government Agencies
 -------------------

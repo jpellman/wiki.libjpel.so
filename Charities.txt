@@ -9,6 +9,7 @@ Charities/organizations / open source projects that I find worth giving to / sup
  * [[ https://secure.planetary.org/site/SPageNavigator/supportprojects.html | The Planetary Society ]]
  * [[ https://pybossa.com/ | PyBOSSA ]]
  * [[ https://www.zooniverse.org/ | Zooniverse ]] 
+ * [[ http://jweaton.org/?page_id=48 | Octave ]]
 
 === Government Agencies ===
 
