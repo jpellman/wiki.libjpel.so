@@ -12,7 +12,7 @@ Tools
 -   alien : Allows you to convert RPMs to Debian packages. Doesn't take into account dependencies.
 -   [CPack](https://cmake.org/Wiki/CMake:Packaging_With_CPack) : Allows you to create multiple package formats from the same source code.
 -   [Python's distutils](http://jeromebelleman.gitlab.io/posts/devops/setuppy/) can be used to create RPM packages. (see [here](https://docs.python.org/2.0/dist/creating-rpms.html) too)
--   [stdeb](https://pypi.org/project/stdeb/#authors) can also be used with distutils to create Debian packages (see http://shallowsky.com/blog/programming/python-debian-packages-w-stdeb.html\_ too).
+-   [stdeb](https://pypi.org/project/stdeb/#authors) can also be used with distutils to create Debian packages (see [here](http://shallowsky.com/blog/programming/python-debian-packages-w-stdeb.html) too).
 
 Spec file Formats
 -----------------

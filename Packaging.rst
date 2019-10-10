@@ -18,7 +18,7 @@ Tools
 
 * `Python's distutils`_ can be used to create RPM packages. (see here_ too)
 
-* stdeb_ can also be used with distutils to create Debian packages (see `http://shallowsky.com/blog/programming/python-debian-packages-w-stdeb.html`_ too).
+* stdeb_ can also be used with distutils to create Debian packages (see `here <http://shallowsky.com/blog/programming/python-debian-packages-w-stdeb.html>`__ too).
 
 Spec file Formats
 -----------------
@@ -45,8 +45,6 @@ Further Reading
 .. _here: https://docs.python.org/2.0/dist/creating-rpms.html
 
 .. _stdeb: https://pypi.org/project/stdeb/#authors
-
-.. _`http://shallowsky.com/blog/programming/python-debian-packages-w-stdeb.html`: ../here
 
 .. _Env and Stacks/Projects/UserLevelPackageManagement - Fedora Project Wiki: https://fedoraproject.org/wiki/Env_and_Stacks/Projects/UserLevelPackageManagement
 
