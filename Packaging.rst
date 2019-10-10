@@ -16,6 +16,8 @@ Tools
 
 * CPack_ : Allows you to create multiple package formats from the same source code.
 
+* `Python's distutils`_ can be used to create RPM packages.
+
 Spec file Formats
 -----------------
 
@@ -35,6 +37,8 @@ Further Reading
 .. ############################################################################
 
 .. _CPack: https://cmake.org/Wiki/CMake:Packaging_With_CPack
+
+.. _Python's distutils: http://jeromebelleman.gitlab.io/posts/devops/setuppy/
 
 .. _Env and Stacks/Projects/UserLevelPackageManagement - Fedora Project Wiki: https://fedoraproject.org/wiki/Env_and_Stacks/Projects/UserLevelPackageManagement
 
