@@ -96,6 +96,8 @@ Networking
 
 * `netstat overview`_
 
+* `Cheat Sheet for IP command`_
+
 Application-Layer Protocols
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -276,6 +278,8 @@ Tools
 .. _QUIC at 10,000 feet: https://docs.google.com/document/d/1gY9-YNDNAB1eip-RTPbqphgySwSNSDHLq9D5Bty4FSU/edit
 
 .. _netstat overview: http://tldp.org/LDP/nag2/x-087-2-iface.netstat.html
+
+.. _Cheat Sheet for IP command: https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf
 
 .. _Keep Alive Client: https://en.wikipedia.org/wiki/HTTP_persistent_connection
 
