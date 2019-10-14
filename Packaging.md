@@ -13,6 +13,7 @@ Tools
 -   [CPack](https://cmake.org/Wiki/CMake:Packaging_With_CPack) : Allows you to create multiple package formats from the same source code.
 -   [Python's distutils](http://jeromebelleman.gitlab.io/posts/devops/setuppy/) can be used to create RPM packages. (see [here](https://docs.python.org/2.0/dist/creating-rpms.html) too)
 -   [stdeb](https://pypi.org/project/stdeb/#authors) can also be used with distutils to create Debian packages (see [here](http://shallowsky.com/blog/programming/python-debian-packages-w-stdeb.html) too).
+-   [PyInstaller](https://www.pyinstaller.org/). See issue with wx [here](https://github.com/chriskiehl/Gooey/issues/259)
 
 Spec file Formats
 -----------------
