@@ -213,6 +213,8 @@ Storage
 
 * `Does Writing to NFS Put Processes into Uninterruptible Sleep?`_
 
+* `Create LUKS`_
+
 ACLs
 ~~~~
 
@@ -391,6 +393,8 @@ Tools
 .. _NDMP: https://www.snia.org/ndmp
 
 .. _Does Writing to NFS Put Processes into Uninterruptible Sleep?: https://medium.com/@jonphilpott/does-writing-to-nfs-put-processes-into-un-interruptible-sleep-d58790cd13b6#.h4oi0ufqx
+
+.. _Create LUKS: http://redhat-admin.blogspot.com/2011/09/create-and-configure-luks-encrypted.html
 
 .. _En Francais: http://okki666.free.fr/docmaster/articles/linux100.htm
 

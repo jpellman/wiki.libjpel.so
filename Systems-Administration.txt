@@ -127,6 +127,7 @@ This page stores both generic notes, as well as additional pages and categories 
  * [[https://www.snia.org/ndmp|NDMP]] (Description and whitepaper)
  * http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html
  * [[https://medium.com/@jonphilpott/does-writing-to-nfs-put-processes-into-un-interruptible-sleep-d58790cd13b6#.h4oi0ufqx | Does Writing to NFS Put Processes into Uninterruptible Sleep?]]
+ * [[http://redhat-admin.blogspot.com/2011/09/create-and-configure-luks-encrypted.html| Create LUKS]]
 
 === ACLs ===
 

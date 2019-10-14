@@ -129,6 +129,7 @@ Storage
 -   [NDMP](https://www.snia.org/ndmp) (Description and whitepaper)
 -   <http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html>
 -   [Does Writing to NFS Put Processes into Uninterruptible Sleep?](https://medium.com/@jonphilpott/does-writing-to-nfs-put-processes-into-un-interruptible-sleep-d58790cd13b6#.h4oi0ufqx)
+-   [Create LUKS](http://redhat-admin.blogspot.com/2011/09/create-and-configure-luks-encrypted.html)
 
 ### ACLs
 
