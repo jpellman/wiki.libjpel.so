@@ -40,6 +40,8 @@ This page stores both generic notes, as well as additional pages and categories 
 
 == Scripting Languages ==
 
+ * [[Python]]
+
 === Bash ===
 
  * [[http://explainshell.com/|Explainshell]]

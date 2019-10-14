@@ -57,6 +57,8 @@ Bootloaders
 Scripting Languages
 -------------------
 
+* Python_
+
 Bash
 ~~~~
 
@@ -294,6 +296,8 @@ Tools
 .. _UEFI Boot - How Does that Actually Work Then?: https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/
 
 .. _Fast Boot as an issue with bootable thumb drives: https://forums.freebsd.org/threads/58001/#post-331378
+
+.. _Python: ../Python
 
 .. _Explainshell: http://explainshell.com/
 

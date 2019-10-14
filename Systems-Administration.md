@@ -40,6 +40,8 @@ Bootloaders
 Scripting Languages
 -------------------
 
+-   [Python](../Python)
+
 ### Bash
 
 -   [Explainshell](http://explainshell.com/)
