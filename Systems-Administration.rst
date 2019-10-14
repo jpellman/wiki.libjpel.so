@@ -54,8 +54,11 @@ Bootloaders
 
 * `Fast Boot as an issue with bootable thumb drives`_
 
-Bash / Scripting Languages
---------------------------
+Scripting Languages
+-------------------
+
+Bash
+~~~~
 
 * Explainshell_
 
@@ -68,6 +71,41 @@ Bash / Scripting Languages
 * Type 'reset' when screen messes up your keyboard mapping.
 
 * uniq -c : 'prefix lines by the number of occurrences'
+
+* http://wiki.bash-hackers.org/howto/redirection_tutorial
+
+* http://sebug.net/paper/os/linux/Linux%20Shell%20Scripting%20Tutorial%20v2.0.pdf
+
+* http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html
+
+* http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html
+
+* .. raw:: html
+     &#91;
+
+  .. raw:: html
+     &#91;
+
+   ${var} =~ "foo" .. raw:: html
+     &#93;
+
+  .. raw:: html
+     &#93;
+
+   - check if a string contains a substring "foo"
+
+* `Common Bash Pitfalls`_
+
+* `Writing Robust Shell Scripts`_
+
+* CommandlineFu_
+
+Regular Expressions
+~~~~~~~~~~~~~~~~~~~
+
+* `RegEx Golf`_
+
+* `Regular Expressions by Jan Goyvaerts`_
 
 Monitoring / Debugging
 ----------------------
@@ -260,6 +298,16 @@ Tools
 .. _Explainshell: http://explainshell.com/
 
 .. _More reading: http://www.linfo.org/du.html
+
+.. _Common Bash Pitfalls: http://mywiki.wooledge.org/BashPitfalls
+
+.. _Writing Robust Shell Scripts: http://www.davidpashley.com/articles/writing-robust-shell-scripts/
+
+.. _CommandlineFu: http://commandlinefu.com/
+
+.. _RegEx Golf: https://regex.alf.nu/
+
+.. _Regular Expressions by Jan Goyvaerts: http://www.regular-expressions.info
 
 .. _Understanding Load Averages: http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
 

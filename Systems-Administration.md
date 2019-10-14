@@ -37,8 +37,10 @@ Bootloaders
 -   [UEFI Boot - How Does that Actually Work Then?](https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/)
 -   [Fast Boot as an issue with bootable thumb drives](https://forums.freebsd.org/threads/58001/#post-331378)
 
-Bash / Scripting Languages
---------------------------
+Scripting Languages
+-------------------
+
+### Bash
 
 -   [Explainshell](http://explainshell.com/)
 -   Exec last command in bash *!!*.
@@ -46,6 +48,18 @@ Bash / Scripting Languages
 -   The -c flag for du caches file size estimates so that they can be retrieve more quickly on future invocations? ( [More reading](http://www.linfo.org/du.html) in addition to the man file)
 -   Type 'reset' when screen messes up your keyboard mapping.
 -   uniq -c : 'prefix lines by the number of occurrences'
+-   <http://wiki.bash-hackers.org/howto/redirection_tutorial>
+-   <http://sebug.net/paper/os/linux/Linux%20Shell%20Scripting%20Tutorial%20v2.0.pdf>
+-   <http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html>
+-   <http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html>
+-   -   [Common Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls)
+-   [Writing Robust Shell Scripts](http://www.davidpashley.com/articles/writing-robust-shell-scripts/)
+-   [CommandlineFu](http://commandlinefu.com/)
+
+### Regular Expressions
+
+-   [RegEx Golf](https://regex.alf.nu/)
+-   [Regular Expressions by Jan Goyvaerts](http://www.regular-expressions.info)
 
 Monitoring / Debugging
 ----------------------

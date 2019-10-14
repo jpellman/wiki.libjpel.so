@@ -38,7 +38,9 @@ This page stores both generic notes, as well as additional pages and categories 
  * [[https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/|UEFI Boot - How Does that Actually Work Then?]]
  * [[https://forums.freebsd.org/threads/58001/#post-331378|Fast Boot as an issue with bootable thumb drives]]
 
-== Bash / Scripting Languages ==
+== Scripting Languages ==
+
+=== Bash ===
 
  * [[http://explainshell.com/|Explainshell]]
  * Exec last command in bash *!!*.
@@ -47,6 +49,19 @@ This page stores both generic notes, as well as additional pages and categories 
  ( [[ http://www.linfo.org/du.html | More reading ]] in addition to the man file)
  * Type 'reset' when screen messes up your keyboard mapping.
  * uniq -c : 'prefix lines by the number of occurrences'
+ * http://wiki.bash-hackers.org/howto/redirection_tutorial
+ * http://sebug.net/paper/os/linux/Linux%20Shell%20Scripting%20Tutorial%20v2.0.pdf
+ * http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html
+ * http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html
+ * &#91;&#91; ${var} =~ "foo" &#93;&#93; - check if a string contains a substring "foo"
+ * [[http://mywiki.wooledge.org/BashPitfalls | Common Bash Pitfalls]]
+ * [[http://www.davidpashley.com/articles/writing-robust-shell-scripts/ | Writing Robust Shell Scripts]]
+ * [[http://commandlinefu.com/ | CommandlineFu]]
+
+=== Regular Expressions ===
+
+ * [[https://regex.alf.nu/ | RegEx Golf]]
+ * [[http://www.regular-expressions.info | Regular Expressions by Jan Goyvaerts]]
 
 == Monitoring / Debugging ==
 
