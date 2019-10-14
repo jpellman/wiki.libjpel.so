@@ -128,6 +128,7 @@ Storage
 -   [Backblaze Hard Drive Reliability Stats, Q1 2016](https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/)
 -   [NDMP](https://www.snia.org/ndmp) (Description and whitepaper)
 -   <http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html>
+-   [Does Writing to NFS Put Processes into Uninterruptible Sleep?](https://medium.com/@jonphilpott/does-writing-to-nfs-put-processes-into-un-interruptible-sleep-d58790cd13b6#.h4oi0ufqx)
 
 Identity Management / User Management
 -------------------------------------
