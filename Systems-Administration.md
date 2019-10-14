@@ -127,6 +127,7 @@ Storage
 -   [Lustre and Panasas Are Not So Different](http://clusterdesign.org/2012/08/lustre-and-panasas-are-not-so-different/)
 -   [Backblaze Hard Drive Reliability Stats, Q1 2016](https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/)
 -   [NDMP](https://www.snia.org/ndmp) (Description and whitepaper)
+-   <http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html>
 
 Identity Management / User Management
 -------------------------------------

@@ -209,6 +209,8 @@ Storage
 
 * NDMP_ (Description and whitepaper)
 
+* http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html
+
 Identity Management / User Management
 -------------------------------------
 
