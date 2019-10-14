@@ -130,6 +130,12 @@ Storage
 -   <http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html>
 -   [Does Writing to NFS Put Processes into Uninterruptible Sleep?](https://medium.com/@jonphilpott/does-writing-to-nfs-put-processes-into-un-interruptible-sleep-d58790cd13b6#.h4oi0ufqx)
 
+### ACLs
+
+-   [En Francais](http://okki666.free.fr/docmaster/articles/linux100.htm)
+-   <https://wiki.archlinux.org/index.php/Access_Control_Lists>
+-   <https://www.freebsd.org/doc/handbook/fs-acl.html>
+
 Identity Management / User Management
 -------------------------------------
 

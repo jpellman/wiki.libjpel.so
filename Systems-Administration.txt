@@ -128,6 +128,11 @@ This page stores both generic notes, as well as additional pages and categories 
  * http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html
  * [[https://medium.com/@jonphilpott/does-writing-to-nfs-put-processes-into-un-interruptible-sleep-d58790cd13b6#.h4oi0ufqx | Does Writing to NFS Put Processes into Uninterruptible Sleep?]]
 
+=== ACLs ===
+
+ * [[http://okki666.free.fr/docmaster/articles/linux100.htm | En Francais]]
+ * https://wiki.archlinux.org/index.php/Access_Control_Lists
+ * https://www.freebsd.org/doc/handbook/fs-acl.html
 
 == Identity Management / User Management ==
 

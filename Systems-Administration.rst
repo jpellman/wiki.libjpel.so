@@ -213,6 +213,15 @@ Storage
 
 * `Does Writing to NFS Put Processes into Uninterruptible Sleep?`_
 
+ACLs
+~~~~
+
+* `En Francais`_
+
+* https://wiki.archlinux.org/index.php/Access_Control_Lists
+
+* https://www.freebsd.org/doc/handbook/fs-acl.html
+
 Identity Management / User Management
 -------------------------------------
 
@@ -382,6 +391,8 @@ Tools
 .. _NDMP: https://www.snia.org/ndmp
 
 .. _Does Writing to NFS Put Processes into Uninterruptible Sleep?: https://medium.com/@jonphilpott/does-writing-to-nfs-put-processes-into-un-interruptible-sleep-d58790cd13b6#.h4oi0ufqx
+
+.. _En Francais: http://okki666.free.fr/docmaster/articles/linux100.htm
 
 .. _Introduction to LDAP: http://ldapman.org/articles/intro_to_ldap.html
 
