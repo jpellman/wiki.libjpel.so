@@ -12,7 +12,7 @@ Below I list links related to the fields and tools that are most necessary to fa
 == Geography ==
 
  * [[http://spacetime.nypl.org/surveyor|NYPL Surveyor]] : A crowdsourced tool that allows you to enrich the metadata of historical photographs by giving them an associated geolocation.  Currently only scoped to NYC.
- * [[http://maps.nypl.org/warper/|NYPL Warper]] : A crowdsourced georectification tool.
+ * [[http://maps.nypl.org/warper/|NYPL Warper]] : A crowdsourced georectification tool. I keep track of maps I've rectified at [[Georectification]].
  * [[https://www.usgs.gov/core-science-systems/national-geospatial-program/topographic-maps|USGS Topographic Maps]] 
  * [[https://livingatlas.arcgis.com/topoexplorer/index.html|USGS Historical Topographic Maps]] (also [[https://www.usgs.gov/core-science-systems/ngp/topo-maps/historical-topographic-map-collection?qt-science_support_page_related_con=0#qt-science_support_page_related_con|here]]
 

@@ -16,7 +16,7 @@ Geography
 
 * `NYPL Surveyor`_ : A crowdsourced tool that allows you to enrich the metadata of historical photographs by giving them an associated geolocation.  Currently only scoped to NYC.
 
-* `NYPL Warper`_ : A crowdsourced georectification tool.
+* `NYPL Warper`_ : A crowdsourced georectification tool. I keep track of maps I've rectified at Georectification_.
 
 * `USGS Topographic Maps`_ 
 
@@ -78,6 +78,8 @@ Related Examples from Hollywood
 .. _NYPL Surveyor: http://spacetime.nypl.org/surveyor
 
 .. _NYPL Warper: http://maps.nypl.org/warper/
+
+.. _Georectification: ../Georectification
 
 .. _USGS Topographic Maps: https://www.usgs.gov/core-science-systems/national-geospatial-program/topographic-maps
 

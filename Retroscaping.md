@@ -13,7 +13,7 @@ Geography
 ---------
 
 -   [NYPL Surveyor](http://spacetime.nypl.org/surveyor) : A crowdsourced tool that allows you to enrich the metadata of historical photographs by giving them an associated geolocation. Currently only scoped to NYC.
--   [NYPL Warper](http://maps.nypl.org/warper/) : A crowdsourced georectification tool.
+-   [NYPL Warper](http://maps.nypl.org/warper/) : A crowdsourced georectification tool. I keep track of maps I've rectified at [Georectification](../Georectification).
 -   [USGS Topographic Maps](https://www.usgs.gov/core-science-systems/national-geospatial-program/topographic-maps)
 -   [USGS Historical Topographic Maps](https://livingatlas.arcgis.com/topoexplorer/index.html) (also [here](https://www.usgs.gov/core-science-systems/ngp/topo-maps/historical-topographic-map-collection?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 
