@@ -21,7 +21,7 @@ An ongoing list of software / techniques for visualizing citations.
  * [[https://pybtex.org/|Pybtex]]
  * [[https://pybliographer.org/|Pybliographer]]
  * [[https://github.com/matthew-brett/babybib|BabyBib]]
- * [https://www.nature.com/articles/d41586-018-04190-5|How I scraped data from Google Scholar]
+ * [[https://www.nature.com/articles/d41586-018-04190-5|How I scraped data from Google Scholar]]
 
 ----
 ScientificComputing LibraryComputing

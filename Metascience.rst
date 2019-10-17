@@ -40,7 +40,7 @@ Citation Parsing/Munging
 
 * BabyBib_
 
-* [https://www.nature.com/articles/d41586-018-04190-5|How I scraped data from Google Scholar]
+* `How I scraped data from Google Scholar`_
 
 -------------------------
 
@@ -81,6 +81,8 @@ Citation Parsing/Munging
 .. _Pybliographer: https://pybliographer.org/
 
 .. _BabyBib: https://github.com/matthew-brett/babybib
+
+.. _How I scraped data from Google Scholar: https://www.nature.com/articles/d41586-018-04190-5
 
 .. _ScientificComputing: ../ScientificComputing
 

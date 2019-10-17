@@ -25,7 +25,7 @@ Citation Parsing/Munging
 -   [Pybtex](https://pybtex.org/)
 -   [Pybliographer](https://pybliographer.org/)
 -   [BabyBib](https://github.com/matthew-brett/babybib)
--   [[https://www.nature.com/articles/d41586-018-04190-5|How](https://www.nature.com/articles/d41586-018-04190-5|How) I scraped data from Google Scholar]
+-   [How I scraped data from Google Scholar](https://www.nature.com/articles/d41586-018-04190-5)
 
 * * * * *
 
