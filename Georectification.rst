@@ -10,8 +10,6 @@ Maps I've georectified (or am in the process of georectifying) on NYPL's website
 In Progress
 -----------
 
-* http://maps.nypl.org/warper/maps/26306
-
 * http://maps.nypl.org/warper/maps/12785
 
 * http://maps.nypl.org/warper/maps/12709
@@ -22,6 +20,8 @@ In Progress
 
 Done
 ----
+
+* http://maps.nypl.org/warper/maps/26306 - last edit = version 170
 
 * http://maps.nypl.org/warper/maps/31229 - last edit = version 79
 
