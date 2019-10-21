@@ -19,7 +19,7 @@ Major Past Academic Computing Initiatives of Note
 
 * sudo_ was made at SUNY Buffalo in the early to mid 80s.
 
-* `The Stanford Integrated Digital Library Project`_ effectively morphed into Google
+* `The Stanford Integrated Digital Library Project`_ effectively morphed into Google (interestingly enough it looks like Eolas_ also was planning on submitting `a proposal`_ for the same NSF initiative)
 
 * Kermit_ (Columbia site `here <http://www.columbia.edu/kermit/>`__)
 
@@ -81,6 +81,10 @@ Open Source / Community Source
 .. _sudo: https://gratisoft.us/sudo/history.html
 
 .. _The Stanford Integrated Digital Library Project: https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=100660
+
+.. _Eolas: http://www.eolas.com/timeline.html
+
+.. _a proposal: http://www.eolas.com/img/11-1-Hardin-letter94.pdf
 
 .. _Kermit: http://www.kermitproject.org/
 

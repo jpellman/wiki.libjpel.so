@@ -13,7 +13,7 @@ Major Past Academic Computing Initiatives of Note
 -   [Project Athena](https://en.wikipedia.org/wiki/Project_Athena) (also [here](http://ist.mit.edu/athena))
 -   [Stanford University Network](https://en.wikipedia.org/wiki/Stanford_University_Network) whose efforts, alongside the [Computer Systems Research Group](https://en.wikipedia.org/wiki/Computer_Systems_Research_Group) (BSD folks), were successfully transitioned into and continued with [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems)
 -   [sudo](https://gratisoft.us/sudo/history.html) was made at SUNY Buffalo in the early to mid 80s.
--   [The Stanford Integrated Digital Library Project](https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=100660) effectively morphed into Google
+-   [The Stanford Integrated Digital Library Project](https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=100660) effectively morphed into Google (interestingly enough it looks like [Eolas](http://www.eolas.com/timeline.html) also was planning on submitting [a proposal](http://www.eolas.com/img/11-1-Hardin-letter94.pdf) for the same NSF initiative)
 -   [Kermit](http://www.kermitproject.org/) (Columbia site [here](http://www.columbia.edu/kermit/))
 -   [Pamacea](http://www.columbia.edu/acis/dev/projects/mod_auth_pamacea/) (also see general [Columbia AcIS UnixDev Projects](http://www.columbia.edu/acis/dev/unixdev/projects/))
 -   [ITK](https://itk.org/ITK/project/about.html) / the Insight Software Consortium. [YouTube](../YouTube) founder Jawed Karim was briefly involved in this.
