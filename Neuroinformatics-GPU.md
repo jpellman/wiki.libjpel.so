@@ -21,6 +21,7 @@ How exactly do GPUs work anyways?
 -   [How a GPU Works](https://www.cs.cmu.edu/afs/cs/academic/class/15462-f11/www/lec_slides/lec19.pdf) by Kayvon Fatahalian ([course website](https://www.cs.cmu.edu/afs/cs/academic/class/15462-f11/www/)
 -   [GPGPU Lectures at Haifa LUG](http://haifux.org/lectures/267/) by Ofer Rosenberg
 -   [Summary in the article about GPU-enabled FSL bedpost-x](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061892#s2)
+-   [CUDA Streams Best Practices](http://on-demand.gputechconf.com/gtc/2014/presentations/S4158-cuda-streams-best-practices-common-pitfalls.pdf)
 
 Discussions
 -----------

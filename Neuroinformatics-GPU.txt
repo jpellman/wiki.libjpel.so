@@ -17,6 +17,7 @@
  * [[https://www.cs.cmu.edu/afs/cs/academic/class/15462-f11/www/lec_slides/lec19.pdf|How a GPU Works]] by Kayvon Fatahalian ([[https://www.cs.cmu.edu/afs/cs/academic/class/15462-f11/www/|course website]]
  * [[http://haifux.org/lectures/267/|GPGPU Lectures at Haifa LUG]] by Ofer Rosenberg
  * [[https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061892#s2|Summary in the article about GPU-enabled FSL bedpost-x]]
+ * [[http://on-demand.gputechconf.com/gtc/2014/presentations/S4158-cuda-streams-best-practices-common-pitfalls.pdf|CUDA Streams Best Practices]]
 
 == Discussions ==
 
