@@ -25,6 +25,8 @@ List of Neuroinformatics Tools w/ GPU-based Implementations
 
 * CLIJ_ (an ImageJ plugin that maps macro calls to OpenCL calls)
 
+* http://on-demand.gputechconf.com/gtc/2017/presentation/S7342-robert-zigon-data-mining-in%20neuroimagic-%20genomics.pdf
+
 How exactly do GPUs work anyways?
 ---------------------------------
 
@@ -80,6 +82,13 @@ The case for consumer GPUs over enterprise GPUs:
 * https://lambdalabs.com/blog/best-gpu-tensorflow-2080-ti-vs-v100-vs-titan-v-vs-1080-ti-benchmark/
 
 * https://timdettmers.com/2019/04/03/which-gpu-for-deep-learning/
+
+CryoEM
+~~~~~~
+
+* https://developer.download.nvidia.com/video/gputechconf/gtc/2019/presentation/s9664-how-to-scale-from-workstation-through-cloud-to-hpc-in-cryo-em-processing.pdf
+
+* http://on-demand.gputechconf.com/gtc/2017/presentation/s7232-lance-wilson-processing-the-next.pdf
 
 -------------------------
 
