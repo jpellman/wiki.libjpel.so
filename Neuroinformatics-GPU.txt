@@ -20,6 +20,11 @@
  * [[https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061892#s2|Summary in the article about GPU-enabled FSL bedpost-x]]
  * [[http://on-demand.gputechconf.com/gtc/2014/presentations/S4158-cuda-streams-best-practices-common-pitfalls.pdf|CUDA Streams Best Practices]]
 
+== Debugging GPUS ==
+
+ * [[https://lernapparat.de/debug-device-assert/|Debugging CUDA device-side assert in PyTorch]]
+ * [[https://docs.fast.ai/troubleshoot.html|fast.ai's Troubleshooting Tips]]
+
 == Discussions ==
 
 === AFNI ===

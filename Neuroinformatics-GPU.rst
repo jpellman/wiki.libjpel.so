@@ -38,6 +38,13 @@ How exactly do GPUs work anyways?
 
 * `CUDA Streams Best Practices`_
 
+Debugging GPUS
+--------------
+
+* `Debugging CUDA device-side assert in PyTorch`_
+
+* `fast.ai's Troubleshooting Tips`_
+
 Discussions
 -----------
 
@@ -135,6 +142,10 @@ ScientificComputing_
 .. _Summary in the article about GPU-enabled FSL bedpost-x: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061892#s2
 
 .. _CUDA Streams Best Practices: http://on-demand.gputechconf.com/gtc/2014/presentations/S4158-cuda-streams-best-practices-common-pitfalls.pdf
+
+.. _Debugging CUDA device-side assert in PyTorch: https://lernapparat.de/debug-device-assert/
+
+.. _fast.ai's Troubleshooting Tips: https://docs.fast.ai/troubleshoot.html
 
 .. _ScientificComputing: ../ScientificComputing
 
