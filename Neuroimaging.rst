@@ -49,7 +49,7 @@ General Courses
 Stats on MR Usage in the United States
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* https://jamanetwork.com/journals/jama/fullarticle/2720430#jvp180164r2
+* https://jamanetwork.com/journals/jama/fullarticle/2674671
 
 * https://jamanetwork.com/journals/jama/fullarticle/2720430
 
