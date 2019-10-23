@@ -33,6 +33,11 @@ fMRI
 
 -   [Chris Rorden's Course at GA Tech](https://web.archive.org/web/20110816023612/http://www.cabiatl.com/CABI/resources/Course/)
 
+### Stats on MR Usage in the United States
+
+-   <https://jamanetwork.com/journals/jama/fullarticle/2720430#jvp180164r2>
+-   <https://jamanetwork.com/journals/jama/fullarticle/2720430>
+
 EEG
 ---
 
