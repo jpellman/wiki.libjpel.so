@@ -1,5 +1,24 @@
 ## page was renamed from CitationGraphs
-= Citation Graphing =
+
+= Metascience =
+
+<<TableOfContents(2)>>
+
+== Tools ==
+
+ * [[https://www.semanticscholar.org/|Semantic Scholar]]
+ * [[https://www.meta.org/|Meta]]
+
+=== Neuroscience ===
+
+ * [[https://neuroquery.org|Neuroquery]]
+ * [[https://www.neurosynth.org/|Neurosynth]]
+
+== Conferences / Presentations ==
+
+ * [[https://osf.io/meetings/metasci2019/|Metascience 2019]]
+
+== Citation Graphing ==
 
 An ongoing list of software / techniques for visualizing citations.
 
@@ -12,7 +31,7 @@ An ongoing list of software / techniques for visualizing citations.
  * [[https://github.com/CitationGecko|Citation Gecko]]
  * [[https://academic.oup.com/gigascience/article/5/suppl_1/s13742-016-0147-0-f/2965211|Clubs of Science]] (dead) - see [[https://github.com/Brainhack-Proceedings-2015/Dery_HBM_ClubsOfScience|here]] and [[https://github.com/sderygithub/Clubs-of-Science|here]]
 
-== Citation Parsing/Munging ==
+=== Citation Parsing/Munging ===
 
  * [[https://github.com/inukshuk/anystyle|Anystyle]]
  * [[https://github.com/inukshuk/bibtex-ruby|BibTeX Ruby]]

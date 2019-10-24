@@ -1,7 +1,31 @@
 #format rst
 
+Metascience
+===========
+
+.. contents:: :depth: 2
+
+Tools
+-----
+
+* `Semantic Scholar`_
+
+* Meta_
+
+Neuroscience
+~~~~~~~~~~~~
+
+* Neuroquery_
+
+* Neurosynth_
+
+Conferences / Presentations
+---------------------------
+
+* `Metascience 2019`_
+
 Citation Graphing
-=================
+-----------------
 
 An ongoing list of software / techniques for visualizing citations.
 
@@ -22,7 +46,7 @@ An ongoing list of software / techniques for visualizing citations.
 * `Clubs of Science`_ (dead) - see here_ and `here <https://github.com/sderygithub/Clubs-of-Science>`__
 
 Citation Parsing/Munging
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Anystyle_
 
@@ -47,6 +71,16 @@ Citation Parsing/Munging
  ScientificComputing_ LibraryComputing_
 
 .. ############################################################################
+
+.. _Semantic Scholar: https://www.semanticscholar.org/
+
+.. _Meta: https://www.meta.org/
+
+.. _Neuroquery: https://neuroquery.org
+
+.. _Neurosynth: https://www.neurosynth.org/
+
+.. _Metascience 2019: https://osf.io/meetings/metasci2019/
 
 .. _Citespace: http://cluster.cis.drexel.edu/~cchen/citespace/
 
