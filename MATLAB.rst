@@ -14,6 +14,8 @@ Articles Discussing Issues with MATLAB
 
 * `Abandon MATLAB`_ (`dead mirror`_)
 
+* `Reddit Comment on the MATLAB Compiler`_
+
 Porting MATLAB Code Over
 ------------------------
 
@@ -32,6 +34,8 @@ Porting MATLAB Code Over
 .. _Abandon MATLAB: https://web.archive.org/web/20150309010416/https://abandonmatlab.wordpress.com/
 
 .. _dead mirror: https://www.robertjacobson.dev/AbandonMatlab
+
+.. _Reddit Comment on the MATLAB Compiler: https://www.reddit.com/r/programming/comments/livmm/matlabs_function_syntax_is_abysmal/c2t5l0j/
 
 .. _ScientificComputing: ../ScientificComputing
 

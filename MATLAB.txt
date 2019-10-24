@@ -8,6 +8,7 @@ I don't particularly like MATLAB.  Licensing is always a pain and it seems like 
 
  * [[https://neuroplausible.com/matlab|I Hate Matlab: How an IDE, a Language, and a Mentality Harm]]
  * [[https://web.archive.org/web/20150309010416/https://abandonmatlab.wordpress.com/|Abandon MATLAB]] ([[https://www.robertjacobson.dev/AbandonMatlab|dead mirror]])
+ * [[https://www.reddit.com/r/programming/comments/livmm/matlabs_function_syntax_is_abysmal/c2t5l0j/|Reddit Comment on the MATLAB Compiler]]
 
 == Porting MATLAB Code Over ==
 

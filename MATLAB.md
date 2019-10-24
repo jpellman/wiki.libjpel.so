@@ -10,6 +10,7 @@ Articles Discussing Issues with MATLAB
 
 -   [I Hate Matlab: How an IDE, a Language, and a Mentality Harm](https://neuroplausible.com/matlab)
 -   [Abandon MATLAB](https://web.archive.org/web/20150309010416/https://abandonmatlab.wordpress.com/) ([dead mirror](https://www.robertjacobson.dev/AbandonMatlab))
+-   [Reddit Comment on the MATLAB Compiler](https://www.reddit.com/r/programming/comments/livmm/matlabs_function_syntax_is_abysmal/c2t5l0j/)
 
 Porting MATLAB Code Over
 ------------------------
