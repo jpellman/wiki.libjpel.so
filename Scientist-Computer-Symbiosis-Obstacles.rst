@@ -45,7 +45,7 @@ I address the above problems in more depth in the following pages:
 
 1. Packaging_
 
-#. MetaScience_
+#. Metascience_
 
 #. TODO - probable sub-page of OpenScience_
 
@@ -91,7 +91,7 @@ I address the above problems in more depth in the following pages:
 
 .. _Packaging: ../Packaging
 
-.. _MetaScience: ../MetaScience
+.. _Metascience: ../Metascience
 
 .. _OpenScience: ../OpenScience
 

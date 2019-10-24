@@ -32,7 +32,7 @@ I don't foresee working on hardware acceleration in any capacity beyond remainin
 I address the above problems in more depth in the following pages:
 
  1. [[Packaging]]
- 1. [[MetaScience]]
+ 1. [[Metascience]]
  1. TODO - probable sub-page of [[OpenScience]]
  1. TODO - [[CWLMake]] might be adapted for this.
  1. [[ASICs]]
