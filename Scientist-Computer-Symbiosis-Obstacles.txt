@@ -32,7 +32,7 @@ I don't foresee working on hardware acceleration in any capacity beyond remainin
 I address the above problems in more depth in the following pages:
 
  1. [[Packaging]]
- 1. TODO - probable sub-page of [[ComputationalLinguistics]], see [[CitationGraphs]] too.  There should be also be a page for tools that aggregate data like Neurosynth and [[https://neuroquery.saclay.inria.fr|Neuroquery]].  [[https://www.meta.org/|Meta]] also might be nested in this category.  See also [[https://osf.io/meetings/metasci2019/|Metascience symposium 2019]]
+ 1. TODO - probable sub-page of [[ComputationalLinguistics]], see [[CitationGraphs]] too.  There should be also be a page for tools that aggregate data like Neurosynth and [[https://neuroquery.saclay.inria.fr|Neuroquery]].  [[https://www.meta.org/|Meta]] also might be nested in this category.  See also [[https://osf.io/meetings/metasci2019/|Metascience symposium 2019]].  [[https://www.semanticscholar.org/|Semantic Scholar]] belongs here too
  1. TODO - probable sub-page of [[OpenScience]]
  1. TODO - [[CWLMake]] might be adapted for this.
  1. [[ASICs]]
