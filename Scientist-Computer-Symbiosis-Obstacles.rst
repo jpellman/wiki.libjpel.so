@@ -45,7 +45,7 @@ I address the above problems in more depth in the following pages:
 
 1. Packaging_
 
-#. TODO - probable sub-page of ComputationalLinguistics_, see CitationGraphs_ too.  There should be also be a page for tools that aggregate data like Neurosynth and Neuroquery_.  Meta_ also might be nested in this category.  See also `Metascience symposium 2019`_.  `Semantic Scholar`_ belongs here too
+#. MetaScience_
 
 #. TODO - probable sub-page of OpenScience_
 
@@ -91,17 +91,7 @@ I address the above problems in more depth in the following pages:
 
 .. _Packaging: ../Packaging
 
-.. _ComputationalLinguistics: ../ComputationalLinguistics
-
-.. _CitationGraphs: ../CitationGraphs
-
-.. _Neuroquery: https://neuroquery.saclay.inria.fr
-
-.. _Meta: https://www.meta.org/
-
-.. _Metascience symposium 2019: https://osf.io/meetings/metasci2019/
-
-.. _Semantic Scholar: https://www.semanticscholar.org/
+.. _MetaScience: ../MetaScience
 
 .. _OpenScience: ../OpenScience
 
