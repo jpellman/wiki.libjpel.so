@@ -33,6 +33,7 @@ Emulation
 ---------
 
 -   [David Rosenthal's Emulation Paper](https://mellon.org/media/filer_public/0c/3e/0c3eee7d-4166-4ba6-a767-6b42e6a1c2a7/rosenthal-emulation-2015.pdf)
+-   [GPU-Accelerated Atari Emulation](https://research.nvidia.com/publication/2019-07_GPU-Accelerated-Atari-Emulation)
 
 The Future of Libraries
 -----------------------

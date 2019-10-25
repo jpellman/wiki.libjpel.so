@@ -42,6 +42,8 @@ Emulation
 
 * `David Rosenthal's Emulation Paper`_
 
+* `GPU-Accelerated Atari Emulation`_
+
 The Future of Libraries
 -----------------------
 
@@ -69,6 +71,8 @@ AcademicComputing_
 .. _A Framework for Distributed Digital Object Services: http://www.cnri.reston.va.us/k-w.html
 
 .. _David Rosenthal's Emulation Paper: https://mellon.org/media/filer_public/0c/3e/0c3eee7d-4166-4ba6-a767-6b42e6a1c2a7/rosenthal-emulation-2015.pdf
+
+.. _GPU-Accelerated Atari Emulation: https://research.nvidia.com/publication/2019-07_GPU-Accelerated-Atari-Emulation
 
 .. _Cites and Insights: https://citesandinsights.info/
 
