@@ -58,10 +58,12 @@ Conversion of Illustrations and Grayscale Photographs to Photorealistic 3d Model
 
 * DeOldify_
 
-Related Examples from Hollywood
--------------------------------
+Related Examples from the Wild
+------------------------------
 
 * `Motherless Brooklyn's recreation of Penn Station`_
+
+* `Virtual World Heritage Lab`_
 
 -------------------------
 
@@ -106,6 +108,8 @@ Related Examples from Hollywood
 .. _DeOldify: https://github.com/jantic/DeOldify
 
 .. _Motherless Brooklyn's recreation of Penn Station: https://untappedcities.com/2019/10/02/how-the-lost-penn-station-was-recreated-for-the-movie-motherless-brooklyn/?fbclid=IwAR2YO6KwqC0vpWZqzEQTOvAN_9QmjMW3u3rB0BaIcX2MhT-32KeNr9mp2is
+
+.. _Virtual World Heritage Lab: http://www.vwhl.org/
 
 .. _Hobbies: ../Hobbies
 

@@ -41,9 +41,10 @@ Photogrammetry is the science/engineering/art of generating 3d objects by inferr
 
  * [[https://github.com/jantic/DeOldify|DeOldify]]
 
-== Related Examples from Hollywood ==
+== Related Examples from the Wild ==
 
  * [[https://untappedcities.com/2019/10/02/how-the-lost-penn-station-was-recreated-for-the-movie-motherless-brooklyn/?fbclid=IwAR2YO6KwqC0vpWZqzEQTOvAN_9QmjMW3u3rB0BaIcX2MhT-32KeNr9mp2is|Motherless Brooklyn's recreation of Penn Station]]
+ * [[http://www.vwhl.org/|Virtual World Heritage Lab]]
 
 ----
 [[Hobbies]]
