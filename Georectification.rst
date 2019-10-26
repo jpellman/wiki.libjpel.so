@@ -12,14 +12,14 @@ In Progress
 
 * http://maps.nypl.org/warper/maps/12785
 
-* http://maps.nypl.org/warper/maps/12709
-
 * http://maps.nypl.org/warper/maps/31351
 
 * http://maps.nypl.org/warper/maps/29634
 
 Done
 ----
+
+* http://maps.nypl.org/warper/maps/12709 - last edit = version 108
 
 * http://maps.nypl.org/warper/maps/26306 - last edit = version 170
 
