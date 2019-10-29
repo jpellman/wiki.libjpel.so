@@ -31,7 +31,7 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 **Outside Links to be Sorted:**
 
-  https://teachyourselfcs.com
+  https://teachyourselfcs.com https://www.aosabook.org
 
 -------------------------
 
