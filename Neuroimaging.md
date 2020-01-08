@@ -3,6 +3,11 @@
 Summaries / Reviews from the Neuroimaging Literature
 ====================================================
 
+General
+-------
+
+-   [Connectome Networks: From Cells to Systems](https://www.ncbi.nlm.nih.gov/books/NBK435773/) - offers a taxonomy for the scales of imaging. At a glance (I haven't really read it yet as of 1/7/19), it looks like you could combine different factors at different levels of analysis as part of a useful nested hierarchical schema (e.g., microscale neurovascular coupling and microscale action potentials are components of macroscale fMRI and EEG readings).
+
 fMRI
 ----
 
