@@ -30,7 +30,7 @@ Part List
 
 * `Intel Boxed Core I7-6700 FC-LGA14C 3.40 GHz 8 M Processor Cache 4 LGA 1151 BX80662I76700`_
 
-* x2 `Crucial 16GB Single DDR4 2133 MT/s (PC4-17000) DR x8 Unbuffered DIMM 288-Pin Memory - CT16G4DFD8213`_
+* x4 `Crucial 16GB Single DDR4 2133 MT/s (PC4-17000) DR x8 Unbuffered DIMM 288-Pin Memory - CT16G4DFD8213`_
 
 * `MSI Pro Solution Intel Z170A LGA 1151 DDR4 USB 3.1 ATX Motherboard (Z170A SLI)`_
 

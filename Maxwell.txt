@@ -25,7 +25,7 @@ Maxwell is essentially a gaming workstation that I use to try out new things loc
  * [[https://smile.amazon.com/gp/product/B01F9G43WU/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&psc=1|SanDisk SSD PLUS 240GB Internal SSD - SATA III 6 Gb/s]]
  * x2 [[https://smile.amazon.com/gp/product/B0088PUEPK/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&psc=1|WD Blue 1TB SATA 6 Gb/s 7200 RPM 64MB Cache 3.5 Inch Desktop Hard Drive (WD10EZEX)]]
  * [[https://smile.amazon.com/gp/product/B0136JONG8/ref=ppx_yo_dt_b_asin_title_o02__o00_s00?ie=UTF8&psc=1|Intel Boxed Core I7-6700 FC-LGA14C 3.40 GHz 8 M Processor Cache 4 LGA 1151 BX80662I76700]]
- * x2 [[https://smile.amazon.com/gp/product/B015YPAZPU/ref=ppx_yo_dt_b_asin_title_o02__o00_s00?ie=UTF8&psc=1|Crucial 16GB Single DDR4 2133 MT/s (PC4-17000) DR x8 Unbuffered DIMM 288-Pin Memory - CT16G4DFD8213]]
+ * x4 [[https://smile.amazon.com/gp/product/B015YPAZPU/ref=ppx_yo_dt_b_asin_title_o02__o00_s00?ie=UTF8&psc=1|Crucial 16GB Single DDR4 2133 MT/s (PC4-17000) DR x8 Unbuffered DIMM 288-Pin Memory - CT16G4DFD8213]]
  * [[https://smile.amazon.com/gp/product/B01DDR05P6/ref=ppx_yo_dt_b_asin_title_o02__o00_s00?ie=UTF8&psc=1|MSI Pro Solution Intel Z170A LGA 1151 DDR4 USB 3.1 ATX Motherboard (Z170A SLI)]]
  * [[https://smile.amazon.com/gp/product/B008RJZQSW/ref=ppx_yo_dt_b_asin_title_o09__o00_s00?ie=UTF8&psc=1|Corsair CX Series 750 Watt 80 Plus Bronze Certified Non-Modular Power Supply (CP-9020015-NA)]]
  * [[https://smile.amazon.com/EVGA-GeForce-Support-Graphics-02G-P4-6152-KR/dp/B01M64G435?sa-no-redirect=1|EVGA Geforce GTX 1050 SC ITX, 2GB]]
