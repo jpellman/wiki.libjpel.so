@@ -93,6 +93,17 @@ Plans
 -   I may then experiment with a Docker VM and getting my Windows 10 installation to run as a VM. If I can get GPU passthrough working with a Docker VM, I may retire the CentOS 6 VM and replace it with a Docker container (or split FAH and BOINC into multiple containers).
 -   I'm then going to replace the [MoinMoin](../MoinMoin) instance I've been running with [Monica](https://www.monicahq.com/).
 
+Other Wants
+-----------
+
+-   I want to get rid of the Dell monitor I've been using to access Maxwell. It's an old monitor from the mid-2000s at the earliest, it's clunky, and it's a major PITA to move from one apartment to another. For OS-level remote desktop work, VNC, RDP and x2go are more than appropriate. If I want to update BIOS/UEFI settings though, I still need a monitor because MSI's firmware includes this goofy graphical interface with no text-only option (if there were a text-only option, I'd presumably be able to just connect via a serial interface). I very rarely do firmware-level config updates, but I still need a monitor for it for the 2 or 3 times I do. [diyiipmi](https://github.com/Fmstrat/diy-ipmi) is a probable candidate for this, although it's almost too expensive to be worth it. I'm pretty sure the Dell monitor cost like \$20, whereas diy-ipmi would cost \~ \$120, with the main tradeoff being that I don't have to deal with more crap in my apartment. More research:
+    -   <https://www.reddit.com/r/sysadmin/comments/gs2ep/kvm_over_ip/c1pv4gc/>
+    -   <https://www.reddit.com/r/homelab/comments/8pvsd0/turn_laptop_into_kvm_monitorkayboard/>
+    -   <https://www.reddit.com/r/sysadmin/comments/x2jap/is_there_a_way_to_add_something_like_ipmi_to_a/>
+    -   <https://www.reddit.com/r/linuxadmin/comments/1d10wj/what_do_you_use_for_remote_server_consoles/>
+-   The 240 GB SSD isn't really being leveraged to its full potential. I should maybe split this into 3 partitions, with one for the OS and two others for a ZIL and L2ARC for ZFS. Alternatively, I could use the 60 GB SSD as a ZIL/L2ARC cache, since I don't really care as much about it. It could live in the 4th bay of the Rosewill hot-swap cage.
+-   I'm very rapidly running out of disk space on my mirrored ZFS volume as I digitize items in my mom's house. It probably would make the most sense to redo that as a RAIDZ1 volume using the third WD Blue I have lying around.
+
 Photos
 ------
 
