@@ -8,7 +8,7 @@ Bruno
 Description
 -----------
 
-Bruno is a Mid 2012, 13-inch MacBook_ Pro.  It is barely alive and is due to be replaced at some point in 2020.  I bought it refurbished around 1/1/15 and it is still kicking, but with caveats.  I mostly just use it for 2D gaming, simple web browsing, and as a dummy terminal to access Maxwell_, so I haven't been super bothered by its obvious deficiencies.
+Bruno is a `Mid 2012, 13-inch MacBook Pro`_.  It is barely alive and is due to be replaced at some point in 2020.  I bought it refurbished around 1/1/15 and it is still kicking, but with caveats.  I mostly just use it for 2D gaming, simple web browsing, and as a dummy terminal to access Maxwell_, so I haven't been super bothered by its obvious deficiencies.
 
 I'm currently holding back on upgrading OS X on it because I'm running iMovie HD 6 in an `incredibly hacky way`_ in order to rip a bunch of older DV tapes in my mom's house, and newer versions of OS X deprecate at least one Cocoa API call that iMovie HD 6 depends on.
 
@@ -44,7 +44,7 @@ Photos
 
 .. ############################################################################
 
-.. _MacBook: ../MacBook
+.. _Mid 2012, 13-inch MacBook Pro: https://apple-history.com/mbp_13_mid_12
 
 .. _Maxwell: ../Maxwell
 
