@@ -10,7 +10,7 @@ Description
 
 Bruno is a Mid 2012, 13-inch MacBook_ Pro.  It is barely alive and is due to be replaced at some point in 2020.  I bought it refurbished around 1/1/15 and it is still kicking, but with caveats.  I mostly just use it for 2D gaming, simple web browsing, and as a dummy terminal to access Maxwell_, so I haven't been super bothered by its obvious deficiencies.
 
-I'm currently holding back on upgrading OS X on it because I'm running iMovie HD 6 in an [[http://blog.iharder.net/2015/01/23/run-imovie-hd-and-maybe-other-older-applications-in-yosemite/|incredibly hacky way] in order to rip a bunch of older DV tapes in my mom's house, and newer versions of OS X deprecate at least one Cocoa API call that iMovie HD 6 depends on.
+I'm currently holding back on upgrading OS X on it because I'm running iMovie HD 6 in an `incredibly hacky way`_ in order to rip a bunch of older DV tapes in my mom's house, and newer versions of OS X deprecate at least one Cocoa API call that iMovie HD 6 depends on.
 
 Bruno is named after `Giordano Bruno`_ (not to be confused with `Bruno Behard`_)
 
@@ -47,6 +47,8 @@ Photos
 .. _MacBook: ../MacBook
 
 .. _Maxwell: ../Maxwell
+
+.. _incredibly hacky way: http://blog.iharder.net/2015/01/23/run-imovie-hd-and-maybe-other-older-applications-in-yosemite/
 
 .. _Giordano Bruno: https://en.wikipedia.org/wiki/Giordano_Bruno
 
