@@ -114,9 +114,9 @@ Plans
 #### Making Maxwell a Managed Host
 
 -   Make an Ansible role for the ZFS backup scripts (these will need to run under Proxmox). Investigate if Proxmox has something better.
--   --Make an Ansible role for the Twitter backups.-- (done [here](https://github.com/jpellman/ansible-twitter-backup); untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)
--   --Make an Ansible role for the rclone backups.-- (done [here](https://github.com/jpellman/ansible-rclone); untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)
--   --Make an Ansible role for the gmvault backups.-- (done [here](https://github.com/jpellman/ansible-gmvault); untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)
+-   Make an Ansible role for the Twitter backups. *(Done* [here](https://github.com/jpellman/ansible-twitter-backup)*; untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)*
+-   Make an Ansible role for the rclone backups. *(Done* [here](https://github.com/jpellman/ansible-rclone)*; untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)*
+-   Make an Ansible role for the gmvault backups. *(Done* [here](https://github.com/jpellman/ansible-gmvault)*; untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)*
 -   Make Ansible roles for boinc and <folding@home> (can be done after Maxwell has been rebuilt)
 
 #### VM Creation
@@ -124,7 +124,7 @@ Plans
 -   Create a CentOS 6 VM for BOINC and FAH. We want to use CentOS 6 because the FAH packages still need Python 2.6 (unless you modify them manually to use Python 2.7 in CentOS 7, which is a bit of a pain). Attach thumb drive to this VM (possibly a silly RAID of thumb drives) and have it be the backing storage for at least the scratch storage used by BOINC. Why thumb drives? Because they're cheap and I don't want to wear down my spinny disks or SSDs with a bunch of scratch files. Give this VM access to GPUs and 8 vCPUs.
 -   Create a CentOS 7 VM for general file access / ZFS. Give it 2 vCPUs. This VM may also contain the Twitter CLI (possibly within an RVM environment), gmvault and all of the other internet presence / personal data backup cronjobs (I may make one of these for my reddit data using [PRAW](https://praw.readthedocs.io)).
 -   I may then experiment with a Docker VM and getting my Windows 10 installation to run as a VM. If I can get GPU passthrough working with a Docker VM, I may retire the CentOS 6 VM and replace it with a Docker container (or split FAH and BOINC into multiple containers).
--   --I'm then going to replace the [MoinMoin](../MoinMoin) instance I've been running with [Monica](https://www.monicahq.com/).-- ( I actually don't think I care enough about this, but if I do, I'll revisit it. I barely use the Moinmoin instance as it is.)
+-   I'm then going to replace the [MoinMoin](../MoinMoin) instance I've been running with [Monica](https://www.monicahq.com/). (I actually don't think I care enough about this, but if I do, I'll revisit it. I barely use the Moinmoin instance as it is.)
 
 Other Wants
 -----------

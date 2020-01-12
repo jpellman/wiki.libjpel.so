@@ -188,11 +188,11 @@ Making Maxwell a Managed Host
 
 * Make an Ansible role for the ZFS backup scripts (these will need to run under Proxmox).  Investigate if Proxmox has something better.
 
-* --Make an Ansible role for the Twitter backups.-- (done `here <https://github.com/jpellman/ansible-twitter-backup>`__; untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)
+* :strike:`Make an Ansible role for the Twitter backups.` *(Done* `here <https://github.com/jpellman/ansible-twitter-backup>`__*; untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)*
 
-* --Make an Ansible role for the rclone backups.-- (done `here <https://github.com/jpellman/ansible-rclone>`__; untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)
+* :strike:`Make an Ansible role for the rclone backups.` *(Done* `here <https://github.com/jpellman/ansible-rclone>`__*; untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)*
 
-* --Make an Ansible role for the gmvault backups.-- (done `here <https://github.com/jpellman/ansible-gmvault>`__; untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)
+* :strike:`Make an Ansible role for the gmvault backups.` *(Done* `here <https://github.com/jpellman/ansible-gmvault>`__*; untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)*
 
 * Make Ansible roles for boinc and folding@home (can be done after Maxwell has been rebuilt)
 
@@ -205,7 +205,7 @@ VM Creation
 
 * I may then experiment with a Docker VM and getting my Windows 10 installation to run as a VM.  If I can get GPU passthrough working with a Docker VM, I may retire the CentOS 6 VM and replace it with a Docker container (or split FAH and BOINC into multiple containers).
 
-* --I'm then going to replace the MoinMoin_ instance I've been running with Monica_.-- ( I actually don't think I care enough about this, but if I do, I'll revisit it.  I barely use the Moinmoin instance as it is.)
+* :strike:`I'm then going to replace the` MoinMoin_ :strike:`instance I've been running with` Monica_:strike:`.` (I actually don't think I care enough about this, but if I do, I'll revisit it.  I barely use the Moinmoin instance as it is.)
 
 Other Wants
 -----------
