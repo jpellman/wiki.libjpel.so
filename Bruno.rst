@@ -23,6 +23,15 @@ What's Broken
 
 * The battery has been demanding that I get it serviced for a while now.  I doubt it would retain charge for more than an hour (possibly 2 hours at best).  Recently (as of 1/11/2020) I opened it up and it was convinced that it had no charge.  I powered it down, waited several hours, and then it decided it had 80% charge.  Not really an auspicious sign.
 
+What I Like
+~~~~~~~~~~~
+
+* Having an actual Ethernet port and not having to deal with the dongle hell bullshit of the newer USB-C and Thunderbolt 3 Macs.
+
+* Not having to deal with that asinine / comically useless touch bar.
+
+* Being able to actually fix parts / take this laptop apart.  I believe that this is one of the last Mac models that you can potentially self-service or upgrade/tweak.  All of the modern ones involve gluing components together in an unnecessarily thin chassis.  I'd gladly trade functionality for aesthetics.
+
 Specifications
 --------------
 

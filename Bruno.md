@@ -18,6 +18,12 @@ Bruno is named after [Giordano Bruno](https://en.wikipedia.org/wiki/Giordano_Bru
 -   One of the RAM slots is bad (see [here](https://www.youtube.com/watch?v=xpagfXraSn4) and [here](https://www.reddit.com/r/computertechs/comments/4gu93k/starting_to_see_mid2012_13_macbook_pro_bottom_ram/)). Essentially Apple used two different types of solder for the RAM banks and one of them is more liable to crap out. As such I only use one RAM slot now, with half of the Macbook's original RAM (4 GB). In theory I could purchase a single 8 GB SODIMM to fill in this one slot, but I've never felt it to be particularly worth it / performance with 4 GB RAM has been good enough for my purposes (90% of the gaming I do involves 2D graphics only).
 -   The battery has been demanding that I get it serviced for a while now. I doubt it would retain charge for more than an hour (possibly 2 hours at best). Recently (as of 1/11/2020) I opened it up and it was convinced that it had no charge. I powered it down, waited several hours, and then it decided it had 80% charge. Not really an auspicious sign.
 
+### What I Like
+
+-   Having an actual Ethernet port and not having to deal with the dongle hell bullshit of the newer USB-C and Thunderbolt 3 Macs.
+-   Not having to deal with that asinine / comically useless touch bar.
+-   Being able to actually fix parts / take this laptop apart. I believe that this is one of the last Mac models that you can potentially self-service or upgrade/tweak. All of the modern ones involve gluing components together in an unnecessarily thin chassis. I'd gladly trade functionality for aesthetics.
+
 Specifications
 --------------
 
