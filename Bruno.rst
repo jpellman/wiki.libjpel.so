@@ -31,6 +31,11 @@ Plans
 
 I'll probably replace this with a Macbook Air.  I've toyed around with just using a tablet (e.g., iPad, Surface) in the past, but due to the amount of multimedia work I do as I digitize documents and other media in my childhood home, I think that I'll still need a portable computer with a modest amount of horsepower.
 
+Photos
+------
+
+`attachment:IMG_20190121_154847753.jpg`_`attachment:IMG_20190121_154847753.jpg`_`attachment:None`_ `attachment:IMG_20190121_154901154.jpg`_`attachment:IMG_20190121_154901154.jpg`_`attachment:None`_
+
 -------------------------
 
  Hosts_
