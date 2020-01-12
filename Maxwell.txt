@@ -6,13 +6,14 @@
 
 Maxwell is essentially a gaming workstation that I use to try out new things locally within my apartment.  It is dual-boot, with Windows 10 on a 60 GB SSD and CentOS 7 on a 240 GB SSD.  I first built it around February/March 2017, with a goal of creating a workstation that I could use for both experimentation and running [[https://boincstats.com/en/stats/-1/user/detail/3500755|BOINC]]- to be completely honest, part of my motivation was to see how close I could get to surpassing (or at least equalling) some of the older scientific lab hardware I had dealt with in the past using only consumer-grade parts.
 
+Maxwell is named after [[https://en.wikipedia.org/wiki/James_Clerk_Maxwell|James Clerk Maxwell]] (not to be confused with the neo-soul musician [[https://en.wikipedia.org/wiki/Maxwell_(musician)|Maxwell]] or the Gundam Wing character [[https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Wing_characters#Duo_Maxwell|Duo Maxwell]]).
+
 == Specifications ==
 
 || '''CPU''' || Core I7-6700 FC-LGA14C ||
 || '''# of Cores (logical)''' || 8 ||
 || '''CPU Clock Speed (GHz)''' || 3.40 ||
 || '''Memory (GB)''' || 64 ||
-|| '''Max Memory (GB)''' || 64 ||
 || '''Disks''' || 60 GB SSD (Windows volume), 240 GB SSD (Linux volume), 2 1 TB WD-Blues (ZFS mirrored) ||
 || '''OS''' || CentOS 7 and Windows ||
 || '''IP Address''' || 192.168.1.3 ||
