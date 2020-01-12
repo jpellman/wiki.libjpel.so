@@ -21,6 +21,21 @@ Oat Milk
 
 * 3 Tbsp date syrup or 2 Tbsp molasses or 5g of sugar
 
+General Tso's Textured Vegetable Protein (TVP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* 1/2 cup TVP
+
+* 2 2/3 Tbsp sugar
+
+* 1 1/3 Tbsp `General Tso's seasoning packet`_
+
+* 2 Tbsp soy sauce (or perhaps worcestershire sauce)
+
+* 1/2 cup boiling water
+
+* 1 egg (optional)
+
 Beverages
 ---------
 
@@ -83,6 +98,8 @@ Shitty
  Hobbies_
 
 .. ############################################################################
+
+.. _General Tso's seasoning packet: https://smile.amazon.com/Sunbird-General-Chicken-Seasoning-Packet/dp/B00HVS31DC?sa-no-redirect=1
 
 .. _Lapsang Souchong: https://en.wikipedia.org/wiki/Lapsang_souchong
 
