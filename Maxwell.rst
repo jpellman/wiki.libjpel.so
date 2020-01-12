@@ -160,7 +160,7 @@ Storage Tasks
 
 * Evict one of the WD Blues from the ZFS mirror.
 
-* Create a RAIDZ1 volume from the two WD Blues that aren't in the mirror.  Enable deduplication and compression.
+* Create a RAIDZ1 volume from the two WD Blues that aren't in the mirror.  Enable deduplication and compression.  Use a sparse file for the third drive in the vdev (see `here <https://superuser.com/questions/281832/start-a-zfs-raidz-zpool-with-two-discs-then-add-a-third>`__).
 
 * Stream current mirrored pool data from the remaining mirror drive to the new RAIDZ1 volume with *zfs send*.
 

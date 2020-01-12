@@ -98,7 +98,7 @@ Plans
     -   If I want, I can also tier snapshots down from a spinny disk to blu ray for my nearline backup.
 -   Add the spare WD Blue into slot 3 of the Rosewill cage
 -   Evict one of the WD Blues from the ZFS mirror.
--   Create a RAIDZ1 volume from the two WD Blues that aren't in the mirror. Enable deduplication and compression.
+-   Create a RAIDZ1 volume from the two WD Blues that aren't in the mirror. Enable deduplication and compression. Use a sparse file for the third drive in the vdev (see [here](https://superuser.com/questions/281832/start-a-zfs-raidz-zpool-with-two-discs-then-add-a-third)).
 -   Stream current mirrored pool data from the remaining mirror drive to the new RAIDZ1 volume with *zfs send*.
 -   Destroy the mirror / remove the final drive from the mirror.
 -   Add the final drive as a third disk to the RAIDZ1 vdev and wait for parity data to be redistributed.
