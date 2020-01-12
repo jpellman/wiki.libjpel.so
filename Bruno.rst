@@ -42,6 +42,8 @@ Plans
 
 I'll probably replace this with a Macbook Air.  I've toyed around with just using a tablet (e.g., iPad, Surface) in the past, but due to the amount of multimedia work I do as I digitize documents and other media in my childhood home, I think that I'll still need a portable computer with a modest amount of horsepower.
 
+Alternatively, I might be able to prolong this laptop's life a little more with a power bank like this_, although that might just be kicking the can before the inevitability of needing to replace it, and may ultimately not be cost effective.
+
 Photos
 ------
 
@@ -68,6 +70,8 @@ Photos
 .. _anecdotally: https://arstechnica.com/civis/viewtopic.php?p=32860197&sid=b7559584bdb86396f9a4dcf1500d1901#p32860197
 
 .. _here: https://www.youtube.com/watch?v=xpagfXraSn4
+
+.. _this: https://smile.amazon.com/dp/B017QUHB44/ref=psdc_11041841_t1_B00IIZOYFG
 
 .. _Hosts: ../Hosts
 
