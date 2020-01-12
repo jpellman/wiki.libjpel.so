@@ -79,19 +79,42 @@ Plans
 -   My ZFS backup scripts need to be put under version control.
 -   The bash script I use to back up my Tweets could be improved (presently there are a lot of files produced with redundant information; it uses the shell script from [here](http://blog.jphpsf.com/2012/05/07/backing-up-your-twitter-account-with-t/).
 
-### To-Do Items to Make Maxwell A Fully-Managed Host
+### Planning: Tasks for Maxwell Rebuild
+
+#### Storage Tasks
+
+-   Back up home video DV footage currently on the root volume SSD to another disk. *DONE: 2/24/19, 23:25*
+-   Back up raw DV footage to blu-ray so that the spare 1 TB WD Blue you have can be re-appropriated.
+-   Invoke your ZFS backup script to send a snapshot to AWS. Invoke the ZFS backup script to save a snapshot to your nearline storage that contains as much data as the nearline storage can hold.
+-   Create a dummy dataset within the ZFS pool. Back it up to AWS and test a restore (b/c I don't think I've ever actually done this before /shudders)
+-   Take a full backup of the current state of your home directory to blu-ray (most likely using [dirsplit](https://linux.die.net/man/1/dirsplit)). Plan on doing this once a year. Secure the full backup-up somewhere in your apartment.
+-   At some point, make a second copy of the blu-ray backup and store it off-site at mom's house in Clinton, NY (or possibly rent a lock box there).
+-   The rationale for backing up to blu-ray is as follows:
+    -   It's a write-once medium, and most of my data doesn't really change.
+    -   It's cheap (although not as cheap as Glacier or Deep Glacier).
+    -   Most importantly, in the event that something happens to me, my next of kin (being much less technical than me) will be much more capable of dealing with a medium like blu-ray than dealing with AWS. Per this point, I'm also planning on just using a standard filesystem with no encryption or any other fancy features (such as snapshots); security will be enforced by encryption on a file by file basis for sensitive documents and physical lock and key.
+    -   If I want, I can also tier snapshots down from a spinny disk to blu ray for my nearline backup.
+-   ...
+
+#### Reprovisioning Tasks
+
+-   Download Proxmox and put it on a thumb drive.
+-   Completely hose the CentOS 7 install you have on maxwell and replace it with Proxmox.
+
+#### Making Maxwell a Managed Host
 
 -   Make an Ansible role for the ZFS backup scripts (these will need to run under Proxmox). Investigate if Proxmox has something better.
--   Make an Ansible role for the Twitter backups.
--   Make an Ansible role for the rclone backups.
--   Make an Ansible role for the gmvault backups.
--   Make Ansible roles for boinc and <folding@home>.
--   Back up home video DV footage currently on the root volume SSD to another disk. *DONE: 2/24/19, 23:25*
--   Invoke your ZFS backup script to send a snapshot to AWS. Invoke the ZFS backup script to save a snapshot to your nearline storage.
--   Create a CentOS 6 VM for BOINC and FAH. We want to use CentOS 6 because the FAH packages still need Python 2.6 (unless you modify them manually to use Python 2.7 in CentOS 7, which is a bit of a pain). Attach thumb drive to this VM and have it be the backing storage for at least the scratch storage used by BOINC. Give this VM access to GPUs and 8 vCPUs.
+-   --Make an Ansible role for the Twitter backups.-- (done [here](https://github.com/jpellman/ansible-twitter-backup); untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)
+-   --Make an Ansible role for the rclone backups.-- (done [here](https://github.com/jpellman/ansible-rclone); untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)
+-   --Make an Ansible role for the gmvault backups.-- (done [here](https://github.com/jpellman/ansible-gmvault); untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)
+-   Make Ansible roles for boinc and <folding@home> (can be done after Maxwell has been rebuilt)
+
+#### VM Creation
+
+-   Create a CentOS 6 VM for BOINC and FAH. We want to use CentOS 6 because the FAH packages still need Python 2.6 (unless you modify them manually to use Python 2.7 in CentOS 7, which is a bit of a pain). Attach thumb drive to this VM (possibly a silly RAID of thumb drives) and have it be the backing storage for at least the scratch storage used by BOINC. Why thumb drives? Because they're cheap and I don't want to wear down my spinny disks or SSDs with a bunch of scratch files. Give this VM access to GPUs and 8 vCPUs.
 -   Create a CentOS 7 VM for general file access / ZFS. Give it 2 vCPUs. This VM may also contain the Twitter CLI (possibly within an RVM environment), gmvault and all of the other internet presence / personal data backup cronjobs (I may make one of these for my reddit data using [PRAW](https://praw.readthedocs.io)).
 -   I may then experiment with a Docker VM and getting my Windows 10 installation to run as a VM. If I can get GPU passthrough working with a Docker VM, I may retire the CentOS 6 VM and replace it with a Docker container (or split FAH and BOINC into multiple containers).
--   I'm then going to replace the [MoinMoin](../MoinMoin) instance I've been running with [Monica](https://www.monicahq.com/).
+-   --I'm then going to replace the [MoinMoin](../MoinMoin) instance I've been running with [Monica](https://www.monicahq.com/).-- ( I actually don't think I care enough about this, but if I do, I'll revisit it. I barely use the Moinmoin instance as it is.)
 
 Other Wants
 -----------
