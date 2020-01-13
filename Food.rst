@@ -13,6 +13,8 @@ Recipes
 Oat Milk
 ~~~~~~~~
 
+* 1 cup oats
+
 * 4 cups water
 
 * 1/2 tsp guar gum
