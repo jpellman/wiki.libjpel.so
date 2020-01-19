@@ -3,6 +3,9 @@
 Notes on Backing Up My Hard Disk to Blu-Ray
 ===========================================
 
+Commands to Follow
+------------------
+
 To distribute files into more or less evenly sized buckets (as you would when having a backup span multiple disks:
 
 ::
@@ -27,6 +30,15 @@ Once an image is generated, copy it down to Bruno_ (or equivalent desktop/laptop
 
    scp jpellman@maxwell.so:$ISOPATH  .
 
+Timing
+------
+
+Here are some approximate benchmarks for how long the above steps take:
+
+[Table not converted]
+
+Speeds based off `this LG Blu-Ray Writer`_.
+
 -------------------------
 
   HomeLab_
@@ -36,6 +48,8 @@ Once an image is generated, copy it down to Bruno_ (or equivalent desktop/laptop
 .. _here: https://superuser.com/questions/597929/what-is-the-largest-file-i-can-write-to-a-dvd
 
 .. _Bruno: ../Bruno
+
+.. _this LG Blu-Ray Writer: https://smile.amazon.com/LG-Electronics-External-Optical-WP50NB40
 
 .. _HomeLab: ../HomeLab
 

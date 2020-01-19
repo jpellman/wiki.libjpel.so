@@ -3,6 +3,9 @@
 Notes on Backing Up My Hard Disk to Blu-Ray
 ===========================================
 
+Commands to Follow
+------------------
+
 To distribute files into more or less evenly sized buckets (as you would when having a backup span multiple disks:
 
     dirsplit -e4 -s 25025314816b $PATH_TO_DIR_TO_BACK_UP
@@ -18,6 +21,15 @@ And you can use the following to generate the actual image files. Note that this
 Once an image is generated, copy it down to [Bruno](../Bruno) (or equivalent desktop/laptop). Use `scp` to get a progress bar, and to eliminate some of the `rsync` overhead (not as necessary when there's only one file and file metadata doesn't matter).
 
     scp jpellman@maxwell.so:$ISOPATH  .
+
+Timing
+------
+
+Here are some approximate benchmarks for how long the above steps take:
+
+[Table not converted]
+
+Speeds based off [this LG Blu-Ray Writer](https://smile.amazon.com/LG-Electronics-External-Optical-WP50NB40).
 
 * * * * *
 
