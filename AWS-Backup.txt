@@ -22,6 +22,12 @@ Restoring a backup:
 aws s3 cp s3://<bucketname>/<filename>.zfs.gz.gpg - | gpg --no-use-agent --passphrase-file ./passphrase -d - | gunzip | sudo zfs receive <new dataset name>
 }}}
 
+The specific variant of the restore command that I use looks something like this:
+
+{{{
+aws s3 cp s3://jpellman-maxwell-backup-us-east-2/full-test.gz.gpg - | gpg --passphrase-file /root/.backup_pass --no-tty --batch -d - | gunzip | zfs receive pool0/test2
+}}}
+
 The initial encrypted, compressed snapshot (full backup) was created manually.
 
 The aws cli copy command includes the following flag to account for very large snapshots:
