@@ -137,9 +137,15 @@ Note: Encrypted snapshots are on external HD if this goes badly.
 2.  As root in screen session: Go to multi-user target with `systemctl isolate multi-user`, turn off BOINC, unmount */home/boinc* and */home*. Ensure that */home/jpellman* isn't being mounted on [Bruno](../Bruno) using sshfs.
 3.  Create a sparse file using the number of bytes provided by `fdisk -l`: `truncate -s 1000204886016 /root/raidz1_faux_drive.img`
 4.  Offline one of the drives in the ZFS mirror: `zpool offline pool0 ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z`
-5.  Zero out the disk that was offlined (normally you'd use `zpool partclear` but this is broken with the version of ZFS on Maxwell): `dd if=/dev/zero | pv | dd of=/dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z`
-6.  Create a new volume with the offline drive and the spare WD Blue you added: `zpool create datastore raidz1 /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z /dev/disk/by-id/ata-WDC_WD10EZEX-00WN4A0_WD-WCC6Y7AKHNY8`
-7.  Turn deduplication and compression on by default at the pool level.
+5.  Clear out the partition label for the offlined disk:
+
+<!-- -->
+
+    zpool export pool0
+    zpool labelclear -f /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z-part1
+
+1.  Create a new volume with the offline drive and the spare WD Blue you added: `zpool create datastore raidz1 /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z /dev/disk/by-id/ata-WDC_WD10EZEX-00WN4A0_WD-WCC6Y7AKHNY8`
+2.  Turn deduplication and compression on by default at the pool level.
 
 <!-- -->
 
@@ -156,9 +162,10 @@ Note: Encrypted snapshots are on external HD if this goes badly.
 
 <!-- -->
 
+    zpool import pool0
     zfs send -R pool0 | zfs receive datastore
-    zfs send -R pool0/home@200119 | zfs receive datastore/home
     zfs send -R pool0/apache@200119 | zfs receive datastore/apache
+    zfs send -R pool0/home@200119 | zfs receive datastore/home
 
 1.  Mount the new pool and verify that it looks right.
 
