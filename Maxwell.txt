@@ -143,7 +143,7 @@ Note: Encrypted snapshots are on external HD if this goes badly.
 {{{truncate -s 1000204886016 /root/raidz1_faux_drive.img}}}
 
 4.  Offline one of the drives in the ZFS mirror:
-{{{zfs offline pool0 ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z}}}
+{{{zpool offline pool0 ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z}}}
 
 5.  Create a new volume with the offline drive and the spare WD Blue you added:
 {{{ zfs create datastore raidz1 /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z /dev/disk/by-id/ata-WDC_WD10EZEX-00WN4A0_WD-WCC6Y7AKHNY8 }}}
@@ -156,7 +156,7 @@ zfs set dedup=on datastore
 
 7.  Offline the sparse image.
 {{{
-zfs offline datastore /root/raidz1_faux_drive.img
+zpool offline datastore /root/raidz1_faux_drive.img
 }}}
 
 8.  Transfer data from the old pool to the new pool.

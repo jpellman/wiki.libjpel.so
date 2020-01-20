@@ -136,7 +136,7 @@ Note: Encrypted snapshots are on external HD if this goes badly.
 1.  Disable user cronjobs for user *jpellman*.
 2.  As root in screen session: Go to multi-user target with `systemctl isolate multi-user`, turn off BOINC, unmount */home/boinc* and */home*. Ensure that */home/jpellman* isn't being mounted on [Bruno](../Bruno) using sshfs.
 3.  Create a sparse file using the number of bytes provided by `fdisk -l`: `truncate -s 1000204886016 /root/raidz1_faux_drive.img`
-4.  Offline one of the drives in the ZFS mirror: `zfs offline pool0 ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z`
+4.  Offline one of the drives in the ZFS mirror: `zpool offline pool0 ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z`
 5.  Create a new volume with the offline drive and the spare WD Blue you added: `zfs create datastore raidz1 /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z /dev/disk/by-id/ata-WDC_WD10EZEX-00WN4A0_WD-WCC6Y7AKHNY8`
 6.  Turn deduplication and compression on by default at the pool level.
 
@@ -149,7 +149,7 @@ Note: Encrypted snapshots are on external HD if this goes badly.
 
 <!-- -->
 
-    zfs offline datastore /root/raidz1_faux_drive.img
+    zpool offline datastore /root/raidz1_faux_drive.img
 
 1.  Transfer data from the old pool to the new pool.
 
