@@ -98,7 +98,7 @@ KVM is going to be managed via Proxmox in the future, as will ZFS on Linux (VMs 
    * It's cheap (although not as cheap as Glacier or Deep Glacier).
    * Most importantly, in the event that something happens to me, my next of kin (being much less technical than me) will be much more capable of dealing with a medium like blu-ray than dealing with AWS.  Per this point, I'm also planning on just using a standard filesystem with no encryption or any other fancy features (such as snapshots); security will be enforced by encryption on a file by file basis for sensitive documents and physical lock and key.
    * If I want, I can also tier snapshots down from a spinny disk to blu ray for my nearline backup.
- * Add the spare WD Blue into slot 3 of the Rosewill cage
+ * --(Add the spare WD Blue into slot 3 of the Rosewill cage)-- ''DONE: 1/19/20''
  * Evict one of the WD Blues from the ZFS mirror.
  * Create a RAIDZ1 volume from the two WD Blues that aren't in the mirror.  Enable deduplication and compression.  Use a sparse file for the third drive in the vdev (see [[https://superuser.com/questions/281832/start-a-zfs-raidz-zpool-with-two-discs-then-add-a-third|here]]).
  * Stream current mirrored pool data from the remaining mirror drive to the new RAIDZ1 volume with ''zfs send''.
@@ -140,6 +140,7 @@ KVM is going to be managed via Proxmox in the future, as will ZFS on Linux (VMs 
     * https://www.reddit.com/r/sysadmin/comments/x2jap/is_there_a_way_to_add_something_like_ipmi_to_a/
     * https://www.reddit.com/r/linuxadmin/comments/1d10wj/what_do_you_use_for_remote_server_consoles/
  * The 240 GB SSD isn't really being leveraged to its full potential.  I should maybe split this into 3 partitions, with one for the OS and two others for a ZIL and L2ARC for ZFS. Alternatively, I could use the 60 GB SSD as a ZIL/L2ARC cache, since I don't really care as much about it.  It could live in the 4th bay of the Rosewill hot-swap cage.
+   * '''As of 1/19/20''', the 60 GB SSD is now in the 4th Rosewill bay.
  * I'm very rapidly running out of disk space on my mirrored ZFS volume as I digitize items in my mom's house.  It probably would make the most sense to redo that as a RAIDZ1 volume using the third WD Blue I have lying around.
 
 == Photos ==

@@ -158,7 +158,7 @@ Storage Tasks
 
   * If I want, I can also tier snapshots down from a spinny disk to blu ray for my nearline backup.
 
-* Add the spare WD Blue into slot 3 of the Rosewill cage
+* :strike:`Add the spare WD Blue into slot 3 of the Rosewill cage` *DONE: 1/19/20*
 
 * Evict one of the WD Blues from the ZFS mirror.
 
@@ -225,6 +225,8 @@ Other Wants
   * https://www.reddit.com/r/linuxadmin/comments/1d10wj/what_do_you_use_for_remote_server_consoles/
 
 * The 240 GB SSD isn't really being leveraged to its full potential.  I should maybe split this into 3 partitions, with one for the OS and two others for a ZIL and L2ARC for ZFS. Alternatively, I could use the 60 GB SSD as a ZIL/L2ARC cache, since I don't really care as much about it.  It could live in the 4th bay of the Rosewill hot-swap cage.
+
+  * **As of 1/19/20**, the 60 GB SSD is now in the 4th Rosewill bay.
 
 * I'm very rapidly running out of disk space on my mirrored ZFS volume as I digitize items in my mom's house.  It probably would make the most sense to redo that as a RAIDZ1 volume using the third WD Blue I have lying around.
 
