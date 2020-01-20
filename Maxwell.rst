@@ -136,13 +136,15 @@ Storage Tasks
 
 * :strike:`Back up home video DV footage currently on the root volume SSD to another disk.` *DONE: 2/24/19, 23:25*
 
-* Back up raw DV footage to blu-ray so that the spare 1 TB WD Blue you have can be re-appropriated.
+* :strike:`Back up raw DV footage to blu-ray so that the spare 1 TB WD Blue you have can be re-appropriated.` *DONE: 1/18/20*
 
-* Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage that contains as much data as the nearline storage can hold.
+* :strike:`Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage that contains as much data as the nearline storage can hold.` *DONE: 1/19/20*
 
-* Create a dummy dataset within the ZFS pool.  Back it up to AWS and test a restore (b/c I don't think I've ever actually done this before /shudders)
+* :strike:`Create a dummy dataset within the ZFS pool.  Back it up to AWS and test a restore (b/c I don't think I've ever actually done this before /shudders)` *DONE: 1/19/20*
 
-* Take a full backup of the current state of your home directory to blu-ray (most likely using dirsplit_).  Plan on doing this once a year.  Secure the full backup-up somewhere in your apartment.  
+* Take a full backup of the current state of your home directory to blu-ray (most likely using dirsplit_).  Plan on doing this once a year.  Secure the full backup-up somewhere in your apartment.
+
+  * **Note from 1/19/20**: Due to the amount of time it takes to do this (see BluRayBackup_), I'm going to re-organize my data by hotness and coldness, and have different back up intervals depending on that, simply because I don't want to spend more than a day or two on this every year (current estimate for backup time is around 36 hours or about 5 work days).
 
 * At some point, make a second copy of the blu-ray backup and store it off-site at mom's house in Clinton, NY (or possibly rent a lock box there).
 
@@ -286,6 +288,8 @@ Photos
 .. _PowerShell: ../PowerShell
 
 .. _dirsplit: https://linux.die.net/man/1/dirsplit
+
+.. _BluRayBackup: ../BluRayBackup
 
 .. _PRAW: https://praw.readthedocs.io
 
