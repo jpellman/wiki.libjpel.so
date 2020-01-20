@@ -145,28 +145,31 @@ Note: Encrypted snapshots are on external HD if this goes badly.
 4.  Offline one of the drives in the ZFS mirror:
 {{{zpool offline pool0 ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z}}}
 
-5.  Create a new volume with the offline drive and the spare WD Blue you added:
-{{{ zfs create datastore raidz1 /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z /dev/disk/by-id/ata-WDC_WD10EZEX-00WN4A0_WD-WCC6Y7AKHNY8 }}}
+5.  Zero out the disk that was offlined (normally you'd use {{{zpool partclear }}} but this is broken with the version of ZFS on Maxwell):
+{{{ dd if=/dev/zero | pv | dd of=/dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z }}}
 
-6.  Turn deduplication and compression on by default at the pool level.
+6.  Create a new volume with the offline drive and the spare WD Blue you added:
+{{{ zpool create datastore raidz1 /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z /dev/disk/by-id/ata-WDC_WD10EZEX-00WN4A0_WD-WCC6Y7AKHNY8 }}}
+
+7.  Turn deduplication and compression on by default at the pool level.
 {{{ 
 zfs set compression=lz4 datastore
 zfs set dedup=on datastore
 }}}
 
-7.  Offline the sparse image.
+8.  Offline the sparse image.
 {{{
 zpool offline datastore /root/raidz1_faux_drive.img
 }}}
 
-8.  Transfer data from the old pool to the new pool.
+9.  Transfer data from the old pool to the new pool.
 {{{ 
 zfs send -R pool0 | zfs receive datastore
 zfs send -R pool0/home@200119 | zfs receive datastore/home 
 zfs send -R pool0/apache@200119 | zfs receive datastore/apache
 }}}
 
-9.  Mount the new pool and verify that it looks right.
+10.  Mount the new pool and verify that it looks right.
 {{{
 zfs get mountpoint datastore/home
 # Set it if not appearing above
@@ -174,10 +177,10 @@ zfs set mountpoint=/home datastore/home
 zfs mount datastore/home 
 }}}
 
-10.  Destroy the old pool.
+11.  Destroy the old pool.
 {{{ zpool destroy pool0 }}}
 
-11.  Add in the other disk.
+12.  Add in the other disk.
 {{{ zfs replace datastore /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y7ZT6K9C }}}
 
 
