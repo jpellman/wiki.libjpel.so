@@ -211,6 +211,55 @@ VM Creation
 
 * :strike:`I'm then going to replace the` MoinMoin_ :strike:`instance I've been running with` Monica_:strike:`.` (I actually don't think I care enough about this, but if I do, I'll revisit it.  I barely use the Moinmoin instance as it is.)
 
+Detailed Notes of ZFS Mirror to RAIDZ1 Transition
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Note: Encrypted snapshots are on external HD if this goes badly.
+
+1.  Disable user cronjobs for user *jpellman*.
+
+2.  As root in screen session: Go to multi-user target with ``systemctl isolate multi-user``, turn off BOINC, unmount */home/boinc* and */home*.  Ensure that */home/jpellman* isn't being mounted on Bruno_ using sshfs.
+
+3.  Create a sparse file using the number of bytes provided by ``fdisk -l``: ``truncate -s 1000204886016 /root/raidz1_faux_drive.img``
+
+4.  Offline one of the drives in the ZFS mirror: ``zfs offline pool0 ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z``
+
+5.  Create a new volume with the offline drive and the spare WD Blue you added:  ``zfs create datastore raidz1 /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z /dev/disk/by-id/ata-WDC_WD10EZEX-00WN4A0_WD-WCC6Y7AKHNY8`` 
+
+6.  Turn deduplication and compression on by default at the pool level.
+
+::
+
+   zfs set compression=lz4 datastore
+   zfs set dedup=on datastore
+
+7.  Offline the sparse image.
+
+::
+
+   zfs offline datastore /root/raidz1_faux_drive.img
+
+8.  Transfer data from the old pool to the new pool.
+
+::
+
+   zfs send -R pool0 | zfs receive datastore
+   zfs send -R pool0/home@200119 | zfs receive datastore/home
+   zfs send -R pool0/apache@200119 | zfs receive datastore/apache
+
+9.  Mount the new pool and verify that it looks right.
+
+::
+
+   zfs get mountpoint datastore/home
+   # Set it if not appearing above
+   zfs set mountpoint=/home datastore/home
+   zfs mount datastore/home
+
+10.  Destroy the old pool.  ``zpool destroy pool0`` 
+
+11.  Add in the other disk.  ``zfs replace datastore /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y7ZT6K9C`` 
+
 Other Wants
 -----------
 
@@ -296,6 +345,8 @@ Photos
 .. _PRAW: https://praw.readthedocs.io
 
 .. _Monica: https://www.monicahq.com/
+
+.. _Bruno: ../Bruno
 
 .. _diy-ipmi: https://github.com/Fmstrat/diy-ipmi
 
