@@ -168,7 +168,6 @@ zpool offline datastore /root/raidz1_faux_drive.img
 9.  Transfer data from the old pool to the new pool.
 {{{ 
 zpool import pool0
-zfs send -R pool0 | zfs receive datastore
 zfs send -R pool0/apache@200119 | zfs receive datastore/apache
 zfs send -R pool0/home@200119 | zfs receive datastore/home 
 }}}
@@ -185,7 +184,7 @@ zfs mount datastore/home
 {{{ zpool destroy pool0 }}}
 
 12.  Add in the other disk.
-{{{ zfs replace datastore /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y7ZT6K9C }}}
+{{{ zpool replace datastore /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y7ZT6K9C }}}
 
 
 == Other Wants ==

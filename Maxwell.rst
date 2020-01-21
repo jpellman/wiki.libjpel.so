@@ -251,7 +251,6 @@ Note: Encrypted snapshots are on external HD if this goes badly.
 ::
 
    zpool import pool0
-   zfs send -R pool0 | zfs receive datastore
    zfs send -R pool0/apache@200119 | zfs receive datastore/apache
    zfs send -R pool0/home@200119 | zfs receive datastore/home
 
@@ -266,7 +265,7 @@ Note: Encrypted snapshots are on external HD if this goes badly.
 
 11.  Destroy the old pool.  ``zpool destroy pool0`` 
 
-12.  Add in the other disk.  ``zfs replace datastore /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y7ZT6K9C`` 
+12.  Add in the other disk.  ``zpool replace datastore /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y7ZT6K9C`` 
 
 Other Wants
 -----------
