@@ -81,6 +81,11 @@ ImageJ
 
 * https://forum.image.sc/t/does-imagej-utilize-the-gpu/10333
 
+ITK
+~~~
+
+* https://discourse.itk.org/t/status-of-itk-gpu/277/8
+
 Misc
 ~~~~
 
