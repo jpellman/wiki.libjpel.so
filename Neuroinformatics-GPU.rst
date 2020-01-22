@@ -86,6 +86,8 @@ ITK
 
 * https://discourse.itk.org/t/status-of-itk-gpu/277/8
 
+* https://itk.org/Wiki/ITK/Release_4/GPU_Acceleration
+
 Misc
 ~~~~
 
