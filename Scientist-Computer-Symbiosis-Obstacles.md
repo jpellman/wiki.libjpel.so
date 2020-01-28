@@ -36,7 +36,7 @@ I address the above problems in more depth in the following pages:
 
 1.  [Packaging](../Packaging)
 2.  [Metascience](../Metascience)
-3.  TODO - probable sub-page of [OpenScience](../OpenScience)
+3.  TODO - probable sub-page of [OpenScience](../OpenScience). Relevant articles: [here](https://dl.acm.org/doi/pdf/10.1145/3366623.3368140?download=true)
 4.  TODO - [CWLMake](../CWLMake) might be adapted for this.
 5.  [ASICs](../ASICs)
 

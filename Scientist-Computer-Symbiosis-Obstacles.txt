@@ -33,7 +33,7 @@ I address the above problems in more depth in the following pages:
 
  1. [[Packaging]]
  1. [[Metascience]]
- 1. TODO - probable sub-page of [[OpenScience]]
+ 1. TODO - probable sub-page of [[OpenScience]].  Relevant articles: [[https://dl.acm.org/doi/pdf/10.1145/3366623.3368140?download=true|here]]
  1. TODO - [[CWLMake]] might be adapted for this.
  1. [[ASICs]]
 
