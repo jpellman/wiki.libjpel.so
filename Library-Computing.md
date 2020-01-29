@@ -46,6 +46,7 @@ Miscellaneous Reading
 
 -   <http://www.dlib.org/dlib/october00/granger/10granger.html>
 -   [Cites and Insights](https://citesandinsights.info/) - Articles by Walt Crawford
+-   [How Academic Science Gave Its Soul to the Publishing Industry](https://issues.org/how-academic-science-gave-its-soul-to-the-publishing-industry/)
 
 * * * * *
 
