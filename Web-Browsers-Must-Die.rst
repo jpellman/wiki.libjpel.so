@@ -17,6 +17,10 @@ I want to go back to simpler days, and so I'm trying to figure out what tools an
 
 * cmdg_ for Gmail (since I think that Gmail labels have value over vanilla, standard e-mail).  Maybe aerc_ would work too.
 
+  * mutt apparently has some support for Gmail labels: here_ and `here <https://developers.google.com/gmail/imap/imap-extensions#access_to_gmail_labels_x-gm-labels>`__
+
+  * Other concerns about mutt w/ gmail: `here <https://spin.atomicobject.com/2014/02/11/connect-mutt-gmail/>`__ 
+
 * `MPS Youtube`_ to replace YouTube_.  I'm sick of being distracted by recommended videos trying to convince me of some nonsense or that contain some BuzzFeed_-style listicle in video form.
 
 * Finch_ for online chat.
@@ -48,6 +52,8 @@ I want to go back to simpler days, and so I'm trying to figure out what tools an
 .. _cmdg: https://github.com/ThomasHabets/cmdg
 
 .. _aerc: https://aerc-mail.org/
+
+.. _here: https://stackoverflow.com/questions/23721726/how-to-display-gmail-labels-in-mutt
 
 .. _MPS Youtube: https://github.com/mps-youtube/mps-youtube
 
