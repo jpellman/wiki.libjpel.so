@@ -76,6 +76,8 @@ ISOI
 
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5466092/
 
+* https://doi.org/10.1007/s00701-019-04132-8
+
 .. ############################################################################
 
 .. _`Connectome Networks: From Cells to Systems`: https://www.ncbi.nlm.nih.gov/books/NBK435773/
