@@ -52,3 +52,10 @@ MEG
 
 fNIRS
 -----
+
+ISOI
+----
+
+-   <https://www.photometrics.com/wp-content/uploads/2019/10/Intrinsic-Signal-Optical-Imaging-AppNote.pdf>
+-   <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5466092/>
+
