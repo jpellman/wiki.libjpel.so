@@ -17,5 +17,6 @@ Interesting starting points:
 -   [CognitiveScience](../CognitiveScience)
 -   [OpenScience](../OpenScience)
 -   [Hobbies](../Hobbies)
+-   [Work](../Work)
 
 This wiki is powered by [MoinMoin](http://moinmo.in/).

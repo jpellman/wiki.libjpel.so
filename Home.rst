@@ -31,6 +31,8 @@ Interesting starting points:
 
 * Hobbies_
 
+* Work_
+
 .. * WikiSandBox: feel free to change this page and experiment with editing
 
 .. * FindPage: find some content, explore the wiki
@@ -76,6 +78,8 @@ This wiki is powered by MoinMoin_.
 .. _OpenScience: ../OpenScience
 
 .. _Hobbies: ../Hobbies
+
+.. _Work: ../Work
 
 .. _MoinMoin: http://moinmo.in/
 
