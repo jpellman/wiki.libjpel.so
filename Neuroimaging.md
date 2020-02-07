@@ -59,4 +59,5 @@ ISOI
 -   <https://www.photometrics.com/wp-content/uploads/2019/10/Intrinsic-Signal-Optical-Imaging-AppNote.pdf>
 -   <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5466092/>
 -   <https://doi.org/10.1007/s00701-019-04132-8>
+-   <https://doi.org/10.1016/j.jneumeth.2004.02.025>
 
