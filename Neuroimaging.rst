@@ -80,6 +80,8 @@ ISOI
 
 * https://doi.org/10.1016/j.jneumeth.2004.02.025
 
+* https://blog.arduino.cc/2015/11/16/a-low-cost-approach-to-intrinsic-optical-signal/
+
 .. ############################################################################
 
 .. _`Connectome Networks: From Cells to Systems`: https://www.ncbi.nlm.nih.gov/books/NBK435773/

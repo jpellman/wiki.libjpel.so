@@ -60,4 +60,5 @@ ISOI
 -   <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5466092/>
 -   <https://doi.org/10.1007/s00701-019-04132-8>
 -   <https://doi.org/10.1016/j.jneumeth.2004.02.025>
+-   <https://blog.arduino.cc/2015/11/16/a-low-cost-approach-to-intrinsic-optical-signal/>
 
