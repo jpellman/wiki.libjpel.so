@@ -10,9 +10,7 @@ General
 
 * `Connectome Networks: From Cells to Systems`_ - offers a taxonomy for the scales of imaging.  At a glance (I haven't really read it yet as of 1/7/19), it looks like you could combine different factors at different levels of analysis as part of a useful nested hierarchical schema (e.g., microscale neurovascular coupling and microscale action potentials are components of macroscale fMRI and EEG readings).
 
-* [[https://arxiv.org/pdf/1602.02225.pdf|Functional Brain Imaging: A Comprehensive
-
-Survey]]
+* `Functional Brain Imaging: A Comprehensive Survey`_
 
 fMRI
 ----
@@ -95,6 +93,8 @@ ISOI
 .. ############################################################################
 
 .. _`Connectome Networks: From Cells to Systems`: https://www.ncbi.nlm.nih.gov/books/NBK435773/
+
+.. _`Functional Brain Imaging: A Comprehensive Survey`: https://arxiv.org/pdf/1602.02225.pdf
 
 .. _On the Definition of Signal-To-Noise Ratio and Contrast-To-Noise Ratio for fMRI Data: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0077089
 
