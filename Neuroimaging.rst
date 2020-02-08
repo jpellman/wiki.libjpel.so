@@ -10,6 +10,10 @@ General
 
 * `Connectome Networks: From Cells to Systems`_ - offers a taxonomy for the scales of imaging.  At a glance (I haven't really read it yet as of 1/7/19), it looks like you could combine different factors at different levels of analysis as part of a useful nested hierarchical schema (e.g., microscale neurovascular coupling and microscale action potentials are components of macroscale fMRI and EEG readings).
 
+* [[https://arxiv.org/pdf/1602.02225.pdf|Functional Brain Imaging: A Comprehensive
+
+Survey]]
+
 fMRI
 ----
 
@@ -52,6 +56,8 @@ General Courses
 ~~~~~~~~~~~~~~~
 
 * `Chris Rorden's Course at GA Tech`_
+
+* `Overview of Functional Magnetic Resonance Imaging`_
 
 Stats on MR Usage
 ~~~~~~~~~~~~~~~~~
@@ -109,6 +115,8 @@ ISOI
 .. _UK Biobank: http://www.ukbiobank.ac.uk/imaging-data/
 
 .. _Chris Rorden's Course at GA Tech: https://web.archive.org/web/20110816023612/http://www.cabiatl.com/CABI/resources/Course/
+
+.. _Overview of Functional Magnetic Resonance Imaging: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3073717/
 
 .. _`Spatial and temporal resolutions of EEG: Is it really black and white? A scalp current density view`: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4548479
 
