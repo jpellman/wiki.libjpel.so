@@ -7,7 +7,6 @@ General
 -------
 
 -   [Connectome Networks: From Cells to Systems](https://www.ncbi.nlm.nih.gov/books/NBK435773/) - offers a taxonomy for the scales of imaging. At a glance (I haven't really read it yet as of 1/7/19), it looks like you could combine different factors at different levels of analysis as part of a useful nested hierarchical schema (e.g., microscale neurovascular coupling and microscale action potentials are components of macroscale fMRI and EEG readings).
--   [Size and shape matter: The impact of voxel geometry on the identification of small nuclei](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215382)
 
 fMRI
 ----
@@ -15,6 +14,7 @@ fMRI
 ### Image Quality
 
 -   [On the Definition of Signal-To-Noise Ratio and Contrast-To-Noise Ratio for fMRI Data](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0077089)
+-   [Size and shape matter: The impact of voxel geometry on the identification of small nuclei](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215382)
 
 ### Task-related
 
