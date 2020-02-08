@@ -66,4 +66,5 @@ ISOI
 -   <https://doi.org/10.1007/s00701-019-04132-8>
 -   <https://doi.org/10.1016/j.jneumeth.2004.02.025>
 -   <https://blog.arduino.cc/2015/11/16/a-low-cost-approach-to-intrinsic-optical-signal/>
+-   [In Vivo Optical Imaging of Brain Function, 2nd edition](https://www.ncbi.nlm.nih.gov/books/NBK20234/)
 

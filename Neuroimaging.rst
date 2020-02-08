@@ -90,6 +90,8 @@ ISOI
 
 * https://blog.arduino.cc/2015/11/16/a-low-cost-approach-to-intrinsic-optical-signal/
 
+* `In Vivo Optical Imaging of Brain Function, 2nd edition`_
+
 .. ############################################################################
 
 .. _`Connectome Networks: From Cells to Systems`: https://www.ncbi.nlm.nih.gov/books/NBK435773/
@@ -119,4 +121,6 @@ ISOI
 .. _Overview of Functional Magnetic Resonance Imaging: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3073717/
 
 .. _`Spatial and temporal resolutions of EEG: Is it really black and white? A scalp current density view`: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4548479
+
+.. _In Vivo Optical Imaging of Brain Function, 2nd edition: https://www.ncbi.nlm.nih.gov/books/NBK20234/
 
