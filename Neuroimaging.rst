@@ -65,6 +65,8 @@ Stats on MR Usage
 EEG
 ---
 
+* `Spatial and temporal resolutions of EEG: Is it really black and white? A scalp current density view`_
+
 MEG
 ---
 
@@ -107,4 +109,6 @@ ISOI
 .. _UK Biobank: http://www.ukbiobank.ac.uk/imaging-data/
 
 .. _Chris Rorden's Course at GA Tech: https://web.archive.org/web/20110816023612/http://www.cabiatl.com/CABI/resources/Course/
+
+.. _`Spatial and temporal resolutions of EEG: Is it really black and white? A scalp current density view`: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4548479
 

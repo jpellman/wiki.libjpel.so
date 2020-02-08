@@ -48,6 +48,8 @@ fMRI
 EEG
 ---
 
+-   [Spatial and temporal resolutions of EEG: Is it really black and white? A scalp current density view](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4548479)
+
 MEG
 ---
 
