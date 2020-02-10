@@ -160,15 +160,15 @@ Storage Tasks
 
 * :strike:`Add the spare WD Blue into slot 3 of the Rosewill cage` *DONE: 1/19/20*
 
-* Evict one of the WD Blues from the ZFS mirror.
+* :strike:`Evict one of the WD Blues from the ZFS mirror.` *DONE: 1/19/20*
 
-* Create a RAIDZ1 volume from the two WD Blues that aren't in the mirror.  Enable deduplication and compression.  Use a sparse file for the third drive in the vdev (see `here <https://superuser.com/questions/281832/start-a-zfs-raidz-zpool-with-two-discs-then-add-a-third>`__).
+* :strike:`Create a RAIDZ1 volume from the two WD Blues that aren't in the mirror.  Enable deduplication and compression.  Use a sparse file for the third drive in the vdev (see` `here <https://superuser.com/questions/281832/start-a-zfs-raidz-zpool-with-two-discs-then-add-a-third>`__:strike:`).` *DONE: 1/19/20*
 
-* Stream current mirrored pool data from the remaining mirror drive to the new RAIDZ1 volume with *zfs send*.
+* :strike:`Stream current mirrored pool data from the remaining mirror drive to the new RAIDZ1 volume with` *zfs send*:strike:`.` *DONE: 1/19/20*
 
-* Destroy the mirror / remove the final drive from the mirror.
+* :strike:`Destroy the mirror / remove the final drive from the mirror.` *DONE: 1/19/20*
 
-* Add the final drive as a third disk to the RAIDZ1 vdev and wait for parity data to be redistributed.
+* :strike:`Add the final drive as a third disk to the RAIDZ1 vdev and wait for parity data to be redistributed.` *DONE: 1/21/20*
 
 * At some point (possibly before this migration), delete all the snapshots that currently exist.
 

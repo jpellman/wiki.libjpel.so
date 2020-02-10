@@ -99,11 +99,11 @@ KVM is going to be managed via Proxmox in the future, as will ZFS on Linux (VMs 
    * Most importantly, in the event that something happens to me, my next of kin (being much less technical than me) will be much more capable of dealing with a medium like blu-ray than dealing with AWS.  Per this point, I'm also planning on just using a standard filesystem with no encryption or any other fancy features (such as snapshots); security will be enforced by encryption on a file by file basis for sensitive documents and physical lock and key.
    * If I want, I can also tier snapshots down from a spinny disk to blu ray for my nearline backup.
  * --(Add the spare WD Blue into slot 3 of the Rosewill cage)-- ''DONE: 1/19/20''
- * Evict one of the WD Blues from the ZFS mirror.
- * Create a RAIDZ1 volume from the two WD Blues that aren't in the mirror.  Enable deduplication and compression.  Use a sparse file for the third drive in the vdev (see [[https://superuser.com/questions/281832/start-a-zfs-raidz-zpool-with-two-discs-then-add-a-third|here]]).
- * Stream current mirrored pool data from the remaining mirror drive to the new RAIDZ1 volume with ''zfs send''.
- * Destroy the mirror / remove the final drive from the mirror.
- * Add the final drive as a third disk to the RAIDZ1 vdev and wait for parity data to be redistributed.
+ * --(Evict one of the WD Blues from the ZFS mirror.)-- ''DONE: 1/19/20''
+ * --(Create a RAIDZ1 volume from the two WD Blues that aren't in the mirror.  Enable deduplication and compression.  Use a sparse file for the third drive in the vdev (see [[https://superuser.com/questions/281832/start-a-zfs-raidz-zpool-with-two-discs-then-add-a-third|here]]).)-- ''DONE: 1/19/20''
+ * --(Stream current mirrored pool data from the remaining mirror drive to the new RAIDZ1 volume with ''zfs send''.)-- ''DONE: 1/19/20''
+ * --(Destroy the mirror / remove the final drive from the mirror.)-- ''DONE: 1/19/20''
+ * --(Add the final drive as a third disk to the RAIDZ1 vdev and wait for parity data to be redistributed.)-- ''DONE: 1/21/20''
  * At some point (possibly before this migration), delete all the snapshots that currently exist.
  * On the new RAIDZ1 vdev, refactor the pool so that data is organized somewhat logically (i.e., a dataset for digitized files from my mom's house, a dataset for music, a dataset for cloud/gmail backups, a dataset for my audio diaries, a dataset for photos, etc).  Separating my files into separate datasets makes restores slightly easier, since I can start with the full backup for whichever logical division I want first and ignore the others as necessary (i.e., if my workstation has been nabbed, I'd like to be able to prioritize the restoration of certain data over other data; tax data > Star Wars Holiday Special)
  * Adjust current setup as necessary to accommodate these changes.
