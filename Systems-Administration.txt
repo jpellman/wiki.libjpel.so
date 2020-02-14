@@ -181,7 +181,7 @@ An article on the RAID "write-hole", which seems to be especially salient for RA
 
 == Containerization ==
 
- * [[https://thenewstack.io/kubernetes-an-overview/| Kubernetes: An Overview]
+ * [[https://thenewstack.io/kubernetes-an-overview/| Kubernetes: An Overview]]
  * [[https://www.amazon.com/Docker-Data-Science-Extensible-Infrastructure/dp/1484230116|Docker for Data Science]]
  * [[https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md|Docker Security Cheat Sheet]]
 

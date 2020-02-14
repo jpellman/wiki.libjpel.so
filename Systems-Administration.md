@@ -186,7 +186,7 @@ Virtualization
 Containerization
 ----------------
 
--   [[<https://thenewstack.io/kubernetes-an-overview/>| Kubernetes: An Overview]
+-   [Kubernetes: An Overview](https://thenewstack.io/kubernetes-an-overview/)
 -   [Docker for Data Science](https://www.amazon.com/Docker-Data-Science-Extensible-Infrastructure/dp/1484230116)
 -   [Docker Security Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md)
 

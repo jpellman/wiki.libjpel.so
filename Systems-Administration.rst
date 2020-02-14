@@ -288,7 +288,7 @@ Virtualization
 Containerization
 ----------------
 
-* [[https://thenewstack.io/kubernetes-an-overview/| Kubernetes: An Overview]
+* `Kubernetes: An Overview`_
 
 * `Docker for Data Science`_
 
@@ -450,6 +450,8 @@ Tools
 .. _Xen Networking: https://wiki.xenproject.org/wiki/Xen_Networking
 
 .. _Importing an OVA into KVM: https://wiki.hackzine.org/sysadmin/kvm-import-ova.html
+
+.. _`Kubernetes: An Overview`: https://thenewstack.io/kubernetes-an-overview/
 
 .. _Docker for Data Science: https://www.amazon.com/Docker-Data-Science-Extensible-Infrastructure/dp/1484230116
 
