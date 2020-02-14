@@ -57,6 +57,8 @@ Scripting Languages
 -   -   [Common Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls)
 -   [Writing Robust Shell Scripts](http://www.davidpashley.com/articles/writing-robust-shell-scripts/)
 -   [CommandlineFu](http://commandlinefu.com/)
+-   [Good summary of redirection / control operators](https://unix.stackexchange.com/a/159514)
+-   [Where I learned that Here strings need to have quotes around the word to be interpreted as string literals](https://en.wikipedia.org/wiki/Here_document#Here_strings)
 
 ### Regular Expressions
 
@@ -172,6 +174,7 @@ Applications
 
 -   <http://philip.greenspun.com/sql/>
 -   [What an in-memory database is and how it persists data efficiently](https://medium.com/@denisanikin/what-an-in-memory-database-is-and-how-it-persists-data-efficiently-f43868cff4c1)
+-   [What are pros and cons of PostgreSQL and MySQL? With respect to reliability, speed, scalability, and features.](https://www.quora.com/What-are-pros-and-cons-of-PostgreSQL-and-MySQL-With-respect-to-reliability-speed-scalability-and-features)
 
 Virtualization
 --------------
@@ -179,6 +182,13 @@ Virtualization
 -   Apparently KVM and Virtualbox are incompatible / can't be run simultaneously. See [here](http://www.dedoimedo.com/computers/kvm-virtualbox.html) for an idea on how to handle that (or just don't do that at all because it doesn't make too much sense to begin with- quoth the older and wiser me).
 -   [Xen Networking](https://wiki.xenproject.org/wiki/Xen_Networking)
 -   [Importing an OVA into KVM](https://wiki.hackzine.org/sysadmin/kvm-import-ova.html)
+
+Containerization
+----------------
+
+-   [[<https://thenewstack.io/kubernetes-an-overview/>| Kubernetes: An Overview]
+-   [Docker for Data Science](https://www.amazon.com/Docker-Data-Science-Extensible-Infrastructure/dp/1484230116)
+-   [Docker Security Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md)
 
 Cloud Computing
 ---------------

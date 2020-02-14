@@ -102,6 +102,10 @@ Bash
 
 * CommandlineFu_
 
+* `Good summary of redirection / control operators`_
+
+* `Where I learned that Here strings need to have quotes around the word to be interpreted as string literals`_
+
 Regular Expressions
 ~~~~~~~~~~~~~~~~~~~
 
@@ -270,6 +274,8 @@ Databases
 
 * `What an in-memory database is and how it persists data efficiently`_
 
+* `What are pros and cons of PostgreSQL and MySQL? With respect to reliability, speed, scalability, and features.`_
+
 Virtualization
 --------------
 
@@ -278,6 +284,15 @@ Virtualization
 * `Xen Networking`_
 
 * `Importing an OVA into KVM`_
+
+Containerization
+----------------
+
+* [[https://thenewstack.io/kubernetes-an-overview/| Kubernetes: An Overview]
+
+* `Docker for Data Science`_
+
+* `Docker Security Cheat Sheet`_
 
 Cloud Computing
 ---------------
@@ -343,6 +358,10 @@ Tools
 .. _Writing Robust Shell Scripts: http://www.davidpashley.com/articles/writing-robust-shell-scripts/
 
 .. _CommandlineFu: http://commandlinefu.com/
+
+.. _Good summary of redirection / control operators: https://unix.stackexchange.com/a/159514
+
+.. _Where I learned that Here strings need to have quotes around the word to be interpreted as string literals: https://en.wikipedia.org/wiki/Here_document#Here_strings
 
 .. _RegEx Golf: https://regex.alf.nu/
 
@@ -424,11 +443,17 @@ Tools
 
 .. _What an in-memory database is and how it persists data efficiently: https://medium.com/@denisanikin/what-an-in-memory-database-is-and-how-it-persists-data-efficiently-f43868cff4c1
 
+.. _What are pros and cons of PostgreSQL and MySQL? With respect to reliability, speed, scalability, and features.: https://www.quora.com/What-are-pros-and-cons-of-PostgreSQL-and-MySQL-With-respect-to-reliability-speed-scalability-and-features
+
 .. _here: http://www.dedoimedo.com/computers/kvm-virtualbox.html
 
 .. _Xen Networking: https://wiki.xenproject.org/wiki/Xen_Networking
 
 .. _Importing an OVA into KVM: https://wiki.hackzine.org/sysadmin/kvm-import-ova.html
+
+.. _Docker for Data Science: https://www.amazon.com/Docker-Data-Science-Extensible-Infrastructure/dp/1484230116
+
+.. _Docker Security Cheat Sheet: https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md
 
 .. _MultiPart: ../MultiPart
 

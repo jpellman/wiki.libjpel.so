@@ -59,6 +59,8 @@ This page stores both generic notes, as well as additional pages and categories 
  * [[http://mywiki.wooledge.org/BashPitfalls | Common Bash Pitfalls]]
  * [[http://www.davidpashley.com/articles/writing-robust-shell-scripts/ | Writing Robust Shell Scripts]]
  * [[http://commandlinefu.com/ | CommandlineFu]]
+ * [[https://unix.stackexchange.com/a/159514| Good summary of redirection / control operators ]]
+ * [[https://en.wikipedia.org/wiki/Here_document#Here_strings| Where I learned that Here strings need to have quotes around the word to be interpreted as string literals]]
 
 === Regular Expressions ===
 
@@ -169,12 +171,19 @@ An article on the RAID "write-hole", which seems to be especially salient for RA
 
  * http://philip.greenspun.com/sql/
  * [[ https://medium.com/@denisanikin/what-an-in-memory-database-is-and-how-it-persists-data-efficiently-f43868cff4c1| What an in-memory database is and how it persists data efficiently ]]
+ * [[https://www.quora.com/What-are-pros-and-cons-of-PostgreSQL-and-MySQL-With-respect-to-reliability-speed-scalability-and-features|What are pros and cons of PostgreSQL and MySQL? With respect to reliability, speed, scalability, and features.]]
 
 == Virtualization ==
 
  * Apparently KVM and Virtualbox are incompatible / can't be run simultaneously.  See [[ http://www.dedoimedo.com/computers/kvm-virtualbox.html | here ]] for an idea on how to handle that (or just don't do that at all because it doesn't make too much sense to begin with- quoth the older and wiser me).
  * [[https://wiki.xenproject.org/wiki/Xen_Networking|Xen Networking]]
  * [[https://wiki.hackzine.org/sysadmin/kvm-import-ova.html|Importing an OVA into KVM]]
+
+== Containerization ==
+
+ * [[https://thenewstack.io/kubernetes-an-overview/| Kubernetes: An Overview]
+ * [[https://www.amazon.com/Docker-Data-Science-Extensible-Infrastructure/dp/1484230116|Docker for Data Science]]
+ * [[https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md|Docker Security Cheat Sheet]]
 
 == Cloud Computing ==
 
