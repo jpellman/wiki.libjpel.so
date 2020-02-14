@@ -95,6 +95,11 @@ Shitty
 
 * Johnny Bootlegger
 
+Ingredients
+-----------
+
+* https://cooking.stackexchange.com/questions/6619/are-there-any-vegetarian-applications-for-transglutaminase-meat-glue
+
 -------------------------
 
  Hobbies_

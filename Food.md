@@ -64,6 +64,11 @@ I'm a big fan of the following kinds of tea:
 -   [Wiśniówka](https://en.wikipedia.org/wiki/Wi%C5%9Bni%C3%B3wka_(liqueur))
 -   Johnny Bootlegger
 
+Ingredients
+-----------
+
+-   <https://cooking.stackexchange.com/questions/6619/are-there-any-vegetarian-applications-for-transglutaminase-meat-glue>
+
 * * * * *
 
 > [Hobbies](../Hobbies)
