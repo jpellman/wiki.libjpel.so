@@ -12,6 +12,10 @@ General
 
 * `Functional Brain Imaging: A Comprehensive Survey`_
 
+* `A Comparative Analysis of Registration Tools: Traditional vs Deep Learning Approach on High Resolution Tissue Cleared Data`_
+
+* `Performance of Image Registration Tools on High-Resolution 3D Brain Images`_
+
 fMRI
 ----
 
@@ -97,6 +101,10 @@ ISOI
 .. _`Connectome Networks: From Cells to Systems`: https://www.ncbi.nlm.nih.gov/books/NBK435773/
 
 .. _`Functional Brain Imaging: A Comprehensive Survey`: https://arxiv.org/pdf/1602.02225.pdf
+
+.. _`A Comparative Analysis of Registration Tools: Traditional vs Deep Learning Approach on High Resolution Tissue Cleared Data`: https://arxiv.org/pdf/1810.08315.pdf
+
+.. _Performance of Image Registration Tools on High-Resolution 3D Brain Images: https://arxiv.org/pdf/1807.04917.pdf
 
 .. _On the Definition of Signal-To-Noise Ratio and Contrast-To-Noise Ratio for fMRI Data: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0077089
 
