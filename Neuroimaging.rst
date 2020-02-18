@@ -70,6 +70,11 @@ Stats on MR Usage
 
 * https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2016/08/Provisional-Monthly-Diagnostic-Imaging-Dataset-Statistics-2017-05-18.pdf
 
+File Formats
+~~~~~~~~~~~~
+
+* Just as an errant thought, the file format used to store most MRI images (NifTI) is very similar to DV, in the sense that each frame is its own distinct bitmap(?) image.  Unlike DV, no compression is applied to individual frames in NifTI (as far as I know).  Compression is usually accomplished by gzipping an entire raw NifTI file, but I doubt that this provides an optimal compression ratio- in MPEG compression schemes the previous frame informs what the next frame will look like (`motion compensation`_).  It seems like something similar could be used for 3d volumetric scans.  Why not encode each slice with a lossless video compression algo?
+
 EEG
 ---
 
@@ -127,6 +132,8 @@ ISOI
 .. _Chris Rorden's Course at GA Tech: https://web.archive.org/web/20110816023612/http://www.cabiatl.com/CABI/resources/Course/
 
 .. _Overview of Functional Magnetic Resonance Imaging: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3073717/
+
+.. _motion compensation: https://en.wikipedia.org/wiki/Motion_compensation
 
 .. _`Spatial and temporal resolutions of EEG: Is it really black and white? A scalp current density view`: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4548479
 
