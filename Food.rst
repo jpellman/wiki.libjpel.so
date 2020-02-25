@@ -40,8 +40,6 @@ General Tso's Textured Vegetable Protein (TVP)
 
 * 1/2 cup boiling water
 
-* 1 egg (optional)
-
 Beverages
 ---------
 

@@ -26,7 +26,6 @@ Soak 1 cup oats in disposable water for 15 minutes. Drain out disposable water. 
 -   1 1/3 Tbsp [General Tso's seasoning packet](https://smile.amazon.com/Sunbird-General-Chicken-Seasoning-Packet/dp/B00HVS31DC?sa-no-redirect=1)
 -   2 Tbsp soy sauce (or perhaps worcestershire sauce)
 -   1/2 cup boiling water
--   1 egg (optional)
 
 Beverages
 ---------
