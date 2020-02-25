@@ -11,9 +11,10 @@ A page where I keep my favorite recipes, and more broadly thoughts about food.
 
  * 1 cup oats
  * 4 cups water
- * 1/2 tsp guar gum
- * 2 tsp Calcium Carbonate
- * 3 Tbsp date syrup or 2 Tbsp molasses or 5g of sugar
+ * 1/4 tsp guar gum
+ * 1/4 tsp Calcium Carbonate (should be around 1250mg Calcium)
+ * 1 tsp sugar
+ * 1/4 tsp salt
 
 === General Tso's Textured Vegetable Protein (TVP) ===
   

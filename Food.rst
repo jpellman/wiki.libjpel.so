@@ -17,11 +17,13 @@ Oat Milk
 
 * 4 cups water
 
-* 1/2 tsp guar gum
+* 1/4 tsp guar gum
 
-* 2 tsp Calcium Carbonate
+* 1/4 tsp Calcium Carbonate (should be around 1250mg Calcium)
 
-* 3 Tbsp date syrup or 2 Tbsp molasses or 5g of sugar
+* 1 tsp sugar
+
+* 1/4 tsp salt
 
 General Tso's Textured Vegetable Protein (TVP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
