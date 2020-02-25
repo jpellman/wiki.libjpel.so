@@ -17,6 +17,8 @@ Recipes
 -   1 tsp sugar
 -   1/4 tsp salt
 
+Soak 1 cup oats in disposable water for 15 minutes. Drain out disposable water. Add in 4 cups of water. Blend for 30 seconds. Filter out oats with nut milk bag / cheesecloth. Add salt, guar gum, sugar and calcium carbonate. Blend again.
+
 ### General Tso's Textured Vegetable Protein (TVP)
 
 -   1/2 cup TVP
