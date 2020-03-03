@@ -34,7 +34,9 @@ General Tso's Textured Vegetable Protein (TVP)
 
 * 2 2/3 Tbsp sugar
 
-* 1 1/3 Tbsp `General Tso's seasoning packet`_
+* 1 1/3 Tbsp `General Tso's seasoning packet`_ or 1 tsp garlic powder + 1 tsp ginger + 1/2 tsp red pepper
+
+* 2 tsp methylcellulose HV
 
 * 2 Tbsp soy sauce (or perhaps worcestershire sauce)
 
