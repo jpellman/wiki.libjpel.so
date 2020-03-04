@@ -25,7 +25,7 @@ Soak 1 cup oats in disposable water for 15 minutes. Drain out disposable water. 
 -   2 2/3 Tbsp sugar
 -   1 1/3 Tbsp [General Tso's seasoning packet](https://smile.amazon.com/Sunbird-General-Chicken-Seasoning-Packet/dp/B00HVS31DC?sa-no-redirect=1) or 1 tsp garlic powder + 1 tsp ginger + 1/2 tsp red pepper
 -   2 tsp methylcellulose HV
--   1 tsp transglutaminase (possibly overkill- 1/4 tsp might be more accurate, but I had no scale to measure)
+-   1 tsp transglutaminase (possibly overkill- 1/4 tsp might be more accurate, but I had no scale to measure; should be 1/2 tsp according to the conversion [here](https://blog.modernistpantry.com/recipes/temptingly-tender-turkey-roulade/))
 -   2 Tbsp soy sauce (or perhaps worcestershire sauce)
 -   1/2 cup boiling water
 

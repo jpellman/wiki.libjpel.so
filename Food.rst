@@ -38,7 +38,7 @@ General Tso's Textured Vegetable Protein (TVP)
 
 * 2 tsp methylcellulose HV
 
-* 1 tsp transglutaminase (possibly overkill- 1/4 tsp might be more accurate, but I had no scale to measure)
+* 1 tsp transglutaminase (possibly overkill- 1/4 tsp might be more accurate, but I had no scale to measure; should be 1/2 tsp according to the conversion here_)
 
 * 2 Tbsp soy sauce (or perhaps worcestershire sauce)
 
@@ -113,6 +113,8 @@ Ingredients
 .. ############################################################################
 
 .. _General Tso's seasoning packet: https://smile.amazon.com/Sunbird-General-Chicken-Seasoning-Packet/dp/B00HVS31DC?sa-no-redirect=1
+
+.. _here: https://blog.modernistpantry.com/recipes/temptingly-tender-turkey-roulade/
 
 .. _Lapsang Souchong: https://en.wikipedia.org/wiki/Lapsang_souchong
 
