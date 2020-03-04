@@ -38,6 +38,8 @@ General Tso's Textured Vegetable Protein (TVP)
 
 * 2 tsp methylcellulose HV
 
+* 1 tsp transglutaminase (possibly overkill- 1/4 tsp might be more accurate, but I had no scale to measure)
+
 * 2 Tbsp soy sauce (or perhaps worcestershire sauce)
 
 * 1/2 cup boiling water
