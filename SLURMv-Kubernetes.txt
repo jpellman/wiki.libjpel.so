@@ -9,6 +9,7 @@
  * [[https://kubernetes.io/docs/concepts/overview/components/|Kubernetes Components]]
  * [[https://docs.docker.com/engine/docker-overview/|Docker Overview]]
  * [[https://github.com/eBay/Kubernetes/blob/master/docs/devel/scheduler_algorithm.md|Scheduler Algorithm in Kubernetes]]
+ * [[https://kubernetes.io/docs/concepts/configuration/scheduling-framework/|More up-to-date overview of scheduling in Kubernetes]]
  * [[https://nomadproject.io/docs/internals/scheduling/scheduling/|Scheduling in Nomad]]
  * [[https://slurm.schedmd.com/cgroups.html|Cgroups Guide]] (SLURM)
  * [[https://slurm.schedmd.com/sched_config.html|Scheduling Configuration Guide]] (SLURM)

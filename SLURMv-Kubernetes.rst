@@ -18,6 +18,8 @@ Further Reading
 
 * `Scheduler Algorithm in Kubernetes`_
 
+* `More up-to-date overview of scheduling in Kubernetes`_
+
 * `Scheduling in Nomad`_
 
 * `Cgroups Guide`_ (SLURM)
@@ -40,6 +42,8 @@ SystemsAdministration_
 .. _Kubernetes Components: https://kubernetes.io/docs/concepts/overview/components/
 
 .. _Docker Overview: https://docs.docker.com/engine/docker-overview/
+
+.. _More up-to-date overview of scheduling in Kubernetes: https://kubernetes.io/docs/concepts/configuration/scheduling-framework/
 
 .. _Scheduling in Nomad: https://nomadproject.io/docs/internals/scheduling/scheduling/
 

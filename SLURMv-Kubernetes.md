@@ -13,6 +13,7 @@ Further Reading
 -   [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
 -   [Docker Overview](https://docs.docker.com/engine/docker-overview/)
 -   Scheduler Algorithm in Kubernetes\_
+-   [More up-to-date overview of scheduling in Kubernetes](https://kubernetes.io/docs/concepts/configuration/scheduling-framework/)
 -   [Scheduling in Nomad](https://nomadproject.io/docs/internals/scheduling/scheduling/)
 -   [Cgroups Guide](https://slurm.schedmd.com/cgroups.html) (SLURM)
 -   [Scheduling Configuration Guide](https://slurm.schedmd.com/sched_config.html) (SLURM)
