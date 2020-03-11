@@ -153,6 +153,11 @@ An article on the RAID "write-hole", which seems to be especially salient for RA
 
  * tar tvf '''<device_name>''' - Read the file name from the tar header for the current file that the tape is pointed at.
 
+=== Database vs Filesystem ===
+
+ * https://stackoverflow.com/questions/38120895/database-vs-file-system-storage
+ * https://softwareengineering.stackexchange.com/questions/190482/why-use-a-database-instead-of-just-saving-your-data-to-disk
+ * https://dzone.com/articles/which-is-better-saving-files-in-database-or-in-fil
 
 == Identity Management / User Management ==
 
