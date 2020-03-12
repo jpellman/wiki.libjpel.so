@@ -9,26 +9,26 @@ vim
 ---
 
 -   Typing *vimtutor* at the command prompt gives an excellent walkthrough created by several individuals at the Colorado School of Mines.
--   [The Vim Tips Wiki](htt/vim.wikia.cwiVim_Tips_Wiki)
--   [Ben Kuperman's Vim Page](http/www.cs.oberlin.e~kupermhev)
--   [Vim Quick Reference Card](htt/tnerual.eriogerg.free.vim.html)
--   [Vim Cheat Sheet](htt/vimcheatsheet.c)
--   [Syntastic](http/github.cvim-syntastsyntastic) is a linter interface for vim for multiple languages. (Requires linters to be installed separately;i.e., `pip install pylint`).
--   [Pathogen](http/github.ctpovim-pathogen) is a packaplugin manager, much like CRAN or CPAN.
+-   [The Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
+-   [Ben Kuperman's Vim Page](https://www.cs.oberlin.edu/~kuperman/help/vim/)
+-   [Vim Quick Reference Card](http://tnerual.eriogerg.free.fr/vim.html)
+-   [Vim Cheat Sheet](http://vimcheatsheet.com/)
+-   [Syntastic](https://github.com/vim-syntastic/syntastic) is a linter interface for vim for multiple languages. (Requires linters to be installed separately;i.e., `pip install pylint`).
+-   [Pathogen](https://github.com/tpope/vim-pathogen) is a package/plugin manager, much like CRAN or CPAN.
 
 Odds and ends:
 
 -   Switch from less to vim- ':wv'.
--   Check before replacing in vim fbgc'
--   Display line numbers in vim : <htt/vim.wikia.cwiDisplay_line_numbers>
+-   Check before replacing in vim :s/foo/bar/gc'
+-   Display line numbers in vim : <http://vim.wikia.com/wiki/Display_line_numbers>
 
 emacs
 -----
 
--   [GNU Emacs Tour](htt/www.gnu.osoftwaemato)
--   [Emacs Tutorial](htt/www2.lib.uchicago.ekeitcl-couremacs-tutorial.html)
--   [Emacs Mini Manual](htt/tuhdo.github.emacs-tutor.html)
+-   [GNU Emacs Tour](http://www.gnu.org/software/emacs/tour/)
+-   [Emacs Tutorial](http://www2.lib.uchicago.edu/keith/tcl-course/emacs-tutorial.html)
+-   [Emacs Mini Manual](http://tuhdo.github.io/emacs-tutor.html)
 
 * * * * *
 
-[Systems-Administration](Systems-Administration)
+[Systems-Administration](../Systems-Administration)

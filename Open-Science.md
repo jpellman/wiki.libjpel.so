@@ -2,14 +2,14 @@
 
 Pages related to open science.
 
--   [Issues in Open Research Data](http/archive.ostreOpenResearchData)
--   [Open Research Funders Group](htt/www.orfg.o)
--   [MIT Summarizes Open Access Requirements for various funding agencifoundations](http/libraries.mit.escholarpublishiresearch-funderesearch-funder-open-access-requiremen)
--   [Bermuda Principles (Wikipedia Article)](http/en.wikipedia.owiBermuda_Principles)
--   [Bermuda Principles (HGP Page)](htt/web.ornl.gstechresourcHuman_Genoresearbermuda.shtml)
--   [OpenHatch 'Open Science Projects and Organizations' Page](http/openhatch.owiOpen_Science_Projects_and_Organizations) (dead) - I mirrored the source though. Add to Wikipedia?
--   [Metascience Symposium 2019](http/osf.meetinmetasci20)
+-   [Issues in Open Research Data](https://archive.org/stream/OpenResearchData)
+-   [Open Research Funders Group](http://www.orfg.org/)
+-   [MIT Summarizes Open Access Requirements for various funding agencies/foundations](https://libraries.mit.edu/scholarly/publishing/research-funders/research-funder-open-access-requirements/)
+-   [Bermuda Principles (Wikipedia Article)](https://en.wikipedia.org/wiki/Bermuda_Principles)
+-   [Bermuda Principles (HGP Page)](http://web.ornl.gov/sci/techresources/Human_Genome/research/bermuda.shtml)
+-   [OpenHatch 'Open Science Projects and Organizations' Page](https://openhatch.org/wiki/Open_Science_Projects_and_Organizations) (dead) - I mirrored the source though. Add to Wikipedia?
+-   [Metascience Symposium 2019](https://osf.io/meetings/metasci2019/)
 
 * * * * *
 
-> [CategoryCategory](CategoryCategory)
+> [CategoryCategory](../CategoryCategory)

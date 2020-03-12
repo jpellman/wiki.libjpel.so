@@ -6,26 +6,26 @@ Scientific Workflow Management
 Articles
 --------
 
--   [A Survey of Data-Intensive Scientific Workflow Management](htt/www-sop.inria.membePatrick.ValduripmwiPatriuploa/Publicatiojogc2015)
--   [Parallelization in Scientific Workflow Management Systems](htt/arxiv.oa1303.7195)
+-   [A Survey of Data-Intensive Scientific Workflow Management](http://www-sop.inria.fr/members/Patrick.Valduriez/pmwiki/Patrick/uploads//Publications/jogc2015)
+-   [Parallelization in Scientific Workflow Management Systems](http://arxiv.org/abs/1303.7195)
 
 Standards
 ---------
 
--   [CWL](htt/common-workflow-language.github.)
+-   [CWL](http://common-workflow-language.github.io/)
 
 Packages
 --------
 
--   [Taverna](htt/taverna.incubator.apache.o)
--   [Arvados](http/arvados.o)
--   [Kepler](http/kepler-project.o)
--   [Pegasus](htt/pegasus.isi.e)
--   [KNIME](htt/www.knime.o)
--   [Swift](htt/swift-lang.oma)
--   [Galaxy](http/galaxyproject.o)
--   [LONI](htt/pipeline.bmap.ucla.e)
+-   [Taverna](http://taverna.incubator.apache.org/)
+-   [Arvados](https://arvados.org/)
+-   [Kepler](https://kepler-project.org/)
+-   [Pegasus](http://pegasus.isi.edu/)
+-   [KNIME](http://www.knime.org/)
+-   [Swift](http://swift-lang.org/main/)
+-   [Galaxy](https://galaxyproject.org/)
+-   [LONI](http://pipeline.bmap.ucla.edu/)
 
 * * * * *
 
-> [Scientific-Computing](Scientific-Computing)
+> [Scientific-Computing](../Scientific-Computing)

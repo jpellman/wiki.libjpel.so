@@ -8,4 +8,4 @@ These pages describe the networking equipment used in my home network.
 
 * * * * *
 
-> [CategoryCategory](CategoryCategory) [Home-Lab](Home-Lab)
+> [CategoryCategory](../CategoryCategory) [Home-Lab](../Home-Lab)

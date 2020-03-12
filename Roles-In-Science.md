@@ -37,11 +37,11 @@ Quality Control
 -   Peer Reviewers
     -   Second statistician
     -   Code reviewer
-    -   QA person (if [DevOps](DevOps) principles not as much in play)
+    -   QA person (if [DevOps](../DevOps) principles not as much in play)
 
-ManageSynthesizeCreatives(?)
+Managers/Synthesizers/Creatives(?)
 ----------------------------------
 
 -   People who are able to take various aspects of theories and the current literature, combine this knowledge in novel ways, and determine a good direction to go in.
 
-[Scientific-Computing](Scientific-Computing)
+[Scientific-Computing](../Scientific-Computing)

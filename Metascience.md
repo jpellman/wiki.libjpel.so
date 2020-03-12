@@ -6,45 +6,45 @@ Metascience
 Tools
 -----
 
--   [Semantic Scholar](http/www.semanticscholar.o)
--   [Meta](http/www.meta.o)
+-   [Semantic Scholar](https://www.semanticscholar.org/)
+-   [Meta](https://www.meta.org/)
 
 ### Neuroscience
 
--   [Neuroquery](http/neuroquery.org)
--   [Neurosynth](http/www.neurosynth.o)
+-   [Neuroquery](https://neuroquery.org)
+-   [Neurosynth](https://www.neurosynth.org/)
 
-Conference Presentations
+Conferences / Presentations
 ---------------------------
 
--   [Metascience 2019](http/osf.meetinmetasci20)
+-   [Metascience 2019](https://osf.io/meetings/metasci2019/)
 
 Citation Graphing
 -----------------
 
-An ongoing list of softwar techniques for visualizing citations.
+An ongoing list of software / techniques for visualizing citations.
 
--   <http/physics.stackexchange.cquestio55is-there-a-nice-tool-to-plot-graphs-of-paper-citations>
--   [Citespace](htt/cluster.cis.drexel.e~cchcitespa)
--   [Mark Longair's Thesis Visualization Script](http/longair.nbl20thesis-visualizati)
--   [Eigenfactor Projects](htt/www.eigenfactor.oprojects.php)
--   [Open Academic Graph](http/aminer.oopen-academic-graph)
--   [Neurotree](http/neurotree.org) and the broader [Academic Tree](http/academictree.org)
--   [Citation Gecko](http/github.cCitationGecko)
--   [Clubs of Science](http/academic.oup.cgigascienartic5/suppls13742-016-0147-02965211) (dead) - see [here](http/github.cBrainhack-Proceedings-20Dery_HBM_ClubsOfScience) and [here](http/github.csderygithClubs-of-Science)
+-   <https://physics.stackexchange.com/questions/5569/is-there-a-nice-tool-to-plot-graphs-of-paper-citations>
+-   [Citespace](http://cluster.cis.drexel.edu/~cchen/citespace/)
+-   [Mark Longair's Thesis Visualization Script](https://longair.net/blog/2009/10/21/thesis-visualization/)
+-   [Eigenfactor Projects](http://www.eigenfactor.org/projects.php)
+-   [Open Academic Graph](https://aminer.org/open-academic-graph)
+-   [Neurotree](https://neurotree.org) and the broader [Academic Tree](https://academictree.org)
+-   [Citation Gecko](https://github.com/CitationGecko)
+-   [Clubs of Science](https://academic.oup.com/gigascience/article/5/suppl_1/s13742-016-0147-0-f/2965211) (dead) - see [here](https://github.com/Brainhack-Proceedings-2015/Dery_HBM_ClubsOfScience) and [here](https://github.com/sderygithub/Clubs-of-Science)
 
-### Citation ParsiMunging
+### Citation Parsing/Munging
 
--   [Anystyle](http/github.cinukshanystyle)
--   [BibTeX Ruby](http/github.cinukshbibtex-ruby)
--   [Citation.js](http/citation.js.o)
--   [biblib](http/github.caclemenbiblib)
--   [BibtexParser](http/bibtexparser.readthedocs.late)
--   [Pybtex](http/pybtex.o)
--   [Pybliographer](http/pybliographer.o)
--   [BabyBib](http/github.cmatthew-brebabybib)
--   [How I scraped data from Google Scholar](http/www.nature.carticld41586-018-04190-5)
+-   [Anystyle](https://github.com/inukshuk/anystyle)
+-   [BibTeX Ruby](https://github.com/inukshuk/bibtex-ruby)
+-   [Citation.js](https://citation.js.org/)
+-   [biblib](https://github.com/aclements/biblib)
+-   [BibtexParser](https://bibtexparser.readthedocs.io/en/latest/)
+-   [Pybtex](https://pybtex.org/)
+-   [Pybliographer](https://pybliographer.org/)
+-   [BabyBib](https://github.com/matthew-brett/babybib)
+-   [How I scraped data from Google Scholar](https://www.nature.com/articles/d41586-018-04190-5)
 
 * * * * *
 
-> [Scientific-Computing](Scientific-Computing) [LibraryComputing](LibraryComputing)
+> [Scientific-Computing](../Scientific-Computing) [LibraryComputing](../LibraryComputing)

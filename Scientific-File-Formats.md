@@ -3,36 +3,36 @@
 Scientific File Formats
 =======================
 
-I'm using this page to organize discoverie thoughts about scientific file format compression algorithms.
+I'm using this page to organize discoveries / thoughts about scientific file formats / compression algorithms.
 
 HDF5
 ----
 
--   <htt/cyrille.rossant.nmoving-away-hd>
+-   <http://cyrille.rossant.net/moving-away-hdf5/>
 
 NIfTI
 -----
 
--   <http/www.nitrc.odocmview.p2TheNIfTI1Format2004.pdf>
--   <http/fsl.fmrib.ox.ac.ffslwiFormats>
--   <http/brainder.o20the-nifti-file-form>
--   <http/brainder.o20the-nifti-2-file-form>
--   <http/nifti.nimh.nih.gniftidocumentatihbm_nifti_2004.pdf>
--   <http/nifti.nimh.nih.gnifti-2>
+-   <https://www.nitrc.org/docman/view.php/26/204/TheNIfTI1Format2004.pdf>
+-   <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Formats>
+-   <https://brainder.org/2012/09/23/the-nifti-file-format/>
+-   <https://brainder.org/2015/04/03/the-nifti-2-file-format/>
+-   <https://nifti.nimh.nih.gov/nifti-1/documentation/hbm_nifti_2004.pdf>
+-   <https://nifti.nimh.nih.gov/nifti-2>
 
 MRC
 ---
 
 Chiefly used by Relion.
 
--   <htt/www.ccpem.ac.mrc_formmrc2014.php>
+-   <http://www.ccpem.ac.uk/mrc_format/mrc2014.php>
 
 Compression
 -----------
 
--   [FPZip](http/computing.llnl.gprojecfloating-point-compression) : "Think of fpzip as the floating-point analogue to PNG image compression and zfp as advanced JPEG for floating-point arrays."
--   [mtscomp](http/github.cint-brain-lmtscomp) : If fpzzfp are PJPEG analogues, mtscomp seems to be more of an MP audio compression analogue.
+-   [FPZip](https://computing.llnl.gov/projects/floating-point-compression) : "Think of fpzip as the floating-point analogue to PNG image compression and zfp as advanced JPEG for floating-point arrays."
+-   [mtscomp](https://github.com/int-brain-lab/mtscomp) : If fpzip/zfp are PNG/JPEG analogues, mtscomp seems to be more of an MP3 / audio compression analogue.
 
 * * * * *
 
-> [Scientific-Computing](Scientific-Computing)
+> [Scientific-Computing](../Scientific-Computing)

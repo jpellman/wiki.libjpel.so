@@ -9,7 +9,7 @@ Difference-Reduction
 Means-End Analysis
 ------------------
 
-An errant thought- might an application that is part of a stack might be considered an operattool in a way (i.e., your goal state is to have a web server, and you can use Apache as a means to attain that goal state)?
+An errant thought- might an application that is part of a stack might be considered an operator/tool in a way (i.e., your goal state is to have a web server, and you can use Apache as a means to attain that goal state)?
 
 Problem Space and Trees
 -----------------------
@@ -29,7 +29,7 @@ Problems of Insight
 Breadth-First vs Depth-First Techniques for organizing problems
 ---------------------------------------------------------------
 
--   Breadth-first as making a spe writing unit tests.
+-   Breadth-first as making a spec / writing unit tests.
 
 The Myst User's Manual
 ----------------------
@@ -53,14 +53,14 @@ If a 503 server error is being propagated, you would first want to isolate which
 Operators
 ---------
 
--   Increasing log verbosity- this should be a first step in troubleshootidebugging.
+-   Increasing log verbosity- this should be a first step in troubleshooting/debugging.
 
 References
 ----------
 
 -   John R. Anderson - *Cognitive Psychology and its implications*
--   <htt/cognitivepsychology.wikidot.ccognition:problem-solving>
+-   <http://cognitivepsychology.wikidot.com/cognition:problem-solving>
 
 * * * * *
 
-[Cognitive-Science](Cognitive-Science)
+[Cognitive-Science](../Cognitive-Science)

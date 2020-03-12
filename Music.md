@@ -8,7 +8,7 @@ In which I characterize my recreational music consumption. No production anymore
 Consumption
 -----------
 
-### Medieval Techn Modern Medieval
+### Medieval Techno / Modern Medieval
 
 -   Qntal
 -   Corvus Corax
@@ -35,4 +35,4 @@ Consumption
 
 * * * * *
 
-> [Hobbies](Hobbies)
+> [Hobbies](../Hobbies)

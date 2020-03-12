@@ -13,5 +13,5 @@ Hash Table
 Stack
 -----
 
--   [pushd and popd](http/en.wikipedia.owiPushd_and_popd)
+-   [pushd and popd](https://en.wikipedia.org/wiki/Pushd_and_popd)
 

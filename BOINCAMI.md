@@ -20,15 +20,15 @@ There are some operations for BOINC that you can accomplish from the command lin
 
 To get around this, install a lightweight GUI like lxde and a remote desktop server like x2go.
 
-Create an AttachabDetachable Volume
+Create an Attachable/Detachable Volume
 --------------------------------------
 
-Make a new volume in the AWS console. Attach to the instance. Partition, create a file system and mount at a suitable location (likeboinc').
+Make a new volume in the AWS console. Attach to the instance. Partition, create a file system and mount at a suitable location (like '/boinc').
 
 Install BOINC
 -------------
 
-Use apt-get or yum to install BOINC client and BOINC manager. Move BOINC client's data frovlboinc-client to the new volume you created (mounted atboinc' or wherever you decided to mount it). Ediedefauboinc-client and change BOINC\_DIR fromvlboinc-client" to the new mount point boinc').
+Use apt-get or yum to install BOINC client and BOINC manager. Move BOINC client's data from /var/lib/boinc-client to the new volume you created (mounted at '/boinc' or wherever you decided to mount it). Edit /etc/default/boinc-client and change BOINC\_DIR from "/var/lib/boinc-client" to the new mount point ('/boinc').
 
 Separating the data from the instance's root volume allows the tasks that were currently running to be preserved in the case of a poweroff (i.e., if you are using spot instances and the instance is abruptly terminated).
 
@@ -40,7 +40,7 @@ Remove the bash history, ssh directory in your home folder. Save as an EBS-backe
 When Running
 ------------
 
-When you start a new instance with the AMI, don't forget to a) mount the attached volume and b) start the BOINC client service with sudeinitboinc-client start.
+When you start a new instance with the AMI, don't forget to a) mount the attached volume and b) start the BOINC client service with sudo /etc/init.d/boinc-client start.
 
 With Spot Instances
 -------------------
@@ -49,4 +49,4 @@ Make a snapshot of the BOINC data volume beforehand, since you don't know which 
 
 * * * * *
 
-> [Scientific-Computing](Scientific-Computing)
+> [Scientific-Computing](../Scientific-Computing)
