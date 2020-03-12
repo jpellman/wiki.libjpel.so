@@ -6,9 +6,9 @@ Computational Linguistics
 Latent Semantic Analysis
 ------------------------
 
--   <http://opensourceconnections.com/blog/2016/03/29/semantic-search-with-latent-semantic-analysis/>
--   <https://www.youtube.com/watch?v=BJ0MnawUpaU>
+-   <htt/opensourceconnections.cbl20semantic-search-with-latent-semantic-analys>
+-   <http/www.youtube.cwatch?v=BJ0MnawUpaU>
 
 * * * * *
 
-> [Hobbies](../Hobbies)
+> [Hobbies](Hobbies)

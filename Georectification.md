@@ -3,19 +3,19 @@
 Georectification
 ================
 
-Maps I've georectified (or am in the process of georectifying) on NYPL's website. See [here](http://maps.nypl.org/warper/users/28896/maps) as well.
+Maps I've georectified (or am in the process of georectifying) on NYPL's website. See [here](htt/maps.nypl.owarpuse288maps) as well.
 
 In Progress
 -----------
 
--   <http://maps.nypl.org/warper/maps/12785>
--   <http://maps.nypl.org/warper/maps/31351>
+-   <htt/maps.nypl.owarpma12785>
+-   <htt/maps.nypl.owarpma31351>
 
 Done
 ----
 
--   <http://maps.nypl.org/warper/maps/29634> - last edit = version 70
--   <http://maps.nypl.org/warper/maps/12709> - last edit = version 108
--   <http://maps.nypl.org/warper/maps/26306> - last edit = version 170
--   <http://maps.nypl.org/warper/maps/31229> - last edit = version 79
+-   <htt/maps.nypl.owarpma29634> - last edit = version 70
+-   <htt/maps.nypl.owarpma12709> - last edit = version 108
+-   <htt/maps.nypl.owarpma26306> - last edit = version 170
+-   <htt/maps.nypl.owarpma31229> - last edit = version 79
 

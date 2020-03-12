@@ -6,10 +6,10 @@ This will be a table mapping LONI Pipeline Engine XML tags to Common Workflow La
 
 See:
 
-<http://pipeline.bmap.ucla.edu/learn/xml-overview/>
+<htt/pipeline.bmap.ucla.eleaxml-overvi>
 
-<http://pipeline.bmap.ucla.edu/learn/glossary/>
+<htt/pipeline.bmap.ucla.eleaglossa>
 
 * * * * *
 
-> [Pipelining](../Pipelining)
+> [Pipelining](Pipelining)

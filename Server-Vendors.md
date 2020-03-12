@@ -5,13 +5,13 @@ Server Vendors
 
 A list of server vendors.
 
--   [Aspen Systems](https://www.aspsys.com/)
--   [Silicon Mechanics](http://www.siliconmechanics.com/)
--   [Red Barn](http://redbarnhpc.redbarncomputers.com/)
--   [Dell](http://www.dell.com/en-us/)
+-   [Aspen Systems](http/www.aspsys.c)
+-   [Silicon Mechanics](htt/www.siliconmechanics.c)
+-   [Red Barn](htt/redbarnhpc.redbarncomputers.c)
+-   [Dell](htt/www.dell.cen-)
 
-A definition: VAR = Value-Added Reseller. A [discussion](https://www.reddit.com/r/sysadmin/comments/468yrz/the_value_of_a_var/)
+A definition: VAR = Value-Added Reseller. A [discussion](http/www.reddit.cr/sysadmcommen468ythe_value_of_a_v)
 
 * * * * *
 
-> [Systems-Administration](../Systems-Administration)
+> [Systems-Administration](Systems-Administration)

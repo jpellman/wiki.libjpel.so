@@ -12,8 +12,8 @@ A set of links for fun, non-work related meaningful activities:
 External Links
 --------------
 
--   [ArchiveTeam](http://archiveteam.org/)
+-   [ArchiveTeam](htt/archiveteam.o)
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory)
+> [CategoryCategory](CategoryCategory)

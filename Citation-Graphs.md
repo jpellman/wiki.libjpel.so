@@ -1,3 +1,3 @@
 
 
-See [Metascience](../Metascience).
+See [Metascience](Metascience).

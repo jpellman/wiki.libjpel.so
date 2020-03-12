@@ -3,12 +3,12 @@
 List of Web Design Firms that Specialize in Academic Clientele
 ==============================================================
 
--   [Singlebrook](http://singlebrook.com/)
--   [Academic Web Pages](http://academicwebpages.com/) (aptly-named)
--   [Squishy Media](http://squishymedia.com/)
--   [KnowledgeTown](http://knowledgetown.com/)
--   [The Bureau (UK)](https://www.thebureaulondon.com/)
+-   [Singlebrook](htt/singlebrook.c)
+-   [Academic Web Pages](htt/academicwebpages.c) (aptly-named)
+-   [Squishy Media](htt/squishymedia.c)
+-   [KnowledgeTown](htt/knowledgetown.c)
+-   [The Bureau (UK)](http/www.thebureaulondon.c)
 
 * * * * *
 
-> [Academic-Computing](../Academic-Computing)
+> [Academic-Computing](Academic-Computing)

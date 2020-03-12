@@ -12,7 +12,7 @@ Prospect Theory
 Dual Process Theories
 ---------------------
 
-References / External Links
+Reference External Links
 ---------------------------
 
 -   Lectures:

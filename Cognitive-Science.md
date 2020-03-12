@@ -9,9 +9,9 @@ Notes on cognitive science.
 Articles:
 =========
 
--   [Could a Neuroscientist Understand a Microprocessor?](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268)
--   [How Academia and Publishing are Destroying Scientific Innovation: A Conversation with Sydney Brenner](http://kingsreview.co.uk/articles/how-academia-and-publishing-are-destroying-scientific-innovation-a-conversation-with-sydney-brenner/)
+-   [Could a Neuroscientist Understand a Microprocessor?](htt/journals.plos.oploscompbiarticle?id=10.13journal.pcbi.1005268)
+-   [How Academia and Publishing are Destroying Scientific Innovation: A Conversation with Sydney Brenner](htt/kingsreview.co.articlhow-academia-and-publishing-are-destroying-scientific-innovation-a-conversation-with-sydney-brenn)
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory)
+> [CategoryCategory](CategoryCategory)

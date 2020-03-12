@@ -2,30 +2,30 @@
 
 I'm putting various links to project management resources here to synthesize how they may be tied to science.
 
--   [Management for Scientists by Addgene](http://info.addgene.org/download-addgenes-ebook-management-for-scientists)
--   [Project Management by Nick Jenkinson](http://www.nickjenkins.net/prose/projectPrimer.pdf)
--   [Project Management for Scientists](http://www.sciencemag.org/careers/2002/07/project-management-scientists)
--   [Social Loafing](https://en.wikibooks.org/wiki/Managing_Groups_and_Teams/Social_Loafing)
--   [Mythical Man Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
--   [Amdahl's law](https://en.wikipedia.org/wiki/Amdahl%27s_law)
--   [Gustafson's law](https://en.wikipedia.org/wiki/Gustafson%27s_law)
--   [W Edwards Deming](https://en.wikipedia.org/wiki/W._Edwards_Deming)
--   [Herbert Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)
+-   [Management for Scientists by Addgene](htt/info.addgene.odownload-addgenes-ebook-management-for-scientists)
+-   [Project Management by Nick Jenkinson](htt/www.nickjenkins.nproprojectPrimer.pdf)
+-   [Project Management for Scientists](htt/www.sciencemag.ocaree20project-management-scientists)
+-   [Social Loafing](http/en.wikibooks.owiManaging_Groups_and_TeaSocial_Loafing)
+-   [Mythical Man Month](http/en.wikipedia.owiThe_Mythical_Man-Month)
+-   [Amdahl's law](http/en.wikipedia.owiAmdahl%27s_law)
+-   [Gustafson's law](http/en.wikipedia.owiGustafson%27s_law)
+-   [W Edwards Deming](http/en.wikipedia.owiW._Edwards_Deming)
+-   [Herbert Simon](http/en.wikipedia.owiHerbert_A._Simon)
 
-Examples of Project Management failures in science/basic research:
+Examples of Project Management failures in scienbasic research:
 
--   [Charles Babbage's Difference Engine](https://en.wikipedia.org/wiki/Difference_engine)
+-   [Charles Babbage's Difference Engine](http/en.wikipedia.owiDifference_engine)
 -   Hooke
 
 Other Pitfalls:
 
--   [Taylorism](http://rationalwiki.org/wiki/Taylorism) - Don't want to squash creativity.
+-   [Taylorism](htt/rationalwiki.owiTaylorism) - Don't want to squash creativity.
 -   Micromanagement example: guy who almost derailed LIGO
 
 Advice:
 
--   [How to start a lab by Tim Behrens](http://users.fmrib.ox.ac.uk/~behrens/Startingalab.htm)
+-   [How to start a lab by Tim Behrens](htt/users.fmrib.ox.ac.~behreStartingalab.htm)
 
 * * * * *
 
-> [Academic-Computing](../Academic-Computing) [Scientific-Computing](../Scientific-Computing)
+> [Academic-Computing](Academic-Computing) [Scientific-Computing](Scientific-Computing)

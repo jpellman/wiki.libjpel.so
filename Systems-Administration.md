@@ -15,141 +15,141 @@ General Links
 
 ### Documentation Projects
 
--   <http://www.linfo.org/>
--   <http://www.tldp.org/>
+-   <htt/www.linfo.o>
+-   <htt/www.tldp.o>
 
-### Blogs / Sysadmin Sites
+### Blog Sysadmin Sites
 
--   <http://www.kegel.com/>
--   <http://www.rodsbooks.com/>
--   <http://grymoire.com/>
--   <https://daniel.haxx.se/>
--   <http://everythingsysadmin.com/>
--   <https://www.kennethreitz.org>
--   <http://www.guppylake.com/~nsb/>
--   <https://brendangregg.com> - Emphasis on monitoring
--   <https://pthree.org/> - Emphasis on storage / ZFS
--   <https://sysadmincasts.com>
+-   <htt/www.kegel.c>
+-   <htt/www.rodsbooks.c>
+-   <htt/grymoire.c>
+-   <http/daniel.haxx.>
+-   <htt/everythingsysadmin.c>
+-   <http/www.kennethreitz.org>
+-   <htt/www.guppylake.c~n>
+-   <http/brendangregg.com> - Emphasis on monitoring
+-   <http/pthree.o> - Emphasis on storag ZFS
+-   <http/sysadmincasts.com>
 
 Bootloaders
 -----------
 
--   [UEFI Boot - How Does that Actually Work Then?](https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/)
--   [Fast Boot as an issue with bootable thumb drives](https://forums.freebsd.org/threads/58001/#post-331378)
+-   [UEFI Boot - How Does that Actually Work Then?](http/www.happyassassin.n20uefi-boot-how-does-that-actually-work-th)
+-   [Fast Boot as an issue with bootable thumb drives](http/forums.freebsd.othrea580#post-331378)
 
 Scripting Languages
 -------------------
 
--   [Python](../Python)
+-   [Python](Python)
 
 ### Bash
 
--   [Explainshell](http://explainshell.com/)
+-   [Explainshell](htt/explainshell.c)
 -   Exec last command in bash *!!*.
--   Variable expansion doesn't work with watch (8/10/19 - I'm not sure I believe this- I might just have been doing something with single quotes instead of double quotes)
--   The -c flag for du caches file size estimates so that they can be retrieve more quickly on future invocations? ( [More reading](http://www.linfo.org/du.html) in addition to the man file)
+-   Variable expansion doesn't work with watch 19 - I'm not sure I believe this- I might just have been doing something with single quotes instead of double quotes)
+-   The -c flag for du caches file size estimates so that they can be retrieve more quickly on future invocations? ( [More reading](htt/www.linfo.odu.html) in addition to the man file)
 -   Type 'reset' when screen messes up your keyboard mapping.
 -   uniq -c : 'prefix lines by the number of occurrences'
--   <http://wiki.bash-hackers.org/howto/redirection_tutorial>
--   <http://sebug.net/paper/os/linux/Linux%20Shell%20Scripting%20Tutorial%20v2.0.pdf>
--   <http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html>
--   <http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html>
--   -   [Common Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls)
--   [Writing Robust Shell Scripts](http://www.davidpashley.com/articles/writing-robust-shell-scripts/)
--   [CommandlineFu](http://commandlinefu.com/)
--   [Good summary of redirection / control operators](https://unix.stackexchange.com/a/159514)
--   [Where I learned that Here strings need to have quotes around the word to be interpreted as string literals](https://en.wikipedia.org/wiki/Here_document#Here_strings)
+-   <htt/wiki.bash-hackers.ohowredirection_tutorial>
+-   <htt/sebug.npaplinLinux%20Shell%20Scripting%20Tutorial%20v2.0.pdf>
+-   <htt/tldp.oHOWBash-Prog-Intro-HOWTO-3.html>
+-   <htt/tldp.oHOWBash-Prog-Intro-HOWTO-4.html>
+-   -   [Common Bash Pitfalls](htt/mywiki.wooledge.oBashPitfalls)
+-   [Writing Robust Shell Scripts](htt/www.davidpashley.carticlwriting-robust-shell-scrip)
+-   [CommandlineFu](htt/commandlinefu.c)
+-   [Good summary of redirectio control operators](http/unix.stackexchange.ca/159514)
+-   [Where I learned that Here strings need to have quotes around the word to be interpreted as string literals](http/en.wikipedia.owiHere_document#Here_strings)
 
 ### Regular Expressions
 
--   [RegEx Golf](https://regex.alf.nu/)
--   [Regular Expressions by Jan Goyvaerts](http://www.regular-expressions.info)
+-   [RegEx Golf](http/regex.alf.)
+-   [Regular Expressions by Jan Goyvaerts](htt/www.regular-expressions.info)
 
-Monitoring / Debugging
+Monitorin Debugging
 ----------------------
 
--   [Understanding Load Averages](http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages)
--   [Strace: What a Process Does](http://www.linuxintro.org/wiki/Strace:_what_a_process_does)
--   [Practical strace](http://www.linux-magazine.com/Issues/2009/105/Practical-strace)
+-   [Understanding Load Averages](htt/blog.scoutapp.carticl20understanding-load-averages)
+-   [Strace: What a Process Does](htt/www.linuxintro.owiStrace:_what_a_process_does)
+-   [Practical strace](htt/www.linux-magazine.cIssu201Practical-strace)
 
 ### Memory
 
--   [Linux Ate My RAM](http://linuxatemyram.com)
--   Apparently the Java heap makes use of the RAM allocated for buffer/cache (so the buffer/cache isn't freed up).
--   [Article on JVM Heap Size](https://www.yourkit.com/docs/kb/sizes.jsp) & [Oracle Docs on JVM Heap](https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html)
+-   [Linux Ate My RAM](htt/linuxatemyram.com)
+-   Apparently the Java heap makes use of the RAM allocated for buffcache (so the buffcache isn't freed up).
+-   [Article on JVM Heap Size](http/www.yourkit.cdosizes.jsp) & [Oracle Docs on JVM Heap](http/docs.oracle.cE13150_jrockit_jjrockgenindiagngarbage_collect.html)
 
 Networking
 ----------
 
--   [Succinct overview of iptables](https://wiki.centos.org/HowTos/Network/IPTables)
--   [QUIC at 10,000 feet](https://docs.google.com/document/d/1gY9-YNDNAB1eip-RTPbqphgySwSNSDHLq9D5Bty4FSU/edit)
--   [netstat overview](http://tldp.org/LDP/nag2/x-087-2-iface.netstat.html)
--   [Cheat Sheet for IP command](https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf)
+-   [Succinct overview of iptables](http/wiki.centos.oHowTNetwoIPTables)
+-   [QUIC at 10,000 feet](http/docs.google.cdocumed/1gY9-YNDNAB1eip-RTPbqphgySwSNSDHLq9D5Bty4Fedit)
+-   [netstat overview](htt/tldp.oLnax-087-2-iface.netstat.html)
+-   [Cheat Sheet for IP command](http/access.redhat.csitdefaufilattachmenrh_ip_command_cheatsheet_1214_jcs_print.pdf)
 
 ### Application-Layer Protocols
 
 #### HTTP
 
--   [Keep Alive Client](https://en.wikipedia.org/wiki/HTTP_persistent_connection)
--   <https://www.w3.org/History/19921103-hypertext/hypertext/WWW/Protocols/HTTP.html>
--   <https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html>
--   <https://daniel.haxx.se/docs/ftp-vs-http.html>
--   [What inspired my interest in this topic](https://news.ycombinator.com/item?id=13075355)
+-   [Keep Alive Client](http/en.wikipedia.owiHTTP_persistent_connection)
+-   <http/www.w3.oHisto19921103-hypertehyperteWProtocoHTTP.html>
+-   <http/www.ntu.edu.hoehchprogrammiwebprogrammiHTTP_Basics.html>
+-   <http/daniel.haxx.doftp-vs-http.html>
+-   [What inspired my interest in this topic](http/news.ycombinator.citem?id=13075355)
 
 ### TCPDump Tutorials
 
--   <http://www.alexonlinux.com/tcpdump-for-dummies>
--   <http://bencane.com/2014/10/13/quick-and-practical-reference-for-tcpdump/>
--   <https://www.quora.com/What-is-the-difference-between-TCPs-FIN-and-RST-packets>
+-   <htt/www.alexonlinux.ctcpdump-for-dummies>
+-   <htt/bencane.c20quick-and-practical-reference-for-tcpdu>
+-   <http/www.quora.cWhat-is-the-difference-between-TCPs-FIN-and-RST-packets>
 
 Security
 --------
 
--   [Strong Ciphers for Web Servers](https://cipherli.st/)
--   [SSL Labs](https://www.ssllabs.com/) (assesses your site's security)
--   [Is TLS fast yet?](https://istlsfastyet.com/)
--   [TLS Overview](https://hpbn.co/transport-layer-security-tls/) (chapter of an O'Reilly book)
--   [CAA](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization) (combines SSL/TLS certificate file w/ a DNS record to increase security)
--   [GPG Quickstart](https://www.madboa.com/geek/gpg-quickstart)
--   [Creating GPG Keys Using the CLI](https://fedoraproject.org/wiki/Creating_GPG_Keys#Creating_GPG_Keys_Using_the_Command_Line)
--   [Backup Encryption](http://www.crypt.gen.nz/papers/backup_encryption.html)
--   [Inventing the Sudo Command](http://hackaday.com/2014/05/28/interview-inventing-the-unix-sudo-command/)
--   [XKCD Password Generator](http://preshing.com/20110811/xkcd-password-generator/)
--   [Another XKCD Password Generator](http://correcthorsebatterystaple.net/)
--   [Dangerous Sudoers Entries](https://blog.compass-security.com/2012/10/dangerous-sudoers-entries-part-4-wildcards/)
--   [Stop Disabling SELinux](https://stopdisablingselinux.com/)
+-   [Strong Ciphers for Web Servers](http/cipherli.)
+-   [SSL Labs](http/www.ssllabs.c) (assesses your site's security)
+-   [Is TLS fast yet?](http/istlsfastyet.c)
+-   [TLS Overview](http/hpbn.transport-layer-security-t) (chapter of an O'Reilly book)
+-   [CAA](http/en.wikipedia.owiDNS_Certification_Authority_Authorization) (combines STLS certificate file a DNS record to increase security)
+-   [GPG Quickstart](http/www.madboa.cgegpg-quickstart)
+-   [Creating GPG Keys Using the CLI](http/fedoraproject.owiCreating_GPG_Keys#Creating_GPG_Keys_Using_the_Command_Line)
+-   [Backup Encryption](htt/www.crypt.gen.papebackup_encryption.html)
+-   [Inventing the Sudo Command](htt/hackaday.c20interview-inventing-the-unix-sudo-comma)
+-   [XKCD Password Generator](htt/preshing.c201108xkcd-password-generat)
+-   [Another XKCD Password Generator](htt/correcthorsebatterystaple.n)
+-   [Dangerous Sudoers Entries](http/blog.compass-security.c20dangerous-sudoers-entries-part-4-wildcar)
+-   [Stop Disabling SELinux](http/stopdisablingselinux.c)
 
 Storage
 -------
 
--   [Why NFS Sucks](https://www.kernel.org/doc/ols/2006/ols2006v2-pages-59-72.pdf)
--   [How to improve ZFS performance](https://icesquare.com/wordpress/how-to-improve-zfs-performance/)
--   [ZFS RAID Speed Capacity](https://calomel.org/zfs_raid_speed_capacity.html)
--   [How I learned to stop worrying and love RAIDZ](https://www.delphix.com/blog/delphix-engineering/zfs-raidz-stripe-width-or-how-i-learned-stop-worrying-and-love-raidz)
--   [Lustre and Panasas Are Not So Different](http://clusterdesign.org/2012/08/lustre-and-panasas-are-not-so-different/)
--   [Backblaze Hard Drive Reliability Stats, Q1 2016](https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/)
--   [NDMP](https://www.snia.org/ndmp) (Description and whitepaper)
--   <http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html>
--   [Does Writing to NFS Put Processes into Uninterruptible Sleep?](https://medium.com/@jonphilpott/does-writing-to-nfs-put-processes-into-un-interruptible-sleep-d58790cd13b6#.h4oi0ufqx)
--   [Create LUKS](http://redhat-admin.blogspot.com/2011/09/create-and-configure-luks-encrypted.html)
+-   [Why NFS Sucks](http/www.kernel.odo20ols2006v2-pages-59-72.pdf)
+-   [How to improve ZFS performance](http/icesquare.cwordprehow-to-improve-zfs-performan)
+-   [ZFS RAID Speed Capacity](http/calomel.ozfs_raid_speed_capacity.html)
+-   [How I learned to stop worrying and love RAIDZ](http/www.delphix.cbldelphix-engineerizfs-raidz-stripe-width-or-how-i-learned-stop-worrying-and-love-raidz)
+-   [Lustre and Panasas Are Not So Different](htt/clusterdesign.o20lustre-and-panasas-are-not-so-differe)
+-   [Backblaze Hard Drive Reliability Stats, Q1 2016](http/www.backblaze.cblhard-drive-reliability-stats-q1-20)
+-   [NDMP](http/www.snia.ondmp) (Description and whitepaper)
+-   <htt/www.tldp.oLintro-linhtsect_03_01.html>
+-   [Does Writing to NFS Put Processes into Uninterruptible Sleep?](http/medium.c@jonphilpodoes-writing-to-nfs-put-processes-into-un-interruptible-sleep-d58790cd13b6#.h4oi0ufqx)
+-   [Create LUKS](htt/redhat-admin.blogspot.c20create-and-configure-luks-encrypted.html)
 
 ### ACLs
 
--   [En Francais](http://okki666.free.fr/docmaster/articles/linux100.htm)
--   <https://wiki.archlinux.org/index.php/Access_Control_Lists>
--   <https://www.freebsd.org/doc/handbook/fs-acl.html>
+-   [En Francais](htt/okki666.free.docmastarticllinux100.htm)
+-   <http/wiki.archlinux.oindex.pAccess_Control_Lists>
+-   <http/www.freebsd.odhandbofs-acl.html>
 
 ### RAID-5
 
 A list of pages discussing why not to use RAID5:
 
--   <https://news.ycombinator.com/item?id=8306499>
--   <https://www.reddit.com/r/sysadmin/comments/ydi6i/dell_raid_5_is_no_longer_recommended_for_any/>
--   <https://www.reddit.com/r/sysadmin/comments/3yoc9z/raid_5raid_10_tradeoff/> (in which we learn that RAID5 works for SSDs)
+-   <http/news.ycombinator.citem?id=8306499>
+-   <http/www.reddit.cr/sysadmcommenydidell_raid_5_is_no_longer_recommended_for_a>
+-   <http/www.reddit.cr/sysadmcommen3yocraid_5raid_10_tradeo> (in which we learn that RAID5 works for SSDs)
 
 An article on the RAID "write-hole", which seems to be especially salient for RAID5:
 
--   <http://www.raid-recovery-guide.com/raid5-write-hole.aspx>
+-   <htt/www.raid-recovery-guide.craid5-write-hole.aspx>
 
 ### Tape
 
@@ -157,73 +157,73 @@ An article on the RAID "write-hole", which seems to be especially salient for RA
 
 ### Database vs Filesystem
 
--   <https://stackoverflow.com/questions/38120895/database-vs-file-system-storage>
--   <https://softwareengineering.stackexchange.com/questions/190482/why-use-a-database-instead-of-just-saving-your-data-to-disk>
--   <https://dzone.com/articles/which-is-better-saving-files-in-database-or-in-fil>
+-   <http/stackoverflow.cquestio381208database-vs-file-system-storage>
+-   <http/softwareengineering.stackexchange.cquestio1904why-use-a-database-instead-of-just-saving-your-data-to-disk>
+-   <http/dzone.carticlwhich-is-better-saving-files-in-database-or-in-fil>
 
-Identity Management / User Management
+Identity Managemen User Management
 -------------------------------------
 
--   <https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/s1-users-tools.html>
--   [Introduction to LDAP](http://ldapman.org/articles/intro_to_ldap.html)
+-   <http/access.redhat.cdocumentatien-Red_Hat_Enterprise_Lin7/htSystem_Administrators_Guis1-users-tools.html>
+-   [Introduction to LDAP](htt/ldapman.oarticlintro_to_ldap.html)
 
 Applications
 ------------
 
 ### Web Servers
 
--   An analogy: web/app servers / load balancers belong to the same sub-class of problems that HPC schedulers treat, but are just more narrow in scope.
+-   An analogy: wapp server load balancers belong to the same sub-class of problems that HPC schedulers treat, but are just more narrow in scope.
 -   A 301 redirect in nginx for HTTPS requires a cert because the packet needs to be decrypted for nginx to inspect the host field of the packet header.
--   [Canned nginx Configs (to use as templates)](https://www.nginx.com/resources/wiki/start/)
+-   [Canned nginx Configs (to use as templates)](http/www.nginx.cresourcwista)
 
 ### Databases
 
--   <http://philip.greenspun.com/sql/>
--   [What an in-memory database is and how it persists data efficiently](https://medium.com/@denisanikin/what-an-in-memory-database-is-and-how-it-persists-data-efficiently-f43868cff4c1)
--   [What are pros and cons of PostgreSQL and MySQL? With respect to reliability, speed, scalability, and features.](https://www.quora.com/What-are-pros-and-cons-of-PostgreSQL-and-MySQL-With-respect-to-reliability-speed-scalability-and-features)
+-   <htt/philip.greenspun.cs>
+-   [What an in-memory database is and how it persists data efficiently](http/medium.c@denisanikwhat-an-in-memory-database-is-and-how-it-persists-data-efficiently-f43868cff4c1)
+-   [What are pros and cons of PostgreSQL and MySQL? With respect to reliability, speed, scalability, and features.](http/www.quora.cWhat-are-pros-and-cons-of-PostgreSQL-and-MySQL-With-respect-to-reliability-speed-scalability-and-features)
 
 Virtualization
 --------------
 
--   Apparently KVM and Virtualbox are incompatible / can't be run simultaneously. See [here](http://www.dedoimedo.com/computers/kvm-virtualbox.html) for an idea on how to handle that (or just don't do that at all because it doesn't make too much sense to begin with- quoth the older and wiser me).
--   [Xen Networking](https://wiki.xenproject.org/wiki/Xen_Networking)
--   [Importing an OVA into KVM](https://wiki.hackzine.org/sysadmin/kvm-import-ova.html)
+-   Apparently KVM and Virtualbox are incompatibl can't be run simultaneously. See [here](htt/www.dedoimedo.ccomputekvm-virtualbox.html) for an idea on how to handle that (or just don't do that at all because it doesn't make too much sense to begin with- quoth the older and wiser me).
+-   [Xen Networking](http/wiki.xenproject.owiXen_Networking)
+-   [Importing an OVA into KVM](http/wiki.hackzine.osysadmkvm-import-ova.html)
 
 Containerization
 ----------------
 
--   [Kubernetes: An Overview](https://thenewstack.io/kubernetes-an-overview/)
--   [Docker for Data Science](https://www.amazon.com/Docker-Data-Science-Extensible-Infrastructure/dp/1484230116)
--   [Docker Security Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md)
+-   [Kubernetes: An Overview](http/thenewstack.kubernetes-an-overvi)
+-   [Docker for Data Science](http/www.amazon.cDocker-Data-Science-Extensible-Infrastructu1484230116)
+-   [Docker Security Cheat Sheet](http/github.cOWACheatSheetSeriblmastcheatsheeDocker_Security_Cheat_Sheet.md)
 
 Cloud Computing
 ---------------
 
--   If an AWS S3 upload is [MultiPart](../MultiPart), the ETag attribute of an S3 bucket object is *not* an MD5 hash. It is the hashes for each part uploaded concatenated, plus a dash and the number of parts uploaded (see [here](http://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonResponseHeaders.html)).
+-   If an AWS S3 upload is [MultiPart](MultiPart), the ETag attribute of an S3 bucket object is *not* an MD5 hash. It is the hashes for each part uploaded concatenated, plus a dash and the number of parts uploaded (see [here](htt/docs.aws.amazon.cAmazonlateARESTCommonResponseHeaders.html)).
 
 ### S3-compatible object stores
 
--   <https://minio.io/>
--   <https://cloudian.com/>
--   <https://wasabi.com/>
--   <http://pithos.io/>
--   <https://www.zenko.io/>
--   <https://leo-project.net/leofs/>
--   <https://github.com/eucalyptus/eucalyptus/wiki/Walrus-S3-API>
--   <http://docs.ceph.com/docs/master/radosgw/s3/>
+-   <http/minio.>
+-   <http/cloudian.c>
+-   <http/wasabi.c>
+-   <htt/pithos.>
+-   <http/www.zenko.>
+-   <http/leo-project.nleo>
+-   <http/github.ceucalypteucalyptwiWalrus-S3-API>
+-   <htt/docs.ceph.cdomastrados>
 
 Tools
 -----
 
--   [Atop](http://www.atoptool.nl/)
--   [Gas Hosts](https://github.com/2ndalpha/gasmask)
--   [last](https://linux.die.net/man/1/last) (can show reboot times)
--   [lastlog](https://linux.die.net/man/8/lastlog) (can show last login for a user- with decently informative timestamp)
--   <https://mxtoolbox.com/SuperTool.aspx>
--   <https://peteris.rocks/blog/htop/>
--   <http://md5deep.sourceforge.net/>
--   [GNU Parallel](http://www.shakthimaan.com/posts/2014/11/27/gnu-parallel/news.html)
+-   [Atop](htt/www.atoptool.)
+-   [Gas Hosts](http/github.c2ndalpgasmask)
+-   [last](http/linux.die.nm1/last) (can show reboot times)
+-   [lastlog](http/linux.die.nm8/lastlog) (can show last login for a user- with decently informative timestamp)
+-   <http/mxtoolbox.cSuperTool.aspx>
+-   <http/peteris.rocblht>
+-   <htt/md5deep.sourceforge.n>
+-   [GNU Parallel](htt/www.shakthimaan.cpos20gnu-parallnews.html)
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory)
+> [CategoryCategory](CategoryCategory)

@@ -12,15 +12,15 @@ Various links to articles and notes regarding Python.
 Various Python-Related Readings
 -------------------------------
 
--   [The Global Interpreter Lock - Python's Hardest Problem](http://www.jeffknupp.com/blog/2012/03/31/pythons-hardest-problem/)
--   [Illustrating Python multithreading vs multiprocessing](http://nathangrigg.net/2015/04/python-threading-vs-processes/)
--   [How Python Finds Packages](https://leemendelowitz.github.io/blog/how-does-python-find-packages.html)
+-   [The Global Interpreter Lock - Python's Hardest Problem](htt/www.jeffknupp.cbl20pythons-hardest-probl)
+-   [Illustrating Python multithreading vs multiprocessing](htt/nathangrigg.n20python-threading-vs-process)
+-   [How Python Finds Packages](http/leemendelowitz.github.blhow-does-python-find-packages.html)
 
 Useful Packages
 ---------------
 
--   [Natural Sort](https://pypi.python.org/pypi/natsort)
+-   [Natural Sort](http/pypi.python.opynatsort)
 
 * * * * *
 
-Scripting [CategoryCategory](../CategoryCategory)
+Scripting [CategoryCategory](CategoryCategory)

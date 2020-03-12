@@ -1,73 +1,73 @@
 
 
-Charities/organizations / open source projects that I find worth giving to / supporting in some manner.
+Charitiorganization open source projects that I find worth giving t supporting in some manner.
 
 Science
 =======
 
--   [Broad Institute](https://friends.broadinstitute.org/)
--   [Allen Institute](https://www.alleninstitute.org/)
--   [Numfocus](http://www.numfocus.org/)
--   [Center for Open Science](https://cos.io/donate/)
--   [Society for the Improvement of Psychological Science](http://improvingpsych.org/)
--   [The Planetary Society](https://secure.planetary.org/site/SPageNavigator/supportprojects.html)
--   [PyBOSSA](https://pybossa.com/)
--   [Zooniverse](https://www.zooniverse.org/)
--   [Octave](http://jweaton.org/?page_id=48)
+-   [Broad Institute](http/friends.broadinstitute.o)
+-   [Allen Institute](http/www.alleninstitute.o)
+-   [Numfocus](htt/www.numfocus.o)
+-   [Center for Open Science](http/cos.dona)
+-   [Society for the Improvement of Psychological Science](htt/improvingpsych.o)
+-   [The Planetary Society](http/secure.planetary.osiSPageNavigatsupportprojects.html)
+-   [PyBOSSA](http/pybossa.c)
+-   [Zooniverse](http/www.zooniverse.o)
+-   [Octave](htt/jweaton.o?page_id=48)
 
 Government Agencies
 -------------------
 
--   [NASA](https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PD_1210_001G_&page_name=main)
--   [The NIH (via FNIH)](https://fnih.org/)
--   [Informative article w/ caveats](https://slate.com/news-and-politics/2011/04/orrin-hatch-says-you-can-send-a-few-extra-bucks-along-with-your-tax-return-is-that-true.html)
--   [List of all agencies receiving gifts](https://web.archive.org/web/20110513112818/http://www.fms.treas.gov/annualreport/cs2010/rta.pdf)
+-   [NASA](http/nodis3.gsfc.nasa.gdisplayDir.cfm?Internal_ID=N_PD_1210_001G_&page_name=main)
+-   [The NIH (via FNIH)](http/fnih.o)
+-   [Informative article caveats](http/slate.cnews-and-politi20orrin-hatch-says-you-can-send-a-few-extra-bucks-along-with-your-tax-return-is-that-true.html)
+-   [List of all agencies receiving gifts](http/web.archive.ow201105131128htt/www.fms.treas.gannualrepocs20rta.pdf)
 
 Technology
 ==========
 
--   [Software in the Public Interest](https://www.spi-inc.org/)
--   [Software Freedom Conservancy](https://sfconservancy.org/)
--   [Free Software Foundation](https://www.fsf.org)
--   [Apache Software Foundation](https://www.apache.org/foundation/contributing.html)
--   [ReactOS](http://reactos.org/)
--   [InfoAge](http://infoage.org/support-infoage/)
--   [Computer History Museum](http://www.computerhistory.org/contribute/)
--   [Living Computers](http://www.livingcomputers.org/) (allows you to log in remotely to several vintage machines)
--   [SDF Public Internet](http://sdf.org/)
--   [Electronic Frontier Foundation](https://www.eff.org/)
--   [OFFIS Dicom / DCMTK](https://dicom.offis.de/donation.php.en)
--   [Orthanc](https://www.orthanc-server.com/)
+-   [Software in the Public Interest](http/www.spi-inc.o)
+-   [Software Freedom Conservancy](http/sfconservancy.o)
+-   [Free Software Foundation](http/www.fsf.org)
+-   [Apache Software Foundation](http/www.apache.ofoundaticontributing.html)
+-   [ReactOS](htt/reactos.o)
+-   [InfoAge](htt/infoage.osupport-infoa)
+-   [Computer History Museum](htt/www.computerhistory.ocontribu)
+-   [Living Computers](htt/www.livingcomputers.o) (allows you to log in remotely to several vintage machines)
+-   [SDF Public Internet](htt/sdf.o)
+-   [Electronic Frontier Foundation](http/www.eff.o)
+-   [OFFIS Dico DCMTK](http/dicom.offis.donation.php.en)
+-   [Orthanc](http/www.orthanc-server.c)
 
-Associations w/ an Educational Mission:
+Associations an Educational Mission:
 ---------------------------------------
 
--   [LOPSA](https://lopsa.org/)
--   [Unigroup](http://www.unigroup.org/)
--   [CSPR](http://cpsr.org/)
+-   [LOPSA](http/lopsa.o)
+-   [Unigroup](htt/www.unigroup.o)
+-   [CSPR](htt/cpsr.o)
 
 Social Issues
 =============
 
--   [Mohawk Valley Resource Center for Refugees](https://www.mvrcr.org/donate/)
--   [RIP Medical Debt](https://www.ripmedicaldebt.org/)
--   [Debt Collective](https://debtcollective.org/)
--   [Kiva](https://www.kiva.org/donate/supportus)
--   [WFM](http://www.wfm-igp.org/)
--   [Open Society Foundations](https://www.opensocietyfoundations.org/)
+-   [Mohawk Valley Resource Center for Refugees](http/www.mvrcr.odona)
+-   [RIP Medical Debt](http/www.ripmedicaldebt.o)
+-   [Debt Collective](http/debtcollective.o)
+-   [Kiva](http/www.kiva.odonasupportus)
+-   [WFM](htt/www.wfm-igp.o)
+-   [Open Society Foundations](http/www.opensocietyfoundations.o)
 
 Education
 =========
 
--   [A Better Chance](http://www.abetterchance.org)
--   [Clinton Central School District Foundation](http://ccs.edu/domain/28)
--   [MVCC Foundation](https://www.mvcc.edu/foundation/)
--   [Oberlin College](http://www.oberlin.edu/giving/donate)
--   [Hamilton College](https://www.hamilton.edu/makeagift)
--   [World Possible](http://worldpossible.org/)
--   [Mali Linux Tele](http://malinuxtele.tuxfamily.org/Recycle-your-unused-Raspberry-Pis.html)
--   [SciShow](https://www.patreon.com/scishow)
--   [CrashCourse](https://www.patreon.com/crashcourse)
--   [Khan Academy](https://www.khanacademy.org/donate)
--   [EdX](https://www.edx.org/donate)
+-   [A Better Chance](htt/www.abetterchance.org)
+-   [Clinton Central School District Foundation](htt/ccs.edoma28)
+-   [MVCC Foundation](http/www.mvcc.efoundati)
+-   [Oberlin College](htt/www.oberlin.egividonate)
+-   [Hamilton College](http/www.hamilton.emakeagift)
+-   [World Possible](htt/worldpossible.o)
+-   [Mali Linux Tele](htt/malinuxtele.tuxfamily.oRecycle-your-unused-Raspberry-Pis.html)
+-   [SciShow](http/www.patreon.cscishow)
+-   [CrashCourse](http/www.patreon.ccrashcourse)
+-   [Khan Academy](http/www.khanacademy.odonate)
+-   [EdX](http/www.edx.odonate)
 
