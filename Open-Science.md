@@ -12,4 +12,4 @@ Pages related to open science.
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory)
+> [CategoryCategory](CategoryCategory)

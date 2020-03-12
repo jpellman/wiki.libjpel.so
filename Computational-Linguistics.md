@@ -11,4 +11,4 @@ Latent Semantic Analysis
 
 * * * * *
 
-> [Hobbies](../Hobbies)
+> [Hobbies](Hobbies)

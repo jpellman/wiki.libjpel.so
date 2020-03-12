@@ -28,4 +28,4 @@ Advice:
 
 * * * * *
 
-> [Academic-Computing](../Academic-Computing) [Scientific-Computing](../Scientific-Computing)
+> [Academic-Computing](Academic-Computing) [Scientific-Computing](Scientific-Computing)

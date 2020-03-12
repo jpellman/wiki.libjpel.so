@@ -33,4 +33,4 @@ These pre-trained models can be put together into a searchable "graph of experti
 
 * * * * *
 
-> [MachineLearning](../MachineLearning)
+> [MachineLearning](MachineLearning)

@@ -24,4 +24,4 @@ Links
 
 * * * * *
 
-> [Cognitive-Science](../Cognitive-Science) [Scientific-Computing](../Scientific-Computing)
+> [Cognitive-Science](Cognitive-Science) [Scientific-Computing](Scientific-Computing)

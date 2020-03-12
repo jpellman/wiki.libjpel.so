@@ -3,9 +3,9 @@
 Notes on Backups of Maxwell's ZFS Pool to AWS
 =============================================
 
-An anacron script runs on [Maxwell](../Maxwell) once a month (i.e., it lives in */etc/cron.monthly*). It runs a series of commands based off the [StackOverflow](../StackOverflow) post [here](https://stackoverflow.com/questions/45786142/storing-locally-encrypted-incremental-zfs-snapshots-in-amazon-glacier) to generate encrypted, compressed snapshots that live in an AWS bucket in US-East 2 (Ohio). The script only does incremental backups, and keeps track off the last incremental snapshot that was made using a text file. It also generates a script that allows me to make a manual backup to an external hard disk within my apartment. This is in case I accidentally tank my ZFS pool and need to restore from scratch, but don't want to have to wait 3-5 hours for Glacier to retrieve files.
+An anacron script runs on [Maxwell](Maxwell) once a month (i.e., it lives in */etc/cron.monthly*). It runs a series of commands based off the [StackOverflow](StackOverflow) post [here](https://stackoverflow.com/questions/45786142/storing-locally-encrypted-incremental-zfs-snapshots-in-amazon-glacier) to generate encrypted, compressed snapshots that live in an AWS bucket in US-East 2 (Ohio). The script only does incremental backups, and keeps track off the last incremental snapshot that was made using a text file. It also generates a script that allows me to make a manual backup to an external hard disk within my apartment. This is in case I accidentally tank my ZFS pool and need to restore from scratch, but don't want to have to wait 3-5 hours for Glacier to retrieve files.
 
-The commands used (taken from the [StackOverflow](../StackOverflow) post above) are as follows:
+The commands used (taken from the [StackOverflow](StackOverflow) post above) are as follows:
 
 Sending a full backup:
 
@@ -37,4 +37,4 @@ The string that's fed into this param is ESTIMATED\_UPLOAD from the following:
 
 * * * * *
 
-> [Home-Lab](../Home-Lab)
+> [Home-Lab](Home-Lab)

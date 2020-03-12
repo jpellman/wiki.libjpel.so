@@ -3,7 +3,7 @@
 Learning
 ========
 
-This page contains notes from the MOOC [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn/) on Coursera. I expect there to be much overlap in scope and content between this and [Memory](../Memory).
+This page contains notes from the MOOC [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn/) on Coursera. I expect there to be much overlap in scope and content between this and [Memory](Memory).
 
 Week 1
 ------
@@ -155,4 +155,4 @@ Week 4
 
 * * * * *
 
-[Cognitive-Science](../Cognitive-Science)
+[Cognitive-Science](Cognitive-Science)

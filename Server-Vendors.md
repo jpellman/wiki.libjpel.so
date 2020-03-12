@@ -14,4 +14,4 @@ A definition: VAR = Value-Added Reseller. A [discussion](https://www.reddit.com/
 
 * * * * *
 
-> [Systems-Administration](../Systems-Administration)
+> [Systems-Administration](Systems-Administration)

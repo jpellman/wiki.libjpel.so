@@ -63,4 +63,4 @@ References
 
 * * * * *
 
-[Cognitive-Science](../Cognitive-Science)
+[Cognitive-Science](Cognitive-Science)

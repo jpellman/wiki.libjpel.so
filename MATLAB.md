@@ -19,4 +19,4 @@ Porting MATLAB Code Over
 
 * * * * *
 
-> [Scientific-Computing](../Scientific-Computing)
+> [Scientific-Computing](Scientific-Computing)

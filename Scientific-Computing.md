@@ -8,4 +8,4 @@ A collection of pages relating to scientific computing and the administration of
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory) [Academic-Computing](../Academic-Computing)
+> [CategoryCategory](CategoryCategory) [Academic-Computing](Academic-Computing)

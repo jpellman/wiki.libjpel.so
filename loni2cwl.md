@@ -12,4 +12,4 @@ See:
 
 * * * * *
 
-> [Pipelining](../Pipelining)
+> [Pipelining](Pipelining)

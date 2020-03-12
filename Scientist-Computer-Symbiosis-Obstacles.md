@@ -20,9 +20,9 @@ Today, my completely ancedotal observation is that for human/computer symbiosis 
 2.  Scientific literature condensed into machine-parseable data that can be readily extracted (i.e., non-voice / handwriting related NLP). Methods and results sections need to be easy to aggregate and evaluate at a glance- the excessive verbosity of most publications is a hindrance to scientific progress. Metrics similar to those aggregated in [The secret lives of experiments](https://www.ncbi.nlm.nih.gov/pubmed/22796459) should be automatically generated constantly, without need for painstaking human intervention.
 3.  Related to the above, there should be open datasets that are readily discoverable.
 4.  Some sort of intuitive workflow system.
-5.  Hardware-based accelerators (although this may be more of an optimization; see [ASICs](../ASICs)).
+5.  Hardware-based accelerators (although this may be more of an optimization; see [ASICs](ASICs)).
 
-Of the above, I think that I personally can only contribute to the top 3, and that I should focus especially on packaging and environments / [DevOps](../DevOps) / [SciOps](../SciOps) in the immediate future. [Spack](https://spack.io/), [Nix](https://nixos.org/nix/) and [Ansible](https://www.ansible.com/) (or other config management systems) seem to be the best tools for this. I lean towards Spack and Ansible, since they seem to have the lowest barrier to entry conceptually / are more simple and elegant to maintain. The usage of DSLs should probably be discouraged absent any other additional advantages (I'm looking at you, Puppet, Cfengine, and nix).
+Of the above, I think that I personally can only contribute to the top 3, and that I should focus especially on packaging and environments / [DevOps](DevOps) / [SciOps](SciOps) in the immediate future. [Spack](https://spack.io/), [Nix](https://nixos.org/nix/) and [Ansible](https://www.ansible.com/) (or other config management systems) seem to be the best tools for this. I lean towards Spack and Ansible, since they seem to have the lowest barrier to entry conceptually / are more simple and elegant to maintain. The usage of DSLs should probably be discouraged absent any other additional advantages (I'm looking at you, Puppet, Cfengine, and nix).
 
 Using NLP to enhance scholarship is a problem that ideally academic libraries should tackle via enhancements to their institutional repositories (or at least subscription services perhaps could work on this). It is possible (even likely) that scientists may delegate this responsibility to themselves, however (as occurred with arXiv). I see this as being of interest to me, but it should not occupy as much time as packaging.
 
@@ -34,12 +34,12 @@ I don't foresee working on hardware acceleration in any capacity beyond remainin
 
 I address the above problems in more depth in the following pages:
 
-1.  [Packaging](../Packaging)
-2.  [Metascience](../Metascience)
-3.  TODO - probable sub-page of [Open-Science](../Open-Science). Relevant articles: [here](https://dl.acm.org/doi/pdf/10.1145/3366623.3368140?download=true)
-4.  TODO - [CWL-Make](../CWL-Make) might be adapted for this.
-5.  [ASICs](../ASICs)
+1.  [Packaging](Packaging)
+2.  [Metascience](Metascience)
+3.  TODO - probable sub-page of [Open-Science](Open-Science). Relevant articles: [here](https://dl.acm.org/doi/pdf/10.1145/3366623.3368140?download=true)
+4.  TODO - [CWL-Make](CWL-Make) might be adapted for this.
+5.  [ASICs](ASICs)
 
 * * * * *
 
-> [Scientific-Computing](../Scientific-Computing)
+> [Scientific-Computing](Scientific-Computing)

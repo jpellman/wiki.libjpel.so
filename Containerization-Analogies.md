@@ -14,4 +14,4 @@ Dockerhub / container image registry : Yum repository
 
 * * * * *
 
-> [Systems-Administration](../Systems-Administration)
+> [Systems-Administration](Systems-Administration)

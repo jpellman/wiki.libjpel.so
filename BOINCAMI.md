@@ -49,4 +49,4 @@ Make a snapshot of the BOINC data volume beforehand, since you don't know which 
 
 * * * * *
 
-> [Scientific-Computing](../Scientific-Computing)
+> [Scientific-Computing](Scientific-Computing)

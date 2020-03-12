@@ -75,4 +75,4 @@ Ingredients
 
 * * * * *
 
-> [Hobbies](../Hobbies)
+> [Hobbies](Hobbies)

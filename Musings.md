@@ -3,8 +3,8 @@
 Various Musings
 ===============
 
--   "Release early, release often." - Principles of '[DevOps](../DevOps)' / Continuous Integration in accord with the [Bermuda Principles](https://en.wikipedia.org/wiki/Bermuda_Principles). Could such practices be applied to scientific data? Is not programming code data in a sense?
-    -   [DataOps](../DataOps) - '[DevOps](../DevOps) for Data Science'
+-   "Release early, release often." - Principles of '[DevOps](DevOps)' / Continuous Integration in accord with the [Bermuda Principles](https://en.wikipedia.org/wiki/Bermuda_Principles). Could such practices be applied to scientific data? Is not programming code data in a sense?
+    -   [DataOps](DataOps) - '[DevOps](DevOps) for Data Science'
         -   a.k.a. data warehousing
         -   Jupyter notebooks do for science what configuration management tools like Puppet/Chef do for systems administration.
 -   Thought: A machine-learning based scheduler for scientific workflow management.

@@ -24,4 +24,4 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 * * * * *
 
-[Systems-Administration](../Systems-Administration)
+[Systems-Administration](Systems-Administration)

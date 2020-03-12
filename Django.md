@@ -8,4 +8,4 @@ Notes on preparing websites in Django.
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory)
+> [CategoryCategory](CategoryCategory)

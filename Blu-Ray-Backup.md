@@ -18,7 +18,7 @@ And you can use the following to generate the actual image files. Note that this
 
     mkisofs -udf -V $VOLNAME -D -r --joliet-long -graft-points -allow-limited-size -path-list $PATH_TO_DIRSPLIT_LIST -o $ISONAME
 
-Once an image is generated, copy it down to [Bruno](../Bruno) (or equivalent desktop/laptop). Use `scp` to get a progress bar, and to eliminate some of the `rsync` overhead (not as necessary when there's only one file and file metadata doesn't matter).
+Once an image is generated, copy it down to [Bruno](Bruno) (or equivalent desktop/laptop). Use `scp` to get a progress bar, and to eliminate some of the `rsync` overhead (not as necessary when there's only one file and file metadata doesn't matter).
 
     scp jpellman@maxwell.so:$ISOPATH  .
 
@@ -33,4 +33,4 @@ Speeds based off [this LG Blu-Ray Writer](https://smile.amazon.com/LG-Electronic
 
 * * * * *
 
-> [Home-Lab](../Home-Lab)
+> [Home-Lab](Home-Lab)

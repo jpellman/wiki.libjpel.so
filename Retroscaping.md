@@ -3,7 +3,7 @@
 Retroscaping
 ============
 
-In addition to [Retrocomputing](../Retrocomputing) and [VintageScientific-Computing](../VintageScientific-Computing), I have an interest in history more broadly. Specifically, I am interested in historical reconstruction (a la the holodeck in Star Trek: TNG) and the potential of VR to help facilitate accurate depictions of past places and cultures.
+In addition to [Retrocomputing](Retrocomputing) and [VintageScientific-Computing](VintageScientific-Computing), I have an interest in history more broadly. Specifically, I am interested in historical reconstruction (a la the holodeck in Star Trek: TNG) and the potential of VR to help facilitate accurate depictions of past places and cultures.
 
 I propose to use the noun *retroscape* ("A landscape or setting filled with things from the past." according to [Wiktionary](https://en.wiktionary.org/wiki/retroscape)) as a verb to refer to such virtual reconstructions. I believe in using historical data aggregated from multiple sources (archives, historical societies, flea markets, cartographers, etc) to re-animate humanity's collective past.
 
@@ -13,7 +13,7 @@ Geography
 ---------
 
 -   [NYPL Surveyor](http://spacetime.nypl.org/surveyor) : A crowdsourced tool that allows you to enrich the metadata of historical photographs by giving them an associated geolocation. Currently only scoped to NYC.
--   [NYPL Warper](http://maps.nypl.org/warper/) : A crowdsourced georectification tool. I keep track of maps I've rectified at [Georectification](../Georectification).
+-   [NYPL Warper](http://maps.nypl.org/warper/) : A crowdsourced georectification tool. I keep track of maps I've rectified at [Georectification](Georectification).
 -   [USGS Topographic Maps](https://www.usgs.gov/core-science-systems/national-geospatial-program/topographic-maps)
 -   [USGS Historical Topographic Maps](https://livingatlas.arcgis.com/topoexplorer/index.html) (also [here](https://www.usgs.gov/core-science-systems/ngp/topo-maps/historical-topographic-map-collection?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 
@@ -54,4 +54,4 @@ Related Examples from the Wild
 
 * * * * *
 
-> [Hobbies](../Hobbies)
+> [Hobbies](Hobbies)

@@ -40,7 +40,7 @@ Bootloaders
 Scripting Languages
 -------------------
 
--   [Python](../Python)
+-   [Python](Python)
 
 ### Bash
 
@@ -199,7 +199,7 @@ Containerization
 Cloud Computing
 ---------------
 
--   If an AWS S3 upload is [MultiPart](../MultiPart), the ETag attribute of an S3 bucket object is *not* an MD5 hash. It is the hashes for each part uploaded concatenated, plus a dash and the number of parts uploaded (see [here](http://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonResponseHeaders.html)).
+-   If an AWS S3 upload is [MultiPart](MultiPart), the ETag attribute of an S3 bucket object is *not* an MD5 hash. It is the hashes for each part uploaded concatenated, plus a dash and the number of parts uploaded (see [here](http://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonResponseHeaders.html)).
 
 ### S3-compatible object stores
 
@@ -226,4 +226,4 @@ Tools
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory)
+> [CategoryCategory](CategoryCategory)

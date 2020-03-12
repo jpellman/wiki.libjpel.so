@@ -16,7 +16,7 @@ Major Past Academic Computing Initiatives of Note
 -   [The Stanford Integrated Digital Library Project](https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=100660) effectively morphed into Google (interestingly enough it looks like [Eolas](http://www.eolas.com/timeline.html) also was planning on submitting [a proposal](http://www.eolas.com/img/11-1-Hardin-letter94.pdf) for the same NSF initiative)
 -   [Kermit](http://www.kermitproject.org/) (Columbia site [here](http://www.columbia.edu/kermit/))
 -   [Pamacea](http://www.columbia.edu/acis/dev/projects/mod_auth_pamacea/) (also see general [Columbia AcIS UnixDev Projects](http://www.columbia.edu/acis/dev/unixdev/projects/))
--   [ITK](https://itk.org/ITK/project/about.html) / the Insight Software Consortium. [YouTube](../YouTube) founder Jawed Karim was briefly involved in this.
+-   [ITK](https://itk.org/ITK/project/about.html) / the Insight Software Consortium. [YouTube](YouTube) founder Jawed Karim was briefly involved in this.
 -   [Mach](https://www.cs.cmu.edu/afs/cs/project/mach/public/www/mach.html) (now part of OS X)
 -   Python was created first at [CWI](https://www.cwi.nl/) and then continued to be developed at [CNRI](https://www.cnri.reston.va.us/)
 -   EISPACK was created at Argonne National Laboratory and funded by the NSF and the US Atomic Energy Commission. LINPACK was developed at three universities (UCSD, University of New Mexico, and University of Maryland) and Argonne National Laboratory under NSF grant MCS76-03297.
@@ -44,4 +44,4 @@ Open Source / Community Source
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory)
+> [CategoryCategory](CategoryCategory)

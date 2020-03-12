@@ -9,16 +9,16 @@ Furthermore, call me old school (and I'm generally speaking a young-ish dude), b
 
 I want to go back to simpler days, and so I'm trying to figure out what tools and utilities I can use to get me back to the olden times. I got in to this mode of thinking once a long time ago (circa 2013) but I sem to have circled back again. Here are some ideas:
 
--   [Wiki CLI](https://github.com/walle/wiki) because I want to feel like [WAIS](https://en.wikipedia.org/wiki/Wide_area_information_server) is a thing outside of [LibraryComputing](../LibraryComputing).
+-   [Wiki CLI](https://github.com/walle/wiki) because I want to feel like [WAIS](https://en.wikipedia.org/wiki/Wide_area_information_server) is a thing outside of [LibraryComputing](LibraryComputing).
 -   [RTV](https://github.com/michael-lazar/rtv) because I want to feel like the USENET still exists.
 -   [Newsboat](https://github.com/newsboat/newsboat) because when I want to read news, I want to read *text* and not see some shitty auto-play video that tanks all of my cell phone data (fuck you NY Times).
 -   [cmdg](https://github.com/ThomasHabets/cmdg) for Gmail (since I think that Gmail labels have value over vanilla, standard e-mail). Maybe [aerc](https://aerc-mail.org/) would work too.
     -   mutt apparently has some support for Gmail labels: [here](https://stackoverflow.com/questions/23721726/how-to-display-gmail-labels-in-mutt) and [here](https://developers.google.com/gmail/imap/imap-extensions#access_to_gmail_labels_x-gm-labels)
     -   Other concerns about mutt w/ gmail: [here](https://spin.atomicobject.com/2014/02/11/connect-mutt-gmail/) and [here](https://news.ycombinator.com/item?id=12563398)
--   [MPS Youtube](https://github.com/mps-youtube/mps-youtube) to replace [YouTube](../YouTube). I'm sick of being distracted by recommended videos trying to convince me of some nonsense or that contain some [BuzzFeed](../BuzzFeed)-style listicle in video form.
+-   [MPS Youtube](https://github.com/mps-youtube/mps-youtube) to replace [YouTube](YouTube). I'm sick of being distracted by recommended videos trying to convince me of some nonsense or that contain some [BuzzFeed](BuzzFeed)-style listicle in video form.
 -   [Finch](https://developer.pidgin.im/wiki/Using%20Finch) for online chat.
 -   screen to give me the experience of cycling through a bunch of different tabs.
 -   For everything else, [brow.sh](https://www.brow.sh/) or Lynx.
 -   An Ansible playbook to set all this up.
--   A lightweight VM I can run on [Bruno](../Bruno) with all of this installed. OS X will need to stay because I like video games.
+-   A lightweight VM I can run on [Bruno](Bruno) with all of this installed. OS X will need to stay because I like video games.
 

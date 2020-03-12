@@ -35,4 +35,4 @@ Consumption
 
 * * * * *
 
-> [Hobbies](../Hobbies)
+> [Hobbies](Hobbies)

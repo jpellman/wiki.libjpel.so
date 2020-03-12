@@ -44,7 +44,7 @@ Applications
 -   ZFS on Linux
 -   AWS CLI
 -   rclone (for Google Drive backups)
--   [MoinMoin](../MoinMoin)
+-   [MoinMoin](MoinMoin)
 -   [Prey](https://preyproject.com/) (of somewhat dubious utility)
 
 Of these, the following can go away because I don't need a GUI for this host / don't want the rest:
@@ -52,7 +52,7 @@ Of these, the following can go away because I don't need a GUI for this host / d
 -   CentOS 7's "Server w/ GUI" Install Group (GNOME 3, etc)
 -   x2go
 -   mate (since x2go breaks with Gnome 3)
--   [MoinMoin](../MoinMoin)
+-   [MoinMoin](MoinMoin)
 -   [Prey](https://preyproject.com/) (of somewhat dubious utility)
 
 KVM is going to be managed via Proxmox in the future, as will ZFS on Linux (VMs will have volumes exposed to them via NFS). That means that only the following need to be managed via Ansible:
@@ -76,7 +76,7 @@ Plans
     -   <https://gist.github.com/cuibonobo/d354440fecdd37c35ecd>
     -   On 7/31/19, I finally tried to get GPU passthrough to work, but couldn't because Red Hat and NVIDIA are [silly corporate capitalist cows](https://bugzilla.redhat.com/show_bug.cgi?id=1492173). See [here](https://github.com/kubernetes/minikube/issues/3546) too.
     -   After my issues with getting GPU passthrough to work with CentOS, I decided to install Proxmox instead.
--   I don't really use Windows that much since it would require rebooting to use (and I don't really game enough). It would be interesting if I could find a way to run it via KVM. There's only one app that really needs GPUs (Obduction) and I wouldn't mind booting directly for that. Other tech I'd want to mess with (Chocolatey, [PowerShell](../PowerShell), etc) doesn't require an intense GPU (heck, even the point-and-click adventures I play would be fine without the 1050s).
+-   I don't really use Windows that much since it would require rebooting to use (and I don't really game enough). It would be interesting if I could find a way to run it via KVM. There's only one app that really needs GPUs (Obduction) and I wouldn't mind booting directly for that. Other tech I'd want to mess with (Chocolatey, [PowerShell](PowerShell), etc) doesn't require an intense GPU (heck, even the point-and-click adventures I play would be fine without the 1050s).
 -   I have a bunch of utilities set up to back up my online presence (gmvault, t, etc). I'd like to find a way to give these utilities their own space (i.e., a container) and manage them via Ansible.
 -   My ZFS backup scripts need to be put under version control.
 -   The bash script I use to back up my Tweets could be improved (presently there are a lot of files produced with redundant information; it uses the shell script from [here](http://blog.jphpsf.com/2012/05/07/backing-up-your-twitter-account-with-t/).
@@ -90,7 +90,7 @@ Plans
 -   Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage that contains as much data as the nearline storage can hold. *DONE: 1/19/20*
 -   Create a dummy dataset within the ZFS pool.  Back it up to AWS and test a restore (b/c I don't think I've ever actually done this before /shudders) *DONE: 1/19/20*
 -   Take a full backup of the current state of your home directory to blu-ray (most likely using [dirsplit](https://linux.die.net/man/1/dirsplit)). Plan on doing this once a year. Secure the full backup-up somewhere in your apartment.
-    -   **Note from 1/19/20**: Due to the amount of time it takes to do this (see [BluRayBackup](../BluRayBackup)), I'm going to re-organize my data by hotness and coldness, and have different back up intervals depending on that, simply because I don't want to spend more than a day or two on this every year (current estimate for backup time is around 36 hours or about 5 work days).
+    -   **Note from 1/19/20**: Due to the amount of time it takes to do this (see [BluRayBackup](BluRayBackup)), I'm going to re-organize my data by hotness and coldness, and have different back up intervals depending on that, simply because I don't want to spend more than a day or two on this every year (current estimate for backup time is around 36 hours or about 5 work days).
 -   At some point, make a second copy of the blu-ray backup and store it off-site at mom's house in Clinton, NY (or possibly rent a lock box there).
 -   The rationale for backing up to blu-ray is as follows:
     -   It's a write-once medium, and most of my data doesn't really change.
@@ -127,14 +127,14 @@ Plans
 -   Create a CentOS 6 VM for BOINC and FAH. We want to use CentOS 6 because the FAH packages still need Python 2.6 (unless you modify them manually to use Python 2.7 in CentOS 7, which is a bit of a pain). Attach thumb drive to this VM (possibly a silly RAID of thumb drives) and have it be the backing storage for at least the scratch storage used by BOINC. Why thumb drives? Because they're cheap and I don't want to wear down my spinny disks or SSDs with a bunch of scratch files. Give this VM access to GPUs and 8 vCPUs.
 -   Create a CentOS 7 VM for general file access / ZFS. Give it 2 vCPUs. This VM may also contain the Twitter CLI (possibly within an RVM environment), gmvault and all of the other internet presence / personal data backup cronjobs (I may make one of these for my reddit data using [PRAW](https://praw.readthedocs.io)).
 -   I may then experiment with a Docker VM and getting my Windows 10 installation to run as a VM. If I can get GPU passthrough working with a Docker VM, I may retire the CentOS 6 VM and replace it with a Docker container (or split FAH and BOINC into multiple containers).
--   I'm then going to replace the [MoinMoin](../MoinMoin) instance I've been running with [Monica](https://www.monicahq.com/). (I actually don't think I care enough about this, but if I do, I'll revisit it. I barely use the Moinmoin instance as it is.)
+-   I'm then going to replace the [MoinMoin](MoinMoin) instance I've been running with [Monica](https://www.monicahq.com/). (I actually don't think I care enough about this, but if I do, I'll revisit it. I barely use the Moinmoin instance as it is.)
 
 ### Detailed Notes of ZFS Mirror to RAIDZ1 Transition
 
 Note: Encrypted snapshots are on external HD if this goes badly.
 
 1.  Disable user cronjobs for user *jpellman*.
-2.  As root in screen session: Go to multi-user target with `systemctl isolate multi-user`, turn off BOINC, unmount */home/boinc* and */home*. Ensure that */home/jpellman* isn't being mounted on [Bruno](../Bruno) using sshfs.
+2.  As root in screen session: Go to multi-user target with `systemctl isolate multi-user`, turn off BOINC, unmount */home/boinc* and */home*. Ensure that */home/jpellman* isn't being mounted on [Bruno](Bruno) using sshfs.
 3.  Create a sparse file using the number of bytes provided by `fdisk -l`: `truncate -s 1000204886016 /root/raidz1_faux_drive.img`
 4.  Offline one of the drives in the ZFS mirror: `zpool offline pool0 ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z`
 5.  Clear out the partition label for the offlined disk:
@@ -197,4 +197,4 @@ attachment:IMG\_20190121\_154736836.jpg\_attachment:IMG\_20190121\_154736836.jpg
 
 * * * * *
 
-> [Hosts](../Hosts)
+> [Hosts](Hosts)

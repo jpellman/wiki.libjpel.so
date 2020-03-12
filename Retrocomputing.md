@@ -23,4 +23,4 @@ Links
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory) Hobbies
+> [CategoryCategory](CategoryCategory) Hobbies
