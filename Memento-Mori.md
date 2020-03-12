@@ -1,4 +1,4 @@
-\#format rst
+
 
 The libjpel.so Memento Mori Poem
 ================================

@@ -1,4 +1,4 @@
-\#format rst
+
 
 Create and edit text files
 ==========================

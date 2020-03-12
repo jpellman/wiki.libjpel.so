@@ -1,4 +1,4 @@
-\#format rst
+
 
 Charities/organizations / open source projects that I find worth giving to / supporting in some manner.
 

@@ -1,4 +1,4 @@
-\#format rst
+
 
 A collection of analogies for how Docker / containerization fits into the broader tech stack. Part of understanding these analogies is knowing that an operating system, at the end of the day, is really a program itself (albeit one that mediates access to the underlying hardware for other programs).
 

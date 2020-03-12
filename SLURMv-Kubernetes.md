@@ -1,4 +1,4 @@
-\#format rst
+
 
 SLURM vs Kubernetes vs Nomad
 ============================

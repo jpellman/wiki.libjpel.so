@@ -1,4 +1,4 @@
-\#format rst
+
 
 Notes on Backing Up My Hard Disk to Blu-Ray
 ===========================================

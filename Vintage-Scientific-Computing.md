@@ -1,4 +1,4 @@
-\#format rst
+
 
 Vintage Scientific Computing
 ============================

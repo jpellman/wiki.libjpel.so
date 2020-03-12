@@ -1,4 +1,4 @@
-\#format rst
+
 
 List of Web Design Firms that Specialize in Academic Clientele
 ==============================================================

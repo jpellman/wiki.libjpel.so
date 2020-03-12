@@ -1,4 +1,4 @@
-\#format rst
+
 
 Notes on the Architecture of Neuroinformatics Clusters
 ======================================================

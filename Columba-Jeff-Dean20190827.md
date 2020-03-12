@@ -1,4 +1,4 @@
-\#format rst
+
 
 My Thoughts on Jeff Dean's 8/27/19 Deep Learning Presentation
 =============================================================

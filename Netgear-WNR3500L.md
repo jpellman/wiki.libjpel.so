@@ -1,4 +1,4 @@
-\#format rst
+
 
 Netgear WNR3500L
 ================

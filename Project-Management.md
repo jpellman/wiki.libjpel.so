@@ -1,4 +1,4 @@
-\#format rst
+
 
 I'm putting various links to project management resources here to synthesize how they may be tied to science.
 

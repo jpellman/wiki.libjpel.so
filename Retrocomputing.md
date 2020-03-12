@@ -1,4 +1,4 @@
-\#format rst
+
 
 Retrocomputing Pages
 ====================

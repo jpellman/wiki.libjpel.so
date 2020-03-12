@@ -1,4 +1,4 @@
-\#format rst
+
 
 Scientific File Formats
 =======================

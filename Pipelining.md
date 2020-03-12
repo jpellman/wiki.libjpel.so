@@ -1,4 +1,4 @@
-\#format rst \#\# master-page:CategoryTemplate \#\# master-date:Unknown-Date
+ \#\# master-page:CategoryTemplate \#\# master-date:Unknown-Date
 
 Describe the pages in this category...
 

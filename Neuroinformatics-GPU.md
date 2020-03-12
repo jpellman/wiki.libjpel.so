@@ -1,4 +1,4 @@
-\#format rst
+
 
 List of Neuroinformatics Tools w/ GPU-based Implementations
 ===========================================================

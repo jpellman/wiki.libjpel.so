@@ -1,4 +1,4 @@
-\#format rst
+
 
 Critiques of Open Science
 =========================

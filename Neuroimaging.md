@@ -1,4 +1,4 @@
-\#format rst
+
 
 Summaries / Reviews from the Neuroimaging Literature
 ====================================================

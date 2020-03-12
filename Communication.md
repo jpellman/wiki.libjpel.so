@@ -1,4 +1,4 @@
-\#format rst
+
 
 Notes on Communication
 ======================

@@ -1,4 +1,4 @@
-\#format rst
+
 
 Proposal for a Really Dumb Build
 ================================

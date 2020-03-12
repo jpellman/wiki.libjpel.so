@@ -1,4 +1,4 @@
-\#format rst
+
 
 A List of ASICs Used in Scientific Computing
 ============================================

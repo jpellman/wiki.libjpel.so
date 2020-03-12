@@ -1,4 +1,4 @@
-\#format rst \#\# master-page:CategoryTemplate \#\# master-date:Unknown-Date
+ \#\# master-page:CategoryTemplate \#\# master-date:Unknown-Date
 
 Pages that related to academic computing.
 

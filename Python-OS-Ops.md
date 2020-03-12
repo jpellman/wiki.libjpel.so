@@ -1,4 +1,4 @@
-\#format rst
+
 
 Common Unix Command Line Operations and Their Python Equivalents
 ================================================================

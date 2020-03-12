@@ -1,4 +1,4 @@
-\#format rst
+
 
 How to Create an AMI to Run BOINC
 =================================

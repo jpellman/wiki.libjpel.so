@@ -1,4 +1,4 @@
-\#format rst
+
 
 Web Browsers Must Die
 =====================

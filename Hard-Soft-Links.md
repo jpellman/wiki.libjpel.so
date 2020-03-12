@@ -1,4 +1,4 @@
-\#format rst
+
 
 Creating hard and soft links
 ============================

@@ -1,4 +1,4 @@
-\#format rst
+
 
 Notes on Backups of Maxwell's ZFS Pool to AWS
 =============================================

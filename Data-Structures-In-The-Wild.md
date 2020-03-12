@@ -1,4 +1,4 @@
-\#format rst
+
 
 Data Structures in the Wild
 ===========================

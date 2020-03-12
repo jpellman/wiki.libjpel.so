@@ -1,4 +1,4 @@
-\#format rst
+
 
 Top Challenges in Facilitating Man-Computer Symbiosis in 2019
 =============================================================

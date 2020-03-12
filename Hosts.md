@@ -1,4 +1,4 @@
-\#format rst \#\# master-page:CategoryTemplate \#\# master-date:Unknown-Date
+ \#\# master-page:CategoryTemplate \#\# master-date:Unknown-Date
 
 The following list contains pages for all (or at least, ideally all) of the active hosts in my homelab.
 

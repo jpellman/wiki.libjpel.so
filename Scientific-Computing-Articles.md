@@ -1,4 +1,4 @@
-\#format rst
+
 
 Articles Discussing Scientific Computing
 ========================================

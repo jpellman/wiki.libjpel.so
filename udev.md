@@ -1,4 +1,4 @@
-\#format rst
+
 
 <http://unix.stackexchange.com/questions/91085/udev-renaming-my-network-interface>
 

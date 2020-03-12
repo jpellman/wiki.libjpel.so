@@ -1,4 +1,4 @@
-\#format rst
+
 
 Demystifying Old Python Scripts
 ===============================
