@@ -36,10 +36,10 @@ I address the above problems in more depth in the following pages:
 
 1.  [Packaging](../Packaging)
 2.  [Metascience](../Metascience)
-3.  TODO - probable sub-page of [OpenScience](../OpenScience). Relevant articles: [here](https://dl.acm.org/doi/pdf/10.1145/3366623.3368140?download=true)
-4.  TODO - [CWLMake](../CWLMake) might be adapted for this.
+3.  TODO - probable sub-page of [Open-Science](../Open-Science). Relevant articles: [here](https://dl.acm.org/doi/pdf/10.1145/3366623.3368140?download=true)
+4.  TODO - [CWL-Make](../CWL-Make) might be adapted for this.
 5.  [ASICs](../ASICs)
 
 * * * * *
 
-> [ScientificComputing](../ScientificComputing)
+> [Scientific-Computing](../Scientific-Computing)

@@ -18,4 +18,4 @@ A bunch o' links where people discuss Git LFS / Git annex support in config mana
 
 * * * * *
 
-[SystemsAdministration](../SystemsAdministration)
+[Systems-Administration](../Systems-Administration)

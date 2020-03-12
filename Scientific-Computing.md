@@ -4,8 +4,8 @@ A collection of pages relating to scientific computing and the administration of
 
 **List of pages in this category:**
 
-[[FullSearchCached(category:ScientificComputing)]]\_
+[[FullSearchCached(category:Scientific-Computing)]]\_
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory) [AcademicComputing](../AcademicComputing)
+> [CategoryCategory](../CategoryCategory) [Academic-Computing](../Academic-Computing)

@@ -4,7 +4,7 @@ Notes on cognitive science.
 
 **List of pages in this category:**
 
-[[FullSearchCached(category:CognitiveScience)]]\_
+[[FullSearchCached(category:Cognitive-Science)]]\_
 
 Articles:
 =========

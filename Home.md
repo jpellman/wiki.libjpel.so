@@ -8,14 +8,14 @@ This is the personal Wiki of John Pellman. He is mostly using this as a palimpse
 Interesting starting points:
 
 -   [RecentChanges](../RecentChanges): what has John been doing?
--   [HomeLab](../HomeLab)
--   [SystemsAdministration](../SystemsAdministration)
--   [AcademicComputing](../AcademicComputing)
+-   [Home-Lab](../Home-Lab)
+-   [Systems-Administration](../Systems-Administration)
+-   [Academic-Computing](../Academic-Computing)
 -   [LibraryComputing](../LibraryComputing)
--   [ScientificComputing](../ScientificComputing)
+-   [Scientific-Computing](../Scientific-Computing)
 -   [MachineLearning](../MachineLearning)
--   [CognitiveScience](../CognitiveScience)
--   [OpenScience](../OpenScience)
+-   [Cognitive-Science](../Cognitive-Science)
+-   [Open-Science](../Open-Science)
 -   [Hobbies](../Hobbies)
 -   [Work](../Work)
 

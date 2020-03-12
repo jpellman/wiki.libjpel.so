@@ -33,4 +33,4 @@ Speeds based off [this LG Blu-Ray Writer](https://smile.amazon.com/LG-Electronic
 
 * * * * *
 
-> [HomeLab](../HomeLab)
+> [Home-Lab](../Home-Lab)

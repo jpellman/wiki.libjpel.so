@@ -28,4 +28,4 @@ Further Reading
 
 * * * * *
 
-> [ScientificComputing](../ScientificComputing) [SystemsAdministration](../SystemsAdministration)
+> [Scientific-Computing](../Scientific-Computing) [Systems-Administration](../Systems-Administration)

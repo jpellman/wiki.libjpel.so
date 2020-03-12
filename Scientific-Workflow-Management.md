@@ -28,4 +28,4 @@ Packages
 
 * * * * *
 
-> [ScientificComputing](../ScientificComputing)
+> [Scientific-Computing](../Scientific-Computing)

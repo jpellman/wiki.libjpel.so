@@ -47,4 +47,4 @@ An ongoing list of software / techniques for visualizing citations.
 
 * * * * *
 
-> [ScientificComputing](../ScientificComputing) [LibraryComputing](../LibraryComputing)
+> [Scientific-Computing](../Scientific-Computing) [LibraryComputing](../LibraryComputing)

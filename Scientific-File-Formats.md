@@ -35,4 +35,4 @@ Compression
 
 * * * * *
 
-> [ScientificComputing](../ScientificComputing)
+> [Scientific-Computing](../Scientific-Computing)

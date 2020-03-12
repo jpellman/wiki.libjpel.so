@@ -11,4 +11,4 @@ List of Web Design Firms that Specialize in Academic Clientele
 
 * * * * *
 
-> [AcademicComputing](../AcademicComputing)
+> [Academic-Computing](../Academic-Computing)

@@ -3,7 +3,7 @@
 Retroscaping
 ============
 
-In addition to [Retrocomputing](../Retrocomputing) and [VintageScientificComputing](../VintageScientificComputing), I have an interest in history more broadly. Specifically, I am interested in historical reconstruction (a la the holodeck in Star Trek: TNG) and the potential of VR to help facilitate accurate depictions of past places and cultures.
+In addition to [Retrocomputing](../Retrocomputing) and [VintageScientific-Computing](../VintageScientific-Computing), I have an interest in history more broadly. Specifically, I am interested in historical reconstruction (a la the holodeck in Star Trek: TNG) and the potential of VR to help facilitate accurate depictions of past places and cultures.
 
 I propose to use the noun *retroscape* ("A landscape or setting filled with things from the past." according to [Wiktionary](https://en.wiktionary.org/wiki/retroscape)) as a verb to refer to such virtual reconstructions. I believe in using historical data aggregated from multiple sources (archives, historical societies, flea markets, cartographers, etc) to re-animate humanity's collective past.
 

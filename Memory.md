@@ -92,4 +92,4 @@ Other links:
 
 * * * * *
 
-[CognitiveScience](../CognitiveScience)
+[Cognitive-Science](../Cognitive-Science)

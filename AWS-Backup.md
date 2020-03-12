@@ -37,4 +37,4 @@ The string that's fed into this param is ESTIMATED\_UPLOAD from the following:
 
 * * * * *
 
-> [HomeLab](../HomeLab)
+> [Home-Lab](../Home-Lab)

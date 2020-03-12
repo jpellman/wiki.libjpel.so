@@ -7,4 +7,4 @@ Thinking about Scientific Workflows w/ Make Analogy
 
 * * * * *
 
-> [ScientificComputing](../ScientificComputing)
+> [Scientific-Computing](../Scientific-Computing)

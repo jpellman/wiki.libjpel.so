@@ -4,8 +4,8 @@ These pages are to document the IT Infrastructure I play around with at home, as
 
 **List of pages in this category:**
 
-[[FullSearchCached(category:HomeLab)]]\_
+[[FullSearchCached(category:Home-Lab)]]\_
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory) [SystemsAdministration](../SystemsAdministration)
+> [CategoryCategory](../CategoryCategory) [Systems-Administration](../Systems-Administration)

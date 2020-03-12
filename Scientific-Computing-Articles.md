@@ -13,4 +13,4 @@ Articles Discussing Scientific Computing
 
 * * * * *
 
-> [ScientificComputing](../ScientificComputing)
+> [Scientific-Computing](../Scientific-Computing)

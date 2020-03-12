@@ -155,4 +155,4 @@ Week 4
 
 * * * * *
 
-[CognitiveScience](../CognitiveScience)
+[Cognitive-Science](../Cognitive-Science)

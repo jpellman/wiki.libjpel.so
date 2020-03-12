@@ -77,4 +77,4 @@ The case for consumer GPUs over enterprise GPUs:
 
 * * * * *
 
-[ScientificComputing](../ScientificComputing)
+[Scientific-Computing](../Scientific-Computing)

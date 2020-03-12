@@ -8,7 +8,7 @@ This page stores both generic notes, as well as additional pages and categories 
 List of pages in this category:
 -------------------------------
 
-[[FullSearchCached(category:SystemsAdministration)]]\_
+[[FullSearchCached(category:Systems-Administration)]]\_
 
 General Links
 -------------

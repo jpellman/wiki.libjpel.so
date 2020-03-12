@@ -7,4 +7,4 @@ Notes on Security Measures Needed for Scientific Research
 
 * * * * *
 
-> [ScientificComputing](../ScientificComputing)
+> [Scientific-Computing](../Scientific-Computing)

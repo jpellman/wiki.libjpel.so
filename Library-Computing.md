@@ -50,4 +50,4 @@ Miscellaneous Reading
 
 * * * * *
 
-[AcademicComputing](../AcademicComputing)
+[Academic-Computing](../Academic-Computing)

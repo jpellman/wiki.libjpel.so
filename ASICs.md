@@ -54,4 +54,4 @@ Network Acceleration
 
 * * * * *
 
-> [ScientificComputing](../ScientificComputing)
+> [Scientific-Computing](../Scientific-Computing)

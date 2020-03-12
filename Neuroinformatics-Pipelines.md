@@ -88,4 +88,4 @@ Stimulus presentation packages, by their very nature, also quantify behavioral d
 
 * * * * *
 
-[ScientificComputing](../ScientificComputing)
+[Scientific-Computing](../Scientific-Computing)

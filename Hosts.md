@@ -8,4 +8,4 @@ The following list contains pages for all (or at least, ideally all) of the acti
 
 * * * * *
 
-> [CategoryCategory](../CategoryCategory) [HomeLab](../HomeLab)
+> [CategoryCategory](../CategoryCategory) [Home-Lab](../Home-Lab)

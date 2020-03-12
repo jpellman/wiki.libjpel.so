@@ -36,4 +36,4 @@ SPSS
 
 * * * * *
 
-> Retrocomputing [ScientificComputing](../ScientificComputing)
+> Retrocomputing [Scientific-Computing](../Scientific-Computing)
