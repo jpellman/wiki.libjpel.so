@@ -19,4 +19,4 @@ Interesting starting points:
 -   [Hobbies](Hobbies)
 -   [Work](Work)
 
-This wiki is powered by [MoinMoin](http://moinmo.in/).
+This wiki is powered by [Gollum](https://github.com/gollum/gollum/wiki).
