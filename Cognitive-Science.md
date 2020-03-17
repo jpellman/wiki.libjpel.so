@@ -1,4 +1,4 @@
- \#\# master-page:CategoryTemplate \#\# master-date:Unknown-Date
+
 
 Notes on cognitive science.
 

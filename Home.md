@@ -1,4 +1,4 @@
- \#\# Please edit system and help pages ONLY in the master wiki! \#\# For more information, please see MoinMoin:MoinDev/Translation. \#\# master-page:FrontPage \#language en
+
 
 The libjpel.so Wiki
 ===================
