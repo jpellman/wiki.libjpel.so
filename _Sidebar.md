@@ -1,6 +1,5 @@
 Categories
 ==========
-
  * Academic-Computing
  * Cognitive-Science
  * Django
