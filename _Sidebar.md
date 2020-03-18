@@ -1,15 +1,15 @@
 Categories
 ==========
- * Academic-Computing
- * Cognitive-Science
- * Django
- * Hobbies
- * Home-Lab
- * Home-Network
- * Hosts
- * Open-Science
- * Pipelining
- * Python
- * Retrocomputing
- * Scientific-Computing
- * Systems-Administration
+ * [Academic-Computing](Academic-Computing)
+ * [Cognitive-Science](Cognitive-Science)
+ * [Django](Django)
+ * [Hobbies](Hobbies)
+ * [Home-Lab](Home-Lab)
+ * [Home-Network](Home-Network)
+ * [Hosts](Hosts)
+ * [Open-Science](Open-Science)
+ * [Pipelining](Pipelining)
+ * [Python](Python)
+ * [Retrocomputing](Retrocomputing)
+ * [Scientific-Computing](Scientific-Computing)
+ * [Systems-Administration](Systems-Administration)

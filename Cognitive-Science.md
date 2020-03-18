@@ -14,4 +14,4 @@ Articles:
 
 * * * * *
 
-> [CategoryCategory](CategoryCategory)
+> [Categories](_Sidebar)

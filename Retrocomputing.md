@@ -23,4 +23,4 @@ Links
 
 * * * * *
 
-> [CategoryCategory](CategoryCategory) Hobbies
+> [Categories](_Sidebar) Hobbies

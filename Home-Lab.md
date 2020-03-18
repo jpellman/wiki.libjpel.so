@@ -8,4 +8,4 @@ These pages are to document the IT Infrastructure I play around with at home, as
 
 * * * * *
 
-> [CategoryCategory](CategoryCategory) [Systems-Administration](Systems-Administration)
+> [Categories](_Sidebar) [Systems-Administration](Systems-Administration)

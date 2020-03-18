@@ -16,4 +16,4 @@ External Links
 
 * * * * *
 
-> [CategoryCategory](CategoryCategory)
+> [Categories](_Sidebar)

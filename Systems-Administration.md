@@ -226,4 +226,4 @@ Tools
 
 * * * * *
 
-> [CategoryCategory](CategoryCategory)
+> [Categories](_Sidebar)
