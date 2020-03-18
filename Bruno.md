@@ -27,7 +27,17 @@ Bruno is named after [Giordano Bruno](https://en.wikipedia.org/wiki/Giordano_Bru
 Specifications
 --------------
 
-[Table not converted]
+| Key | Value |
+| --- | --- |
+| **CPU** | Core i7 |
+| **# of Cores (logical)** | 4 |
+| **CPU Clock Speed (GHz)** | 2.9 |
+| **Memory (GB)** | 4 |
+| **GPU** | Intel HD Graphics 4000 1536 MB |
+| **Disks** | 500 GB SSD |
+| **OS** | Mac OS X 10.12.6 |
+| **IP Address** | 192.168.1.6 (Ethernet), 192.168.1.7 (Wifi) |
+| **FQDN (on LAN)** | bruno.so (Ethernet), eth.bruno.so (Ethernet), wifi.bruno.so (Wifi) |
 
 Plans
 -----

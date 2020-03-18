@@ -27,7 +27,11 @@ Timing
 
 Here are some approximate benchmarks for how long the above steps take:
 
-[Table not converted]
+| Step | Time Range |
+| --- | --- |
+| Making an ISO Image | 3-5 minutes |
+| Downloading an ISO Image | 7-10 minutes |
+| Burning an ISO Image | 60-70 minutes |
 
 Speeds based off [this LG Blu-Ray Writer](https://smile.amazon.com/LG-Electronics-External-Optical-WP50NB40).
 
