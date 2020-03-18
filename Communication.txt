@@ -1,5 +1,0 @@
-= Notes on Communication =
-
-<<TableOfContents(2)>>
-
-== Grice's Maxims ==
