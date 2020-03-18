@@ -13,7 +13,14 @@ Maxwell is named after [James Clerk Maxwell](https://en.wikipedia.org/wiki/James
 Specifications
 --------------
 
-[Table not converted]
+| **CPU** | Core I7-6700 FC-LGA14C |
+| **# of Cores (logical)** | 8 |
+| **CPU Clock Speed (GHz)** | 3.40 |
+| **Memory (GB)** | 64 |
+| **Disks** | 60 GB SSD (Windows volume), 240 GB SSD (Linux volume), 2 1 TB WD-Blues (ZFS mirrored) |
+| **OS** | CentOS 7 and Windows |
+| **IP Address** | 192.168.1.3 |
+| **FQDN (on LAN)** | maxwell.so |
 
 ### Part List
 
