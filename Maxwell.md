@@ -1,5 +1,3 @@
-
-
 Maxwell
 =======
 
@@ -94,24 +92,24 @@ Plans
 
 #### Storage Tasks
 
--   Back up home video DV footage currently on the root volume SSD to another disk. *DONE: 2/24/19, 23:25*
--   Back up raw DV footage to blu-ray so that the spare 1 TB WD Blue you have can be re-appropriated. *DONE: 1/18/20*
--   Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage that contains as much data as the nearline storage can hold. *DONE: 1/19/20*
--   Create a dummy dataset within the ZFS pool.  Back it up to AWS and test a restore (b/c I don't think I've ever actually done this before /shudders) *DONE: 1/19/20*
+-   ~~Back up home video DV footage currently on the root volume SSD to another disk.~~ *DONE: 2/24/19, 23:25*
+-   ~~Back up raw DV footage to blu-ray so that the spare 1 TB WD Blue you have can be re-appropriated.~~ *DONE: 1/18/20*
+-   ~~Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage that contains as much data as the nearline storage can hold.~~ *DONE: 1/19/20*
+-   ~~Create a dummy dataset within the ZFS pool.  Back it up to AWS and test a restore (b/c I don't think I've ever actually done this before /shudders)~~ *DONE: 1/19/20*
 -   Take a full backup of the current state of your home directory to blu-ray (most likely using [dirsplit](https://linux.die.net/man/1/dirsplit)). Plan on doing this once a year. Secure the full backup-up somewhere in your apartment.
-    -   **Note from 1/19/20**: Due to the amount of time it takes to do this (see [BluRayBackup](BluRayBackup)), I'm going to re-organize my data by hotness and coldness, and have different back up intervals depending on that, simply because I don't want to spend more than a day or two on this every year (current estimate for backup time is around 36 hours or about 5 work days).
+    -   **Note from 1/19/20**: Due to the amount of time it takes to do this (see [Blu Ray Backup](Blu-Ray-Backup)), I'm going to re-organize my data by hotness and coldness, and have different back up intervals depending on that, simply because I don't want to spend more than a day or two on this every year (current estimate for backup time is around 36 hours or about 5 work days).
 -   At some point, make a second copy of the blu-ray backup and store it off-site at mom's house in Clinton, NY (or possibly rent a lock box there).
 -   The rationale for backing up to blu-ray is as follows:
     -   It's a write-once medium, and most of my data doesn't really change.
     -   It's cheap (although not as cheap as Glacier or Deep Glacier).
     -   Most importantly, in the event that something happens to me, my next of kin (being much less technical than me) will be much more capable of dealing with a medium like blu-ray than dealing with AWS. Per this point, I'm also planning on just using a standard filesystem with no encryption or any other fancy features (such as snapshots); security will be enforced by encryption on a file by file basis for sensitive documents and physical lock and key.
     -   If I want, I can also tier snapshots down from a spinny disk to blu ray for my nearline backup.
--   Add the spare WD Blue into slot 3 of the Rosewill cage *DONE: 1/19/20*
--   Evict one of the WD Blues from the ZFS mirror. *DONE: 1/19/20*
--   Create a RAIDZ1 volume from the two WD Blues that aren't in the mirror.  Enable deduplication and compression.  Use a sparse file for the third drive in the vdev (see [here](https://superuser.com/questions/281832/start-a-zfs-raidz-zpool-with-two-discs-then-add-a-third)). *DONE: 1/19/20*
--   Stream current mirrored pool data from the remaining mirror drive to the new RAIDZ1 volume with *zfs send*. *DONE: 1/19/20*
--   Destroy the mirror / remove the final drive from the mirror. *DONE: 1/19/20*
--   Add the final drive as a third disk to the RAIDZ1 vdev and wait for parity data to be redistributed. *DONE: 1/21/20*
+-   ~~Add the spare WD Blue into slot 3 of the Rosewill cage~~ *DONE: 1/19/20*
+-   ~~Evict one of the WD Blues from the ZFS mirror.~~ *DONE: 1/19/20*
+-   ~~Create a RAIDZ1 volume from the two WD Blues that aren't in the mirror.  Enable deduplication and compression.  Use a sparse file for the third drive in the vdev (see [here](https://superuser.com/questions/281832/start-a-zfs-raidz-zpool-with-two-discs-then-add-a-third)).~~ *DONE: 1/19/20*
+-   ~~Stream current mirrored pool data from the remaining mirror drive to the new RAIDZ1 volume with *zfs send*.~~ *DONE: 1/19/20*
+-   ~~Destroy the mirror / remove the final drive from the mirror.~~ *DONE: 1/19/20*
+-   ~~Add the final drive as a third disk to the RAIDZ1 vdev and wait for parity data to be redistributed.~~ *DONE: 1/21/20*
 -   At some point (possibly before this migration), delete all the snapshots that currently exist.
 -   On the new RAIDZ1 vdev, refactor the pool so that data is organized somewhat logically (i.e., a dataset for digitized files from my mom's house, a dataset for music, a dataset for cloud/gmail backups, a dataset for my audio diaries, a dataset for photos, etc). Separating my files into separate datasets makes restores slightly easier, since I can start with the full backup for whichever logical division I want first and ignore the others as necessary (i.e., if my workstation has been nabbed, I'd like to be able to prioritize the restoration of certain data over other data; tax data \> Star Wars Holiday Special)
 -   Adjust current setup as necessary to accommodate these changes.
