@@ -13,6 +13,8 @@ Maxwell is named after [James Clerk Maxwell](https://en.wikipedia.org/wiki/James
 Specifications
 --------------
 
+| Key | Value |
+|---------|------------------------|
 | **CPU** | Core I7-6700 FC-LGA14C |
 | **# of Cores (logical)** | 8 |
 | **CPU Clock Speed (GHz)** | 3.40 |
