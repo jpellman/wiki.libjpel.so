@@ -1,7 +1,7 @@
-
-
 Mistakes in IT
 ==============
+
+[[_TOC_|levels = 2]]
 
 Generating Unexpected Behavior When Invoking a Shell Command
 ------------------------------------------------------------

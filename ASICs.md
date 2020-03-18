@@ -1,5 +1,3 @@
-
-
 A List of ASICs Used in Scientific Computing
 ============================================
 
@@ -8,6 +6,8 @@ I'm using this page to track instances where scientific computing could make use
 In general, due to the high expense and low flexibility involved in producing ASICs, any hardware acceleration undertaken in science should leverage existing acceleration that is widely available in the general market first. If that is insufficient, FPGAs can be used, but custom ASIC production is well beyond the scope of most labs (as well as definitely out of budget). Chances are that CPUs and GPUs (which have mostly incorporated the innovations of physics ASICs at this point) are more than sufficient for most common tasks. FPGAs might only come into play for higher precision floats (octs are necessary in astrophysics) or universal numbers.
 
 Also, see [IT Technology and Markets, Status and Evolution](https://indico.cern.ch/event/658060/contributions/2889027/attachments/1622791/2583013/tech_market_BPS_Mar2018_v9pptx.pdf) (26 March 2018) for more accelerators / trends.
+
+[[_TOC_|levels = 2]]
 
 -   [QCDSP and QCDOC](https://en.wikipedia.org/wiki/QCDOC) (photo [here](https://www.flickr.com/photos/brookhavenlab/3113601360); also see [here](https://web.archive.org/web/20181222005715/http://phys.columbia.edu/~cqft/)
 -   [DSPs more broadly](https://www.hpcwire.com/2012/09/27/another_look_at_dsps_for_high_performance_computing/) (also see [here](https://en.wikipedia.org/wiki/Multidimensional_DSP_with_GPU_Acceleration)

@@ -1,4 +1,0 @@
-
-
-Notes on Conflict Resolution
-============================

@@ -1,9 +1,9 @@
-
-
 Proposal for a Really Dumb Build
 ================================
 
 I have some spare parts left over from a 2012 System76 laptop that I took apart. Should I turn them into a Frankenstein and have them run [climateprediction.net](https://www.climateprediction.net/)? I don't run this project on [Maxwell](Maxwell) because it's really finicky, consistently errors, isn't robust to unexpected interruptions (i.e., power outages), and takes a hell of a long time for tasks to finish (oh yeah, and it also uses *all available cores* preventing any other projects from running). I wouldn't mind running it on a stupid machine that I didn't care as much about though.
+
+[[_TOC_|levels = 2]]
 
 Potential Parts
 ---------------

@@ -1,14 +1,9 @@
-
-
 Systems Administration Notes
 ============================
 
 This page stores both generic notes, as well as additional pages and categories related to systems administration. My general modus operandi here is to start taking notes here, and then to break things out into separate pages when they get too large.
 
-List of pages in this category:
--------------------------------
-
-[[FullSearchCached(category:Systems-Administration)]]\_
+[[_TOC_|levels = 2]]
 
 General Links
 -------------

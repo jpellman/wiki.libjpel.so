@@ -1,9 +1,9 @@
-
-
 Georectification
 ================
 
 Maps I've georectified (or am in the process of georectifying) on NYPL's website. See [here](http://maps.nypl.org/warper/users/28896/maps) as well.
+
+[[_TOC_|levels = 2]]
 
 In Progress
 -----------

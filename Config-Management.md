@@ -1,7 +1,7 @@
-
-
 Config Management
 =================
+
+[[_TOC_|levels = 2]]
 
 Big Files, Git and Config Management
 ------------------------------------

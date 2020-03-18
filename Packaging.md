@@ -1,9 +1,9 @@
-
-
 Notes on Software Packaging
 ===========================
 
 I'm using this page to keep notes on the wonderful world of software packaging / distribution.
+
+[[_TOC_|levels = 2]]
 
 Tools
 -----

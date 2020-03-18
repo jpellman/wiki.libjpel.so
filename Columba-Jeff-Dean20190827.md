@@ -1,9 +1,9 @@
-
-
 My Thoughts on Jeff Dean's 8/27/19 Deep Learning Presentation
 =============================================================
 
 Someone else did a [pretty okay summary](https://medium.com/@anupradhan/recently-jeff-dean-from-google-gave-a-fascinating-presentation-at-columbia-university-bacf94efd1c8) of this talk already, so I'm just going to add a few conjectures of my own to this page. A lot of the presentation amounted to some form of "Look at this cool thing we did". The demonstrations were indeed cool, but also oddly specific. The thoughts below represent my distillation of what mattered the most in that talk to me.
+
+[[_TOC_|levels = 2]]
 
 AutoML
 ------

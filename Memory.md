@@ -1,9 +1,9 @@
-
-
 Memory
 ======
 
 Memory is an inherently distributed process. The role of the hippocampus, which traditionally was viewed as a centralized store, is more that of an integrator/synthesizer that brings together disparate fragments of experience. Memories are reconstructions rather than recordings. This means that false memories can be formed in the presence of suggestion. Memories can be strongly encoded in one modality (auditory, tactile, etc) but more weakly encoded in others. Our ability to recall events is heavily dependent upon contextual cues. The following notes may be inconsistent with what is stated in the literature, as they are an interpretation / recollection.
+
+[[_TOC_|levels = 2]]
 
 Implicit vs Explicit Memories
 -----------------------------

@@ -1,9 +1,9 @@
-
-
 Vintage Scientific Computing
 ============================
 
 I'm using this page to track pages related to the intersection of two of my interests: scientific computing and retrocomputing. Together, these interests make a pretty niche topic
+
+[[_TOC_|levels = 2]]
 
 MATLAB
 ------

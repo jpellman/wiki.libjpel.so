@@ -1,7 +1,7 @@
-
-
 Decision Making
 ===============
+
+[[_TOC_|levels = 2]]
 
 Expected Utility
 ----------------
@@ -27,4 +27,3 @@ References / External Links
     -   Prospect Theory: A Framework for Understanding Cognitive Biases\_
 -   Scholarpedia:
     -   Neuroeconomics\_
-

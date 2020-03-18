@@ -1,7 +1,7 @@
-
-
 Scientific Workflow Management
 ==============================
+
+[[_TOC_|levels = 2]]
 
 Articles
 --------

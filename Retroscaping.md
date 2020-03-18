@@ -1,5 +1,3 @@
-
-
 Retroscaping
 ============
 
@@ -8,6 +6,8 @@ In addition to [Retrocomputing](Retrocomputing) and [VintageScientific-Computing
 I propose to use the noun *retroscape* ("A landscape or setting filled with things from the past." according to [Wiktionary](https://en.wiktionary.org/wiki/retroscape)) as a verb to refer to such virtual reconstructions. I believe in using historical data aggregated from multiple sources (archives, historical societies, flea markets, cartographers, etc) to re-animate humanity's collective past.
 
 Below I list links related to the fields and tools that are most necessary to facilitate this interest.
+
+[[_TOC_|levels = 2]]
 
 Geography
 ---------

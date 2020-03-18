@@ -1,9 +1,9 @@
-
-
 Scientific Programming
 ======================
 
 Conventional development techniques seem to be ill-suited for scientific programming, which is more focused on rapid prototyping than on producing stable, enterprise code that's supposed to run for long stretches of time. I'm going to spitball some ideas for how scientific programming methodologies might work here.
+
+[[_TOC_|levels = 2]]
 
 General Algorithm
 -----------------

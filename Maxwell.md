@@ -1,6 +1,8 @@
 Maxwell
 =======
 
+[[_TOC_|levels = 2]]
+
 Description
 -----------
 
