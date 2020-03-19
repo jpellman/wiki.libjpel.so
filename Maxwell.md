@@ -14,7 +14,7 @@ Specifications
 --------------
 
 | Key | Value |
-|---------|------------------------|
+| --- | --- |
 | **CPU** | Core I7-6700 FC-LGA14C |
 | **# of Cores (logical)** | 8 |
 | **CPU Clock Speed (GHz)** | 3.40 |
@@ -112,8 +112,8 @@ Plans
 -   ~~Stream current mirrored pool data from the remaining mirror drive to the new RAIDZ1 volume with *zfs send*.~~ *DONE: 1/19/20*
 -   ~~Destroy the mirror / remove the final drive from the mirror.~~ *DONE: 1/19/20*
 -   ~~Add the final drive as a third disk to the RAIDZ1 vdev and wait for parity data to be redistributed.~~ *DONE: 1/21/20*
--   At some point (possibly before this migration), delete all the snapshots that currently exist.
--   On the new RAIDZ1 vdev, refactor the pool so that data is organized somewhat logically (i.e., a dataset for digitized files from my mom's house, a dataset for music, a dataset for cloud/gmail backups, a dataset for my audio diaries, a dataset for photos, etc). Separating my files into separate datasets makes restores slightly easier, since I can start with the full backup for whichever logical division I want first and ignore the others as necessary (i.e., if my workstation has been nabbed, I'd like to be able to prioritize the restoration of certain data over other data; tax data \> Star Wars Holiday Special)
+-   ~~At some point (possibly before this migration), delete all the snapshots that currently exist.~~ *DONE: 3/18/20*
+-   ~~On the new RAIDZ1 vdev, refactor the pool so that data is organized somewhat logically (i.e., a dataset for digitized files from my mom's house, a dataset for music, a dataset for cloud/gmail backups, a dataset for my audio diaries, a dataset for photos, etc). Separating my files into separate datasets makes restores slightly easier, since I can start with the full backup for whichever logical division I want first and ignore the others as necessary (i.e., if my workstation has been nabbed, I'd like to be able to prioritize the restoration of certain data over other data; tax data \> Star Wars Holiday Special)~~ *DONE: 3/18/20*
 -   Adjust current setup as necessary to accommodate these changes.
 -   Stop replicating data in your S3 bucket from Ohio to Canada. Having your backups replicated in 2 AWS regions + 2 copies of full blu-ray backups + a nearline backup to blu-ray is definitely overkill. At max, just use one region.
 -   Make the ZFS backup script robust to internet outages. Parameterize parts of it as necessary / make some bash functions.
