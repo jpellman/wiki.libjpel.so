@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!--
+==============================================================================
+           "GitHub HTML5 Pandoc Template" v2.1 — by Tristano Ajmone           
+==============================================================================
+Copyright © Tristano Ajmone, 2017, MIT License (MIT). Project's home:
+
+- https://github.com/tajmone/pandoc-goodies
+
+The CSS in this template reuses source code taken from the following projects:
+
+- GitHub Markdown CSS: Copyright © Sindre Sorhus, MIT License (MIT):
+  https://github.com/sindresorhus/github-markdown-css
+
+- Primer CSS: Copyright © 2016-2017 GitHub Inc., MIT License (MIT):
+  http://primercss.io/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The MIT License 
+
+Copyright (c) Tristano Ajmone, 2017 (github.com/tajmone/pandoc-goodies)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright (c) 2017 GitHub Inc.
+
+"GitHub Pandoc HTML5 Template" is Copyright (c) Tristano Ajmone, 2017, released
+under the MIT License (MIT); it contains readaptations of substantial portions
+of the following third party softwares:
+
+(1) "GitHub Markdown CSS", Copyright (c) Sindre Sorhus, MIT License (MIT).
+(2) "Primer CSS", Copyright (c) 2016 GitHub Inc., MIT License (MIT).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+==============================================================================-->
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Maxwell</title>
+  <style type="text/css">
+@charset "UTF-8";.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#24292e;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:16px;line-height:1.5;word-wrap:break-word;box-sizing:border-box;min-width:200px;max-width:980px;margin:0 auto;padding:45px}.markdown-body a{color:#0366d6;background-color:transparent;text-decoration:none;-webkit-text-decoration-skip:objects}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body a:hover{text-decoration:underline}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body strong{font-weight:600}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1{font-size:2em;margin:.67em 0;padding-bottom:.3em;border-bottom:1px solid #eaecef}.markdown-body h2{padding-bottom:.3em;font-size:1.5em;border-bottom:1px solid #eaecef}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#6a737d}.markdown-body img{border-style:none}.markdown-body svg:not(:root){overflow:hidden}.markdown-body hr{box-sizing:content-box;height:.25em;margin:24px 0;padding:0;overflow:hidden;background-color:#e1e4e8;border:0}.markdown-body hr::before{display:table;content:""}.markdown-body hr::after{display:table;clear:both;content:""}.markdown-body input{margin:0;overflow:visible;font:inherit;font-family:inherit;font-size:inherit;line-height:inherit}.markdown-body [type=checkbox]{box-sizing:border-box;padding:0}.markdown-body *{box-sizing:border-box}.markdown-body blockquote{margin:0}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dd{margin-left:0}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace}.markdown-body pre{font:12px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;word-wrap:normal}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body blockquote{padding:0 1em;color:#6a737d;border-left:.25em solid #dfe2e5}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body table{display:block;width:100%;overflow:auto;border-spacing:0;border-collapse:collapse}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #dfe2e5}.markdown-body table tr{background-color:#fff;border-top:1px solid #c6cbd1}.markdown-body table tr:nth-child(2n){background-color:#f6f8fa}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body code{padding:.2em 0;margin:0;font-size:85%;background-color:rgba(27,31,35,.05);border-radius:3px}.markdown-body code::after,.markdown-body code::before{letter-spacing:-.2em;content:" "}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f6f8fa;border-radius:3px}.markdown-body pre code{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code::after,.markdown-body pre code::before{content:normal}.markdown-body .full-commit .btn-outline:not(:disabled):hover{color:#005cc5;border-color:#005cc5}.markdown-body kbd{box-shadow:inset 0 -1px 0 #959da5;display:inline-block;padding:3px 5px;font:11px/10px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;color:#444d56;vertical-align:middle;background-color:#fcfcfc;border:1px solid #c6cbd1;border-bottom-color:#959da5;border-radius:3px;box-shadow:inset 0 -1px 0 #959da5}.markdown-body :checked+.radio-label{position:relative;z-index:1;border-color:#0366d6}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item input{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body::before{display:table;content:""}.markdown-body::after{display:table;clear:both;content:""}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.Alert,.Error,.Note,.Success,.Warning{padding:11px;margin-bottom:24px;border-style:solid;border-width:1px;border-radius:4px}.Alert p,.Error p,.Note p,.Success p,.Warning p{margin-top:0}.Alert p:last-child,.Error p:last-child,.Note p:last-child,.Success p:last-child,.Warning p:last-child{margin-bottom:0}.Alert{color:#246;background-color:#e2eef9;border-color:#bac6d3}.Warning{color:#4c4a42;background-color:#fff9ea;border-color:#dfd8c2}.Error{color:#911;background-color:#fcdede;border-color:#d2b2b2}.Success{color:#22662c;background-color:#e2f9e5;border-color:#bad3be}.Note{color:#2f363d;background-color:#f6f8fa;border-color:#d5d8da}.Alert h1,.Alert h2,.Alert h3,.Alert h4,.Alert h5,.Alert h6{color:#246;margin-bottom:0}.Warning h1,.Warning h2,.Warning h3,.Warning h4,.Warning h5,.Warning h6{color:#4c4a42;margin-bottom:0}.Error h1,.Error h2,.Error h3,.Error h4,.Error h5,.Error h6{color:#911;margin-bottom:0}.Success h1,.Success h2,.Success h3,.Success h4,.Success h5,.Success h6{color:#22662c;margin-bottom:0}.Note h1,.Note h2,.Note h3,.Note h4,.Note h5,.Note h6{color:#2f363d;margin-bottom:0}.Alert h1:first-child,.Alert h2:first-child,.Alert h3:first-child,.Alert h4:first-child,.Alert h5:first-child,.Alert h6:first-child,.Error h1:first-child,.Error h2:first-child,.Error h3:first-child,.Error h4:first-child,.Error h5:first-child,.Error h6:first-child,.Note h1:first-child,.Note h2:first-child,.Note h3:first-child,.Note h4:first-child,.Note h5:first-child,.Note h6:first-child,.Success h1:first-child,.Success h2:first-child,.Success h3:first-child,.Success h4:first-child,.Success h5:first-child,.Success h6:first-child,.Warning h1:first-child,.Warning h2:first-child,.Warning h3:first-child,.Warning h4:first-child,.Warning h5:first-child,.Warning h6:first-child{margin-top:0}h1.title,p.subtitle{text-align:center}h1.title.followed-by-subtitle{margin-bottom:0}p.subtitle{font-size:1.5em;font-weight:600;line-height:1.25;margin-top:0;margin-bottom:16px;padding-bottom:.3em}div.line-block{white-space:pre-line}
+  </style>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<article class="markdown-body">
+<header>
+<h1 class="title">Maxwell</h1>
+</header>
+<h1 id="maxwell">Maxwell</h1>
+<h2 id="description">Description</h2>
+<p>Maxwell is essentially a gaming workstation that I use to try out new things locally within my apartment. It is dual-boot, with Windows 10 on a 60 GB SSD and CentOS 7 on a 240 GB SSD. I first built it around February/March 2017, with a goal of creating a workstation that I could use for both experimentation and running <a href="https://boincstats.com/en/stats/-1/user/detail/3500755">BOINC</a>- to be completely honest, part of my motivation was to see how close I could get to surpassing (or at least equalling) some of the older scientific lab hardware I had dealt with in the past using only consumer-grade parts.</p>
+<p>Maxwell is named after <a href="https://en.wikipedia.org/wiki/James_Clerk_Maxwell">James Clerk Maxwell</a> (not to be confused with the neo-soul musician <a href="https://en.wikipedia.org/wiki/Maxwell_(musician)">Maxwell</a> or the Gundam Wing character <a href="https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Wing_characters#Duo_Maxwell">Duo Maxwell</a>).</p>
+<h2 id="specifications">Specifications</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>CPU</strong></td>
+<td>Core I7-6700 FC-LGA14C</td>
+</tr>
+<tr class="even">
+<td><strong># of Cores (logical)</strong></td>
+<td>8</td>
+</tr>
+<tr class="odd">
+<td><strong>CPU Clock Speed (GHz)</strong></td>
+<td>3.40</td>
+</tr>
+<tr class="even">
+<td><strong>Memory (GB)</strong></td>
+<td>64</td>
+</tr>
+<tr class="odd">
+<td><strong>Disks</strong></td>
+<td>60 GB SSD (Windows volume), 240 GB SSD (Linux volume), 2 1 TB WD-Blues (ZFS mirrored)</td>
+</tr>
+<tr class="even">
+<td><strong>OS</strong></td>
+<td>CentOS 7 and Windows</td>
+</tr>
+<tr class="odd">
+<td><strong>IP Address</strong></td>
+<td>192.168.1.3</td>
+</tr>
+<tr class="even">
+<td><strong>FQDN (on LAN)</strong></td>
+<td>maxwell.so</td>
+</tr>
+</tbody>
+</table>
+<h3 id="part-list">Part List</h3>
+<ul>
+<li><a href="https://smile.amazon.com/gp/product/B00I0V4IMW/ref=ppx_yo_dt_b_asin_title_o03__o00_s01?ie=UTF8&amp;psc=1">Zalman MS800 ATX Mid Tower Gaming Case (Black)</a></li>
+<li><a href="https://smile.amazon.com/gp/product/B00DGZ42SM/ref=ppx_yo_dt_b_asin_title_o03__o00_s00?ie=UTF8&amp;psc=1">Rosewill 3 x 5.25-Inch to 4 x 3.5-Inch Hot-swap SATAIII/SAS Hard Disk Drive Cage - Black</a></li>
+<li><a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16820233193">Corsair Force Series GT 2.5&quot; 60GB SATA III Internal Solid State Drive</a></li>
+<li><a href="https://smile.amazon.com/gp/product/B01F9G43WU/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&amp;psc=1">SanDisk SSD PLUS 240GB Internal SSD - SATA III 6 Gb/s</a></li>
+<li>x2 <a href="https://smile.amazon.com/gp/product/B0088PUEPK/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&amp;psc=1">WD Blue 1TB SATA 6 Gb/s 7200 RPM 64MB Cache 3.5 Inch Desktop Hard Drive (WD10EZEX)</a></li>
+<li><a href="https://smile.amazon.com/gp/product/B0136JONG8/ref=ppx_yo_dt_b_asin_title_o02__o00_s00?ie=UTF8&amp;psc=1">Intel Boxed Core I7-6700 FC-LGA14C 3.40 GHz 8 M Processor Cache 4 LGA 1151 BX80662I76700</a></li>
+<li>x4 <a href="https://smile.amazon.com/gp/product/B015YPAZPU/ref=ppx_yo_dt_b_asin_title_o02__o00_s00?ie=UTF8&amp;psc=1">Crucial 16GB Single DDR4 2133 MT/s (PC4-17000) DR x8 Unbuffered DIMM 288-Pin Memory - CT16G4DFD8213</a></li>
+<li><a href="https://smile.amazon.com/gp/product/B01DDR05P6/ref=ppx_yo_dt_b_asin_title_o02__o00_s00?ie=UTF8&amp;psc=1">MSI Pro Solution Intel Z170A LGA 1151 DDR4 USB 3.1 ATX Motherboard (Z170A SLI)</a></li>
+<li><a href="https://smile.amazon.com/gp/product/B008RJZQSW/ref=ppx_yo_dt_b_asin_title_o09__o00_s00?ie=UTF8&amp;psc=1">Corsair CX Series 750 Watt 80 Plus Bronze Certified Non-Modular Power Supply (CP-9020015-NA)</a></li>
+<li><a href="https://smile.amazon.com/EVGA-GeForce-Support-Graphics-02G-P4-6152-KR/dp/B01M64G435?sa-no-redirect=1">EVGA Geforce GTX 1050 SC ITX, 2GB</a></li>
+<li><a href="https://smile.amazon.com/PNY-NVIDIA-GeForce-Graphics-VCGGTX10502PB/dp/B01M27X9WI/ref=sr_1_fkmrnull_7?keywords=PNY+-+NVIDIA+GeForce+GTX+1050+2GB+GDDR5&amp;qid=1548101376&amp;s=Electronics&amp;sr=1-7-fkmrnull">PNY NVIDIA GeForce GTX 1050 2GB Graphics Card</a></li>
+</ul>
+<h2 id="applications">Applications</h2>
+<ul>
+<li>KVM / virt-manager / virt-install</li>
+<li>BOINC (custom compile w/o the BOINC manager app; just boinc-client)</li>
+<li><a href="mailto:Folding@Home">Folding@Home</a></li>
+<li><a href="https://github.com/sferik/t">t</a> (Twitter CLI)</li>
+<li><a href="http://gmvault.org">gmvault</a></li>
+<li>CentOS 7’s “Server w/ GUI” Install Group (GNOME 3, etc)</li>
+<li>x2go</li>
+<li>mate (since x2go breaks with Gnome 3)</li>
+<li>NVIDIA Drivers (for CUDA)</li>
+<li>ZFS on Linux</li>
+<li>AWS CLI</li>
+<li>rclone (for Google Drive backups)</li>
+<li><a href="MoinMoin" class="uri">MoinMoin</a></li>
+<li><a href="https://preyproject.com/">Prey</a> (of somewhat dubious utility)</li>
+</ul>
+<p>Of these, the following can go away because I don’t need a GUI for this host / don’t want the rest:</p>
+<ul>
+<li>CentOS 7’s “Server w/ GUI” Install Group (GNOME 3, etc)</li>
+<li>x2go</li>
+<li>mate (since x2go breaks with Gnome 3)</li>
+<li><a href="MoinMoin" class="uri">MoinMoin</a></li>
+<li><a href="https://preyproject.com/">Prey</a> (of somewhat dubious utility)</li>
+</ul>
+<p>KVM is going to be managed via Proxmox in the future, as will ZFS on Linux (VMs will have volumes exposed to them via NFS). That means that only the following need to be managed via Ansible:</p>
+<ul>
+<li>BOINC (custom compile w/o the BOINC manager app; just boinc-client)</li>
+<li><a href="mailto:Folding@Home">Folding@Home</a></li>
+<li><a href="https://github.com/sferik/t">t</a> (Twitter CLI)</li>
+<li><a href="http://gmvault.org">gmvault</a></li>
+<li>rclone (for Google Drive backups)</li>
+<li>AWS CLI</li>
+</ul>
+<h2 id="plans">Plans</h2>
+<ul>
+<li>The KVM VMs were connected to a virtual bridge (virbr1) through which they could be accessible on the LAN. Installing Docker has somehow broken this in some way (or something else, but Docker is the obvious culprit).
+<ul>
+<li>This could be because <a href="https://www.reddit.com/r/linuxadmin/comments/7tlkve/libvirt_network_configuration_conflicts_with/">Docker fucks with the firewall</a> or because of a conflict between how I set up networking on Maxwell and what Docker expects (also discussed <a href="https://fralef.me/docker-and-iptables.html">here</a>. It seems like a huge pain to mix Docker and KVM, so I’m probably going to take the advice listed on reddit and put Docker on a VM or just not do virtualization on maxwell and make it purely for Linux hosts (seems like a meh idea).</li>
+</ul></li>
+<li>None of this is managed in any systematic way, except for a shell script I made when I first provisioned this host way back when. I’d like to re-create the boot volume with Kickstart and Ansible so that my homelab follows the Infrastructure as Code paradigm a little more closely. There’s also a ton of other crap on there that doesn’t get mentioned above that I have since stopped playing with (e.g., <a href="https://github.com/kimchi-project/kimchi">Kimchi</a>, which never seemed useful enough vs virsh tbh).</li>
+<li>I want to use Docker where I would in the past use KVM for Linux-based VMs, and only use KVM for non-Linux operating systems (such as FreeBSD, Windows, etc)</li>
+<li>I at one point considered doing GPU passthrough to KVM, but it seemed involved (can’t find any of the links to tutorials I was looking at right now), and would have made it so that the host would no longer have been able to use the GPU. With Docker GPU passthrough seems to be much less complicated, so I’d like to encapsulate BOINC and <a href="mailto:Folding@Home">Folding@Home</a> and put them in containers that access the GPU via passthrough rather than having them live on bare metal.
+<ul>
+<li><a href="https://github.com/dholt/kvm-gpu" class="uri">https://github.com/dholt/kvm-gpu</a></li>
+<li><a href="https://gist.github.com/cuibonobo/d354440fecdd37c35ecd" class="uri">https://gist.github.com/cuibonobo/d354440fecdd37c35ecd</a></li>
+<li>On 7/31/19, I finally tried to get GPU passthrough to work, but couldn’t because Red Hat and NVIDIA are <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1492173">silly corporate capitalist cows</a>. See <a href="https://github.com/kubernetes/minikube/issues/3546">here</a> too.</li>
+<li>After my issues with getting GPU passthrough to work with CentOS, I decided to install Proxmox instead.</li>
+</ul></li>
+<li>I don’t really use Windows that much since it would require rebooting to use (and I don’t really game enough). It would be interesting if I could find a way to run it via KVM. There’s only one app that really needs GPUs (Obduction) and I wouldn’t mind booting directly for that. Other tech I’d want to mess with (Chocolatey, <a href="PowerShell" class="uri">PowerShell</a>, etc) doesn’t require an intense GPU (heck, even the point-and-click adventures I play would be fine without the 1050s).</li>
+<li>I have a bunch of utilities set up to back up my online presence (gmvault, t, etc). I’d like to find a way to give these utilities their own space (i.e., a container) and manage them via Ansible.</li>
+<li>My ZFS backup scripts need to be put under version control.</li>
+<li>The bash script I use to back up my Tweets could be improved (presently there are a lot of files produced with redundant information; it uses the shell script from <a href="http://blog.jphpsf.com/2012/05/07/backing-up-your-twitter-account-with-t/">here</a>.</li>
+</ul>
+<h3 id="tasks-for-maxwell-rebuild">Tasks for Maxwell Rebuild</h3>
+<h4 id="storage-tasks">Storage Tasks</h4>
+<ul>
+<li><del>Back up home video DV footage currently on the root volume SSD to another disk.</del> <em>DONE: 2/24/19, 23:25</em></li>
+<li><del>Back up raw DV footage to blu-ray so that the spare 1 TB WD Blue you have can be re-appropriated.</del> <em>DONE: 1/18/20</em></li>
+<li><del>Invoke your ZFS backup script to send a snapshot to AWS. Invoke the ZFS backup script to save a snapshot to your nearline storage that contains as much data as the nearline storage can hold.</del> <em>DONE: 1/19/20</em></li>
+<li><del>Create a dummy dataset within the ZFS pool. Back it up to AWS and test a restore (b/c I don’t think I’ve ever actually done this before /shudders)</del> <em>DONE: 1/19/20</em></li>
+<li>Take a full backup of the current state of your home directory to blu-ray (most likely using <a href="https://linux.die.net/man/1/dirsplit">dirsplit</a>). Plan on doing this once a year. Secure the full backup-up somewhere in your apartment.
+<ul>
+<li><strong>Note from 1/19/20</strong>: Due to the amount of time it takes to do this (see <a href="Blu-Ray-Backup">Blu Ray Backup</a>), I’m going to re-organize my data by hotness and coldness, and have different back up intervals depending on that, simply because I don’t want to spend more than a day or two on this every year (current estimate for backup time is around 36 hours or about 5 work days).</li>
+</ul></li>
+<li>At some point, make a second copy of the blu-ray backup and store it off-site at mom’s house in Clinton, NY (or possibly rent a lock box there).</li>
+<li>The rationale for backing up to blu-ray is as follows:
+<ul>
+<li>It’s a write-once medium, and most of my data doesn’t really change.</li>
+<li>It’s cheap (although not as cheap as Glacier or Deep Glacier).</li>
+<li>Most importantly, in the event that something happens to me, my next of kin (being much less technical than me) will be much more capable of dealing with a medium like blu-ray than dealing with AWS. Per this point, I’m also planning on just using a standard filesystem with no encryption or any other fancy features (such as snapshots); security will be enforced by encryption on a file by file basis for sensitive documents and physical lock and key.</li>
+<li>If I want, I can also tier snapshots down from a spinny disk to blu ray for my nearline backup.</li>
+</ul></li>
+<li><del>Add the spare WD Blue into slot 3 of the Rosewill cage</del> <em>DONE: 1/19/20</em></li>
+<li><del>Evict one of the WD Blues from the ZFS mirror.</del> <em>DONE: 1/19/20</em></li>
+<li><del>Create a RAIDZ1 volume from the two WD Blues that aren’t in the mirror. Enable deduplication and compression. Use a sparse file for the third drive in the vdev (see <a href="https://superuser.com/questions/281832/start-a-zfs-raidz-zpool-with-two-discs-then-add-a-third">here</a>).</del> <em>DONE: 1/19/20</em></li>
+<li><del>Stream current mirrored pool data from the remaining mirror drive to the new RAIDZ1 volume with <em>zfs send</em>.</del> <em>DONE: 1/19/20</em></li>
+<li><del>Destroy the mirror / remove the final drive from the mirror.</del> <em>DONE: 1/19/20</em></li>
+<li><del>Add the final drive as a third disk to the RAIDZ1 vdev and wait for parity data to be redistributed.</del> <em>DONE: 1/21/20</em></li>
+<li><del>At some point (possibly before this migration), delete all the snapshots that currently exist.</del> <em>DONE: 3/18/20</em></li>
+<li><del>On the new RAIDZ1 vdev, refactor the pool so that data is organized somewhat logically (i.e., a dataset for digitized files from my mom’s house, a dataset for music, a dataset for cloud/gmail backups, a dataset for my audio diaries, a dataset for photos, etc). Separating my files into separate datasets makes restores slightly easier, since I can start with the full backup for whichever logical division I want first and ignore the others as necessary (i.e., if my workstation has been nabbed, I’d like to be able to prioritize the restoration of certain data over other data; tax data &gt; Star Wars Holiday Special)</del> <em>DONE: 3/18/20</em></li>
+<li>Adjust current setup as necessary to accommodate these changes.</li>
+<li>Stop replicating data in your S3 bucket from Ohio to Canada. Having your backups replicated in 2 AWS regions + 2 copies of full blu-ray backups + a nearline backup to blu-ray is definitely overkill. At max, just use one region.</li>
+<li>Make the ZFS backup script robust to internet outages. Parameterize parts of it as necessary / make some bash functions.</li>
+</ul>
+<h4 id="reprovisioning-tasks">Reprovisioning Tasks</h4>
+<ul>
+<li>Download Proxmox and put it on a thumb drive.</li>
+<li>Completely hose the CentOS 7 install you have on maxwell and replace it with Proxmox.</li>
+</ul>
+<h4 id="making-maxwell-a-managed-host">Making Maxwell a Managed Host</h4>
+<ul>
+<li>Make an Ansible role for the ZFS backup scripts (these will need to run under Proxmox). Investigate if Proxmox has something better.</li>
+<li>Make an Ansible role for the Twitter backups. <em>(Done</em> <a href="https://github.com/jpellman/ansible-twitter-backup">here</a><em>; untested, but I don’t really feel that this is so essential that I can’t test it after Maxwell is rebuilt)</em></li>
+<li>Make an Ansible role for the rclone backups. <em>(Done</em> <a href="https://github.com/jpellman/ansible-rclone">here</a><em>; untested, but I don’t really feel that this is so essential that I can’t test it after Maxwell is rebuilt)</em></li>
+<li>Make an Ansible role for the gmvault backups. <em>(Done</em> <a href="https://github.com/jpellman/ansible-gmvault">here</a><em>; untested, but I don’t really feel that this is so essential that I can’t test it after Maxwell is rebuilt)</em></li>
+<li>Make Ansible roles for boinc and <a href="mailto:folding@home">folding@home</a> (can be done after Maxwell has been rebuilt)</li>
+</ul>
+<h4 id="vm-creation">VM Creation</h4>
+<ul>
+<li>Create a CentOS 6 VM for BOINC and FAH. We want to use CentOS 6 because the FAH packages still need Python 2.6 (unless you modify them manually to use Python 2.7 in CentOS 7, which is a bit of a pain). Attach thumb drive to this VM (possibly a silly RAID of thumb drives) and have it be the backing storage for at least the scratch storage used by BOINC. Why thumb drives? Because they’re cheap and I don’t want to wear down my spinny disks or SSDs with a bunch of scratch files. Give this VM access to GPUs and 8 vCPUs.</li>
+<li>Create a CentOS 7 VM for general file access / ZFS. Give it 2 vCPUs. This VM may also contain the Twitter CLI (possibly within an RVM environment), gmvault and all of the other internet presence / personal data backup cronjobs (I may make one of these for my reddit data using <a href="https://praw.readthedocs.io">PRAW</a>).</li>
+<li>I may then experiment with a Docker VM and getting my Windows 10 installation to run as a VM. If I can get GPU passthrough working with a Docker VM, I may retire the CentOS 6 VM and replace it with a Docker container (or split FAH and BOINC into multiple containers).</li>
+<li>I’m then going to replace the <a href="MoinMoin" class="uri">MoinMoin</a> instance I’ve been running with <a href="https://www.monicahq.com/">Monica</a>. (I actually don’t think I care enough about this, but if I do, I’ll revisit it. I barely use the Moinmoin instance as it is.)</li>
+</ul>
+<h3 id="detailed-notes-of-zfs-mirror-to-raidz1-transition">Detailed Notes of ZFS Mirror to RAIDZ1 Transition</h3>
+<p>Note: Encrypted snapshots are on external HD if this goes badly.</p>
+<ol type="1">
+<li>Disable user cronjobs for user <em>jpellman</em>.</li>
+<li>As root in screen session: Go to multi-user target with <code>systemctl isolate multi-user</code>, turn off BOINC, unmount <em>/home/boinc</em> and <em>/home</em>. Ensure that <em>/home/jpellman</em> isn’t being mounted on <a href="Bruno" class="uri">Bruno</a> using sshfs.</li>
+<li>Create a sparse file using the number of bytes provided by <code>fdisk -l</code>: <code>truncate -s 1000204886016 /root/raidz1_faux_drive.img</code></li>
+<li>Offline one of the drives in the ZFS mirror: <code>zpool offline pool0 ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z</code></li>
+<li>Clear out the partition label for the offlined disk:</li>
+</ol>
+<!-- -->
+<pre><code>zpool export pool0
+zpool labelclear -f /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z-part1</code></pre>
+<ol type="1">
+<li>Create a new volume with the offline drive and the spare WD Blue you added: <code>zpool create datastore raidz1 /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z /dev/disk/by-id/ata-WDC_WD10EZEX-00WN4A0_WD-WCC6Y7AKHNY8</code></li>
+<li>Turn deduplication and compression on by default at the pool level.</li>
+</ol>
+<!-- -->
+<pre><code>zfs set compression=lz4 datastore
+zfs set dedup=on datastore</code></pre>
+<ol type="1">
+<li>Offline the sparse image.</li>
+</ol>
+<!-- -->
+<pre><code>zpool offline datastore /root/raidz1_faux_drive.img</code></pre>
+<ol type="1">
+<li>Transfer data from the old pool to the new pool.</li>
+</ol>
+<!-- -->
+<pre><code>zpool import pool0
+zfs send -R pool0/apache@200119 | zfs receive datastore/apache
+zfs send -R pool0/home@200119 | zfs receive datastore/home</code></pre>
+<ol type="1">
+<li>Mount the new pool and verify that it looks right.</li>
+</ol>
+<!-- -->
+<pre><code>zfs get mountpoint datastore/home
+# Set it if not appearing above
+zfs set mountpoint=/home datastore/home
+zfs mount datastore/home</code></pre>
+<ol type="1">
+<li>Destroy the old pool. <code>zpool destroy pool0</code></li>
+<li>Add in the other disk. <code>zpool replace datastore /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y7ZT6K9C</code></li>
+</ol>
+<h2 id="other-wants">Other Wants</h2>
+<ul>
+<li>I want to get rid of the Dell monitor I’ve been using to access Maxwell. It’s an old monitor from the mid-2000s at the earliest, it’s clunky, and it’s a major PITA to move from one apartment to another. For OS-level remote desktop work, VNC, RDP and x2go are more than appropriate. If I want to update BIOS/UEFI settings though, I still need a monitor because MSI’s firmware includes this goofy graphical interface with no text-only option (if there were a text-only option, I’d presumably be able to just connect via a serial interface). I very rarely do firmware-level config updates, but I still need a monitor for it for the 2 or 3 times I do. <a href="https://github.com/Fmstrat/diy-ipmi">diyiipmi</a> is a probable candidate for this, although it’s almost too expensive to be worth it. I’m pretty sure the Dell monitor cost like $20, whereas diy-ipmi would cost ~ $120, with the main tradeoff being that I don’t have to deal with more crap in my apartment. More research:
+<ul>
+<li><a href="https://www.reddit.com/r/sysadmin/comments/gs2ep/kvm_over_ip/c1pv4gc/" class="uri">https://www.reddit.com/r/sysadmin/comments/gs2ep/kvm_over_ip/c1pv4gc/</a></li>
+<li><a href="https://www.reddit.com/r/homelab/comments/8pvsd0/turn_laptop_into_kvm_monitorkayboard/" class="uri">https://www.reddit.com/r/homelab/comments/8pvsd0/turn_laptop_into_kvm_monitorkayboard/</a></li>
+<li><a href="https://www.reddit.com/r/sysadmin/comments/x2jap/is_there_a_way_to_add_something_like_ipmi_to_a/" class="uri">https://www.reddit.com/r/sysadmin/comments/x2jap/is_there_a_way_to_add_something_like_ipmi_to_a/</a></li>
+<li><a href="https://www.reddit.com/r/linuxadmin/comments/1d10wj/what_do_you_use_for_remote_server_consoles/" class="uri">https://www.reddit.com/r/linuxadmin/comments/1d10wj/what_do_you_use_for_remote_server_consoles/</a></li>
+</ul></li>
+<li>The 240 GB SSD isn’t really being leveraged to its full potential. I should maybe split this into 3 partitions, with one for the OS and two others for a ZIL and L2ARC for ZFS. Alternatively, I could use the 60 GB SSD as a ZIL/L2ARC cache, since I don’t really care as much about it. It could live in the 4th bay of the Rosewill hot-swap cage.
+<ul>
+<li><strong>As of 1/19/20</strong>, the 60 GB SSD is now in the 4th Rosewill bay.</li>
+</ul></li>
+<li>I’m very rapidly running out of disk space on my mirrored ZFS volume as I digitize items in my mom’s house. It probably would make the most sense to redo that as a RAIDZ1 volume using the third WD Blue I have lying around.</li>
+</ul>
+<h2 id="photos">Photos</h2>
+<p>attachment:IMG_20190121_154736836.jpg_attachment:IMG_20190121_154736836.jpg_attachment:None_ attachment:IMG_20190121_154801532.jpg_attachment:IMG_20190121_154801532.jpg_attachment:None_ attachment:IMG_20190121_154834420.jpg_attachment:IMG_20190121_154834420.jpg_attachment:None_</p>
+<hr />
+<blockquote>
+<p><a href="Hosts" class="uri">Hosts</a></p>
+</blockquote>
+</article>
+</body>
+</html>

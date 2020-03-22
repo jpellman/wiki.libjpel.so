@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--
+==============================================================================
+           "GitHub HTML5 Pandoc Template" v2.1 — by Tristano Ajmone           
+==============================================================================
+Copyright © Tristano Ajmone, 2017, MIT License (MIT). Project's home:
+
+- https://github.com/tajmone/pandoc-goodies
+
+The CSS in this template reuses source code taken from the following projects:
+
+- GitHub Markdown CSS: Copyright © Sindre Sorhus, MIT License (MIT):
+  https://github.com/sindresorhus/github-markdown-css
+
+- Primer CSS: Copyright © 2016-2017 GitHub Inc., MIT License (MIT):
+  http://primercss.io/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The MIT License 
+
+Copyright (c) Tristano Ajmone, 2017 (github.com/tajmone/pandoc-goodies)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright (c) 2017 GitHub Inc.
+
+"GitHub Pandoc HTML5 Template" is Copyright (c) Tristano Ajmone, 2017, released
+under the MIT License (MIT); it contains readaptations of substantial portions
+of the following third party softwares:
+
+(1) "GitHub Markdown CSS", Copyright (c) Sindre Sorhus, MIT License (MIT).
+(2) "Primer CSS", Copyright (c) 2016 GitHub Inc., MIT License (MIT).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+==============================================================================-->
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Systems-Administration</title>
+  <style type="text/css">
+@charset "UTF-8";.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#24292e;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:16px;line-height:1.5;word-wrap:break-word;box-sizing:border-box;min-width:200px;max-width:980px;margin:0 auto;padding:45px}.markdown-body a{color:#0366d6;background-color:transparent;text-decoration:none;-webkit-text-decoration-skip:objects}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body a:hover{text-decoration:underline}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body strong{font-weight:600}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1{font-size:2em;margin:.67em 0;padding-bottom:.3em;border-bottom:1px solid #eaecef}.markdown-body h2{padding-bottom:.3em;font-size:1.5em;border-bottom:1px solid #eaecef}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#6a737d}.markdown-body img{border-style:none}.markdown-body svg:not(:root){overflow:hidden}.markdown-body hr{box-sizing:content-box;height:.25em;margin:24px 0;padding:0;overflow:hidden;background-color:#e1e4e8;border:0}.markdown-body hr::before{display:table;content:""}.markdown-body hr::after{display:table;clear:both;content:""}.markdown-body input{margin:0;overflow:visible;font:inherit;font-family:inherit;font-size:inherit;line-height:inherit}.markdown-body [type=checkbox]{box-sizing:border-box;padding:0}.markdown-body *{box-sizing:border-box}.markdown-body blockquote{margin:0}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dd{margin-left:0}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace}.markdown-body pre{font:12px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;word-wrap:normal}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body blockquote{padding:0 1em;color:#6a737d;border-left:.25em solid #dfe2e5}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body table{display:block;width:100%;overflow:auto;border-spacing:0;border-collapse:collapse}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #dfe2e5}.markdown-body table tr{background-color:#fff;border-top:1px solid #c6cbd1}.markdown-body table tr:nth-child(2n){background-color:#f6f8fa}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body code{padding:.2em 0;margin:0;font-size:85%;background-color:rgba(27,31,35,.05);border-radius:3px}.markdown-body code::after,.markdown-body code::before{letter-spacing:-.2em;content:" "}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f6f8fa;border-radius:3px}.markdown-body pre code{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code::after,.markdown-body pre code::before{content:normal}.markdown-body .full-commit .btn-outline:not(:disabled):hover{color:#005cc5;border-color:#005cc5}.markdown-body kbd{box-shadow:inset 0 -1px 0 #959da5;display:inline-block;padding:3px 5px;font:11px/10px SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;color:#444d56;vertical-align:middle;background-color:#fcfcfc;border:1px solid #c6cbd1;border-bottom-color:#959da5;border-radius:3px;box-shadow:inset 0 -1px 0 #959da5}.markdown-body :checked+.radio-label{position:relative;z-index:1;border-color:#0366d6}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item input{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body::before{display:table;content:""}.markdown-body::after{display:table;clear:both;content:""}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.Alert,.Error,.Note,.Success,.Warning{padding:11px;margin-bottom:24px;border-style:solid;border-width:1px;border-radius:4px}.Alert p,.Error p,.Note p,.Success p,.Warning p{margin-top:0}.Alert p:last-child,.Error p:last-child,.Note p:last-child,.Success p:last-child,.Warning p:last-child{margin-bottom:0}.Alert{color:#246;background-color:#e2eef9;border-color:#bac6d3}.Warning{color:#4c4a42;background-color:#fff9ea;border-color:#dfd8c2}.Error{color:#911;background-color:#fcdede;border-color:#d2b2b2}.Success{color:#22662c;background-color:#e2f9e5;border-color:#bad3be}.Note{color:#2f363d;background-color:#f6f8fa;border-color:#d5d8da}.Alert h1,.Alert h2,.Alert h3,.Alert h4,.Alert h5,.Alert h6{color:#246;margin-bottom:0}.Warning h1,.Warning h2,.Warning h3,.Warning h4,.Warning h5,.Warning h6{color:#4c4a42;margin-bottom:0}.Error h1,.Error h2,.Error h3,.Error h4,.Error h5,.Error h6{color:#911;margin-bottom:0}.Success h1,.Success h2,.Success h3,.Success h4,.Success h5,.Success h6{color:#22662c;margin-bottom:0}.Note h1,.Note h2,.Note h3,.Note h4,.Note h5,.Note h6{color:#2f363d;margin-bottom:0}.Alert h1:first-child,.Alert h2:first-child,.Alert h3:first-child,.Alert h4:first-child,.Alert h5:first-child,.Alert h6:first-child,.Error h1:first-child,.Error h2:first-child,.Error h3:first-child,.Error h4:first-child,.Error h5:first-child,.Error h6:first-child,.Note h1:first-child,.Note h2:first-child,.Note h3:first-child,.Note h4:first-child,.Note h5:first-child,.Note h6:first-child,.Success h1:first-child,.Success h2:first-child,.Success h3:first-child,.Success h4:first-child,.Success h5:first-child,.Success h6:first-child,.Warning h1:first-child,.Warning h2:first-child,.Warning h3:first-child,.Warning h4:first-child,.Warning h5:first-child,.Warning h6:first-child{margin-top:0}h1.title,p.subtitle{text-align:center}h1.title.followed-by-subtitle{margin-bottom:0}p.subtitle{font-size:1.5em;font-weight:600;line-height:1.25;margin-top:0;margin-bottom:16px;padding-bottom:.3em}div.line-block{white-space:pre-line}
+  </style>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<article class="markdown-body">
+<header>
+<h1 class="title">Systems-Administration</h1>
+</header>
+<h1 id="systems-administration-notes">Systems Administration Notes</h1>
+<p>This page stores both generic notes, as well as additional pages and categories related to systems administration. My general modus operandi here is to start taking notes here, and then to break things out into separate pages when they get too large.</p>
+<h2 id="general-links">General Links</h2>
+<h3 id="documentation-projects">Documentation Projects</h3>
+<ul>
+<li><a href="http://www.linfo.org/" class="uri">http://www.linfo.org/</a></li>
+<li><a href="http://www.tldp.org/" class="uri">http://www.tldp.org/</a></li>
+</ul>
+<h3 id="blogs-sysadmin-sites">Blogs / Sysadmin Sites</h3>
+<ul>
+<li><a href="http://www.kegel.com/" class="uri">http://www.kegel.com/</a></li>
+<li><a href="http://www.rodsbooks.com/" class="uri">http://www.rodsbooks.com/</a></li>
+<li><a href="http://grymoire.com/" class="uri">http://grymoire.com/</a></li>
+<li><a href="https://daniel.haxx.se/" class="uri">https://daniel.haxx.se/</a></li>
+<li><a href="http://everythingsysadmin.com/" class="uri">http://everythingsysadmin.com/</a></li>
+<li><a href="https://www.kennethreitz.org" class="uri">https://www.kennethreitz.org</a></li>
+<li><a href="http://www.guppylake.com/~nsb/" class="uri">http://www.guppylake.com/~nsb/</a></li>
+<li><a href="https://brendangregg.com" class="uri">https://brendangregg.com</a> - Emphasis on monitoring</li>
+<li><a href="https://pthree.org/" class="uri">https://pthree.org/</a> - Emphasis on storage / ZFS</li>
+<li><a href="https://sysadmincasts.com" class="uri">https://sysadmincasts.com</a></li>
+</ul>
+<h2 id="bootloaders">Bootloaders</h2>
+<ul>
+<li><a href="https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/">UEFI Boot - How Does that Actually Work Then?</a></li>
+<li><a href="https://forums.freebsd.org/threads/58001/#post-331378">Fast Boot as an issue with bootable thumb drives</a></li>
+</ul>
+<h2 id="scripting-languages">Scripting Languages</h2>
+<ul>
+<li><a href="Python" class="uri">Python</a></li>
+</ul>
+<h3 id="bash">Bash</h3>
+<ul>
+<li><a href="http://explainshell.com/">Explainshell</a></li>
+<li>Exec last command in bash <em>!!</em>.</li>
+<li>Variable expansion doesn’t work with watch (8/10/19 - I’m not sure I believe this- I might just have been doing something with single quotes instead of double quotes)</li>
+<li>The -c flag for du caches file size estimates so that they can be retrieve more quickly on future invocations? ( <a href="http://www.linfo.org/du.html">More reading</a> in addition to the man file)</li>
+<li>Type ‘reset’ when screen messes up your keyboard mapping.</li>
+<li>uniq -c : ‘prefix lines by the number of occurrences’</li>
+<li><a href="http://wiki.bash-hackers.org/howto/redirection_tutorial" class="uri">http://wiki.bash-hackers.org/howto/redirection_tutorial</a></li>
+<li><a href="http://sebug.net/paper/os/linux/Linux%20Shell%20Scripting%20Tutorial%20v2.0.pdf">http://sebug.net/paper/os/linux/Linux%20Shell%20Scripting%20Tutorial%20v2.0.pdf</a></li>
+<li><a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html" class="uri">http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html</a></li>
+<li><a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html" class="uri">http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html</a></li>
+<li><ul>
+<li><a href="http://mywiki.wooledge.org/BashPitfalls">Common Bash Pitfalls</a></li>
+</ul></li>
+<li><a href="http://www.davidpashley.com/articles/writing-robust-shell-scripts/">Writing Robust Shell Scripts</a></li>
+<li><a href="http://commandlinefu.com/">CommandlineFu</a></li>
+<li><a href="https://unix.stackexchange.com/a/159514">Good summary of redirection / control operators</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Here_document#Here_strings">Where I learned that Here strings need to have quotes around the word to be interpreted as string literals</a></li>
+</ul>
+<h3 id="regular-expressions">Regular Expressions</h3>
+<ul>
+<li><a href="https://regex.alf.nu/">RegEx Golf</a></li>
+<li><a href="http://www.regular-expressions.info">Regular Expressions by Jan Goyvaerts</a></li>
+</ul>
+<h2 id="monitoring-debugging">Monitoring / Debugging</h2>
+<ul>
+<li><a href="http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages">Understanding Load Averages</a></li>
+<li><a href="http://www.linuxintro.org/wiki/Strace:_what_a_process_does">Strace: What a Process Does</a></li>
+<li><a href="http://www.linux-magazine.com/Issues/2009/105/Practical-strace">Practical strace</a></li>
+</ul>
+<h3 id="memory">Memory</h3>
+<ul>
+<li><a href="http://linuxatemyram.com">Linux Ate My RAM</a></li>
+<li>Apparently the Java heap makes use of the RAM allocated for buffer/cache (so the buffer/cache isn’t freed up).</li>
+<li><a href="https://www.yourkit.com/docs/kb/sizes.jsp">Article on JVM Heap Size</a> &amp; <a href="https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html">Oracle Docs on JVM Heap</a></li>
+</ul>
+<h2 id="networking">Networking</h2>
+<ul>
+<li><a href="https://wiki.centos.org/HowTos/Network/IPTables">Succinct overview of iptables</a></li>
+<li><a href="https://docs.google.com/document/d/1gY9-YNDNAB1eip-RTPbqphgySwSNSDHLq9D5Bty4FSU/edit">QUIC at 10,000 feet</a></li>
+<li><a href="http://tldp.org/LDP/nag2/x-087-2-iface.netstat.html">netstat overview</a></li>
+<li><a href="https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf">Cheat Sheet for IP command</a></li>
+</ul>
+<h3 id="application-layer-protocols">Application-Layer Protocols</h3>
+<h4 id="http">HTTP</h4>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/HTTP_persistent_connection">Keep Alive Client</a></li>
+<li><a href="https://www.w3.org/History/19921103-hypertext/hypertext/WWW/Protocols/HTTP.html" class="uri">https://www.w3.org/History/19921103-hypertext/hypertext/WWW/Protocols/HTTP.html</a></li>
+<li><a href="https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html" class="uri">https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html</a></li>
+<li><a href="https://daniel.haxx.se/docs/ftp-vs-http.html" class="uri">https://daniel.haxx.se/docs/ftp-vs-http.html</a></li>
+<li><a href="https://news.ycombinator.com/item?id=13075355">What inspired my interest in this topic</a></li>
+</ul>
+<h3 id="tcpdump-tutorials">TCPDump Tutorials</h3>
+<ul>
+<li><a href="http://www.alexonlinux.com/tcpdump-for-dummies" class="uri">http://www.alexonlinux.com/tcpdump-for-dummies</a></li>
+<li><a href="http://bencane.com/2014/10/13/quick-and-practical-reference-for-tcpdump/" class="uri">http://bencane.com/2014/10/13/quick-and-practical-reference-for-tcpdump/</a></li>
+<li><a href="https://www.quora.com/What-is-the-difference-between-TCPs-FIN-and-RST-packets" class="uri">https://www.quora.com/What-is-the-difference-between-TCPs-FIN-and-RST-packets</a></li>
+</ul>
+<h2 id="security">Security</h2>
+<ul>
+<li><a href="https://cipherli.st/">Strong Ciphers for Web Servers</a></li>
+<li><a href="https://www.ssllabs.com/">SSL Labs</a> (assesses your site’s security)</li>
+<li><a href="https://istlsfastyet.com/">Is TLS fast yet?</a></li>
+<li><a href="https://hpbn.co/transport-layer-security-tls/">TLS Overview</a> (chapter of an O’Reilly book)</li>
+<li><a href="https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization">CAA</a> (combines SSL/TLS certificate file w/ a DNS record to increase security)</li>
+<li><a href="https://www.madboa.com/geek/gpg-quickstart">GPG Quickstart</a></li>
+<li><a href="https://fedoraproject.org/wiki/Creating_GPG_Keys#Creating_GPG_Keys_Using_the_Command_Line">Creating GPG Keys Using the CLI</a></li>
+<li><a href="http://www.crypt.gen.nz/papers/backup_encryption.html">Backup Encryption</a></li>
+<li><a href="http://hackaday.com/2014/05/28/interview-inventing-the-unix-sudo-command/">Inventing the Sudo Command</a></li>
+<li><a href="http://preshing.com/20110811/xkcd-password-generator/">XKCD Password Generator</a></li>
+<li><a href="http://correcthorsebatterystaple.net/">Another XKCD Password Generator</a></li>
+<li><a href="https://blog.compass-security.com/2012/10/dangerous-sudoers-entries-part-4-wildcards/">Dangerous Sudoers Entries</a></li>
+<li><a href="https://stopdisablingselinux.com/">Stop Disabling SELinux</a></li>
+</ul>
+<h2 id="storage">Storage</h2>
+<ul>
+<li><a href="https://www.kernel.org/doc/ols/2006/ols2006v2-pages-59-72.pdf">Why NFS Sucks</a></li>
+<li><a href="https://icesquare.com/wordpress/how-to-improve-zfs-performance/">How to improve ZFS performance</a></li>
+<li><a href="https://calomel.org/zfs_raid_speed_capacity.html">ZFS RAID Speed Capacity</a></li>
+<li><a href="https://www.delphix.com/blog/delphix-engineering/zfs-raidz-stripe-width-or-how-i-learned-stop-worrying-and-love-raidz">How I learned to stop worrying and love RAIDZ</a></li>
+<li><a href="http://clusterdesign.org/2012/08/lustre-and-panasas-are-not-so-different/">Lustre and Panasas Are Not So Different</a></li>
+<li><a href="https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/">Backblaze Hard Drive Reliability Stats, Q1 2016</a></li>
+<li><a href="https://www.snia.org/ndmp">NDMP</a> (Description and whitepaper)</li>
+<li><a href="http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html" class="uri">http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html</a></li>
+<li><a href="https://medium.com/@jonphilpott/does-writing-to-nfs-put-processes-into-un-interruptible-sleep-d58790cd13b6#.h4oi0ufqx">Does Writing to NFS Put Processes into Uninterruptible Sleep?</a></li>
+<li><a href="http://redhat-admin.blogspot.com/2011/09/create-and-configure-luks-encrypted.html">Create LUKS</a></li>
+</ul>
+<h3 id="acls">ACLs</h3>
+<ul>
+<li><a href="http://okki666.free.fr/docmaster/articles/linux100.htm">En Francais</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/Access_Control_Lists" class="uri">https://wiki.archlinux.org/index.php/Access_Control_Lists</a></li>
+<li><a href="https://www.freebsd.org/doc/handbook/fs-acl.html" class="uri">https://www.freebsd.org/doc/handbook/fs-acl.html</a></li>
+</ul>
+<h3 id="raid-5">RAID-5</h3>
+<p>A list of pages discussing why not to use RAID5:</p>
+<ul>
+<li><a href="https://news.ycombinator.com/item?id=8306499" class="uri">https://news.ycombinator.com/item?id=8306499</a></li>
+<li><a href="https://www.reddit.com/r/sysadmin/comments/ydi6i/dell_raid_5_is_no_longer_recommended_for_any/" class="uri">https://www.reddit.com/r/sysadmin/comments/ydi6i/dell_raid_5_is_no_longer_recommended_for_any/</a></li>
+<li><a href="https://www.reddit.com/r/sysadmin/comments/3yoc9z/raid_5raid_10_tradeoff/" class="uri">https://www.reddit.com/r/sysadmin/comments/3yoc9z/raid_5raid_10_tradeoff/</a> (in which we learn that RAID5 works for SSDs)</li>
+</ul>
+<p>An article on the RAID “write-hole”, which seems to be especially salient for RAID5:</p>
+<ul>
+<li><a href="http://www.raid-recovery-guide.com/raid5-write-hole.aspx" class="uri">http://www.raid-recovery-guide.com/raid5-write-hole.aspx</a></li>
+</ul>
+<h3 id="tape">Tape</h3>
+<ul>
+<li>tar tvf <strong>&lt;device_name&gt;</strong> - Read the file name from the tar header for the current file that the tape is pointed at.</li>
+</ul>
+<h3 id="database-vs-filesystem">Database vs Filesystem</h3>
+<ul>
+<li><a href="https://stackoverflow.com/questions/38120895/database-vs-file-system-storage" class="uri">https://stackoverflow.com/questions/38120895/database-vs-file-system-storage</a></li>
+<li><a href="https://softwareengineering.stackexchange.com/questions/190482/why-use-a-database-instead-of-just-saving-your-data-to-disk" class="uri">https://softwareengineering.stackexchange.com/questions/190482/why-use-a-database-instead-of-just-saving-your-data-to-disk</a></li>
+<li><a href="https://dzone.com/articles/which-is-better-saving-files-in-database-or-in-fil" class="uri">https://dzone.com/articles/which-is-better-saving-files-in-database-or-in-fil</a></li>
+</ul>
+<h2 id="identity-management-user-management">Identity Management / User Management</h2>
+<ul>
+<li><a href="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/s1-users-tools.html" class="uri">https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/s1-users-tools.html</a></li>
+<li><a href="http://ldapman.org/articles/intro_to_ldap.html">Introduction to LDAP</a></li>
+</ul>
+<h2 id="applications">Applications</h2>
+<h3 id="web-servers">Web Servers</h3>
+<ul>
+<li>An analogy: web/app servers / load balancers belong to the same sub-class of problems that HPC schedulers treat, but are just more narrow in scope.</li>
+<li>A 301 redirect in nginx for HTTPS requires a cert because the packet needs to be decrypted for nginx to inspect the host field of the packet header.</li>
+<li><a href="https://www.nginx.com/resources/wiki/start/">Canned nginx Configs (to use as templates)</a></li>
+</ul>
+<h3 id="databases">Databases</h3>
+<ul>
+<li><a href="http://philip.greenspun.com/sql/" class="uri">http://philip.greenspun.com/sql/</a></li>
+<li><a href="https://medium.com/@denisanikin/what-an-in-memory-database-is-and-how-it-persists-data-efficiently-f43868cff4c1">What an in-memory database is and how it persists data efficiently</a></li>
+<li><a href="https://www.quora.com/What-are-pros-and-cons-of-PostgreSQL-and-MySQL-With-respect-to-reliability-speed-scalability-and-features">What are pros and cons of PostgreSQL and MySQL? With respect to reliability, speed, scalability, and features.</a></li>
+</ul>
+<h2 id="virtualization">Virtualization</h2>
+<ul>
+<li>Apparently KVM and Virtualbox are incompatible / can’t be run simultaneously. See <a href="http://www.dedoimedo.com/computers/kvm-virtualbox.html">here</a> for an idea on how to handle that (or just don’t do that at all because it doesn’t make too much sense to begin with- quoth the older and wiser me).</li>
+<li><a href="https://wiki.xenproject.org/wiki/Xen_Networking">Xen Networking</a></li>
+<li><a href="https://wiki.hackzine.org/sysadmin/kvm-import-ova.html">Importing an OVA into KVM</a></li>
+</ul>
+<h2 id="containerization">Containerization</h2>
+<ul>
+<li><a href="https://thenewstack.io/kubernetes-an-overview/">Kubernetes: An Overview</a></li>
+<li><a href="https://www.amazon.com/Docker-Data-Science-Extensible-Infrastructure/dp/1484230116">Docker for Data Science</a></li>
+<li><a href="https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md">Docker Security Cheat Sheet</a></li>
+</ul>
+<h2 id="cloud-computing">Cloud Computing</h2>
+<ul>
+<li>If an AWS S3 upload is <a href="MultiPart" class="uri">MultiPart</a>, the ETag attribute of an S3 bucket object is <em>not</em> an MD5 hash. It is the hashes for each part uploaded concatenated, plus a dash and the number of parts uploaded (see <a href="http://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonResponseHeaders.html">here</a>).</li>
+</ul>
+<h3 id="s3-compatible-object-stores">S3-compatible object stores</h3>
+<ul>
+<li><a href="https://minio.io/" class="uri">https://minio.io/</a></li>
+<li><a href="https://cloudian.com/" class="uri">https://cloudian.com/</a></li>
+<li><a href="https://wasabi.com/" class="uri">https://wasabi.com/</a></li>
+<li><a href="http://pithos.io/" class="uri">http://pithos.io/</a></li>
+<li><a href="https://www.zenko.io/" class="uri">https://www.zenko.io/</a></li>
+<li><a href="https://leo-project.net/leofs/" class="uri">https://leo-project.net/leofs/</a></li>
+<li><a href="https://github.com/eucalyptus/eucalyptus/wiki/Walrus-S3-API" class="uri">https://github.com/eucalyptus/eucalyptus/wiki/Walrus-S3-API</a></li>
+<li><a href="http://docs.ceph.com/docs/master/radosgw/s3/" class="uri">http://docs.ceph.com/docs/master/radosgw/s3/</a></li>
+</ul>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="http://www.atoptool.nl/">Atop</a></li>
+<li><a href="https://github.com/2ndalpha/gasmask">Gas Hosts</a></li>
+<li><a href="https://linux.die.net/man/1/last">last</a> (can show reboot times)</li>
+<li><a href="https://linux.die.net/man/8/lastlog">lastlog</a> (can show last login for a user- with decently informative timestamp)</li>
+<li><a href="https://mxtoolbox.com/SuperTool.aspx" class="uri">https://mxtoolbox.com/SuperTool.aspx</a></li>
+<li><a href="https://peteris.rocks/blog/htop/" class="uri">https://peteris.rocks/blog/htop/</a></li>
+<li><a href="http://md5deep.sourceforge.net/" class="uri">http://md5deep.sourceforge.net/</a></li>
+<li><a href="http://www.shakthimaan.com/posts/2014/11/27/gnu-parallel/news.html">GNU Parallel</a></li>
+</ul>
+<hr />
+<blockquote>
+<p><a href="_Sidebar">Categories</a></p>
+</blockquote>
+</article>
+</body>
+</html>
