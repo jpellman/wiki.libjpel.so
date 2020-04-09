@@ -98,7 +98,7 @@ Plans
 -   ~~Back up raw DV footage to blu-ray so that the spare 1 TB WD Blue you have can be re-appropriated.~~ *DONE: 1/18/20*
 -   ~~Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage that contains as much data as the nearline storage can hold.~~ *DONE: 1/19/20*
 -   ~~Create a dummy dataset within the ZFS pool.  Back it up to AWS and test a restore (b/c I don't think I've ever actually done this before /shudders)~~ *DONE: 1/19/20*
--   Take a full backup of the current state of your home directory to blu-ray (most likely using [dirsplit](https://linux.die.net/man/1/dirsplit)). Plan on doing this once a year. Secure the full backup-up somewhere in your apartment.
+-   ~~Take a full backup of the current state of your home directory to blu-ray (most likely using [dirsplit](https://linux.die.net/man/1/dirsplit)). Plan on doing this once a year. Secure the full backup-up somewhere in your apartment.~~ *DONE: 4/2/20*
     -   **Note from 1/19/20**: Due to the amount of time it takes to do this (see [Blu Ray Backup](Blu-Ray-Backup)), I'm going to re-organize my data by hotness and coldness, and have different back up intervals depending on that, simply because I don't want to spend more than a day or two on this every year (current estimate for backup time is around 36 hours or about 5 work days).
 -   At some point, make a second copy of the blu-ray backup and store it off-site at mom's house in Clinton, NY (or possibly rent a lock box there).
 -   The rationale for backing up to blu-ray is as follows:
@@ -115,7 +115,7 @@ Plans
 -   ~~At some point (possibly before this migration), delete all the snapshots that currently exist.~~ *DONE: 3/18/20*
 -   ~~On the new RAIDZ1 vdev, refactor the pool so that data is organized somewhat logically (i.e., a dataset for digitized files from my mom's house, a dataset for music, a dataset for cloud/gmail backups, a dataset for my audio diaries, a dataset for photos, etc). Separating my files into separate datasets makes restores slightly easier, since I can start with the full backup for whichever logical division I want first and ignore the others as necessary (i.e., if my workstation has been nabbed, I'd like to be able to prioritize the restoration of certain data over other data; tax data \> Star Wars Holiday Special)~~ *DONE: 3/18/20*
 -   Adjust current setup as necessary to accommodate these changes.
--   Stop replicating data in your S3 bucket from Ohio to Canada. Having your backups replicated in 2 AWS regions + 2 copies of full blu-ray backups + a nearline backup to blu-ray is definitely overkill. At max, just use one region.
+-   ~~Stop replicating data in your S3 bucket from Ohio to Canada. Having your backups replicated in 2 AWS regions + 2 copies of full blu-ray backups + a nearline backup to blu-ray is definitely overkill. At max, just use one region.~~ *DONE: 4/2/20*
 -   Make the ZFS backup script robust to internet outages. Parameterize parts of it as necessary / make some bash functions.
 
 #### Reprovisioning Tasks
