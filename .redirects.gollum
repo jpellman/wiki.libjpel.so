@@ -3,3 +3,4 @@ Dumb-Build.md: Home Lab/Hosts/Dumb-Build.md
 Home Lab/Hosts/Dumb-Build.md: Home-Lab/Hosts/Dumb-Build.md
 Academic-History.md: Hobbies/Academic-History.md
 Ansible-Notes.md: Systems-Administration/Ansible-Notes.md
+Config-Management.md: Systems-Administration/Config-Management.md
