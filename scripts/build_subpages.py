@@ -24,7 +24,7 @@ def crawlCategories(gitRepoRoot):
             continue
         # Remove hidden files and Gollum subpages from consideration.
         f = [fi for fi in f if not (fi.startswith('.') or fi.startswith('_'))]
-        d = [os.path.join(os.path.basename(di),'_Sidebar.md') for di in n if os.path.basename(di) not in CRAWL_BLACKLIST]
+        d = [os.path.join(os.path.basename(di),'Home.md') for di in n if os.path.basename(di) not in CRAWL_BLACKLIST]
         categoryTree[p] = f + d
     return categoryTree
 
@@ -37,7 +37,7 @@ def renderSidebar(categoryDir, categoryList, gitRepoRoot):
         category = os.path.basename(categoryDir) 
     sidebar+='# [[%s|%s]]\n' % (category.replace('-',' '), relativeCategoryPath)
     for page in categoryList:
-        sidebar+=' * [[%s|%s]]\n' % (splitext(page)[0].replace('-',' ').replace('/_Sidebar',''), os.path.join(relativeCategoryPath,page))
+        sidebar+=' * [[%s|%s]]\n' % (splitext(page)[0].replace('-',' ').replace('/Home',''), os.path.join(relativeCategoryPath,page))
     return sidebar
 
 if __name__ == '__main__':
@@ -45,5 +45,12 @@ if __name__ == '__main__':
     categories = crawlCategories(gitRepoRoot)
     for k,v in categories.items():
         print(renderSidebar(k,v,gitRepoRoot))
-        with open(os.path.join(k,'_Sidebar.md'),'w') as f:
-            f.write(renderSidebar(k,v,gitRepoRoot))
+        if k.strip() != gitRepoRoot.strip():
+            with open(os.path.join(k,'Home.md'),'w') as f:
+                f.write(renderSidebar(k,v,gitRepoRoot))
+            if os.path.isfile(os.path.join(k,'_Sidebar.md')):
+                os.remove(os.path.join(k,'_Sidebar.md'))
+            os.symlink(os.path.join(k,'Home.md'),os.path.join(k,'_Sidebar.md'))
+        else:
+            with open(os.path.join(k,'_Sidebar.md'),'w') as f:
+                f.write(renderSidebar(k,v,gitRepoRoot))
