@@ -12,3 +12,4 @@ Meditations On Theranos.md: Musings/Meditations On Theranos.md
 Hobbies/Hobbies.md: Hobbies.md
 Hobbies.md: Hobbies/Hobbies.md
 Hobbies/Georectification.md: Georectification.md
+Georectification.md: Hobbies/Georectification.md
