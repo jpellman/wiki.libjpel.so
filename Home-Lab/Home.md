@@ -1,6 +1,0 @@
-# [[Home Lab|/Home-Lab]]
- * [[AWS Backup|/Home-Lab/AWS-Backup.md]]
- * [[Blu Ray Backup|/Home-Lab/Blu-Ray-Backup.md]]
- * [[Libjpel Wiki|/Home-Lab/Libjpel Wiki.md]]
- * [[Hosts|/Home-Lab/Hosts/Home.md]]
- * [[Network|/Home-Lab/Network/Home.md]]

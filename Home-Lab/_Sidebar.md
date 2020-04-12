@@ -1,1 +1,6 @@
-/private/tmp/wiki.libjpel.so/Home-Lab/Home.md
+# [[Home Lab|/Home-Lab]]
+ * [[AWS Backup|/Home-Lab/AWS-Backup.md]]
+ * [[Blu Ray Backup|/Home-Lab/Blu-Ray-Backup.md]]
+ * [[Libjpel Wiki|/Home-Lab/Libjpel Wiki.md]]
+ * [[Hosts|/Home-Lab/Hosts/_Sidebar.md]]
+ * [[Network|/Home-Lab/Network/_Sidebar.md]]
