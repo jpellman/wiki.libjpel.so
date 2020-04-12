@@ -12,3 +12,4 @@ I recently switched from MoinMoin to Gollum for my personal wiki.  I'm using thi
  * Find a way to automatically build a tree that people can navigate in the static site version.
  * Update any misc leftover MoinMoin syntax that is lingering about.
  * Remove the MoinMoin category designations at the end of some documents.  I'm thinking that I'll drop a Gollum footer file in each of the sub-directories within the wiki repo that contains representation of where you're at in the tree, and that will be rendered instead.
+ * Fix sidebar and links on main page.
