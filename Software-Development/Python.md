@@ -5,9 +5,6 @@ Python
 
 Various links to articles and notes regarding Python.
 
-**List of pages in this category:**
-
-[[FullSearchCached(category:Python)]]\_
 
 Various Python-Related Readings
 -------------------------------
