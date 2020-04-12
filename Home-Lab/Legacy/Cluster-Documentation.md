@@ -10,45 +10,45 @@ An inventory of all the computers used in my home cluster, including their specs
 
 | Key | Value |
 | --- | --- |
-| ** Brand ** | Apple Macbook Pro (circa 2008) |
-| ** CPU ** | 2.4 Ghz Intel Core 2 Duo (64|bit) |
-| ** Cores ** | 2 |
-| ** RAM ** | 2 GB |
-| ** Graphics Card ** | NVIDIA GeForce 8600M GT |
-| ** Hard Drive ** | 142 GB (according to df) |
+|**Brand**| Apple Macbook Pro (circa 2008) |
+|**CPU**| 2.4 Ghz Intel Core 2 Duo (64|bit) |
+|**Cores**| 2 |
+|**RAM**| 2 GB |
+|**Graphics Card**| NVIDIA GeForce 8600M GT |
+|**Hard Drive**| 142 GB (according to df) |
 
 ### Voltaire
 
 | Key | Value |
 | --- | --- |
-| ** Brand ** | Apple iBook G4 (circa 2006) |
-| ** CPU ** | 1.33 Ghz PowerPC 7447a (32-bit) |
-| ** Cores ** | 1  |
-| ** RAM ** | 512 MB |
-| ** Graphics Card ** | ATI Mobility Radeon 9550 |
-| ** Hard Drive ** | 40GB (36 GB according to df)  |
+|**Brand**| Apple iBook G4 (circa 2006) |
+|**CPU**| 1.33 Ghz PowerPC 7447a (32-bit) |
+|**Cores**| 1  |
+|**RAM**| 512 MB |
+|**Graphics Card**| ATI Mobility Radeon 9550 |
+|**Hard Drive**| 40GB (36 GB according to df)  |
 
 ### Montaigne
 
 | Key | Value |
 | --- | --- |
-| ** Brand ** | Custom Made (circa 2002)  |
-| ** CPU ** | 900 Mhz AMD Duron (32-bit) |
-| ** Cores ** | 1 |
-| ** RAM ** | 512 MB SDRAM |
-| ** Graphics Card ** | (2) ATI Rage 128 and ATI Radeon 9000 |
-| ** Hard Drive ** | 15.3 GB (14 GB according to df) |
+|**Brand**| Custom Made (circa 2002)  |
+|**CPU**| 900 Mhz AMD Duron (32-bit) |
+|**Cores**| 1 |
+|**RAM**| 512 MB SDRAM |
+|**Graphics Card**| (2) ATI Rage 128 and ATI Radeon 9000 |
+|**Hard Drive**| 15.3 GB (14 GB according to df) |
 
 ### Cervantes
 
 | Key | Value |
 | --- | --- |
-| ** Brand ** | Macbook Pro (circa 2011) |
-| ** CPU ** | 2.5 Ghz Intel Core 2 Duo (64-bit) |
-| ** Cores ** | 2  |
-| ** RAM ** | 4 GB (hypervisor); 2 GB (VM) |
-| ** Graphics Card ** | NVIDIA GeForce 8600M GT (128 MB video memory for VM) |
-| ** Hard Drive ** | 320 GB (hypervisor); 181 GB (VM) |
+|**Brand**| Macbook Pro (circa 2011) |
+|**CPU**| 2.5 Ghz Intel Core 2 Duo (64-bit) |
+|**Cores**| 2  |
+|**RAM**| 4 GB (hypervisor); 2 GB (VM) |
+|**Graphics Card**| NVIDIA GeForce 8600M GT (128 MB video memory for VM) |
+|**Hard Drive**| 320 GB (hypervisor); 181 GB (VM) |
 
 ## Section 2: Software Installed
 
