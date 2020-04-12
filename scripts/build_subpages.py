@@ -65,7 +65,7 @@ if __name__ == '__main__':
     if gitRepoRoot:
         preCommitPath = os.path.join(gitRepoRoot,'.git','hooks','pre-commit')
         if not os.path.islink(preCommitPath):
-            os.symlink(os.path.join('..','scripts',__file__),preCommitPath)
+            os.symlink(os.path.join('..','..','scripts',os.path.basename(__file__)),preCommitPath)
     categories = crawlCategories(gitRepoRoot)
     for k,v in categories.items():
         footer = renderFooter(k, gitRepoRoot)

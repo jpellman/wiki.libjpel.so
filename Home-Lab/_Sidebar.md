@@ -4,4 +4,5 @@
  * [[Home|/Home-Lab/Home.md]]
  * [[Libjpel Wiki|/Home-Lab/Libjpel Wiki.md]]
  * [[Hosts|/Home-Lab/Hosts/Home.md]]
+ * [[Legacy|/Home-Lab/Legacy/Home.md]]
  * [[Network|/Home-Lab/Network/Home.md]]

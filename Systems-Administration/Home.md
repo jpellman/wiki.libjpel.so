@@ -13,4 +13,5 @@
  * [[Text Editors|/Systems-Administration/Text-Editors.md]]
  * [[udev|/Systems-Administration/udev.md]]
  * [[UPS|/Systems-Administration/UPS.md]]
+ * [[Legacy|/Systems-Administration/Legacy/Home.md]]
  * [[Rants|/Systems-Administration/Rants/Home.md]]

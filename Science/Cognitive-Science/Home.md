@@ -10,3 +10,4 @@
  * [[Neuroinformatics GPU|/Science/Cognitive-Science/Neuroinformatics-GPU.md]]
  * [[Neuroinformatics Pipelines|/Science/Cognitive-Science/Neuroinformatics-Pipelines.md]]
  * [[Problem Solving|/Science/Cognitive-Science/Problem-Solving.md]]
+ * [[Legacy|/Science/Cognitive-Science/Legacy/Home.md]]
