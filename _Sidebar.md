@@ -1,15 +1,13 @@
-Categories
-==========
- * [Academic-Computing](Academic-Computing)
- * [Cognitive-Science](Cognitive-Science)
- * [Django](Django)
- * [Hobbies](Hobbies)
- * [Home-Lab](Home-Lab)
- * [Home-Network](Home-Network)
- * [Hosts](Hosts)
- * [Open-Science](Open-Science)
- * [Pipelining](Pipelining)
- * [Python](Python)
- * [Retrocomputing](Retrocomputing)
- * [Scientific-Computing](Scientific-Computing)
- * [Systems-Administration](Systems-Administration)
+# [[Home|]]
+ * [[Charities|Charities.md]]
+ * [[Computational Linguistics|Computational-Linguistics.md]]
+ * [[Home|Home.md]]
+ * [[Meditations On Theranos|Meditations On Theranos.md]]
+ * [[Musings|Musings.md]]
+ * [[Unsorted Facts|Unsorted-Facts.md]]
+ * [[Academic Computing|Academic-Computing/_Sidebar.md]]
+ * [[Hobbies|Hobbies/_Sidebar.md]]
+ * [[Home Lab|Home-Lab/_Sidebar.md]]
+ * [[Science|Science/_Sidebar.md]]
+ * [[Software Development|Software-Development/_Sidebar.md]]
+ * [[Systems Administration|Systems-Administration/_Sidebar.md]]
