@@ -40,17 +40,39 @@ def renderSidebar(categoryDir, categoryList, gitRepoRoot):
         sidebar+=' * [[%s|%s]]\n' % (splitext(page)[0].replace('-',' ').replace('/Home',''), os.path.join(relativeCategoryPath,page))
     return sidebar
 
+def renderFooter(categoryDir, gitRepoRoot):
+    footerList = []
+    rootLink = '[[%s|%s]]' % ('Home','/Home.md')
+    if categoryDir == gitRepoRoot:
+        footerList.append(rootLink)
+    else:
+        relativeCategoryPath = categoryDir.replace(gitRepoRoot,'')
+        relativeCategoryPath = relativeCategoryPath.strip(os.path.sep)
+        footerList.append(rootLink)
+        treeElms = list(os.path.split(relativeCategoryPath))
+        treeElms = [treeElm for treeElm in treeElms if treeElm]
+        treeNodes = []
+        while treeElms:
+            lastElm = treeElms.pop()
+            treeNodes.append('[[%s|%s]]' % (lastElm, os.path.join(*treeElms,lastElm,'Home.md')))
+        treeNodes = reversed(treeNodes)
+        footerList+=treeNodes
+    return ' **>** '.join(footerList)
+
 if __name__ == '__main__':
     gitRepoRoot = chrootGitRepo()
     categories = crawlCategories(gitRepoRoot)
     for k,v in categories.items():
-        print(renderSidebar(k,v,gitRepoRoot))
-        if k.strip() != gitRepoRoot.strip():
-            with open(os.path.join(k,'Home.md'),'w') as f:
-                f.write(renderSidebar(k,v,gitRepoRoot))
-            if os.path.isfile(os.path.join(k,'_Sidebar.md')):
-                os.remove(os.path.join(k,'_Sidebar.md'))
-            os.link(os.path.join(k,'Home.md'),os.path.join(k,'_Sidebar.md'))
-        else:
-            with open(os.path.join(k,'_Sidebar.md'),'w') as f:
-                f.write(renderSidebar(k,v,gitRepoRoot))
+        footer = renderFooter(k, gitRepoRoot)
+        with open(os.path.join(k,'_Footer.md'),'w') as f:
+            f.write(footer)
+        #sidebar = renderSidebar(k,v,gitRepoRoot)
+        #if k.strip() != gitRepoRoot.strip():
+        #    with open(os.path.join(k,'Home.md'),'w') as f:
+        #        f.write(sidebar)
+        #    if os.path.isfile(os.path.join(k,'_Sidebar.md')):
+        #        os.remove(os.path.join(k,'_Sidebar.md'))
+        #    os.link(os.path.join(k,'Home.md'),os.path.join(k,'_Sidebar.md'))
+        #else:
+        #    with open(os.path.join(k,'_Sidebar.md'),'w') as f:
+        #        f.write(sidebar)
