@@ -50,7 +50,7 @@ if __name__ == '__main__':
                 f.write(renderSidebar(k,v,gitRepoRoot))
             if os.path.isfile(os.path.join(k,'_Sidebar.md')):
                 os.remove(os.path.join(k,'_Sidebar.md'))
-            os.symlink(os.path.join(k,'Home.md'),os.path.join(k,'_Sidebar.md'))
+            os.link(os.path.join(k,'Home.md'),os.path.join(k,'_Sidebar.md'))
         else:
             with open(os.path.join(k,'_Sidebar.md'),'w') as f:
                 f.write(renderSidebar(k,v,gitRepoRoot))
