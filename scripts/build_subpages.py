@@ -61,18 +61,23 @@ def renderFooter(categoryDir, gitRepoRoot):
 
 if __name__ == '__main__':
     gitRepoRoot = chrootGitRepo()
+    # Automatically add as pre-commit hook if not already there.
+    if gitRepoRoot:
+        preCommitPath = os.path.join(gitRepoRoot,'.git','hooks','pre-commit')
+        if not os.path.isfile(preCommitPath):
+            os.symlink(os.path.join('..','scripts',__file__),preCommitPath)
     categories = crawlCategories(gitRepoRoot)
     for k,v in categories.items():
         footer = renderFooter(k, gitRepoRoot)
         with open(os.path.join(k,'_Footer.md'),'w') as f:
             f.write(footer)
-        #sidebar = renderSidebar(k,v,gitRepoRoot)
-        #if k.strip() != gitRepoRoot.strip():
-        #    with open(os.path.join(k,'Home.md'),'w') as f:
-        #        f.write(sidebar)
-        #    if os.path.isfile(os.path.join(k,'_Sidebar.md')):
-        #        os.remove(os.path.join(k,'_Sidebar.md'))
-        #    os.link(os.path.join(k,'Home.md'),os.path.join(k,'_Sidebar.md'))
-        #else:
-        #    with open(os.path.join(k,'_Sidebar.md'),'w') as f:
-        #        f.write(sidebar)
+        sidebar = renderSidebar(k,v,gitRepoRoot)
+        if k.strip() != gitRepoRoot.strip():
+            with open(os.path.join(k,'Home.md'),'w') as f:
+                f.write(sidebar)
+            if os.path.isfile(os.path.join(k,'_Sidebar.md')):
+                os.remove(os.path.join(k,'_Sidebar.md'))
+            os.link(os.path.join(k,'Home.md'),os.path.join(k,'_Sidebar.md'))
+        else:
+            with open(os.path.join(k,'_Sidebar.md'),'w') as f:
+                f.write(sidebar)
