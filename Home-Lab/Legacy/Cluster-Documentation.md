@@ -11,7 +11,7 @@ An inventory of all the computers used in my home cluster, including their specs
 | Key | Value |
 | --- | --- |
 |**Brand**| Apple Macbook Pro (circa 2008) |
-|**CPU**| 2.4 Ghz Intel Core 2 Duo (64|bit) |
+|**CPU**| 2.4 Ghz Intel Core 2 Duo (64-bit) |
 |**Cores**| 2 |
 |**RAM**| 2 GB |
 |**Graphics Card**| NVIDIA GeForce 8600M GT |
