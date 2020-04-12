@@ -1,0 +1,48 @@
+General Problem-Solving Algorithm:
+1. Look for a past solution that can be re-applied or modified.  First look at solutions that I have already used.  If there is not a simple or elegant solution, do independent research (books, mailing lists, StackExchange) to see if others have devised a solution in the past that can be applied.
+2. If step 1 fails, create some preliminary specifications for a solution.
+3. Look for tools to implement the specifications.
+4. Write pseudocode or make a flow chart to keep track of how components (functions, applications) might interact.
+5. Document as you go along.
+6. If the project is going to be long-term, set up a time table.
+=================================================================
+Lessons learned from working with non-standalone PsychoPy:
+- Next time use a VM if you need to install deprecated or bleeding edge libraries on a system (i.e., 32-bit Python).
+- Code reuse.
+=================================================================
+User-friendly Subversion clients:
+Mac - svnX, SCPlugin
+Windows - TortoiseSVN
+=================================================================
+Technology to become acquainted with:
+-ACL permissions
+=================================================================
+scp -r dir1 user@server:dir2
+-If dir2 does not exist, creates dir2 on server, populates with items within dir1.  Bref: files nested w/in dir2
+-Else: If dir2 exists, copies dir1 into dir2 and nests it within dir2.  Bref dir1 nested w/in dir2.
+=================================================================
+chmod/permissions behavior:
+-If you remove 'execute' from a directory, you will not be able to cd into it.
+=================================================================
+umask/permissions behavior:
+- octal codes for umask are the inverse of chmod codes
+=================================================================
+grep:
+	-F : returns lines with single occurrence of literal string (fgrep)
+	-x : returns only if *the entire line* is an exact match for literal string
+	-E : use extended regex (Perl style); no need for escapes to denote atoms (? review this) (egrep)
+	* - returns lines with any number of consecutive repeats of search string
+	. - wildcard character
+=================================================================
+. or SOURCE : 
+Runs a script's commands through the current shell line by line.  The script's variables become available to the current shell environment.
+=================================================================
+To list all directories (and only directories) within a directory use:
+ls -d */
+NOT ls -d
+=================================================================
+Zero Padding in Bash:
+
+printf "%0*d\n" $padtowidth $i
+http://stackoverflow.com/q/3191067/3609177
+
