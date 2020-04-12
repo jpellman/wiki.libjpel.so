@@ -1,7 +1,1 @@
-# [[Scientific Computing|/Science/Scientific-Computing]]
- * [[ASICs|/Science/Scientific-Computing/ASICs.md]]
- * [[Columbia Jeff Dean20190827|/Science/Scientific-Computing/Columbia-Jeff-Dean20190827.md]]
- * [[loni2cwl|/Science/Scientific-Computing/loni2cwl.md]]
- * [[Machine Learning|/Science/Scientific-Computing/Machine-Learning.md]]
- * [[MATLAB|/Science/Scientific-Computing/MATLAB.md]]
- * [[Research Security|/Science/Scientific-Computing/Research-Security.md]]
+/private/tmp/wiki.libjpel.so/Science/Scientific-Computing/Home.md

@@ -1,7 +1,1 @@
-# [[Software Development|/Software-Development]]
- * [[Data Structures In The Wild|/Software-Development/Data-Structures-In-The-Wild.md]]
- * [[Demystifying Old Python Scripts|/Software-Development/Demystifying-Old-Python-Scripts.md]]
- * [[Open Source|/Software-Development/Open-Source.md]]
- * [[Packaging|/Software-Development/Packaging.md]]
- * [[Python OS Ops|/Software-Development/Python-OS-Ops.md]]
- * [[Python|/Software-Development/Python.md]]
+/private/tmp/wiki.libjpel.so/Software-Development/Home.md

@@ -1,2 +1,1 @@
-# [[Library Computing|/Academic-Computing/Library-Computing]]
- * [[Home|/Academic-Computing/Library-Computing/Home.md]]
+/private/tmp/wiki.libjpel.so/Academic-Computing/Library-Computing/Home.md

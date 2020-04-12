@@ -1,9 +1,1 @@
-# [[Hobbies|/Hobbies]]
- * [[Academic History|/Hobbies/Academic-History.md]]
- * [[Food|/Hobbies/Food.md]]
- * [[Georectification|/Hobbies/Georectification.md]]
- * [[Home|/Hobbies/Home.md]]
- * [[Music|/Hobbies/Music.md]]
- * [[Reading List|/Hobbies/Reading-List.md]]
- * [[Retroscaping|/Hobbies/Retroscaping.md]]
- * [[Retrocomputing|/Hobbies/Retrocomputing/_Sidebar.md]]
+/private/tmp/wiki.libjpel.so/Hobbies/Home.md

@@ -1,2 +1,1 @@
-# [[Rants|/Systems-Administration/Rants]]
- * [[Web Browsers Must Die|/Systems-Administration/Rants/Web-Browsers-Must-Die.md]]
+/private/tmp/wiki.libjpel.so/Systems-Administration/Rants/Home.md

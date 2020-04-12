@@ -1,11 +1,1 @@
-# [[Cognitive Science|/Science/Cognitive-Science]]
- * [[Decision Making|/Science/Cognitive-Science/Decision-Making.md]]
- * [[Expertise|/Science/Cognitive-Science/Expertise.md]]
- * [[Home|/Science/Cognitive-Science/Home.md]]
- * [[Learning|/Science/Cognitive-Science/Learning.md]]
- * [[Memory|/Science/Cognitive-Science/Memory.md]]
- * [[Neuroimaging|/Science/Cognitive-Science/Neuroimaging.md]]
- * [[Neuroinformatics Cluster|/Science/Cognitive-Science/Neuroinformatics-Cluster.md]]
- * [[Neuroinformatics GPU|/Science/Cognitive-Science/Neuroinformatics-GPU.md]]
- * [[Neuroinformatics Pipelines|/Science/Cognitive-Science/Neuroinformatics-Pipelines.md]]
- * [[Problem Solving|/Science/Cognitive-Science/Problem-Solving.md]]
+/private/tmp/wiki.libjpel.so/Science/Cognitive-Science/Home.md
