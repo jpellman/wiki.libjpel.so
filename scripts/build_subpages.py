@@ -35,6 +35,7 @@ def renderSidebar(categoryDir, categoryList, gitRepoRoot):
         category = 'Home'
     else:
         category = os.path.basename(categoryDir) 
+        relativeCategoryPath = os.path.join(relativeCategoryPath,'Home.md')
     sidebar+='# [[%s|%s]]\n' % (category.replace('-',' '), relativeCategoryPath)
     for page in categoryList:
         sidebar+=' * [[%s|%s]]\n' % (splitext(page)[0].replace('-',' ').replace('/Home',''), os.path.join(relativeCategoryPath,page))
