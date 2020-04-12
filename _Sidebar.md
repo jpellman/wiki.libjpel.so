@@ -1,6 +1,5 @@
 # [[Home|Home.md]]
  * [[Charities|Charities.md]]
- * [[Computational Linguistics|Computational-Linguistics.md]]
  * [[Home|Home.md]]
  * [[Meditations On Theranos|Meditations On Theranos.md]]
  * [[Musings|Musings.md]]

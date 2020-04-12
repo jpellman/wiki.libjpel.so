@@ -64,7 +64,7 @@ if __name__ == '__main__':
     # Automatically add as pre-commit hook if not already there.
     if gitRepoRoot:
         preCommitPath = os.path.join(gitRepoRoot,'.git','hooks','pre-commit')
-        if not os.path.isfile(preCommitPath):
+        if not os.path.islink(preCommitPath):
             os.symlink(os.path.join('..','scripts',__file__),preCommitPath)
     categories = crawlCategories(gitRepoRoot)
     for k,v in categories.items():

@@ -1,5 +1,6 @@
 # [[Hobbies|/Hobbies/Home.md]]
  * [[Academic History|/Hobbies/Academic-History.md]]
+ * [[Computational Linguistics|/Hobbies/Computational-Linguistics.md]]
  * [[Food|/Hobbies/Food.md]]
  * [[Georectification|/Hobbies/Georectification.md]]
  * [[Hobbies|/Hobbies/Hobbies.md]]
