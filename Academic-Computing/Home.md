@@ -2,10 +2,6 @@
 
 Pages that related to academic computing.
 
-**List of pages in this category:**
-
-[[FullSearchCached(category:Academic-Computing)]]\_
-
 Major Past Academic Computing Initiatives of Note
 =================================================
 

@@ -2,9 +2,6 @@
 
 Notes on cognitive science.
 
-**List of pages in this category:**
-
-[[FullSearchCached(category:Cognitive-Science)]]\_
 
 Articles:
 =========

@@ -1,9 +1,5 @@
-
-
 Retrocomputing Pages
 ====================
-
-[[FullSearchCached(category:Retrocomputing)]]\_
 
 Articles
 --------

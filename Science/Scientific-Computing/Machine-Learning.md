@@ -2,9 +2,6 @@
 
 Notes on neural networks / machine learning.
 
-**List of pages in this category:**
-
-[[FullSearchCached(category:MachineLearning)]]\_
 
 On the Use of Machine Learning / Neural Networks to Perform Scheduling
 ======================================================================
