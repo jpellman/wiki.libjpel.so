@@ -1,8 +1,10 @@
-#!/usr/bin/env python
+#!/Users/jpellman/miniconda3/bin/python
 import os
 from os.path import splitext
+from git import Repo
+import sys
 
-CRAWL_BLACKLIST = ['.git','templates','src','scripts']
+CRAWL_BLACKLIST = ['.git','templates','src','scripts','config.rb']
 
 def chrootGitRepo():
     cwd = os.getcwd()
@@ -61,12 +63,20 @@ def renderFooter(categoryDir, gitRepoRoot):
 
 if __name__ == '__main__':
     gitRepoRoot = chrootGitRepo()
-    # Automatically add as pre-commit hook if not already there.
+    gitRepo = Repo(gitRepoRoot)
+    gitIndex = gitRepo.index
+    commitMsg = 'Regenerate subpages'
+    # Don't run post-hook if the last commit was a regeneration of subpages.
+    # Otherwise, we'll get into an infinite loop.
+    if gitRepo.head.commit.message == commitMsg:
+        sys.exit(0)
+    # Automatically add as post-commit hook if not already there.
     if gitRepoRoot:
-        preCommitPath = os.path.join(gitRepoRoot,'.git','hooks','pre-commit')
-        if not os.path.islink(preCommitPath):
-            os.symlink(os.path.join('..','..','scripts',os.path.basename(__file__)),preCommitPath)
+        postCommitPath = os.path.join(gitRepoRoot,'.git','hooks','post-commit')
+        if not os.path.islink(postCommitPath) and not os.path.isfile(postCommitPath):
+            os.symlink(os.path.join('..','..','scripts',os.path.basename(__file__)),postCommitPath)
     categories = crawlCategories(gitRepoRoot)
+    print(categories)
     for k,v in categories.items():
         footer = renderFooter(k, gitRepoRoot)
         with open(os.path.join(k,'_Footer.md'),'w') as f:
@@ -75,9 +85,13 @@ if __name__ == '__main__':
         if k.strip() != gitRepoRoot.strip():
             with open(os.path.join(k,'Home.md'),'w') as f:
                 f.write(sidebar)
+            gitIndex.add([os.path.join(k,'Home.md')])
             if os.path.isfile(os.path.join(k,'_Sidebar.md')):
                 os.remove(os.path.join(k,'_Sidebar.md'))
             os.link(os.path.join(k,'Home.md'),os.path.join(k,'_Sidebar.md'))
+            gitIndex.add([os.path.join(k,'_Sidebar.md')])
         else:
             with open(os.path.join(k,'_Sidebar.md'),'w') as f:
                 f.write(sidebar)
+            gitIndex.add([os.path.join(k,'_Sidebar.md')])
+    gitIndex.commit(commitMsg)
