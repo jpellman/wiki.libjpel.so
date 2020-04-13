@@ -1,3 +1,4 @@
+#!/Users/jpellman/miniconda3/bin/python
 import os
 from os.path import splitext
 from git import Repo
