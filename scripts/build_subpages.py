@@ -1,4 +1,3 @@
-#!/Users/jpellman/miniconda3/bin/python
 import os
 from os.path import splitext
 from git import Repo
@@ -76,7 +75,6 @@ if __name__ == '__main__':
         if not os.path.islink(postCommitPath) and not os.path.isfile(postCommitPath):
             os.symlink(os.path.join('..','..','scripts',os.path.basename(__file__)),postCommitPath)
     categories = crawlCategories(gitRepoRoot)
-    print(categories)
     for k,v in categories.items():
         footer = renderFooter(k, gitRepoRoot)
         with open(os.path.join(k,'_Footer.md'),'w') as f:
