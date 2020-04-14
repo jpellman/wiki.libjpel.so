@@ -25,8 +25,18 @@ AI Acceleration
 ---------------
 
 -   [Graphcore](https://www.graphcore.ai/)
+    -  [Dissecting theGraphcore IPU Architecture via Microbenchmarking](https://www.graphcore.ai/hubfs/assets/pdf/Citadel%20Securities%20Technical%20Report%20-%20Dissecting%20the%20Graphcore%20IPU%20Architecture%20via%20Microbenchmarking%20Dec%202019.pdf)
 -   [Google's TPU](https://cloud.google.com/tpu/)
+    -  [An in-depth look at Google’s first Tensor Processing Unit (TPU)](https://cloud.google.com/blog/products/gcp/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu)
+    -  [Dave Patterson (Lecture): Evaluation of the Tensor Processing Unit](https://www.youtube.com/watch?v=fhHAArxwzvQ)
 -   [Nervana](https://www.intel.ai/nervana-nnp/)
+
+On the use of lower precision numeric types:  
+
+-   [Making floating point math highly efficient for AI hardware](https://engineering.fb.com/ai-research/floating-point-math/)
+-   [Floating point precision in deep learning](https://www.reddit.com/r/MachineLearning/comments/6p8hcs/d_floating_point_precision_in_deep_learning/)
+-   [Lower Numerical Precision Deep Learning Inference and Training](https://software.intel.com/en-us/articles/lower-numerical-precision-deep-learning-inference-and-training)
+-   [Why do we need floats for using neural networks?](https://ai.stackexchange.com/questions/7247/why-do-we-need-floats-for-using-neural-networks)
 
 Database Acceleration
 ---------------------
