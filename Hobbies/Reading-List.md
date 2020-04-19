@@ -5,6 +5,8 @@ I'm using the table below to keep track of the books I'm currently reading.
 
 [[_TOC_]]
 
+## In Progress
+
 | Title | Author | Start Date | Finish Date | Amazon Link |
 | --- | --- | --- | --- | --- |
 | The Human Use Of Human Beings: Cybernetics And Society | Norbert Wiener | 6/20/17 | Some point in 2017(?) | [here](https://www.amazon.com/gp/product/0306803208) |
@@ -34,44 +36,69 @@ This is a list of books (primarily from Humble Bundles) that I want to finish re
  
 ### Applied Machine Learning
 
+#### Musts
+
+ * [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413)
+
+#### Maybes
+
  * [Applied Text Analysis with Python](http://shop.oreilly.com/product/0636920052555.do)
  * [Natural Language Processing with Python](https://www.oreilly.com/library/view/natural-language-processing/9780596803346/)
  * [Natural Language Processing with PyTorch](http://shop.oreilly.com/product/0636920063445.do)
  * [Deep Learning Cookbook](http://shop.oreilly.com/product/0636920097471.do)
  * [Thoughtful Machine Learning with Python](https://www.oreilly.com/library/view/thoughtful-machine-learning/9781491924129/)
- * [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413)
 
 ### Circuit Design / Electronics
 
+#### Musts
+
  * [Electronics For Dummies, 3rd Edition](https://www.wiley.com/en-us/Electronics+For+Dummies%2C+3rd+Edition-p-9781119675594)
+
+#### Maybes
+
  * [Circuitbuilding Do-It-Yourself For Dummies](https://www.wiley.com/en-us/Circuitbuilding+Do+It+Yourself+For+Dummies-p-9781118051825)
  * [Complete Electronics Self-Teaching Guide with Projects](https://www.wiley.com/en-us/Complete+Electronics+Self+Teaching+Guide+with+Projects-p-9781118282328)
 
 ### Systems Administration
 
+#### Musts
+
  * [AWS System Administration](http://shop.oreilly.com/product/0636920027638.do)
+ * [Kubernetes: Up and Running](http://shop.oreilly.com/product/0636920223788.do)
+
+#### Maybes
+
  * [Cloud Native Infrastructure](http://shop.oreilly.com/product/0636920075837.do)
  * [DNS and BIND, 5th Edition](http://shop.oreilly.com/product/9780596100575.do)
- * [Kubernetes: Up and Running](http://shop.oreilly.com/product/0636920223788.do)
+
 
 ### Programming
 
+#### Musts
+
+ * [Making Software: What Really Works, and Why We Believe It](https://smile.amazon.com/gp/product/B004D4YI6G)
  * [Elegant Scipy](https://www.oreilly.com/library/view/elegant-scipy/9781491922927/)
- * [Cracking Codes with Python](https://nostarch.com/crackingcodes)
- * [Fluent Python](https://www.oreilly.com/library/view/fluent-python/9781491946237/)
+ * [Testing Python: Applying Unit Testing, TDD, BDD and Acceptance Testing ](https://smile.amazon.com/gp/product/B00LJV2GXI)
  * [Test-Driven Development with Python, 2nd Edition](https://www.oreilly.com/library/view/test-driven-development-with/9781491958698/)
- * [Designing Distributed Systems](http://shop.oreilly.com/product/0636920072768.do)
  * [Algorithms in a Nutshell, 2nd Edition](http://shop.oreilly.com/product/0636920032885.do)
+ * [Fluent Python](https://www.oreilly.com/library/view/fluent-python/9781491946237/)
+
+#### Maybes
+
+ * [Cracking Codes with Python](https://nostarch.com/crackingcodes)
+ * [Designing Distributed Systems](http://shop.oreilly.com/product/0636920072768.do)
  * [The Art of Readable Code](http://shop.oreilly.com/product/9780596802301.do)
  * [97 Things Every Programmer Should Know](http://shop.oreilly.com/product/9780596809492.do)
- * [Test-Driven Development with Python, 2nd Edition](https://www.oreilly.com/library/view/test-driven-development-with/9781491958698/)
- * [Making Software: What Really Works, and Why We Believe It](https://smile.amazon.com/gp/product/B004D4YI6G)
- * [Testing Python: Applying Unit Testing, TDD, BDD and Acceptance Testing ](https://smile.amazon.com/gp/product/B00LJV2GXI)
 
 ### Operating Systems
 
- * [Linux Programming Interface](https://nostarch.com/tlpi)
+#### Musts
+
  * [Modern Operating Systems](https://smile.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum-ebook/dp/B00JFFIHEC?sa-no-redirect=1)
+
+#### Maybes
+
+ * [Linux Programming Interface](https://nostarch.com/tlpi)
 
 ### Mathematics/Statistics
 
