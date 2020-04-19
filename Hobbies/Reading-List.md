@@ -7,6 +7,8 @@ I'm using the table below to keep track of the books I'm currently reading.
 
 ## In Progress
 
+### Paperbacks
+
 | Title | Author | Start Date | Finish Date | Amazon Link |
 | --- | --- | --- | --- | --- |
 | The Human Use Of Human Beings: Cybernetics And Society | Norbert Wiener | 6/20/17 | Some point in 2017(?) | [here](https://www.amazon.com/gp/product/0306803208) |
@@ -14,6 +16,11 @@ I'm using the table below to keep track of the books I'm currently reading.
 | Life's Greatest Secret: The Race to Crack the Genetic Code |  Matthew Cobb | 1/29/17 | ~ 3/1/20 | [here](https://www.amazon.com/gp/product/B00UY0EMXM)  |
 | Misquoting Jesus: The Story Behind Who Changed the Bible and Why | Bart Ehrman | 12/25/19 | 12/29/19 | [here](https://smile.amazon.com/gp/product/B000SEGJF8) |
 | The Calculating Stars: A Lady Astronaut Novel  | Mary Robinette Kowal | 12/25/19 | ~ 2/6/20 | [here](https://smile.amazon.com/gp/product/B0756JH5R1) |
+
+### Textbooks
+
+| Title | Author | Chapter | Start Date | Finish Date |
+| --- | --- | --- | --- | --- |
 
 ## Queued
 
