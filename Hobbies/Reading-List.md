@@ -1,4 +1,3 @@
-
 Reading List
 ============
 
@@ -40,6 +39,7 @@ This is a list of books (primarily from Humble Bundles) that I want to finish re
  * [Natural Language Processing with PyTorch](http://shop.oreilly.com/product/0636920063445.do)
  * [Deep Learning Cookbook](http://shop.oreilly.com/product/0636920097471.do)
  * [Thoughtful Machine Learning with Python](https://www.oreilly.com/library/view/thoughtful-machine-learning/9781491924129/)
+ * [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413)
 
 ### Circuit Design / Electronics
 
@@ -52,6 +52,7 @@ This is a list of books (primarily from Humble Bundles) that I want to finish re
  * [AWS System Administration](http://shop.oreilly.com/product/0636920027638.do)
  * [Cloud Native Infrastructure](http://shop.oreilly.com/product/0636920075837.do)
  * [DNS and BIND, 5th Edition](http://shop.oreilly.com/product/9780596100575.do)
+ * [Kubernetes: Up and Running](http://shop.oreilly.com/product/0636920223788.do)
 
 ### Programming
 
@@ -60,11 +61,32 @@ This is a list of books (primarily from Humble Bundles) that I want to finish re
  * [Fluent Python](https://www.oreilly.com/library/view/fluent-python/9781491946237/)
  * [Test-Driven Development with Python, 2nd Edition](https://www.oreilly.com/library/view/test-driven-development-with/9781491958698/)
  * [Designing Distributed Systems](http://shop.oreilly.com/product/0636920072768.do)
+ * [Algorithms in a Nutshell, 2nd Edition](http://shop.oreilly.com/product/0636920032885.do)
+ * [The Art of Readable Code](http://shop.oreilly.com/product/9780596802301.do)
+ * [97 Things Every Programmer Should Know](http://shop.oreilly.com/product/9780596809492.do)
+ * [Test-Driven Development with Python, 2nd Edition](https://www.oreilly.com/library/view/test-driven-development-with/9781491958698/)
+ * [Making Software: What Really Works, and Why We Believe It](https://smile.amazon.com/gp/product/B004D4YI6G)
+ * [Testing Python: Applying Unit Testing, TDD, BDD and Acceptance Testing ](https://smile.amazon.com/gp/product/B00LJV2GXI)
 
 ### Operating Systems
 
  * [Linux Programming Interface](https://nostarch.com/tlpi)
+ * [Modern Operating Systems](https://smile.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum-ebook/dp/B00JFFIHEC?sa-no-redirect=1)
 
-### Statistics
+### Mathematics/Statistics
 
  * [Think Bayes](https://www.oreilly.com/library/view/think-bayes/9781491945407/)
+ 
+### Imaging
+
+ * [Digital Image Processing, 4th Edition](https://smile.amazon.com/gp/product/9353062985)
+
+### Personal Finance
+
+ * [Get a Financial Life: Personal Finance in Your Twenties and Thirties](https://smile.amazon.com/gp/product/B017I25CW8/)
+
+### Popular Science
+
+ * [This Is Your Brain on Parasites: How Tiny Creatures Manipulate Our Behavior and Shape Society](https://smile.amazon.com/gp/product/B011H55MY0)
+ * [The Big Picture: On the Origins of Life, Meaning, and the Universe Itself](https://smile.amazon.com/gp/product/B014EOUMZA)
+ * [The Idea of the Brain: The Past and Future of Neuroscience](https://smile.amazon.com/gp/product/B07WSD9KBV)
