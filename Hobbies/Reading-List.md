@@ -21,6 +21,7 @@ I'm using the table below to keep track of the books I'm currently reading.
 
 | Title | Author | Chapter | Start Date | Finish Date |
 | --- | --- | --- | --- | --- |
+| Modern Operating Systems (3rd Edition) | Andrew Tanenbaum, Herbert Bos | 10 | ? | 4/20/20 |
 
 ## Queued
 
