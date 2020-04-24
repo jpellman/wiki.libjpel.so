@@ -10,4 +10,3 @@
  * [[Science|Science/Home.md]]
  * [[Software Development|Software-Development/Home.md]]
  * [[Systems Administration|Systems-Administration/Home.md]]
- * [[template|template/Home.md]]
