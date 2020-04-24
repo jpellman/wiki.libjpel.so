@@ -13,3 +13,4 @@ Hobbies/Hobbies.md: Hobbies.md
 Hobbies.md: Hobbies/Hobbies.md
 Hobbies/Georectification.md: Georectification.md
 Georectification.md: Hobbies/Georectification.md
+Home-Lab/AWS-Backup.md: Home-Lab/Backups/AWS-Backup.md
