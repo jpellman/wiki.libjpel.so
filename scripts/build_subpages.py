@@ -4,7 +4,7 @@ from os.path import splitext
 from git import Repo
 import sys
 
-CRAWL_BLACKLIST = ['.git','templates','src','scripts','config.rb']
+CRAWL_BLACKLIST = ['.git','template','src','scripts','config.rb']
 
 def chrootGitRepo():
     cwd = os.getcwd()
