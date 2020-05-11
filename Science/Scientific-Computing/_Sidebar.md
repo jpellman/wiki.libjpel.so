@@ -1,4 +1,5 @@
 # [[Scientific Computing|/Science/Scientific-Computing/Home.md]]
+ * [[Architecture Decision Tree|/Science/Scientific-Computing/Architecture Decision Tree.md]]
  * [[ASICs|/Science/Scientific-Computing/ASICs.md]]
  * [[Columbia Jeff Dean 20190827|/Science/Scientific-Computing/Columbia-Jeff-Dean-20190827.md]]
  * [[Home|/Science/Scientific-Computing/Home.md]]

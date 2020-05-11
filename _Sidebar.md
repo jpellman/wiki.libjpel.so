@@ -1,6 +1,5 @@
 # [[Home|Home.md]]
  * [[Charities|Charities.md]]
- * [[Georectification|Georectification.md]]
  * [[Home|Home.md]]
  * [[Unsorted Facts|Unsorted-Facts.md]]
  * [[Academic Computing|Academic-Computing/Home.md]]

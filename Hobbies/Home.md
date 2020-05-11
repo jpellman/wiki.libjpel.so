@@ -2,6 +2,7 @@
  * [[Academic History|/Hobbies/Academic-History.md]]
  * [[Computational Linguistics|/Hobbies/Computational-Linguistics.md]]
  * [[Food|/Hobbies/Food.md]]
+ * [[Georectification|/Hobbies/Georectification.md]]
  * [[Hobbies|/Hobbies/Hobbies.md]]
  * [[Home|/Hobbies/Home.md]]
  * [[Music|/Hobbies/Music.md]]
