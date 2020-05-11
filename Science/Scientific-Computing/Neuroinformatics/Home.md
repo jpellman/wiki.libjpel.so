@@ -1,3 +1,4 @@
 # [[Neuroinformatics|/Science/Scientific-Computing/Neuroinformatics/Home.md]]
  * [[Home|/Science/Scientific-Computing/Neuroinformatics/Home.md]]
  * [[Neuroinformatics Cluster|/Science/Scientific-Computing/Neuroinformatics/Neuroinformatics-Cluster.md]]
+ * [[Neuroinformatics GPU|/Science/Scientific-Computing/Neuroinformatics/Neuroinformatics-GPU.md]]
