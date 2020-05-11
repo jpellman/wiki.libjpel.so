@@ -8,4 +8,3 @@
  * [[Neuroimaging|/Science/Cognitive-Science/Neuroimaging.md]]
  * [[Problem Solving|/Science/Cognitive-Science/Problem-Solving.md]]
  * [[Legacy|/Science/Cognitive-Science/Legacy/Home.md]]
- * [[Science|/Science/Cognitive-Science/Science/Home.md]]
