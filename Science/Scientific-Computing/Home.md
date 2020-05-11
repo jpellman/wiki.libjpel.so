@@ -6,4 +6,5 @@
  * [[loni2cwl|/Science/Scientific-Computing/loni2cwl.md]]
  * [[Machine Learning|/Science/Scientific-Computing/Machine-Learning.md]]
  * [[MATLAB|/Science/Scientific-Computing/MATLAB.md]]
+ * [[Neuroinformatics Cluster|/Science/Scientific-Computing/Neuroinformatics-Cluster.md]]
  * [[Research Security|/Science/Scientific-Computing/Research-Security.md]]
