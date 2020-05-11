@@ -4,6 +4,7 @@
  * [[Expertise|/Science/Cognitive-Science/Expertise.md]]
  * [[Home|/Science/Cognitive-Science/Home.md]]
  * [[Learning|/Science/Cognitive-Science/Learning.md]]
+ * [[Meditations on Neuroscience Paradigms|/Science/Cognitive-Science/Meditations on Neuroscience Paradigms.md]]
  * [[Memory|/Science/Cognitive-Science/Memory.md]]
  * [[Neuroimaging|/Science/Cognitive-Science/Neuroimaging.md]]
  * [[Problem Solving|/Science/Cognitive-Science/Problem-Solving.md]]
