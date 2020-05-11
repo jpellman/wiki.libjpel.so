@@ -6,7 +6,6 @@
  * [[Learning|/Science/Cognitive-Science/Learning.md]]
  * [[Memory|/Science/Cognitive-Science/Memory.md]]
  * [[Neuroimaging|/Science/Cognitive-Science/Neuroimaging.md]]
- * [[Neuroinformatics Pipelines|/Science/Cognitive-Science/Neuroinformatics-Pipelines.md]]
  * [[Problem Solving|/Science/Cognitive-Science/Problem-Solving.md]]
  * [[Legacy|/Science/Cognitive-Science/Legacy/Home.md]]
  * [[Science|/Science/Cognitive-Science/Science/Home.md]]

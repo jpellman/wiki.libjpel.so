@@ -8,4 +8,5 @@
  * [[MATLAB|/Science/Scientific-Computing/MATLAB.md]]
  * [[Neuroinformatics Cluster|/Science/Scientific-Computing/Neuroinformatics-Cluster.md]]
  * [[Neuroinformatics GPU|/Science/Scientific-Computing/Neuroinformatics-GPU.md]]
+ * [[Neuroinformatics Pipelines|/Science/Scientific-Computing/Neuroinformatics-Pipelines.md]]
  * [[Research Security|/Science/Scientific-Computing/Research-Security.md]]
