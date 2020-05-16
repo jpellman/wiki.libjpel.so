@@ -1,5 +1,4 @@
 
-
 SLURM vs Kubernetes vs Nomad
 ============================
 
@@ -12,6 +11,7 @@ Further Reading
 
 -   [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
 -   [Docker Overview](https://docs.docker.com/engine/docker-overview/)
+-   [A Summary of OverlayFS](https://jvns.ca/blog/2019/11/18/how-containers-work--overlayfs/)
 -   Scheduler Algorithm in Kubernetes\_
 -   [More up-to-date overview of scheduling in Kubernetes](https://kubernetes.io/docs/concepts/configuration/scheduling-framework/)
 -   [Scheduling in Nomad](https://nomadproject.io/docs/internals/scheduling/scheduling/)
