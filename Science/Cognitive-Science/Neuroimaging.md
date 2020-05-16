@@ -52,6 +52,7 @@ fMRI
 ### File Formats
 
 -   Just as an errant thought, the file format used to store most MRI images (NifTI) is very similar to DV, in the sense that each frame is its own distinct bitmap(?) image. Unlike DV, no compression is applied to individual frames in NifTI (as far as I know). Compression is usually accomplished by gzipping an entire raw NifTI file, but I doubt that this provides an optimal compression ratio- in MPEG compression schemes the previous frame informs what the next frame will look like ([motion compensation](https://en.wikipedia.org/wiki/Motion_compensation)). It seems like something similar could be used for 3d volumetric scans. Why not encode each slice with a lossless video compression algo?
+-   This should probably go somewhere else, but for now: [Heterogeneous acceleration of volumetric JPEG 2000 using OpenCL](https://journals.sagepub.com/doi/full/10.1177/1094342016646438)
 
 EEG
 ---
