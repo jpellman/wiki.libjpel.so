@@ -1,5 +1,6 @@
 # [[Home|Home.md]]
  * [[Charities|Charities.md]]
+ * [[Home|Home.md]]
  * [[Unsorted Facts|Unsorted-Facts.md]]
  * [[Academic Computing|Academic-Computing/Home.md]]
  * [[Hobbies|Hobbies/Home.md]]
