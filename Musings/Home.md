@@ -1,4 +1,5 @@
 # [[Musings|/Musings/Home.md]]
- * [[Home|/Musings/Home.md]]
- * [[Meditations On Theranos|/Musings/Meditations On Theranos.md]]
- * [[Musings|/Musings/Musings.md]]
+ * [[/Users/jpellman/Documents/Systems_Administration/wiki.libjpel.so/Musings/Meditations On Theranos|/Users/jpellman/Documents/Systems_Administration/wiki.libjpel.so/Musings/Meditations On Theranos.md]]
+ * [[/Users/jpellman/Documents/Systems_Administration/wiki.libjpel.so/Musings/Test|/Users/jpellman/Documents/Systems_Administration/wiki.libjpel.so/Musings/Test.md]]
+ * [[/Users/jpellman/Documents/Systems_Administration/wiki.libjpel.so/Musings/Musings|/Users/jpellman/Documents/Systems_Administration/wiki.libjpel.so/Musings/Musings.md]]
+ * [[/Users/jpellman/Documents/Systems_Administration/wiki.libjpel.so/Musings|/Users/jpellman/Documents/Systems_Administration/wiki.libjpel.so/Musings/Home.md]]
