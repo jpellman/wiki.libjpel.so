@@ -1,5 +1,4 @@
 # [[Musings|/Musings/Home.md]]
- * [[Test|/Musings/Test.md]]
  * [[Musings|/Musings/Musings.md]]
- * [[Meditations On Theranos|/Musings/Meditations On Theranos.md]]
  * [[Home|/Musings/Home.md]]
+ * [[Meditations On Theranos|/Musings/Meditations On Theranos.md]]
