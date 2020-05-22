@@ -207,6 +207,14 @@ Cloud Computing
 -   <https://github.com/eucalyptus/eucalyptus/wiki/Walrus-S3-API>
 -   <http://docs.ceph.com/docs/master/radosgw/s3/>
 
+Windows/Linux Compatibility
+-----
+
+-   [Debian9ADSharedDisks_Sssd_PamMount](https://wiki.debian.org/wiki/Debian9ADSharedDisks_Sssd_PamMount)
+-   [Pam_mount](https://wiki.archlinux.org/index.php/Pam_mount)
+-   [RHEL Guide for multi-user SMB mount](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html-single/storage_administration_guide/index#performing_a_multi-user_smb_mount)
+-   [RHEL Windows Integration Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html-single/windows_integration_guide/index)
+
 Tools
 -----
 
