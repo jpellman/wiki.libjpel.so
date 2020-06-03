@@ -127,6 +127,9 @@ Storage
 -   <http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html>
 -   [Does Writing to NFS Put Processes into Uninterruptible Sleep?](https://medium.com/@jonphilpott/does-writing-to-nfs-put-processes-into-un-interruptible-sleep-d58790cd13b6#.h4oi0ufqx)
 -   [Create LUKS](http://redhat-admin.blogspot.com/2011/09/create-and-configure-luks-encrypted.html)
+-   [Access xfs quota info from NFS client](https://serverfault.com/questions/560844/access-xfs-quota-info-from-nfs-client)
+-   [rpc.rquotad](https://linux.die.net/man/8/rpc.rquotad)
+-   [Using Linux quota command pointing to an /ifs nfs mounted filesystem.](https://www.dell.com/community/Isilon/Using-Linux-quota-command-pointing-to-an-ifs-nfs-mounted/td-p/6916630)
 
 ### ACLs
 
@@ -206,6 +209,14 @@ Cloud Computing
 -   <https://leo-project.net/leofs/>
 -   <https://github.com/eucalyptus/eucalyptus/wiki/Walrus-S3-API>
 -   <http://docs.ceph.com/docs/master/radosgw/s3/>
+
+Windows/Linux Compatibility
+-----
+
+-   [Debian9ADSharedDisks_Sssd_PamMount](https://wiki.debian.org/wiki/Debian9ADSharedDisks_Sssd_PamMount)
+-   [Pam_mount](https://wiki.archlinux.org/index.php/Pam_mount)
+-   [RHEL Guide for multi-user SMB mount](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html-single/storage_administration_guide/index#performing_a_multi-user_smb_mount)
+-   [RHEL Windows Integration Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html-single/windows_integration_guide/index)
 
 Tools
 -----
