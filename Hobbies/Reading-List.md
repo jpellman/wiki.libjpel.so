@@ -16,12 +16,14 @@ I'm using the table below to keep track of the books I'm currently reading.
 | Life's Greatest Secret: The Race to Crack the Genetic Code |  Matthew Cobb | 1/29/17 | ~ 3/1/20 | [here](https://www.amazon.com/gp/product/B00UY0EMXM)  |
 | Misquoting Jesus: The Story Behind Who Changed the Bible and Why | Bart Ehrman | 12/25/19 | 12/29/19 | [here](https://smile.amazon.com/gp/product/B000SEGJF8) |
 | The Calculating Stars: A Lady Astronaut Novel  | Mary Robinette Kowal | 12/25/19 | ~ 2/6/20 | [here](https://smile.amazon.com/gp/product/B0756JH5R1) |
+| The Idea of the Brain: The Past and Future of Neuroscience | Matthew Cobb | ~ 4/20/20 | 6/3/20 | [here](https://smile.amazon.com/gp/product/B07WSD9KBV) |
 
 ### Textbooks
 
 | Title | Author | Chapter | Start Date | Finish Date |
 | --- | --- | --- | --- | --- |
 | Modern Operating Systems (3rd Edition) | Andrew Tanenbaum, Herbert Bos | 10 | ? | 4/20/20 |
+
 
 ## Queued
 
@@ -124,4 +126,3 @@ This is a list of books (primarily from Humble Bundles) that I want to finish re
 
  * [This Is Your Brain on Parasites: How Tiny Creatures Manipulate Our Behavior and Shape Society](https://smile.amazon.com/gp/product/B011H55MY0)
  * [The Big Picture: On the Origins of Life, Meaning, and the Universe Itself](https://smile.amazon.com/gp/product/B014EOUMZA)
- * [The Idea of the Brain: The Past and Future of Neuroscience](https://smile.amazon.com/gp/product/B07WSD9KBV)
