@@ -21,10 +21,10 @@ I'm using the table below to keep track of the books I'm currently reading.
 
 ### Textbooks
 
-| Title | Author | Chapter | Start Date | Finish Date |
-| --- | --- | --- | --- | --- |
-| Modern Operating Systems (3rd Edition) | Andrew Tanenbaum, Herbert Bos | 10 | ? | 4/20/20 |
-| The Design of Everyday Things: Revised and Expanded Edition | Don Norman | 7/11/20 | | [here](https://smile.amazon.com/gp/product/B00E257T6C) |
+| Title | Author | Chapter | Start Date | Finish Date | Amazon Link |
+| --- | --- | --- | --- | --- | --- |
+| Modern Operating Systems (3rd Edition) | Andrew Tanenbaum, Herbert Bos | 10 | ? | 4/20/20 | |
+| The Design of Everyday Things: Revised and Expanded Edition | Don Norman | | 7/11/20 | | [here](https://smile.amazon.com/gp/product/B00E257T6C) |
 
 
 ## Queued
