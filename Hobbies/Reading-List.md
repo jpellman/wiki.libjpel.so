@@ -17,12 +17,14 @@ I'm using the table below to keep track of the books I'm currently reading.
 | Misquoting Jesus: The Story Behind Who Changed the Bible and Why | Bart Ehrman | 12/25/19 | 12/29/19 | [here](https://smile.amazon.com/gp/product/B000SEGJF8) |
 | The Calculating Stars: A Lady Astronaut Novel  | Mary Robinette Kowal | 12/25/19 | ~ 2/6/20 | [here](https://smile.amazon.com/gp/product/B0756JH5R1) |
 | The Idea of the Brain: The Past and Future of Neuroscience | Matthew Cobb | ~ 4/20/20 | 6/3/20 | [here](https://smile.amazon.com/gp/product/B07WSD9KBV) |
+| My Life as a Quant: Reflections on Physics and Finance | Emanuel Derman | 7/27/20 | 8/8/20 | [here](https://smile.amazon.com/gp/product/B008NBZ79M) |
 
 ### Textbooks
 
 | Title | Author | Chapter | Start Date | Finish Date |
 | --- | --- | --- | --- | --- |
 | Modern Operating Systems (3rd Edition) | Andrew Tanenbaum, Herbert Bos | 10 | ? | 4/20/20 |
+| The Design of Everyday Things: Revised and Expanded Edition | Don Norman | 7/11/20 | | [here](https://smile.amazon.com/gp/product/B00E257T6C) |
 
 
 ## Queued
