@@ -13,7 +13,7 @@ Recipes
 -   1 cup oats
 -   4 cups water
 -   1/4 tsp guar gum
--   1/4 tsp Calcium Carbonate (should be around 1250mg Calcium)
+-   1/4 tsp Calcium Carbonate (should be around 1250mg Calcium, 500 mg for dietary purposes)
 -   1 tsp sugar
 -   1/4 tsp salt
 
