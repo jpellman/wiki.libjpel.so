@@ -1,5 +1,0 @@
-# [[Backups|/Home-Lab/Backups/Home.md]]
- * [[AWS Backup|/Home-Lab/Backups/AWS-Backup.md]]
- * [[Blu Ray Backup|/Home-Lab/Backups/Blu-Ray-Backup.md]]
- * [[General Backup Strategy|/Home-Lab/Backups/General Backup Strategy.md]]
- * [[Home|/Home-Lab/Backups/Home.md]]

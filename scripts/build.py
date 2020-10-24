@@ -17,8 +17,15 @@ def getChangedCategories(gitRepo):
 
     categoryDict = {}
     for fi in lastModifiedFiles:
+        # Ignore scripts directory.
+        if os.path.dirname(fi) == "scripts":
+            continue
+        if "=>" in fi:
+            fi = fi.split(">")[1].strip("})
+        if not os.path.isdir(os.path.join(gitRepoRoot, os.path.dirname(fi))):
+            continue
         # Remove hidden files, non-markdown files, and Gollum subpages from consideration.
-        if (fi.startswith('.') or fi.startswith('_') and not fi.endswith('.md')):
+        if (fi.startswith('.') or fi.startswith('_')  and not fi.endswith('.md')):
             continue
         categoryPages = set(glob(os.path.join(gitRepoRoot, os.path.dirname(fi), '*.md')))
         # Needed in case the category is brand new.
@@ -64,22 +71,9 @@ if __name__ == '__main__':
     gitIndex = gitRepo.index
     gitRepoRoot = gitRepo.working_tree_dir
 
-    # Define commit message for sidebars/headers.
-    commitMsg = 'Regenerate sidebar and headers.'
-
-    # Don't run post-hook if the last commit was a regeneration of subpages.
-    # Otherwise, we'll get into an infinite loop.
-    if gitRepo.head.commit.message == commitMsg:
-        sys.exit(0)
-
-    # Automatically add as post-commit hook if not already there.
-    if gitRepoRoot:
-        postCommitPath = os.path.join(gitRepoRoot,'.git','hooks','post-commit')
-        if not os.path.islink(postCommitPath) and not os.path.isfile(postCommitPath):
-            os.symlink(os.path.join('..','..','scripts',os.path.basename(__file__)),postCommitPath)
-    
     # Get all changed categories and the pages that belong to them.
     categories = getChangedCategories(gitRepo)
+
     for categoryDir,categoryPages in categories.items():
         # Make a footer for the changed category.
         footer = makeFooter(categoryDir, gitRepoRoot)
@@ -94,14 +88,10 @@ if __name__ == '__main__':
         if categoryDir.strip() != gitRepoRoot.strip():
             with open(os.path.join(categoryDir,'Home.md'),'w') as f:
                 f.write(sidebar)
-            gitIndex.add([os.path.join(categoryDir,'Home.md')])
             if not os.path.islink(sidebarPath) and os.path.exists(sidebarPath):
                 os.remove(sidebarPath)
             if not os.path.islink(sidebarPath):
                 os.link(os.path.join(categoryDir,'Home.md'),sidebarPath)
-                gitIndex.add([sidebarPath])
         else:
             with open(sidebarPath,'w') as f:
                 f.write(sidebar)
-            gitIndex.add([sidebarPath])
-    gitIndex.commit(commitMsg)

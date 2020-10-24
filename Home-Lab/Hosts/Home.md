@@ -1,5 +1,0 @@
-# [[Hosts|/Home-Lab/Hosts/Home.md]]
- * [[Bruno|/Home-Lab/Hosts/Bruno.md]]
- * [[Dumb Build|/Home-Lab/Hosts/Dumb-Build.md]]
- * [[Home|/Home-Lab/Hosts/Home.md]]
- * [[Maxwell|/Home-Lab/Hosts/Maxwell.md]]

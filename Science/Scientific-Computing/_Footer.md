@@ -1,1 +1,0 @@
-[[Home|/Home.md]] **>** [[Science|Science/Home.md]] **>** [[Scientific-Computing|Science/Scientific-Computing/Home.md]]

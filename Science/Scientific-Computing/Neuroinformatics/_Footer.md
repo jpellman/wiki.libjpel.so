@@ -1,1 +1,0 @@
-[[Home|/Home.md]] **>** [[Science/Scientific-Computing|Science/Scientific-Computing/Home.md]] **>** [[Neuroinformatics|Science/Scientific-Computing/Neuroinformatics/Home.md]]

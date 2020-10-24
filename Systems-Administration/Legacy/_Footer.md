@@ -1,1 +1,0 @@
-[[Home|/Home.md]] **>** [[Systems-Administration|Systems-Administration/Home.md]] **>** [[Legacy|Systems-Administration/Legacy/Home.md]]
