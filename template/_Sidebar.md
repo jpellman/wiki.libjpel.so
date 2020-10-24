@@ -1,6 +1,0 @@
-# [[template|/template/Home.md]]
- * [[Home|/template/Home.md]]
- * [[LICENSE|/template/LICENSE]]
- * [[README|/template/README.md]]
- * [[template|/template/template.css]]
- * [[template|/template/template.html]]
