@@ -16,8 +16,6 @@ def getCategoryDict(gitRepoRoot, fileList):
         # Ignore scripts directory.
         if os.path.dirname(fi) == "scripts":
             continue
-        if "=>" in fi:
-            fi = fi.split(">")[1].strip("}")
         if not os.path.isdir(os.path.join(gitRepoRoot, os.path.dirname(fi))):
             continue
         # Remove hidden files, non-markdown files, and Gollum subpages from consideration.
@@ -39,12 +37,17 @@ def makeSidebar(categoryDir, categoryList, gitRepoRoot):
     else:
         category = os.path.basename(categoryDir) .replace('-',' ')
     sidebar+='### [%s](%s)\n' % (category, './Home.html')
+    # Make sure we get subcategories in sidebar as well.
+    dirglobbed = glob(os.path.join(categoryDir,"*"))
+    for possibleDir in dirglobbed:
+        if os.path.isdir(possibleDir) and os.path.basename(possibleDir) != "scripts":
+            categoryList.append(os.path.join(os.path.basename(possibleDir),"Home.md"))
     categoryList = sorted(categoryList)
     for page in categoryList:
         # Ignore home
         if page == "Home.md":
             continue
-        sidebar+=' * [%s](%s)\n' % (page.replace('.md','').replace('-',' '), page.replace('.md','.html'))
+        sidebar+=' * [%s](%s)\n' % (page.replace('.md','').replace("/Home","").replace('-',' '), page.replace('.md','.html'))
     return sidebar
 
 def makeFooter(categoryDir, gitRepoRoot):
@@ -91,40 +94,76 @@ if __name__ == '__main__':
     # Create the git repo object.  Find the root of the git repository and make an index object.
     gitRepo = Repo('.', search_parent_directories=True)
     gitRepoRoot = gitRepo.working_tree_dir
+    
+    # Only look at recently modified pages.
+    fileList = []
+    if args.update:
+        fileList = list(gitRepo.head.commit.stats.files.keys())
+        for fi in fileList:
+            # If a file has moved just regenerate everything.
+            if "=>" in fi:
+                fileList = []
 
-    if args.initialize:
-        fileList = []
+    if args.initialize or not fileList:
         for root, dirname, filenames in os.walk(gitRepoRoot):
             if os.path.join(gitRepoRoot,'.git') in root or os.path.join(gitRepoRoot,'scripts') in root:
                 continue
             else:
                 for filename in filenames:
                     fileList.append(os.path.join(root,filename))
-    
-    # Only look at recently modified pages.
-    if args.update:
-        fileList= list(gitRepo.head.commit.stats.files.keys())
 
     categories = getCategoryDict(gitRepoRoot, fileList)
 
     for categoryDir,categoryPages in categories.items():
         # Make a footer for the changed category.
         footer = makeFooter(categoryDir, gitRepoRoot)
-        with open(os.path.join(categoryDir,'_Footer.md'),'w') as f:
+        footerPath = os.path.join(categoryDir,'_Footer.md')
+        footerPathHTML = os.path.join(categoryDir,'_Footer.html')
+        with open(footerPath,'w') as f:
             f.write(footer)
+        pandoc('-f','markdown','-t','html','-o', footerPathHTML, footerPath)
         
         # Make a sidebar for the changed category.
         # Also save the sidebar as a home/index page if we aren't at the
-        # top of the repository and symlink "_Sidebar.md" to the Home/Index page.
+        # top of the repository.
         sidebar = makeSidebar(categoryDir,categoryPages,gitRepoRoot)
         sidebarPath = os.path.join(categoryDir,'_Sidebar.md')
+        sidebarPathHTML = os.path.join(categoryDir,'_Sidebar.html')
+        indexPath = os.path.join(categoryDir,'index.html')
         if categoryDir.strip() != gitRepoRoot.strip():
             with open(os.path.join(categoryDir,'Home.md'),'w') as f:
                 f.write(sidebar)
+            pandoc('-f','markdown','-t','html','-o',os.path.join(categoryDir,'Home.html'), os.path.join(categoryDir,'Home.md'))
             if not os.path.islink(sidebarPath) and os.path.exists(sidebarPath):
                 os.remove(sidebarPath)
             if not os.path.islink(sidebarPath):
-                os.link(os.path.join(categoryDir,'Home.md'),sidebarPath)
+                os.symlink(os.path.join(categoryDir,'Home.md'),sidebarPath)
+            if not os.path.islink(sidebarPathHTML) and os.path.exists(sidebarPathHTML):
+                os.remove(sidebarPathHTML)
+            if not os.path.islink(sidebarPathHTML):
+                os.symlink(os.path.join(categoryDir,'Home.html'),sidebarPathHTML)
         else:
             with open(sidebarPath,'w') as f:
                 f.write(sidebar)
+            pandoc('-f','markdown','-t','html','-o',sidebarPathHTML, sidebarPath)
+
+        # Render all pages with pandoc.
+        for page in categoryPages:
+            # No ToC for main page.
+            if categoryDir.strip() == gitRepoRoot.strip() and page == "Home.md":
+                pandoc('-f','markdown','-t','html','-o',os.path.join(categoryDir, page.replace('.md','.html')),'--template=%s' % os.path.join(gitRepoRoot,"scripts","template","template.html"),'--include-after-body=%s' % footerPathHTML,'--include-before-body=%s' % sidebarPathHTML,'--metadata','title=%s' % page.replace('.md','').replace('-',' '), '--css',os.path.join(gitRepoRoot,"scripts","template","template.css"), '--self-contained',os.path.join(categoryDir,page))
+            else:
+                pandoc('-f','markdown','-t','html','-o',os.path.join(categoryDir, page.replace('.md','.html')),'--template=%s' % os.path.join(gitRepoRoot,"scripts","template","template.html"),'--include-after-body=%s' % footerPathHTML,'--include-before-body=%s' % sidebarPathHTML,'--toc','--toc-depth=2','--metadata','title=%s' % page.replace('.md','').replace('-',' '), '--css',os.path.join(gitRepoRoot,"scripts","template","template.css"), '--self-contained',os.path.join(categoryDir,page))
+
+        # Make symlinks
+        if categoryDir.strip() != gitRepoRoot.strip():
+            if not os.path.islink(indexPath) and os.path.exists(indexPath):
+                os.remove(indexPath)
+            if not os.path.islink(indexPath):
+                os.symlink(os.path.join(categoryDir,'Home.html'),indexPath)
+        else:
+            if not os.path.islink(indexPath) and os.path.exists(indexPath):
+                os.remove(indexPath)
+            if not os.path.islink(indexPath):
+                os.symlink(os.path.join(categoryDir,'Home.html'),indexPath)
+
