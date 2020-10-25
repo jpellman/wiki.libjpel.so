@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import os
-from os.path import splitext
 from git import Repo
 from glob import glob
 import sys
+from sh import pandoc
 
 def getCategoryDict(gitRepoRoot, fileList):
     '''
@@ -12,7 +12,7 @@ def getCategoryDict(gitRepoRoot, fileList):
     containing the pages belonging to those categories as values.
     '''
     categoryDict = {}
-    for fi in lastModifiedFiles:
+    for fi in fileList:
         # Ignore scripts directory.
         if os.path.dirname(fi) == "scripts":
             continue
@@ -32,31 +32,40 @@ def getCategoryDict(gitRepoRoot, fileList):
 
 def makeSidebar(categoryDir, categoryList, gitRepoRoot):
     sidebar = ''
-    relativeCategoryPath = categoryDir.replace(gitRepoRoot,'')
+    relativeCategoryPath = categoryDir.replace(gitRepoRoot.rstrip(os.path.sep),'')
+    relativeCategoryPath = relativeCategoryPath.strip(os.path.sep)
     if categoryDir == gitRepoRoot:
         category = 'Home'
     else:
-        category = os.path.basename(categoryDir) 
-    sidebar+='# [%s](%s)\n' % (category.replace('-',' '), os.path.join(relativeCategoryPath, 'Home.md'))
+        category = os.path.basename(categoryDir) .replace('-',' ')
+    sidebar+='### [%s](%s)\n' % (category, './Home.html')
+    categoryList = sorted(categoryList)
     for page in categoryList:
-        sidebar+=' * [%s](%s)\n' % (splitext(page)[0].replace('-',' ').replace('/Home',''), os.path.join(relativeCategoryPath,page))
+        # Ignore home
+        if page == "Home.md":
+            continue
+        sidebar+=' * [%s](%s)\n' % (page.replace('.md','').replace('-',' '), page.replace('.md','.html'))
     return sidebar
 
 def makeFooter(categoryDir, gitRepoRoot):
     footerList = []
-    rootLink = '[%s](%s)' % ('Home','/Home.md')
+    rootDistance = categoryDir.replace(gitRepoRoot.rstrip(os.path.sep), '').count(os.path.sep)
+    rootDistance = [".."]*rootDistance
+    rootLink = '[%s](%s)' % ('Home',os.path.join(os.path.sep.join(rootDistance),'Home.html'))
     if categoryDir == gitRepoRoot:
         footerList.append(rootLink)
     else:
-        relativeCategoryPath = categoryDir.replace(gitRepoRoot,'')
-        relativeCategoryPath = relativeCategoryPath.strip(os.path.sep)
         footerList.append(rootLink)
-        treeElms = list(os.path.split(relativeCategoryPath))
+        relativeCategoryPath = categoryDir.replace(gitRepoRoot.rstrip(os.path.sep),'')
+        relativeCategoryPath = relativeCategoryPath.strip(os.path.sep)
+        treeElms = relativeCategoryPath.split(os.path.sep)
         treeElms = [treeElm for treeElm in treeElms if treeElm]
         treeNodes = []
+        rootDistance = []
         while treeElms:
+            rootDistance.append('..')
             lastElm = treeElms.pop()
-            treeNodes.append('[%s](%s)' % (lastElm, os.path.join(*treeElms,lastElm,'Home.md')))
+            treeNodes.append('[%s](%s)' % (lastElm.replace('-',' '), os.path.join(os.path.sep.join(rootDistance),lastElm,'Home.html')))
         treeNodes = reversed(treeNodes)
         footerList+=treeNodes
     return ' **>** '.join(footerList)
@@ -95,8 +104,6 @@ if __name__ == '__main__':
     # Only look at recently modified pages.
     if args.update:
         fileList= list(gitRepo.head.commit.stats.files.keys())
-    print(fileList)
-    sys.exit(0)
 
     categories = getCategoryDict(gitRepoRoot, fileList)
 
