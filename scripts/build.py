@@ -139,11 +139,11 @@ if __name__ == '__main__':
             if not os.path.islink(sidebarPath) and os.path.exists(sidebarPath):
                 os.remove(sidebarPath)
             if not os.path.islink(sidebarPath):
-                os.symlink(os.path.join(categoryDir,'Home.md'),sidebarPath)
+                os.symlink('Home.md',sidebarPath)
             if not os.path.islink(sidebarPathHTML) and os.path.exists(sidebarPathHTML):
                 os.remove(sidebarPathHTML)
             if not os.path.islink(sidebarPathHTML):
-                os.symlink(os.path.join(categoryHTMLDir,'Home.html'),sidebarPathHTML)
+                os.symlink('Home.html',sidebarPathHTML)
         else:
             with open(sidebarPath,'w') as f:
                 f.write(sidebar)
@@ -162,10 +162,10 @@ if __name__ == '__main__':
             if not os.path.islink(indexPath) and os.path.exists(indexPath):
                 os.remove(indexPath)
             if not os.path.islink(indexPath):
-                os.symlink(os.path.join(categoryHTMLDir,'Home.html'),indexPath)
+                os.symlink('Home.html',indexPath)
         else:
             if not os.path.islink(indexPath) and os.path.exists(indexPath):
                 os.remove(indexPath)
             if not os.path.islink(indexPath):
-                os.symlink(os.path.join(categoryHTMLDir,'Home.html'),indexPath)
+                os.symlink('Home.html',indexPath)
 
