@@ -113,7 +113,7 @@ if __name__ == '__main__':
     categories = getCategoryDict(srcRoot, fileList)
 
     for categoryDir,categoryPages in categories.items():
-        categoryHTMLDir = categoryDir.replace(srcRoot,gitRepoRoot)
+        categoryHTMLDir = categoryDir.replace(srcRoot,os.path.join(gitRepoRoot,"docs"))
         print(categoryHTMLDir)
         if not os.path.isdir(categoryHTMLDir):
             os.makedirs(categoryHTMLDir)
