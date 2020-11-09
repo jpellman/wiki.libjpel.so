@@ -3,8 +3,6 @@ Systems Administration Notes
 
 This page stores both generic notes, as well as additional pages and categories related to systems administration. My general modus operandi here is to start taking notes here, and then to break things out into separate pages when they get too large.
 
-[[_TOC_|levels = 2]]
-
 General Links
 -------------
 
@@ -72,6 +70,7 @@ Monitoring / Debugging
 -   [Linux Ate My RAM](http://linuxatemyram.com)
 -   Apparently the Java heap makes use of the RAM allocated for buffer/cache (so the buffer/cache isn't freed up).
 -   [Article on JVM Heap Size](https://www.yourkit.com/docs/kb/sizes.jsp) & [Oracle Docs on JVM Heap](https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html)
+-   [Memory Subsystem Deep Dive](https://frankdenneman.nl/2015/02/18/memory-configuration-scalability-blog-series/)
 
 Networking
 ----------
