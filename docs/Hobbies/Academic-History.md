@@ -5,7 +5,7 @@ Academic History
 
 Resources related to the history of academia.
 
-[[_TOC_|levels = 2]]
+
 
 General History
 ---------------

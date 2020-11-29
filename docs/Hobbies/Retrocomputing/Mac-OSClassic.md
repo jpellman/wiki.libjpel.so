@@ -1,7 +1,7 @@
 Mac OS Classic
 ==============
 
-[[_TOC_|levels = 2]]
+
 
 Implementation Details
 ----------------------

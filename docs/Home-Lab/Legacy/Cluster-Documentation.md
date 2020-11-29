@@ -1,7 +1,5 @@
 # Documentation for Home Beowulf Cluster - SDH (The Salon of Digital Humanists)
 
-[[_TOC_| levels = 2]]
-
 An inventory of all the computers used in my home cluster, including their specs, software installed, the present topology of the cluster, and the users.
 
 ## Section 1: Machine Specifications

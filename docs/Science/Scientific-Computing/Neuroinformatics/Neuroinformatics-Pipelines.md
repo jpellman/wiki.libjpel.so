@@ -3,7 +3,7 @@ Neuroinformatics Pipelines
 
 A page to store links to documentation for common bits of software, and take notes on steps that overlap. I think that, by and large, the majority of neuroscience problems fall into three categories: image manipulation, quantifying behavioral observations, manipulating physiological observations, and stimulus presentation.
 
-[[_TOC_|levels = 2]]
+
 
 Image Manipulation
 ------------------

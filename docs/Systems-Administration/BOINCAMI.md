@@ -1,7 +1,7 @@
 How to Create an AMI to Run BOINC
 =================================
 
-[[_TOC_|levels = 2]]
+
 
 Why Run BOINC In the Cloud
 --------------------------

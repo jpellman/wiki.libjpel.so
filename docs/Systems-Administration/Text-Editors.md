@@ -3,7 +3,7 @@ Create and edit text files
 
 Here are some links and resources to learn more about vim and emacs- the two most prominent text editors in the \*nix world.
 
-[[_TOC_|levels = 2]]
+
 
 vim
 ---

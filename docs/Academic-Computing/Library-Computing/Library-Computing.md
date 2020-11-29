@@ -1,7 +1,7 @@
 Library Computing
 =================
 
-[[_TOC_|levels = 2]]
+
 
 Metadata/Search vs Filesystems
 ------------------------------

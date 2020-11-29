@@ -3,7 +3,7 @@ Scientific File Formats
 
 I'm using this page to organize discoveries / thoughts about scientific file formats / compression algorithms.
 
-[[_TOC_|levels = 2]]
+
 
 HDF5
 ----

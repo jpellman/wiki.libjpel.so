@@ -1,7 +1,7 @@
 Notes on the Architecture of Neuroinformatics Clusters
 ======================================================
 
-[[_TOC_|levels = 2]]
+
 
 Reference Implementations
 -------------------------

@@ -1,7 +1,7 @@
 Netgear WNR3500L
 ================
 
-[[_TOC_|levels = 2]]
+
 
 Description
 -----------

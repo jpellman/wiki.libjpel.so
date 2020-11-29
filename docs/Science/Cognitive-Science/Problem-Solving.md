@@ -1,7 +1,7 @@
 Problem Solving
 ===============
 
-[[_TOC_|levels = 2]]
+
 
 Difference-Reduction
 --------------------

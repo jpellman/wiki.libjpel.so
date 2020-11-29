@@ -3,7 +3,7 @@ Food
 
 A page where I keep my favorite recipes, and more broadly thoughts about food.
 
-[[_TOC_|levels = 2]]
+
 
 Recipes
 -------

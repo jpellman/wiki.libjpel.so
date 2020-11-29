@@ -1,7 +1,7 @@
 Critiques of Open Science
 =========================
 
-[[_TOC_|levels = 2]]
+
 
 Metadata
 --------

@@ -1,7 +1,7 @@
 Decision Making
 ===============
 
-[[_TOC_|levels = 2]]
+
 
 Expected Utility
 ----------------

@@ -7,7 +7,7 @@ I propose to use the noun *retroscape* ("A landscape or setting filled with thin
 
 Below I list links related to the fields and tools that are most necessary to facilitate this interest.
 
-[[_TOC_|levels = 2]]
+
 
 Geography
 ---------

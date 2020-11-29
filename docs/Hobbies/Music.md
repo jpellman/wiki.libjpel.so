@@ -3,7 +3,7 @@ Music
 
 In which I characterize my recreational music consumption. No production anymore unfortunately.
 
-[[_TOC_|levels = 2]]
+
 
 Consumption
 -----------

@@ -3,8 +3,6 @@ Reading List
 
 I'm using the table below to keep track of the books I'm currently reading.
 
-[[_TOC_]]
-
 ## In Progress
 
 ### Paperbacks
