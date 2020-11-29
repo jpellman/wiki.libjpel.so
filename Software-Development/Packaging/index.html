@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#oo" class="md-skip">
+        <a href="#notes-on-software-packaging" class="md-skip">
           Skip to content
         </a>
       
@@ -670,7 +670,7 @@
 
   <li class="md-nav__item">
     <a href="../../Home-Lab/Legacy/Cluster-Documentation/" class="md-nav__link">
-      Cluster Documentation
+      Documentation for Home Beowulf Cluster - SDH (The Salon of Digital Humanists)
     </a>
   </li>
 
@@ -1349,6 +1349,8 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
         Packaging
@@ -1363,6 +1365,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1371,22 +1375,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#oo" class="md-nav__link">
-    oo
+  <a href="#tools" class="md-nav__link">
+    Tools
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#spcfiformat" class="md-nav__link">
-    SpcfiFormat
+  <a href="#spec-file-formats" class="md-nav__link">
+    Spec file Formats
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#furthrrading" class="md-nav__link">
-    FurthrRading
+  <a href="#further-reading" class="md-nav__link">
+    Further Reading
   </a>
   
 </li>
@@ -1696,6 +1700,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1704,22 +1710,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#oo" class="md-nav__link">
-    oo
+  <a href="#tools" class="md-nav__link">
+    Tools
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#spcfiformat" class="md-nav__link">
-    SpcfiFormat
+  <a href="#spec-file-formats" class="md-nav__link">
+    Spec file Formats
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#furthrrading" class="md-nav__link">
-    FurthrRading
+  <a href="#further-reading" class="md-nav__link">
+    Further Reading
   </a>
   
 </li>
@@ -1741,26 +1747,29 @@
                   </a>
                 
                 
-                  <h1>Packaging</h1>
-                
-                <p>NotonSoftwarPackaging</p>
-<p>I'muingthipagtokpnotonthwondrfuwordofoftwarpackaging/ditribution.</p>
-<p>]</p>
-<h2 id="oo">oo</h2>
-<p>-rpmbuid:ooudtocratRPM,takingintoaccountdpndncyroution.
--ain:AowyoutoconrtRPMtoDbianpackag.Don'ttakintoaccountdpndnci.
--Pack](http://cmak.org/Wiki/Mak:PackagingWithPack):Aowyoutocratmutippackagformatfromthamourccod.
--Python'dituti(http://jrombman.gitab.io/pot/dop/tuppy/)canbudtocratRPMpackag.(hr(http://doc.python.org/2.0/dit/crating-rpm.htm)too)
--tdb](http://pypi.org/projct/tdb/#author)canaobudwithditutitocratDbianpackag(hr(http://haowky.com/bog/programming/python-dbian-packag-w-tdb.htm)too).
--PyIntar](http://www.pyintar.org/).Siuwithwxhr(http://github.com/chrikih/Gooy/iu/259)</p>
-<h2 id="spcfiformat">SpcfiFormat</h2>
-<p>-dc
--RPMpc</p>
-<h2 id="furthrrading">FurthrRading</h2>
-<p>-EnandStack/Projct/UrLPackagManagmnt-FdoraProjctWiki](http://fdoraprojct.org/wiki/EnandStack/Projct/UrLPackagManagmnt)</p>
+                <h1 id="notes-on-software-packaging">Notes on Software Packaging</h1>
+<p>I'm using this page to keep notes on the wonderful world of software packaging / distribution.</p>
+<h2 id="tools">Tools</h2>
+<ul>
+<li>rpmbuild : Tool used to create RPMs, taking into account dependency resolution.</li>
+<li>alien : Allows you to convert RPMs to Debian packages. Doesn't take into account dependencies.</li>
+<li><a href="https://cmake.org/Wiki/CMake:Packaging_With_CPack">CPack</a> : Allows you to create multiple package formats from the same source code.</li>
+<li><a href="http://jeromebelleman.gitlab.io/posts/devops/setuppy/">Python's distutils</a> can be used to create RPM packages. (see <a href="https://docs.python.org/2.0/dist/creating-rpms.html">here</a> too)</li>
+<li><a href="https://pypi.org/project/stdeb/#authors">stdeb</a> can also be used with distutils to create Debian packages (see <a href="http://shallowsky.com/blog/programming/python-debian-packages-w-stdeb.html">here</a> too).</li>
+<li><a href="https://www.pyinstaller.org/">PyInstaller</a>. See issue with wx <a href="https://github.com/chriskiehl/Gooey/issues/259">here</a></li>
+</ul>
+<h2 id="spec-file-formats">Spec file Formats</h2>
+<ul>
+<li>dsc</li>
+<li>RPM spec</li>
+</ul>
+<h2 id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="https://fedoraproject.org/wiki/Env_and_Stacks/Projects/UserLevelPackageManagement">Env and Stacks/Projects/UserLevelPackageManagement - Fedora Project Wiki</a></li>
+</ul>
 <hr />
 <blockquote>
-<p>Scintific-omputing](Scintific-omputing)Sytm-Adminitration](Sytm-Adminitration)</p>
+<p><a href="Scientific-Computing">Scientific-Computing</a> <a href="Systems-Administration">Systems-Administration</a></p>
 </blockquote>
                 
               
