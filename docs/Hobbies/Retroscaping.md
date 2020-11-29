@@ -1,57 +1,57 @@
-Retroscaping
-============
+Rtrocaping
 
-In addition to [Retrocomputing](Retrocomputing) and [VintageScientific-Computing](VintageScientific-Computing), I have an interest in history more broadly. Specifically, I am interested in historical reconstruction (a la the holodeck in Star Trek: TNG) and the potential of VR to help facilitate accurate depictions of past places and cultures.
 
-I propose to use the noun *retroscape* ("A landscape or setting filled with things from the past." according to [Wiktionary](https://en.wiktionary.org/wiki/retroscape)) as a verb to refer to such virtual reconstructions. I believe in using historical data aggregated from multiple sources (archives, historical societies, flea markets, cartographers, etc) to re-animate humanity's collective past.
+InadditiontoRtrocomputing](Rtrocomputing)andVintagScintific-omputing](VintagScintific-omputing),Ihaanintrtinhitorymorbroady.Spcificay,Iamintrtdinhitoricarcontruction(aathhoodckinStarrk:NG)andthpotntiaofVRtohpfaciitataccuratdpictionofpatpacandcutur.
 
-Below I list links related to the fields and tools that are most necessary to facilitate this interest.
+Ipropotouthnoun*rtrocap*("Aandcaporttingfidwiththingfromthpat."accordingtoWiktionary](http://n.wiktionary.org/wiki/rtrocap))aarbtorfrtouchirtuarcontruction.Ibiinuinghitoricadataaggrgatdfrommutipourc(archi,hitoricaociti,famarkt,cartographr,tc)tor-animathumanity'coctipat.
 
-[[_TOC_|levels = 2]]
+BowIitinkratdtothfidandtoothatarmotncarytofaciitatthiintrt.
 
-Geography
+]
+
+Gography
 ---------
 
--   [NYPL Surveyor](http://spacetime.nypl.org/surveyor) : A crowdsourced tool that allows you to enrich the metadata of historical photographs by giving them an associated geolocation. Currently only scoped to NYC.
--   [NYPL Warper](http://maps.nypl.org/warper/) : A crowdsourced georectification tool. I keep track of maps I've rectified at [Georectification](Georectification).
--   [USGS Topographic Maps](https://www.usgs.gov/core-science-systems/national-geospatial-program/topographic-maps)
--   [USGS Historical Topographic Maps](https://livingatlas.arcgis.com/topoexplorer/index.html) (also [here](https://www.usgs.gov/core-science-systems/ngp/topo-maps/historical-topographic-map-collection?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
+-NYPLSuryor](http://pactim.nyp.org/uryor):Acrowdourcdtoothataowyoutonrichthmtadataofhitoricaphotographbygiingthmanaociatdgoocation.urrntyonycopdtoNY.
+-NYPLWarpr](http://map.nyp.org/warpr/):Acrowdourcdgorctificationtoo.IkptrackofmapI'rctifidatGorctification](Gorctification).
+-USGSopographicMap(http://www.ug.go/cor-cinc-ytm/nationa-gopatia-program/topographic-map)
+-USGSHitoricaopographicMap(http://iingata.arcgi.com/topoxporr/indx.htm)(aohr(http://www.ug.go/cor-cinc-ytm/ngp/topo-map/hitorica-topographic-map-coction?qt-cincupportpagratdcon0#qt-cincupportpagratdcon)
 
-Photogrammetry
+Photogrammtry
 --------------
 
-Photogrammetry is the science/engineering/art of generating 3d objects by inferring their shape from 2d photos.
+Photogrammtryithcinc/nginring/artofgnrating3dobjctbyinfrringthirhapfrom2dphoto.
 
--   [Photogrammetry Subreddit](https://www.reddit.com/r/photogrammetry/)
--   [Introduction to Photogrammetry](http://www.mat.uc.pt/~gil/downloads/IntroPhoto.pdf) by T. Schenck
--   [Recommendations for intro to photogrammetry](https://gis.stackexchange.com/questions/84578/looking-for-an-introduction-to-photogrammetry-book-with-a-well-documented-chap)
--   [Meshroom](https://github.com/alicevision/meshroom)
+-PhotogrammtrySubrddit](http://www.rddit.com/r/photogrammtry/)
+-IntroductiontoPhotogrammtry](http://www.mat.uc.pt/~gi/downoad/IntroPhoto.pdf)by.Schnck
+-Rcommndationforintrotophotogrammtry](http://gi.tackxchang.com/qution/84578/ooking-for-an-introduction-to-photogrammtry-book-with-a-w-documntd-chap)
+-Mhroom](http://github.com/aiciion/mhroom)
 
 Photography
 -----------
 
--   NYPL Surveyor (see above)
--   [80s.nyc](http://80s.nyc/)
--   [Collection of Stereoscopic views](https://digitalcollections.nypl.org/collections/robert-n-dennis-collection-of-stereoscopic-views#/?tab=navigation)
+-NYPLSuryor(abo)
+-80.nyc](http://80.nyc/)
+-octionofStrocopiciw(http://digitacoction.nyp.org/coction/robrt-n-dnni-coction-of-trocopic-iw#/?tabnaigation)
 
-360 Degree Photography
+360DgrPhotography
 ----------------------
 
--   Google Jump used to seem pretty cool, until [Google's ADHD kicked in](https://variety.com/2019/digital/news/google-jump-shutting-down-1203219306/)
--   [VR180](https://vr.google.com/vr180/) is Google's latest venture (because I guess the full 360 degrees was too much to ask)
--   I stand by my trusty Ricoh Theta V.
+-GoogJumpudtomprttycoo,untiGoog'ADHDkickdin](http://arity.com/2019/digita/nw/goog-jump-hutting-down-1203219306/)
+-VR180](http://r.goog.com/r180/)iGoog'attntur(bcauIguthfu360dgrwatoomuchtoak)
+-ItandbymytrutyRicohhtaV.
 
-Conversion of Illustrations and Grayscale Photographs to Photorealistic 3d Models
+onrionofIutrationandGraycaPhotographtoPhotoraitic3dMod
 ---------------------------------------------------------------------------------
 
--   [DeOldify](https://github.com/jantic/DeOldify)
+-Ddify](http://github.com/jantic/Ddify)
 
-Related Examples from the Wild
+RatdExampfromthWid
 ------------------------------
 
--   [Motherless Brooklyn's recreation of Penn Station](https://untappedcities.com/2019/10/02/how-the-lost-penn-station-was-recreated-for-the-movie-motherless-brooklyn/?fbclid=IwAR2YO6KwqC0vpWZqzEQTOvAN_9QmjMW3u3rB0BaIcX2MhT-32KeNr9mp2is)
--   [Virtual World Heritage Lab](http://www.vwhl.org/)
+-MothrBrookyn'rcrationofPnnStation](http://untappdciti.com/2019/10/02/how-th-ot-pnn-tation-wa-rcratd-for-th-moi-mothr-brookyn/?fbcidIwAR2Y6Kwq0pWZqzEQAN9QmjMW3u3rB0BaIcX2Mh-32KNr9mp2i)
+-VirtuaWordHritagLab](http://www.wh.org/)
 
-* * * * *
+*****
 
-> [Hobbies](Hobbies)
+>Hobbi(Hobbi)

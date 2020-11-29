@@ -1,91 +1,91 @@
-Neuroinformatics Pipelines
-==========================
+NuroinformaticPipin
 
-A page to store links to documentation for common bits of software, and take notes on steps that overlap. I think that, by and large, the majority of neuroscience problems fall into three categories: image manipulation, quantifying behavioral observations, manipulating physiological observations, and stimulus presentation.
 
-[[_TOC_|levels = 2]]
+Apagtotorinktodocumntationforcommonbitofoftwar,andtaknotontpthatorap.Ithinkthat,byandarg,thmajorityofnurocincprobmfaintothrcatgori:imagmanipuation,quantifyingbhaioraobration,manipuatingphyioogicaobration,andtimuuprntation.
 
-Image Manipulation
+]
+
+ImagManipuation
 ------------------
 
-These utilities ultimately should amount to specialized versions of Photoshop/the GIMP that operate in 3D space rather than 2D. Some of them include some statistical processing tools as well. Essentially these then become hybridized versions of Photoshop and R/Stata/SPSS/SAS.
+hutiitiutimatyhoudamounttopciaizdrionofPhotohop/thGIMPthatopratin3Dpacrathrthan2D.Somofthmincudomtatiticaprocingtooaw.EntiayththnbcomhybridizdrionofPhotohopandR/Stata/SPSS/SAS.
 
--   [RELION](https://hpc.nih.gov/apps/RELION/relion30_tutorial.pdf)
--   [SPM12](https://www.fil.ion.ucl.ac.uk/spm/doc/spm12_manual.pdf)
--   [AFNI](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/)
--   [ANTS](https://github.com/stnava/ANTsDoc/raw/master/ants2.pdf)
--   [BROCCOLI](https://github.com/wanderine/BROCCOLI/raw/master/documentation/broccoli.pdf)
--   [Brainstorm](https://neuroimage.usc.edu/brainstorm/)
--   [BrainVoyager](http://www.brainvoyager.com/bvqx/doc/UsersGuide/BrainVoyagerQXUsersGuide.html)
--   [ITK](https://itk.org/ItkSoftwareGuide.pdf)
--   [BEaST](http://rstudio-pubs-static.s3.amazonaws.com/8431_d05daa5d49aa4cada417b6afc8ffd295.html) (also [here](https://github.com/BIC-MNI/BEaST))
--   [Imaging Software Installed by the NIH](https://hpc.nih.gov/apps/#image)
--   [MNI Tools](https://www.mcgill.ca/bic/software/tools-data-analysis)
--   [Neurolucida](https://www.mbfbioscience.com/neurolucida)
+-RELIN](http://hpc.nih.go/app/RELIN/rion30tutoria.pdf)
+-SPM1(http://www.fi.ion.uc.ac.uk/pm/doc/pm12manua.pdf)
+-AFNI](http://afni.nimh.nih.go/pub/dit/doc/htmdoc/)
+-ANS](http://github.com/tnaa/ANDoc/raw/matr/ant2.pdf)
+-BRLI](http://github.com/wandrin/BRLI/raw/matr/documntation/broccoi.pdf)
+-Braintorm](http://nuroimag.uc.du/braintorm/)
+-BrainVoyagr](http://www.brainoyagr.com/bqx/doc/UrGuid/BrainVoyagrQXUrGuid.htm)
+-IK](http://itk.org/ItkSoftwarGuid.pdf)
+-BEaS(http://rtudio-pub-tatic.3.amazonaw.com/8431d05daa5d49aa4cada417b6afc8ffd295.htm)(aohr(http://github.com/BI-MNI/BEaS))
+-ImagingSoftwarIntadbythNIH](http://hpc.nih.go/app/#imag)
+-MNIoo(http://www.mcgi.ca/bic/oftwar/too-data-anayi)
+-Nuroucida](http://www.mbfbiocinc.com/nuroucida)
 
-As per earlier statements, compare these manuals to:
+Aprarirtatmnt,comparthmanuato:
 
--   [The GIMP](https://www.gimp.org/docs/)
--   [Adobe Photoshop](https://helpx.adobe.com/photoshop/user-guide.html)
+-hGIMP](http://www.gimp.org/doc/)
+-AdobPhotohop](http://hpx.adob.com/photohop/ur-guid.htm)
 
-### Other Image Processing Libraries
+###thrImagProcingLibrari
 
-#### Open Source
+####pnSourc
 
--   [Ilastik](https://www.ilastik.org/)
--   [OpenCV](https://opencv.org/)
--   [scikitiimage](https://scikit-image.org/)
--   [vips](https://libvips.github.io/libvips/)
--   [Tomopy](https://tomopy.readthedocs.io/en/latest/)
--   [netpbm](http://netpbm.sourceforge.net/) (AFNI dependency)
--   [ImageMagick](https://imagemagick.org/)
+-Iatik](http://www.iatik.org/)
+-pnV](http://opnc.org/)
+-cikitiimag(http://cikit-imag.org/)
+-ip(http://ibip.github.io/ibip/)
+-omopy](http://tomopy.radthdoc.io/n/att/)
+-ntpbm](http://ntpbm.ourcforg.nt/)(AFNIdpndncy)
+-ImagMagick](http://imagmagick.org/)
 
-#### Proprietary
+####Propritary
 
--   [Huygens](https://svi.nl/HomePage)
--   [Amira and Avizo](https://www.thermofisher.com/us/en/home/industrial/electron-microscopy/electron-microscopy-instruments-workflow-solutions/3d-visualization-analysis-software.html)
--   [Aphelion](http://www.adcis.net/en/aphelion-lab/)
--   [Imaris](https://imaris.oxinst.com/)
+-Huygn(http://i.n/HomPag)
+-AmiraandAizo](http://www.thrmofihr.com/u/n/hom/indutria/ctron-microcopy/ctron-microcopy-intrumnt-workfow-oution/3d-iuaization-anayi-oftwar.htm)
+-Aphion](http://www.adci.nt/n/aphion-ab/)
+-Imari(http://imari.oxint.com/)
 
-### Additional Links
+###AdditionaLink
 
--   [An Inventory of Image Processing Algorithms](https://web.archive.org/web/20181220224256/http://www.efg2.com/Lab/Library/ImageProcessing/Algorithms.htm)
--   [Wikipedia's list of image processing algorithms](https://en.wikipedia.org/wiki/List_of_algorithms#Image_processing)
+-AnInntoryofImagProcingAgorithm(http://wb.archi.org/wb/20181220224256/http://www.fg2.com/Lab/Library/ImagProcing/Agorithm.htm)
+-Wikipdia'itofimagprocingagorithm(http://n.wikipdia.org/wiki/Litofagorithm#Imagprocing)
 
-Quantifying Behavioral Data
+QuantifyingBhaioraData
 ---------------------------
 
--   [DeepLabCut](https://github.com/AlexEMG/DeepLabCut/wiki/DeepLabCut2.x-Quick-Guide-to-Commands)
+-DpLabut](http://github.com/AxEMG/DpLabut/wiki/DpLabut2.x-Quick-Guid-to-ommand)
 
-### Sentiment Analysis
+###SntimntAnayi
 
--   [TextBlob](https://textblob.readthedocs.io/en/dev/)
--   [CoreNLP](https://stanfordnlp.github.io/CoreNLP/index.html)
--   [NLTK](http://www.nltk.org/book/)
+-xtBob](http://txtbob.radthdoc.io/n/d/)
+-orNLP](http://tanfordnp.github.io/orNLP/indx.htm)
+-NLK](http://www.ntk.org/book/)
 
-### Eye-Tracking
+###Ey-racking
 
--   [PyGaze](http://www.pygaze.org/)
--   [WebGazer](https://webgazer.cs.brown.edu/)
--   [eyetrackingR](http://www.eyetracking-r.com/)
--   [saccades](https://github.com/tmalsburg/saccades)
+-PyGaz(http://www.pygaz.org/)
+-WbGazr](http://wbgazr.c.brown.du/)
+-ytrackingR](http://www.ytracking-r.com/)
+-accad(http://github.com/tmaburg/accad)
 
-Manipulating Physiological Data
+ManipuatingPhyioogicaData
 -------------------------------
 
--   [Bioread](https://github.com/uwmadison-chm/bioread) (for BIOPAC)
+-Biorad](http://github.com/uwmadion-chm/biorad)(forBIPA)
 
-Stimulus Presentation
+StimuuPrntation
 ---------------------
 
-Stimulus presentation packages, by their very nature, also quantify behavioral data into reaction times and specific responses.
+Stimuuprntationpackag,bythirrynatur,aoquantifybhaioradataintoractiontimandpcificrpon.
 
--   [DirectRT](http://www.empirisoft.com/directrt.aspx)
--   [ePrime](https://pstnet.com/products/e-prime/)
--   [PsychoPy](https://www.psychopy.org/)
--   [jsPsych](https://www.jspsych.org/)
--   [PsyScope](http://psy.ck.sissa.it/)
+-DirctR(http://www.mpirioft.com/dirctrt.apx)
+-Prim(http://ptnt.com/product/-prim/)
+-PychoPy](http://www.pychopy.org/)
+-jPych](http://www.jpych.org/)
+-PyScop(http://py.ck.ia.it/)
 
-* * * * *
+*****
 
-[Scientific-Computing](Scientific-Computing)
+Scintific-omputing](Scintific-omputing)

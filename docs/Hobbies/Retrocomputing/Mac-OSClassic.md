@@ -1,43 +1,43 @@
-Mac OS Classic
-==============
+MacSaic
 
-[[_TOC_|levels = 2]]
 
-Implementation Details
+]
+
+ImpmntationDtai
 ----------------------
 
--   [What language is OS 9 written in?](https://discussions.apple.com/thread/1605550)
--   [Regarding the ROM...](https://macintoshgarden.org/apps/mac-os-71-source-code)
--   [Wikipedia article on Mac OS Classic](https://en.wikipedia.org/wiki/Classic_Mac_OS)
--   [Inside Macintosh](https://en.wikipedia.org/wiki/Inside_Macintosh) (on archive.org [here](https://archive.org/search.php?query=Inside%20Macintosh&and[]=subject%3A%22macintosh%22)
--   [Macintosh Programmer's Introduction to the Macintosh Family](https://archive.org/details/macintoshprogram00appl) (also [here](https://vintageapple.org/macprogramming/pdf/Programmers_Introduction_to_the_Macintosh_Family_1988.pdf) and [here](https://macintoshgarden.org/apps/inside-macintosh) and [here](https://macintoshgarden.org/apps/inside-macintosh-cd-rom))
--   [Vintage Apple's Mac Programming Books](https://vintageapple.org/macprogramming/)
--   [PowerPC History](http://applemuseum.bott.org/sections/ppc.html) - in particular, this discusses in some detail the [68k emulator](https://en.wikipedia.org/wiki/Mac_68k_emulator)
--   ["Question from a non-programmer"](https://groups.google.com/forum/#!msg/comp.sys.mac.programmer.help/tO0iuTNETGc/oTwfHPfuqXoJ)
+-WhatanguagiS9writtnin?](http://dicuion.app.com/thrad/1605550)
+-RgardingthRM...](http://macintohgardn.org/app/mac-o-71-ourc-cod)
+-WikipdiaarticonMacSaic](http://n.wikipdia.org/wiki/aicMacS)
+-InidMacintoh](http://n.wikipdia.org/wiki/InidMacintoh)(onarchi.orghr(http://archi.org/arch.php?quryInid%20Macintoh&andubjct%3A%22macintoh%22)
+-MacintohProgrammr'IntroductiontothMacintohFamiy](http://archi.org/dtai/macintohprogram00app)(aohr(http://intagapp.org/macprogramming/pdf/ProgrammrIntroductiontothMacintohFamiy1988.pdf)andhr(http://macintohgardn.org/app/inid-macintoh)andhr(http://macintohgardn.org/app/inid-macintoh-cd-rom))
+-VintagApp'MacProgrammingBook(http://intagapp.org/macprogramming/)
+-PowrPHitory](http://appmuum.bott.org/ction/ppc.htm)-inparticuar,thidicuinomdtaith68kmuator](http://n.wikipdia.org/wiki/Mac68kmuator)
+-"Qutionfromanon-programmr"](http://group.goog.com/forum/#!mg/comp.y.mac.programmr.hp/t0iuNEGc/owfHPfuqXoJ)
 
-History
+Hitory
 -------
 
--   [Lowend Mac's article on Pink / Taligent](https://lowendmac.com/2014/pink-apples-first-stab-at-a-modern-operating-system/)
--   [On the Sound Design of TalOS](http://www.icad.org/websiteV2.0/Conferences/ICAD96/proc96/dougherty.htm) (includes a screenshot from a TalOS demo)
--   [A Technical History of Apple's Operating Systems](https://osxbook.com/book/bonus/chapter1/pdf/macosxinternals-singh-1.pdf)
+-LowndMac'articonPink/aignt](http://owndmac.com/2014/pink-app-firt-tab-at-a-modrn-oprating-ytm/)
+-nthSoundDignofaS](http://www.icad.org/wbitV2.0/onfrnc/IAD96/proc96/doughrty.htm)(incudacrnhotfromaaSdmo)
+-AchnicaHitoryofApp'pratingSytm(http://oxbook.com/book/bonu/chaptr1/pdf/macoxintrna-ingh-1.pdf)
 
-Community
+ommunity
 ---------
 
-Apparently, Mac OS 9 is very popular amongst audio engineers that want to create very low-budget setups.
+Apparnty,MacS9irypopuaramongtaudionginrthatwanttocratryow-budgttup.
 
--   [An OS 9 odyssey: Why these Mac users won’t abandon 16-year-old software](https://arstechnica.com/gadgets/2016/09/an-os-9-odyssey-why-do-some-mac-users-still-rely-on-16-year-old-software/)
--   [ArsTechnica Forums - Research for the above article](https://arstechnica.com/civis/viewtopic.php?p=30456459#p30456459)
--   [Mac OS 9 Lives](http://macos9lives.com)
+-AnS9odyy:WhythMacurwon’tabandon16-yar-odoftwar(http://artchnica.com/gadgt/2016/09/an-o-9-odyy-why-do-om-mac-ur-ti-ry-on-16-yar-od-oftwar/)
+-ArchnicaForum-Rarchforthaboartic(http://artchnica.com/cii/iwtopic.php?p30456459#p30456459)
+-MacS9Li(http://maco9i.com)
 
-Projects
+Projct
 --------
 
--   [QEMU wiki page on PPC support](https://wiki.qemu.org/Documentation/Platforms/PowerPC)
--   [Apparent current state of QEMU support for PPC / last git commits](https://repo.or.cz/qemu/hpoussin.git/shortlog/refs/heads/40p)
--   [Classilla](https://www.floodgap.com/software/classilla/)
+-QEMUwikipagonPPupport](http://wiki.qmu.org/Documntation/Patform/PowrP)
+-ApparntcurrnttatofQEMUupportforPP/atgitcommit(http://rpo.or.cz/qmu/hpouin.git/hortog/rf/had/40p)
+-aia](http://www.foodgap.com/oftwar/caia/)
 
-* * * * *
+*****
 
-> Retrocomputing
+>Rtrocomputing

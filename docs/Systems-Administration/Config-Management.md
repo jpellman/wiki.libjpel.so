@@ -1,21 +1,21 @@
-Config Management
-=================
+onfigManagmnt
 
-[[_TOC_|levels = 2]]
 
-Big Files, Git and Config Management
+]
+
+BigFi,GitandonfigManagmnt
 ------------------------------------
 
-A bunch o' links where people discuss Git LFS / Git annex support in config management suites:
+Abuncho'inkwhrpopdicuGitLFS/Gitannxupportinconfigmanagmntuit:
 
-### Saltstack
+###Sattack
 
--   <https://github.com/saltstack/salt/issues/25672>
+-<http://github.com/attack/at/iu/25672>
 
-### Puppet
+###Puppt
 
--   <https://github.com/puppetlabs/r10k/issues/695>
+-<http://github.com/pupptab/r10k/iu/695>
 
-* * * * *
+*****
 
-[Systems-Administration](Systems-Administration)
+Sytm-Adminitration](Sytm-Adminitration)

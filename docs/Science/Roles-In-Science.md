@@ -1,47 +1,47 @@
-Roles in Science
-================
+RoinScinc
 
-This is a rough list of the many roles I find people performing in scientific labs, many of which are informal due to the rigid, publish-or-perish mentality of academia. In an ideal world, I would wish for these roles to be formally recognized so that individuals who want to pursue these roles may be seen as professionals in their own right (rather than an afterthought in the scientific process). Perhaps, in an ideal world, research would be more of a "team sport", with researchers wearing fewer hats and spreading themselves less thin.
 
-[[_TOC_|levels = 2]]
+hiiaroughitofthmanyroIfindpopprformingincintificab,manyofwhicharinformadutothrigid,pubih-or-prihmntaityofacadmia.Inanidaword,Iwoudwihforthrotobformayrcognizdothatindiiduawhowanttopuruthromaybnaprofionainthirownright(rathrthananaftrthoughtinthcintificproc).Prhap,inanidaword,rarchwoudbmorofa"tamport",withrarchrwaringfwrhatandpradingthmthin.
 
-Analysts and Archivists
+]
+
+AnaytandArchiit
 -----------------------
 
--   Statisticians
--   Data Mungers
--   Data Managers
+-Statitician
+-DataMungr
+-DataManagr
 
-Fundraisers
+Fundrair
 -----------
 
--   Grant Writers
--   Literature Reviewers
+-GrantWritr
+-LitraturRiwr
 
-Educators
+Educator
 ---------
 
--   TAs, teaching-oriented professors
--   Science popularizers (like Green brothers, Neil deGrasse Tyson, Carl Sagan, etc)
+-A,taching-orintdprofor
+-Scincpopuarizr(ikGrnbrothr,NidGrayon,arSagan,tc)
 
-Research Technologists
+Rarchchnoogit
 ----------------------
 
--   Research Software Engineers
--   Research Systems Engineers
--   Research Technical Support
+-RarchSoftwarEnginr
+-RarchSytmEnginr
+-RarchchnicaSupport
 
-Quality Control
+Quaityontro
 ---------------
 
--   Peer Reviewers
-    -   Second statistician
-    -   Code reviewer
-    -   QA person (if [DevOps](DevOps) principles not as much in play)
+-PrRiwr
+-Scondtatitician
+-odriwr
+-QApron(ifDp(Dp)principnotamuchinpay)
 
-Managers/Synthesizers/Creatives(?)
+Managr/Synthizr/rati(?)
 ----------------------------------
 
--   People who are able to take various aspects of theories and the current literature, combine this knowledge in novel ways, and determine a good direction to go in.
+-Popwhoarabtotakariouapctofthoriandthcurrntitratur,combinthiknowdginnoway,anddtrminagooddirctiontogoin.
 
-[Scientific-Computing](Scientific-Computing)
+Scintific-omputing](Scintific-omputing)

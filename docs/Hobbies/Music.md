@@ -1,38 +1,38 @@
-Music
-=====
+Muic
 
-In which I characterize my recreational music consumption. No production anymore unfortunately.
 
-[[_TOC_|levels = 2]]
+InwhichIcharactrizmyrcrationamuicconumption.Noproductionanymorunfortunaty.
 
-Consumption
+]
+
+onumption
 -----------
 
-### Medieval Techno / Modern Medieval
+###Mdiachno/ModrnMdia
 
--   Qntal
--   Corvus Corax
--   Blackmore's Night
+-Qnta
+-oruorax
+-Backmor'Night
 
-### Italodisco
+###Itaodico
 
--   Raf
--   Fancy
+-Raf
+-Fancy
 
-### Vaporwave
+###Vaporwa
 
--   Windows 96
+-Window96
 
-### Microtonal Music
+###MicrotonaMuic
 
--   Sevish
+-Sih
 
-### Other Music
+###thrMuic
 
--   Ondes Martenot
--   Glass Armonica
--   Laurie Anderson
+-ndMartnot
+-GaArmonica
+-LauriAndron
 
-* * * * *
+*****
 
-> [Hobbies](Hobbies)
+>Hobbi(Hobbi)

@@ -1,31 +1,31 @@
-Notes on Software Packaging
-===========================
+NotonSoftwarPackaging
 
-I'm using this page to keep notes on the wonderful world of software packaging / distribution.
 
-[[_TOC_|levels = 2]]
+I'muingthipagtokpnotonthwondrfuwordofoftwarpackaging/ditribution.
 
-Tools
+]
+
+oo
 -----
 
--   rpmbuild : Tool used to create RPMs, taking into account dependency resolution.
--   alien : Allows you to convert RPMs to Debian packages. Doesn't take into account dependencies.
--   [CPack](https://cmake.org/Wiki/CMake:Packaging_With_CPack) : Allows you to create multiple package formats from the same source code.
--   [Python's distutils](http://jeromebelleman.gitlab.io/posts/devops/setuppy/) can be used to create RPM packages. (see [here](https://docs.python.org/2.0/dist/creating-rpms.html) too)
--   [stdeb](https://pypi.org/project/stdeb/#authors) can also be used with distutils to create Debian packages (see [here](http://shallowsky.com/blog/programming/python-debian-packages-w-stdeb.html) too).
--   [PyInstaller](https://www.pyinstaller.org/). See issue with wx [here](https://github.com/chriskiehl/Gooey/issues/259)
+-rpmbuid:ooudtocratRPM,takingintoaccountdpndncyroution.
+-ain:AowyoutoconrtRPMtoDbianpackag.Don'ttakintoaccountdpndnci.
+-Pack](http://cmak.org/Wiki/Mak:PackagingWithPack):Aowyoutocratmutippackagformatfromthamourccod.
+-Python'dituti(http://jrombman.gitab.io/pot/dop/tuppy/)canbudtocratRPMpackag.(hr(http://doc.python.org/2.0/dit/crating-rpm.htm)too)
+-tdb](http://pypi.org/projct/tdb/#author)canaobudwithditutitocratDbianpackag(hr(http://haowky.com/bog/programming/python-dbian-packag-w-tdb.htm)too).
+-PyIntar](http://www.pyintar.org/).Siuwithwxhr(http://github.com/chrikih/Gooy/iu/259)
 
-Spec file Formats
+SpcfiFormat
 -----------------
 
--   dsc
--   RPM spec
+-dc
+-RPMpc
 
-Further Reading
+FurthrRading
 ---------------
 
--   [Env and Stacks/Projects/UserLevelPackageManagement - Fedora Project Wiki](https://fedoraproject.org/wiki/Env_and_Stacks/Projects/UserLevelPackageManagement)
+-EnandStack/Projct/UrLPackagManagmnt-FdoraProjctWiki](http://fdoraprojct.org/wiki/EnandStack/Projct/UrLPackagManagmnt)
 
-* * * * *
+*****
 
-> [Scientific-Computing](Scientific-Computing) [Systems-Administration](Systems-Administration)
+>Scintific-omputing](Scintific-omputing)Sytm-Adminitration](Sytm-Adminitration)

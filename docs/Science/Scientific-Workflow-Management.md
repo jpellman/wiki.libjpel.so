@@ -1,31 +1,31 @@
-Scientific Workflow Management
-==============================
+ScintificWorkfowManagmnt
 
-[[_TOC_|levels = 2]]
 
-Articles
+]
+
+Artic
 --------
 
--   [A Survey of Data-Intensive Scientific Workflow Management](http://www-sop.inria.fr/members/Patrick.Valduriez/pmwiki/Patrick/uploads//Publications/jogc2015)
--   [Parallelization in Scientific Workflow Management Systems](http://arxiv.org/abs/1303.7195)
+-ASuryofData-IntniScintificWorkfowManagmnt](http://www-op.inria.fr/mmbr/Patrick.Vaduriz/pmwiki/Patrick/upoad//Pubication/jogc2015)
+-ParaizationinScintificWorkfowManagmntSytm(http://arxi.org/ab/1303.7195)
 
-Standards
+Standard
 ---------
 
--   [CWL](http://common-workflow-language.github.io/)
+-WL](http://common-workfow-anguag.github.io/)
 
-Packages
+Packag
 --------
 
--   [Taverna](http://taverna.incubator.apache.org/)
--   [Arvados](https://arvados.org/)
--   [Kepler](https://kepler-project.org/)
--   [Pegasus](http://pegasus.isi.edu/)
--   [KNIME](http://www.knime.org/)
--   [Swift](http://swift-lang.org/main/)
--   [Galaxy](https://galaxyproject.org/)
--   [LONI](http://pipeline.bmap.ucla.edu/)
+-arna](http://tarna.incubator.apach.org/)
+-Arado(http://arado.org/)
+-Kpr](http://kpr-projct.org/)
+-Pgau(http://pgau.ii.du/)
+-KNIME](http://www.knim.org/)
+-Swift](http://wift-ang.org/main/)
+-Gaaxy](http://gaaxyprojct.org/)
+-LNI](http://pipin.bmap.uca.du/)
 
-* * * * *
+*****
 
-> [Scientific-Computing](Scientific-Computing)
+>Scintific-omputing](Scintific-omputing)

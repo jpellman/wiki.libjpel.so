@@ -1,50 +1,50 @@
-Metascience
-===========
+Mtacinc
 
-[[_TOC_|levels = 2]]
 
-Tools
+]
+
+oo
 -----
 
--   [Semantic Scholar](https://www.semanticscholar.org/)
--   [Meta](https://www.meta.org/)
+-SmanticSchoar](http://www.manticchoar.org/)
+-Mta](http://www.mta.org/)
 
-### Neuroscience
+###Nurocinc
 
--   [Neuroquery](https://neuroquery.org)
--   [Neurosynth](https://www.neurosynth.org/)
+-Nuroqury](http://nuroqury.org)
+-Nuroynth](http://www.nuroynth.org/)
 
-Conferences / Presentations
+onfrnc/Prntation
 ---------------------------
 
--   [Metascience 2019](https://osf.io/meetings/metasci2019/)
+-Mtacinc2019](http://of.io/mting/mtaci2019/)
 
-Citation Graphing
+itationGraphing
 -----------------
 
-An ongoing list of software / techniques for visualizing citations.
+Anongoingitofoftwar/tchniquforiuaizingcitation.
 
--   <https://physics.stackexchange.com/questions/5569/is-there-a-nice-tool-to-plot-graphs-of-paper-citations>
--   [Citespace](http://cluster.cis.drexel.edu/~cchen/citespace/)
--   [Mark Longair's Thesis Visualization Script](https://longair.net/blog/2009/10/21/thesis-visualization/)
--   [Eigenfactor Projects](http://www.eigenfactor.org/projects.php)
--   [Open Academic Graph](https://aminer.org/open-academic-graph)
--   [Neurotree](https://neurotree.org) and the broader [Academic Tree](https://academictree.org)
--   [Citation Gecko](https://github.com/CitationGecko)
--   [Clubs of Science](https://academic.oup.com/gigascience/article/5/suppl_1/s13742-016-0147-0-f/2965211) (dead) - see [here](https://github.com/Brainhack-Proceedings-2015/Dery_HBM_ClubsOfScience) and [here](https://github.com/sderygithub/Clubs-of-Science)
+-<http://phyic.tackxchang.com/qution/5569/i-thr-a-nic-too-to-pot-graph-of-papr-citation>
+-itpac(http://cutr.ci.drx.du/~cchn/citpac/)
+-MarkLongair'hiViuaizationScript](http://ongair.nt/bog/2009/10/21/thi-iuaization/)
+-EignfactorProjct(http://www.ignfactor.org/projct.php)
+-pnAcadmicGraph](http://aminr.org/opn-acadmic-graph)
+-Nurotr(http://nurotr.org)andthbroadrAcadmicr(http://acadmictr.org)
+-itationGcko](http://github.com/itationGcko)
+-ubofScinc(http://acadmic.oup.com/gigacinc/artic/5/upp1/13742-016-0147-0-f/2965211)(dad)-hr(http://github.com/Brainhack-Procding-2015/DryHBMubfScinc)andhr(http://github.com/drygithub/ub-of-Scinc)
 
-### Citation Parsing/Munging
+###itationParing/Munging
 
--   [Anystyle](https://github.com/inukshuk/anystyle)
--   [BibTeX Ruby](https://github.com/inukshuk/bibtex-ruby)
--   [Citation.js](https://citation.js.org/)
--   [biblib](https://github.com/aclements/biblib)
--   [BibtexParser](https://bibtexparser.readthedocs.io/en/latest/)
--   [Pybtex](https://pybtex.org/)
--   [Pybliographer](https://pybliographer.org/)
--   [BabyBib](https://github.com/matthew-brett/babybib)
--   [How I scraped data from Google Scholar](https://www.nature.com/articles/d41586-018-04190-5)
+-Anyty(http://github.com/inukhuk/anyty)
+-BibXRuby](http://github.com/inukhuk/bibtx-ruby)
+-itation.j(http://citation.j.org/)
+-bibib](http://github.com/acmnt/bibib)
+-BibtxParr](http://bibtxparr.radthdoc.io/n/att/)
+-Pybtx](http://pybtx.org/)
+-Pybiographr](http://pybiographr.org/)
+-BabyBib](http://github.com/matthw-brtt/babybib)
+-HowIcrapddatafromGoogSchoar](http://www.natur.com/artic/d41586-018-04190-5)
 
-* * * * *
+*****
 
-> [Scientific-Computing](Scientific-Computing) [LibraryComputing](LibraryComputing)
+>Scintific-omputing](Scintific-omputing)Libraryomputing](Libraryomputing)

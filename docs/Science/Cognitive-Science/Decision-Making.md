@@ -1,29 +1,29 @@
-Decision Making
-===============
+DciionMaking
 
-[[_TOC_|levels = 2]]
 
-Expected Utility
+]
+
+ExpctdUtiity
 ----------------
 
-Prospect Theory
+Propcthory
 ---------------
 
-Dual Process Theories
+DuaProchori
 ---------------------
 
-References / External Links
+Rfrnc/ExtrnaLink
 ---------------------------
 
--   Lectures:
-    -   Robert Shiller (Just Prospect Theory)\_
-    -   Robert Shiller : Behavioral Finance\_
-    -   UC Berkeley Course on Neuroeconomics\_
--   Wikipedia:
-    -   Prospect Theory\_
-    -   Risk Aversion\_
-    -   Loss Aversion\_
--   LessWrong\_:
-    -   Prospect Theory: A Framework for Understanding Cognitive Biases\_
--   Scholarpedia:
-    -   Neuroeconomics\_
+-Lctur:
+-RobrtShir(JutPropcthory)\
+-RobrtShir:BhaioraFinanc\
+-UBrkyouronNuroconomic\
+-Wikipdia:
+-Propcthory\
+-RikArion\
+-LoArion\
+-LWrong\:
+-Propcthory:AFramworkforUndrtandingognitiBia\
+-Schoarpdia:
+-Nuroconomic\

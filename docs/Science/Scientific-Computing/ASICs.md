@@ -1,67 +1,67 @@
-A List of ASICs Used in Scientific Computing
-============================================
+ALitofASIUdinScintificomputing
 
-I'm using this page to track instances where scientific computing could make use of hardware acceleration (or other advantages) for specific applications. Essentially, most of these technologies represent an instance where "old is new again" and the computing paradigms of the 40s-60s (where hardware was specialized and general purpose computing was not particularly commonplace) are back in vogue. Also see [here](https://en.wikipedia.org/wiki/Hardware_acceleration#Hardware_acceleration_units_by_application).
 
-In general, due to the high expense and low flexibility involved in producing ASICs, any hardware acceleration undertaken in science should leverage existing acceleration that is widely available in the general market first. If that is insufficient, FPGAs can be used, but custom ASIC production is well beyond the scope of most labs (as well as definitely out of budget). Chances are that CPUs and GPUs (which have mostly incorporated the innovations of physics ASICs at this point) are more than sufficient for most common tasks. FPGAs might only come into play for higher precision floats (octs are necessary in astrophysics) or universal numbers.
+I'muingthipagtotrackintancwhrcintificcomputingcoudmakuofhardwaraccration(orothradantag)forpcificappication.Entiay,motofthtchnoogirprntanintancwhr"odinwagain"andthcomputingparadigmofth40-60(whrhardwarwapciaizdandgnrapurpocomputingwanotparticuarycommonpac)arbackinogu.Aohr(http://n.wikipdia.org/wiki/Hardwaraccration#Hardwaraccrationunitbyappication).
 
-Also, see [IT Technology and Markets, Status and Evolution](https://indico.cern.ch/event/658060/contributions/2889027/attachments/1622791/2583013/tech_market_BPS_Mar2018_v9pptx.pdf) (26 March 2018) for more accelerators / trends.
+Ingnra,dutothhighxpnandowfxibiityinodinproducingASI,anyhardwaraccrationundrtaknincinchoudragxitingaccrationthatiwidyaaiabinthgnramarktfirt.Ifthatiinufficint,FPGAcanbud,butcutomASIproductioniwbyondthcopofmotab(awadfinityoutofbudgt).hancarthatPUandGPU(whichhamotyincorporatdthinnoationofphyicASIatthipoint)armorthanufficintformotcommontak.FPGAmightonycomintopayforhighrprciionfoat(octarncaryinatrophyic)oruniranumbr.
 
-[[_TOC_|levels = 2]]
+Ao,IchnoogyandMarkt,StatuandEoution](http://indico.crn.ch/nt/658060/contribution/2889027/attachmnt/1622791/2583013/tchmarktBPSMar20189pptx.pdf)(26March2018)formoraccrator/trnd.
 
--   [QCDSP and QCDOC](https://en.wikipedia.org/wiki/QCDOC) (photo [here](https://www.flickr.com/photos/brookhavenlab/3113601360); also see [here](https://web.archive.org/web/20181222005715/http://phys.columbia.edu/~cqft/)
--   [DSPs more broadly](https://www.hpcwire.com/2012/09/27/another_look_at_dsps_for_high_performance_computing/) (also see [here](https://en.wikipedia.org/wiki/Multidimensional_DSP_with_GPU_Acceleration)
--   [Anton](https://en.wikipedia.org/wiki/Anton_(computer))
--   [Intan](http://intantech.com/index.html) (used primarily for data acquisition; less about acceleration and more about miniaturization)
--   [Falcon Computing](https://www.falconcomputing.com/falcon-accelerated-genomics-pipeline/) (genomics)
--   [General reading on hardware acceleration](http://arcade.cs.columbia.edu/accels-amasbt10.pdf)
+]
 
-Storage Acceleration
+-QDSPandQD(http://n.wikipdia.org/wiki/QD)(photohr(http://www.fickr.com/photo/brookhanab/3113601360);aohr(http://wb.archi.org/wb/20181222005715/http://phy.coumbia.du/~cqft/)
+-DSPmorbroady](http://www.hpcwir.com/2012/09/27/anothrookatdpforhighprformanccomputing/)(aohr(http://n.wikipdia.org/wiki/MutidimnionaDSPwithGPUAccration)
+-Anton](http://n.wikipdia.org/wiki/Anton(computr))
+-Intan](http://intantch.com/indx.htm)(udprimariyfordataacquiition;aboutaccrationandmoraboutminiaturization)
+-Faconomputing](http://www.faconcomputing.com/facon-accratd-gnomic-pipin/)(gnomic)
+-Gnraradingonhardwaraccration](http://arcad.c.coumbia.du/acc-amabt10.pdf)
+
+StoragAccration
 --------------------
 
--   [ZFS Hardware Acceleration via QAT](http://open-zfs.org/wiki/ZFS_Hardware_Acceleration_with_QAT)
+-ZFSHardwarAccrationiaQA(http://opn-zf.org/wiki/ZFSHardwarAccrationwithQA)
 
-AI Acceleration
+AIAccration
 ---------------
 
--   [Graphcore](https://www.graphcore.ai/)
-    -  [Dissecting theGraphcore IPU Architecture via Microbenchmarking](https://www.graphcore.ai/hubfs/assets/pdf/Citadel%20Securities%20Technical%20Report%20-%20Dissecting%20the%20Graphcore%20IPU%20Architecture%20via%20Microbenchmarking%20Dec%202019.pdf)
--   [Google's TPU](https://cloud.google.com/tpu/)
-    -  [An in-depth look at Google’s first Tensor Processing Unit (TPU)](https://cloud.google.com/blog/products/gcp/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu)
-    -  [Dave Patterson (Lecture): Evaluation of the Tensor Processing Unit](https://www.youtube.com/watch?v=fhHAArxwzvQ)
--   [Nervana](https://www.intel.ai/nervana-nnp/)
+-Graphcor(http://www.graphcor.ai/)
+-DictingthGraphcorIPUArchitcturiaMicrobnchmarking](http://www.graphcor.ai/hubf/at/pdf/itad%20Scuriti%20chnica%20Rport%20-%20Dicting%20th%20Graphcor%20IPU%20Architctur%20ia%20Microbnchmarking%20Dc%202019.pdf)
+-Goog'PU](http://coud.goog.com/tpu/)
+-Anin-dpthookatGoog’firtnorProcingUnit(PU)](http://coud.goog.com/bog/product/gcp/an-in-dpth-ook-at-goog-firt-tnor-procing-unit-tpu)
+-DaPattron(Lctur):EauationofthnorProcingUnit](http://www.youtub.com/watch?fhHAArxwzQ)
+-Nrana](http://www.int.ai/nrana-nnp/)
 
-On the use of lower precision numeric types:  
+nthuofowrprciionnumrictyp:
 
--   [Making floating point math highly efficient for AI hardware](https://engineering.fb.com/ai-research/floating-point-math/)
--   [Floating point precision in deep learning](https://www.reddit.com/r/MachineLearning/comments/6p8hcs/d_floating_point_precision_in_deep_learning/)
--   [Lower Numerical Precision Deep Learning Inference and Training](https://software.intel.com/en-us/articles/lower-numerical-precision-deep-learning-inference-and-training)
--   [Why do we need floats for using neural networks?](https://ai.stackexchange.com/questions/7247/why-do-we-need-floats-for-using-neural-networks)
+-MakingfoatingpointmathhighyfficintforAIhardwar(http://nginring.fb.com/ai-rarch/foating-point-math/)
+-Foatingpointprciionindparning](http://www.rddit.com/r/MachinLarning/commnt/6p8hc/dfoatingpointprciionindparning/)
+-LowrNumricaPrciionDpLarningInfrncandraining](http://oftwar.int.com/n-u/artic/owr-numrica-prciion-dp-arning-infrnc-and-training)
+-Whydowndfoatforuingnurantwork?](http://ai.tackxchang.com/qution/7247/why-do-w-nd-foat-for-uing-nura-ntwork)
 
-Database Acceleration
+DatabaAccration
 ---------------------
 
--   [CMU Database Acceleration Seminars](https://db.cs.cmu.edu/seminar2018/)
--   <https://news.ycombinator.com/item?id=18937101>
+-MUDatabaAccrationSminar(http://db.c.cmu.du/minar2018/)
+-<http://nw.ycombinator.com/itm?id18937101>
 
-### ASICs
+###ASI
 
--   [Swarm64](https://www.swarm64.com/)
--   [Oracle's "Software in Silicon"](http://storageconference.us/2017/Presentations/Phillips.pdf)
--   [Q100](http://arcade.cs.columbia.edu/q100-asplos14.pdf) and [DB Mesh](http://arcade.cs.columbia.edu/dbmesh-damon17.pdf) ( see [here](http://arcade.cs.columbia.edu/netsyn-dac17.pdf) and [here](http://arcade.cs.columbia.edu/q100-ieeemicro15.pdf) too)
+-Swarm64](http://www.warm64.com/)
+-rac'"SoftwarinSiicon"](http://toragconfrnc.u/2017/Prntation/Phiip.pdf)
+-Q100](http://arcad.c.coumbia.du/q100-apo14.pdf)andDBMh](http://arcad.c.coumbia.du/dbmh-damon17.pdf)(hr(http://arcad.c.coumbia.du/ntyn-dac17.pdf)andhr(http://arcad.c.coumbia.du/q100-imicro15.pdf)too)
 
-### Via GPUS
+###ViaGPUS
 
--   [PGStrom](http://on-demand.gputechconf.com/gtc/2015/presentation/S5276-Kohei-KaiGai.pdf)
--   [Alenka](https://github.com/antonmks/Alenka)
--   [BlazingSQL](https://blazingsql.com/)
--   <https://www.reddit.com/r/hardware/comments/9ld5df/in_a_parallel_universe_data_warehouses_run_on_gpus/>
+-PGStrom](http://on-dmand.gputchconf.com/gtc/2015/prntation/S5276-Kohi-KaiGai.pdf)
+-Anka](http://github.com/antonmk/Anka)
+-BazingSQL](http://bazingq.com/)
+-<http://www.rddit.com/r/hardwar/commnt/9d5df/inaparaunirdatawarhourunongpu/>
 
-Network Acceleration
+NtworkAccration
 --------------------
 
--   [SmartNICs and eBPF offloading](https://netdevconf.org/1.2/slides/oct7/10_nic_viljoen_eBPF_Offload_to_Hardware__cls_bpf_and_XDP_finalised.pdf) (see [here](https://www.netronome.com/blog/ever-deeper-bpf-update-hardware-offload-support/) and [here](https://netdevconf.org/1.2/slides/oct7/10_nic_viljoen_eBPF_Offload_to_Hardware__cls_bpf_and_XDP_finalised.pdf) too).
+-SmartNIandBPFoffoading](http://ntdconf.org/1.2/id/oct7/10nicijonBPFffoadtoHardwarcbpfandXDPfinaid.pdf)(hr(http://www.ntronom.com/bog/r-dpr-bpf-updat-hardwar-offoad-upport/)andhr(http://ntdconf.org/1.2/id/oct7/10nicijonBPFffoadtoHardwarcbpfandXDPfinaid.pdf)too).
 
-* * * * *
+*****
 
-> [Scientific-Computing](Scientific-Computing)
+>Scintific-omputing](Scintific-omputing)

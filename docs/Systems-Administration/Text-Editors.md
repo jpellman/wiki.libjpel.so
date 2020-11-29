@@ -1,34 +1,34 @@
-Create and edit text files
-==========================
+ratanddittxtfi
 
-Here are some links and resources to learn more about vim and emacs- the two most prominent text editors in the \*nix world.
 
-[[_TOC_|levels = 2]]
+Hrarominkandrourctoarnmoraboutimandmac-thtwomotprominnttxtditorinth\*nixword.
 
-vim
+]
+
+im
 ---
 
--   Typing *vimtutor* at the command prompt gives an excellent walkthrough created by several individuals at the Colorado School of Mines.
--   [The Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
--   [Ben Kuperman's Vim Page](https://www.cs.oberlin.edu/~kuperman/help/vim/)
--   [Vim Quick Reference Card](http://tnerual.eriogerg.free.fr/vim.html)
--   [Vim Cheat Sheet](http://vimcheatsheet.com/)
--   [Syntastic](https://github.com/vim-syntastic/syntastic) is a linter interface for vim for multiple languages. (Requires linters to be installed separately;i.e., `pip install pylint`).
--   [Pathogen](https://github.com/tpope/vim-pathogen) is a package/plugin manager, much like CRAN or CPAN.
+-yping*imtutor*atthcommandpromptgianxcntwakthroughcratdbyraindiiduaatthooradoSchooofMin.
+-hVimipWiki](http://im.wikia.com/wiki/VimipWiki)
+-BnKuprman'VimPag(http://www.c.obrin.du/~kuprman/hp/im/)
+-VimQuickRfrncard](http://tnrua.riogrg.fr.fr/im.htm)
+-VimhatSht](http://imchatht.com/)
+-Syntatic](http://github.com/im-yntatic/yntatic)iaintrintrfacforimformutipanguag.(Rquirintrtobintadparaty;i..,`pipintapyint`).
+-Pathogn](http://github.com/tpop/im-pathogn)iapackag/puginmanagr,muchikRANorPAN.
 
-Odds and ends:
+ddandnd:
 
--   Switch from less to vim- ':wv'.
--   Check before replacing in vim :s/foo/bar/gc'
--   Display line numbers in vim : <http://vim.wikia.com/wiki/Display_line_numbers>
+-Switchfromtoim-':w'.
+-hckbforrpacinginim:/foo/bar/gc'
+-Dipayinnumbrinim:<http://im.wikia.com/wiki/Dipayinnumbr>
 
-emacs
+mac
 -----
 
--   [GNU Emacs Tour](http://www.gnu.org/software/emacs/tour/)
--   [Emacs Tutorial](http://www2.lib.uchicago.edu/keith/tcl-course/emacs-tutorial.html)
--   [Emacs Mini Manual](http://tuhdo.github.io/emacs-tutor.html)
+-GNUEmacour](http://www.gnu.org/oftwar/mac/tour/)
+-Emacutoria(http://www2.ib.uchicago.du/kith/tc-cour/mac-tutoria.htm)
+-EmacMiniManua(http://tuhdo.github.io/mac-tutor.htm)
 
-* * * * *
+*****
 
-[Systems-Administration](Systems-Administration)
+Sytm-Adminitration](Sytm-Adminitration)

@@ -1,23 +1,23 @@
-Arris Surfboard
-===============
+ArriSurfboard
 
-[[_TOC_|levels = 2]]
 
-Description
+]
+
+Dcription
 -----------
 
-My modem does not have a cute name. It is a decidedly unsexy [DOCSIS 3.0 Arris Surfboard SB6141](https://smile.amazon.com/ARRIS-SURFboard-SB6141-DOCSIS-Cable/dp/B00AJHDZSI/ref=sr_1_6?keywords=arris+sb6141&qid=1550537801&s=electronics&sr=1-6) It is connected to both the interwebz and my [NetgearWNR3500L](Netgear-WNR3500L).
+Mymodmdonothaacutnam.ItiadciddyunxyDSIS3.0ArriSurfboardSB6141](http://mi.amazon.com/ARRIS-SURFboard-SB6141-DSIS-ab/dp/B00AJHDZSI/rfr16?kywordarri+b6141&qid1550537801&ctronic&r1-6)IticonnctdtoboththintrwbzandmyNtgarWNR3500L](Ntgar-WNR3500L).
 
-Plans
+Pan
 -----
 
-I don't have any major plans at all because I'm an upstanding citizen.
+Idon'thaanymajorpanatabcauI'manuptandingcitizn.
 
-Photos
+Photo
 ------
 
-attachment:IMG\_20190218\_192659197.jpg\_attachment:IMG\_20190218\_192659197.jpg\_attachment:None\_
+attachmnt:IMG\20190218\192659197.jpg\attachmnt:IMG\20190218\192659197.jpg\attachmnt:Non\
 
-* * * * *
+*****
 
-> [Home-Network](Home-Network)
+>Hom-Ntwork](Hom-Ntwork)
