@@ -1,38 +1,38 @@
-ScintificFiFormat
+Scientific File Formats
+=======================
 
+I'm using this page to organize discoveries / thoughts about scientific file formats / compression algorithms.
 
-I'muingthipagtoorganizdicori/thoughtaboutcintificfiformat/comprionagorithm.
-
-]
+[[_TOC_|levels = 2]]
 
 HDF5
 ----
 
--<http://cyri.roant.nt/moing-away-hdf5/>
+-   <http://cyrille.rossant.net/moving-away-hdf5/>
 
-NIfI
+NIfTI
 -----
 
--<http://www.nitrc.org/docman/iw.php/26/204/hNIfI1Format2004.pdf>
--<http://f.fmrib.ox.ac.uk/f/fwiki/Format>
--<http://braindr.org/2012/09/23/th-nifti-fi-format/>
--<http://braindr.org/2015/04/03/th-nifti-2-fi-format/>
--<http://nifti.nimh.nih.go/nifti-1/documntation/hbmnifti2004.pdf>
--<http://nifti.nimh.nih.go/nifti-2>
+-   <https://www.nitrc.org/docman/view.php/26/204/TheNIfTI1Format2004.pdf>
+-   <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Formats>
+-   <https://brainder.org/2012/09/23/the-nifti-file-format/>
+-   <https://brainder.org/2015/04/03/the-nifti-2-file-format/>
+-   <https://nifti.nimh.nih.gov/nifti-1/documentation/hbm_nifti_2004.pdf>
+-   <https://nifti.nimh.nih.gov/nifti-2>
 
-MR
+MRC
 ---
 
-hifyudbyRion.
+Chiefly used by Relion.
 
--<http://www.ccpm.ac.uk/mrcformat/mrc2014.php>
+-   <http://www.ccpem.ac.uk/mrc_format/mrc2014.php>
 
-omprion
+Compression
 -----------
 
--FPZip](http://computing.n.go/projct/foating-point-comprion):"hinkoffpzipathfoating-pointanaogutoPNGimagcomprionandzfpaadancdJPEGforfoating-pointarray."
--mtcomp](http://github.com/int-brain-ab/mtcomp):Iffpzip/zfparPNG/JPEGanaogu,mtcompmtobmorofanMP3/audiocomprionanaogu.
+-   [FPZip](https://computing.llnl.gov/projects/floating-point-compression) : "Think of fpzip as the floating-point analogue to PNG image compression and zfp as advanced JPEG for floating-point arrays."
+-   [mtscomp](https://github.com/int-brain-lab/mtscomp) : If fpzip/zfp are PNG/JPEG analogues, mtscomp seems to be more of an MP3 / audio compression analogue.
 
-*****
+* * * * *
 
->Scintific-omputing](Scintific-omputing)
+> [Scientific-Computing](Scientific-Computing)

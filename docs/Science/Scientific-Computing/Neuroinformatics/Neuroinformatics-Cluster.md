@@ -1,42 +1,42 @@
-NotonthArchitcturofNuroinformaticutr
+Notes on the Architecture of Neuroinformatics Clusters
+======================================================
 
+[[_TOC_|levels = 2]]
 
-]
-
-RfrncImpmntation
+Reference Implementations
 -------------------------
 
--HP/XNAArchitctur(WahingtonUnirityatSt.Loui)](http://wiki.xnat.org/dipay/XNA16/Examp+XNA+Architctur)
--HP/XNAArchitctur(UnirityofIowa)](http://wiki.xnat.org/dipay/XNA16/XNA+Hardwar+for+Entrpri+Storag)
--Sciranriw](http://citran.github.io/#tchnoogy)
--LNI](http://www.oni.uc.du/aboutoni/rourc/omputingRourc.php)
--rgonNurocincGrid](http://cni.uorgon.du/kb-artic/working-on-th-grid)
--EctricaGodic(http://www.gi.com/nuroinformatic/nuroinformatic-tchnoogi)
--MRBU(Part1)](http://imaging.mrc-cbu.cam.ac.uk/imaging/Scintific-omputing)
--MRBU(Part2)](http://imaging.mrc-cbu.cam.ac.uk/imaging/Imagingomputing)
--NIH](http://hpc.nih.go)
+-   [HCP/XNAT Architecture (Washington University at St. Louis)](https://wiki.xnat.org/display/XNAT16/Example+XNAT+Architecture)
+-   [HCP/XNAT Architecture (University of Iowa)](https://wiki.xnat.org/display/XNAT16/XNAT+Hardware+for+Enterprise+Storage)
+-   [SciTran Overview](https://scitran.github.io/#technology)
+-   [LONI](http://www.loni.usc.edu/about_loni/resources/ComputingResources.php)
+-   [Oregon Neuroscience Grid](https://lcni.uoregon.edu/kb-articles/working-on-the-grid)
+-   [Electrical Geodesics](http://www.egi.com/neuroinformatics/neuroinformatics-technologies)
+-   [MRC CBU (Part 1)](http://imaging.mrc-cbu.cam.ac.uk/imaging/Scientific-Computing)
+-   [MRC CBU (Part 2)](http://imaging.mrc-cbu.cam.ac.uk/imaging/ImagingComputing)
+-   [NIH](https://hpc.nih.gov)
 
-DIMSrr/SP
+DICOM Servers/SCPs
 ------------------
 
--rthanc](http://github.com/jodogn/rthanc)
--XNA(http://xnat.org/)
--dcm4ch(http://www.dcm4ch.org)
--DMK](http://dicom.offi.d/dcmtk.php.n)
+-   [Orthanc](https://github.com/jodogne/Orthanc)
+-   [XNAT](http://xnat.org/)
+-   [dcm4chee](http://www.dcm4che.org)
+-   [DCMTK](http://dicom.offis.de/dcmtk.php.en)
 
-RmotAccption
+Remote Access Options
 ---------------------
 
--X2Go](http://wiki.x2go.org/doku.php)
--VN
--UVM,tormdkonNAS;runVMonworktation(i..,WahU'tup).
+-   [X2Go](http://wiki.x2go.org/doku.php)
+-   VNC
+-   Use VMs, store vmdk on NAS; run VM on workstation (i.e., WashU's setup).
 
-Mic
+Misc
 ----
 
--LIMSWiki](http://www.imwiki.org/indx.php/MainPag)
--Litofpikortingoftwar(http://imontr.github.io/SpikSortingSoftwar/)
+-   [LIMS Wiki](http://www.limswiki.org/index.php/Main_Page)
+-   [List of spike sorting software](https://simonster.github.io/SpikeSortingSoftware/)
 
-*****
+* * * * *
 
-Scintific-omputing](Scintific-omputing)
+[Scientific-Computing](Scientific-Computing)

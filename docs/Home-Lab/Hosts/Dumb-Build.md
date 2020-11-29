@@ -1,17 +1,17 @@
-PropoaforaRayDumbBuid
+Proposal for a Really Dumb Build
+================================
 
+I have some spare parts left over from a 2012 System76 laptop that I took apart. Should I turn them into a Frankenstein and have them run [climateprediction.net](https://www.climateprediction.net/)? I don't run this project on [Maxwell](Maxwell) because it's really finicky, consistently errors, isn't robust to unexpected interruptions (i.e., power outages), and takes a hell of a long time for tasks to finish (oh yeah, and it also uses *all available cores* preventing any other projects from running). I wouldn't mind running it on a stupid machine that I didn't care as much about though.
 
-Ihaomparpartftorfroma2012Sytm76aptopthatItookapart.ShoudIturnthmintoaFrankntinandhathmruncimatprdiction.nt](http://www.cimatprdiction.nt/)?Idon'trunthiprojctonMaxw(Maxw)bcauit'rayfinicky,conitntyrror,in'trobuttounxpctdintrruption(i..,powroutag),andtakahofaongtimfortaktofinih(ohyah,anditaou*aaaiabcor*prntinganyothrprojctfromrunning).Iwoudn'tmindrunningitonatupidmachinthatIdidn'tcaramuchaboutthough.
+[[_TOC_|levels = 2]]
 
-]
-
-PotntiaPart
+Potential Parts
 ---------------
 
--utomMothrboardfromaManufacturrthatwaiquidatd](http://www.bay.com/itm/DFI-IX-R101-D-770-R1011-070G-G2-988B-Int-Mini-IX-2nd-3rd-gn-Mothrboard/122917760224?hahitm1c9782c0:g:fjEAASwkV5aXjAN)
--hapandomwhatktchyIXca(http://mi.amazon.com/Goodiory-Fan-Mini-itx-hai-Vrtica/dp/B071HH1NK/rfpdb1473/134-7100864-6382563?ncodingUF8&pdrdiB071HH1NK&pdrdr0866d7c0-083d-48c2-919a-14f486b7ac80&pdrdwDyfW&pdrdwgQ6oa&pfrdp7cd8f929-4345-4bf2-a554-7d7588b3dd5f&pfrdr7SG124VSQ459BRQVXV0&rfRID7SG124VSQ459BRQVXV0&th1)
--rapoaIntPUFan](http://mi.amazon.com/Int-LGA115x-PU-Hatink-E97379-003/dp/B01MSD39N/rfpdcp1472/134-7100864-6382563?ncodingUF8&pdrdiB01MSD39N&pdrdr28633c78-3141-4377-9d7-09f4bb2b1c&pdrdwE0Jox&pdrdwgXZN1P&pfrdp4853837-f87a-46d4-b32-dcf86bff7a7c&pfrdr9H1SQA4FMW8BW3ZG2DZ&pc1&rfRID9H1SQA4FMW8BW3ZG2DZ)
--2ndGnrationIntori7-2670QMProcor(6MBL3ach,2.20GHz)](http://ark.int.com/contnt/www/u/n/ark/product/53469/int-cor-i7-2670qm-procor-6m-cach-up-to-3-10-ghz.htm)
--2x4GBSDIMM(ktchy,odandunikytor)
--SomortofA/DpowruppythatmtthMobo'rquirmnt.
+-   [Custom Motherboard from a Manufacturer that was liquidated](https://www.ebay.com/itm/DFI-ITOX-CR101-D-770-CR1011-070G-G2-988B-Intel-Mini-ITX-2nd-3rd-gen-Motherboard/122917760224?hash=item1c9e782ce0:g:fjEAAOSwkV5aXjAN)
+-   [Cheap and somewhat sketchy ITX case](https://smile.amazon.com/Goodisory-Fanless-Mini-itx-Chassis-Vertical/dp/B07T1HH1NK/ref=pd_sbs_147_3/134-7100864-6382563?_encoding=UTF8&pd_rd_i=B07T1HH1NK&pd_rd_r=0866d7c0-083d-48c2-919a-14f486b7ac80&pd_rd_w=DyfeW&pd_rd_wg=QT6oa&pf_rd_p=7cd8f929-4345-4bf2-a554-7d7588b3dd5f&pf_rd_r=7SG124VSQ4T59BRQVXV0&refRID=7SG124VSQ4T59BRQVXV0&th=1)
+-   [Crapola Intel CPU Fan](https://smile.amazon.com/Intel-LGA115x-CPU-Heatsink-E97379-003/dp/B01MSD39CN/ref=pd_cp_147_2/134-7100864-6382563?_encoding=UTF8&pd_rd_i=B01MSD39CN&pd_rd_r=28633c78-3141-4377-9d7e-09f4bb2b1ece&pd_rd_w=E0Jox&pd_rd_wg=XZN1P&pf_rd_p=4853e837-f87a-46d4-be32-dcf86bff7a7c&pf_rd_r=9H1SQA4FMW8BW3ZCG2DZ&psc=1&refRID=9H1SQA4FMW8BW3ZCG2DZ)
+-   [2nd Generation Intel Core i7-2670QM Processor ( 6MB L3 Cache, 2.20GHz )](https://ark.intel.com/content/www/us/en/ark/products/53469/intel-core-i7-2670qm-processor-6m-cache-up-to-3-10-ghz.html)
+-   2x 4 GB SODIMMs (sketchy, old and unlikely to resell)
+-   Some sort of AC/DC power supply that meets the Mobo's requirements.
 

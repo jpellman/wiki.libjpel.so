@@ -1,53 +1,53 @@
-Libraryomputing
+Library Computing
+=================
 
+[[_TOC_|levels = 2]]
 
-]
-
-Mtadata/SarchFiytm
+Metadata/Search vs Filesystems
 ------------------------------
 
--<http://gadgtopia.com/pot/8290>
--<http://dapwiki.com/wiki/ontainrization%20%20Mtadata>
--<http://tackorfow.com/qution/1575155/what-i-a-databa-fi-ytm>
--<http://dbf.ourcforg.nt/>
--<http://doc.orac.com/databa/121/ADLB/adobf.htm#ADLB45943>
--<http://github.com/hiroaid/dikor>
+-   <https://gadgetopia.com/post/8290>
+-   <https://ldapwiki.com/wiki/Containerization%20vs%20Metadata>
+-   <https://stackoverflow.com/questions/1575155/what-is-a-database-file-system>
+-   <http://dbfs.sourceforge.net/>
+-   <https://docs.oracle.com/database/121/ADLOB/adlob_fs.htm#ADLOB45943>
+-   <https://github.com/shirosaidev/diskover>
 
-DigitaAtManagmnt(DAM)
+Digital Asset Management (DAM)
 ------------------------------
 
--FEDRAArtic(http://arxi.org/pdf/1312.1258.pdf)
+-   [FEDORA Article](https://arxiv.org/pdf/1312.1258.pdf)
 
-PritntIdntifir(Hand/DI)
+Persistent Identifiers (Handle/DOI)
 -----------------------------------
 
--AFramworkforDitributdDigitabjctSric(http://www.cnri.rton.a.u/k-w.htm)(articoutiningthHandytm)
+-   [A Framework for Distributed Digital Object Services](http://www.cnri.reston.va.us/k-w.html) (article outlining the Handle system)
 
-hSmanticWb
+The Semantic Web
 ----------------
 
--<http://mir.m/bog/2016/11/15/on-mtadata/>
--<http://5tardata.info/n/>
+-   <https://lemire.me/blog/2016/11/15/on-metadata/>
+-   <https://5stardata.info/en/>
 
-Emuation
+Emulation
 ---------
 
--DaidRontha'EmuationPapr](http://mon.org/mdia/firpubic/0c/3/0c37d-4166-4ba6-a767-6b426a1c2a7/rontha-muation-2015.pdf)
--GPU-AccratdAtariEmuation](http://rarch.nidia.com/pubication/2019-07GPU-Accratd-Atari-Emuation)
+-   [David Rosenthal's Emulation Paper](https://mellon.org/media/filer_public/0c/3e/0c3eee7d-4166-4ba6-a767-6b42e6a1c2a7/rosenthal-emulation-2015.pdf)
+-   [GPU-Accelerated Atari Emulation](https://research.nvidia.com/publication/2019-07_GPU-Accelerated-Atari-Emulation)
 
-hFuturofLibrari
+The Future of Libraries
 -----------------------
 
--<http://www.coumbia.du/~jrh29/ickidr/>
--<http://www.coumbia.du/~haubn/ibrari-of-futur.doc>
+-   <http://www.columbia.edu/~jrh29/licklider/>
+-   <http://www.columbia.edu/~hauben/libraries-of-future.doc>
 
-MicanouRading
+Miscellaneous Reading
 ---------------------
 
--<http://www.dib.org/dib/octobr00/grangr/10grangr.htm>
--itandInight(http://citandinight.info/)-ArticbyWatrawford
--HowAcadmicScincGaItSoutothPubihingIndutry](http://iu.org/how-acadmic-cinc-ga-it-ou-to-th-pubihing-indutry/)
+-   <http://www.dlib.org/dlib/october00/granger/10granger.html>
+-   [Cites and Insights](https://citesandinsights.info/) - Articles by Walt Crawford
+-   [How Academic Science Gave Its Soul to the Publishing Industry](https://issues.org/how-academic-science-gave-its-soul-to-the-publishing-industry/)
 
-*****
+* * * * *
 
-Acadmic-omputing](Acadmic-omputing)
+[Academic-Computing](Academic-Computing)

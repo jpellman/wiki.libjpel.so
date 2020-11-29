@@ -1,52 +1,52 @@
-HowtoratanAMItoRunBIN
+How to Create an AMI to Run BOINC
+=================================
 
+[[_TOC_|levels = 2]]
 
-]
-
-WhyRunBINInthoud
+Why Run BOINC In the Cloud
 --------------------------
 
-onumrParnotdigndforpowr-hungry,mmory-intnicintificcomputingappication.Srrhardwari.Enwiththprformancpnatyforirtuaization,it'muchbttrtohanumbrbingcrunchdinadatacntrthanonyouraptop;youwon'tdriupyourctricbiandincurndwarandtaronyourrydayctronic.
+Consumer PCs are not designed for power-hungry, memory-intensive scientific computing applications. Server hardware is. Even with the performance penalty for virtualization, it's much better to have numbers being crunched in a data center than on your laptop; you won't drive up your electric bill and incur needless wear and tear on your everyday electronics.
 
-LaunchAnIntancUingthStarcutrAMI
+Launch An Instance Using the Starcluster AMI
 --------------------------------------------
 
-StartanintancwithonofthpubicStarcutrAMI,incthyaradyhamanydrirandappicationpr-intadforHP(BLAS,UDA,tc).hooanHVMAMI,incthwiincudGPUupport(houdyourwanttouaGPU-badintanctyp).IchoUbuntu12.04(tarcutr-ba-ubuntu-12.04-x86\64-hm;ami-52a0c53b).AoidUbuntu13.04,aupportforthatfromanonicaipotty.
+Start an instance with one of the public Starcluster AMIs, since they already have many drivers and applications pre-installed for HPC (BLAS,CUDA,etc). Choose an HVM AMI, since these will include GPU support (should you ever want to use a GPU-based instance type). I chose Ubuntu 12.04 (starcluster-base-ubuntu-12.04-x86\_64-hvm; ami-52a0c53b). Avoid Ubuntu 13.04, as support for that from Canonical is spotty.
 
-IntaALightwightGUIandRmotDktopSrr
+Install A Lightweight GUI and Remote Desktop Server
 ---------------------------------------------------
 
-hraromoprationforBINthatyoucanaccompihfromthcommandin(boinccmd).thropration(uchachangingrourcaocatdtoBIN)arnotpoiborardifficut.AotofBIN'dignmtobcntrduponthurintractingwiththcintiathgraphicaBINmanagr.
+There are some operations for BOINC that you can accomplish from the command line (boinccmd). Other operations (such as changing resources allocated to BOINC) are not possible or are difficult. A lot of BOINC's design seems to be centered upon the user interacting with the client via the graphical BOINC manager.
 
-ogtaroundthi,intaaightwightGUIikxdandarmotdktoprrikx2go.
+To get around this, install a lightweight GUI like lxde and a remote desktop server like x2go.
 
-ratanAttachab/DtachabVoum
+Create an Attachable/Detachable Volume
 --------------------------------------
 
-MakanwouminthAWScono.Attachtothintanc.Partition,cratafiytmandmountatauitabocation(ik'/boinc').
+Make a new volume in the AWS console. Attach to the instance. Partition, create a file system and mount at a suitable location (like '/boinc').
 
-IntaBIN
+Install BOINC
 -------------
 
-Uapt-gtoryumtointaBINcintandBINmanagr.MoBINcint'datafrom/ar/ib/boinc-cinttothnwoumyoucratd(mountdat'/boinc'orwhrryoudciddtomountit).Edit/tc/dfaut/boinc-cintandchangBIN\DIRfrom"/ar/ib/boinc-cint"tothnwmountpoint('/boinc').
+Use apt-get or yum to install BOINC client and BOINC manager. Move BOINC client's data from /var/lib/boinc-client to the new volume you created (mounted at '/boinc' or wherever you decided to mount it). Edit /etc/default/boinc-client and change BOINC\_DIR from "/var/lib/boinc-client" to the new mount point ('/boinc').
 
-Sparatingthdatafromthintanc'rootoumaowthtakthatwrcurrntyrunningtobprrdinthcaofapowroff(i..,ifyouaruingpotintancandthintanciabruptytrminatd).
+Separating the data from the instance's root volume allows the tasks that were currently running to be preserved in the case of a poweroff (i.e., if you are using spot instances and the instance is abruptly terminated).
 
-SathIntancaanAMI
+Save the Instance as an AMI
 ---------------------------
 
-Rmothbahhitory,hdirctoryinyourhomfodr.SaaanEBS-backdAMIinthAWScono.
+Remove the bash history, ssh directory in your home folder. Save as an EBS-backed AMI in the AWS console.
 
-WhnRunning
+When Running
 ------------
 
-WhnyoutartanwintancwiththAMI,don'tforgttoa)mountthattachdoumandb)tartthBINcintricwithudo/tc/init.d/boinc-cinttart.
+When you start a new instance with the AMI, don't forget to a) mount the attached volume and b) start the BOINC client service with sudo /etc/init.d/boinc-client start.
 
-WithSpotIntanc
+With Spot Instances
 -------------------
 
-MakanaphotofthBINdataoumbforhand,incyoudon'tknowwhichAZthintancwipopupin.Maknwoumfromnaphotinthintanc'AZaccordingy.
+Make a snapshot of the BOINC data volume beforehand, since you don't know which AZ the instance will pop up in. Make new volume from snapshot in the instance's AZ accordingly.
 
-*****
+* * * * *
 
->Scintific-omputing](Scintific-omputing)
+> [Scientific-Computing](Scientific-Computing)

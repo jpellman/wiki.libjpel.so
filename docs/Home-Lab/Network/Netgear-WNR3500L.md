@@ -1,32 +1,32 @@
-NtgarWNR3500L
+Netgear WNR3500L
+================
 
+[[_TOC_|levels = 2]]
 
-]
-
-Dcription
+Description
 -----------
 
-Myroutrdonothaacutnam.ItiaWNR3500L(http://mi.amazon.com/gp/product/B002RYYZZS/rfohauiarchaintit?iUF8&pc1).It'connctdtothintrwbziamyArriSurfboard](ArriSurfboard)cabmodm.hmotnotabthingaboutthiroutrithatI'intadddwwrt](http://wiki.dd-wrt.com/wiki/indx.php/NtgarWNR3500L)onit.himanthat,inadditiontoproidingmwithwondrfutramingmoi,-mai,gamandothrwbgoodnitproid:
+My router does not have a cute name. It is a [WNR3500Lv2](https://smile.amazon.com/gp/product/B002RYYZZS/ref=oh_aui_search_asin_title?ie=UTF8&psc=1). It's connected to the interwebz via my [ArrisSurfboard](ArrisSurfboard) cable modem. The most notable thing about this router is that I've installed [ddwwrt](https://wiki.dd-wrt.com/wiki/index.php/Netgear_WNR3500L) on it. This means that, in addition to providing me with wonderful streaming movies, e-mails, games and other web goodness it provides:
 
--StaticaocationforaddruingDHP
--utomDNSntribtwnocaIPanddomain(currntyuingth.oLDbcauIikitandnoonrayuit)proiddbyDNSMaq](http://www.thky.org.uk/dnmaq/doc.htm).
--VPNtomyapartmntiapnVPNSrr](http://opnpn.nt/)
+-   Static allocation for addresses using DHCP
+-   Custom DNS entries between local IPs and domains (currently using the .so TLD because I like it and no one else really uses it) provided by [DNSMasq](http://www.thekelleys.org.uk/dnsmasq/doc.html).
+-   VPN to my apartment via [OpenVPN Server](https://openvpn.net/)
 
-onfigurationBackup
+Configuration Backup
 --------------------
 
-I'xportdacopyofmyconfigurationandputitat*/hom/jpman/Documnt/Backup*onMaxw(Maxw).hiconfigurationchanginfrquntynoughthatIpanonbackingituponanad-hocbaiaftrmajorchangarmad.
+I've exported a copy of my configuration and put it at */home/jpellman/Documents/Backups* on [Maxwell](Maxwell). This configuration changes infrequently enough that I plan on backing it up on an ad-hoc basis after major changes are made.
 
-Pan
+Plans
 -----
 
-Idon'thaanymajorpanatthmomntbcauI'mboringikthat.
+I don't have any major plans at the moment because I'm boring like that.
 
-Photo
+Photos
 ------
 
-attachmnt:IMG\20190218\192653775.jpg\attachmnt:IMG\20190218\192653775.jpg\attachmnt:Non\
+attachment:IMG\_20190218\_192653775.jpg\_attachment:IMG\_20190218\_192653775.jpg\_attachment:None\_
 
-*****
+* * * * *
 
->Hom-Ntwork](Hom-Ntwork)
+> [Home-Network](Home-Network)

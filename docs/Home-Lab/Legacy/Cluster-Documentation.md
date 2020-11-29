@@ -1,128 +1,128 @@
-#DocumntationforHomBowufutr-SDH(hSaonofDigitaHumanit)
+# Documentation for Home Beowulf Cluster - SDH (The Salon of Digital Humanists)
 
-]
+[[_TOC_| levels = 2]]
 
-Aninntoryofathcomputrudinmyhomcutr,incudingthirpc,oftwarintad,thprnttopoogyofthcutr,andthur.
+An inventory of all the computers used in my home cluster, including their specs, software installed, the present topology of the cluster, and the users.
 
-##Sction1:MachinSpcification
+## Section 1: Machine Specifications
 
-###Hugo(hadnod)
+### Hugo (head node)
 
-KyVau
-------
-**Brand**AppMacbookPro(circa2008)
-**PU**2.4GhzIntor2Duo(64-bit)
-**or**2
-**RAM**2GB
-**Graphicard**NVIDIAGForc8600MG
-**HardDri**142GB(accordingtodf)
+| Key | Value |
+| --- | --- |
+|**Brand**| Apple Macbook Pro (circa 2008) |
+|**CPU**| 2.4 Ghz Intel Core 2 Duo (64-bit) |
+|**Cores**| 2 |
+|**RAM**| 2 GB |
+|**Graphics Card**| NVIDIA GeForce 8600M GT |
+|**Hard Drive**| 142 GB (according to df) |
 
-###Votair
+### Voltaire
 
-KyVau
-------
-**Brand**AppiBookG4(circa2006)
-**PU**1.33GhzPowrP7447a(32-bit)
-**or**1
-**RAM**512MB
-**Graphicard**AIMobiityRadon9550
-**HardDri**40GB(36GBaccordingtodf)
+| Key | Value |
+| --- | --- |
+|**Brand**| Apple iBook G4 (circa 2006) |
+|**CPU**| 1.33 Ghz PowerPC 7447a (32-bit) |
+|**Cores**| 1  |
+|**RAM**| 512 MB |
+|**Graphics Card**| ATI Mobility Radeon 9550 |
+|**Hard Drive**| 40GB (36 GB according to df)  |
 
-###Montaign
+### Montaigne
 
-KyVau
-------
-**Brand**utomMad(circa2002)
-**PU**900MhzAMDDuron(32-bit)
-**or**1
-**RAM**512MBSDRAM
-**Graphicard**(2)AIRag128andAIRadon9000
-**HardDri**15.3GB(14GBaccordingtodf)
+| Key | Value |
+| --- | --- |
+|**Brand**| Custom Made (circa 2002)  |
+|**CPU**| 900 Mhz AMD Duron (32-bit) |
+|**Cores**| 1 |
+|**RAM**| 512 MB SDRAM |
+|**Graphics Card**| (2) ATI Rage 128 and ATI Radeon 9000 |
+|**Hard Drive**| 15.3 GB (14 GB according to df) |
 
-###rant
+### Cervantes
 
-KyVau
-------
-**Brand**MacbookPro(circa2011)
-**PU**2.5GhzIntor2Duo(64-bit)
-**or**2
-**RAM**4GB(hyprior);2GB(VM)
-**Graphicard**NVIDIAGForc8600MG(128MBidommoryforVM)
-**HardDri**320GB(hyprior);181GB(VM)
+| Key | Value |
+| --- | --- |
+|**Brand**| Macbook Pro (circa 2011) |
+|**CPU**| 2.5 Ghz Intel Core 2 Duo (64-bit) |
+|**Cores**| 2  |
+|**RAM**| 4 GB (hypervisor); 2 GB (VM) |
+|**Graphics Card**| NVIDIA GeForce 8600M GT (128 MB video memory for VM) |
+|**Hard Drive**| 320 GB (hypervisor); 181 GB (VM) |
 
-##Sction2:SoftwarIntad
+## Section 2: Software Installed
 
-###Hugo(hadnod)
+### Hugo (head node)
 
-*nf-krn-rr
-*pnSSH
-*PotgrSQL8.4
-*MPIH
-*R2.10.1(r-ba)
-*dh
-*apd,dap-uti
-*SLURM(notprntyconfigurd)
+ * nfs-kernel-server
+ * OpenSSH
+ * PostgreSQL 8.4
+ * MPICH
+ * R 2.10.1 (r-base)
+ * dsh
+ * slapd, ldap-utils
+ * SLURM (not presently configured)
 
-###Votair
+### Voltaire
 
-*nf-common
-*pnSSH
-*PotgrSQL8.4
-*MPIH
-*R2.10.1(r-ba)
-*dh
-*apd,dap-uti
+ * nfs-common
+ * OpenSSH
+ * PostgreSQL 8.4
+ * MPICH
+ * R 2.10.1 (r-base)
+ * dsh
+ * slapd, ldap-utils
 
-###Montaign
+### Montaigne
 
-*nf-common
-*pnSSH
-*PotgrSQL8.4
-*MPIH
-*R2.10.1(r-ba)
-*dh
-*apd,dap-uti
+ * nfs-common
+ * OpenSSH
+ * PostgreSQL 8.4
+ * MPICH
+ * R 2.10.1 (r-base)
+ * dsh
+ * slapd, ldap-utils
 
-###rant
+### Cervantes
 
-*nf-krn-rr
-*nf-common
-*pnSSH
-*PotgrSQL8.4
-*SLURM(notprntyconfigurd)
-*dpkg-rr
+ * nfs-kernel-server
+ * nfs-common
+ * OpenSSH
+ * PostgreSQL 8.4
+ * SLURM (not presently configured)
+ * dpkg-server
 
-##Sction3:Ntworkopoogy
+## Section 3: Network Topology
 
-Hugo,Votair,Montaignandrantarconnctdtoa6porthub,with4portud.1portibrokn.hatportianunudupinkport.
-Anodcanconncttoachothr.rantcanconnctoutidofthLANuingWifi,andithuudaamanofdownoadingpackagfromthanonicarpo.ranthaaur(*intaur*)whohomdirctoryimountdaannfpartitiononthothrnod-thiur'homdirctorycontain.dbfiandaPackag.gzfi.
+Hugo, Voltaire, Montaigne and Cervantes are connected to a 6 port hub, with 4 ports used.  1 port is broken.  The last port is an unused uplink port.
+All nodes can connect to each other.  Cervantes can connect outside of the LAN using Wifi, and is thus used as a means of downloading packages from the Canonical repos.  Cervantes has a user (*installuser*) whose home directory is mounted as an nfs partition on the other nodes- this user's home directory contains .deb files and a Packages.gz file.
 
-##Sction4:Ur
+## Section 4: Users
 
-###Hugo(hadnod)
+### Hugo (head node)
 
-*jpman
-*mpiur(homfodrinfmount;hugoinfrr),uid999
-*intaur(homfodrinfmount;ftabmodifid),uid998
+ * jpellman
+ * mpiuser (home folder is nfs mount; hugo is nfs server), uid=999
+ * installuser (home folder is nfs mount; fstab modified), uid=998
 
-###Votair
+### Voltaire
 
-*jpman
-*mpiur(homfodrinfmount;ftabmodifid),uid999
-*intaur(homfodrinfmount;ftabmodifid),uid998
+ * jpellman
+ * mpiuser (home folder is nfs mount; fstab modified), uid=999
+ * installuser (home folder is nfs mount; fstab modified), uid=998
 
-###Montaign
+### Montaigne
 
-*jpman
-*mpiur(homfodrinfmount;ftabmodifid),uid999
-*intaur(homfodrinfmount;ftabmodifid),uid998
+ * jpellman
+ * mpiuser (home folder is nfs mount; fstab modified), uid=999
+ * installuser (home folder is nfs mount; fstab modified), uid=998
 
-###rant
-*jpman
-*mpiur(homfodrinfmount;ftabmodifid),uid999
-*intaur(homfodrinfmount;crantinfrr),uid998
+### Cervantes
+ * jpellman
+ * mpiuser (home folder is nfs mount; fstab modified), uid=999
+ * installuser (home folder is nfs mount; cervantes is nfs server), uid=998
 
-##D
+## TODO
 
-*IntaSLURM.
-*onfigurSLURMonanod.ompication:VrionofSLURMintadonrantandHugoi64-bit.WindtorcompiSLURMfor32-bitifpoib.
+ * Install SLURM.  
+ * Configure SLURM on all nodes. Complication: Version of SLURM installed on Cervantes and Hugo is 64-bit.  Will need to recompile SLURM for 32-bit if possible.
