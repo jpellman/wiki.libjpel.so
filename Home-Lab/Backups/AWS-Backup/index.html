@@ -1701,10 +1701,6 @@
 CURSNAP_SIZE=$(zfs list -t snapshot -o name,refer -Hp | grep ${POOL} | grep ${CURSNAP} | awk '{print $2}' | paste -sd+ - | bc)
 ESTIMATED_UPLOAD=$(( ${CURSNAP_SIZE} - ${LASTSNAP_SIZE} ))
 </code></pre>
-<hr />
-<blockquote>
-<p><a href="Home-Lab">Home-Lab</a></p>
-</blockquote>
                 
               
               
