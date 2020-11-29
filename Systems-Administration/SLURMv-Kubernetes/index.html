@@ -247,8 +247,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Academic-Computing/Academic-Computing/" class="md-nav__link">
-      Academic Computing
+    <a href="../../Academic-Computing/" class="md-nav__link">
+      Index
     </a>
   </li>
 
@@ -291,8 +291,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Academic-Computing/Library-Computing/Library-Computing/" class="md-nav__link">
-      Library Computing
+    <a href="../../Academic-Computing/Library-Computing/" class="md-nav__link">
+      Index
     </a>
   </li>
 
@@ -326,6 +326,18 @@
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Hobbies/" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
         
           
           
@@ -371,18 +383,6 @@
   <li class="md-nav__item">
     <a href="../../Hobbies/Georectification/" class="md-nav__link">
       Georectification
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Hobbies/Hobbies/" class="md-nav__link">
-      Hobbies
     </a>
   </li>
 
@@ -449,8 +449,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Hobbies/Retrocomputing/Mac-OSClassic/" class="md-nav__link">
-      Mac OSClassic
+    <a href="../../Hobbies/Retrocomputing/" class="md-nav__link">
+      Index
     </a>
   </li>
 
@@ -461,8 +461,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Hobbies/Retrocomputing/Retrocomputing/" class="md-nav__link">
-      Retrocomputing
+    <a href="../../Hobbies/Retrocomputing/Mac-OSClassic/" class="md-nav__link">
+      Mac OSClassic
     </a>
   </li>
 
@@ -973,8 +973,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Science/Cognitive-Science/Cognitive-Science/" class="md-nav__link">
-      Cognitive Science
+    <a href="../../Science/Cognitive-Science/" class="md-nav__link">
+      Index
     </a>
   </li>
 
@@ -1405,6 +1405,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../AWS-Migration-Documentation/" class="md-nav__link">
       Documentation Concerning Migration from Linode to AWS
     </a>
@@ -1541,18 +1553,6 @@
   <li class="md-nav__item">
     <a href="../Server-Vendors/" class="md-nav__link">
       Server Vendors
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../Systems-Administration/" class="md-nav__link">
-      Systems Administration
     </a>
   </li>
 
@@ -1723,7 +1723,7 @@
 <ul>
 <li><strong>Features:</strong> SLURM is primarily focused on just scheduling, whereas Kubernetes has a scheduler (kube-scheduler), distributed configuration (etcd), and control loops / negative feedback loops (kube-controller-manager; a la Norbert Wiener / cybernetics) plus custom logic to deal with the fact that the unit of scheduling is a grouping of containers (a pod) instead of a group of processes (i.e., containers need to have networking, DNS, etc configured dynamically). There is, however, no reason why SLURM could not also have some of these features in theory (i.e., <a href="https://github.com/kelseyhightower/confd">confd</a> could be combined with SLURM and etcd to give SLURM a distributed configuration that is dynamically updated).</li>
 <li><strong>Unit of Scheduling:</strong> SLURM schedules <em>jobs</em> (typically one or more processes), while Kubernetes schedules <em>pods</em> (groups of containers). Jobs can have resource isolation via cgroups, but don't have namespace isolation or any fancy logic to deal with filesystems (i.e., union file systems). Basically, jobs have 1/3 of what makes up a container. If namespace isolation and union filesystems aren't important, SLURM has a compelling advantage over Kubernetes due to having less complexity/overhead.</li>
-<li><strong>Scheduling Algorithms:</strong> SLURM uses a priority queue or a backfill algorithm. Kubernetes filters available nodes, assigns them a priority score, and then pops off the node with the highest score (so also a priority queue most likely; see <a href="..%20_Scheduler%20Algorithm%20in%20Kubernetes:%20https://github.com/eBay/Kubernetes/blob/master/docs/devel/scheduler_algorithm.md">here</a>). Hashicorp Nomad uses a bin-packing algorithm (see <a href="https://nomadproject.io/docs/internals/scheduling/scheduling/">here</a>).</li>
+<li><strong>Scheduling Algorithms:</strong> SLURM uses a priority queue or a backfill algorithm. Kubernetes filters available nodes, assigns them a priority score, and then pops off the node with the highest score (so also a priority queue most likely; see <a href="https://github.com/eBay/Kubernetes/blob/master/docs/devel/scheduler_algorithm.md">here</a>). Hashicorp Nomad uses a bin-packing algorithm (see <a href="https://nomadproject.io/docs/internals/scheduling/scheduling/">here</a>).</li>
 </ul>
 <h2 id="further-reading">Further Reading</h2>
 <ul>
