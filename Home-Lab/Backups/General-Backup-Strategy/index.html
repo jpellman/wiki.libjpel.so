@@ -1650,7 +1650,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/jpellman/wiki.libjpel.so/edit/master/docs/Home-Lab/Backups/General Backup Strategy.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/jpellman/wiki.libjpel.so/edit/master/docs/Home-Lab/Backups/General-Backup-Strategy.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -1660,23 +1660,23 @@
                 <p>This is a brief summary for how I envision backups will work with my home infrastructure.  My primary goal with my backup strategy is to minimize the fallout from a natural disaster or burglary, and ensure that I won't be totally screwed if my house burns down or I'm mugged.  While neither of these scenarios are super common, living in a large city with a large population of people makes the improbable inevitable...</p>
 <p>My backup strategy consists of the following for my computer:</p>
 <ul>
-<li>Generating one encrypted, compressed full ZFS snapshot and sending it to AWS once a year and tiering it to Deep Glacier after 2 days ([[AWS-Backup]]).</li>
-<li>Sending encrypted, compressed incremental ZFS snapshots to AWS once every month ([[AWS-Backup]]).</li>
-<li>Retaining 2 years worth of encrypted, compressed snapshots in AWS ([[AWS-Backup]]).</li>
-<li>Making full backups of my disk to blu ray once every 2-4 years and storing these backups offsite ([[Blu-Ray-Backup]]).</li>
-<li>Scanning paper documents using my document scanner and saving them to <em>/datastore/documents</em> on [[Maxwell]] (which also holds regular Excel/Word/CSV documents).</li>
+<li>Generating one encrypted, compressed full ZFS snapshot and sending it to AWS once a year and tiering it to Deep Glacier after 2 days (<a href="Home-Lab/Backups/AWS-Backup">AWS-Backup</a>.</li>
+<li>Sending encrypted, compressed incremental ZFS snapshots to AWS once every month (<a href="Home-Lab/Backups/AWS-Backup">AWS-Backup</a>.</li>
+<li>Retaining 2 years worth of encrypted, compressed snapshots in AWS (<a href="Home-Lab/Backups/AWS-Backup">AWS-Backup</a>.</li>
+<li>Making full backups of my disk to blu ray once every 2-4 years and storing these backups offsite (<a href="Home-Lab/Backups/Blu-Ray-Backup">Blu-Ray-Backup</a>. </li>
+<li>Scanning paper documents using my document scanner and saving them to <em>/datastore/documents</em> on <a href="Home-Lab/Hosts/Maxwell">Maxwell</a> (which also holds regular Excel/Word/CSV documents).</li>
 <li>Syncing <em>/datastore/documents</em> (essential documents from the apartment / my life in general) up to Google Drive (it was necessary to purchase 100GB on Google One for this, although the documents themselves are quite small).</li>
 </ul>
 <p>For my smartphone:</p>
 <ul>
-<li>Syncing all photos to Google Drive, where they are then copied down to [[Maxwell]] using <a href="https://rclone.org/">rclone</a> or similar at some regular interval.  I may delete these manually sporadically, just to ensure that they're on hand (basically just treating Drive how I treat my current phone's storage)</li>
+<li>Syncing all photos to Google Drive, where they are then copied down to <a href="Home-Lab/Hosts/Maxwell">Maxwell</a> using <a href="https://rclone.org/">rclone</a> or similar at some regular interval.  I may delete these manually sporadically, just to ensure that they're on hand (basically just treating Drive how I treat my current phone's storage)</li>
 <li>Syncing all my audio diaries to Google Drive, where they are similarly sync'd down to Maxwell, but then deleted afterwards from Drive (no reason for them to linger there).</li>
 <li>Syncing all my texts to GMail using IMAP with <a href="https://github.com/jberkel/sms-backup-plus">SMS Backup+</a> (IMAP is necessary because Google broke its API)</li>
 </ul>
 <p>For my online data:</p>
 <ul>
-<li>Syncing all my tweets to [[Maxwell]] using <a href="https://github.com/sferik/t">t</a> and some scripts.</li>
-<li>Syncing my email to [[Maxwell]] using <a href="http://gmvault.org/">gmvault</a> (with a workaround because, again, Google broke their own functionality)</li>
+<li>Syncing all my tweets to <a href="Home-Lab/Hosts/Maxwell">Maxwell</a> using <a href="https://github.com/sferik/t">t</a> and some scripts.</li>
+<li>Syncing my email to <a href="Home-Lab/Hosts/Maxwell">Maxwell</a> using <a href="http://gmvault.org/">gmvault</a> (with a workaround because, again, Google broke their own functionality)</li>
 </ul>
                 
               
