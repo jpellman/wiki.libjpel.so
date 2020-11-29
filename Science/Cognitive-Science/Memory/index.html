@@ -1,0 +1,2101 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Personal notes of John Pellman, a systems administrator / cognitive science / neuroscience geek.">
+      
+      
+      
+      
+        <meta name="author" content="John Pellman">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.6">
+    
+    
+      
+        <title>Memory - John Pellman's Personal Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6910b76c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.196e0c26.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#memory" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../../.." title="John Pellman&#39;s Personal Wiki" class="md-header-nav__button md-logo" aria-label="John Pellman's Personal Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            John Pellman's Personal Wiki
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Memory
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/jpellman/wiki.libjpel.so/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="John Pellman&#39;s Personal Wiki" class="md-nav__button md-logo" aria-label="John Pellman's Personal Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    John Pellman's Personal Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/jpellman/wiki.libjpel.so/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../Charities/" class="md-nav__link">
+      Charities
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../Unsorted-Facts/" class="md-nav__link">
+      Unsorted Facts
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    <label class="md-nav__link" for="nav-4">
+      Academic Computing
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Academic Computing" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Academic Computing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Academic-Computing/Academic-Computing/" class="md-nav__link">
+      Academic Computing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Academic-Computing/Web-Design-Firms-For-Academics/" class="md-nav__link">
+      Web Design Firms For Academics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3" >
+    <label class="md-nav__link" for="nav-4-3">
+      Library Computing
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Library Computing" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        <span class="md-nav__icon md-icon"></span>
+        Library Computing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Academic-Computing/Library-Computing/Library-Computing/" class="md-nav__link">
+      Library Computing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+    <label class="md-nav__link" for="nav-5">
+      Hobbies
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Hobbies" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Hobbies
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Academic-History/" class="md-nav__link">
+      Academic History
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Computational-Linguistics/" class="md-nav__link">
+      Computational Linguistics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Food/" class="md-nav__link">
+      Food
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Georectification/" class="md-nav__link">
+      Georectification
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Hobbies/" class="md-nav__link">
+      Hobbies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Music/" class="md-nav__link">
+      Music
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Reading-List/" class="md-nav__link">
+      Reading List
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Retroscaping/" class="md-nav__link">
+      Retroscaping
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-9" type="checkbox" id="nav-5-9" >
+    <label class="md-nav__link" for="nav-5-9">
+      Retrocomputing
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Retrocomputing" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-9">
+        <span class="md-nav__icon md-icon"></span>
+        Retrocomputing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Retrocomputing/Mac-OSClassic/" class="md-nav__link">
+      Mac OSClassic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Retrocomputing/Retrocomputing/" class="md-nav__link">
+      Retrocomputing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Retrocomputing/Vintage-Scientific-Computing/" class="md-nav__link">
+      Vintage Scientific Computing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+    <label class="md-nav__link" for="nav-6">
+      Home Lab
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Home Lab" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Home Lab
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Home-Lab/Libjpel%20Wiki/" class="md-nav__link">
+      Libjpel Wiki
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-2" type="checkbox" id="nav-6-2" >
+    <label class="md-nav__link" for="nav-6-2">
+      Backups
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Backups" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-2">
+        <span class="md-nav__icon md-icon"></span>
+        Backups
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Home-Lab/Backups/AWS-Backup/" class="md-nav__link">
+      AWS Backup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Home-Lab/Backups/Blu-Ray-Backup/" class="md-nav__link">
+      Blu Ray Backup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Home-Lab/Backups/General%20Backup%20Strategy/" class="md-nav__link">
+      General Backup Strategy
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-3" type="checkbox" id="nav-6-3" >
+    <label class="md-nav__link" for="nav-6-3">
+      Hosts
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Hosts" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-3">
+        <span class="md-nav__icon md-icon"></span>
+        Hosts
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Home-Lab/Hosts/Bruno/" class="md-nav__link">
+      Bruno
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Home-Lab/Hosts/Dumb-Build/" class="md-nav__link">
+      Dumb Build
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Home-Lab/Hosts/Maxwell/" class="md-nav__link">
+      Maxwell
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-4" type="checkbox" id="nav-6-4" >
+    <label class="md-nav__link" for="nav-6-4">
+      Legacy
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Legacy" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-4">
+        <span class="md-nav__icon md-icon"></span>
+        Legacy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Home-Lab/Legacy/Cluster-Documentation/" class="md-nav__link">
+      Documentation for Home Beowulf Cluster - SDH (The Salon of Digital Humanists)
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-5" type="checkbox" id="nav-6-5" >
+    <label class="md-nav__link" for="nav-6-5">
+      Network
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Network" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-5">
+        <span class="md-nav__icon md-icon"></span>
+        Network
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Home-Lab/Network/Arris-Surfboard/" class="md-nav__link">
+      Arris Surfboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Home-Lab/Network/Netgear-WNR3500L/" class="md-nav__link">
+      Netgear WNR3500L
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" >
+    <label class="md-nav__link" for="nav-7">
+      Musings
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Musings" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        <span class="md-nav__icon md-icon"></span>
+        Musings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Musings/Meditations%20On%20Theranos/" class="md-nav__link">
+      Meditations On Theranos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Musings/Musings/" class="md-nav__link">
+      Musings
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" checked>
+    <label class="md-nav__link" for="nav-8">
+      Science
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Science" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        <span class="md-nav__icon md-icon"></span>
+        Science
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../CWL-Make/" class="md-nav__link">
+      CWL Make
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Citation-Graphs/" class="md-nav__link">
+      Citation Graphs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Metascience/" class="md-nav__link">
+      Metascience
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Open-Science-Critiques/" class="md-nav__link">
+      Open Science Critiques
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Open-Science/" class="md-nav__link">
+      Open Science
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Project-Management/" class="md-nav__link">
+      Project Management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Roles-In-Science/" class="md-nav__link">
+      Roles In Science
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Computing-Articles/" class="md-nav__link">
+      Scientific Computing Articles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-File-Formats/" class="md-nav__link">
+      Scientific File Formats
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Programming/" class="md-nav__link">
+      Scientific Programming
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Workflow-Management/" class="md-nav__link">
+      Scientific Workflow Management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientist-Computer-Symbiosis-Obstacles/" class="md-nav__link">
+      Scientist Computer Symbiosis Obstacles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-13" type="checkbox" id="nav-8-13" checked>
+    <label class="md-nav__link" for="nav-8-13">
+      Cognitive Science
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Cognitive Science" data-md-level="2">
+      <label class="md-nav__title" for="nav-8-13">
+        <span class="md-nav__icon md-icon"></span>
+        Cognitive Science
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Cognitive-Science/" class="md-nav__link">
+      Cognitive Science
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Decision-Making/" class="md-nav__link">
+      Decision Making
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Expertise/" class="md-nav__link">
+      Expertise
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Learning/" class="md-nav__link">
+      Learning
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Meditations%20on%20Neuroscience%20Paradigms/" class="md-nav__link">
+      Meditations on Neuroscience Paradigms
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Memory
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Memory
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#implicit-vs-explicit-memories" class="md-nav__link">
+    Implicit vs Explicit Memories
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#priming" class="md-nav__link">
+    Priming
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interference-effects" class="md-nav__link">
+    Interference Effects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-vs-short-term-vs-long-term-memory" class="md-nav__link">
+    Working vs Short-term vs Long-term Memory
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hebbian-theory" class="md-nav__link">
+    Hebbian theory
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cortical-reinstatement" class="md-nav__link">
+    Cortical Reinstatement
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#depth-of-processing" class="md-nav__link">
+    Depth of Processing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#state-dependent-processing" class="md-nav__link">
+    State-Dependent Processing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ebbinghaus-curve" class="md-nav__link">
+    Ebbinghaus Curve
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#primacy-and-recency-effects" class="md-nav__link">
+    Primacy and Recency Effects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spacing-effect" class="md-nav__link">
+    Spacing Effect
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chunking" class="md-nav__link">
+    Chunking
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consolidation" class="md-nav__link">
+    Consolidation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    References
+  </a>
+  
+    <nav class="md-nav" aria-label="References">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cortical-reinstatement_1" class="md-nav__link">
+    Cortical Reinstatement
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-links" class="md-nav__link">
+    Other links:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Neuroimaging/" class="md-nav__link">
+      Neuroimaging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Problem-Solving/" class="md-nav__link">
+      Problem Solving
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-13-9" type="checkbox" id="nav-8-13-9" >
+    <label class="md-nav__link" for="nav-8-13-9">
+      Legacy
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Legacy" data-md-level="3">
+      <label class="md-nav__title" for="nav-8-13-9">
+        <span class="md-nav__icon md-icon"></span>
+        Legacy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Legacy/Neuroscience-Notes/" class="md-nav__link">
+      Neuroscience Notes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-14" type="checkbox" id="nav-8-14" >
+    <label class="md-nav__link" for="nav-8-14">
+      Scientific Computing
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Scientific Computing" data-md-level="2">
+      <label class="md-nav__title" for="nav-8-14">
+        <span class="md-nav__icon md-icon"></span>
+        Scientific Computing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Computing/ASICs/" class="md-nav__link">
+      ASICs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Computing/Architecture%20Decision%20Tree/" class="md-nav__link">
+      Architecture Decision Tree
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Computing/Columbia-Jeff-Dean-20190827/" class="md-nav__link">
+      Columbia Jeff Dean 20190827
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Computing/MATLAB/" class="md-nav__link">
+      MATLAB
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Computing/Machine-Learning/" class="md-nav__link">
+      Machine Learning
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Computing/Research-Security/" class="md-nav__link">
+      Research Security
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Computing/loni2cwl/" class="md-nav__link">
+      Loni2cwl
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-14-8" type="checkbox" id="nav-8-14-8" >
+    <label class="md-nav__link" for="nav-8-14-8">
+      Neuroinformatics
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Neuroinformatics" data-md-level="3">
+      <label class="md-nav__title" for="nav-8-14-8">
+        <span class="md-nav__icon md-icon"></span>
+        Neuroinformatics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Computing/Neuroinformatics/Neuroinformatics-Cluster/" class="md-nav__link">
+      Neuroinformatics Cluster
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Computing/Neuroinformatics/Neuroinformatics-GPU/" class="md-nav__link">
+      Neuroinformatics GPU
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scientific-Computing/Neuroinformatics/Neuroinformatics-Pipelines/" class="md-nav__link">
+      Neuroinformatics Pipelines
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" >
+    <label class="md-nav__link" for="nav-9">
+      Software Development
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Software Development" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        <span class="md-nav__icon md-icon"></span>
+        Software Development
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Software-Development/Data-Structures-In-The-Wild/" class="md-nav__link">
+      Data Structures In The Wild
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Software-Development/Demystifying-Old-Python-Scripts/" class="md-nav__link">
+      Demystifying Old Python Scripts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Software-Development/Open-Source/" class="md-nav__link">
+      Open Source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Software-Development/Packaging/" class="md-nav__link">
+      Packaging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Software-Development/Python-OS-Ops/" class="md-nav__link">
+      Python OS Ops
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Software-Development/Python/" class="md-nav__link">
+      Python
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10" >
+    <label class="md-nav__link" for="nav-10">
+      Systems Administration
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Systems Administration" data-md-level="1">
+      <label class="md-nav__title" for="nav-10">
+        <span class="md-nav__icon md-icon"></span>
+        Systems Administration
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/AWS-Migration-Documentation/" class="md-nav__link">
+      Documentation Concerning Migration from Linode to AWS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Ansible-Notes/" class="md-nav__link">
+      Ansible Notes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/BOINCAMI/" class="md-nav__link">
+      BOINCAMI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Config-Management/" class="md-nav__link">
+      Config Management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Containerization-Analogies/" class="md-nav__link">
+      Containerization Analogies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/IT-Mistakes/" class="md-nav__link">
+      IT Mistakes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Misc-SysAdmin/" class="md-nav__link">
+      Misc SysAdmin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/SLURMv-Kubernetes/" class="md-nav__link">
+      SLURMv Kubernetes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Server-Vendors/" class="md-nav__link">
+      Server Vendors
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Systems-Administration/" class="md-nav__link">
+      Systems Administration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Text-Editors/" class="md-nav__link">
+      Text Editors
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/UPS/" class="md-nav__link">
+      UPS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/udev/" class="md-nav__link">
+      Udev
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10-14" type="checkbox" id="nav-10-14" >
+    <label class="md-nav__link" for="nav-10-14">
+      Legacy
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Legacy" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-14">
+        <span class="md-nav__icon md-icon"></span>
+        Legacy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Legacy/General-IT-Notes/" class="md-nav__link">
+      General IT Notes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10-15" type="checkbox" id="nav-10-15" >
+    <label class="md-nav__link" for="nav-10-15">
+      Rants
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Rants" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-15">
+        <span class="md-nav__icon md-icon"></span>
+        Rants
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Rants/Web-Browsers-Must-Die/" class="md-nav__link">
+      Web Browsers Must Die
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#implicit-vs-explicit-memories" class="md-nav__link">
+    Implicit vs Explicit Memories
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#priming" class="md-nav__link">
+    Priming
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interference-effects" class="md-nav__link">
+    Interference Effects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-vs-short-term-vs-long-term-memory" class="md-nav__link">
+    Working vs Short-term vs Long-term Memory
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hebbian-theory" class="md-nav__link">
+    Hebbian theory
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cortical-reinstatement" class="md-nav__link">
+    Cortical Reinstatement
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#depth-of-processing" class="md-nav__link">
+    Depth of Processing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#state-dependent-processing" class="md-nav__link">
+    State-Dependent Processing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ebbinghaus-curve" class="md-nav__link">
+    Ebbinghaus Curve
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#primacy-and-recency-effects" class="md-nav__link">
+    Primacy and Recency Effects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spacing-effect" class="md-nav__link">
+    Spacing Effect
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chunking" class="md-nav__link">
+    Chunking
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consolidation" class="md-nav__link">
+    Consolidation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    References
+  </a>
+  
+    <nav class="md-nav" aria-label="References">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cortical-reinstatement_1" class="md-nav__link">
+    Cortical Reinstatement
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-links" class="md-nav__link">
+    Other links:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/jpellman/wiki.libjpel.so/edit/master/docs/Science/Cognitive-Science/Memory.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="memory">Memory</h1>
+<p>Memory is an inherently distributed process. The role of the hippocampus, which traditionally was viewed as a centralized store, is more that of an integrator/synthesizer that brings together disparate fragments of experience. Memories are reconstructions rather than recordings. This means that false memories can be formed in the presence of suggestion. Memories can be strongly encoded in one modality (auditory, tactile, etc) but more weakly encoded in others. Our ability to recall events is heavily dependent upon contextual cues. The following notes may be inconsistent with what is stated in the literature, as they are an interpretation / recollection.</p>
+<p>[[<em>TOC</em>|levels = 2]]</p>
+<h2 id="implicit-vs-explicit-memories">Implicit vs Explicit Memories</h2>
+<ul>
+<li>Implicit : Subconsciously-recalled memories that can still have an effect on how we behave. These are memories in their 'raw' state, before being integrated by the hippocampus. They are at least partially traceable to cortical regions. Implicit memories can be seen in word completion studies of amnesiacs.</li>
+<li>Procedural : A sub-class of implicit memory. Memories for how to perform a task. Procedural memories are quite often encoded at the level of the basal ganglia / cerebellum.</li>
+<li>Explicit : Consciously-recalled memories. Our experience of explicit memories is a result of the hippocampus synthesizing together our implicit memories.</li>
+<li>A similar taxonomy of memory types includes declarative (explicit) and non-declarative (implicit) memory. Declarative memory is further broken down into semantic (factual) or episodic (event-based) memory. Nondeclarative memory encompasses procedural, priming, conditioned, and nonassociative memories.</li>
+<li>In the programming/computer science world, the functional programming paradigm is analogous to declarative memory, while the procedural paradigm is analogous to procedural memory. There seems to have been another case of interdisciplinary conspiracy at some point.</li>
+</ul>
+<h2 id="priming">Priming</h2>
+<ul>
+<li>Perceiving something in the environment can cause low-level activation of an implicit memory. This can increase the probability that that memory will later be integrated by the hippocampus into conscious experience. It can also influence reasoning/problem-solving on a subconscious level.</li>
+<li>Trying to recall something without any cues (free recall) is much much harder than cued recall. Simply recognizing something is the least cognitively expensive form of recall (and ergo the easiest/fastest).</li>
+</ul>
+<h2 id="interference-effects">Interference Effects</h2>
+<ul>
+<li>Proactive Interference: When old memories prevent the retrieval of new memories (i.e., persistence).</li>
+<li>Retroactive Interference: When new memories prevent the retrieval of old memories (i.e., overwriting).<ul>
+<li>Example: Learning key-value pairings with one set of keys/values, and then learning another set with the same keys but different values afterwards. When tested for the recall of the initial key-value pairs, participants have harder time recalling values when presented with a key.</li>
+</ul>
+</li>
+<li>Fan Effect: The more complex a semantic network / network of relations between concepts, the more time it will take to identify a correct fact. This is because more complex networks take more time to traverse/search. This can partially explain interference effects (via Anderson).</li>
+<li>Interference effects occur when chunks of information have no obvious relationships to each other. Interference does not occur when redundant information is learned.</li>
+</ul>
+<h2 id="working-vs-short-term-vs-long-term-memory">Working vs Short-term vs Long-term Memory</h2>
+<h2 id="hebbian-theory">Hebbian theory</h2>
+<ul>
+<li>"What fires together, wires together."</li>
+</ul>
+<h2 id="cortical-reinstatement">Cortical Reinstatement</h2>
+<ul>
+<li>The general idea behind cortical reinstatement is that the act of remembering an event directly engages the original modalities that encoded that event's memory.</li>
+<li>By this explanation of memory, during the act of remembering, the hippocampus serves as a nexus that integrates disparate circuits from multiple sensory centers. In this way, every time we remember something we are, to a degree, literally reliving it.</li>
+<li>By this framework, an encoded memory might be more like a set of aggregated C pointers, symlinks, metadata or a book index. A memory would be a structured set of references to circuits in other modalities where the memory is encoded.</li>
+<li>"The cortical reinstatement hypothesis of memory retrieval posits that content-specific cortical activity at encoding is reinstated at retrieval. Evidence for cortical reinstatement was found in higher-order sensory regions, reflecting reactivation of complex object-based information." -- From <a href="https://www.jneurosci.org/content/34/22/7493">Bosch et al</a> (2014)</li>
+</ul>
+<h2 id="depth-of-processing">Depth of Processing</h2>
+<ul>
+<li>Think of memory as a graph, with encoded aspects of the environment as nodes. The higher the centrality (number of connections to other nodes) that a given encoding has, the more likely it is to be recalled. Since there are more edges to that encoding, the likelihood of reaching that encoding is increased.</li>
+<li>In practical terms, the more that you can tie a fact to your other memories / experience, the more likely you are to remember that fact.</li>
+</ul>
+<h2 id="state-dependent-processing">State-Dependent Processing</h2>
+<ul>
+<li>We are more likely to remember something if in the original context that the memory was encoded. Context can include inner emotional states (mood congruence) and physical locations as well as drug-induced states of mind. For example, studying on the subway will increase your odds of remembering what you studied on the subway. A memory that was encoded while we were angry will be better recalled when we are angry again. Also, a memory that was formed while intoxicated will be better recalled in subsequent intoxicated states.</li>
+<li>In practical terms, the more you vary your learning context (i.e., switch locations), the more likely you are to recall information in new contexts, since that information will not be tied to a particular place/time/state.</li>
+</ul>
+<h2 id="ebbinghaus-curve">Ebbinghaus Curve</h2>
+<h2 id="primacy-and-recency-effects">Primacy and Recency Effects</h2>
+<ul>
+<li>When items are presented in a sequence you are most likely to remember the first and last items on the list.</li>
+<li>Recency effects are slightly stronger than primacy effects.</li>
+</ul>
+<h2 id="spacing-effect">Spacing Effect</h2>
+<h2 id="chunking">Chunking</h2>
+<h2 id="consolidation">Consolidation</h2>
+<ul>
+<li>One of the purported functions of sleep is to aid in paring down memories and consolidating our knowledge. Studying before sleep might be a good idea.<ul>
+<li>Furthermore, learning seems to happen better at night?(Hockey, Davies, Grey, 1972)? Because of a high arousal state? I'm a bit skeptical on this point.</li>
+</ul>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<h3 id="cortical-reinstatement_1">Cortical Reinstatement</h3>
+<ul>
+<li><a href="http://www.ncbi.nlm.nih.gov/pubmed/23921785">http://www.ncbi.nlm.nih.gov/pubmed/23921785</a></li>
+</ul>
+<h2 id="other-links">Other links:</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=fcQXOLJu9NM">https://www.youtube.com/watch?v=fcQXOLJu9NM</a></li>
+</ul>
+<hr />
+<p><a href="Cognitive-Science">Cognitive-Science</a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../Meditations%20on%20Neuroscience%20Paradigms/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Meditations on Neuroscience Paradigms
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../Neuroimaging/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Neuroimaging
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.fd16492e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2509 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Personal notes of John Pellman, a systems administrator / cognitive science / neuroscience geek.">
+      
+      
+      
+      
+        <meta name="author" content="John Pellman">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.6">
+    
+    
+      
+        <title>Systems Administration - John Pellman's Personal Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6910b76c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.196e0c26.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#systems-administration-notes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="John Pellman&#39;s Personal Wiki" class="md-header-nav__button md-logo" aria-label="John Pellman's Personal Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            John Pellman's Personal Wiki
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Systems Administration
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/jpellman/wiki.libjpel.so/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="John Pellman&#39;s Personal Wiki" class="md-nav__button md-logo" aria-label="John Pellman's Personal Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    John Pellman's Personal Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/jpellman/wiki.libjpel.so/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Charities/" class="md-nav__link">
+      Charities
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Unsorted-Facts/" class="md-nav__link">
+      Unsorted Facts
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    <label class="md-nav__link" for="nav-4">
+      Academic Computing
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Academic Computing" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Academic Computing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Academic-Computing/Academic-Computing/" class="md-nav__link">
+      Academic Computing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Academic-Computing/Web-Design-Firms-For-Academics/" class="md-nav__link">
+      Web Design Firms For Academics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3" >
+    <label class="md-nav__link" for="nav-4-3">
+      Library Computing
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Library Computing" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        <span class="md-nav__icon md-icon"></span>
+        Library Computing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Academic-Computing/Library-Computing/Library-Computing/" class="md-nav__link">
+      Library Computing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+    <label class="md-nav__link" for="nav-5">
+      Hobbies
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Hobbies" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Hobbies
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Hobbies/Academic-History/" class="md-nav__link">
+      Academic History
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Hobbies/Computational-Linguistics/" class="md-nav__link">
+      Computational Linguistics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Hobbies/Food/" class="md-nav__link">
+      Food
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Hobbies/Georectification/" class="md-nav__link">
+      Georectification
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Hobbies/Hobbies/" class="md-nav__link">
+      Hobbies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Hobbies/Music/" class="md-nav__link">
+      Music
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Hobbies/Reading-List/" class="md-nav__link">
+      Reading List
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Hobbies/Retroscaping/" class="md-nav__link">
+      Retroscaping
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-9" type="checkbox" id="nav-5-9" >
+    <label class="md-nav__link" for="nav-5-9">
+      Retrocomputing
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Retrocomputing" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-9">
+        <span class="md-nav__icon md-icon"></span>
+        Retrocomputing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Hobbies/Retrocomputing/Mac-OSClassic/" class="md-nav__link">
+      Mac OSClassic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Hobbies/Retrocomputing/Retrocomputing/" class="md-nav__link">
+      Retrocomputing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Hobbies/Retrocomputing/Vintage-Scientific-Computing/" class="md-nav__link">
+      Vintage Scientific Computing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+    <label class="md-nav__link" for="nav-6">
+      Home Lab
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Home Lab" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Home Lab
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Home-Lab/Libjpel%20Wiki/" class="md-nav__link">
+      Libjpel Wiki
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-2" type="checkbox" id="nav-6-2" >
+    <label class="md-nav__link" for="nav-6-2">
+      Backups
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Backups" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-2">
+        <span class="md-nav__icon md-icon"></span>
+        Backups
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Home-Lab/Backups/AWS-Backup/" class="md-nav__link">
+      AWS Backup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Home-Lab/Backups/Blu-Ray-Backup/" class="md-nav__link">
+      Blu Ray Backup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Home-Lab/Backups/General%20Backup%20Strategy/" class="md-nav__link">
+      General Backup Strategy
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-3" type="checkbox" id="nav-6-3" >
+    <label class="md-nav__link" for="nav-6-3">
+      Hosts
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Hosts" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-3">
+        <span class="md-nav__icon md-icon"></span>
+        Hosts
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Home-Lab/Hosts/Bruno/" class="md-nav__link">
+      Bruno
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Home-Lab/Hosts/Dumb-Build/" class="md-nav__link">
+      Dumb Build
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Home-Lab/Hosts/Maxwell/" class="md-nav__link">
+      Maxwell
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-4" type="checkbox" id="nav-6-4" >
+    <label class="md-nav__link" for="nav-6-4">
+      Legacy
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Legacy" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-4">
+        <span class="md-nav__icon md-icon"></span>
+        Legacy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Home-Lab/Legacy/Cluster-Documentation/" class="md-nav__link">
+      Documentation for Home Beowulf Cluster - SDH (The Salon of Digital Humanists)
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-5" type="checkbox" id="nav-6-5" >
+    <label class="md-nav__link" for="nav-6-5">
+      Network
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Network" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-5">
+        <span class="md-nav__icon md-icon"></span>
+        Network
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Home-Lab/Network/Arris-Surfboard/" class="md-nav__link">
+      Arris Surfboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Home-Lab/Network/Netgear-WNR3500L/" class="md-nav__link">
+      Netgear WNR3500L
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" >
+    <label class="md-nav__link" for="nav-7">
+      Musings
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Musings" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        <span class="md-nav__icon md-icon"></span>
+        Musings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Musings/Meditations%20On%20Theranos/" class="md-nav__link">
+      Meditations On Theranos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Musings/Musings/" class="md-nav__link">
+      Musings
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" >
+    <label class="md-nav__link" for="nav-8">
+      Science
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Science" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        <span class="md-nav__icon md-icon"></span>
+        Science
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/CWL-Make/" class="md-nav__link">
+      CWL Make
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Citation-Graphs/" class="md-nav__link">
+      Citation Graphs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Metascience/" class="md-nav__link">
+      Metascience
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Open-Science-Critiques/" class="md-nav__link">
+      Open Science Critiques
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Open-Science/" class="md-nav__link">
+      Open Science
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Project-Management/" class="md-nav__link">
+      Project Management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Roles-In-Science/" class="md-nav__link">
+      Roles In Science
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Computing-Articles/" class="md-nav__link">
+      Scientific Computing Articles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-File-Formats/" class="md-nav__link">
+      Scientific File Formats
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Programming/" class="md-nav__link">
+      Scientific Programming
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Workflow-Management/" class="md-nav__link">
+      Scientific Workflow Management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientist-Computer-Symbiosis-Obstacles/" class="md-nav__link">
+      Scientist Computer Symbiosis Obstacles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-13" type="checkbox" id="nav-8-13" >
+    <label class="md-nav__link" for="nav-8-13">
+      Cognitive Science
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Cognitive Science" data-md-level="2">
+      <label class="md-nav__title" for="nav-8-13">
+        <span class="md-nav__icon md-icon"></span>
+        Cognitive Science
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Cognitive-Science/Cognitive-Science/" class="md-nav__link">
+      Cognitive Science
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Cognitive-Science/Decision-Making/" class="md-nav__link">
+      Decision Making
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Cognitive-Science/Expertise/" class="md-nav__link">
+      Expertise
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Cognitive-Science/Learning/" class="md-nav__link">
+      Learning
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Cognitive-Science/Meditations%20on%20Neuroscience%20Paradigms/" class="md-nav__link">
+      Meditations on Neuroscience Paradigms
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Cognitive-Science/Memory/" class="md-nav__link">
+      Memory
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Cognitive-Science/Neuroimaging/" class="md-nav__link">
+      Neuroimaging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Cognitive-Science/Problem-Solving/" class="md-nav__link">
+      Problem Solving
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-13-9" type="checkbox" id="nav-8-13-9" >
+    <label class="md-nav__link" for="nav-8-13-9">
+      Legacy
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Legacy" data-md-level="3">
+      <label class="md-nav__title" for="nav-8-13-9">
+        <span class="md-nav__icon md-icon"></span>
+        Legacy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Cognitive-Science/Legacy/Neuroscience-Notes/" class="md-nav__link">
+      Neuroscience Notes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-14" type="checkbox" id="nav-8-14" >
+    <label class="md-nav__link" for="nav-8-14">
+      Scientific Computing
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Scientific Computing" data-md-level="2">
+      <label class="md-nav__title" for="nav-8-14">
+        <span class="md-nav__icon md-icon"></span>
+        Scientific Computing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Computing/ASICs/" class="md-nav__link">
+      ASICs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Computing/Architecture%20Decision%20Tree/" class="md-nav__link">
+      Architecture Decision Tree
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Computing/Columbia-Jeff-Dean-20190827/" class="md-nav__link">
+      Columbia Jeff Dean 20190827
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Computing/MATLAB/" class="md-nav__link">
+      MATLAB
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Computing/Machine-Learning/" class="md-nav__link">
+      Machine Learning
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Computing/Research-Security/" class="md-nav__link">
+      Research Security
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Computing/loni2cwl/" class="md-nav__link">
+      Loni2cwl
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-14-8" type="checkbox" id="nav-8-14-8" >
+    <label class="md-nav__link" for="nav-8-14-8">
+      Neuroinformatics
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Neuroinformatics" data-md-level="3">
+      <label class="md-nav__title" for="nav-8-14-8">
+        <span class="md-nav__icon md-icon"></span>
+        Neuroinformatics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Computing/Neuroinformatics/Neuroinformatics-Cluster/" class="md-nav__link">
+      Neuroinformatics Cluster
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Computing/Neuroinformatics/Neuroinformatics-GPU/" class="md-nav__link">
+      Neuroinformatics GPU
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Science/Scientific-Computing/Neuroinformatics/Neuroinformatics-Pipelines/" class="md-nav__link">
+      Neuroinformatics Pipelines
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" >
+    <label class="md-nav__link" for="nav-9">
+      Software Development
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Software Development" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        <span class="md-nav__icon md-icon"></span>
+        Software Development
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Software-Development/Data-Structures-In-The-Wild/" class="md-nav__link">
+      Data Structures In The Wild
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Software-Development/Demystifying-Old-Python-Scripts/" class="md-nav__link">
+      Demystifying Old Python Scripts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Software-Development/Open-Source/" class="md-nav__link">
+      Open Source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Software-Development/Packaging/" class="md-nav__link">
+      Packaging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Software-Development/Python-OS-Ops/" class="md-nav__link">
+      Python OS Ops
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Software-Development/Python/" class="md-nav__link">
+      Python
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10" checked>
+    <label class="md-nav__link" for="nav-10">
+      Systems Administration
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Systems Administration" data-md-level="1">
+      <label class="md-nav__title" for="nav-10">
+        <span class="md-nav__icon md-icon"></span>
+        Systems Administration
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../AWS-Migration-Documentation/" class="md-nav__link">
+      Documentation Concerning Migration from Linode to AWS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Ansible-Notes/" class="md-nav__link">
+      Ansible Notes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../BOINCAMI/" class="md-nav__link">
+      BOINCAMI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Config-Management/" class="md-nav__link">
+      Config Management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Containerization-Analogies/" class="md-nav__link">
+      Containerization Analogies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../IT-Mistakes/" class="md-nav__link">
+      IT Mistakes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Misc-SysAdmin/" class="md-nav__link">
+      Misc SysAdmin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../SLURMv-Kubernetes/" class="md-nav__link">
+      SLURMv Kubernetes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Server-Vendors/" class="md-nav__link">
+      Server Vendors
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Systems Administration
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Systems Administration
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-links" class="md-nav__link">
+    General Links
+  </a>
+  
+    <nav class="md-nav" aria-label="General Links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentation-projects" class="md-nav__link">
+    Documentation Projects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blogs-sysadmin-sites" class="md-nav__link">
+    Blogs / Sysadmin Sites
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bootloaders" class="md-nav__link">
+    Bootloaders
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scripting-languages" class="md-nav__link">
+    Scripting Languages
+  </a>
+  
+    <nav class="md-nav" aria-label="Scripting Languages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bash" class="md-nav__link">
+    Bash
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regular-expressions" class="md-nav__link">
+    Regular Expressions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monitoring-debugging" class="md-nav__link">
+    Monitoring / Debugging
+  </a>
+  
+    <nav class="md-nav" aria-label="Monitoring / Debugging">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#memory" class="md-nav__link">
+    Memory
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#networking" class="md-nav__link">
+    Networking
+  </a>
+  
+    <nav class="md-nav" aria-label="Networking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#application-layer-protocols" class="md-nav__link">
+    Application-Layer Protocols
+  </a>
+  
+    <nav class="md-nav" aria-label="Application-Layer Protocols">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#http" class="md-nav__link">
+    HTTP
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tcpdump-tutorials" class="md-nav__link">
+    TCPDump Tutorials
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    Security
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage" class="md-nav__link">
+    Storage
+  </a>
+  
+    <nav class="md-nav" aria-label="Storage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acls" class="md-nav__link">
+    ACLs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#raid-5" class="md-nav__link">
+    RAID-5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tape" class="md-nav__link">
+    Tape
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database-vs-filesystem" class="md-nav__link">
+    Database vs Filesystem
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identity-management-user-management" class="md-nav__link">
+    Identity Management / User Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applications" class="md-nav__link">
+    Applications
+  </a>
+  
+    <nav class="md-nav" aria-label="Applications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#web-servers" class="md-nav__link">
+    Web Servers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#databases" class="md-nav__link">
+    Databases
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtualization" class="md-nav__link">
+    Virtualization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#containerization" class="md-nav__link">
+    Containerization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-computing" class="md-nav__link">
+    Cloud Computing
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloud Computing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#s3-compatible-object-stores" class="md-nav__link">
+    S3-compatible object stores
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windowslinux-compatibility" class="md-nav__link">
+    Windows/Linux Compatibility
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Text-Editors/" class="md-nav__link">
+      Text Editors
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../UPS/" class="md-nav__link">
+      UPS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../udev/" class="md-nav__link">
+      Udev
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10-14" type="checkbox" id="nav-10-14" >
+    <label class="md-nav__link" for="nav-10-14">
+      Legacy
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Legacy" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-14">
+        <span class="md-nav__icon md-icon"></span>
+        Legacy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Legacy/General-IT-Notes/" class="md-nav__link">
+      General IT Notes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10-15" type="checkbox" id="nav-10-15" >
+    <label class="md-nav__link" for="nav-10-15">
+      Rants
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Rants" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-15">
+        <span class="md-nav__icon md-icon"></span>
+        Rants
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Rants/Web-Browsers-Must-Die/" class="md-nav__link">
+      Web Browsers Must Die
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-links" class="md-nav__link">
+    General Links
+  </a>
+  
+    <nav class="md-nav" aria-label="General Links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentation-projects" class="md-nav__link">
+    Documentation Projects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blogs-sysadmin-sites" class="md-nav__link">
+    Blogs / Sysadmin Sites
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bootloaders" class="md-nav__link">
+    Bootloaders
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scripting-languages" class="md-nav__link">
+    Scripting Languages
+  </a>
+  
+    <nav class="md-nav" aria-label="Scripting Languages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bash" class="md-nav__link">
+    Bash
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regular-expressions" class="md-nav__link">
+    Regular Expressions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monitoring-debugging" class="md-nav__link">
+    Monitoring / Debugging
+  </a>
+  
+    <nav class="md-nav" aria-label="Monitoring / Debugging">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#memory" class="md-nav__link">
+    Memory
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#networking" class="md-nav__link">
+    Networking
+  </a>
+  
+    <nav class="md-nav" aria-label="Networking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#application-layer-protocols" class="md-nav__link">
+    Application-Layer Protocols
+  </a>
+  
+    <nav class="md-nav" aria-label="Application-Layer Protocols">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#http" class="md-nav__link">
+    HTTP
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tcpdump-tutorials" class="md-nav__link">
+    TCPDump Tutorials
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    Security
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage" class="md-nav__link">
+    Storage
+  </a>
+  
+    <nav class="md-nav" aria-label="Storage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acls" class="md-nav__link">
+    ACLs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#raid-5" class="md-nav__link">
+    RAID-5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tape" class="md-nav__link">
+    Tape
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database-vs-filesystem" class="md-nav__link">
+    Database vs Filesystem
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identity-management-user-management" class="md-nav__link">
+    Identity Management / User Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applications" class="md-nav__link">
+    Applications
+  </a>
+  
+    <nav class="md-nav" aria-label="Applications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#web-servers" class="md-nav__link">
+    Web Servers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#databases" class="md-nav__link">
+    Databases
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtualization" class="md-nav__link">
+    Virtualization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#containerization" class="md-nav__link">
+    Containerization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-computing" class="md-nav__link">
+    Cloud Computing
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloud Computing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#s3-compatible-object-stores" class="md-nav__link">
+    S3-compatible object stores
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windowslinux-compatibility" class="md-nav__link">
+    Windows/Linux Compatibility
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/jpellman/wiki.libjpel.so/edit/master/docs/Systems-Administration/Systems-Administration.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="systems-administration-notes">Systems Administration Notes</h1>
+<p>This page stores both generic notes, as well as additional pages and categories related to systems administration. My general modus operandi here is to start taking notes here, and then to break things out into separate pages when they get too large.</p>
+<h2 id="general-links">General Links</h2>
+<h3 id="documentation-projects">Documentation Projects</h3>
+<ul>
+<li><a href="http://www.linfo.org/">http://www.linfo.org/</a></li>
+<li><a href="http://www.tldp.org/">http://www.tldp.org/</a></li>
+</ul>
+<h3 id="blogs-sysadmin-sites">Blogs / Sysadmin Sites</h3>
+<ul>
+<li><a href="http://www.kegel.com/">http://www.kegel.com/</a></li>
+<li><a href="http://www.rodsbooks.com/">http://www.rodsbooks.com/</a></li>
+<li><a href="http://grymoire.com/">http://grymoire.com/</a></li>
+<li><a href="https://daniel.haxx.se/">https://daniel.haxx.se/</a></li>
+<li><a href="http://everythingsysadmin.com/">http://everythingsysadmin.com/</a></li>
+<li><a href="https://www.kennethreitz.org">https://www.kennethreitz.org</a></li>
+<li><a href="http://www.guppylake.com/~nsb/">http://www.guppylake.com/~nsb/</a></li>
+<li><a href="https://brendangregg.com">https://brendangregg.com</a> - Emphasis on monitoring</li>
+<li><a href="https://pthree.org/">https://pthree.org/</a> - Emphasis on storage / ZFS</li>
+<li><a href="https://sysadmincasts.com">https://sysadmincasts.com</a></li>
+</ul>
+<h2 id="bootloaders">Bootloaders</h2>
+<ul>
+<li><a href="https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/">UEFI Boot - How Does that Actually Work Then?</a></li>
+<li><a href="https://forums.freebsd.org/threads/58001/#post-331378">Fast Boot as an issue with bootable thumb drives</a></li>
+</ul>
+<h2 id="scripting-languages">Scripting Languages</h2>
+<ul>
+<li><a href="Python">Python</a></li>
+</ul>
+<h3 id="bash">Bash</h3>
+<ul>
+<li><a href="http://explainshell.com/">Explainshell</a></li>
+<li>Exec last command in bash <em>!!</em>.</li>
+<li>Variable expansion doesn't work with watch (8/10/19 - I'm not sure I believe this- I might just have been doing something with single quotes instead of double quotes)</li>
+<li>The -c flag for du caches file size estimates so that they can be retrieve more quickly on future invocations? ( <a href="http://www.linfo.org/du.html">More reading</a> in addition to the man file)</li>
+<li>Type 'reset' when screen messes up your keyboard mapping.</li>
+<li>uniq -c : 'prefix lines by the number of occurrences'</li>
+<li><a href="http://wiki.bash-hackers.org/howto/redirection_tutorial">http://wiki.bash-hackers.org/howto/redirection_tutorial</a></li>
+<li><a href="http://sebug.net/paper/os/linux/Linux%20Shell%20Scripting%20Tutorial%20v2.0.pdf">http://sebug.net/paper/os/linux/Linux%20Shell%20Scripting%20Tutorial%20v2.0.pdf</a></li>
+<li><a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html">http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html</a></li>
+<li><a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html">http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html</a></li>
+<li>
+<ul>
+<li><a href="http://mywiki.wooledge.org/BashPitfalls">Common Bash Pitfalls</a></li>
+</ul>
+</li>
+<li><a href="http://www.davidpashley.com/articles/writing-robust-shell-scripts/">Writing Robust Shell Scripts</a></li>
+<li><a href="http://commandlinefu.com/">CommandlineFu</a></li>
+<li><a href="https://unix.stackexchange.com/a/159514">Good summary of redirection / control operators</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Here_document#Here_strings">Where I learned that Here strings need to have quotes around the word to be interpreted as string literals</a></li>
+</ul>
+<h3 id="regular-expressions">Regular Expressions</h3>
+<ul>
+<li><a href="https://regex.alf.nu/">RegEx Golf</a></li>
+<li><a href="http://www.regular-expressions.info">Regular Expressions by Jan Goyvaerts</a></li>
+</ul>
+<h2 id="monitoring-debugging">Monitoring / Debugging</h2>
+<ul>
+<li><a href="http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages">Understanding Load Averages</a></li>
+<li><a href="http://www.linuxintro.org/wiki/Strace:_what_a_process_does">Strace: What a Process Does</a></li>
+<li><a href="http://www.linux-magazine.com/Issues/2009/105/Practical-strace">Practical strace</a></li>
+</ul>
+<h3 id="memory">Memory</h3>
+<ul>
+<li><a href="http://linuxatemyram.com">Linux Ate My RAM</a></li>
+<li>Apparently the Java heap makes use of the RAM allocated for buffer/cache (so the buffer/cache isn't freed up).</li>
+<li><a href="https://www.yourkit.com/docs/kb/sizes.jsp">Article on JVM Heap Size</a> &amp; <a href="https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html">Oracle Docs on JVM Heap</a></li>
+<li><a href="https://frankdenneman.nl/2015/02/18/memory-configuration-scalability-blog-series/">Memory Subsystem Deep Dive</a></li>
+</ul>
+<h2 id="networking">Networking</h2>
+<ul>
+<li><a href="https://wiki.centos.org/HowTos/Network/IPTables">Succinct overview of iptables</a></li>
+<li><a href="https://docs.google.com/document/d/1gY9-YNDNAB1eip-RTPbqphgySwSNSDHLq9D5Bty4FSU/edit">QUIC at 10,000 feet</a></li>
+<li><a href="http://tldp.org/LDP/nag2/x-087-2-iface.netstat.html">netstat overview</a></li>
+<li><a href="https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf">Cheat Sheet for IP command</a></li>
+</ul>
+<h3 id="application-layer-protocols">Application-Layer Protocols</h3>
+<h4 id="http">HTTP</h4>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/HTTP_persistent_connection">Keep Alive Client</a></li>
+<li><a href="https://www.w3.org/History/19921103-hypertext/hypertext/WWW/Protocols/HTTP.html">https://www.w3.org/History/19921103-hypertext/hypertext/WWW/Protocols/HTTP.html</a></li>
+<li><a href="https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html">https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html</a></li>
+<li><a href="https://daniel.haxx.se/docs/ftp-vs-http.html">https://daniel.haxx.se/docs/ftp-vs-http.html</a></li>
+<li><a href="https://news.ycombinator.com/item?id=13075355">What inspired my interest in this topic</a></li>
+</ul>
+<h3 id="tcpdump-tutorials">TCPDump Tutorials</h3>
+<ul>
+<li><a href="http://www.alexonlinux.com/tcpdump-for-dummies">http://www.alexonlinux.com/tcpdump-for-dummies</a></li>
+<li><a href="http://bencane.com/2014/10/13/quick-and-practical-reference-for-tcpdump/">http://bencane.com/2014/10/13/quick-and-practical-reference-for-tcpdump/</a></li>
+<li><a href="https://www.quora.com/What-is-the-difference-between-TCPs-FIN-and-RST-packets">https://www.quora.com/What-is-the-difference-between-TCPs-FIN-and-RST-packets</a></li>
+</ul>
+<h2 id="security">Security</h2>
+<ul>
+<li><a href="https://cipherli.st/">Strong Ciphers for Web Servers</a></li>
+<li><a href="https://www.ssllabs.com/">SSL Labs</a> (assesses your site's security)</li>
+<li><a href="https://istlsfastyet.com/">Is TLS fast yet?</a></li>
+<li><a href="https://hpbn.co/transport-layer-security-tls/">TLS Overview</a> (chapter of an O'Reilly book)</li>
+<li><a href="https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization">CAA</a> (combines SSL/TLS certificate file w/ a DNS record to increase security)</li>
+<li><a href="https://www.madboa.com/geek/gpg-quickstart">GPG Quickstart</a></li>
+<li><a href="https://fedoraproject.org/wiki/Creating_GPG_Keys#Creating_GPG_Keys_Using_the_Command_Line">Creating GPG Keys Using the CLI</a></li>
+<li><a href="http://www.crypt.gen.nz/papers/backup_encryption.html">Backup Encryption</a></li>
+<li><a href="http://hackaday.com/2014/05/28/interview-inventing-the-unix-sudo-command/">Inventing the Sudo Command</a></li>
+<li><a href="http://preshing.com/20110811/xkcd-password-generator/">XKCD Password Generator</a></li>
+<li><a href="http://correcthorsebatterystaple.net/">Another XKCD Password Generator</a></li>
+<li><a href="https://blog.compass-security.com/2012/10/dangerous-sudoers-entries-part-4-wildcards/">Dangerous Sudoers Entries</a></li>
+<li><a href="https://stopdisablingselinux.com/">Stop Disabling SELinux</a></li>
+</ul>
+<h2 id="storage">Storage</h2>
+<ul>
+<li><a href="https://www.kernel.org/doc/ols/2006/ols2006v2-pages-59-72.pdf">Why NFS Sucks</a></li>
+<li><a href="https://icesquare.com/wordpress/how-to-improve-zfs-performance/">How to improve ZFS performance</a></li>
+<li><a href="https://calomel.org/zfs_raid_speed_capacity.html">ZFS RAID Speed Capacity</a></li>
+<li><a href="https://www.delphix.com/blog/delphix-engineering/zfs-raidz-stripe-width-or-how-i-learned-stop-worrying-and-love-raidz">How I learned to stop worrying and love RAIDZ</a></li>
+<li><a href="http://clusterdesign.org/2012/08/lustre-and-panasas-are-not-so-different/">Lustre and Panasas Are Not So Different</a></li>
+<li><a href="https://www.backblaze.com/blog/hard-drive-reliability-stats-q1-2016/">Backblaze Hard Drive Reliability Stats, Q1 2016</a></li>
+<li><a href="https://www.snia.org/ndmp">NDMP</a> (Description and whitepaper)</li>
+<li><a href="http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html">http://www.tldp.org/LDP/intro-linux/html/sect_03_01.html</a></li>
+<li><a href="https://medium.com/@jonphilpott/does-writing-to-nfs-put-processes-into-un-interruptible-sleep-d58790cd13b6#.h4oi0ufqx">Does Writing to NFS Put Processes into Uninterruptible Sleep?</a></li>
+<li><a href="http://redhat-admin.blogspot.com/2011/09/create-and-configure-luks-encrypted.html">Create LUKS</a></li>
+<li><a href="https://serverfault.com/questions/560844/access-xfs-quota-info-from-nfs-client">Access xfs quota info from NFS client</a></li>
+<li><a href="https://linux.die.net/man/8/rpc.rquotad">rpc.rquotad</a></li>
+<li><a href="https://www.dell.com/community/Isilon/Using-Linux-quota-command-pointing-to-an-ifs-nfs-mounted/td-p/6916630">Using Linux quota command pointing to an /ifs nfs mounted filesystem.</a></li>
+</ul>
+<h3 id="acls">ACLs</h3>
+<ul>
+<li><a href="http://okki666.free.fr/docmaster/articles/linux100.htm">En Francais</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/Access_Control_Lists">https://wiki.archlinux.org/index.php/Access_Control_Lists</a></li>
+<li><a href="https://www.freebsd.org/doc/handbook/fs-acl.html">https://www.freebsd.org/doc/handbook/fs-acl.html</a></li>
+</ul>
+<h3 id="raid-5">RAID-5</h3>
+<p>A list of pages discussing why not to use RAID5:</p>
+<ul>
+<li><a href="https://news.ycombinator.com/item?id=8306499">https://news.ycombinator.com/item?id=8306499</a></li>
+<li><a href="https://www.reddit.com/r/sysadmin/comments/ydi6i/dell_raid_5_is_no_longer_recommended_for_any/">https://www.reddit.com/r/sysadmin/comments/ydi6i/dell_raid_5_is_no_longer_recommended_for_any/</a></li>
+<li><a href="https://www.reddit.com/r/sysadmin/comments/3yoc9z/raid_5raid_10_tradeoff/">https://www.reddit.com/r/sysadmin/comments/3yoc9z/raid_5raid_10_tradeoff/</a> (in which we learn that RAID5 works for SSDs)</li>
+</ul>
+<p>An article on the RAID "write-hole", which seems to be especially salient for RAID5:</p>
+<ul>
+<li><a href="http://www.raid-recovery-guide.com/raid5-write-hole.aspx">http://www.raid-recovery-guide.com/raid5-write-hole.aspx</a></li>
+</ul>
+<h3 id="tape">Tape</h3>
+<ul>
+<li>tar tvf <strong>\&lt;device_name></strong> - Read the file name from the tar header for the current file that the tape is pointed at.</li>
+</ul>
+<h3 id="database-vs-filesystem">Database vs Filesystem</h3>
+<ul>
+<li><a href="https://stackoverflow.com/questions/38120895/database-vs-file-system-storage">https://stackoverflow.com/questions/38120895/database-vs-file-system-storage</a></li>
+<li><a href="https://softwareengineering.stackexchange.com/questions/190482/why-use-a-database-instead-of-just-saving-your-data-to-disk">https://softwareengineering.stackexchange.com/questions/190482/why-use-a-database-instead-of-just-saving-your-data-to-disk</a></li>
+<li><a href="https://dzone.com/articles/which-is-better-saving-files-in-database-or-in-fil">https://dzone.com/articles/which-is-better-saving-files-in-database-or-in-fil</a></li>
+</ul>
+<h2 id="identity-management-user-management">Identity Management / User Management</h2>
+<ul>
+<li><a href="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/s1-users-tools.html">https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/s1-users-tools.html</a></li>
+<li><a href="http://ldapman.org/articles/intro_to_ldap.html">Introduction to LDAP</a></li>
+</ul>
+<h2 id="applications">Applications</h2>
+<h3 id="web-servers">Web Servers</h3>
+<ul>
+<li>An analogy: web/app servers / load balancers belong to the same sub-class of problems that HPC schedulers treat, but are just more narrow in scope.</li>
+<li>A 301 redirect in nginx for HTTPS requires a cert because the packet needs to be decrypted for nginx to inspect the host field of the packet header.</li>
+<li><a href="https://www.nginx.com/resources/wiki/start/">Canned nginx Configs (to use as templates)</a></li>
+</ul>
+<h3 id="databases">Databases</h3>
+<ul>
+<li><a href="http://philip.greenspun.com/sql/">http://philip.greenspun.com/sql/</a></li>
+<li><a href="https://medium.com/@denisanikin/what-an-in-memory-database-is-and-how-it-persists-data-efficiently-f43868cff4c1">What an in-memory database is and how it persists data efficiently</a></li>
+<li><a href="https://www.quora.com/What-are-pros-and-cons-of-PostgreSQL-and-MySQL-With-respect-to-reliability-speed-scalability-and-features">What are pros and cons of PostgreSQL and MySQL? With respect to reliability, speed, scalability, and features.</a></li>
+</ul>
+<h2 id="virtualization">Virtualization</h2>
+<ul>
+<li>Apparently KVM and Virtualbox are incompatible / can't be run simultaneously. See <a href="http://www.dedoimedo.com/computers/kvm-virtualbox.html">here</a> for an idea on how to handle that (or just don't do that at all because it doesn't make too much sense to begin with- quoth the older and wiser me).</li>
+<li><a href="https://wiki.xenproject.org/wiki/Xen_Networking">Xen Networking</a></li>
+<li><a href="https://wiki.hackzine.org/sysadmin/kvm-import-ova.html">Importing an OVA into KVM</a></li>
+</ul>
+<h2 id="containerization">Containerization</h2>
+<ul>
+<li><a href="https://thenewstack.io/kubernetes-an-overview/">Kubernetes: An Overview</a></li>
+<li><a href="https://www.amazon.com/Docker-Data-Science-Extensible-Infrastructure/dp/1484230116">Docker for Data Science</a></li>
+<li><a href="https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md">Docker Security Cheat Sheet</a></li>
+</ul>
+<h2 id="cloud-computing">Cloud Computing</h2>
+<ul>
+<li>If an AWS S3 upload is <a href="MultiPart">MultiPart</a>, the ETag attribute of an S3 bucket object is <em>not</em> an MD5 hash. It is the hashes for each part uploaded concatenated, plus a dash and the number of parts uploaded (see <a href="http://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonResponseHeaders.html">here</a>).</li>
+</ul>
+<h3 id="s3-compatible-object-stores">S3-compatible object stores</h3>
+<ul>
+<li><a href="https://minio.io/">https://minio.io/</a></li>
+<li><a href="https://cloudian.com/">https://cloudian.com/</a></li>
+<li><a href="https://wasabi.com/">https://wasabi.com/</a></li>
+<li><a href="http://pithos.io/">http://pithos.io/</a></li>
+<li><a href="https://www.zenko.io/">https://www.zenko.io/</a></li>
+<li><a href="https://leo-project.net/leofs/">https://leo-project.net/leofs/</a></li>
+<li><a href="https://github.com/eucalyptus/eucalyptus/wiki/Walrus-S3-API">https://github.com/eucalyptus/eucalyptus/wiki/Walrus-S3-API</a></li>
+<li><a href="http://docs.ceph.com/docs/master/radosgw/s3/">http://docs.ceph.com/docs/master/radosgw/s3/</a></li>
+</ul>
+<h2 id="windowslinux-compatibility">Windows/Linux Compatibility</h2>
+<ul>
+<li><a href="https://wiki.debian.org/wiki/Debian9ADSharedDisks_Sssd_PamMount">Debian9ADSharedDisks_Sssd_PamMount</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/Pam_mount">Pam_mount</a></li>
+<li><a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html-single/storage_administration_guide/index#performing_a_multi-user_smb_mount">RHEL Guide for multi-user SMB mount</a></li>
+<li><a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html-single/windows_integration_guide/index">RHEL Windows Integration Guide</a></li>
+</ul>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="http://www.atoptool.nl/">Atop</a></li>
+<li><a href="https://github.com/2ndalpha/gasmask">Gas Hosts</a></li>
+<li><a href="https://linux.die.net/man/1/last">last</a> (can show reboot times)</li>
+<li><a href="https://linux.die.net/man/8/lastlog">lastlog</a> (can show last login for a user- with decently informative timestamp)</li>
+<li><a href="https://mxtoolbox.com/SuperTool.aspx">https://mxtoolbox.com/SuperTool.aspx</a></li>
+<li><a href="https://peteris.rocks/blog/htop/">https://peteris.rocks/blog/htop/</a></li>
+<li><a href="http://md5deep.sourceforge.net/">http://md5deep.sourceforge.net/</a></li>
+<li><a href="http://www.shakthimaan.com/posts/2014/11/27/gnu-parallel/news.html">GNU Parallel</a></li>
+</ul>
+<hr />
+<blockquote>
+<p><a href="_Sidebar">Categories</a></p>
+</blockquote>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../Server-Vendors/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Server Vendors
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../Text-Editors/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Text Editors
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.fd16492e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2250 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Personal notes of John Pellman, a systems administrator / cognitive science / neuroscience geek.">
+      
+      
+      
+      
+        <meta name="author" content="John Pellman">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.6">
+    
+    
+      
+        <title>Maxwell - John Pellman's Personal Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6910b76c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.196e0c26.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#maxwell" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../../.." title="John Pellman&#39;s Personal Wiki" class="md-header-nav__button md-logo" aria-label="John Pellman's Personal Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            John Pellman's Personal Wiki
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Maxwell
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/jpellman/wiki.libjpel.so/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="John Pellman&#39;s Personal Wiki" class="md-nav__button md-logo" aria-label="John Pellman's Personal Wiki">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    John Pellman's Personal Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/jpellman/wiki.libjpel.so/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../Charities/" class="md-nav__link">
+      Charities
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../Unsorted-Facts/" class="md-nav__link">
+      Unsorted Facts
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    <label class="md-nav__link" for="nav-4">
+      Academic Computing
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Academic Computing" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Academic Computing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Academic-Computing/Academic-Computing/" class="md-nav__link">
+      Academic Computing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Academic-Computing/Web-Design-Firms-For-Academics/" class="md-nav__link">
+      Web Design Firms For Academics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3" >
+    <label class="md-nav__link" for="nav-4-3">
+      Library Computing
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Library Computing" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        <span class="md-nav__icon md-icon"></span>
+        Library Computing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Academic-Computing/Library-Computing/Library-Computing/" class="md-nav__link">
+      Library Computing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+    <label class="md-nav__link" for="nav-5">
+      Hobbies
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Hobbies" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Hobbies
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Academic-History/" class="md-nav__link">
+      Academic History
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Computational-Linguistics/" class="md-nav__link">
+      Computational Linguistics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Food/" class="md-nav__link">
+      Food
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Georectification/" class="md-nav__link">
+      Georectification
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Hobbies/" class="md-nav__link">
+      Hobbies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Music/" class="md-nav__link">
+      Music
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Reading-List/" class="md-nav__link">
+      Reading List
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Retroscaping/" class="md-nav__link">
+      Retroscaping
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-9" type="checkbox" id="nav-5-9" >
+    <label class="md-nav__link" for="nav-5-9">
+      Retrocomputing
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Retrocomputing" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-9">
+        <span class="md-nav__icon md-icon"></span>
+        Retrocomputing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Retrocomputing/Mac-OSClassic/" class="md-nav__link">
+      Mac OSClassic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Retrocomputing/Retrocomputing/" class="md-nav__link">
+      Retrocomputing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Hobbies/Retrocomputing/Vintage-Scientific-Computing/" class="md-nav__link">
+      Vintage Scientific Computing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+    <label class="md-nav__link" for="nav-6">
+      Home Lab
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Home Lab" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Home Lab
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Libjpel%20Wiki/" class="md-nav__link">
+      Libjpel Wiki
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-2" type="checkbox" id="nav-6-2" >
+    <label class="md-nav__link" for="nav-6-2">
+      Backups
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Backups" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-2">
+        <span class="md-nav__icon md-icon"></span>
+        Backups
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Backups/AWS-Backup/" class="md-nav__link">
+      AWS Backup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Backups/Blu-Ray-Backup/" class="md-nav__link">
+      Blu Ray Backup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Backups/General%20Backup%20Strategy/" class="md-nav__link">
+      General Backup Strategy
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-3" type="checkbox" id="nav-6-3" checked>
+    <label class="md-nav__link" for="nav-6-3">
+      Hosts
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Hosts" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-3">
+        <span class="md-nav__icon md-icon"></span>
+        Hosts
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Bruno/" class="md-nav__link">
+      Bruno
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Dumb-Build/" class="md-nav__link">
+      Dumb Build
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Maxwell
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Maxwell
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specifications" class="md-nav__link">
+    Specifications
+  </a>
+  
+    <nav class="md-nav" aria-label="Specifications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#part-list" class="md-nav__link">
+    Part List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applications" class="md-nav__link">
+    Applications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plans" class="md-nav__link">
+    Plans
+  </a>
+  
+    <nav class="md-nav" aria-label="Plans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tasks-for-maxwell-rebuild" class="md-nav__link">
+    Tasks for Maxwell Rebuild
+  </a>
+  
+    <nav class="md-nav" aria-label="Tasks for Maxwell Rebuild">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#storage-tasks" class="md-nav__link">
+    Storage Tasks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reprovisioning-tasks" class="md-nav__link">
+    Reprovisioning Tasks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#making-maxwell-a-managed-host" class="md-nav__link">
+    Making Maxwell a Managed Host
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vm-creation" class="md-nav__link">
+    VM Creation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detailed-notes-of-zfs-mirror-to-raidz1-transition" class="md-nav__link">
+    Detailed Notes of ZFS Mirror to RAIDZ1 Transition
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-wants" class="md-nav__link">
+    Other Wants
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#photos" class="md-nav__link">
+    Photos
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-4" type="checkbox" id="nav-6-4" >
+    <label class="md-nav__link" for="nav-6-4">
+      Legacy
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Legacy" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-4">
+        <span class="md-nav__icon md-icon"></span>
+        Legacy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Legacy/Cluster-Documentation/" class="md-nav__link">
+      Documentation for Home Beowulf Cluster - SDH (The Salon of Digital Humanists)
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6-5" type="checkbox" id="nav-6-5" >
+    <label class="md-nav__link" for="nav-6-5">
+      Network
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Network" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-5">
+        <span class="md-nav__icon md-icon"></span>
+        Network
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Network/Arris-Surfboard/" class="md-nav__link">
+      Arris Surfboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Network/Netgear-WNR3500L/" class="md-nav__link">
+      Netgear WNR3500L
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" >
+    <label class="md-nav__link" for="nav-7">
+      Musings
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Musings" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        <span class="md-nav__icon md-icon"></span>
+        Musings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Musings/Meditations%20On%20Theranos/" class="md-nav__link">
+      Meditations On Theranos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Musings/Musings/" class="md-nav__link">
+      Musings
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" >
+    <label class="md-nav__link" for="nav-8">
+      Science
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Science" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        <span class="md-nav__icon md-icon"></span>
+        Science
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/CWL-Make/" class="md-nav__link">
+      CWL Make
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Citation-Graphs/" class="md-nav__link">
+      Citation Graphs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Metascience/" class="md-nav__link">
+      Metascience
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Open-Science-Critiques/" class="md-nav__link">
+      Open Science Critiques
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Open-Science/" class="md-nav__link">
+      Open Science
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Project-Management/" class="md-nav__link">
+      Project Management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Roles-In-Science/" class="md-nav__link">
+      Roles In Science
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Computing-Articles/" class="md-nav__link">
+      Scientific Computing Articles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-File-Formats/" class="md-nav__link">
+      Scientific File Formats
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Programming/" class="md-nav__link">
+      Scientific Programming
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Workflow-Management/" class="md-nav__link">
+      Scientific Workflow Management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientist-Computer-Symbiosis-Obstacles/" class="md-nav__link">
+      Scientist Computer Symbiosis Obstacles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-13" type="checkbox" id="nav-8-13" >
+    <label class="md-nav__link" for="nav-8-13">
+      Cognitive Science
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Cognitive Science" data-md-level="2">
+      <label class="md-nav__title" for="nav-8-13">
+        <span class="md-nav__icon md-icon"></span>
+        Cognitive Science
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Cognitive-Science/Cognitive-Science/" class="md-nav__link">
+      Cognitive Science
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Cognitive-Science/Decision-Making/" class="md-nav__link">
+      Decision Making
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Cognitive-Science/Expertise/" class="md-nav__link">
+      Expertise
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Cognitive-Science/Learning/" class="md-nav__link">
+      Learning
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Cognitive-Science/Meditations%20on%20Neuroscience%20Paradigms/" class="md-nav__link">
+      Meditations on Neuroscience Paradigms
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Cognitive-Science/Memory/" class="md-nav__link">
+      Memory
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Cognitive-Science/Neuroimaging/" class="md-nav__link">
+      Neuroimaging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Cognitive-Science/Problem-Solving/" class="md-nav__link">
+      Problem Solving
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-13-9" type="checkbox" id="nav-8-13-9" >
+    <label class="md-nav__link" for="nav-8-13-9">
+      Legacy
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Legacy" data-md-level="3">
+      <label class="md-nav__title" for="nav-8-13-9">
+        <span class="md-nav__icon md-icon"></span>
+        Legacy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Cognitive-Science/Legacy/Neuroscience-Notes/" class="md-nav__link">
+      Neuroscience Notes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-14" type="checkbox" id="nav-8-14" >
+    <label class="md-nav__link" for="nav-8-14">
+      Scientific Computing
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Scientific Computing" data-md-level="2">
+      <label class="md-nav__title" for="nav-8-14">
+        <span class="md-nav__icon md-icon"></span>
+        Scientific Computing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Computing/ASICs/" class="md-nav__link">
+      ASICs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Computing/Architecture%20Decision%20Tree/" class="md-nav__link">
+      Architecture Decision Tree
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Computing/Columbia-Jeff-Dean-20190827/" class="md-nav__link">
+      Columbia Jeff Dean 20190827
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Computing/MATLAB/" class="md-nav__link">
+      MATLAB
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Computing/Machine-Learning/" class="md-nav__link">
+      Machine Learning
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Computing/Research-Security/" class="md-nav__link">
+      Research Security
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Computing/loni2cwl/" class="md-nav__link">
+      Loni2cwl
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8-14-8" type="checkbox" id="nav-8-14-8" >
+    <label class="md-nav__link" for="nav-8-14-8">
+      Neuroinformatics
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Neuroinformatics" data-md-level="3">
+      <label class="md-nav__title" for="nav-8-14-8">
+        <span class="md-nav__icon md-icon"></span>
+        Neuroinformatics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Computing/Neuroinformatics/Neuroinformatics-Cluster/" class="md-nav__link">
+      Neuroinformatics Cluster
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Computing/Neuroinformatics/Neuroinformatics-GPU/" class="md-nav__link">
+      Neuroinformatics GPU
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Science/Scientific-Computing/Neuroinformatics/Neuroinformatics-Pipelines/" class="md-nav__link">
+      Neuroinformatics Pipelines
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" >
+    <label class="md-nav__link" for="nav-9">
+      Software Development
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Software Development" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        <span class="md-nav__icon md-icon"></span>
+        Software Development
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Software-Development/Data-Structures-In-The-Wild/" class="md-nav__link">
+      Data Structures In The Wild
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Software-Development/Demystifying-Old-Python-Scripts/" class="md-nav__link">
+      Demystifying Old Python Scripts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Software-Development/Open-Source/" class="md-nav__link">
+      Open Source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Software-Development/Packaging/" class="md-nav__link">
+      Packaging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Software-Development/Python-OS-Ops/" class="md-nav__link">
+      Python OS Ops
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Software-Development/Python/" class="md-nav__link">
+      Python
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10" >
+    <label class="md-nav__link" for="nav-10">
+      Systems Administration
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Systems Administration" data-md-level="1">
+      <label class="md-nav__title" for="nav-10">
+        <span class="md-nav__icon md-icon"></span>
+        Systems Administration
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/AWS-Migration-Documentation/" class="md-nav__link">
+      Documentation Concerning Migration from Linode to AWS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Ansible-Notes/" class="md-nav__link">
+      Ansible Notes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/BOINCAMI/" class="md-nav__link">
+      BOINCAMI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Config-Management/" class="md-nav__link">
+      Config Management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Containerization-Analogies/" class="md-nav__link">
+      Containerization Analogies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/IT-Mistakes/" class="md-nav__link">
+      IT Mistakes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Misc-SysAdmin/" class="md-nav__link">
+      Misc SysAdmin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/SLURMv-Kubernetes/" class="md-nav__link">
+      SLURMv Kubernetes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Server-Vendors/" class="md-nav__link">
+      Server Vendors
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Systems-Administration/" class="md-nav__link">
+      Systems Administration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Text-Editors/" class="md-nav__link">
+      Text Editors
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/UPS/" class="md-nav__link">
+      UPS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/udev/" class="md-nav__link">
+      Udev
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10-14" type="checkbox" id="nav-10-14" >
+    <label class="md-nav__link" for="nav-10-14">
+      Legacy
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Legacy" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-14">
+        <span class="md-nav__icon md-icon"></span>
+        Legacy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Legacy/General-IT-Notes/" class="md-nav__link">
+      General IT Notes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-10-15" type="checkbox" id="nav-10-15" >
+    <label class="md-nav__link" for="nav-10-15">
+      Rants
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Rants" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-15">
+        <span class="md-nav__icon md-icon"></span>
+        Rants
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Systems-Administration/Rants/Web-Browsers-Must-Die/" class="md-nav__link">
+      Web Browsers Must Die
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specifications" class="md-nav__link">
+    Specifications
+  </a>
+  
+    <nav class="md-nav" aria-label="Specifications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#part-list" class="md-nav__link">
+    Part List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applications" class="md-nav__link">
+    Applications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plans" class="md-nav__link">
+    Plans
+  </a>
+  
+    <nav class="md-nav" aria-label="Plans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tasks-for-maxwell-rebuild" class="md-nav__link">
+    Tasks for Maxwell Rebuild
+  </a>
+  
+    <nav class="md-nav" aria-label="Tasks for Maxwell Rebuild">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#storage-tasks" class="md-nav__link">
+    Storage Tasks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reprovisioning-tasks" class="md-nav__link">
+    Reprovisioning Tasks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#making-maxwell-a-managed-host" class="md-nav__link">
+    Making Maxwell a Managed Host
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vm-creation" class="md-nav__link">
+    VM Creation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detailed-notes-of-zfs-mirror-to-raidz1-transition" class="md-nav__link">
+    Detailed Notes of ZFS Mirror to RAIDZ1 Transition
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-wants" class="md-nav__link">
+    Other Wants
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#photos" class="md-nav__link">
+    Photos
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/jpellman/wiki.libjpel.so/edit/master/docs/Home-Lab/Hosts/Maxwell.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="maxwell">Maxwell</h1>
+<p>[[<em>TOC</em>|levels = 2]]</p>
+<h2 id="description">Description</h2>
+<p>Maxwell is essentially a gaming workstation that I use to try out new things locally within my apartment. It is dual-boot, with Windows 10 on a 60 GB SSD and CentOS 7 on a 240 GB SSD. I first built it around February/March 2017, with a goal of creating a workstation that I could use for both experimentation and running <a href="https://boincstats.com/en/stats/-1/user/detail/3500755">BOINC</a>- to be completely honest, part of my motivation was to see how close I could get to surpassing (or at least equalling) some of the older scientific lab hardware I had dealt with in the past using only consumer-grade parts.</p>
+<p>Maxwell is named after <a href="https://en.wikipedia.org/wiki/James_Clerk_Maxwell">James Clerk Maxwell</a> (not to be confused with the neo-soul musician <a href="https://en.wikipedia.org/wiki/Maxwell_(musician)">Maxwell</a> or the Gundam Wing character <a href="https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Wing_characters#Duo_Maxwell">Duo Maxwell</a>).</p>
+<h2 id="specifications">Specifications</h2>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPU</strong></td>
+<td>Core I7-6700 FC-LGA14C</td>
+</tr>
+<tr>
+<td><strong># of Cores (logical)</strong></td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>CPU Clock Speed (GHz)</strong></td>
+<td>3.40</td>
+</tr>
+<tr>
+<td><strong>Memory (GB)</strong></td>
+<td>64</td>
+</tr>
+<tr>
+<td><strong>Disks</strong></td>
+<td>60 GB SSD (Windows volume), 240 GB SSD (Linux volume), 2 1 TB WD-Blues (ZFS mirrored)</td>
+</tr>
+<tr>
+<td><strong>OS</strong></td>
+<td>CentOS 7 and Windows</td>
+</tr>
+<tr>
+<td><strong>IP Address</strong></td>
+<td>192.168.1.3</td>
+</tr>
+<tr>
+<td><strong>FQDN (on LAN)</strong></td>
+<td>maxwell.so</td>
+</tr>
+</tbody>
+</table>
+<h3 id="part-list">Part List</h3>
+<ul>
+<li><a href="https://smile.amazon.com/gp/product/B00I0V4IMW/ref=ppx_yo_dt_b_asin_title_o03__o00_s01?ie=UTF8&amp;psc=1">Zalman MS800 ATX Mid Tower Gaming Case (Black)</a></li>
+<li><a href="https://smile.amazon.com/gp/product/B00DGZ42SM/ref=ppx_yo_dt_b_asin_title_o03__o00_s00?ie=UTF8&amp;psc=1">Rosewill 3 x 5.25-Inch to 4 x 3.5-Inch Hot-swap SATAIII/SAS Hard Disk Drive Cage - Black</a></li>
+<li><a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16820233193">Corsair Force Series GT 2.5" 60GB SATA III Internal Solid State Drive</a></li>
+<li><a href="https://smile.amazon.com/gp/product/B01F9G43WU/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&amp;psc=1">SanDisk SSD PLUS 240GB Internal SSD - SATA III 6 Gb/s</a></li>
+<li>x2 <a href="https://smile.amazon.com/gp/product/B0088PUEPK/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&amp;psc=1">WD Blue 1TB SATA 6 Gb/s 7200 RPM 64MB Cache 3.5 Inch Desktop Hard Drive (WD10EZEX)</a></li>
+<li><a href="https://smile.amazon.com/gp/product/B0136JONG8/ref=ppx_yo_dt_b_asin_title_o02__o00_s00?ie=UTF8&amp;psc=1">Intel Boxed Core I7-6700 FC-LGA14C 3.40 GHz 8 M Processor Cache 4 LGA 1151 BX80662I76700</a></li>
+<li>x4 <a href="https://smile.amazon.com/gp/product/B015YPAZPU/ref=ppx_yo_dt_b_asin_title_o02__o00_s00?ie=UTF8&amp;psc=1">Crucial 16GB Single DDR4 2133 MT/s (PC4-17000) DR x8 Unbuffered DIMM 288-Pin Memory - CT16G4DFD8213</a></li>
+<li><a href="https://smile.amazon.com/gp/product/B01DDR05P6/ref=ppx_yo_dt_b_asin_title_o02__o00_s00?ie=UTF8&amp;psc=1">MSI Pro Solution Intel Z170A LGA 1151 DDR4 USB 3.1 ATX Motherboard (Z170A SLI)</a></li>
+<li><a href="https://smile.amazon.com/gp/product/B008RJZQSW/ref=ppx_yo_dt_b_asin_title_o09__o00_s00?ie=UTF8&amp;psc=1">Corsair CX Series 750 Watt 80 Plus Bronze Certified Non-Modular Power Supply (CP-9020015-NA)</a></li>
+<li><a href="https://smile.amazon.com/EVGA-GeForce-Support-Graphics-02G-P4-6152-KR/dp/B01M64G435?sa-no-redirect=1">EVGA Geforce GTX 1050 SC ITX, 2GB</a></li>
+<li><a href="https://smile.amazon.com/PNY-NVIDIA-GeForce-Graphics-VCGGTX10502PB/dp/B01M27X9WI/ref=sr_1_fkmrnull_7?keywords=PNY+-+NVIDIA+GeForce+GTX+1050+2GB+GDDR5&amp;qid=1548101376&amp;s=Electronics&amp;sr=1-7-fkmrnull">PNY NVIDIA GeForce GTX 1050 2GB Graphics Card</a></li>
+</ul>
+<h2 id="applications">Applications</h2>
+<ul>
+<li>KVM / virt-manager / virt-install</li>
+<li>BOINC (custom compile w/o the BOINC manager app; just boinc-client)</li>
+<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#70;&#111;&#108;&#100;&#105;&#110;&#103;&#64;&#72;&#111;&#109;&#101;">&#70;&#111;&#108;&#100;&#105;&#110;&#103;&#64;&#72;&#111;&#109;&#101;</a></li>
+<li><a href="https://github.com/sferik/t">t</a> (Twitter CLI)</li>
+<li><a href="http://gmvault.org">gmvault</a></li>
+<li>CentOS 7's "Server w/ GUI" Install Group (GNOME 3, etc)</li>
+<li>x2go</li>
+<li>mate (since x2go breaks with Gnome 3)</li>
+<li>NVIDIA Drivers (for CUDA)</li>
+<li>ZFS on Linux</li>
+<li>AWS CLI</li>
+<li>rclone (for Google Drive backups)</li>
+<li><a href="MoinMoin">MoinMoin</a></li>
+<li><a href="https://preyproject.com/">Prey</a> (of somewhat dubious utility)</li>
+</ul>
+<p>Of these, the following can go away because I don't need a GUI for this host / don't want the rest:</p>
+<ul>
+<li>CentOS 7's "Server w/ GUI" Install Group (GNOME 3, etc)</li>
+<li>x2go</li>
+<li>mate (since x2go breaks with Gnome 3)</li>
+<li><a href="MoinMoin">MoinMoin</a></li>
+<li><a href="https://preyproject.com/">Prey</a> (of somewhat dubious utility)</li>
+</ul>
+<p>KVM is going to be managed via Proxmox in the future, as will ZFS on Linux (VMs will have volumes exposed to them via NFS). That means that only the following need to be managed via Ansible:</p>
+<ul>
+<li>BOINC (custom compile w/o the BOINC manager app; just boinc-client)</li>
+<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#70;&#111;&#108;&#100;&#105;&#110;&#103;&#64;&#72;&#111;&#109;&#101;">&#70;&#111;&#108;&#100;&#105;&#110;&#103;&#64;&#72;&#111;&#109;&#101;</a></li>
+<li><a href="https://github.com/sferik/t">t</a> (Twitter CLI)</li>
+<li><a href="http://gmvault.org">gmvault</a></li>
+<li>rclone (for Google Drive backups)</li>
+<li>AWS CLI</li>
+</ul>
+<h2 id="plans">Plans</h2>
+<ul>
+<li>The KVM VMs were connected to a virtual bridge (virbr1) through which they could be accessible on the LAN. Installing Docker has somehow broken this in some way (or something else, but Docker is the obvious culprit).<ul>
+<li>This could be because <a href="https://www.reddit.com/r/linuxadmin/comments/7tlkve/libvirt_network_configuration_conflicts_with/">Docker fucks with the firewall</a> or because of a conflict between how I set up networking on Maxwell and what Docker expects (also discussed <a href="https://fralef.me/docker-and-iptables.html">here</a>. It seems like a huge pain to mix Docker and KVM, so I'm probably going to take the advice listed on reddit and put Docker on a VM or just not do virtualization on maxwell and make it purely for Linux hosts (seems like a meh idea).</li>
+</ul>
+</li>
+<li>None of this is managed in any systematic way, except for a shell script I made when I first provisioned this host way back when. I'd like to re-create the boot volume with Kickstart and Ansible so that my homelab follows the Infrastructure as Code paradigm a little more closely. There's also a ton of other crap on there that doesn't get mentioned above that I have since stopped playing with (e.g., <a href="https://github.com/kimchi-project/kimchi">Kimchi</a>, which never seemed useful enough vs virsh tbh).</li>
+<li>I want to use Docker where I would in the past use KVM for Linux-based VMs, and only use KVM for non-Linux operating systems (such as FreeBSD, Windows, etc)</li>
+<li>I at one point considered doing GPU passthrough to KVM, but it seemed involved (can't find any of the links to tutorials I was looking at right now), and would have made it so that the host would no longer have been able to use the GPU. With Docker GPU passthrough seems to be much less complicated, so I'd like to encapsulate BOINC and <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#70;&#111;&#108;&#100;&#105;&#110;&#103;&#64;&#72;&#111;&#109;&#101;">&#70;&#111;&#108;&#100;&#105;&#110;&#103;&#64;&#72;&#111;&#109;&#101;</a> and put them in containers that access the GPU via passthrough rather than having them live on bare metal.<ul>
+<li><a href="https://github.com/dholt/kvm-gpu">https://github.com/dholt/kvm-gpu</a></li>
+<li><a href="https://gist.github.com/cuibonobo/d354440fecdd37c35ecd">https://gist.github.com/cuibonobo/d354440fecdd37c35ecd</a></li>
+<li>On 7/31/19, I finally tried to get GPU passthrough to work, but couldn't because Red Hat and NVIDIA are <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1492173">silly corporate capitalist cows</a>. See <a href="https://github.com/kubernetes/minikube/issues/3546">here</a> too.</li>
+<li>After my issues with getting GPU passthrough to work with CentOS, I decided to install Proxmox instead.</li>
+</ul>
+</li>
+<li>I don't really use Windows that much since it would require rebooting to use (and I don't really game enough). It would be interesting if I could find a way to run it via KVM. There's only one app that really needs GPUs (Obduction) and I wouldn't mind booting directly for that. Other tech I'd want to mess with (Chocolatey, <a href="PowerShell">PowerShell</a>, etc) doesn't require an intense GPU (heck, even the point-and-click adventures I play would be fine without the 1050s).</li>
+<li>I have a bunch of utilities set up to back up my online presence (gmvault, t, etc). I'd like to find a way to give these utilities their own space (i.e., a container) and manage them via Ansible.</li>
+<li>My ZFS backup scripts need to be put under version control.</li>
+<li>The bash script I use to back up my Tweets could be improved (presently there are a lot of files produced with redundant information; it uses the shell script from <a href="http://blog.jphpsf.com/2012/05/07/backing-up-your-twitter-account-with-t/">here</a>.</li>
+</ul>
+<h3 id="tasks-for-maxwell-rebuild">Tasks for Maxwell Rebuild</h3>
+<h4 id="storage-tasks">Storage Tasks</h4>
+<ul>
+<li>~~Back up home video DV footage currently on the root volume SSD to another disk.~~ <em>DONE: 2/24/19, 23:25</em></li>
+<li>~~Back up raw DV footage to blu-ray so that the spare 1 TB WD Blue you have can be re-appropriated.~~ <em>DONE: 1/18/20</em></li>
+<li>~~Invoke your ZFS backup script to send a snapshot to AWS.  Invoke the ZFS backup script to save a snapshot to your nearline storage that contains as much data as the nearline storage can hold.~~ <em>DONE: 1/19/20</em></li>
+<li>~~Create a dummy dataset within the ZFS pool.  Back it up to AWS and test a restore (b/c I don't think I've ever actually done this before /shudders)~~ <em>DONE: 1/19/20</em></li>
+<li>~~Take a full backup of the current state of your home directory to blu-ray (most likely using <a href="https://linux.die.net/man/1/dirsplit">dirsplit</a>). Plan on doing this once a year. Secure the full backup-up somewhere in your apartment.~~ <em>DONE: 4/2/20</em><ul>
+<li><strong>Note from 1/19/20</strong>: Due to the amount of time it takes to do this (see <a href="Blu-Ray-Backup">Blu Ray Backup</a>), I'm going to re-organize my data by hotness and coldness, and have different back up intervals depending on that, simply because I don't want to spend more than a day or two on this every year (current estimate for backup time is around 36 hours or about 5 work days).</li>
+</ul>
+</li>
+<li>At some point, make a second copy of the blu-ray backup and store it off-site at mom's house in Clinton, NY (or possibly rent a lock box there).</li>
+<li>The rationale for backing up to blu-ray is as follows:<ul>
+<li>It's a write-once medium, and most of my data doesn't really change.</li>
+<li>It's cheap (although not as cheap as Glacier or Deep Glacier).</li>
+<li>Most importantly, in the event that something happens to me, my next of kin (being much less technical than me) will be much more capable of dealing with a medium like blu-ray than dealing with AWS. Per this point, I'm also planning on just using a standard filesystem with no encryption or any other fancy features (such as snapshots); security will be enforced by encryption on a file by file basis for sensitive documents and physical lock and key.</li>
+<li>If I want, I can also tier snapshots down from a spinny disk to blu ray for my nearline backup.</li>
+</ul>
+</li>
+<li>~~Add the spare WD Blue into slot 3 of the Rosewill cage~~ <em>DONE: 1/19/20</em></li>
+<li>~~Evict one of the WD Blues from the ZFS mirror.~~ <em>DONE: 1/19/20</em></li>
+<li>~~Create a RAIDZ1 volume from the two WD Blues that aren't in the mirror.  Enable deduplication and compression.  Use a sparse file for the third drive in the vdev (see <a href="https://superuser.com/questions/281832/start-a-zfs-raidz-zpool-with-two-discs-then-add-a-third">here</a>).~~ <em>DONE: 1/19/20</em></li>
+<li>~~Stream current mirrored pool data from the remaining mirror drive to the new RAIDZ1 volume with <em>zfs send</em>.~~ <em>DONE: 1/19/20</em></li>
+<li>~~Destroy the mirror / remove the final drive from the mirror.~~ <em>DONE: 1/19/20</em></li>
+<li>~~Add the final drive as a third disk to the RAIDZ1 vdev and wait for parity data to be redistributed.~~ <em>DONE: 1/21/20</em></li>
+<li>~~At some point (possibly before this migration), delete all the snapshots that currently exist.~~ <em>DONE: 3/18/20</em></li>
+<li>~~On the new RAIDZ1 vdev, refactor the pool so that data is organized somewhat logically (i.e., a dataset for digitized files from my mom's house, a dataset for music, a dataset for cloud/gmail backups, a dataset for my audio diaries, a dataset for photos, etc). Separating my files into separate datasets makes restores slightly easier, since I can start with the full backup for whichever logical division I want first and ignore the others as necessary (i.e., if my workstation has been nabbed, I'd like to be able to prioritize the restoration of certain data over other data; tax data > Star Wars Holiday Special)~~ <em>DONE: 3/18/20</em></li>
+<li>Adjust current setup as necessary to accommodate these changes.</li>
+<li>~~Stop replicating data in your S3 bucket from Ohio to Canada. Having your backups replicated in 2 AWS regions + 2 copies of full blu-ray backups + a nearline backup to blu-ray is definitely overkill. At max, just use one region.~~ <em>DONE: 4/2/20</em></li>
+<li>Make the ZFS backup script robust to internet outages. Parameterize parts of it as necessary / make some bash functions.</li>
+</ul>
+<h4 id="reprovisioning-tasks">Reprovisioning Tasks</h4>
+<ul>
+<li>Download Proxmox and put it on a thumb drive.</li>
+<li>Completely hose the CentOS 7 install you have on maxwell and replace it with Proxmox.</li>
+</ul>
+<h4 id="making-maxwell-a-managed-host">Making Maxwell a Managed Host</h4>
+<ul>
+<li>Make an Ansible role for the ZFS backup scripts (these will need to run under Proxmox). Investigate if Proxmox has something better.</li>
+<li>Make an Ansible role for the Twitter backups. <em>(Done</em> <a href="https://github.com/jpellman/ansible-twitter-backup">here</a><em>; untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)</em></li>
+<li>Make an Ansible role for the rclone backups. <em>(Done</em> <a href="https://github.com/jpellman/ansible-rclone">here</a><em>; untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)</em></li>
+<li>Make an Ansible role for the gmvault backups. <em>(Done</em> <a href="https://github.com/jpellman/ansible-gmvault">here</a><em>; untested, but I don't really feel that this is so essential that I can't test it after Maxwell is rebuilt)</em></li>
+<li>Make Ansible roles for boinc and <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#102;&#111;&#108;&#100;&#105;&#110;&#103;&#64;&#104;&#111;&#109;&#101;">&#102;&#111;&#108;&#100;&#105;&#110;&#103;&#64;&#104;&#111;&#109;&#101;</a> (can be done after Maxwell has been rebuilt)</li>
+</ul>
+<h4 id="vm-creation">VM Creation</h4>
+<ul>
+<li>Create a CentOS 6 VM for BOINC and FAH. We want to use CentOS 6 because the FAH packages still need Python 2.6 (unless you modify them manually to use Python 2.7 in CentOS 7, which is a bit of a pain). Attach thumb drive to this VM (possibly a silly RAID of thumb drives) and have it be the backing storage for at least the scratch storage used by BOINC. Why thumb drives? Because they're cheap and I don't want to wear down my spinny disks or SSDs with a bunch of scratch files. Give this VM access to GPUs and 8 vCPUs.</li>
+<li>Create a CentOS 7 VM for general file access / ZFS. Give it 2 vCPUs. This VM may also contain the Twitter CLI (possibly within an RVM environment), gmvault and all of the other internet presence / personal data backup cronjobs (I may make one of these for my reddit data using <a href="https://praw.readthedocs.io">PRAW</a>).</li>
+<li>I may then experiment with a Docker VM and getting my Windows 10 installation to run as a VM. If I can get GPU passthrough working with a Docker VM, I may retire the CentOS 6 VM and replace it with a Docker container (or split FAH and BOINC into multiple containers).</li>
+<li>I'm then going to replace the <a href="MoinMoin">MoinMoin</a> instance I've been running with <a href="https://www.monicahq.com/">Monica</a>. (I actually don't think I care enough about this, but if I do, I'll revisit it. I barely use the Moinmoin instance as it is.)</li>
+</ul>
+<h3 id="detailed-notes-of-zfs-mirror-to-raidz1-transition">Detailed Notes of ZFS Mirror to RAIDZ1 Transition</h3>
+<p>Note: Encrypted snapshots are on external HD if this goes badly.</p>
+<ol>
+<li>Disable user cronjobs for user <em>jpellman</em>.</li>
+<li>As root in screen session: Go to multi-user target with <code>systemctl isolate multi-user</code>, turn off BOINC, unmount <em>/home/boinc</em> and <em>/home</em>. Ensure that <em>/home/jpellman</em> isn't being mounted on <a href="Bruno">Bruno</a> using sshfs.</li>
+<li>Create a sparse file using the number of bytes provided by <code>fdisk -l</code>: <code>truncate -s 1000204886016 /root/raidz1_faux_drive.img</code></li>
+<li>Offline one of the drives in the ZFS mirror: <code>zpool offline pool0 ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z</code></li>
+<li>Clear out the partition label for the offlined disk:</li>
+</ol>
+<!-- -->
+
+<pre><code>zpool export pool0
+zpool labelclear -f /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z-part1
+</code></pre>
+<ol>
+<li>Create a new volume with the offline drive and the spare WD Blue you added: <code>zpool create datastore raidz1 /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y3NSTU5Z /dev/disk/by-id/ata-WDC_WD10EZEX-00WN4A0_WD-WCC6Y7AKHNY8</code></li>
+<li>Turn deduplication and compression on by default at the pool level.</li>
+</ol>
+<!-- -->
+
+<pre><code>zfs set compression=lz4 datastore
+zfs set dedup=on datastore
+</code></pre>
+<ol>
+<li>Offline the sparse image.</li>
+</ol>
+<!-- -->
+
+<pre><code>zpool offline datastore /root/raidz1_faux_drive.img
+</code></pre>
+<ol>
+<li>Transfer data from the old pool to the new pool.</li>
+</ol>
+<!-- -->
+
+<pre><code>zpool import pool0
+zfs send -R pool0/apache@200119 | zfs receive datastore/apache
+zfs send -R pool0/home@200119 | zfs receive datastore/home
+</code></pre>
+<ol>
+<li>Mount the new pool and verify that it looks right.</li>
+</ol>
+<!-- -->
+
+<pre><code>zfs get mountpoint datastore/home
+# Set it if not appearing above
+zfs set mountpoint=/home datastore/home
+zfs mount datastore/home
+</code></pre>
+<ol>
+<li>Destroy the old pool. <code>zpool destroy pool0</code></li>
+<li>Add in the other disk. <code>zpool replace datastore /root/raidz1_faux_drive.img /dev/disk/by-id/ata-WDC_WD10EZEX-08WN4A0_WD-WCC6Y7ZT6K9C</code></li>
+</ol>
+<h2 id="other-wants">Other Wants</h2>
+<ul>
+<li>I want to get rid of the Dell monitor I've been using to access Maxwell. It's an old monitor from the mid-2000s at the earliest, it's clunky, and it's a major PITA to move from one apartment to another. For OS-level remote desktop work, VNC, RDP and x2go are more than appropriate. If I want to update BIOS/UEFI settings though, I still need a monitor because MSI's firmware includes this goofy graphical interface with no text-only option (if there were a text-only option, I'd presumably be able to just connect via a serial interface). I very rarely do firmware-level config updates, but I still need a monitor for it for the 2 or 3 times I do. <a href="https://github.com/Fmstrat/diy-ipmi">diyiipmi</a> is a probable candidate for this, although it's almost too expensive to be worth it. I'm pretty sure the Dell monitor cost like \$20, whereas diy-ipmi would cost \~ \$120, with the main tradeoff being that I don't have to deal with more crap in my apartment. More research:<ul>
+<li><a href="https://www.reddit.com/r/sysadmin/comments/gs2ep/kvm_over_ip/c1pv4gc/">https://www.reddit.com/r/sysadmin/comments/gs2ep/kvm_over_ip/c1pv4gc/</a></li>
+<li><a href="https://www.reddit.com/r/homelab/comments/8pvsd0/turn_laptop_into_kvm_monitorkayboard/">https://www.reddit.com/r/homelab/comments/8pvsd0/turn_laptop_into_kvm_monitorkayboard/</a></li>
+<li><a href="https://www.reddit.com/r/sysadmin/comments/x2jap/is_there_a_way_to_add_something_like_ipmi_to_a/">https://www.reddit.com/r/sysadmin/comments/x2jap/is_there_a_way_to_add_something_like_ipmi_to_a/</a></li>
+<li><a href="https://www.reddit.com/r/linuxadmin/comments/1d10wj/what_do_you_use_for_remote_server_consoles/">https://www.reddit.com/r/linuxadmin/comments/1d10wj/what_do_you_use_for_remote_server_consoles/</a></li>
+</ul>
+</li>
+<li>The 240 GB SSD isn't really being leveraged to its full potential. I should maybe split this into 3 partitions, with one for the OS and two others for a ZIL and L2ARC for ZFS. Alternatively, I could use the 60 GB SSD as a ZIL/L2ARC cache, since I don't really care as much about it. It could live in the 4th bay of the Rosewill hot-swap cage.<ul>
+<li><strong>As of 1/19/20</strong>, the 60 GB SSD is now in the 4th Rosewill bay.</li>
+</ul>
+</li>
+<li>I'm very rapidly running out of disk space on my mirrored ZFS volume as I digitize items in my mom's house. It probably would make the most sense to redo that as a RAIDZ1 volume using the third WD Blue I have lying around.</li>
+</ul>
+<h2 id="photos">Photos</h2>
+<p>attachment:IMG_20190121_154736836.jpg_attachment:IMG_20190121_154736836.jpg_attachment:None_ attachment:IMG_20190121_154801532.jpg_attachment:IMG_20190121_154801532.jpg_attachment:None_ attachment:IMG_20190121_154834420.jpg_attachment:IMG_20190121_154834420.jpg_attachment:None_</p>
+<hr />
+<blockquote>
+<p><a href="Hosts">Hosts</a></p>
+</blockquote>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../Dumb-Build/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Dumb Build
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../Legacy/Cluster-Documentation/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Documentation for Home Beowulf Cluster - SDH (The Salon of Digital Humanists)
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.fd16492e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
