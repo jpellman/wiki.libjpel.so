@@ -31,6 +31,3 @@ These pre-trained models can be put together into a searchable "graph of experti
 
 -   [Neural Architecture Search](https://en.wikipedia.org/wiki/Neural_architecture_search) (Wikipedia)
 
-* * * * *
-
-> [MachineLearning](MachineLearning)

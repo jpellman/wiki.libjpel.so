@@ -35,6 +35,3 @@ The string that's fed into this param is ESTIMATED\_UPLOAD from the following:
     CURSNAP_SIZE=$(zfs list -t snapshot -o name,refer -Hp | grep ${POOL} | grep ${CURSNAP} | awk '{print $2}' | paste -sd+ - | bc)
     ESTIMATED_UPLOAD=$(( ${CURSNAP_SIZE} - ${LASTSNAP_SIZE} ))
 
-* * * * *
-
-> [Home-Lab](Home-Lab)

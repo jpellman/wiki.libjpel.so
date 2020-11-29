@@ -38,6 +38,3 @@ Relatedly, a recent column in the Baltimore Sun makes similar points in much gre
 
 <http://www.baltimoresun.com/news/opinion/oped/bs-ed-science-crisis-20150725-story.html>
 
-* * * * *
-
-> [Open-Science](Open-Science)

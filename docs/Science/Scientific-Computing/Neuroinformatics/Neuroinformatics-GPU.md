@@ -75,6 +75,3 @@ The case for consumer GPUs over enterprise GPUs:
 -   <https://developer.download.nvidia.com/video/gputechconf/gtc/2019/presentation/s9664-how-to-scale-from-workstation-through-cloud-to-hpc-in-cryo-em-processing.pdf>
 -   <http://on-demand.gputechconf.com/gtc/2017/presentation/s7232-lance-wilson-processing-the-next.pdf>
 
-* * * * *
-
-[Scientific-Computing](Scientific-Computing)

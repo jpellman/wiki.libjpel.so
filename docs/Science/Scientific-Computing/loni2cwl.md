@@ -51,6 +51,3 @@ See:
 
 <http://pipeline.bmap.ucla.edu/learn/glossary/>
 
-* * * * *
-
-> [Pipelining](Pipelining)

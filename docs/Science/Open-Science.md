@@ -10,6 +10,3 @@ Pages related to open science.
 -   [OpenHatch 'Open Science Projects and Organizations' Page](https://openhatch.org/wiki/Open_Science_Projects_and_Organizations) (dead) - I mirrored the source though. Add to Wikipedia?
 -   [Metascience Symposium 2019](https://osf.io/meetings/metasci2019/)
 
-* * * * *
-
-> [Categories](_Sidebar)

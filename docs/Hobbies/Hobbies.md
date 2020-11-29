@@ -11,6 +11,3 @@ External Links
 
 -   [ArchiveTeam](http://archiveteam.org/)
 
-* * * * *
-
-> [Categories](_Sidebar)

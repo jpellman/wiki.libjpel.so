@@ -48,6 +48,3 @@ Miscellaneous Reading
 -   [Cites and Insights](https://citesandinsights.info/) - Articles by Walt Crawford
 -   [How Academic Science Gave Its Soul to the Publishing Industry](https://issues.org/how-academic-science-gave-its-soul-to-the-publishing-industry/)
 
-* * * * *
-
-[Academic-Computing](Academic-Computing)

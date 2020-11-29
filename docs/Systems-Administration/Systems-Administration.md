@@ -229,6 +229,3 @@ Tools
 -   <http://md5deep.sourceforge.net/>
 -   [GNU Parallel](http://www.shakthimaan.com/posts/2014/11/27/gnu-parallel/news.html)
 
-* * * * *
-
-> [Categories](_Sidebar)

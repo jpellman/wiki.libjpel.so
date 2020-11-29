@@ -22,6 +22,3 @@ This page contains miscellaneous snippets that I pick up that I haven't been abl
 
 > <https://teachyourselfcs.com> <https://www.aosabook.org>
 
-* * * * *
-
-[Systems-Administration](Systems-Administration)

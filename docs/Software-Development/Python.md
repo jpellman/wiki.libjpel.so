@@ -18,6 +18,3 @@ Useful Packages
 
 -   [Natural Sort](https://pypi.python.org/pypi/natsort)
 
-* * * * *
-
-Scripting [Categories](_Sidebar)

@@ -40,6 +40,3 @@ I address the above problems in more depth in the following pages:
 4.  TODO - [CWL-Make](CWL-Make) might be adapted for this.
 5.  [ASICs](ASICs)
 
-* * * * *
-
-> [Scientific-Computing](Scientific-Computing)

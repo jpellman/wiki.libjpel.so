@@ -19,6 +19,3 @@ Links
 -   [A Full Hardware Guide to Deep Learning](https://timdettmers.com/2018/12/16/deep-learning-hardware-guide/)
 -   [Fully Utilizing Your Deep Learning GPUs](https://medium.com/@colinshaw_36798/fully-utilizing-your-deep-learning-gpus-61ee7acd3e57)
 
-* * * * *
-
-> [Cognitive-Science](Cognitive-Science) [Scientific-Computing](Scientific-Computing)

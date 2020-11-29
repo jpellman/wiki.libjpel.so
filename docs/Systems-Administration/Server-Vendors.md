@@ -12,6 +12,3 @@ A list of server vendors.
 
 A definition: VAR = Value-Added Reseller. A [discussion](https://www.reddit.com/r/sysadmin/comments/468yrz/the_value_of_a_var/)
 
-* * * * *
-
-> [Systems-Administration](Systems-Administration)

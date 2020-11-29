@@ -29,6 +29,3 @@ emacs
 -   [Emacs Tutorial](http://www2.lib.uchicago.edu/keith/tcl-course/emacs-tutorial.html)
 -   [Emacs Mini Manual](http://tuhdo.github.io/emacs-tutor.html)
 
-* * * * *
-
-[Systems-Administration](Systems-Administration)

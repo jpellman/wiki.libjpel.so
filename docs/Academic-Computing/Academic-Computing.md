@@ -38,6 +38,3 @@ Open Source / Community Source
 -   [Cutting Edge: Collaboration gets the most out of software](https://elifesciences.org/articles/01456) (an article discussing the funding model for and history of the [SBGrid Consortium](https://sbgrid.org/)
 -   [Government Policy Towards Open Source Software](https://dx.doi.org/10.2139/ssrn.1411617)
 
-* * * * *
-
-> [Categories](_Sidebar)

@@ -17,6 +17,3 @@ Further Reading
 -   [Cgroups Guide](https://slurm.schedmd.com/cgroups.html) (SLURM)
 -   [Scheduling Configuration Guide](https://slurm.schedmd.com/sched_config.html) (SLURM)
 
-* * * * *
-
-[Systems-Administration](Systems-Administration)

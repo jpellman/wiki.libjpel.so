@@ -9,6 +9,3 @@ List of Web Design Firms that Specialize in Academic Clientele
 -   [KnowledgeTown](http://knowledgetown.com/)
 -   [The Bureau (UK)](https://www.thebureaulondon.com/)
 
-* * * * *
-
-> [Academic-Computing](Academic-Computing)

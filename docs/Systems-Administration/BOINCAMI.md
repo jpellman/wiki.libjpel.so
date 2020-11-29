@@ -47,6 +47,3 @@ With Spot Instances
 
 Make a snapshot of the BOINC data volume beforehand, since you don't know which AZ the instance will pop up in. Make new volume from snapshot in the instance's AZ accordingly.
 
-* * * * *
-
-> [Scientific-Computing](Scientific-Computing)

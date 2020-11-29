@@ -14,6 +14,3 @@ General Algorithm
 4.  Wrap that interface in CWL so that it can work with a workflow scheduler / editor.
 5.  Create a rudimentary GUI if your code requires human interaction with something like [Gooey](https://github.com/chriskiehl/Gooey).
 
-* * * * *
-
-> [Scientific-Computing](Scientific-Computing)

@@ -45,6 +45,3 @@ An ongoing list of software / techniques for visualizing citations.
 -   [BabyBib](https://github.com/matthew-brett/babybib)
 -   [How I scraped data from Google Scholar](https://www.nature.com/articles/d41586-018-04190-5)
 
-* * * * *
-
-> [Scientific-Computing](Scientific-Computing) [LibraryComputing](LibraryComputing)

@@ -26,6 +26,3 @@ Advice:
 
 -   [How to start a lab by Tim Behrens](http://users.fmrib.ox.ac.uk/~behrens/Startingalab.htm)
 
-* * * * *
-
-> [Academic-Computing](Academic-Computing) [Scientific-Computing](Scientific-Computing)

@@ -10,6 +10,3 @@ Sometimes, fair adventurer, you may come across a Python script with sparse docu
 
 Next, if there are no docstrings for arguments, make them. Remove unused functions / code. Familiarize yourself with APIs / modules used within the script. Refactor if necessary.
 
-* * * * *
-
-> Python

@@ -17,6 +17,3 @@ Links
 -   [MULTICS Source Code](https://multicians.org/multics-source.html)
 -   [CTSS Source Code](http://www.cozx.com/dpitts/ibm7090.html)
 
-* * * * *
-
-> [Categories](_Sidebar) Hobbies

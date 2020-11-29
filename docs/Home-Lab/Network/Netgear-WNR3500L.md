@@ -27,6 +27,3 @@ Photos
 
 attachment:IMG\_20190218\_192653775.jpg\_attachment:IMG\_20190218\_192653775.jpg\_attachment:None\_
 
-* * * * *
-
-> [Home-Network](Home-Network)

@@ -33,6 +33,3 @@ Consumption
 -   Glass Armonica
 -   Laurie Anderson
 
-* * * * *
-
-> [Hobbies](Hobbies)

@@ -12,6 +12,3 @@ Packer / Buildah / [Image Builder](https://access.redhat.com/documentation/en-us
 
 Dockerhub / container image registry : Yum repository
 
-* * * * *
-
-> [Systems-Administration](Systems-Administration)

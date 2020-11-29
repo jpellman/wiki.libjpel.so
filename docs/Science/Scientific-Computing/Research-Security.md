@@ -10,6 +10,3 @@ Notes on Security Measures Needed for Scientific Research
 | Unregulated Data | Significant harm to another will not occur if there is a breach. | Astronomy data.  Physics data.  Anything that is not human subject research. |
 
 
-* * * * *
-
-> [Scientific-Computing](Scientific-Computing)

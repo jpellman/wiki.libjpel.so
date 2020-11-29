@@ -11,6 +11,3 @@ Articles Discussing Scientific Computing
 -   [Genomics is not Special](https://www.biostars.org/p/119918/)
 -   [Indexing polar data with Tika](http://events.linuxfoundation.org/sites/events/files/slides/Tika_Slides.pdf)
 
-* * * * *
-
-> [Scientific-Computing](Scientific-Computing)

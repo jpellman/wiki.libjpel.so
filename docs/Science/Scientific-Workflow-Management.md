@@ -26,6 +26,3 @@ Packages
 -   [Galaxy](https://galaxyproject.org/)
 -   [LONI](http://pipeline.bmap.ucla.edu/)
 
-* * * * *
-
-> [Scientific-Computing](Scientific-Computing)

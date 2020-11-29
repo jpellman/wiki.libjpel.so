@@ -153,6 +153,3 @@ Week 4
 -   Tests as a way of learning (periodically quizzing yourself- 1 hr of testing more useful than 1 hr of studying in some ways).
 -   Start with hard problems on a test, switch to easy problems after a minute or two (if you're not done). Hard problems will still be primed when you return to them later, and diffuse thinking may lead you to conclusions more easily (hard start - jump to easy).
 
-* * * * *
-
-[Cognitive-Science](Cognitive-Science)

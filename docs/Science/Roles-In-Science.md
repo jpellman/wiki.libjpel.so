@@ -44,4 +44,3 @@ Managers/Synthesizers/Creatives(?)
 
 -   People who are able to take various aspects of theories and the current literature, combine this knowledge in novel ways, and determine a good direction to go in.
 
-[Scientific-Computing](Scientific-Computing)

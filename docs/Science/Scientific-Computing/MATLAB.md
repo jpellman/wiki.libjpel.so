@@ -17,6 +17,3 @@ Porting MATLAB Code Over
 
 -   <https://stackoverflow.com/questions/9845292/a-tool-to-convert-matlab-code-to-python>
 
-* * * * *
-
-> [Scientific-Computing](Scientific-Computing)

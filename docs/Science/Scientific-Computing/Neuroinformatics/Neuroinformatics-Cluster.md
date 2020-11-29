@@ -37,6 +37,3 @@ Misc
 -   [LIMS Wiki](http://www.limswiki.org/index.php/Main_Page)
 -   [List of spike sorting software](https://simonster.github.io/SpikeSortingSoftware/)
 
-* * * * *
-
-[Scientific-Computing](Scientific-Computing)

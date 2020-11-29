@@ -26,6 +26,3 @@ Further Reading
 
 -   [Env and Stacks/Projects/UserLevelPackageManagement - Fedora Project Wiki](https://fedoraproject.org/wiki/Env_and_Stacks/Projects/UserLevelPackageManagement)
 
-* * * * *
-
-> [Scientific-Computing](Scientific-Computing) [Systems-Administration](Systems-Administration)

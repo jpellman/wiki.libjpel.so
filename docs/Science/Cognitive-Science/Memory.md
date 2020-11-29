@@ -90,6 +90,3 @@ Other links:
 
 -   <https://www.youtube.com/watch?v=fcQXOLJu9NM>
 
-* * * * *
-
-[Cognitive-Science](Cognitive-Science)

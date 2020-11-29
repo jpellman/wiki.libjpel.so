@@ -86,6 +86,3 @@ Stimulus presentation packages, by their very nature, also quantify behavioral d
 -   [jsPsych](https://www.jspsych.org/)
 -   [PsyScope](http://psy.ck.sissa.it/)
 
-* * * * *
-
-[Scientific-Computing](Scientific-Computing)

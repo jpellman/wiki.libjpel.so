@@ -35,6 +35,3 @@ Here are some approximate benchmarks for how long the above steps take:
 
 Speeds based off [this LG Blu-Ray Writer](https://smile.amazon.com/LG-Electronics-External-Optical-WP50NB40).
 
-* * * * *
-
-> [Home-Lab](Home-Lab)

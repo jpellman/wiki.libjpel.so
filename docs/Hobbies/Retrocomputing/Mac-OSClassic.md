@@ -38,6 +38,3 @@ Projects
 -   [Apparent current state of QEMU support for PPC / last git commits](https://repo.or.cz/qemu/hpoussin.git/shortlog/refs/heads/40p)
 -   [Classilla](https://www.floodgap.com/software/classilla/)
 
-* * * * *
-
-> Retrocomputing

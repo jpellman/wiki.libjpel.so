@@ -34,6 +34,3 @@ SPSS
 -   The introduction to [SPSS: statistical package for the social sciences](https://clio.columbia.edu/catalog/1214612) (ISBN: 0070465312) has a lot of historical context for the development of SPSS
 -   [History of SPSS](http://blog.pmean.com/history-of-spss/)
 
-* * * * *
-
-> Retrocomputing [Scientific-Computing](Scientific-Computing)

@@ -16,6 +16,3 @@ A bunch o' links where people discuss Git LFS / Git annex support in config mana
 
 -   <https://github.com/puppetlabs/r10k/issues/695>
 
-* * * * *
-
-[Systems-Administration](Systems-Administration)

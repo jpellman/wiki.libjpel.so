@@ -51,6 +51,3 @@ Photos
 
 attachment:IMG\_20190121\_154847753.jpg\_attachment:IMG\_20190121\_154847753.jpg\_attachment:None\_ attachment:IMG\_20190121\_154901154.jpg\_attachment:IMG\_20190121\_154901154.jpg\_attachment:None\_
 
-* * * * *
-
-> [Hosts](Hosts)
