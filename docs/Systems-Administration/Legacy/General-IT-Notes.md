@@ -55,5 +55,5 @@ NOT ls -d
 printf "%0*d\n" $padtowidth $i
 ```
 
-[[http://stackoverflow.com/q/3191067/3609177]]
+See [here](http://stackoverflow.com/q/3191067/3609177)
 
