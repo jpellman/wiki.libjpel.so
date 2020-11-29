@@ -1,0 +1,5 @@
+site_name: John Pellman's Personal Wiki
+repo_url: https://github.com/jpellman/wiki.libjpel.so
+site_description: Personal notes of John Pellman, a systems administrator / cognitive science / neuroscience geek.
+site_author: John Pellman
+theme: material
