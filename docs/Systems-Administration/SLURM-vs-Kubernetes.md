@@ -5,6 +5,18 @@ SLURM vs Kubernetes vs Nomad
 -   **Unit of Scheduling:** SLURM schedules *jobs* (typically one or more processes), while Kubernetes schedules *pods* (groups of containers). Jobs can have resource isolation via cgroups, but don't have namespace isolation or any fancy logic to deal with filesystems (i.e., union file systems). Basically, jobs have 1/3 of what makes up a container. If namespace isolation and union filesystems aren't important, SLURM has a compelling advantage over Kubernetes due to having less complexity/overhead.
 -   **Scheduling Algorithms:** SLURM uses a priority queue or a backfill algorithm. Kubernetes filters available nodes, assigns them a priority score, and then pops off the node with the highest score (so also a priority queue most likely; see [here](https://github.com/eBay/Kubernetes/blob/master/docs/devel/scheduler_algorithm.md)). Hashicorp Nomad uses a bin-packing algorithm (see [here](https://nomadproject.io/docs/internals/scheduling/scheduling/)).
 
+SLURM / Kubernetes Analogies
+-----------------------------
+
+|Kubernetes|SLURM|
+|-----------|-------|
+| Namespace | Partition |
+| kubelet | slurmd |
+| kube-scheduler / kube-controller-manager / slurm-apiserver | slurmctld |
+| Container Runtime | Vanilla cgroups |
+| etcd | slurm.conf + NFS |
+| Prometheus / ELK | slurmdbd (?) |
+
 Further Reading
 ---------------
 
