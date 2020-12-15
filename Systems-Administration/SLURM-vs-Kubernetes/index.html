@@ -1520,6 +1520,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#slurm-kubernetes-analogies" class="md-nav__link">
+    SLURM / Kubernetes Analogies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#further-reading" class="md-nav__link">
     Further Reading
   </a>
@@ -1684,6 +1691,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#slurm-kubernetes-analogies" class="md-nav__link">
+    SLURM / Kubernetes Analogies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#further-reading" class="md-nav__link">
     Further Reading
   </a>
@@ -1713,6 +1727,41 @@
 <li><strong>Unit of Scheduling:</strong> SLURM schedules <em>jobs</em> (typically one or more processes), while Kubernetes schedules <em>pods</em> (groups of containers). Jobs can have resource isolation via cgroups, but don't have namespace isolation or any fancy logic to deal with filesystems (i.e., union file systems). Basically, jobs have 1/3 of what makes up a container. If namespace isolation and union filesystems aren't important, SLURM has a compelling advantage over Kubernetes due to having less complexity/overhead.</li>
 <li><strong>Scheduling Algorithms:</strong> SLURM uses a priority queue or a backfill algorithm. Kubernetes filters available nodes, assigns them a priority score, and then pops off the node with the highest score (so also a priority queue most likely; see <a href="https://github.com/eBay/Kubernetes/blob/master/docs/devel/scheduler_algorithm.md">here</a>). Hashicorp Nomad uses a bin-packing algorithm (see <a href="https://nomadproject.io/docs/internals/scheduling/scheduling/">here</a>).</li>
 </ul>
+<h2 id="slurm-kubernetes-analogies">SLURM / Kubernetes Analogies</h2>
+<table>
+<thead>
+<tr>
+<th>Kubernetes</th>
+<th>SLURM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Namespace</td>
+<td>Partition</td>
+</tr>
+<tr>
+<td>kubelet</td>
+<td>slurmd</td>
+</tr>
+<tr>
+<td>kube-scheduler / kube-controller-manager / slurm-apiserver</td>
+<td>slurmctld</td>
+</tr>
+<tr>
+<td>Container Runtime</td>
+<td>Vanilla cgroups</td>
+</tr>
+<tr>
+<td>etcd</td>
+<td>slurm.conf + NFS</td>
+</tr>
+<tr>
+<td>Prometheus / ELK</td>
+<td>slurmdbd (?)</td>
+</tr>
+</tbody>
+</table>
 <h2 id="further-reading">Further Reading</h2>
 <ul>
 <li><a href="https://kubernetes.io/docs/concepts/overview/components/">Kubernetes Components</a></li>
