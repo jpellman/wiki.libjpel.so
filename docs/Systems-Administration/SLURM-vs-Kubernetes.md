@@ -16,6 +16,8 @@ SLURM / Kubernetes Analogies
 | Container Runtime | Vanilla cgroups |
 | etcd | slurm.conf + NFS |
 | Prometheus / ELK | slurmdbd (?) |
+| Labels / Selectors | GRES / TRES / Features |
+| Marking a node as unschedulable / cordoning | Draining a node / Making a resource reservation |
 
 Further Reading
 ---------------
