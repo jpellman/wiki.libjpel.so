@@ -158,6 +158,16 @@ An article on the RAID "write-hole", which seems to be especially salient for RA
 -   <https://softwareengineering.stackexchange.com/questions/190482/why-use-a-database-instead-of-just-saving-your-data-to-disk>
 -   <https://dzone.com/articles/which-is-better-saving-files-in-database-or-in-fil>
 
+### AI / Neural Network / Deep Learning Workloads
+
+- [Why NFS Performance Won’t Cut it For AI and Machine Learning](https://www.weka.io/blog/nfs-performance-wont-cut-ai-machine-learning/)
+- [Why Network File System (NFS) is not Suitable for AI Workloads?](https://www.weka.io/blog/network-file-system-nfs-and-ai-workloads/)
+- [NFS vs Lustre](https://wiki.lustre.org/NFS_vs._Lustre)
+- [Caching with CacheFS](https://www.admin-magazine.com/HPC/Articles/Caching-with-CacheFS)
+- [TFRecord Format Details](https://www.tensorflow.org/tutorials/load_data/tfrecord#tfrecords_format_details)
+- [Efficient PyTorch I/O library for Large Datasets, Many Files, Many GPUs](https://pytorch.org/blog/efficient-pytorch-io-library-for-large-datasets-many-files-many-gpus/) (in which NVIDIA uses tars to work around issues with file metadata performance penalty)
+- [vmtouch](https://hoytech.com/vmtouch/) (Simple package to pre-warm RAM with file pages)
+
 Identity Management / User Management
 -------------------------------------
 
