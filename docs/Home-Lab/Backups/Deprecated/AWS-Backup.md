@@ -1,7 +1,7 @@
+Notes on Backups of Maxwell's ZFS Pool to AWS (DEPRECATED)
+===========================================================
 
-
-Notes on Backups of Maxwell's ZFS Pool to AWS
-=============================================
+*NOTE: I no longer run ZFS at home except for ad-hoc experiments.  This is because I found ZFS to consistently be overkill for my personal needs.  In general, I've been re-assessing how I go about home-labbing so that long-running infrastructure / devices are much less complex.  I realized that the overhead / complexity of running ZFS didn't fit any of the use cases I have for storage in my personal life and actually was problematic (in the sense that if my loved ones needed to access my data in an emergency, no one would know what to do with a multi-disk ZFS dataset).  Furthermore, I found the egress charges from AWS S3 to be not worth it ( ~ $100 worth of egress charges vs a comparable amount to just buy an external hard disk and leave it at my mom's house upstate).  I'm leaving this page up for now just to document that I had this set up at one point, but it no longer reflects my contemporary configuration.*
 
 An anacron script runs on [Maxwell](Maxwell) once a month (i.e., it lives in */etc/cron.monthly*). It runs a series of commands based off the [StackOverflow](StackOverflow) post [here](https://stackoverflow.com/questions/45786142/storing-locally-encrypted-incremental-zfs-snapshots-in-amazon-glacier) to generate encrypted, compressed snapshots that live in an AWS bucket in US-East 2 (Ohio). The script only does incremental backups, and keeps track off the last incremental snapshot that was made using a text file. It also generates a script that allows me to make a manual backup to an external hard disk within my apartment. This is in case I accidentally tank my ZFS pool and need to restore from scratch, but don't want to have to wait 3-5 hours for Glacier to retrieve files.
 

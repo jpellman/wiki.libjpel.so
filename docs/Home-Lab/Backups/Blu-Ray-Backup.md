@@ -6,7 +6,7 @@ Notes on Backing Up My Hard Disk to Blu-Ray
 Commands to Follow
 ------------------
 
-To distribute files into more or less evenly sized buckets (as you would when having a backup span multiple disks:
+To distribute files into more or less evenly sized bins (as you would when having a backup span multiple disks:
 
     dirsplit -e4 -s 25025314816b $PATH_TO_DIR_TO_BACK_UP
 
