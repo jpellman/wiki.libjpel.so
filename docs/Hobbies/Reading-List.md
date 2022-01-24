@@ -16,6 +16,10 @@ I'm using the table below to keep track of the books I'm currently reading.
 | The Calculating Stars: A Lady Astronaut Novel  | Mary Robinette Kowal | 12/25/19 | ~ 2/6/20 | [here](https://smile.amazon.com/gp/product/B0756JH5R1) |
 | The Idea of the Brain: The Past and Future of Neuroscience | Matthew Cobb | ~ 4/20/20 | 6/3/20 | [here](https://smile.amazon.com/gp/product/B07WSD9KBV) |
 | My Life as a Quant: Reflections on Physics and Finance | Emanuel Derman | 7/27/20 | 8/8/20 | [here](https://smile.amazon.com/gp/product/B008NBZ79M) |
+| Think Least of Death: Spinoza on How to Live and How to Die | Steven Nadler | 11/26/20 | Some point in early 2021(?) | [here](https://www.amazon.com/gp/product/B086GKGM8T) |
+| When Genius Failed: The Rise and Fall of Long-Term Capital Management | Roger Lowenstein | 10/2/21 | ~ 10/21/21 | [here](https://www.amazon.com/gp/product/B000FC1KZC) |
+| Sakai: Building an Open Source Community | Chuck Severance | 10/30/21 | | [here](https://www.dr-chuck.com/sakai-book/) |
+| Leviathan Wakes | James S. A. Corey | 01/15/22 | | [here](https://www.amazon.com/gp/product/B0047Y171G) |
 
 ### Textbooks
 
