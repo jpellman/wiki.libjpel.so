@@ -1,3 +1,5 @@
+*Update: I gave up on using Gollum.  The benefits of using it were marginal at best vs just editing Markdown directly, and it didn't play well with my [mkdocs](https://www.mkdocs.org/) setup (though I think this could have been fixed by telling MkDocs to look for Markdown files in a `gollum` subdirectory within this repository; I have no patience for this kind of tomfoolery / convoluted workarounds though).*
+
 I recently switched from MoinMoin to Gollum for my personal wiki.  I'm using this page to list my justifications, as well as include any notes related to the transition.
 
 # Reasons to Use Gollum Over MoinMoin
