@@ -17,7 +17,7 @@ Specifications
 | **Memory (GB)** | 32 |
 | **Disks** | 240 GB SSD (Linux volume) |
 | **OS** | Proxmox VE 6.2-4 |
-| **IP Address** | 192.168.1.3 |
+| **IP Address** | 192.168.1.10 |
 | **Ansible Playbook** | [hypervisor.yml](https://github.com/jpellman/home-ansible/blob/master/playbooks/hypervisor.yml) |
 
 ### Part List
