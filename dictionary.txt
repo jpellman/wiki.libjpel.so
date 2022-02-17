@@ -407,3 +407,6 @@ wsgi
 www
 yml
 zfs
+slurm
+octs
+Bos

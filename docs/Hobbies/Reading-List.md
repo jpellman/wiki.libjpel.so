@@ -91,7 +91,7 @@ This is a list of books (primarily from Humble Bundles) that I want to finish re
 #### Musts
 
  * [Making Software: What Really Works, and Why We Believe It](https://smile.amazon.com/gp/product/B004D4YI6G)
- * [Elegant Scipy](https://www.oreilly.com/library/view/elegant-scipy/9781491922927/)
+ * [Elegant SciPy](https://www.oreilly.com/library/view/elegant-scipy/9781491922927/)
  * [Testing Python: Applying Unit Testing, TDD, BDD and Acceptance Testing ](https://smile.amazon.com/gp/product/B00LJV2GXI)
  * [Test-Driven Development with Python, 2nd Edition](https://www.oreilly.com/library/view/test-driven-development-with/9781491958698/)
  * [Algorithms in a Nutshell, 2nd Edition](http://shop.oreilly.com/product/0636920032885.do)

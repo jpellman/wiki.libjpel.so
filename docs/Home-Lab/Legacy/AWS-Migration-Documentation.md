@@ -1,7 +1,7 @@
 # Documentation Concerning Migration from Linode to AWS
 
 ## General Notes
- * I killed the Wordpress service because I never used it and Moinmoin was serving me well for what I wanted (a place to throw my ideas) anyways.
+ * I killed the Wordpress service because I never used it and MoinMoin was serving me well for what I wanted (a place to throw my ideas) anyways.
 
 ## AMI Used and Dependencies I needed to install
 I used a fresh CentOS 7 AMI: ami-2051294a.  wget was not installed, nor was vim (_yum install wget vim_).  Wanted to install htop too, but EPEL repos not available.  Followed instructions to get EPEL from [here](https://aws.amazon.com/premiumsupport/knowledge-center/ec2-enable-epel/).  Step 3 is incorrect- _rpm –ivh epel-release-7-5.noarch.rpm_ should be _rpm epel-release-7-5.noarch.rpm -ivh_ for some befuddling reason lost to the depths of time.  The former command will print a help screen; the latter does what it's supposed to do.

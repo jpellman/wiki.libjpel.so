@@ -35,7 +35,7 @@ Separating my data into distinct APFS volumes makes it easier to perform selecti
 
 ### What's Broken
 
- * One of the RAM slots is bad (see [here](https://www.youtube.com/watch?v=xpagfXraSn4) and [here](https://www.reddit.com/r/computertechs/comments/4gu93k/starting_to_see_mid2012_13_macbook_pro_bottom_ram/)). Essentially Apple used two different types of solder for the RAM banks and one of them is more liable to crap out. As such I only use one RAM slot now, with half of the Macbook's original RAM (4 GB). In theory I could purchase a single 8 GB SODIMM to fill in this one slot, but I've never felt it to be particularly worth it / performance with 4 GB RAM has been good enough for my purposes (90% of the gaming I do involves 2D graphics only).
+ * One of the RAM slots is bad (see [here](https://www.youtube.com/watch?v=xpagfXraSn4) and [here](https://www.reddit.com/r/computertechs/comments/4gu93k/starting_to_see_mid2012_13_macbook_pro_bottom_ram/)). Essentially Apple used two different types of solder for the RAM banks and one of them is more liable to crap out. As such I only use one RAM slot now, with half of the MacBook's original RAM (4 GB). In theory I could purchase a single 8 GB SODIMM to fill in this one slot, but I've never felt it to be particularly worth it / performance with 4 GB RAM has been good enough for my purposes (90% of the gaming I do involves 2D graphics only).
 
 ### What's Fixed
 
@@ -68,4 +68,4 @@ Plans
 
 The electricity consumption on the laptop isn't that bad and it seems serviceable enough, so I'm aiming to try to get 1-2 more years of use out of it (as of January 2022).  When Apple stops providing security updates for Catalina, I'll start doing web browsing in a virtualized sandbox running [Neverware](https://www.neverware.com/) to mitigate risk.
 
-I'll probably replace this with an ARM-based Macbook. I've toyed around with just using a tablet (e.g., iPad, Surface) in the past, but due to the amount of multimedia work I do as I digitize documents and other media in my childhood home, I think that I'll still need a portable computer with a modest amount of horsepower.
+I'll probably replace this with an ARM-based MacBook. I've toyed around with just using a tablet (e.g., iPad, Surface) in the past, but due to the amount of multimedia work I do as I digitize documents and other media in my childhood home, I think that I'll still need a portable computer with a modest amount of horsepower.
