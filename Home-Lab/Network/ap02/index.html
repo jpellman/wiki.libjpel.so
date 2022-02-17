@@ -18,7 +18,7 @@
     
     
       
-        <title>Arris Surfboard - John Pellman's Personal Wiki</title>
+        <title>Ap02 - John Pellman's Personal Wiki</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#arris-surfboard" class="md-skip">
+        <a href="#ap02" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Arris Surfboard
+              Ap02
             
           </span>
         </div>
@@ -744,12 +744,12 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Arris Surfboard
+        Ap02
         <span class="md-nav__icon md-icon"></span>
       </label>
     
     <a href="./" class="md-nav__link md-nav__link--active">
-      Arris Surfboard
+      Ap02
     </a>
     
       
@@ -773,15 +773,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#plans" class="md-nav__link">
-    Plans
+  <a href="#specifications" class="md-nav__link">
+    Specifications
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#photos" class="md-nav__link">
-    Photos
+  <a href="#configuration-backup" class="md-nav__link">
+    Configuration Backup
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plans" class="md-nav__link">
+    Plans
   </a>
   
 </li>
@@ -798,10 +805,35 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-4-2" type="checkbox" id="nav-5-4-2" >
+    <label class="md-nav__link" for="nav-5-4-2">
+      Legacy
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Legacy" data-md-level="3">
+      <label class="md-nav__title" for="nav-5-4-2">
+        <span class="md-nav__icon md-icon"></span>
+        Legacy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
-    <a href="../Netgear-WNR3500L/" class="md-nav__link">
-      Netgear WNR3500L
+    <a href="../Legacy/Arris-Surfboard/" class="md-nav__link">
+      Arris Surfboard
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -1732,15 +1764,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#plans" class="md-nav__link">
-    Plans
+  <a href="#specifications" class="md-nav__link">
+    Specifications
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#photos" class="md-nav__link">
-    Photos
+  <a href="#configuration-backup" class="md-nav__link">
+    Configuration Backup
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plans" class="md-nav__link">
+    Plans
   </a>
   
 </li>
@@ -1757,18 +1796,64 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/jpellman/wiki.libjpel.so/edit/master/docs/Home-Lab/Network/Arris-Surfboard.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/jpellman/wiki.libjpel.so/edit/master/docs/Home-Lab/Network/ap02.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="arris-surfboard">Arris Surfboard</h1>
+                <h1 id="ap02">ap02</h1>
 <h2 id="description">Description</h2>
-<p>My modem does not have a cute name. It is a decidedly unsexy <a href="https://smile.amazon.com/ARRIS-SURFboard-SB6141-DOCSIS-Cable/dp/B00AJHDZSI/ref=sr_1_6?keywords=arris+sb6141&amp;qid=1550537801&amp;s=electronics&amp;sr=1-6">DOCSIS 3.0 Arris Surfboard SB6141</a> It is connected to both the interwebz and my <a href="Netgear-WNR3500L">NetgearWNR3500L</a>.</p>
+<p>ap02 (shorthand for "Access Point 2") is a <a href="https://smile.amazon.com/gp/product/B002RYYZZS/ref=oh_aui_search_asin_title?ie=UTF8&amp;psc=1">WNR3500Lv2</a> with <a href="https://wiki.dd-wrt.com/wiki/index.php/Netgear_WNR3500L">dd-wrt</a> on it.  It's currently set up to function as a wireless repeater because my main WAP (<a href="ap01">ap01</a>) does not always provide reliable coverage in my bedroom.  Instructions for this particular setup can be found <a href="https://wiki.dd-wrt.com/wiki/index.php/Repeater_Bridge#Instructions">here</a>.</p>
+<h2 id="specifications">Specifications</h2>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPU</strong></td>
+<td>MIPS32 74k</td>
+</tr>
+<tr>
+<td><strong># of Cores (logical)</strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>CPU Clock Speed (MHz)</strong></td>
+<td>480</td>
+</tr>
+<tr>
+<td><strong>Memory (MB)</strong></td>
+<td>128</td>
+</tr>
+<tr>
+<td><strong>Disks</strong></td>
+<td>128 MB NAND Flash</td>
+</tr>
+<tr>
+<td><strong>OS</strong></td>
+<td><a href="https://www.myopenrouter.com/downloads/dd-wrt-wn3500l-v1v2">dd-wrt Kong Build (2015)</a></td>
+</tr>
+<tr>
+<td><strong>IP Address</strong></td>
+<td>192.168.1.3</td>
+</tr>
+<tr>
+<td><strong>Supported WiFi Bands</strong></td>
+<td>2.4 Ghz</td>
+</tr>
+</tbody>
+</table>
+<h2 id="configuration-backup">Configuration Backup</h2>
+<p>I have not yet backed up the configuration for this.  After I create a dedicated backup machine I'll stash a backup there.</p>
 <h2 id="plans">Plans</h2>
-<p>I don't have any major plans at all because I'm an upstanding citizen.</p>
-<h2 id="photos">Photos</h2>
-<p>attachment:IMG_20190218_192659197.jpg_attachment:IMG_20190218_192659197.jpg_attachment:None_</p>
+<ul>
+<li>I need to get a wall mount and put this on top of it to see if that provides better coverage in my bedroom.  I've been looking at <a href="https://www.amazon.com/dp/B01N2IQSXF/?coliid=I3MFIPQIPXV8OX&amp;colid=38S74L174KYDO&amp;psc=1&amp;ref_=lv_ov_lig_dp_it">this</a> for both this and <a href="ap01">ap01</a>.</li>
+<li>This build of dd-wrt is ancient and <a href="https://www.reddit.com/r/DDWRT/comments/d425o2/rip_kong_ddwrt/">Kong is no longer making builds</a> so I'm never going to hook this up directly to a modem again.  It will live on only behind a firewall appliance (i.e., <a href="gateway01">gateway01</a>).</li>
+</ul>
                 
               
               
@@ -1802,13 +1887,13 @@
           </a>
         
         
-          <a href="../Netgear-WNR3500L/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../Legacy/Arris-Surfboard/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Netgear WNR3500L
+                Arris Surfboard
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
