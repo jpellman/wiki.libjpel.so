@@ -16,9 +16,11 @@ jobs:
     - name: Run spell check on Markdown
       run: |
         for DOC in $(git diff --name-only HEAD HEAD~1 | grep 'md$'); do 
-          echo ${DOC}:
-          aspell pipe check --mode=markdown --lang=en --personal=$(pwd)/dictionary.txt < ${DOC} 2> /dev/null | grep '^&' || echo None
-          echo
+	  if [ -f ${DOC} ]; then
+            echo ${DOC}:
+            aspell pipe check --mode=markdown --lang=en --personal=$(pwd)/dictionary.txt < ${DOC} 2> /dev/null | grep '^&' || echo None
+            echo
+          fi
         done
   deploy:
     needs: staging
