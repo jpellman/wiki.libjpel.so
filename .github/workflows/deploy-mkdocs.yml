@@ -13,11 +13,11 @@ jobs:
     - name: Install aspell
       run: |
         sudo apt-get install -y aspell
-    - name: Build and publish
+    - name: Run spell check on Markdown
       run: |
         for DOC in $(find ./docs -name *.md); do
           echo ${DOC}:
-          aspell pipe check --mode=markdown --lang=en --personal=$(pwd)/dictionary.txt < ${DOC} 2> /dev/null | grep ^\&
+          aspell pipe check --mode=markdown --lang=en < ${DOC} 2> /dev/null | grep ^\&
           echo
         done
   deploy:
