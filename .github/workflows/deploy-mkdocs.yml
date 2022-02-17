@@ -16,9 +16,9 @@ jobs:
     - name: Build and publish
       run: |
         for DOC in $(find ./docs -name *.md); do
-          echo ${DOC}:
-          aspell pipe check --mode=markdown --lang=en --personal=$(pwd)/dictionary.txt < ${DOC} 2> /dev/null | grep ^\&
-          echo
+          echo ${DOC}:;
+          aspell pipe check --mode=markdown --lang=en --personal=$(pwd)/dictionary.txt < ${DOC} 2> /dev/null | grep ^\&;
+          echo;
         done
   deploy:
     needs: staging
