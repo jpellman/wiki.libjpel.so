@@ -1807,7 +1807,7 @@
                 <h1 id="documentation-concerning-migration-from-linode-to-aws">Documentation Concerning Migration from Linode to AWS</h1>
 <h2 id="general-notes">General Notes</h2>
 <ul>
-<li>I killed the Wordpress service because I never used it and Moinmoin was serving me well for what I wanted (a place to throw my ideas) anyways.</li>
+<li>I killed the Wordpress service because I never used it and MoinMoin was serving me well for what I wanted (a place to throw my ideas) anyways.</li>
 </ul>
 <h2 id="ami-used-and-dependencies-i-needed-to-install">AMI Used and Dependencies I needed to install</h2>
 <p>I used a fresh CentOS 7 AMI: ami-2051294a.  wget was not installed, nor was vim (<em>yum install wget vim</em>).  Wanted to install htop too, but EPEL repos not available.  Followed instructions to get EPEL from <a href="https://aws.amazon.com/premiumsupport/knowledge-center/ec2-enable-epel/">here</a>.  Step 3 is incorrect- <em>rpm –ivh epel-release-7-5.noarch.rpm</em> should be <em>rpm epel-release-7-5.noarch.rpm -ivh</em> for some befuddling reason lost to the depths of time.  The former command will print a help screen; the latter does what it's supposed to do.</p>
