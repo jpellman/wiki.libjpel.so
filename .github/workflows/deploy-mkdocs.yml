@@ -15,7 +15,11 @@ jobs:
         sudo apt-get install -y aspell
     - name: Run spell check on Markdown
       run: |
-        for DOC in $(find ./docs -name *.md); do echo ${DOC}:; aspell pipe check --mode=markdown --lang=en --personal=$(pwd)/dictionary.txt < ${DOC} 2> /dev/null; echo; done
+        for DOC in $(find ./docs -name *.md); do 
+          echo ${DOC}:
+          aspell pipe check --mode=markdown --lang=en --personal=$(pwd)/dictionary.txt < ${DOC} 2> /dev/null | grep -v ^&
+          echo
+        done
   deploy:
     needs: staging
     runs-on: ubuntu-latest
