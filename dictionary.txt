@@ -410,3 +410,5 @@ zfs
 slurm
 octs
 Bos
+NAND
+WAP
