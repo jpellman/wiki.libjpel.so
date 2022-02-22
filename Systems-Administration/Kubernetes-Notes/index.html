@@ -18,7 +18,7 @@
     
     
       
-        <title>SLURM vs Kubernetes - John Pellman's Personal Wiki</title>
+        <title>Kubernetes Notes - John Pellman's Personal Wiki</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#slurm-vs-kubernetes-vs-nomad" class="md-skip">
+        <a href="#kubernetes-notes" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              SLURM vs Kubernetes
+              Kubernetes Notes
             
           </span>
         </div>
@@ -1549,18 +1549,6 @@
           
           
 
-
-  <li class="md-nav__item">
-    <a href="../Misc-SysAdmin/" class="md-nav__link">
-      Misc SysAdmin
-    </a>
-  </li>
-
-        
-          
-          
-          
-
   
 
 
@@ -1572,12 +1560,12 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        SLURM vs Kubernetes
+        Kubernetes Notes
         <span class="md-nav__icon md-icon"></span>
       </label>
     
     <a href="./" class="md-nav__link md-nav__link--active">
-      SLURM vs Kubernetes
+      Kubernetes Notes
     </a>
     
       
@@ -1594,15 +1582,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#slurm-kubernetes-analogies" class="md-nav__link">
-    SLURM / Kubernetes Analogies
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#further-reading" class="md-nav__link">
-    Further Reading
+  <a href="#k8s-as-an-operating-system" class="md-nav__link">
+    K8s as an operating system
   </a>
   
 </li>
@@ -1611,6 +1592,30 @@
   
 </nav>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Misc-SysAdmin/" class="md-nav__link">
+      Misc SysAdmin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Scheduler-Comparisons/" class="md-nav__link">
+      Scheduler Comparisons
+    </a>
   </li>
 
         
@@ -1669,13 +1674,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9-13" type="checkbox" id="nav-9-13" >
-    <label class="md-nav__link" for="nav-9-13">
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9-14" type="checkbox" id="nav-9-14" >
+    <label class="md-nav__link" for="nav-9-14">
       Legacy
       <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Legacy" data-md-level="2">
-      <label class="md-nav__title" for="nav-9-13">
+      <label class="md-nav__title" for="nav-9-14">
         <span class="md-nav__icon md-icon"></span>
         Legacy
       </label>
@@ -1706,13 +1711,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9-14" type="checkbox" id="nav-9-14" >
-    <label class="md-nav__link" for="nav-9-14">
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9-15" type="checkbox" id="nav-9-15" >
+    <label class="md-nav__link" for="nav-9-15">
       Rants
       <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Rants" data-md-level="2">
-      <label class="md-nav__title" for="nav-9-14">
+      <label class="md-nav__title" for="nav-9-15">
         <span class="md-nav__icon md-icon"></span>
         Rants
       </label>
@@ -1765,15 +1770,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#slurm-kubernetes-analogies" class="md-nav__link">
-    SLURM / Kubernetes Analogies
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#further-reading" class="md-nav__link">
-    Further Reading
+  <a href="#k8s-as-an-operating-system" class="md-nav__link">
+    K8s as an operating system
   </a>
   
 </li>
@@ -1790,71 +1788,19 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/jpellman/wiki.libjpel.so/edit/master/docs/Systems-Administration/SLURM-vs-Kubernetes.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/jpellman/wiki.libjpel.so/edit/master/docs/Systems-Administration/Kubernetes-Notes.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="slurm-vs-kubernetes-vs-nomad">SLURM vs Kubernetes vs Nomad</h1>
-<ul>
-<li><strong>Features:</strong> SLURM is primarily focused on just scheduling, whereas Kubernetes has a scheduler (kube-scheduler), distributed configuration (etcd), and control loops / negative feedback loops (kube-controller-manager; a la Norbert Wiener / cybernetics) plus custom logic to deal with the fact that the unit of scheduling is a grouping of containers (a pod) instead of a group of processes (i.e., containers need to have networking, DNS, etc configured dynamically). There is, however, no reason why SLURM could not also have some of these features in theory (i.e., <a href="https://github.com/kelseyhightower/confd">confd</a> could be combined with SLURM and etcd to give SLURM a distributed configuration that is dynamically updated).</li>
-<li><strong>Unit of Scheduling:</strong> SLURM schedules <em>jobs</em> (typically one or more processes), while Kubernetes schedules <em>pods</em> (groups of containers). Jobs can have resource isolation via cgroups, but don't have namespace isolation or any fancy logic to deal with filesystems (i.e., union file systems). Basically, jobs have 1/3 of what makes up a container. If namespace isolation and union filesystems aren't important, SLURM has a compelling advantage over Kubernetes due to having less complexity/overhead.</li>
-<li><strong>Scheduling Algorithms:</strong> SLURM uses a priority queue or a backfill algorithm. Kubernetes filters available nodes, assigns them a priority score, and then pops off the node with the highest score (so also a priority queue most likely; see <a href="https://github.com/eBay/Kubernetes/blob/master/docs/devel/scheduler_algorithm.md">here</a>). Hashicorp Nomad uses a bin-packing algorithm (see <a href="https://nomadproject.io/docs/internals/scheduling/scheduling/">here</a>).</li>
-</ul>
-<h2 id="slurm-kubernetes-analogies">SLURM / Kubernetes Analogies</h2>
-<table>
-<thead>
-<tr>
-<th>Kubernetes</th>
-<th>SLURM</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Namespace</td>
-<td>Partition</td>
-</tr>
-<tr>
-<td>kubelet</td>
-<td>slurmd</td>
-</tr>
-<tr>
-<td>kube-scheduler / kube-controller-manager / slurm-apiserver</td>
-<td>slurmctld</td>
-</tr>
-<tr>
-<td>Container Runtime</td>
-<td>Vanilla cgroups</td>
-</tr>
-<tr>
-<td>etcd</td>
-<td>slurm.conf + NFS</td>
-</tr>
-<tr>
-<td>Prometheus / ELK</td>
-<td>slurmdbd (?)</td>
-</tr>
-<tr>
-<td>Labels / Selectors</td>
-<td>GRES / TRES / Features</td>
-</tr>
-<tr>
-<td>Marking a node as unschedulable / cordoning</td>
-<td>Draining a node / Making a resource reservation</td>
-</tr>
-</tbody>
-</table>
-<h2 id="further-reading">Further Reading</h2>
-<ul>
-<li><a href="https://kubernetes.io/docs/concepts/overview/components/">Kubernetes Components</a></li>
-<li><a href="https://docs.docker.com/engine/docker-overview/">Docker Overview</a></li>
-<li><a href="https://jvns.ca/blog/2019/11/18/how-containers-work--overlayfs/">A Summary of OverlayFS</a></li>
-<li><a href="https://github.com/eBay/Kubernetes/blob/master/docs/devel/scheduler_algorithm.md">Scheduler Algorithm in Kubernetes</a></li>
-<li><a href="https://kubernetes.io/docs/concepts/configuration/scheduling-framework/">More up-to-date overview of scheduling in Kubernetes</a></li>
-<li><a href="https://nomadproject.io/docs/internals/scheduling/scheduling/">Scheduling in Nomad</a></li>
-<li><a href="https://slurm.schedmd.com/cgroups.html">Cgroups Guide</a> (SLURM)</li>
-<li><a href="https://slurm.schedmd.com/sched_config.html">Scheduling Configuration Guide</a> (SLURM)</li>
-</ul>
+                <h1 id="kubernetes-notes">Kubernetes Notes</h1>
+<p>I'm using this page as an unorganized dumping ground for various thoughts on K8s.</p>
+<h2 id="k8s-as-an-operating-system">K8s as an operating system</h2>
+<p>Kubernetes is often thought of as a sort of second-level operating system, or an operating system that runs on top of another (lower-level) operating system (currently this is only GNU/Linux, although in principle a version of Kubernetes could be built for Solaris Zones or FreeBSD jails).  </p>
+<p>By Andrew Tanenbaum's definition, a conventional first-level OS provides abstract interfaces to hardware for programmers (i.e., system calls) and a way of managing hardware resources (i.e., a process scheduler, I/O scheduler, drivers).  Kubernetes, as a second-level OS, provides abstract interfaces not to low-level hardware resources, but to coarse-grained allocations of resources (e.g., CPU time, memory, whole GPUs / ASICs) and a sort of proxy-based switching setup (e.g., Services) using abstract objects.  Just as a first-level operating system uses processes to enforce isolation between programs running in tandem, Kubernetes uses Pods/containers/cgroups to enforce isolation.  Pods are like processes, containers are like threads.</p>
+<p>An operating system is like a government, and the layering of a second-level OS (Kubernetes) on top of a first-level OS (GNU/Linux) is like a kind of federalism.</p>
+<p>The Kubernetes control plane is almost like a microkernel in how it functions.  Services within the <code>kube-system</code> namespace are like user space-based drivers / components in a microkernel system (e.g., the file system, drivers, etc).  Microservices are processes that live within user space and make heavy use of interprocess communication (i.e., HTTP calls).  <code>kube-proxy</code> is the Kubernetes control panel's implementation of IPC.  Istio / service meshes are an alternative implementation of IPC where routing functionality, logging, and security are tightly-coupled with a service as a sidecar/ambassador container (i.e., a thread).</p>
+<p>A traditional distributed OS attempts to create a single virtual machine that spans many nodes using a microkernel.  The cost of this lofty goal is that distributed operating systems are typically extremely complex / are a beast to maintain.  By separating coarse-grained allocation of resources (handled by Kubernetes within user space) from fine-grained allocation of resources (handled by GNU/Linux on individual hosts) and making nodes more loosely-coupled instead of integrated into a single cohesive whole, the Kubernetes developers have decreased complexity while providing many of the advantages of the distributed operating system (in terms of providing resources at scale and optimizing resource utilization).  A true distributed operating system should in theory be able to make scheduling / resource allocation decisions that are better than Kubernetes, but Kubernetes is adequate and easier (perfect is the enemy of good).</p>
                 
               
               
@@ -1873,7 +1819,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../Misc-SysAdmin/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../IT-Mistakes/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -1882,19 +1828,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Misc SysAdmin
+                IT Mistakes
               </div>
             </div>
           </a>
         
         
-          <a href="../Server-Vendors/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../Misc-SysAdmin/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Server Vendors
+                Misc SysAdmin
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">

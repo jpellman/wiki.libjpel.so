@@ -18,7 +18,7 @@
     
     
       
-        <title>UPS - John Pellman's Personal Wiki</title>
+        <title>Scheduler Comparisons - John Pellman's Personal Wiki</title>
       
     
     
@@ -60,6 +60,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#slurm-vs-kubernetes-vs-nomad" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -86,7 +91,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              UPS
+              Scheduler Comparisons
             
           </span>
         </div>
@@ -1568,11 +1573,56 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../Scheduler-Comparisons/" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Scheduler Comparisons
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
       Scheduler Comparisons
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#slurm-kubernetes-analogies" class="md-nav__link">
+    SLURM / Kubernetes Analogies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    Further Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -1604,18 +1654,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-    <a href="./" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../UPS/" class="md-nav__link">
       UPS
     </a>
-    
   </li>
 
         
@@ -1717,22 +1760,112 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#slurm-kubernetes-analogies" class="md-nav__link">
+    SLURM / Kubernetes Analogies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    Further Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/jpellman/wiki.libjpel.so/edit/master/docs/Systems-Administration/UPS.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/jpellman/wiki.libjpel.so/edit/master/docs/Systems-Administration/Scheduler-Comparisons.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                  <h1>UPS</h1>
-                
-                <p>Useful links for UPS considerations:</p>
+                <h1 id="slurm-vs-kubernetes-vs-nomad">SLURM vs Kubernetes vs Nomad</h1>
 <ul>
-<li><a href="https://www.backupbatterypower.com/pages/ups-run-time-calculator">https://www.backupbatterypower.com/pages/ups-run-time-calculator</a></li>
-<li><a href="http://www.apcmedia.com/salestools/SADE-5TNQYL/SADE-5TNQYL_R1_EN.pdf?sdirect=true">http://www.apcmedia.com/salestools/SADE-5TNQYL/SADE-5TNQYL_R1_EN.pdf?sdirect=true</a></li>
+<li><strong>Features:</strong> SLURM is primarily focused on just scheduling, whereas Kubernetes has a scheduler (kube-scheduler), distributed configuration (etcd), and control loops / negative feedback loops (kube-controller-manager; a la Norbert Wiener / cybernetics) plus custom logic to deal with the fact that the unit of scheduling is a grouping of containers (a pod) instead of a group of processes (i.e., containers need to have networking, DNS, etc configured dynamically). There is, however, no reason why SLURM could not also have some of these features in theory (i.e., <a href="https://github.com/kelseyhightower/confd">confd</a> could be combined with SLURM and etcd to give SLURM a distributed configuration that is dynamically updated).</li>
+<li><strong>Unit of Scheduling:</strong> SLURM schedules <em>jobs</em> (typically one or more processes), while Kubernetes schedules <em>pods</em> (groups of containers). Jobs can have resource isolation via cgroups, but don't have namespace isolation or any fancy logic to deal with filesystems (i.e., union file systems). Basically, jobs have 1/3 of what makes up a container. If namespace isolation and union filesystems aren't important, SLURM has a compelling advantage over Kubernetes due to having less complexity/overhead.</li>
+<li><strong>Scheduling Algorithms:</strong> SLURM uses a priority queue or a backfill algorithm. Kubernetes filters available nodes, assigns them a priority score, and then pops off the node with the highest score (so also a priority queue most likely; see <a href="https://github.com/eBay/Kubernetes/blob/master/docs/devel/scheduler_algorithm.md">here</a>). Hashicorp Nomad uses a bin-packing algorithm (see <a href="https://nomadproject.io/docs/internals/scheduling/scheduling/">here</a>).</li>
+</ul>
+<h2 id="slurm-kubernetes-analogies">SLURM / Kubernetes Analogies</h2>
+<table>
+<thead>
+<tr>
+<th>Kubernetes</th>
+<th>SLURM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Namespace</td>
+<td>Partition</td>
+</tr>
+<tr>
+<td>kubelet</td>
+<td>slurmd</td>
+</tr>
+<tr>
+<td>kube-scheduler / kube-controller-manager / slurm-apiserver</td>
+<td>slurmctld</td>
+</tr>
+<tr>
+<td>Container Runtime</td>
+<td>Vanilla cgroups</td>
+</tr>
+<tr>
+<td>etcd</td>
+<td>slurm.conf + NFS</td>
+</tr>
+<tr>
+<td>Prometheus / ELK</td>
+<td>slurmdbd (?)</td>
+</tr>
+<tr>
+<td>Labels / Selectors</td>
+<td>GRES / TRES / Features</td>
+</tr>
+<tr>
+<td>Marking a node as unschedulable / cordoning</td>
+<td>Draining a node / Making a resource reservation</td>
+</tr>
+</tbody>
+</table>
+<h2 id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/overview/components/">Kubernetes Components</a></li>
+<li><a href="https://docs.docker.com/engine/docker-overview/">Docker Overview</a></li>
+<li><a href="https://jvns.ca/blog/2019/11/18/how-containers-work--overlayfs/">A Summary of OverlayFS</a></li>
+<li><a href="https://github.com/eBay/Kubernetes/blob/master/docs/devel/scheduler_algorithm.md">Scheduler Algorithm in Kubernetes</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/configuration/scheduling-framework/">More up-to-date overview of scheduling in Kubernetes</a></li>
+<li><a href="https://nomadproject.io/docs/internals/scheduling/scheduling/">Scheduling in Nomad</a></li>
+<li><a href="https://slurm.schedmd.com/cgroups.html">Cgroups Guide</a> (SLURM)</li>
+<li><a href="https://slurm.schedmd.com/sched_config.html">Scheduling Configuration Guide</a> (SLURM)</li>
 </ul>
                 
               
@@ -1752,7 +1885,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../Text-Editors/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../Misc-SysAdmin/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -1761,19 +1894,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Text Editors
+                Misc SysAdmin
               </div>
             </div>
           </a>
         
         
-          <a href="../udev/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../Server-Vendors/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Udev
+                Server Vendors
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
