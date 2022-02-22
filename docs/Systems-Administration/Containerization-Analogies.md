@@ -6,7 +6,7 @@ Docker/Kata/CRI-O Container : Python Virtual Environment, where a container is a
 
 A Docker Image / Golden image : Application binary
 
-Dockerfile / Ansible / Config management : Application source code
+Dockerfile / Ansible / Config management : Application source code.  A Dockerfile could be seen as more analogous to a Makefile though.
 
 Packer / Buildah / [Image Builder](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/composing_a_customized_rhel_system_image/composer-description_composing-a-customized-rhel-system-image): Make
 
