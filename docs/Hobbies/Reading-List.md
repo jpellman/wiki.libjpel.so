@@ -1,9 +1,28 @@
 Reading List
 ============
 
-I'm using the table below to keep track of the books I'm currently reading.
+I'm using the tables below to keep track of the books I'm currently reading / have read.
 
 ## In Progress
+
+### Paperbacks
+
+| Title | Author | Start Date | Finish Date | Amazon Link |
+| --- | --- | --- | --- | --- |
+| Sakai: Building an Open Source Community | Chuck Severance | 10/30/21 | | [here](https://www.dr-chuck.com/sakai-book/) |
+| Leviathan Wakes | James S. A. Corey | 01/15/22 | 2/26/22 | [here](https://www.amazon.com/gp/product/B0047Y171G) |
+| Caliban's War | James S. A. Corey | 02/27/22 | 04/03/22 | [here](https://www.amazon.com/gp/product/B005SCRR1A) |
+| Abaddon's Gate | James S. A. Corey | 04/03/22 | | [here](https://www.amazon.com/gp/product/B00A2DZMYE) |
+| Go In Action |  Erik St. Martin, William Kennedy, Brian Ketelsen | ~ 03/01/22 | | [here](https://www.amazon.com/Go-Action-Erik-St-Martin-ebook/dp/B09781M512) |
+
+### Textbooks
+
+| Title | Author | Chapter | Start Date | Finish Date | Amazon Link |
+| --- | --- | --- | --- | --- | --- |
+| Computer Networks (5th Edition) | Andrew Tanenbaum, David J. Wetherall | ? | ? | 08/07/21 | [here](https://www.amazon.com/Computer-Networks-Tanenbaum-International-Economy/dp/9332518742)  |
+| The Design of Everyday Things: Revised and Expanded Edition | Don Norman | | 07/11/20 | | [here](https://smile.amazon.com/gp/product/B00E257T6C) |
+
+## Finished 
 
 ### Paperbacks
 
@@ -18,16 +37,12 @@ I'm using the table below to keep track of the books I'm currently reading.
 | My Life as a Quant: Reflections on Physics and Finance | Emanuel Derman | 7/27/20 | 8/8/20 | [here](https://smile.amazon.com/gp/product/B008NBZ79M) |
 | Think Least of Death: Spinoza on How to Live and How to Die | Steven Nadler | 11/26/20 | Some point in early 2021(?) | [here](https://www.amazon.com/gp/product/B086GKGM8T) |
 | When Genius Failed: The Rise and Fall of Long-Term Capital Management | Roger Lowenstein | 10/2/21 | ~ 10/21/21 | [here](https://www.amazon.com/gp/product/B000FC1KZC) |
-| Sakai: Building an Open Source Community | Chuck Severance | 10/30/21 | | [here](https://www.dr-chuck.com/sakai-book/) |
-| Leviathan Wakes | James S. A. Corey | 01/15/22 | | [here](https://www.amazon.com/gp/product/B0047Y171G) |
 
 ### Textbooks
 
 | Title | Author | Chapter | Start Date | Finish Date | Amazon Link |
 | --- | --- | --- | --- | --- | --- |
-| Modern Operating Systems (3rd Edition) | Andrew Tanenbaum, Herbert Bos | 10 | ? | 4/20/20 | |
-| The Design of Everyday Things: Revised and Expanded Edition | Don Norman | | 7/11/20 | | [here](https://smile.amazon.com/gp/product/B00E257T6C) |
-
+| Modern Operating Systems (3rd Edition) | Andrew Tanenbaum, Herbert Bos | ? | ? | 04/20/20 | ? |
 
 ## Queued
 
