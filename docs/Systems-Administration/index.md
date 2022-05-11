@@ -112,6 +112,7 @@ Security
 -   [Another XKCD Password Generator](http://correcthorsebatterystaple.net/)
 -   [Dangerous Sudoers Entries](https://blog.compass-security.com/2012/10/dangerous-sudoers-entries-part-4-wildcards/)
 -   [Stop Disabling SELinux](https://stopdisablingselinux.com/)
+-   [Explain Like I'm 5: Kerberos](https://www.roguelynn.com/words/explain-like-im-5-kerberos/)
 
 Storage
 -------
