@@ -37,6 +37,7 @@ I'm using the tables below to keep track of the books I'm currently reading / ha
 | My Life as a Quant: Reflections on Physics and Finance | Emanuel Derman | 7/27/20 | 8/8/20 | [here](https://smile.amazon.com/gp/product/B008NBZ79M) |
 | Think Least of Death: Spinoza on How to Live and How to Die | Steven Nadler | 11/26/20 | Some point in early 2021(?) | [here](https://www.amazon.com/gp/product/B086GKGM8T) |
 | When Genius Failed: The Rise and Fall of Long-Term Capital Management | Roger Lowenstein | 10/2/21 | ~ 10/21/21 | [here](https://www.amazon.com/gp/product/B000FC1KZC) |
+| Where Wizards Stay Up Late: The Origins Of The Internet | Katie Hafner and Matthew Lyon | 4/15/22 | 5/8/22 | [here](https://www.amazon.com/gp/product/0684832674) |
 
 ### Textbooks
 
