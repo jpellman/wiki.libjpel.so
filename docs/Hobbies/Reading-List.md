@@ -10,9 +10,6 @@ I'm using the tables below to keep track of the books I'm currently reading / ha
 | Title | Author | Start Date | Finish Date | Amazon Link |
 | --- | --- | --- | --- | --- |
 | Sakai: Building an Open Source Community | Chuck Severance | 10/30/21 | | [here](https://www.dr-chuck.com/sakai-book/) |
-| Leviathan Wakes | James S. A. Corey | 01/15/22 | 2/26/22 | [here](https://www.amazon.com/gp/product/B0047Y171G) |
-| Caliban's War | James S. A. Corey | 02/27/22 | 04/03/22 | [here](https://www.amazon.com/gp/product/B005SCRR1A) |
-| Abaddon's Gate | James S. A. Corey | 04/03/22 | | [here](https://www.amazon.com/gp/product/B00A2DZMYE) |
 | Go In Action |  Erik St. Martin, William Kennedy, Brian Ketelsen | ~ 03/01/22 | | [here](https://www.amazon.com/Go-Action-Erik-St-Martin-ebook/dp/B09781M512) |
 
 ### Textbooks
@@ -38,6 +35,9 @@ I'm using the tables below to keep track of the books I'm currently reading / ha
 | Think Least of Death: Spinoza on How to Live and How to Die | Steven Nadler | 11/26/20 | Some point in early 2021(?) | [here](https://www.amazon.com/gp/product/B086GKGM8T) |
 | When Genius Failed: The Rise and Fall of Long-Term Capital Management | Roger Lowenstein | 10/2/21 | ~ 10/21/21 | [here](https://www.amazon.com/gp/product/B000FC1KZC) |
 | Where Wizards Stay Up Late: The Origins Of The Internet | Katie Hafner and Matthew Lyon | 4/15/22 | 5/8/22 | [here](https://www.amazon.com/gp/product/0684832674) |
+| Leviathan Wakes | James S. A. Corey | 01/15/22 | 2/26/22 | [here](https://www.amazon.com/gp/product/B0047Y171G) |
+| Caliban's War | James S. A. Corey | 02/27/22 | 04/03/22 | [here](https://www.amazon.com/gp/product/B005SCRR1A) |
+| Abaddon's Gate | James S. A. Corey | 04/03/22 | 05/14/22 | [here](https://www.amazon.com/gp/product/B00A2DZMYE) |
 
 ### Textbooks
 
