@@ -16,7 +16,6 @@ I'm using the tables below to keep track of the books I'm currently reading / ha
 
 | Title | Author | Chapter | Start Date | Finish Date | Amazon Link |
 | --- | --- | --- | --- | --- | --- |
-| Computer Networks (5th Edition) | Andrew Tanenbaum, David J. Wetherall | ? | ? | 08/07/21 | [here](https://www.amazon.com/Computer-Networks-Tanenbaum-International-Economy/dp/9332518742)  |
 | The Design of Everyday Things: Revised and Expanded Edition | Don Norman | | 07/11/20 | | [here](https://smile.amazon.com/gp/product/B00E257T6C) |
 
 ## Finished 
@@ -44,6 +43,7 @@ I'm using the tables below to keep track of the books I'm currently reading / ha
 | Title | Author | Chapter | Start Date | Finish Date | Amazon Link |
 | --- | --- | --- | --- | --- | --- |
 | Modern Operating Systems (3rd Edition) | Andrew Tanenbaum, Herbert Bos | ? | ? | 04/20/20 | ? |
+| Computer Networks (5th Edition) | Andrew Tanenbaum, David J. Wetherall | ? | 08/07/21 | 06/05/22 | [here](https://www.amazon.com/Computer-Networks-Tanenbaum-International-Economy/dp/9332518742)  |
 
 ## Queued
 
