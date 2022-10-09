@@ -37,7 +37,8 @@ I'm using the tables below to keep track of the books I'm currently reading / ha
 | Leviathan Wakes | James S. A. Corey | 01/15/22 | 2/26/22 | [here](https://www.amazon.com/gp/product/B0047Y171G) |
 | Caliban's War | James S. A. Corey | 02/27/22 | 04/03/22 | [here](https://www.amazon.com/gp/product/B005SCRR1A) |
 | Abaddon's Gate | James S. A. Corey | 04/03/22 | 05/14/22 | [here](https://www.amazon.com/gp/product/B00A2DZMYE) |
-| Cibola Burn | James S. A. Corey | 05/19/22 | 05/14/22 | [here](https://www.amazon.com/gp/product/B00FPQA4F0) |
+| Cibola Burn | James S. A. Corey | 05/19/22 | 07/05/22 | [here](https://www.amazon.com/gp/product/B00FPQA4F0) |
+| What Computer's Still Can't Do | Hubert Dreyfus | 07/05/22 | 10/08/22 | [here](https://mitpress.mit.edu/books/what-computers-still-cant-do) |
 
 ### Textbooks
 
@@ -54,7 +55,6 @@ This is a list of books (primarily from Humble Bundles) that I want to finish re
 
 #### Musts
  * [Cybernetics](https://mitpress.mit.edu/books/cybernetics-or-control-and-communication-animal-and-machine-reissue-1961-second-edition)
- * [What Computers Still Can't Do](https://mitpress.mit.edu/books/what-computers-still-cant-do)
  * [The Deep Learning Revolution](https://mitpress.mit.edu/books/deep-learning-revolution)
  * [A Life in Cybernetics](https://mitpress.mit.edu/books/norbert-wiener-life-cybernetics)
 
