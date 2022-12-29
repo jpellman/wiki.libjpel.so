@@ -39,6 +39,7 @@ I'm using the tables below to keep track of the books I'm currently reading / ha
 | Abaddon's Gate | James S. A. Corey | 04/03/22 | 05/14/22 | [here](https://www.amazon.com/gp/product/B00A2DZMYE) |
 | Cibola Burn | James S. A. Corey | 05/19/22 | 07/05/22 | [here](https://www.amazon.com/gp/product/B00FPQA4F0) |
 | What Computer's Still Can't Do | Hubert Dreyfus | 07/05/22 | 10/08/22 | [here](https://mitpress.mit.edu/books/what-computers-still-cant-do) |
+| Lost Christianities: The Battles for Scripture and the Faiths We Never Knew | Bart Ehrman | 11/15/22 | 12/28/12 | [here](https://www.amazon.com/gp/product/0195182499) |
 
 ### Textbooks
 
